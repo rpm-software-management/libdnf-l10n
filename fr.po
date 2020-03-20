@@ -5,13 +5,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2019. #zanata, 2020.
 # Julien Humbert <julroy67@gmail.com>, 2020.
+# Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 13:58+0100\n"
 "PO-Revision-Date: 2020-03-20 05:52+0000\n"
-"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/fr/>\n"
 "Language: fr\n"
@@ -691,6 +692,8 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
+"Aucune métadonnée de module disponible pour le paquet modulaire « {} », ne "
+"peut pas être installé dans le système"
 
 #: ../libdnf/dnf-rpmts.cpp:121 ../libdnf/dnf-rpmts.cpp:166
 #, c-format
