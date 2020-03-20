@@ -1,12 +1,14 @@
 #!/bin/bash
-set -e
+set -ex
 
-PROG_PATH=$(dirname $(readlink -f -- $0))
-
+PROJECT=libdnf
 XGETTEXT_PARAMS=(-F --from-code=UTF-8 --keyword=_ --keyword=M_ --keyword=P_:1,2 --keyword=MP_:1,2 --keyword=C_:1c,2 --keyword=MC_:1c,2 --keyword=CP_:1c,2,3 --keyword=MCP_:1c,2,3 -c)
 FIND_PARAMS=(. -iname "*.[ch]" -o -iname "*.[ch]pp")
-GIT_SOURCE_REPO="git@github.com:rpm-software-management/libdnf.git"
-POT_FILE="libdnf.pot"
+
+
+PROG_PATH=$(dirname $(readlink -f -- $0))
+GIT_SOURCE_REPO="git@github.com:rpm-software-management/${PROJECT}.git"
+POT_FILE="${PROJECT}.pot"
 
 error() {
     printf >&2 "Error: %s\n" "$*"
@@ -21,7 +23,7 @@ popd () {
     command popd "$@" > /dev/null
 }
 
-TMP_DIR=$(mktemp -d --tmpdir=$PROG_PATH tmp.libdnf.l10n.XXXXXXXX)
+TMP_DIR=$(mktemp -d --tmpdir=$PROG_PATH tmp.${PROJECT}.XXXXXXXX)
 if [[ ! -e "$TMP_DIR" ]]; then
     error "Could not create temp dir."
 fi
