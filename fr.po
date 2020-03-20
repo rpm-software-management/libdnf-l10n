@@ -4,13 +4,14 @@
 # Jérôme Fenal <jfenal@gmail.com>, 2017. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2019. #zanata, 2020.
+# Julien Humbert <julroy67@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 13:58+0100\n"
-"PO-Revision-Date: 2020-03-19 20:40+0000\n"
-"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
+"PO-Revision-Date: 2020-03-20 05:52+0000\n"
+"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/fr/>\n"
 "Language: fr\n"
@@ -33,7 +34,7 @@ msgstr "N’a pas pu définir les perms sur %1$s : %2$s"
 #: ../libdnf/hy-iutil.cpp:376
 #, c-format
 msgid "cannot create directory %1$s: %2$s"
-msgstr ""
+msgstr "impossible de créer le dossier %1$s : %2$s"
 
 #: ../libdnf/hy-iutil.cpp:399 ../libdnf/dnf-utils.cpp:111
 #, c-format
@@ -43,7 +44,7 @@ msgstr "n’a pas pu ouvrir le répertoire %1$s: %2$s"
 #: ../libdnf/hy-iutil.cpp:411
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
-msgstr ""
+msgstr "impossible de stat le chemin %1$s : %2$s"
 
 #: ../libdnf/dnf-goal.cpp:68
 msgid "Could not depsolve transaction; "
@@ -126,7 +127,7 @@ msgstr "installation impossible du meilleur candidat pour la tâche"
 #: ../libdnf/goal/Goal.cpp:78
 #, c-format
 msgid "package %s is filtered out by modular filtering"
-msgstr ""
+msgstr "le paquet %s a été filtré par filtrage modulaire"
 
 #: ../libdnf/goal/Goal.cpp:79
 #, c-format
@@ -141,7 +142,7 @@ msgstr "le paquet %s n’est pas installable"
 #: ../libdnf/goal/Goal.cpp:81
 #, c-format
 msgid "package %s is filtered out by exclude filtering"
-msgstr ""
+msgstr "le paquet %s a été filtré en excluant le filtrage"
 
 #: ../libdnf/goal/Goal.cpp:82
 #, c-format
@@ -349,17 +350,17 @@ msgstr "n’a pas pu lister les clés : %s"
 #: ../libdnf/repo/Repo.cpp:839
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
-msgstr ""
+msgstr "Impossible de récupérer la clé GPG pour le dépôt « %s » : %s"
 
 #: ../libdnf/repo/Repo.cpp:892
 #, c-format
 msgid "repo %s: 0x%s already imported"
-msgstr "dépôt %s: 0x%s déjà importé"
+msgstr "dépôt %s : 0x%s déjà importé"
 
 #: ../libdnf/repo/Repo.cpp:920
 #, c-format
 msgid "repo %s: imported key 0x%s."
-msgstr "dépôt %s: clé importée 0x%s."
+msgstr "dépôt %s : clé importée 0x%s."
 
 #: ../libdnf/repo/Repo.cpp:1164
 #, c-format
@@ -431,7 +432,7 @@ msgstr "dépôt : téléchargement à distance en provenance de : %s"
 #: ../libdnf/repo/Repo.cpp:1345
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
-msgstr ""
+msgstr "Échec du téléchargement des métadonnées pour le dépôt « %s » : %s"
 
 #: ../libdnf/repo/Repo.cpp:1371
 msgid "getCachedir(): Computation of SHA256 failed"
@@ -440,7 +441,7 @@ msgstr "getCachedir(): computation de SHA256 a échoué"
 #: ../libdnf/repo/Repo.cpp:1396
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
-msgstr ""
+msgstr "Impossible de créer le dossier persistant « %s » : %s"
 
 #: ../libdnf/repo/Repo.cpp:1796
 msgid "resume cannot be used simultaneously with the byterangestart param"
@@ -597,23 +598,23 @@ msgstr "déjà en état à 100% [%s]"
 #: ../libdnf/module/modulemd/ModuleMetadata.cpp:43
 #, c-format
 msgid "Failed to update from string: %s"
-msgstr ""
+msgstr "Échec de la mise à jour depuis la chaine : %s"
 
 #: ../libdnf/module/modulemd/ModuleMetadata.cpp:68
 #: ../libdnf/module/modulemd/ModuleMetadata.cpp:70
 #, c-format
 msgid "Failed to resolve: %s"
-msgstr ""
+msgstr "Échec de la résolution : %s"
 
 #: ../libdnf/module/modulemd/ModuleMetadata.cpp:74
 #, c-format
 msgid "Failed to upgrade defaults: %s"
-msgstr ""
+msgstr "Échec de la mise à jour des paramètres par défaut : %s"
 
 #: ../libdnf/module/modulemd/ModuleMetadata.cpp:77
 #, c-format
 msgid "Failed to upgrade streams: %s"
-msgstr ""
+msgstr "Échec de la mise à jour des flux : %s"
 
 #: ../libdnf/module/ModulePackage.cpp:463
 #, c-format
@@ -658,27 +659,31 @@ msgstr "Valeurs par défaut en conflit avec le dépôt « %s » : %s"
 #: ../libdnf/module/ModulePackageContainer.cpp:1568
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
-msgstr ""
+msgstr "Impossible de charger les données de sécurité à « %s »"
 
 #: ../libdnf/module/ModulePackageContainer.cpp:1574
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
+"Impossible de charger les données de sécurité modulaires pour le module « %s "
+": %s »"
 
 #: ../libdnf/module/ModulePackageContainer.cpp:1638
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
+"Impossible de créer le dossier « %s » pour les données de sécurité "
+"modulaires : %s"
 
 #: ../libdnf/module/ModulePackageContainer.cpp:1660
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
-msgstr ""
+msgstr "Impossible d’enregistrer les données de sécurité modulaires vers « %s »"
 
 #: ../libdnf/module/ModulePackageContainer.cpp:1685
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
-msgstr ""
+msgstr "Impossible de supprimer les données de sécurité modulaires dans « %s »"
 
 #: ../libdnf/dnf-rpmts.cpp:79
 #, c-format
