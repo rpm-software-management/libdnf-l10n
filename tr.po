@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 13:58+0100\n"
-"PO-Revision-Date: 2020-03-19 20:40+0000\n"
+"PO-Revision-Date: 2020-03-22 12:29+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/tr/>\n"
@@ -19,193 +19,202 @@ msgstr ""
 #: ../libdnf/hy-iutil.cpp:322
 #, c-format
 msgid "Failed renaming %1$s to %2$s: %3$s"
-msgstr ""
+msgstr "%1$s, %2$s olarak yeniden adlandırılamadı: %3$s"
 
 #: ../libdnf/hy-iutil.cpp:330
 #, c-format
 msgid "Failed setting perms on %1$s: %2$s"
-msgstr ""
+msgstr "%1$s için izinler ayarlanamadı: %2$s"
 
 #: ../libdnf/hy-iutil.cpp:376
 #, c-format
 msgid "cannot create directory %1$s: %2$s"
-msgstr ""
+msgstr "%1$s dizini oluşturulamıyor: %2$s"
 
 #: ../libdnf/hy-iutil.cpp:399 ../libdnf/dnf-utils.cpp:111
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
-msgstr ""
+msgstr "%1$s dizini açılamıyor: %2$s"
 
 #: ../libdnf/hy-iutil.cpp:411
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
-msgstr ""
+msgstr "%1$s yolu için dosya bilgileri alınamıyor: %2$s"
 
 #: ../libdnf/dnf-goal.cpp:68
 msgid "Could not depsolve transaction; "
-msgstr ""
+msgstr "İşlemin bağımlılıkları çözümlenemedi; "
 
 #: ../libdnf/dnf-goal.cpp:70
 #, c-format
 msgid "%i problem detected:\n"
 msgid_plural "%i problems detected:\n"
-msgstr[0] ""
+msgstr[0] "%i sorun tespit edildi:\n"
+msgstr[1] "%i sorun tespit edildi:\n"
 
 #: ../libdnf/dnf-goal.cpp:78
 #, c-format
 msgid " Problem %1$i: %2$s\n"
-msgstr ""
+msgstr " %1$i. sorun: %2$s\n"
 
 #: ../libdnf/dnf-goal.cpp:80
 #, c-format
 msgid " Problem: %s\n"
-msgstr ""
+msgstr " Sorun: %s\n"
 
 #: ../libdnf/goal/Goal.cpp:55
 msgid "Ill-formed Selector, presence of multiple match objects in the filter"
 msgstr ""
+"Yanlış oluşturulmuş Selector (seçici), filtrede birden fazla eşleşen nesne "
+"var"
 
 #: ../libdnf/goal/Goal.cpp:56
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr ""
+"İşlem için yanlış oluşturulmuş Selector (seçici) kullanıldı, yanlış "
+"karşılaştırma türü"
 
 #: ../libdnf/goal/Goal.cpp:67 ../libdnf/goal/Goal.cpp:94
 msgid " does not belong to a distupgrade repository"
-msgstr ""
+msgstr " bir distupgrade deposuna ait değil"
 
 #: ../libdnf/goal/Goal.cpp:68 ../libdnf/goal/Goal.cpp:95
 msgid " has inferior architecture"
-msgstr ""
+msgstr " daha düşük bir mimariye sahip"
 
 #: ../libdnf/goal/Goal.cpp:69
 msgid "problem with installed package "
-msgstr ""
+msgstr "kurulu paketle ilgili sorun "
 
 #: ../libdnf/goal/Goal.cpp:70 ../libdnf/goal/Goal.cpp:97
 msgid "conflicting requests"
-msgstr ""
+msgstr "çakışan istekler"
 
 #: ../libdnf/goal/Goal.cpp:71 ../libdnf/goal/Goal.cpp:98
 msgid "unsupported request"
-msgstr ""
+msgstr "desteklenmeyen istek"
 
 #: ../libdnf/goal/Goal.cpp:72 ../libdnf/goal/Goal.cpp:99
 msgid "nothing provides requested "
-msgstr ""
+msgstr "hiçbir şey isteneni sağlamıyor "
 
 #: ../libdnf/goal/Goal.cpp:73
 #, c-format
 msgid "package %s does not exist"
-msgstr ""
+msgstr "%s diye bir paket yok"
 
 #: ../libdnf/goal/Goal.cpp:74 ../libdnf/goal/Goal.cpp:101
 msgid " is provided by the system"
-msgstr ""
+msgstr " sistem tarafından sağlanmaktadır"
 
 #: ../libdnf/goal/Goal.cpp:75 ../libdnf/goal/Goal.cpp:102
 msgid "some dependency problem"
-msgstr ""
+msgstr "bazı bağımlılık sorunları"
 
 #: ../libdnf/goal/Goal.cpp:76
 msgid "cannot install the best update candidate for package "
-msgstr ""
+msgstr "paket için en iyi güncelleme adayı yüklenemiyor "
 
 #: ../libdnf/goal/Goal.cpp:77 ../libdnf/goal/Goal.cpp:104
 msgid "cannot install the best candidate for the job"
-msgstr ""
+msgstr "görev için en iyi aday yüklenemiyor"
 
 #: ../libdnf/goal/Goal.cpp:78
 #, c-format
 msgid "package %s is filtered out by modular filtering"
-msgstr ""
+msgstr "%s paketi modüler filtreleme ile filtrelendi"
 
 #: ../libdnf/goal/Goal.cpp:79
 #, c-format
 msgid "package %s does not have a compatible architecture"
-msgstr ""
+msgstr "%s paketi uyumlu bir mimariye sahip değil"
 
 #: ../libdnf/goal/Goal.cpp:80
 #, c-format
 msgid "package %s is not installable"
-msgstr ""
+msgstr "%s paketi yüklenebilir değil"
 
 #: ../libdnf/goal/Goal.cpp:81
 #, c-format
 msgid "package %s is filtered out by exclude filtering"
-msgstr ""
+msgstr "%s paketi hariç tutma filtresi ile filtrelendi"
 
 #: ../libdnf/goal/Goal.cpp:82
 #, c-format
 msgid "nothing provides %s needed by %s"
-msgstr ""
+msgstr "hiçbir şey %s'i (%s tarafından ihtiyaç duyulan) sağlamıyor"
 
 #: ../libdnf/goal/Goal.cpp:83
 #, c-format
 msgid "cannot install both %s and %s"
-msgstr ""
+msgstr "%s ve %s birlikte yüklenemiyor"
 
 #: ../libdnf/goal/Goal.cpp:84
 #, c-format
 msgid "package %s conflicts with %s provided by %s"
-msgstr ""
+msgstr "%s paketi %s ile (%s tarafından sağlanan) çakışmaktadır"
 
 #: ../libdnf/goal/Goal.cpp:85
 #, c-format
 msgid "package %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "%s paketi %s'i (%s tarafından sağlanan) artık kullanılmaz yapıyor"
 
 #: ../libdnf/goal/Goal.cpp:86
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
 msgstr ""
+"kurulu %s paketi %s'i (%s tarafından sağlanan) artık kullanılmaz yapıyor"
 
 #: ../libdnf/goal/Goal.cpp:87
 #, c-format
 msgid "package %s implicitly obsoletes %s provided by %s"
 msgstr ""
+"%s paketi %s'i (%s tarafından sağlanan) dolaylı olarak artık kullanılmaz "
+"yapıyor"
 
 #: ../libdnf/goal/Goal.cpp:88
 #, c-format
 msgid "package %s requires %s, but none of the providers can be installed"
 msgstr ""
+"%s paketi %s gerektirmektedir, ancak sağlayan paketlerin hiçbiri yüklenemiyor"
 
 #: ../libdnf/goal/Goal.cpp:89
 #, c-format
 msgid "package %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "%s paketi (kendisi tarafından sağlanan) %s ile çakışmaktadır"
 
 #: ../libdnf/goal/Goal.cpp:90
 #, c-format
 msgid "both package %s and %s obsolete %s"
-msgstr ""
+msgstr "%s ve %s paketleri %s'i artık kullanılmaz yapıyor"
 
 #: ../libdnf/goal/Goal.cpp:96
 msgid "problem with installed module "
-msgstr ""
+msgstr "kurulu modülle ilgili sorun "
 
 #: ../libdnf/goal/Goal.cpp:100
 #, c-format
 msgid "module %s does not exist"
-msgstr ""
+msgstr "%s diye bir modül yok"
 
 #: ../libdnf/goal/Goal.cpp:103
 msgid "cannot install the best update candidate for module "
-msgstr ""
+msgstr "modül için en iyi güncelleme adayı yüklenemiyor "
 
 #: ../libdnf/goal/Goal.cpp:105 ../libdnf/goal/Goal.cpp:108
 #, c-format
 msgid "module %s is disabled"
-msgstr ""
+msgstr "%s modülü devre dışı"
 
 #: ../libdnf/goal/Goal.cpp:106
 #, c-format
 msgid "module %s does not have a compatible architecture"
-msgstr ""
+msgstr "%s modülü uyumlu bir mimariye sahip değil"
 
 #: ../libdnf/goal/Goal.cpp:107
 #, c-format
 msgid "module %s is not installable"
-msgstr ""
+msgstr "%s modülü yüklenebilir değil"
 
 #: ../libdnf/goal/Goal.cpp:109
 #, c-format
@@ -286,7 +295,7 @@ msgstr ""
 #: ../libdnf/repo/Repo.cpp:337
 #, c-format
 msgid "Bad id for repo: %s, byte = %s %d"
-msgstr ""
+msgstr "Depo için hatalı kimlik: %s, byte = %s %d"
 
 #: ../libdnf/repo/Repo.cpp:362
 #, c-format
@@ -658,6 +667,7 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
+"'%s' modüler paketi için mevcut modüler meta veri yok, sisteme yüklenemiyor"
 
 #: ../libdnf/dnf-rpmts.cpp:121 ../libdnf/dnf-rpmts.cpp:166
 #, c-format
@@ -725,7 +735,7 @@ msgstr ""
 #: ../libdnf/conf/OptionPath.cpp:78
 #, c-format
 msgid "given path '%s' is not absolute."
-msgstr "verilen '%s' yolu tam değil."
+msgstr "verilen '%s' yolu mutlak değil."
 
 #: ../libdnf/conf/OptionPath.cpp:82
 #, c-format
@@ -802,7 +812,7 @@ msgstr ""
 #: ../libdnf/dnf-sack.cpp:458
 #, c-format
 msgid "failed to open: %s"
-msgstr ""
+msgstr "açılamadı: %s"
 
 #: ../libdnf/dnf-sack.cpp:537
 #, c-format
