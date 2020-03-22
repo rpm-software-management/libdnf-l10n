@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 13:58+0100\n"
-"PO-Revision-Date: 2020-03-22 12:28+0000\n"
+"PO-Revision-Date: 2020-03-23 10:15+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/nl/>\n"
@@ -374,8 +374,7 @@ msgstr "reviving: mislukte voor '%s', niet overeenkomende %s som."
 #: ../libdnf/repo/Repo.cpp:1212
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
-msgstr ""
-"reviving: '%s' kan verniewd worden - metalink checksums komen overeen."
+msgstr "reviving: '%s' kan vernieuwd worden - metalink checksums komen overeen."
 
 #: ../libdnf/repo/Repo.cpp:1237
 #, c-format
@@ -385,7 +384,7 @@ msgstr "reviving: '%s' kan vernieuwd worden - repomd komt overeen."
 #: ../libdnf/repo/Repo.cpp:1239
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
-msgstr "reviving: mislukte voor '%s', repomd kpmt niet overeen."
+msgstr "reviving: mislukte voor '%s', repomd komt niet overeen."
 
 #: ../libdnf/repo/Repo.cpp:1257
 #, c-format
@@ -520,154 +519,154 @@ msgstr "Fout %i bij uitvoeren van transactie"
 #: ../libdnf/dnf-transaction.cpp:1473
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
-msgstr ""
+msgstr "Transactie ging niet naar de schrijffase, maar leverde geen fout op(%i)"
 
 #: ../libdnf/dnf-utils.cpp:136
 #, c-format
 msgid "failed to remove %s"
-msgstr ""
+msgstr "verwijderen van %s mislukte"
 
 #: ../libdnf/plugin/plugin.cpp:46
 #, c-format
 msgid "Can't load shared library \"%s\": %s"
-msgstr ""
+msgstr "Kan gedeelde bibliotheek \"%s\" niet laden: %s"
 
 #: ../libdnf/plugin/plugin.cpp:61 ../libdnf/plugin/plugin.cpp:67
 #: ../libdnf/plugin/plugin.cpp:73 ../libdnf/plugin/plugin.cpp:79
 #, c-format
 msgid "Can't obtain address of symbol \"%s\": %s"
-msgstr ""
+msgstr "Kan adres van symbool \"%s\" niet verkrijgen: %s"
 
 #: ../libdnf/plugin/plugin.cpp:86
 #, c-format
 msgid "Loading plugin file=\"%s\""
-msgstr ""
+msgstr "Laden van plug-in bestand=\"%s\""
 
 #: ../libdnf/plugin/plugin.cpp:89
 #, c-format
 msgid "Loaded plugin name=\"%s\", version=\"%s\""
-msgstr ""
+msgstr "Plug-in naam=\"%s\" geladen, versie=\"%s\""
 
 #: ../libdnf/plugin/plugin.cpp:96
 msgid "Plugins::loadPlugins() dirPath cannot be empty"
-msgstr ""
+msgstr "Plugins::loadPlugins() dirPath mag niet leeg zijn"
 
 #: ../libdnf/plugin/plugin.cpp:105
 #, c-format
 msgid "Can't read plugin directory \"%s\": %s"
-msgstr ""
+msgstr "Kan plug-in map \"%s\" niet lezen: %s"
 
 #: ../libdnf/plugin/plugin.cpp:114
 #, c-format
 msgid "Can't load plugin \"%s\": %s"
-msgstr ""
+msgstr "Kan plug-in \"%s\" niet laden: %s"
 
 #: ../libdnf/dnf-state.cpp:1184
 #, c-format
 msgid "percentage not 100: %i"
-msgstr ""
+msgstr "percentage is niet 100: %i"
 
 #: ../libdnf/dnf-state.cpp:1194
 #, c-format
 msgid "failed to set number steps: %i"
-msgstr ""
+msgstr "aantal stappen instellen mislukte: %i"
 
 #: ../libdnf/dnf-state.cpp:1293
 msgid "cancelled by user action"
-msgstr ""
+msgstr "geannuleerd door gebruikersactie"
 
 #: ../libdnf/dnf-state.cpp:1332
 #, c-format
 msgid "done on a state %1$p that did not have a size set! [%2$s]"
-msgstr ""
+msgstr "klaar met toestand %1$p welke geen grootte ingesteld heeft! [%2$s]"
 
 #: ../libdnf/dnf-state.cpp:1357
 #, c-format
 msgid "already at 100%% state [%s]"
-msgstr ""
+msgstr "al op 100%% toestand [%s]"
 
 #: ../libdnf/module/modulemd/ModuleMetadata.cpp:43
 #, c-format
 msgid "Failed to update from string: %s"
-msgstr ""
+msgstr "Kan niet bijwerken vanaf string: %s"
 
 #: ../libdnf/module/modulemd/ModuleMetadata.cpp:68
 #: ../libdnf/module/modulemd/ModuleMetadata.cpp:70
 #, c-format
 msgid "Failed to resolve: %s"
-msgstr ""
+msgstr "Kan niet oplossen: %s"
 
 #: ../libdnf/module/modulemd/ModuleMetadata.cpp:74
 #, c-format
 msgid "Failed to upgrade defaults: %s"
-msgstr ""
+msgstr "Kan standaardwaarden niet upgraden: %s"
 
 #: ../libdnf/module/modulemd/ModuleMetadata.cpp:77
 #, c-format
 msgid "Failed to upgrade streams: %s"
-msgstr ""
+msgstr "Kan streams niet upgraden: %s"
 
 #: ../libdnf/module/ModulePackage.cpp:463
 #, c-format
 msgid "Invalid format of Platform module: %s"
-msgstr ""
+msgstr "Ongeldig formaat van Platform module: %s"
 
 #: ../libdnf/module/ModulePackage.cpp:478
 msgid "Multiple module platforms provided by available packages\n"
-msgstr ""
+msgstr "Meerdere moduleplatforms aangeboden door beschikbare pakketten\n"
 
 #: ../libdnf/module/ModulePackage.cpp:491
 msgid "Multiple module platforms provided by installed packages\n"
-msgstr ""
+msgstr "Meerdere moduleplatforms aangeboden door geïnstalleerde pakketten\n"
 
 #: ../libdnf/module/ModulePackage.cpp:518
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
-msgstr ""
+msgstr "Detectie van platformmodule in %s mislukte: %s"
 
 #: ../libdnf/module/ModulePackage.cpp:527
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
-msgstr ""
+msgstr "PLATFORM_ID ontbreekt in %s"
 
 #: ../libdnf/module/ModulePackage.cpp:532
 msgid "No valid Platform ID detected"
-msgstr ""
+msgstr "Geen geldig Platform ID gedetecteerd"
 
 #: ../libdnf/module/ModulePackageContainer.cpp:68
 #, c-format
 msgid "Cannot enable multiple streams for module '%s'"
-msgstr ""
+msgstr "Kan meerdere streams voor module '%s' niet aanzetten"
 
 #: ../libdnf/module/ModulePackageContainer.cpp:294
 #, c-format
 msgid "Conflicting defaults with repo '%s': %s"
-msgstr ""
+msgstr "Conflicterende standaardwaarden bij repo '%s': %s"
 
 #: ../libdnf/module/ModulePackageContainer.cpp:1568
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
-msgstr ""
+msgstr "Kan modulaire Fail-Safe data op '%s' niet laden"
 
 #: ../libdnf/module/ModulePackageContainer.cpp:1574
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
-msgstr ""
+msgstr "Kan modulaire Fail-Safe data voor module niet laden '%s:%s'"
 
 #: ../libdnf/module/ModulePackageContainer.cpp:1638
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
-msgstr ""
+msgstr "Kan map \"%s\" voor modulaire Fail Safe data niet aanmaken: %s"
 
 #: ../libdnf/module/ModulePackageContainer.cpp:1660
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
-msgstr ""
+msgstr "Kan modulairr Fail Safe data niet opslaan naar '%s'"
 
 #: ../libdnf/module/ModulePackageContainer.cpp:1685
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
-msgstr ""
+msgstr "Kan modulaire Fail Safe data in '%s' niet verwijderen"
 
 #: ../libdnf/dnf-rpmts.cpp:79
 #, c-format
@@ -675,59 +674,63 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
+"Geen modulaire metadata beschikbaar voor modulair pakket '%s'; kan niet "
+"worden geïnstalleerd op het systeem"
 
 #: ../libdnf/dnf-rpmts.cpp:121 ../libdnf/dnf-rpmts.cpp:166
 #, c-format
 msgid "signature does not verify for %s"
-msgstr ""
+msgstr "handtekening verifieert niet voor %s"
 
 #: ../libdnf/dnf-rpmts.cpp:129 ../libdnf/dnf-rpmts.cpp:174
 #, c-format
 msgid "failed to open(generic error): %s"
-msgstr ""
+msgstr "open(generic error) mislukte: %s"
 
 #: ../libdnf/dnf-rpmts.cpp:142
 #, c-format
 msgid "failed to verify key for %s"
-msgstr ""
+msgstr "verifiëren van sleutel voor %s mislukte"
 
 #: ../libdnf/dnf-rpmts.cpp:150
 #, c-format
 msgid "public key unavailable for %s"
-msgstr ""
+msgstr "publieke sleutel niet beschikbaar voor %s"
 
 #: ../libdnf/dnf-rpmts.cpp:158
 #, c-format
 msgid "signature not found for %s"
-msgstr ""
+msgstr "geen handtekening gevonden voor %s"
 
 #: ../libdnf/dnf-rpmts.cpp:193
 #, c-format
 msgid "failed to add install element: %1$s [%2$i]"
-msgstr ""
+msgstr "kan installatie-element niet toevoegen: %1$s [%2$i]"
 
 #: ../libdnf/dnf-rpmts.cpp:274
 #, c-format
 msgid "Error running transaction: %s"
-msgstr ""
+msgstr "Fout bij het uitvoeren van transactie: %s"
 
 #: ../libdnf/dnf-rpmts.cpp:283
 msgid "Error running transaction and no problems were reported!"
 msgstr ""
+"Fout bij het uitvoeren van transactie, maar er werden geen problemen "
+"gerapporteerd!"
 
 #: ../libdnf/dnf-rpmts.cpp:346
 msgid "Fatal error, run database recovery"
-msgstr ""
+msgstr "Fatale fout, databaseherstel uitvoeren"
 
 #: ../libdnf/dnf-rpmts.cpp:355
 #, c-format
 msgid "failed to find package %s"
-msgstr ""
+msgstr "vinden van pakket %s mislukte"
 
 #: ../libdnf/dnf-rpmts.cpp:401
 #, c-format
 msgid "could not add erase element %1$s(%2$i)"
-msgstr ""
+msgstr "kon geen wis-element toevoegen %1$s(%2$i)"
 
 #: ../libdnf/conf/OptionString.cpp:59 ../libdnf/conf/OptionStringList.cpp:59
 #: ../libdnf/conf/OptionEnum.cpp:72 ../libdnf/conf/OptionEnum.cpp:158
@@ -737,7 +740,7 @@ msgstr "'%s' is geen toegestane waarde"
 
 #: ../libdnf/conf/OptionString.cpp:74
 msgid "GetValue(): Value not set"
-msgstr ""
+msgstr "GetValue(): Waarde niet ingesteld"
 
 #: ../libdnf/conf/OptionPath.cpp:78
 #, c-format
@@ -752,7 +755,7 @@ msgstr "gegeven pad '%s' bestaat niet."
 #: ../libdnf/conf/OptionBool.cpp:47
 #, c-format
 msgid "invalid boolean value '%s'"
-msgstr "ongeldige  booleanse waarde'%s'"
+msgstr "ongeldige booleaanse waarde '%s'"
 
 #: ../libdnf/conf/ConfigMain.cpp:62 ../libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -766,7 +769,7 @@ msgstr "seconde waarde '%s' mag niet negatief zijn"
 #: ../libdnf/conf/ConfigMain.cpp:71
 #, c-format
 msgid "could not convert '%s' to bytes"
-msgstr ""
+msgstr "kon '%s' niet converteren naar bytes"
 
 #: ../libdnf/conf/ConfigMain.cpp:83 ../libdnf/conf/OptionSeconds.cpp:66
 #, c-format
@@ -790,115 +793,115 @@ msgstr "gegeven waarde [%d] moet groter zijn dan de toegestane waarde [%d]."
 
 #: ../libdnf/conf/OptionNumber.cpp:88 ../libdnf/conf/OptionEnum.cpp:83
 msgid "invalid value"
-msgstr ""
+msgstr "ongeldige waarde"
 
 #: ../libdnf/conf/OptionBinds.cpp:76
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr ""
+msgstr "Configuratie: OptionBinding met id \"%s\" bestaat niet"
 
 #: ../libdnf/conf/OptionBinds.cpp:88
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr ""
+msgstr "Configuratie: OptionBinding met id \"%s\" bestaat al"
 
 #: ../libdnf/conf/OptionSeconds.cpp:52
 #, c-format
 msgid "could not convert '%s' to seconds"
-msgstr ""
+msgstr "kon '%s' niet converteren naar seconden"
 
 #: ../libdnf/dnf-sack.cpp:417
 #, c-format
 msgid "no %1$s string for %2$s"
-msgstr ""
+msgstr "geen %1$s string voor %2$s"
 
 #: ../libdnf/dnf-sack.cpp:440
 msgid "failed to add solv"
-msgstr ""
+msgstr "oplosser toevoegen mislukte"
 
 #: ../libdnf/dnf-sack.cpp:458
 #, c-format
 msgid "failed to open: %s"
-msgstr ""
+msgstr "openen mislukte: %s"
 
 #: ../libdnf/dnf-sack.cpp:537
 #, c-format
 msgid "cannot create temporary file: %s"
-msgstr ""
+msgstr "kan tijdelijk bestand niet aanmaken: %s"
 
 #: ../libdnf/dnf-sack.cpp:547
 #, c-format
 msgid "failed opening tmp file: %s"
-msgstr ""
+msgstr "openen van tijdelijk bestand mislukte: %s"
 
 #: ../libdnf/dnf-sack.cpp:559
 #, c-format
 msgid "write_main() failed writing data: %i"
-msgstr ""
+msgstr "write_main() kon geen data schrijven: %i"
 
 #: ../libdnf/dnf-sack.cpp:576
 msgid "write_main() failed to re-load written solv file"
-msgstr ""
+msgstr "write_main() kon geschreven oplosbestand niet herladen"
 
 #: ../libdnf/dnf-sack.cpp:641
 #, c-format
 msgid "can not create temporary file %s"
-msgstr ""
+msgstr "kan geen tijdelijk bestand %s aanmaken"
 
 #: ../libdnf/dnf-sack.cpp:659
 #, c-format
 msgid "write_ext(%1$d) has failed: %2$d"
-msgstr ""
+msgstr "write_ext(%1$d) is mislukt: %2$d"
 
 #: ../libdnf/dnf-sack.cpp:714
 msgid "null repo md file"
-msgstr ""
+msgstr "nul repo md bestand"
 
 #: ../libdnf/dnf-sack.cpp:723
 #, c-format
 msgid "can not read file %1$s: %2$s"
-msgstr ""
+msgstr "kan bestand %1$s niet lezen: %2$s"
 
 #: ../libdnf/dnf-sack.cpp:737
 msgid "repo_add_solv() has failed."
-msgstr ""
+msgstr "repo_add_solv() is mislukt."
 
 #: ../libdnf/dnf-sack.cpp:750
 msgid "loading of MD_TYPE_PRIMARY has failed."
-msgstr ""
+msgstr "laden van MD_TYPE_PRIMARY is mislukt."
 
 #: ../libdnf/dnf-sack.cpp:763
 msgid "repo_add_repomdxml/rpmmd() has failed."
-msgstr ""
+msgstr "repo_add_repomdxml/rpmmd() is mislukt."
 
 #: ../libdnf/dnf-sack.cpp:830
 msgid "failed to auto-detect architecture"
-msgstr ""
+msgstr "automatisch detecteren van architectuur is mislukt"
 
 #: ../libdnf/dnf-sack.cpp:955
 #, c-format
 msgid "failed creating cachedir %s"
-msgstr ""
+msgstr "aanmaken van cachemap %s is mislukt"
 
 #: ../libdnf/dnf-sack.cpp:1727
 msgid "failed calculating RPMDB checksum"
-msgstr ""
+msgstr "berekenen van RPMDB checksum is mislukt"
 
 #: ../libdnf/dnf-sack.cpp:1751
 msgid "failed loading RPMDB"
-msgstr ""
+msgstr "laden van RPMDB is mislukt"
 
 #: ../libdnf/dnf-sack.cpp:2466
 msgid "No module defaults found"
-msgstr ""
+msgstr "Geen modulestandaardwaarden gevonden"
 
 #: ../libdnf/transaction/Transformer.cpp:659
 msgid "Transformer: can't open history persist dir"
-msgstr ""
+msgstr "Transformer: kan geschiedenis aanhoudende map niet openen"
 
 #: ../libdnf/transaction/Transformer.cpp:672
 msgid "Couldn't find a history database"
-msgstr ""
+msgstr "Kan geen geschiedenisdatabase vinden"
 
 #: ../libdnf/transaction/Swdb.cpp:107
 msgid "In progress"
@@ -908,29 +911,29 @@ msgstr "Bezig"
 #: ../libdnf/transaction/Swdb.cpp:160 ../libdnf/transaction/Swdb.cpp:177
 #: ../libdnf/transaction/Swdb.cpp:316 ../libdnf/transaction/Swdb.cpp:326
 msgid "Not in progress"
-msgstr ""
+msgstr "Niet bezig"
 
 #: ../libdnf/transaction/Swdb.cpp:187
 msgid "No transaction in progress"
-msgstr ""
+msgstr "Geen transactie bezig"
 
 #: ../libdnf/transaction/TransactionItem.cpp:147
 msgid "Attempt to insert transaction item into completed transaction"
-msgstr ""
+msgstr "Probeer transactie-item toe te voegen in voltooide transactie"
 
 #: ../libdnf/transaction/TransactionItem.cpp:218
 msgid "Attempt to update transaction item in completed transaction"
-msgstr ""
+msgstr "Probeer transactie-item te updaten in voltooide transactie"
 
 #: ../libdnf/transaction/private/Transaction.cpp:41
 msgid "Transaction has already began!"
-msgstr ""
+msgstr "Transactie is al begonnen!"
 
 #: ../libdnf/transaction/private/Transaction.cpp:58
 #, c-format
 msgid "TransactionItem state is not set: %s"
-msgstr ""
+msgstr "TransactionItem toestand in niet ingesteld: %s"
 
 #: ../libdnf/transaction/private/Transaction.cpp:239
 msgid "Can't add console output to unsaved transaction"
-msgstr ""
+msgstr "Kan console-uitvoer niet toevoegen aan niet-opgeslagen transactie"
