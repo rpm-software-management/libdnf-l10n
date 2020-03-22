@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 13:58+0100\n"
-"PO-Revision-Date: 2020-03-22 12:28+0000\n"
+"PO-Revision-Date: 2020-03-23 10:15+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/tr/>\n"
@@ -151,7 +151,7 @@ msgstr "%s ve %s birlikte yüklenemiyor"
 #: ../libdnf/goal/Goal.cpp:84
 #, c-format
 msgid "package %s conflicts with %s provided by %s"
-msgstr "%s paketi %s ile (%s tarafından sağlanan) çakışmaktadır"
+msgstr "%s paketi %s ile (%s tarafından sağlanan) çakışıyor"
 
 #: ../libdnf/goal/Goal.cpp:85
 #, c-format
@@ -174,13 +174,12 @@ msgstr ""
 #: ../libdnf/goal/Goal.cpp:88
 #, c-format
 msgid "package %s requires %s, but none of the providers can be installed"
-msgstr ""
-"%s paketi %s gerektirmektedir, ancak sağlayan paketlerin hiçbiri yüklenemiyor"
+msgstr "%s paketi %s gerektiriyor, ancak sağlayanların hiçbiri yüklenemiyor"
 
 #: ../libdnf/goal/Goal.cpp:89
 #, c-format
 msgid "package %s conflicts with %s provided by itself"
-msgstr "%s paketi (kendisi tarafından sağlanan) %s ile çakışmaktadır"
+msgstr "%s paketi (kendisi tarafından sağlanan) %s ile çakışıyor"
 
 #: ../libdnf/goal/Goal.cpp:90
 #, c-format
@@ -218,65 +217,68 @@ msgstr "%s modülü yüklenebilir değil"
 #: ../libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "nothing provides %s needed by module %s"
-msgstr ""
+msgstr "hiçbir şey %s'i (%s modülü tarafından ihtiyaç duyulan) sağlamıyor"
 
 #: ../libdnf/goal/Goal.cpp:110
 #, c-format
 msgid "cannot install both modules %s and %s"
-msgstr ""
+msgstr "%s ve %s modülleri birlikte yüklenemiyor"
 
 #: ../libdnf/goal/Goal.cpp:111
 #, c-format
 msgid "module %s conflicts with %s provided by %s"
-msgstr ""
+msgstr "%s modülü %s ile (%s tarafından sağlanan) çakışıyor"
 
 #: ../libdnf/goal/Goal.cpp:112
 #, c-format
 msgid "module %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "%s modülü %s'i (%s tarafından sağlanan) artık kullanılmaz yapıyor"
 
 #: ../libdnf/goal/Goal.cpp:113
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s"
 msgstr ""
+"kurulu %s modülü %s'i (%s tarafından sağlanan) artık kullanılmaz yapıyor"
 
 #: ../libdnf/goal/Goal.cpp:114
 #, c-format
 msgid "module %s implicitly obsoletes %s provided by %s"
 msgstr ""
+"%s modülü %s'i (%s tarafından sağlanan) dolaylı olarak artık kullanılmaz "
+"yapıyor"
 
 #: ../libdnf/goal/Goal.cpp:115
 #, c-format
 msgid "module %s requires %s, but none of the providers can be installed"
-msgstr ""
+msgstr "%s modülü %s gerektiriyor, ancak sağlayanların hiçbiri yüklenemiyor"
 
 #: ../libdnf/goal/Goal.cpp:116
 #, c-format
 msgid "module %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "%s modülü (kendisi tarafından sağlanan) %s ile çakışıyor"
 
 #: ../libdnf/goal/Goal.cpp:117
 #, c-format
 msgid "both module %s and %s obsolete %s"
-msgstr ""
+msgstr "%s ve %s modülleri %s'i artık kullanılmaz yapıyor"
 
 #: ../libdnf/goal/Goal.cpp:1008
 msgid "no solver set"
-msgstr ""
+msgstr "çözücü ayarlanmadı"
 
 #: ../libdnf/goal/Goal.cpp:1013
 #, c-format
 msgid "failed to make %s absolute"
-msgstr ""
+msgstr "%s mutlak hale getirilemedi"
 
 #: ../libdnf/goal/Goal.cpp:1020
 #, c-format
 msgid "failed writing debugdata to %1$s: %2$s"
-msgstr ""
+msgstr "hata ayıklama verileri %1$s dosyasına yazılamadı: %2$s"
 
 #: ../libdnf/goal/Goal.cpp:1032
 msgid "no solv in the goal"
-msgstr ""
+msgstr "hedefte çözücü yok"
 
 #: ../libdnf/goal/Goal.cpp:1034
 msgid "no solution, cannot remove protected package"
