@@ -1,10 +1,11 @@
 # Emin Tufan Çetin <etcetin@gmail.com>, 2016. #zanata
+# Oğuz Ersen <oguzersen@protonmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 13:58+0100\n"
-"PO-Revision-Date: 2020-03-23 10:15+0000\n"
+"PO-Revision-Date: 2020-03-24 09:48+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/tr/>\n"
@@ -282,16 +283,16 @@ msgstr "hedefte çözücü yok"
 
 #: ../libdnf/goal/Goal.cpp:1034
 msgid "no solution, cannot remove protected package"
-msgstr ""
+msgstr "çözüm yok, korumalı paket kaldırılamıyor"
 
 #: ../libdnf/goal/Goal.cpp:1037
 msgid "no solution possible"
-msgstr ""
+msgstr "olası bir çözüm yok"
 
 #: ../libdnf/goal/Goal.cpp:1443
 msgid ""
 "The operation would result in removing the following protected packages: "
-msgstr ""
+msgstr "İşlem, aşağıdaki korumalı paketlerin kaldırılmasına neden olur: "
 
 #: ../libdnf/repo/Repo.cpp:337
 #, c-format
@@ -301,49 +302,51 @@ msgstr "Depo için hatalı kimlik: %s, byte = %s %d"
 #: ../libdnf/repo/Repo.cpp:362
 #, c-format
 msgid "Repository %s has no mirror or baseurl set."
-msgstr ""
+msgstr "%s deposunun ayarlanmış bir yansısı veya temel url'si yok."
 
 #: ../libdnf/repo/Repo.cpp:371
 #, c-format
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
-msgstr ""
+msgstr "'%s' deposunun desteklenmeyen bir türü var: 'type=%s', atlanıyor."
 
 #: ../libdnf/repo/Repo.cpp:580
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
-msgstr ""
+msgstr "%s deposu için geçerli bir temel url bulunamıyor"
 
 #: ../libdnf/repo/Repo.cpp:616 ../libdnf/repo/Repo.cpp:1705
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of"
 " minrate or throttle"
 msgstr ""
+"Maksimum indirme hızı minimumdan düşük. Lütfen 'minrate' veya 'throttle' "
+"yapılandırmasını değiştirin"
 
 #: ../libdnf/repo/Repo.cpp:666 ../libdnf/repo/Repo.cpp:688
 #, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
-msgstr ""
+msgstr "%s: gpgme_data_new_from_fd(): %s"
 
 #: ../libdnf/repo/Repo.cpp:674 ../libdnf/repo/Repo.cpp:696
 #, c-format
 msgid "%s: gpgme_op_import(): %s"
-msgstr ""
+msgstr "%s: gpgme_op_import(): %s"
 
 #: ../libdnf/repo/Repo.cpp:719 ../libdnf/repo/Repo.cpp:785
 #: ../libdnf/repo/Repo.cpp:913
 #, c-format
 msgid "%s: gpgme_ctx_set_engine_info(): %s"
-msgstr ""
+msgstr "%s: gpgme_ctx_set_engine_info(): %s"
 
 #: ../libdnf/repo/Repo.cpp:746 ../libdnf/repo/Repo.cpp:810
 #, c-format
 msgid "can not list keys: %s"
-msgstr ""
+msgstr "anahtarlar listelenemiyor: %s"
 
 #: ../libdnf/repo/Repo.cpp:839
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
-msgstr ""
+msgstr "'%s' deposu için GPG anahtarı alınamadı: %s"
 
 #: ../libdnf/repo/Repo.cpp:892
 #, c-format
@@ -358,260 +361,266 @@ msgstr "depo %s: 0x%s anahtarı içe aktarıldı."
 #: ../libdnf/repo/Repo.cpp:1164
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
-msgstr ""
+msgstr "yeniden etkinleştirme: '%s' deposu atlandı, meta bağlantı yok."
 
 #: ../libdnf/repo/Repo.cpp:1183
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr ""
+"yeniden etkinleştirme: '%s' deposu atlandı, kullanılabilir sağlama kodu yok."
 
 #: ../libdnf/repo/Repo.cpp:1206
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
-msgstr ""
+msgstr "yeniden etkinleştirme: '%s' için başarısız, %s toplamı eşleşmiyor."
 
 #: ../libdnf/repo/Repo.cpp:1212
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
+"yeniden etkinleştirme: '%s' yeniden etkinleştirilebilir - meta bağlantı "
+"sağlama toplamları eşleşiyor."
 
 #: ../libdnf/repo/Repo.cpp:1237
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr ""
+"yeniden etkinleştirme: '%s' yeniden etkinleştirilebilir - repomd eşleşiyor."
 
 #: ../libdnf/repo/Repo.cpp:1239
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
-msgstr ""
+msgstr "yeniden etkinleştirme: '%s' için başarısız, repomd eşleşmiyor."
 
 #: ../libdnf/repo/Repo.cpp:1257
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
-msgstr ""
+msgstr "Depo hedef dizini \"%s\" oluşturulamıyor: %s"
 
 #: ../libdnf/repo/Repo.cpp:1263
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
-msgstr ""
+msgstr "Depo geçici dizini \"%s\" oluşturulamıyor: %s"
 
 #: ../libdnf/repo/Repo.cpp:1277
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
-msgstr ""
+msgstr "\"%s\" dizini oluşturulamıyor: %s"
 
 #: ../libdnf/repo/Repo.cpp:1300
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
-msgstr ""
+msgstr "\"%s\" dizini \"%s\" olarak yeniden adlandırılamıyor: %s"
 
 #: ../libdnf/repo/Repo.cpp:1323
 #, c-format
 msgid "repo: using cache for: %s"
-msgstr ""
+msgstr "depo: %s için önbellek kullanılıyor"
 
 #: ../libdnf/repo/Repo.cpp:1335
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
-msgstr ""
+msgstr "Sadece-önbellek modu etkin ancak '%s' için önbellek yok"
 
 #: ../libdnf/repo/Repo.cpp:1339
 #, c-format
 msgid "repo: downloading from remote: %s"
-msgstr ""
+msgstr "depo: %s uzak deposundan indiriliyor"
 
 #: ../libdnf/repo/Repo.cpp:1345
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
-msgstr ""
+msgstr "'%s' deposu için meta veriler indirilemedi: %s"
 
 #: ../libdnf/repo/Repo.cpp:1371
 msgid "getCachedir(): Computation of SHA256 failed"
-msgstr ""
+msgstr "getCachedir(): SHA256 hesaplaması başarısız oldu"
 
 #: ../libdnf/repo/Repo.cpp:1396
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
-msgstr ""
+msgstr "\"%s\" kalıcı dizini oluşturulamıyor: %s"
 
 #: ../libdnf/repo/Repo.cpp:1796
 msgid "resume cannot be used simultaneously with the byterangestart param"
-msgstr ""
+msgstr "'resume', 'byterangestart' parametresiyle aynı anda kullanılamaz"
 
 #: ../libdnf/repo/Repo.cpp:1807
 #, c-format
 msgid "PackageTarget initialization failed: %s"
-msgstr ""
+msgstr "PackageTarget başlatılamadı: %s"
 
 #: ../libdnf/repo/Repo.cpp:1924
 #, c-format
 msgid "Cannot open %s: %s"
-msgstr ""
+msgstr "%s açılamıyor: %s"
 
 #: ../libdnf/repo/Repo.cpp:1968
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
-msgstr ""
+msgstr "%ld kimliğine sahip bir günlük kaydı işleyici yok"
 
 #: ../libdnf/dnf-transaction.cpp:300
 #, c-format
 msgid "Sources not set when trying to ensure package %s"
-msgstr ""
+msgstr "%s paketi sağlanmaya çalışılırken kaynaklar ayarlanmadı"
 
 #: ../libdnf/dnf-transaction.cpp:326
 #, c-format
 msgid "Failed to ensure %1$s as repo %2$s not found(%3$i repos loaded)"
-msgstr ""
+msgstr "%2$s deposu bulunamadığı için %1$s sağlanamadı (%3$i depo yüklendi)"
 
 #: ../libdnf/dnf-transaction.cpp:367
 msgid "Failed to check untrusted: "
-msgstr ""
+msgstr "Güvenilmeyenler kontrol edilemedi: "
 
 #: ../libdnf/dnf-transaction.cpp:377
 #, c-format
 msgid "Downloaded file for %s not found"
-msgstr ""
+msgstr "%s için indirilen dosya bulunamadı"
 
 #: ../libdnf/dnf-transaction.cpp:397
 #, c-format
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
-msgstr ""
+msgstr "%1$s paketi doğrulanamıyor ve %2$s deposu için GPG kontrolü etkin: %3$s"
 
 #: ../libdnf/dnf-transaction.cpp:831 ../libdnf/dnf-transaction.cpp:903
 msgid "Failed to get value for CacheDir"
-msgstr ""
+msgstr "CacheDir değeri alınamadı"
 
 #: ../libdnf/dnf-transaction.cpp:911
 #, c-format
 msgid "Failed to get filesystem free size for %s: "
-msgstr ""
+msgstr "%s için dosya sistemindeki boş alan boyutu alınamadı: "
 
 #: ../libdnf/dnf-transaction.cpp:919
 #, c-format
 msgid "Failed to get filesystem free size for %s"
-msgstr ""
+msgstr "%s için dosya sistemindeki boş alan boyutu alınamadı"
 
 #: ../libdnf/dnf-transaction.cpp:935
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
-msgstr ""
+msgstr "%1$s dizininde yeterli boş alan yok: %2$s gerekli, %3$s mevcut"
 
 #: ../libdnf/dnf-transaction.cpp:1196
 msgid "failed to set root"
-msgstr ""
+msgstr "kök dizin ayarlanamadı"
 
 #: ../libdnf/dnf-transaction.cpp:1418
 #, c-format
 msgid "Error %i running transaction test"
-msgstr ""
+msgstr "İşlem testi yapılırken %i hatası"
 
 #: ../libdnf/dnf-transaction.cpp:1458
 #, c-format
 msgid "Error %i running transaction"
-msgstr ""
+msgstr "İşlem yapılırken %i hatası"
 
 #: ../libdnf/dnf-transaction.cpp:1473
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
-msgstr ""
+msgstr "İşlem yazma aşamasına geçmedi, ancak hata döndürmedi (%i)"
 
 #: ../libdnf/dnf-utils.cpp:136
 #, c-format
 msgid "failed to remove %s"
-msgstr ""
+msgstr "%s kaldırılamadı"
 
 #: ../libdnf/plugin/plugin.cpp:46
 #, c-format
 msgid "Can't load shared library \"%s\": %s"
-msgstr ""
+msgstr "\"%s\" paylaşımlı kütüphanesi yüklenemiyor: %s"
 
 #: ../libdnf/plugin/plugin.cpp:61 ../libdnf/plugin/plugin.cpp:67
 #: ../libdnf/plugin/plugin.cpp:73 ../libdnf/plugin/plugin.cpp:79
 #, c-format
 msgid "Can't obtain address of symbol \"%s\": %s"
-msgstr ""
+msgstr "\"%s\" sembolünün adresi alınamıyor: %s"
 
 #: ../libdnf/plugin/plugin.cpp:86
 #, c-format
 msgid "Loading plugin file=\"%s\""
-msgstr ""
+msgstr "Eklenti dosyası=\"%s\" yükleniyor"
 
 #: ../libdnf/plugin/plugin.cpp:89
 #, c-format
 msgid "Loaded plugin name=\"%s\", version=\"%s\""
-msgstr ""
+msgstr "Eklenti yüklendi, isim=\"%s\", sürüm=\"%s\""
 
 #: ../libdnf/plugin/plugin.cpp:96
 msgid "Plugins::loadPlugins() dirPath cannot be empty"
-msgstr ""
+msgstr "Plugins::loadPlugins() dizin yolu (dirPath) boş olamaz"
 
 #: ../libdnf/plugin/plugin.cpp:105
 #, c-format
 msgid "Can't read plugin directory \"%s\": %s"
-msgstr ""
+msgstr "Eklenti dizini \"%s\" okunamıyor: %s"
 
 #: ../libdnf/plugin/plugin.cpp:114
 #, c-format
 msgid "Can't load plugin \"%s\": %s"
-msgstr ""
+msgstr "\"%s\" eklentisi yüklenemiyor: %s"
 
 #: ../libdnf/dnf-state.cpp:1184
 #, c-format
 msgid "percentage not 100: %i"
-msgstr ""
+msgstr "yüzde 100 değil: %i"
 
 #: ../libdnf/dnf-state.cpp:1194
 #, c-format
 msgid "failed to set number steps: %i"
-msgstr ""
+msgstr "adım sayısı ayarlanamadı: %i"
 
 #: ../libdnf/dnf-state.cpp:1293
 msgid "cancelled by user action"
-msgstr ""
+msgstr "kullanıcı işlemi tarafından iptal edildi"
 
 #: ../libdnf/dnf-state.cpp:1332
 #, c-format
 msgid "done on a state %1$p that did not have a size set! [%2$s]"
 msgstr ""
+"ayarlanmış bir boyutu olmayan %1$p durumu için 'tamamlandı' (done) çağrıldı "
+"[%2$s]"
 
 #: ../libdnf/dnf-state.cpp:1357
 #, c-format
 msgid "already at 100%% state [%s]"
-msgstr ""
+msgstr "zaten %%100 durumunda [%s]"
 
 #: ../libdnf/module/modulemd/ModuleMetadata.cpp:43
 #, c-format
 msgid "Failed to update from string: %s"
-msgstr ""
+msgstr "Dizeden güncellenemedi: %s"
 
 #: ../libdnf/module/modulemd/ModuleMetadata.cpp:68
 #: ../libdnf/module/modulemd/ModuleMetadata.cpp:70
 #, c-format
 msgid "Failed to resolve: %s"
-msgstr ""
+msgstr "Çözümlenemedi: %s"
 
 #: ../libdnf/module/modulemd/ModuleMetadata.cpp:74
 #, c-format
 msgid "Failed to upgrade defaults: %s"
-msgstr ""
+msgstr "Varsayılanlar yükseltilemedi: %s"
 
 #: ../libdnf/module/modulemd/ModuleMetadata.cpp:77
 #, c-format
 msgid "Failed to upgrade streams: %s"
-msgstr ""
+msgstr "Akışlar yükseltilemedi: %s"
 
 #: ../libdnf/module/ModulePackage.cpp:463
 #, c-format
 msgid "Invalid format of Platform module: %s"
-msgstr ""
+msgstr "Geçersiz platform modülü biçimi: %s"
 
 #: ../libdnf/module/ModulePackage.cpp:478
 msgid "Multiple module platforms provided by available packages\n"
-msgstr ""
+msgstr "Mevcut paketler tarafından birden çok modül platformu sağlanıyor\n"
 
 #: ../libdnf/module/ModulePackage.cpp:491
 msgid "Multiple module platforms provided by installed packages\n"
-msgstr ""
+msgstr "Kurulu paketler tarafından birden çok modül platformu sağlanıyor\n"
 
 #: ../libdnf/module/ModulePackage.cpp:518
 #, c-format
@@ -770,7 +779,7 @@ msgstr "bilinmeyen birim '%s'"
 #: ../libdnf/conf/ConfigMain.cpp:329
 #, c-format
 msgid "percentage '%s' is out of range"
-msgstr "'%s' yüzdesi aralık dışında"
+msgstr "yüzde değeri '%s' aralık dışında"
 
 #: ../libdnf/conf/OptionNumber.cpp:73
 #, c-format
