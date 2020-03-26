@@ -1,11 +1,12 @@
 # Geert Warrink <geert.warrink@onsnet.nu>, 2017. #zanata
+# Richard E. van der Luit <fedoraproject@veneax.nl>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-19 13:58+0100\n"
-"PO-Revision-Date: 2020-03-23 10:15+0000\n"
-"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
+"PO-Revision-Date: 2020-03-27 14:38+0000\n"
+"Last-Translator: Richard E. van der Luit <fedoraproject@veneax.nl>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/nl/>\n"
 "Language: nl\n"
@@ -64,7 +65,7 @@ msgstr " Probleem: %s\n"
 #: ../libdnf/goal/Goal.cpp:55
 msgid "Ill-formed Selector, presence of multiple match objects in the filter"
 msgstr ""
-"Slecht gevormde keuzeschakelaar, aanwezigheid van meerdere match objecten in "
+"Slecht gevormde keuzeschakelaar, aanwezigheid van meerdere match-objecten in "
 "het filter"
 
 #: ../libdnf/goal/Goal.cpp:56
@@ -79,7 +80,7 @@ msgstr " behoort niet tot een distupgrade repository"
 
 #: ../libdnf/goal/Goal.cpp:68 ../libdnf/goal/Goal.cpp:95
 msgid " has inferior architecture"
-msgstr " heeft en inferieure architectuur"
+msgstr " heeft een inferieure architectuur"
 
 #: ../libdnf/goal/Goal.cpp:69
 msgid "problem with installed package "
@@ -95,7 +96,7 @@ msgstr "niet-ondersteund verzoek"
 
 #: ../libdnf/goal/Goal.cpp:72 ../libdnf/goal/Goal.cpp:99
 msgid "nothing provides requested "
-msgstr "niets biedt het gevraagde aan "
+msgstr "niets levert het gevraagde "
 
 #: ../libdnf/goal/Goal.cpp:73
 #, c-format
