@@ -1,12 +1,12 @@
-# Geert Warrink <geert.warrink@onsnet.nu>, 2017. #zanata
+# Geert Warrink <geert.warrink@onsnet.nu>, 2017. #zanata, 2020.
 # Richard E. van der Luit <fedoraproject@veneax.nl>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 09:18-0400\n"
-"PO-Revision-Date: 2020-03-27 14:38+0000\n"
-"Last-Translator: Richard E. van der Luit <fedoraproject@veneax.nl>\n"
+"PO-Revision-Date: 2020-03-29 11:38+0000\n"
+"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/nl/>\n"
 "Language: nl\n"
@@ -261,10 +261,9 @@ msgid "failed loading RPMDB"
 msgstr "laden van RPMDB is mislukt"
 
 #: libdnf/dnf-sack.cpp:2467
-#, fuzzy, c-format
-#| msgid "No module defaults found"
+#, c-format
 msgid "No module defaults found: %s"
-msgstr "Geen modulestandaardwaarden gevonden"
+msgstr "Geen modulestandaardwaarden gevonden: %s"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
@@ -693,6 +692,7 @@ msgstr "Kan niet oplossen: %s"
 #, c-format
 msgid "There were errors while resolving modular defaults: %s"
 msgstr ""
+"Er zijn fouten opgetreden bij het oplossen van modulaire standaardwaarden: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:78
 #, c-format
@@ -927,7 +927,7 @@ msgstr "Probeer transactie-item te updaten in voltooide transactie"
 
 #: libdnf/transaction/Transformer.cpp:76
 msgid "Database Corrupted: no row 'version' in table 'config'"
-msgstr ""
+msgstr "Database beschadigd: geen rij 'versie' in tabel 'config'"
 
 #: libdnf/transaction/Transformer.cpp:681
 msgid "Transformer: can't open history persist dir"
