@@ -1,6 +1,8 @@
 #!/bin/bash
 set -ex
 
+GIT_BRANCH=$1
+
 PROJECT=libdnf
 XGETTEXT_PARAMS=(-F --from-code=UTF-8 --keyword=_ --keyword=M_ --keyword=P_:1,2 --keyword=MP_:1,2 --keyword=C_:1c,2 --keyword=MC_:1c,2 --keyword=CP_:1c,2,3 --keyword=MCP_:1c,2,3 -c)
 FIND_PARAMS=(. -iname "*.[ch]" -o -iname "*.[ch]pp")
@@ -34,13 +36,9 @@ cleanup() {
 trap cleanup EXIT
 
 pushd "$PROG_PATH"
-    GIT_BRANCH=$(git symbolic-ref --short -q HEAD)
-    if [[ ! "$GIT_BRANCH" ]]; then
-        error "Could not detect git branch."
-    fi
     git clone --depth=1 -b ${GIT_BRANCH} ${GIT_SOURCE_REPO} ${TMP_DIR}
     pushd "${TMP_DIR}"
         find ${FIND_PARAMS[@]} | xargs xgettext ${XGETTEXT_PARAMS[@]} --output="${POT_FILE}"
     popd
-    cp "${TMP_DIR}/${POT_FILE}" ..
+    cp "${TMP_DIR}/${POT_FILE}" ../${GIT_BRANCH}
 popd
