@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 09:18-0400\n"
-"PO-Revision-Date: 2020-03-25 14:38+0000\n"
+"PO-Revision-Date: 2020-03-29 11:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/tr/>\n"
@@ -259,10 +259,9 @@ msgid "failed loading RPMDB"
 msgstr "RPMDB yüklenemedi"
 
 #: libdnf/dnf-sack.cpp:2467
-#, fuzzy, c-format
-#| msgid "No module defaults found"
+#, c-format
 msgid "No module defaults found: %s"
-msgstr "Hiçbir modül varsayılanı bulunamadı"
+msgstr "Hiçbir modül varsayılanı bulunamadı: %s"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
@@ -690,7 +689,7 @@ msgstr "Çözümlenemedi: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:73
 #, c-format
 msgid "There were errors while resolving modular defaults: %s"
-msgstr ""
+msgstr "Modüler varsayılanlar çözümlenirken hatalar oluştu: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:78
 #, c-format
@@ -926,7 +925,7 @@ msgstr "Tamamlanan işlemdeki işlem ögesini güncelleme girişimi"
 
 #: libdnf/transaction/Transformer.cpp:76
 msgid "Database Corrupted: no row 'version' in table 'config'"
-msgstr ""
+msgstr "Bozuk Veri Tabanı: 'config' tablosunda 'version' satırı yok"
 
 #: libdnf/transaction/Transformer.cpp:681
 msgid "Transformer: can't open history persist dir"
