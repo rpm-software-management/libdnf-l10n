@@ -1,20 +1,22 @@
 # Igor Gorbounov <igor.gorbounov@gmail.com>, 2017. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Petr Molodyk <pamolodyk@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 09:18-0400\n"
-"PO-Revision-Date: 2018-11-02 05:26+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Russian\n"
+"PO-Revision-Date: 2020-03-31 20:38+0000\n"
+"Last-Translator: Petr Molodyk <pamolodyk@gmail.com>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
+"libdnf-dnf-4-master/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -96,23 +98,25 @@ msgstr "GetValue (): значение не установлено"
 
 #: libdnf/dnf-goal.cpp:68
 msgid "Could not depsolve transaction; "
-msgstr ""
+msgstr "Не удалось разрешить зависимости операции; "
 
 #: libdnf/dnf-goal.cpp:70
 #, c-format
 msgid "%i problem detected:\n"
 msgid_plural "%i problems detected:\n"
-msgstr[0] ""
+msgstr[0] "Выявлена %i проблема:\n"
+msgstr[1] "Выявлено %i проблем:\n"
+msgstr[2] "Выявлено%i проблем:\n"
 
 #: libdnf/dnf-goal.cpp:78
 #, c-format
 msgid " Problem %1$i: %2$s\n"
-msgstr ""
+msgstr " Проблема %1$i: %2$s\n"
 
 #: libdnf/dnf-goal.cpp:80
 #, c-format
 msgid " Problem: %s\n"
-msgstr ""
+msgstr " Проблема: %s\n"
 
 #: libdnf/dnf-rpmts.cpp:79
 #, c-format
@@ -120,11 +124,13 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
+"Нет доступных метаданных для модульного пакета:'%s'; установка в системе "
+"невозможна"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
 msgid "signature does not verify for %s"
-msgstr "подпись не проверяет %s"
+msgstr "не проверена подпись для %s"
 
 #: libdnf/dnf-rpmts.cpp:129 libdnf/dnf-rpmts.cpp:174
 #, c-format
@@ -139,12 +145,12 @@ msgstr "не удалось проверить ключ для %s"
 #: libdnf/dnf-rpmts.cpp:150
 #, c-format
 msgid "public key unavailable for %s"
-msgstr "открытый ключ недоступен для %s"
+msgstr "открытый ключ для %s недоступен"
 
 #: libdnf/dnf-rpmts.cpp:158
 #, c-format
 msgid "signature not found for %s"
-msgstr "подпись не найдена для %s"
+msgstr "подпись для %s не найдена"
 
 #: libdnf/dnf-rpmts.cpp:193
 #, c-format
