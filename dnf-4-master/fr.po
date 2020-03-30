@@ -4,12 +4,13 @@
 # Jérôme Fenal <jfenal@gmail.com>, 2017. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2019. #zanata
+# Julien Humbert <julroy67@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 09:18-0400\n"
-"PO-Revision-Date: 2020-03-22 12:28+0000\n"
+"PO-Revision-Date: 2020-03-31 20:38+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
@@ -263,10 +264,9 @@ msgid "failed loading RPMDB"
 msgstr "n’a pu télécharger RPMDB"
 
 #: libdnf/dnf-sack.cpp:2467
-#, fuzzy, c-format
-#| msgid "No module defaults found"
+#, c-format
 msgid "No module defaults found: %s"
-msgstr "Aucun module par défaut n’a été trouvé"
+msgstr "Aucun module par défaut n’a été trouvé : %s"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
@@ -702,6 +702,7 @@ msgstr "Échec de la résolution : %s"
 #, c-format
 msgid "There were errors while resolving modular defaults: %s"
 msgstr ""
+"Il y a eu des erreurs lors de la résolution des modulaires par défaut : %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:78
 #, c-format
@@ -752,7 +753,7 @@ msgstr "Impossible de charger l’extension « %s » : %s"
 #: libdnf/repo/Repo.cpp:337
 #, c-format
 msgid "Bad id for repo: %s, byte = %s %d"
-msgstr "Id erroné pour le dépôt : %s, byte = %s %d"
+msgstr "ID erroné pour le dépôt : %s, byte = %s %d"
 
 #: libdnf/repo/Repo.cpp:362
 #, c-format
@@ -943,6 +944,8 @@ msgstr ""
 #: libdnf/transaction/Transformer.cpp:76
 msgid "Database Corrupted: no row 'version' in table 'config'"
 msgstr ""
+"Base de données corrompue : ligne « version » manquante dans le tableau « "
+"config »"
 
 #: libdnf/transaction/Transformer.cpp:681
 msgid "Transformer: can't open history persist dir"
