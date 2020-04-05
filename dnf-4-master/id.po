@@ -1,31 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Syahmin Sukhairi <syahmin@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 09:18-0400\n"
-"PO-Revision-Date: 2015-03-23 03:26+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Indonesian\n"
+"PO-Revision-Date: 2020-04-06 16:40+0000\n"
+"Last-Translator: Syahmin Sukhairi <syahmin@gmail.com>\n"
+"Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
+"libdnf-dnf-4-master/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
-msgstr ""
+msgstr "tidak ada nilai yang spesifik"
 
 #: libdnf/conf/ConfigMain.cpp:67 libdnf/conf/OptionSeconds.cpp:48
 #, c-format
 msgid "seconds value '%s' must not be negative"
-msgstr ""
+msgstr "nilai kedua '%s' tidak boleh negatif"
 
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
@@ -35,22 +35,22 @@ msgstr ""
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
 msgid "unknown unit '%s'"
-msgstr ""
+msgstr "unit '%s' tidak diketahui"
 
 #: libdnf/conf/ConfigMain.cpp:329
 #, c-format
 msgid "percentage '%s' is out of range"
-msgstr ""
+msgstr "prosentase '%s' di luar batas"
 
 #: libdnf/conf/OptionBinds.cpp:76
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr ""
+msgstr "Konfigurasi: tidak ada OptionBinding dengan id \"%s\""
 
 #: libdnf/conf/OptionBinds.cpp:88
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr ""
+msgstr "Konfigurasi: OptionBinding dengna id \"%s\" sudah ada"
 
 #: libdnf/conf/OptionBool.cpp:47
 #, c-format
@@ -90,7 +90,7 @@ msgstr ""
 #: libdnf/conf/OptionSeconds.cpp:52
 #, c-format
 msgid "could not convert '%s' to seconds"
-msgstr ""
+msgstr "tidak dapat mengkonversi '%s' ke detik"
 
 #: libdnf/conf/OptionString.cpp:74
 msgid "GetValue(): Value not set"
