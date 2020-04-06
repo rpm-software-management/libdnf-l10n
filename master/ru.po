@@ -1,4 +1,4 @@
-# Igor Gorbounov <igor.gorbounov@gmail.com>, 2017. #zanata
+# Igor Gorbounov <igor.gorbounov@gmail.com>, 2017. #zanata, 2020.
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Petr Molodyk <pamolodyk@gmail.com>, 2020.
 # Vladyslav Spirin <vladspirin@hotmail.com>, 2020.
@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 09:18-0400\n"
-"PO-Revision-Date: 2020-04-01 22:16+0000\n"
-"Last-Translator: Vladyslav Spirin <vladspirin@hotmail.com>\n"
+"PO-Revision-Date: 2020-04-07 20:40+0000\n"
+"Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/ru/>\n"
 "Language: ru\n"
@@ -184,7 +184,7 @@ msgstr "не удалось добавить элемент стирания %1$
 #: libdnf/dnf-sack.cpp:417
 #, c-format
 msgid "no %1$s string for %2$s"
-msgstr ""
+msgstr "нет строки %1$s для %2$s"
 
 #: libdnf/dnf-sack.cpp:440
 msgid "failed to add solv"
@@ -368,10 +368,14 @@ msgstr "не удалось удалить %s"
 #: libdnf/goal/Goal.cpp:55
 msgid "Ill-formed Selector, presence of multiple match objects in the filter"
 msgstr ""
+"Неправильно сформированный Selector, наличие нескольких совпадающих объектов "
+"в фильтре"
 
 #: libdnf/goal/Goal.cpp:56
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr ""
+"Для операции использовался неправильно сформированный Selector, неправильный "
+"тип сравнения"
 
 #: libdnf/goal/Goal.cpp:67 libdnf/goal/Goal.cpp:94
 msgid " does not belong to a distupgrade repository"
@@ -379,7 +383,7 @@ msgstr " не относится к хранилищу обновлений ди
 
 #: libdnf/goal/Goal.cpp:68 libdnf/goal/Goal.cpp:95
 msgid " has inferior architecture"
-msgstr ""
+msgstr "относится к плохой архитектуре"
 
 #: libdnf/goal/Goal.cpp:69
 msgid "problem with installed package "
@@ -395,7 +399,7 @@ msgstr "неподдерживаемый запрос"
 
 #: libdnf/goal/Goal.cpp:72 libdnf/goal/Goal.cpp:99
 msgid "nothing provides requested "
-msgstr ""
+msgstr "ничего из пакетов не содержит запрашиваемого"
 
 #: libdnf/goal/Goal.cpp:73
 #, c-format
@@ -473,6 +477,8 @@ msgstr "пакет %s неявно заменяет пакет %s предост
 #, c-format
 msgid "package %s requires %s, but none of the providers can be installed"
 msgstr ""
+"пакету %s требуется %s, но ни один из предоставляющих пакетов не может быть "
+"установлен"
 
 #: libdnf/goal/Goal.cpp:89
 #, c-format
@@ -546,6 +552,8 @@ msgstr "модуль %s неявным способом делает устар�
 #, c-format
 msgid "module %s requires %s, but none of the providers can be installed"
 msgstr ""
+"модулю %s требуется %s, но ни один из предоставляющих пакетов не может быть "
+"установлен"
 
 #: libdnf/goal/Goal.cpp:116
 #, c-format
