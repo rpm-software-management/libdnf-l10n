@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 09:18-0400\n"
 "PO-Revision-Date: 2020-04-07 20:40+0000\n"
-"Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
+"Last-Translator: Vladyslav Spirin <vladspirin@hotmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ru/>\n"
 "Language: ru\n"
@@ -384,7 +384,7 @@ msgstr " не относится к хранилищу обновлений ди
 
 #: libdnf/goal/Goal.cpp:68 libdnf/goal/Goal.cpp:95
 msgid " has inferior architecture"
-msgstr ""
+msgstr "относится к плохой архитектуре"
 
 #: libdnf/goal/Goal.cpp:69
 msgid "problem with installed package "
@@ -400,7 +400,7 @@ msgstr "неподдерживаемый запрос"
 
 #: libdnf/goal/Goal.cpp:72 libdnf/goal/Goal.cpp:99
 msgid "nothing provides requested "
-msgstr ""
+msgstr "ничего из пакетов не содержит запрашиваемого"
 
 #: libdnf/goal/Goal.cpp:73
 #, c-format
