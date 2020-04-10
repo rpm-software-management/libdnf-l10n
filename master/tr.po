@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 09:18-0400\n"
-"PO-Revision-Date: 2020-04-09 13:40+0000\n"
+"PO-Revision-Date: 2020-04-11 15:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/tr/>\n"
@@ -121,7 +121,7 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
-"'%s' modüler paketi için mevcut modüler meta veri yok, sisteme yüklenemiyor"
+"'%s' modüler paketi için mevcut modüler meta veri yok, sisteme kurulamıyor"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
@@ -412,11 +412,11 @@ msgstr "bazı bağımlılık sorunları"
 
 #: libdnf/goal/Goal.cpp:76
 msgid "cannot install the best update candidate for package "
-msgstr "paket için en iyi güncelleme adayı yüklenemiyor "
+msgstr "paket için en iyi güncelleme adayı kurulamıyor "
 
 #: libdnf/goal/Goal.cpp:77 libdnf/goal/Goal.cpp:104
 msgid "cannot install the best candidate for the job"
-msgstr "görev için en iyi aday yüklenemiyor"
+msgstr "görev için en iyi aday kurulamıyor"
 
 #: libdnf/goal/Goal.cpp:78
 #, c-format
@@ -431,7 +431,7 @@ msgstr "%s paketi uyumlu bir mimariye sahip değil"
 #: libdnf/goal/Goal.cpp:80
 #, c-format
 msgid "package %s is not installable"
-msgstr "%s paketi yüklenebilir değil"
+msgstr "%s paketi kurulabilir değil"
 
 #: libdnf/goal/Goal.cpp:81
 #, c-format
@@ -446,7 +446,7 @@ msgstr "hiçbir şey %s'i (%s tarafından ihtiyaç duyulan) sağlamıyor"
 #: libdnf/goal/Goal.cpp:83
 #, c-format
 msgid "cannot install both %s and %s"
-msgstr "%s ve %s birlikte yüklenemiyor"
+msgstr "%s ve %s birlikte kurulamıyor"
 
 #: libdnf/goal/Goal.cpp:84
 #, c-format
@@ -474,7 +474,7 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:88
 #, c-format
 msgid "package %s requires %s, but none of the providers can be installed"
-msgstr "%s paketi %s gerektiriyor, ancak sağlayanların hiçbiri yüklenemiyor"
+msgstr "%s paketi %s gerektiriyor, ancak sağlayanların hiçbiri kurulamıyor"
 
 #: libdnf/goal/Goal.cpp:89
 #, c-format
@@ -497,7 +497,7 @@ msgstr "%s diye bir modül yok"
 
 #: libdnf/goal/Goal.cpp:103
 msgid "cannot install the best update candidate for module "
-msgstr "modül için en iyi güncelleme adayı yüklenemiyor "
+msgstr "modül için en iyi güncelleme adayı kurulamıyor "
 
 #: libdnf/goal/Goal.cpp:105 libdnf/goal/Goal.cpp:108
 #, c-format
@@ -512,7 +512,7 @@ msgstr "%s modülü uyumlu bir mimariye sahip değil"
 #: libdnf/goal/Goal.cpp:107
 #, c-format
 msgid "module %s is not installable"
-msgstr "%s modülü yüklenebilir değil"
+msgstr "%s modülü kurulabilir değil"
 
 #: libdnf/goal/Goal.cpp:109
 #, c-format
@@ -522,7 +522,7 @@ msgstr "hiçbir şey %s'i (%s modülü tarafından ihtiyaç duyulan) sağlamıyo
 #: libdnf/goal/Goal.cpp:110
 #, c-format
 msgid "cannot install both modules %s and %s"
-msgstr "%s ve %s modülleri birlikte yüklenemiyor"
+msgstr "%s ve %s modülleri birlikte kurulamıyor"
 
 #: libdnf/goal/Goal.cpp:111
 #, c-format
@@ -550,7 +550,7 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:115
 #, c-format
 msgid "module %s requires %s, but none of the providers can be installed"
-msgstr "%s modülü %s gerektiriyor, ancak sağlayanların hiçbiri yüklenemiyor"
+msgstr "%s modülü %s gerektiriyor, ancak sağlayanların hiçbiri kurulamıyor"
 
 #: libdnf/goal/Goal.cpp:116
 #, c-format
