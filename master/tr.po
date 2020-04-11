@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 09:18-0400\n"
-"PO-Revision-Date: 2020-04-11 15:40+0000\n"
+"PO-Revision-Date: 2020-04-14 06:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/tr/>\n"
@@ -28,7 +28,7 @@ msgstr "saniye değeri '%s' negatif olmamalı"
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
 msgid "could not convert '%s' to bytes"
-msgstr "'%s', byte'a dönüştürülemedi"
+msgstr "'%s', bayta dönüştürülemedi"
 
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
@@ -121,7 +121,7 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
-"'%s' modüler paketi için mevcut modüler meta veri yok, sisteme kurulamıyor"
+"'%s' modüler paketi için mevcut modüler üst veri yok, sisteme kurulamıyor"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
@@ -243,7 +243,7 @@ msgstr "repo_add_repomdxml/rpmmd() başarısız oldu."
 
 #: libdnf/dnf-sack.cpp:830
 msgid "failed to auto-detect architecture"
-msgstr "mimari otomatik olarak tespit edilemedi"
+msgstr "mimari otomatik olarak algılanamadı"
 
 #: libdnf/dnf-sack.cpp:955
 #, c-format
@@ -260,7 +260,7 @@ msgstr "RPMDB yüklenemedi"
 
 #: libdnf/dnf-sack.cpp:2466
 msgid "No module defaults found"
-msgstr "Hiçbir modül varsayılanı bulunamadı"
+msgstr "Modül öntanımlısı bulunamadı"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
@@ -629,7 +629,7 @@ msgstr "Kurulu paketler tarafından birden çok modül platformu sağlanıyor\n"
 #: libdnf/module/ModulePackage.cpp:518
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
-msgstr "%s yolunda platform modülü tespit edilemedi: %s"
+msgstr "%s yolunda platform modülü algılanamadı: %s"
 
 #: libdnf/module/ModulePackage.cpp:527
 #, c-format
@@ -638,7 +638,7 @@ msgstr "%s yolunda PLATFORM_ID eksik"
 
 #: libdnf/module/ModulePackage.cpp:532
 msgid "No valid Platform ID detected"
-msgstr "Geçerli bir platform kimliği tespit edilmedi"
+msgstr "Geçerli bir platform kimliği algılanmadı"
 
 #: libdnf/module/ModulePackageContainer.cpp:68
 #, c-format
@@ -648,7 +648,7 @@ msgstr "'%s' modülü için birden çok akış etkinleştirilemiyor"
 #: libdnf/module/ModulePackageContainer.cpp:294
 #, c-format
 msgid "Conflicting defaults with repo '%s': %s"
-msgstr "Varsayılan değerler '%s' deposu ile çakışıyor: %s"
+msgstr "Öntanımlılar '%s' deposu ile çakışıyor: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1568
 #, c-format
@@ -689,7 +689,7 @@ msgstr "Çözümlenemedi: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:74
 #, c-format
 msgid "Failed to upgrade defaults: %s"
-msgstr "Varsayılanlar yükseltilemedi: %s"
+msgstr "Öntanımlılar yükseltilemedi: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:77
 #, c-format
@@ -734,7 +734,7 @@ msgstr "\"%s\" eklentisi yüklenemiyor: %s"
 #: libdnf/repo/Repo.cpp:337
 #, c-format
 msgid "Bad id for repo: %s, byte = %s %d"
-msgstr "Depo için hatalı kimlik: %s, byte = %s %d"
+msgstr "Depo için hatalı kimlik: %s, bayt = %s %d"
 
 #: libdnf/repo/Repo.cpp:362
 #, c-format
@@ -866,7 +866,7 @@ msgstr "repo: %s uzak deposundan indiriliyor"
 #: libdnf/repo/Repo.cpp:1345
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
-msgstr "'%s' deposu için meta veriler indirilemedi: %s"
+msgstr "'%s' deposu için üst veriler indirilemedi: %s"
 
 #: libdnf/repo/Repo.cpp:1371
 msgid "getCachedir(): Computation of SHA256 failed"
