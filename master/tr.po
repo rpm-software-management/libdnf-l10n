@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 09:18-0400\n"
-"PO-Revision-Date: 2020-04-14 06:40+0000\n"
+"PO-Revision-Date: 2020-04-15 12:17+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/tr/>\n"
@@ -121,7 +121,8 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
-"'%s' modüler paketi için mevcut modüler üst veri yok, sisteme kurulamıyor"
+"'%s' modüler paketi için kullanılabilir modüler üst veri yok, sisteme "
+"kurulamıyor"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
@@ -141,7 +142,7 @@ msgstr "%s için anahtar doğrulanamadı"
 #: libdnf/dnf-rpmts.cpp:150
 #, c-format
 msgid "public key unavailable for %s"
-msgstr "%s için genel anahtar mevcut değil"
+msgstr "%s için genel anahtar kullanılamıyor"
 
 #: libdnf/dnf-rpmts.cpp:158
 #, c-format
@@ -300,7 +301,7 @@ msgstr "%2$s deposu bulunamadığı için %1$s sağlanamadı (%3$i depo yüklend
 
 #: libdnf/dnf-transaction.cpp:367
 msgid "Failed to check untrusted: "
-msgstr "Güvenilmeyenler kontrol edilemedi: "
+msgstr "Güvenilmeyenler denetlenemedi: "
 
 #: libdnf/dnf-transaction.cpp:377
 #, c-format
@@ -330,7 +331,7 @@ msgstr "%s için dosya sistemindeki boş alan boyutu alınamadı"
 #: libdnf/dnf-transaction.cpp:935
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
-msgstr "%1$s dizininde yeterli boş alan yok: %2$s gerekli, %3$s mevcut"
+msgstr "%1$s dizininde yeterli boş alan yok: %2$s gerekli, %3$s kullanılabilir"
 
 #: libdnf/dnf-transaction.cpp:1196
 msgid "failed to set root"
@@ -620,7 +621,8 @@ msgstr "Geçersiz platform modülü biçimi: %s"
 
 #: libdnf/module/ModulePackage.cpp:478
 msgid "Multiple module platforms provided by available packages\n"
-msgstr "Mevcut paketler tarafından birden çok modül platformu sağlanıyor\n"
+msgstr ""
+"Kullanılabilir paketler tarafından sağlanan birden çok modül platformu\n"
 
 #: libdnf/module/ModulePackage.cpp:491
 msgid "Multiple module platforms provided by installed packages\n"
@@ -756,7 +758,7 @@ msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
 msgstr ""
-"Maksimum indirme hızı minimumdan düşük. Lütfen 'minrate' veya 'throttle' "
+"Azami indirme hızı asgariden düşük. Lütfen 'minrate' veya 'throttle' "
 "yapılandırmasını değiştirin"
 
 #: libdnf/repo/Repo.cpp:666 libdnf/repo/Repo.cpp:688
