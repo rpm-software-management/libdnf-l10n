@@ -1,12 +1,13 @@
 # scootergrisen <scootergrisen@gmail.com>, 2017. #zanata, 2020.
 # scootergrisen <scootergrisen@gmail.com>, 2018. #zanata, 2020.
+# Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-27 09:18-0400\n"
 "PO-Revision-Date: 2020-04-15 12:17+0000\n"
-"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/da/>\n"
 "Language: da\n"
@@ -120,6 +121,8 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
+"Ingen tilgængelig modulær metadata for den modulære pakke '{}', den kan ikke "
+"installeres på systemet"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
