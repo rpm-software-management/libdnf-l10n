@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-16 09:18-0400\n"
-"PO-Revision-Date: 2020-04-16 21:40+0000\n"
+"PO-Revision-Date: 2020-04-21 18:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/tr/>\n"
@@ -312,8 +312,7 @@ msgstr "%s için indirilen dosya bulunamadı"
 #: libdnf/dnf-transaction.cpp:397
 #, c-format
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
-msgstr ""
-"%1$s paketi doğrulanamıyor ve %2$s deposu için GPG kontrolü etkin: %3$s"
+msgstr "%1$s paketi doğrulanamıyor ve %2$s deposu için GPG denetimi etkin: %3$s"
 
 #: libdnf/dnf-transaction.cpp:831 libdnf/dnf-transaction.cpp:903
 msgid "Failed to get value for CacheDir"
