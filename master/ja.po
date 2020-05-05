@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-30 09:18-0400\n"
+"POT-Creation-Date: 2020-05-04 09:18-0400\n"
 "PO-Revision-Date: 2020-05-05 09:40+0000\n"
 "Last-Translator: Casey Jones <nahareport@yahoo.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -120,7 +120,9 @@ msgstr " 問題: %s\n"
 msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
-msgstr "モジュラーパッケージ '%s' のモジュラーメタデータは利用不可です; システムにインストールはできません"
+msgstr ""
+"モジュラーパッケージ '%s' のモジュラーメタデータは利用不可です; システムにイ"
+"ンストールはできません"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
@@ -459,7 +461,9 @@ msgstr "パッケージ %s は %s を廃止しました。これは %s により
 #: libdnf/goal/Goal.cpp:86
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
-msgstr "インストール済パッケージ %s は %s を廃止しました。これは %s により提供されます"
+msgstr ""
+"インストール済パッケージ %s は %s を廃止しました。これは %s により提供されま"
+"す"
 
 #: libdnf/goal/Goal.cpp:87
 #, c-format
@@ -469,7 +473,9 @@ msgstr "パッケージ %s は %s を暗に廃止しました。これは %s に
 #: libdnf/goal/Goal.cpp:88
 #, c-format
 msgid "package %s requires %s, but none of the providers can be installed"
-msgstr "パッケージ %s には %s が必要ですが、どのプロバイダーからもインストールできません"
+msgstr ""
+"パッケージ %s には %s が必要ですが、どのプロバイダーからもインストールできま"
+"せん"
 
 #: libdnf/goal/Goal.cpp:89
 #, c-format
@@ -532,7 +538,9 @@ msgstr "モジュール %s は %s を廃止しました。これは %s により
 #: libdnf/goal/Goal.cpp:113
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s"
-msgstr "インストール済モジュール %s は %s を廃止しました。これは %s により提供されます"
+msgstr ""
+"インストール済モジュール %s は %s を廃止しました。これは %s により提供されま"
+"す"
 
 #: libdnf/goal/Goal.cpp:114
 #, c-format
@@ -542,7 +550,9 @@ msgstr "モジュール %s は %s を暗に廃止しました。これは %s に
 #: libdnf/goal/Goal.cpp:115
 #, c-format
 msgid "module %s requires %s, but none of the providers can be installed"
-msgstr "モジュール %s には %s が必要ですが、どのプロバイダーからもインストールできません"
+msgstr ""
+"モジュール %s には %s が必要ですが、どのプロバイダーからもインストールできま"
+"せん"
 
 #: libdnf/goal/Goal.cpp:116
 #, c-format
@@ -655,7 +665,9 @@ msgstr "モジュール '%s:%s' のモジュラーフェイルセーフデータ
 #: libdnf/module/ModulePackageContainer.cpp:1638
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
-msgstr "ディレクトリー \"%s\" を作成できません。対象モジュラーフェイルセーフデータ: %s"
+msgstr ""
+"ディレクトリー \"%s\" を作成できません。対象モジュラーフェイルセーフデータ: "
+"%s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1660
 #, c-format
