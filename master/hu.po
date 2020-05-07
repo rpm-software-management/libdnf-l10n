@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-07 09:18-0400\n"
 "PO-Revision-Date: 2020-05-07 15:57+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/hu/>\n"
 "Language: hu\n"
@@ -431,7 +431,7 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:80
 #, c-format
 msgid "package %s is not installable"
-msgstr ""
+msgstr "A(z) %s csomag nincs telepítve."
 
 #: libdnf/goal/Goal.cpp:81
 #, c-format
