@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-07 09:18-0400\n"
 "PO-Revision-Date: 2020-05-07 15:56+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/hu/>\n"
 "Language: hu\n"
@@ -408,7 +408,7 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:75 libdnf/goal/Goal.cpp:102
 msgid "some dependency problem"
-msgstr ""
+msgstr "függőségi problémák megjelenítése"
 
 #: libdnf/goal/Goal.cpp:76
 msgid "cannot install the best update candidate for package "
