@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-07 09:18-0400\n"
 "PO-Revision-Date: 2020-05-07 15:56+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/hu/>\n"
 "Language: hu\n"
@@ -220,7 +220,7 @@ msgstr ""
 #: libdnf/dnf-sack.cpp:641
 #, c-format
 msgid "can not create temporary file %s"
-msgstr "Nem hozható létre a(z) „%s” ideiglenes fájl"
+msgstr "nem hozható létre a(z) „%s” ideiglenes fájl"
 
 #: libdnf/dnf-sack.cpp:659
 #, c-format
