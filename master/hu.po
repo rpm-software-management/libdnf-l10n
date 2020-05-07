@@ -2,13 +2,14 @@
 # Meskó Balázs <meskobalazs@gmail.com>, 2017. #zanata
 # Teknős Ferenc <teknos.ferenc@gmail.com>, 2018. #zanata
 # Balázs Meskó <meskobalazs@mailbox.org>, 2020.
+# Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-04 09:18-0400\n"
 "PO-Revision-Date: 2020-05-07 15:55+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/hu/>\n"
 "Language: hu\n"
@@ -127,6 +128,8 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
+"A moduláris metaadatok nem érhetőek el a(z) „{}” moduláris csomaghoz, ezért "
+"nem telepíthető a rendszerre"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
