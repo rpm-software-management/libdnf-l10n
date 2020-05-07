@@ -1,20 +1,22 @@
 # Meskó Balázs <meskobalazs@gmail.com>, 2016. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2017. #zanata
 # Teknős Ferenc <teknos.ferenc@gmail.com>, 2018. #zanata
+# Balázs Meskó <meskobalazs@mailbox.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-04 09:18-0400\n"
-"PO-Revision-Date: 2018-09-29 11:48+0000\n"
-"Last-Translator: Teknős Ferenc <teknos.ferenc@gmail.com>\n"
-"Language-Team: Hungarian\n"
+"PO-Revision-Date: 2020-05-07 15:55+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
+"libdnf-dnf-4-master/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.0.3\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -28,7 +30,7 @@ msgstr "a(z) „%s” másodperc érték nem lehet negatív"
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
 msgid "could not convert '%s' to bytes"
-msgstr ""
+msgstr "a(z) „%s” nem alakítható bájtokká"
 
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
@@ -43,12 +45,12 @@ msgstr "a(z) „%s” százalék a tartományon kívül esik"
 #: libdnf/conf/OptionBinds.cpp:76
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr ""
+msgstr "Konfiguráció: a(z) „%s” azonosítójú OptionBinding nem létezik"
 
 #: libdnf/conf/OptionBinds.cpp:88
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr ""
+msgstr "Konfiguráció: a(z) „%s” azonosítójú OptionBinding már létezik"
 
 #: libdnf/conf/OptionBool.cpp:47
 #, c-format
@@ -63,7 +65,7 @@ msgstr "a(z) „%s” érték nem megengedett"
 
 #: libdnf/conf/OptionEnum.cpp:83 libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
-msgstr ""
+msgstr "érvénytelen érték"
 
 #: libdnf/conf/OptionNumber.cpp:73
 #, c-format
@@ -92,31 +94,32 @@ msgstr "a megadott „%s” útvonal nem létezik."
 #: libdnf/conf/OptionSeconds.cpp:52
 #, c-format
 msgid "could not convert '%s' to seconds"
-msgstr ""
+msgstr "a(z) „%s” nem alakítható másodpercekké"
 
 #: libdnf/conf/OptionString.cpp:74
 msgid "GetValue(): Value not set"
-msgstr ""
+msgstr "GetValue(): Nincs érték megadva"
 
 #: libdnf/dnf-goal.cpp:68
 msgid "Could not depsolve transaction; "
-msgstr ""
+msgstr "A tranzakció függőségei nem oldhatók fel; "
 
 #: libdnf/dnf-goal.cpp:70
 #, c-format
 msgid "%i problem detected:\n"
 msgid_plural "%i problems detected:\n"
-msgstr[0] ""
+msgstr[0] "%i probléma észlelve.\n"
+msgstr[1] "%i probléma észlelve.\n"
 
 #: libdnf/dnf-goal.cpp:78
 #, c-format
 msgid " Problem %1$i: %2$s\n"
-msgstr ""
+msgstr " %1$i. probléma: %2$s\n"
 
 #: libdnf/dnf-goal.cpp:80
 #, c-format
 msgid " Problem: %s\n"
-msgstr ""
+msgstr " Probléma: %s\n"
 
 #: libdnf/dnf-rpmts.cpp:79
 #, c-format
@@ -124,6 +127,8 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
+"A moduláris metaadatok nem érhetőek el a(z) „%s” moduláris csomaghoz, ezért "
+"nem telepíthető a rendszerre"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
@@ -723,7 +728,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:337
 #, c-format
 msgid "Bad id for repo: %s, byte = %s %d"
-msgstr ""
+msgstr "Hibás tárolóazonosító: %s, bájt = %s %d"
 
 #: libdnf/repo/Repo.cpp:362
 #, c-format
@@ -776,12 +781,12 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:890
 #, c-format
 msgid "repo %s: 0x%s already imported"
-msgstr ""
+msgstr "%s tároló: a 0x%s már importálva lett"
 
 #: libdnf/repo/Repo.cpp:918
 #, c-format
 msgid "repo %s: imported key 0x%s."
-msgstr ""
+msgstr "%s tároló: 0x%s kulcs importálva."
 
 #: libdnf/repo/Repo.cpp:1162
 #, c-format
