@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-24 09:18-0400\n"
-"PO-Revision-Date: 2020-05-24 14:31+0000\n"
+"PO-Revision-Date: 2020-05-25 14:40+0000\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/zh_TW/>\n"
@@ -430,7 +430,7 @@ msgstr "%s 軟體包已被排除過濾器濾掉"
 #: libdnf/goal/Goal.cpp:82
 #, c-format
 msgid "nothing provides %s needed by %s"
-msgstr "沒有軟體包提供 %2$s 需要的 %1$s"
+msgstr "沒有軟體包提供 %s (%s 需要)"
 
 #: libdnf/goal/Goal.cpp:83
 #, c-format
@@ -440,22 +440,22 @@ msgstr "無法安裝 %s 和 %s 兩個"
 #: libdnf/goal/Goal.cpp:84
 #, c-format
 msgid "package %s conflicts with %s provided by %s"
-msgstr "%1$s 軟體包與 %3$s 提供的 %2$s 衝突"
+msgstr "%s 軟體包與 %s (由 %s 提供) 衝突"
 
 #: libdnf/goal/Goal.cpp:85
 #, c-format
 msgid "package %s obsoletes %s provided by %s"
-msgstr "%1$s 軟體包棄用了 %3$s 提供的 %2$s"
+msgstr "%s 軟體包棄用了 %s (由 %s 提供)"
 
 #: libdnf/goal/Goal.cpp:86
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
-msgstr "安裝的 %1$s 軟體包棄用了 %3$s 提供的 %2$s"
+msgstr "安裝的 %s 軟體包棄用了 %s (由 %s 提供)"
 
 #: libdnf/goal/Goal.cpp:87
 #, c-format
 msgid "package %s implicitly obsoletes %s provided by %s"
-msgstr "%1$s 軟體包隱式棄用了 %3$s 提供的 %2$s"
+msgstr "%s 軟體包隱式棄用了 %s (由 %s 提供)"
 
 #: libdnf/goal/Goal.cpp:88
 #, c-format
@@ -503,7 +503,7 @@ msgstr "無法安裝 %s 模組"
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "nothing provides %s needed by module %s"
-msgstr "沒有軟體包提供 %2$s 模組需要的 %1$s"
+msgstr "沒有軟體包提供 %s (%s 模組需要)"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
@@ -513,22 +513,22 @@ msgstr "無法安裝 %s 和 %s 兩個模組"
 #: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid "module %s conflicts with %s provided by %s"
-msgstr "%1$s 模組與 %3$s 提供的 %2$s 衝突"
+msgstr "%s 模組與 %s (由 %s 提供) 衝突"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
 msgid "module %s obsoletes %s provided by %s"
-msgstr "%1$s 模組棄用了 %3$s 提供的 %2$s"
+msgstr "%s 模組棄用了 %s (由 %s 提供)"
 
 #: libdnf/goal/Goal.cpp:113
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s"
-msgstr "安裝的 %s 模組棄用了 %3$s 提供的 %2$s"
+msgstr "安裝的 %s 模組棄用了 %s (由 %s 提供)"
 
 #: libdnf/goal/Goal.cpp:114
 #, c-format
 msgid "module %s implicitly obsoletes %s provided by %s"
-msgstr "%1$s 模組隱式棄用了 %3$s 提供的 %2$s"
+msgstr "%s 模組隱式棄用了 %s (由 %s 提供)"
 
 #: libdnf/goal/Goal.cpp:115
 #, c-format
