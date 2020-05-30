@@ -1,14 +1,14 @@
-# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata
-# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata
-# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata
+# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020.
+# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020.
+# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020.
 # Mikael Granberg <mikael@famgra.se>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-25 09:18-0400\n"
-"PO-Revision-Date: 2020-05-11 22:44+0000\n"
-"Last-Translator: Mikael Granberg <mikael@famgra.se>\n"
+"PO-Revision-Date: 2020-05-31 19:40+0000\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/sv/>\n"
 "Language: sv\n"
@@ -299,7 +299,7 @@ msgstr ""
 
 #: libdnf/dnf-transaction.cpp:367
 msgid "Failed to check untrusted: "
-msgstr "Misslyckades att kontrollera ej betrodda:"
+msgstr "Misslyckades att kontrollera ej betrodda: "
 
 #: libdnf/dnf-transaction.cpp:377
 #, c-format
