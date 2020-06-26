@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-31 09:18-0400\n"
+"POT-Creation-Date: 2020-06-26 09:18-0400\n"
 "PO-Revision-Date: 2020-03-31 20:38+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
@@ -745,6 +745,13 @@ msgstr "Impossible de lire de dossier de l’extension « %s » : %s"
 #, c-format
 msgid "Can't load plugin \"%s\": %s"
 msgstr "Impossible de charger l’extension « %s » : %s"
+
+#: libdnf/repo/DependencySplitter.cpp:50
+msgid ""
+"Using '==' operator in reldeps can result in an undefined behavior. It is "
+"deprecated and the support will be dropped in future versions. Use '=' "
+"operator instead."
+msgstr ""
 
 #: libdnf/repo/Repo.cpp:321
 #, c-format
