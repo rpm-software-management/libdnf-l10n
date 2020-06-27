@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 09:18-0400\n"
+"POT-Creation-Date: 2020-06-26 08:17+0200\n"
 "PO-Revision-Date: 2018-11-02 05:26+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Italian\n"
@@ -724,13 +724,6 @@ msgstr ""
 #: libdnf/plugin/plugin.cpp:114
 #, c-format
 msgid "Can't load plugin \"%s\": %s"
-msgstr ""
-
-#: libdnf/repo/DependencySplitter.cpp:50
-msgid ""
-"Using '==' operator in reldeps can result in an undefined behavior. It is "
-"deprecated and the support will be dropped in future versions. Use '=' "
-"operator instead."
 msgstr ""
 
 #: libdnf/repo/Repo.cpp:321

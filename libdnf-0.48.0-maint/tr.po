@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 09:18-0400\n"
+"POT-Creation-Date: 2020-06-26 08:17+0200\n"
 "PO-Revision-Date: 2020-06-27 19:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
@@ -734,16 +734,6 @@ msgstr "Eklenti dizini \"%s\" okunamıyor: %s"
 msgid "Can't load plugin \"%s\": %s"
 msgstr "\"%s\" eklentisi yüklenemiyor: %s"
 
-#: libdnf/repo/DependencySplitter.cpp:50
-msgid ""
-"Using '==' operator in reldeps can result in an undefined behavior. It is "
-"deprecated and the support will be dropped in future versions. Use '=' "
-"operator instead."
-msgstr ""
-"Reldeps içinde '==' işleminin kullanılması tanımsız bir davranışa neden "
-"olabilir. Bu kullanımdan kaldırılmıştır ve gelecek sürümlerde destek "
-"kaldırılacaktır. Bunun yerine '=' işlemini kullanın."
-
 #: libdnf/repo/Repo.cpp:321
 #, c-format
 msgid "Repository %s has no mirror or baseurl set."
@@ -950,6 +940,15 @@ msgstr "TransactionItem durumu ayarlanmadı: %s"
 #: libdnf/transaction/private/Transaction.cpp:243
 msgid "Can't add console output to unsaved transaction"
 msgstr "Kaydedilmemiş işleme konsol çıktısı eklenemiyor"
+
+#~ msgid ""
+#~ "Using '==' operator in reldeps can result in an undefined behavior. It is "
+#~ "deprecated and the support will be dropped in future versions. Use '=' "
+#~ "operator instead."
+#~ msgstr ""
+#~ "Reldeps içinde '==' işleminin kullanılması tanımsız bir davranışa neden "
+#~ "olabilir. Bu kullanımdan kaldırılmıştır ve gelecek sürümlerde destek "
+#~ "kaldırılacaktır. Bunun yerine '=' işlemini kullanın."
 
 #~ msgid "Bad id for repo: %s, byte = %s %d"
 #~ msgstr "Depo için hatalı kimlik: %s, bayt = %s %d"

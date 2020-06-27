@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 09:18-0400\n"
+"POT-Creation-Date: 2020-06-26 08:17+0200\n"
 "PO-Revision-Date: 2020-06-27 19:40+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/"
@@ -748,16 +748,6 @@ msgstr "Nie można odczytać katalogu wtyczki „%s”: %s"
 msgid "Can't load plugin \"%s\": %s"
 msgstr "Nie można wczytać wtyczki „%s”: %s"
 
-#: libdnf/repo/DependencySplitter.cpp:50
-msgid ""
-"Using '==' operator in reldeps can result in an undefined behavior. It is "
-"deprecated and the support will be dropped in future versions. Use '=' "
-"operator instead."
-msgstr ""
-"Użycie operatora „==” w reldeps może spowodować nieokreślone zachowanie. "
-"Jest to przestarzałe i obsługa zostanie usunięta w przyszłych wersjach. "
-"Należy użyć operatora „=” zamiast tego."
-
 #: libdnf/repo/Repo.cpp:321
 #, c-format
 msgid "Repository %s has no mirror or baseurl set."
@@ -966,6 +956,15 @@ msgstr "Stan TransactionItem nie jest ustawiony: %s"
 #: libdnf/transaction/private/Transaction.cpp:243
 msgid "Can't add console output to unsaved transaction"
 msgstr "Nie można dodać wyjścia konsoli do niezapisanej transakcji"
+
+#~ msgid ""
+#~ "Using '==' operator in reldeps can result in an undefined behavior. It is "
+#~ "deprecated and the support will be dropped in future versions. Use '=' "
+#~ "operator instead."
+#~ msgstr ""
+#~ "Użycie operatora „==” w reldeps może spowodować nieokreślone zachowanie. "
+#~ "Jest to przestarzałe i obsługa zostanie usunięta w przyszłych wersjach. "
+#~ "Należy użyć operatora „=” zamiast tego."
 
 #~ msgid "Bad id for repo: %s, byte = %s %d"
 #~ msgstr "Błędny identyfikator dla repozytorium: %s, bajt = %s %d"
