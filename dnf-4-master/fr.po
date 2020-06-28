@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-27 09:18-0400\n"
-"PO-Revision-Date: 2020-03-31 20:38+0000\n"
+"PO-Revision-Date: 2020-06-29 02:40+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -752,6 +752,9 @@ msgid ""
 "deprecated and the support will be dropped in future versions. Use '=' "
 "operator instead."
 msgstr ""
+"L’utilisation de l’opérateur « == » dans reldeps peut entraîner un "
+"comportement indéfini. Il est déprécié et le support sera abandonné dans les "
+"prochaines versions. Utilisez plutôt l’opérateur « = »."
 
 #: libdnf/repo/Repo.cpp:321
 #, c-format
