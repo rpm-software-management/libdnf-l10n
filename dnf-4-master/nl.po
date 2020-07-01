@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-28 09:18-0400\n"
-"PO-Revision-Date: 2020-03-29 11:38+0000\n"
+"PO-Revision-Date: 2020-07-05 10:55+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/nl/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -741,6 +741,10 @@ msgid ""
 "deprecated and the support will be dropped in future versions. Use '=' "
 "operator instead."
 msgstr ""
+"Het gebruik van de '==' operator in reldeps kan resulteren in een "
+"ongedefinieerd gedrag. Het is verouderd en de ondersteuning zal in "
+"toekomstige versies worden geschrapt. Gebruik in plaats hiervan de operator "
+"'='."
 
 #: libdnf/repo/Repo.cpp:321
 #, c-format
