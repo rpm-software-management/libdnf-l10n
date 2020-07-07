@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-06 09:18-0400\n"
+"POT-Creation-Date: 2020-07-07 09:18-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "unknown unit '%s'"
 msgstr ""
 
-#: libdnf/conf/ConfigMain.cpp:330
+#: libdnf/conf/ConfigMain.cpp:331
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr ""
