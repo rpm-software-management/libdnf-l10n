@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-04 09:18-0400\n"
+"POT-Creation-Date: 2020-07-09 09:18-0400\n"
 "PO-Revision-Date: 2015-03-23 04:08+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Marathi\n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "unknown unit '%s'"
 msgstr ""
 
-#: libdnf/conf/ConfigMain.cpp:330
+#: libdnf/conf/ConfigMain.cpp:331
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-04 09:18-0400\n"
+"POT-Creation-Date: 2020-07-09 09:18-0400\n"
 "PO-Revision-Date: 2020-06-26 14:50+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -39,7 +39,7 @@ msgstr "не вдалося перетворити «%s» на байти"
 msgid "unknown unit '%s'"
 msgstr "невідома одиниця, «%s»"
 
-#: libdnf/conf/ConfigMain.cpp:330
+#: libdnf/conf/ConfigMain.cpp:331
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "значення відсотків, «%s», поза припустимим діапазоном"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-04 09:18-0400\n"
+"POT-Creation-Date: 2020-07-09 09:18-0400\n"
 "PO-Revision-Date: 2020-05-31 19:40+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
@@ -37,7 +37,7 @@ msgstr "kunde inte konvertera ”%s” till byte"
 msgid "unknown unit '%s'"
 msgstr "okänd enhet ”%s”"
 
-#: libdnf/conf/ConfigMain.cpp:330
+#: libdnf/conf/ConfigMain.cpp:331
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "procentsatsen ”%s” är utanför intervallet"
