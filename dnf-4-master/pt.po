@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-09 09:18-0400\n"
+"POT-Creation-Date: 2020-07-21 09:18-0400\n"
 "PO-Revision-Date: 2017-01-14 05:19+0000\n"
 "Last-Translator: Joao Almeida <intjalmeida@gmail.com>\n"
 "Language-Team: Portuguese\n"
@@ -592,30 +592,30 @@ msgstr ""
 msgid "cannot stat path %1$s: %2$s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:463
+#: libdnf/module/ModulePackage.cpp:499
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:478
+#: libdnf/module/ModulePackage.cpp:514
 msgid "Multiple module platforms provided by available packages\n"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:491
+#: libdnf/module/ModulePackage.cpp:527
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:518
+#: libdnf/module/ModulePackage.cpp:554
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:527
+#: libdnf/module/ModulePackage.cpp:563
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:532
+#: libdnf/module/ModulePackage.cpp:568
 msgid "No valid Platform ID detected"
 msgstr ""
 
@@ -654,27 +654,27 @@ msgstr ""
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr ""
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:44
+#: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
 msgid "Failed to update from string: %s"
 msgstr ""
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:68
+#: libdnf/module/modulemd/ModuleMetadata.cpp:110
 #, c-format
 msgid "Failed to resolve: %s"
 msgstr ""
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:73
+#: libdnf/module/modulemd/ModuleMetadata.cpp:115
 #, c-format
 msgid "There were errors while resolving modular defaults: %s"
 msgstr ""
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:78
+#: libdnf/module/modulemd/ModuleMetadata.cpp:120
 #, c-format
 msgid "Failed to upgrade defaults: %s"
 msgstr ""
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:81
+#: libdnf/module/modulemd/ModuleMetadata.cpp:123
 #, c-format
 msgid "Failed to upgrade streams: %s"
 msgstr ""
@@ -865,12 +865,12 @@ msgstr ""
 msgid "PackageTarget initialization failed: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1887
+#: libdnf/repo/Repo.cpp:1876
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1931
+#: libdnf/repo/Repo.cpp:1920
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr ""

@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-09 09:18-0400\n"
+"POT-Creation-Date: 2020-07-21 09:18-0400\n"
 "PO-Revision-Date: 2020-05-05 09:40+0000\n"
 "Last-Translator: Casey Jones <nahareport@yahoo.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -612,30 +612,30 @@ msgstr "ディレクトリー %1$s を作成できません : %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "パス %1$s のstatを調べられません : %2$s"
 
-#: libdnf/module/ModulePackage.cpp:463
+#: libdnf/module/ModulePackage.cpp:499
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "不正なプラットフォームモジュールのフォーマット: %s"
 
-#: libdnf/module/ModulePackage.cpp:478
+#: libdnf/module/ModulePackage.cpp:514
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "利用可能パッケージに提供される複数のモジュールプラットフォーム\n"
 
-#: libdnf/module/ModulePackage.cpp:491
+#: libdnf/module/ModulePackage.cpp:527
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "インストール済パッケージに提供される複数のモジュールプラットフォーム\n"
 
-#: libdnf/module/ModulePackage.cpp:518
+#: libdnf/module/ModulePackage.cpp:554
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "%s のプラットフォームモジュールの検出に失敗しました: %s"
 
-#: libdnf/module/ModulePackage.cpp:527
+#: libdnf/module/ModulePackage.cpp:563
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "%s に PLATFORM_ID が見つかりません"
 
-#: libdnf/module/ModulePackage.cpp:532
+#: libdnf/module/ModulePackage.cpp:568
 msgid "No valid Platform ID detected"
 msgstr "有効な Platform ID が検出されませんでした"
 
@@ -676,27 +676,27 @@ msgstr "'%s' のモジュラーフェイルセーフデータを保存できま�
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "'%s' のモジュラーフェイルセーフデータを削除できません"
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:44
+#: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
 msgid "Failed to update from string: %s"
 msgstr "文字列からのアップデートに失敗しました: %s"
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:68
+#: libdnf/module/modulemd/ModuleMetadata.cpp:110
 #, c-format
 msgid "Failed to resolve: %s"
 msgstr "名前解決に失敗しました: %s"
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:73
+#: libdnf/module/modulemd/ModuleMetadata.cpp:115
 #, c-format
 msgid "There were errors while resolving modular defaults: %s"
 msgstr ""
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:78
+#: libdnf/module/modulemd/ModuleMetadata.cpp:120
 #, c-format
 msgid "Failed to upgrade defaults: %s"
 msgstr "デフォルトのアップグレードに失敗しました: %s"
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:81
+#: libdnf/module/modulemd/ModuleMetadata.cpp:123
 #, c-format
 msgid "Failed to upgrade streams: %s"
 msgstr "ストリームのアップグレードに失敗しました: %s"
@@ -893,12 +893,12 @@ msgstr "resume は byterangestart param と同時に使用できません"
 msgid "PackageTarget initialization failed: %s"
 msgstr "PackageTarget の初期化に失敗しました: %s"
 
-#: libdnf/repo/Repo.cpp:1887
+#: libdnf/repo/Repo.cpp:1876
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "%s を開くことができません: %s"
 
-#: libdnf/repo/Repo.cpp:1931
+#: libdnf/repo/Repo.cpp:1920
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "id %ld を伴うログハンドラーは存在しません"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-09 09:18-0400\n"
+"POT-Creation-Date: 2020-07-21 09:18-0400\n"
 "PO-Revision-Date: 2020-06-29 02:40+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
@@ -614,33 +614,33 @@ msgstr "impossible de créer le dossier %1$s : %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "impossible de stat le chemin %1$s : %2$s"
 
-#: libdnf/module/ModulePackage.cpp:463
+#: libdnf/module/ModulePackage.cpp:499
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "Format invalide du module de plateforme : %s"
 
-#: libdnf/module/ModulePackage.cpp:478
+#: libdnf/module/ModulePackage.cpp:514
 msgid "Multiple module platforms provided by available packages\n"
 msgstr ""
 "De multiples modules de plateformes sont fournis par les paquets "
 "disponibles\n"
 
-#: libdnf/module/ModulePackage.cpp:491
+#: libdnf/module/ModulePackage.cpp:527
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr ""
 "De multiples modules de plateformes sont fournis par les paquets installés\n"
 
-#: libdnf/module/ModulePackage.cpp:518
+#: libdnf/module/ModulePackage.cpp:554
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "La détection des modules de plateformes dans %s a échoué : %s"
 
-#: libdnf/module/ModulePackage.cpp:527
+#: libdnf/module/ModulePackage.cpp:563
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "L'identifiant de la platforme est manquant dans %s"
 
-#: libdnf/module/ModulePackage.cpp:532
+#: libdnf/module/ModulePackage.cpp:568
 msgid "No valid Platform ID detected"
 msgstr "Aucun identifiant de plateforme n'a été détecté"
 
@@ -684,28 +684,28 @@ msgstr ""
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Impossible de supprimer les données de sécurité modulaires dans « %s »"
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:44
+#: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
 msgid "Failed to update from string: %s"
 msgstr "Échec de la mise à jour depuis la chaine : %s"
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:68
+#: libdnf/module/modulemd/ModuleMetadata.cpp:110
 #, c-format
 msgid "Failed to resolve: %s"
 msgstr "Échec de la résolution : %s"
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:73
+#: libdnf/module/modulemd/ModuleMetadata.cpp:115
 #, c-format
 msgid "There were errors while resolving modular defaults: %s"
 msgstr ""
 "Il y a eu des erreurs lors de la résolution des modulaires par défaut : %s"
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:78
+#: libdnf/module/modulemd/ModuleMetadata.cpp:120
 #, c-format
 msgid "Failed to upgrade defaults: %s"
 msgstr "Échec de la mise à jour des paramètres par défaut : %s"
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:81
+#: libdnf/module/modulemd/ModuleMetadata.cpp:123
 #, c-format
 msgid "Failed to upgrade streams: %s"
 msgstr "Échec de la mise à jour des flux : %s"
@@ -907,12 +907,12 @@ msgstr ""
 msgid "PackageTarget initialization failed: %s"
 msgstr "L’initialisation de Package Target a échoué : %s"
 
-#: libdnf/repo/Repo.cpp:1887
+#: libdnf/repo/Repo.cpp:1876
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "impossible d’ouvrir %s : %s"
 
-#: libdnf/repo/Repo.cpp:1931
+#: libdnf/repo/Repo.cpp:1920
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "Log handler ayant pour id %ld n’existe pas"
