@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 08:17+0200\n"
-"PO-Revision-Date: 2020-08-17 21:29+0000\n"
+"PO-Revision-Date: 2020-08-19 13:29+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-libdnf-0480-maint/sv/>\n"
@@ -367,190 +367,192 @@ msgstr "Felformad väljare, det finns flera matchningsobjekt i filtret"
 
 #: libdnf/goal/Goal.cpp:56
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
-msgstr ""
+msgstr "Felformulerad väljare använd för åtgärden, felaktig jämförelsetyp"
 
 #: libdnf/goal/Goal.cpp:67 libdnf/goal/Goal.cpp:94
 msgid " does not belong to a distupgrade repository"
-msgstr ""
+msgstr " tillhör inte något dist-uppgraderingsförråd"
 
 #: libdnf/goal/Goal.cpp:68 libdnf/goal/Goal.cpp:95
 msgid " has inferior architecture"
-msgstr ""
+msgstr " har underarkitektur"
 
 #: libdnf/goal/Goal.cpp:69
 msgid "problem with installed package "
-msgstr ""
+msgstr "problem med installerat paket "
 
 #: libdnf/goal/Goal.cpp:70 libdnf/goal/Goal.cpp:97
 msgid "conflicting requests"
-msgstr ""
+msgstr "begäranden i konflikt"
 
 #: libdnf/goal/Goal.cpp:71 libdnf/goal/Goal.cpp:98
 msgid "unsupported request"
-msgstr ""
+msgstr "begäran som ej stödjs"
 
 #: libdnf/goal/Goal.cpp:72 libdnf/goal/Goal.cpp:99
 msgid "nothing provides requested "
-msgstr ""
+msgstr "inget tillhandahåller begärda "
 
 #: libdnf/goal/Goal.cpp:73
 #, c-format
 msgid "package %s does not exist"
-msgstr ""
+msgstr "paketet %s finns inte"
 
 #: libdnf/goal/Goal.cpp:74 libdnf/goal/Goal.cpp:101
 msgid " is provided by the system"
-msgstr ""
+msgstr " tillhandahålls av systemet"
 
 #: libdnf/goal/Goal.cpp:75 libdnf/goal/Goal.cpp:102
 msgid "some dependency problem"
-msgstr ""
+msgstr "något beroendeproblem"
 
 #: libdnf/goal/Goal.cpp:76
 msgid "cannot install the best update candidate for package "
 msgstr ""
+"det går inte att installera den bästa uppdateringskandidaten för paketet "
 
 #: libdnf/goal/Goal.cpp:77 libdnf/goal/Goal.cpp:104
 msgid "cannot install the best candidate for the job"
-msgstr ""
+msgstr "det går inte att installera den bästa kandidaten för jobbet"
 
 #: libdnf/goal/Goal.cpp:78
 #, c-format
 msgid "package %s is filtered out by modular filtering"
-msgstr ""
+msgstr "paketet %s är utfiltrerat av modulfiltrering"
 
 #: libdnf/goal/Goal.cpp:79
 #, c-format
 msgid "package %s does not have a compatible architecture"
-msgstr ""
+msgstr "paketet %s har inte en kompatibel arkitektur"
 
 #: libdnf/goal/Goal.cpp:80
 #, c-format
 msgid "package %s is not installable"
-msgstr ""
+msgstr "Paketet %s är inte installerat."
 
 #: libdnf/goal/Goal.cpp:81
 #, c-format
 msgid "package %s is filtered out by exclude filtering"
-msgstr ""
+msgstr "paketet %s är utfiltrerat av uteslutningsfiltrering"
 
 #: libdnf/goal/Goal.cpp:82
 #, c-format
 msgid "nothing provides %s needed by %s"
-msgstr ""
+msgstr "inget tillhandahåller %s som behövs av %s"
 
 #: libdnf/goal/Goal.cpp:83
 #, c-format
 msgid "cannot install both %s and %s"
-msgstr ""
+msgstr "det går inte att installera både %s och %s"
 
 #: libdnf/goal/Goal.cpp:84
 #, c-format
 msgid "package %s conflicts with %s provided by %s"
-msgstr ""
+msgstr "paketet %s står i konflikt med %s som tillhandahålls av %s"
 
 #: libdnf/goal/Goal.cpp:85
 #, c-format
 msgid "package %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "paketet %s fasar ut %s som tillhandahålls av %s"
 
 #: libdnf/goal/Goal.cpp:86
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "det installerade paketet %s fasar ut %s som tillhandahålls av %s"
 
 #: libdnf/goal/Goal.cpp:87
 #, c-format
 msgid "package %s implicitly obsoletes %s provided by %s"
-msgstr ""
+msgstr "paketet %s fasar implicit ut %s som tillhandahålls av %s"
 
 #: libdnf/goal/Goal.cpp:88
 #, c-format
 msgid "package %s requires %s, but none of the providers can be installed"
-msgstr ""
+msgstr "paketet %s behöver %s, men ingen av leverantörerna kan installeras"
 
 #: libdnf/goal/Goal.cpp:89
 #, c-format
 msgid "package %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "paketet %s står i konflikt med %s som det tillhandahåller själv"
 
 #: libdnf/goal/Goal.cpp:90
 #, c-format
 msgid "both package %s and %s obsolete %s"
-msgstr ""
+msgstr "både paketet %s och %s fasar ut %s"
 
 #: libdnf/goal/Goal.cpp:96
 msgid "problem with installed module "
-msgstr ""
+msgstr "problem med den installerade modulen "
 
 #: libdnf/goal/Goal.cpp:100
 #, c-format
 msgid "module %s does not exist"
-msgstr ""
+msgstr "modulen %s finns inte"
 
 #: libdnf/goal/Goal.cpp:103
 msgid "cannot install the best update candidate for module "
 msgstr ""
+"det går inte att installera den bästa uppdateringskandidaten för modulen "
 
 #: libdnf/goal/Goal.cpp:105 libdnf/goal/Goal.cpp:108
 #, c-format
 msgid "module %s is disabled"
-msgstr ""
+msgstr "modulen %s är avaktiverad"
 
 #: libdnf/goal/Goal.cpp:106
 #, c-format
 msgid "module %s does not have a compatible architecture"
-msgstr ""
+msgstr "modulen %s har inte en kompatibel arkitektur"
 
 #: libdnf/goal/Goal.cpp:107
 #, c-format
 msgid "module %s is not installable"
-msgstr ""
+msgstr "modulen %s är inte installerbar"
 
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "nothing provides %s needed by module %s"
-msgstr ""
+msgstr "ingenting tillhandahåller %s som behövs av modulen %s"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
 msgid "cannot install both modules %s and %s"
-msgstr ""
+msgstr "det går inte att installera både modulen %s och %s"
 
 #: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid "module %s conflicts with %s provided by %s"
-msgstr ""
+msgstr "modulen %s står i konflikt med %s som tillhandahålls av %s"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
 msgid "module %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "modulen %s fasar ut %s som tillhandahålls av %s"
 
 #: libdnf/goal/Goal.cpp:113
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "den installerade modulen %s fasar ut %s som tillhandahålls av %s"
 
 #: libdnf/goal/Goal.cpp:114
 #, c-format
 msgid "module %s implicitly obsoletes %s provided by %s"
-msgstr ""
+msgstr "modulen %s fasar implicit ut %s som tillhandahålls av %s"
 
 #: libdnf/goal/Goal.cpp:115
 #, c-format
 msgid "module %s requires %s, but none of the providers can be installed"
-msgstr ""
+msgstr "modulen %s behöver %s, men ingen av leverantörerna kan installeras"
 
 #: libdnf/goal/Goal.cpp:116
 #, c-format
 msgid "module %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "modulen %s står i konflikt med %s som den tillhandahåller själv"
 
 #: libdnf/goal/Goal.cpp:117
 #, c-format
 msgid "both module %s and %s obsolete %s"
-msgstr ""
+msgstr "både modulen %s och %s fasar ut %s"
 
 #: libdnf/goal/Goal.cpp:1032
 msgid "no solver set"
