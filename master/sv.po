@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-22 09:18-0400\n"
-"PO-Revision-Date: 2020-08-23 08:29+0000\n"
+"PO-Revision-Date: 2020-08-25 16:29+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/sv/>\n"
@@ -124,7 +124,7 @@ msgid ""
 "on the system"
 msgstr ""
 "Inga modulära metadata tillgängliga för modulära paketet '%s'; kan inte "
-"installeras på systemet."
+"installeras på systemet"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
@@ -653,83 +653,83 @@ msgstr "Kan inte läsa in modulär felsäker data vid ”%s”"
 #: libdnf/module/ModulePackageContainer.cpp:1574
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
-msgstr ""
+msgstr "Kan inte läsa in modulär felsäker data för modulen ”%s:%s”"
 
 #: libdnf/module/ModulePackageContainer.cpp:1638
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
-msgstr ""
+msgstr "Det går inte att skapa katalogen ”%s” för modulär felsäker data: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1660
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
-msgstr ""
+msgstr "Kan inte spara modulär felsäker data till ”%s”"
 
 #: libdnf/module/ModulePackageContainer.cpp:1685
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
-msgstr ""
+msgstr "Kan inte ta bort modulär felsäker data i ”%s”"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:43
 #, c-format
 msgid "Failed to update from string: %s"
-msgstr ""
+msgstr "Misslyckades att uppgradera från en sträng: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:68
 #: libdnf/module/modulemd/ModuleMetadata.cpp:70
 #, c-format
 msgid "Failed to resolve: %s"
-msgstr ""
+msgstr "Misslyckades att slå upp: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:74
 #, c-format
 msgid "Failed to upgrade defaults: %s"
-msgstr ""
+msgstr "Misslyckades att uppgradera standardvärden: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:77
 #, c-format
 msgid "Failed to upgrade streams: %s"
-msgstr ""
+msgstr "Misslyckades att uppgradera strömmar: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
 msgid "Can't load shared library \"%s\": %s"
-msgstr ""
+msgstr "Kan inte ladda det delade biblioteket ”%s”: %s"
 
 #: libdnf/plugin/plugin.cpp:61 libdnf/plugin/plugin.cpp:67
 #: libdnf/plugin/plugin.cpp:73 libdnf/plugin/plugin.cpp:79
 #, c-format
 msgid "Can't obtain address of symbol \"%s\": %s"
-msgstr ""
+msgstr "Kan inte få adressen till symbolen ”%s”: %s"
 
 #: libdnf/plugin/plugin.cpp:86
 #, c-format
 msgid "Loading plugin file=\"%s\""
-msgstr ""
+msgstr "Läser in insticksmodulsfilen=”%s”"
 
 #: libdnf/plugin/plugin.cpp:89
 #, c-format
 msgid "Loaded plugin name=\"%s\", version=\"%s\""
-msgstr ""
+msgstr "Läste in insticksmodulen namn=”%s”, version=”%s”"
 
 #: libdnf/plugin/plugin.cpp:96
 msgid "Plugins::loadPlugins() dirPath cannot be empty"
-msgstr ""
+msgstr "Plugins::loadPlugins() dirPath får inte vara tom"
 
 #: libdnf/plugin/plugin.cpp:105
 #, c-format
 msgid "Can't read plugin directory \"%s\": %s"
-msgstr ""
+msgstr "Kan inte läsa katalogen för insticksmoduler ”%s”: %s"
 
 #: libdnf/plugin/plugin.cpp:114
 #, c-format
 msgid "Can't load plugin \"%s\": %s"
-msgstr ""
+msgstr "Kan inte läsa in insticksmodulen ”%s”: %s"
 
 #: libdnf/repo/Repo.cpp:337
 #, c-format
 msgid "Bad id for repo: %s, byte = %s %d"
-msgstr ""
+msgstr "Felaktigt id för förrådet: %s, byte = %s %d"
 
 #: libdnf/repo/Repo.cpp:362
 #, c-format
@@ -739,7 +739,7 @@ msgstr "Förrådet %s har ingen spegel eller bas-url satt."
 #: libdnf/repo/Repo.cpp:371
 #, c-format
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
-msgstr ""
+msgstr "Förrådet ”%s” har en typ som inte stödjs: ”type=%s”, hoppar över."
 
 #: libdnf/repo/Repo.cpp:580
 #, c-format
@@ -777,7 +777,7 @@ msgstr "kan inte lista nycklar: %s"
 #: libdnf/repo/Repo.cpp:839
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
-msgstr ""
+msgstr "Misslyckades att hämta GPG-nyckel för förrådet ”%s”: %s"
 
 #: libdnf/repo/Repo.cpp:892
 #, c-format
@@ -823,7 +823,7 @@ msgstr "återupplivar: misslyckades med ”%s”, repomd stämmer inte."
 #: libdnf/repo/Repo.cpp:1257
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
-msgstr ""
+msgstr "Kan inte skapa målkatalogen för förrådet ”%s”: %s"
 
 #: libdnf/repo/Repo.cpp:1263
 #, c-format
@@ -858,7 +858,7 @@ msgstr "förråd: hämtar från fjärrförråd: %s"
 #: libdnf/repo/Repo.cpp:1345
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
-msgstr ""
+msgstr "Misslyckades att hämta metadata för förrådet ”%s”: %s"
 
 #: libdnf/repo/Repo.cpp:1371
 msgid "getCachedir(): Computation of SHA256 failed"
@@ -867,7 +867,7 @@ msgstr "getCachedir(): Beräkningen av SHA256 misslyckades"
 #: libdnf/repo/Repo.cpp:1396
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
-msgstr ""
+msgstr "Det går inte att skapa ett persistdir ”%s”: %s"
 
 #: libdnf/repo/Repo.cpp:1796
 msgid "resume cannot be used simultaneously with the byterangestart param"
