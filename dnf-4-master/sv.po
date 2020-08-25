@@ -2,13 +2,14 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020.
 # Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020.
 # Mikael Granberg <mikael@famgra.se>, 2020.
+# Vilhelm Prytz <vilhelm@prytznet.se>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-25 09:18-0400\n"
 "PO-Revision-Date: 2020-08-26 19:29+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"Last-Translator: Vilhelm Prytz <vilhelm@prytznet.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/sv/>\n"
 "Language: sv\n"
@@ -259,7 +260,7 @@ msgstr "misslyckades att läsa in RPMDB"
 #: libdnf/dnf-sack.cpp:2403
 #, c-format
 msgid "No module defaults found: %s"
-msgstr "Inga modulstandarder hittade: %s"
+msgstr "Inga standardmoduler funna: %s"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
