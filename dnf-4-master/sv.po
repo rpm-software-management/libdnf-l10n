@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-25 09:18-0400\n"
-"PO-Revision-Date: 2020-08-25 16:29+0000\n"
+"PO-Revision-Date: 2020-08-26 19:29+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/sv/>\n"
@@ -123,7 +123,7 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
-"Inga modulära metadata tillgängliga för modulära paketet '%s'; kan inte "
+"Inga modulära metadata tillgängliga för det modulära paketet ”%s”; kan inte "
 "installeras på systemet"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
@@ -428,7 +428,7 @@ msgstr "paketet %s har inte en kompatibel arkitektur"
 #: libdnf/goal/Goal.cpp:80
 #, c-format
 msgid "package %s is not installable"
-msgstr "Paketet %s är inte installerat."
+msgstr "paketet %s är inte installerbart"
 
 #: libdnf/goal/Goal.cpp:81
 #, c-format
@@ -552,7 +552,7 @@ msgstr "modulen %s står i konflikt med %s som den tillhandahåller själv"
 #: libdnf/goal/Goal.cpp:117
 #, c-format
 msgid "both module %s and %s obsolete %s"
-msgstr "både modulen %s och %s fasar ut %s"
+msgstr "både modulen %s och %s fasar ut %sx"
 
 #: libdnf/goal/Goal.cpp:1032
 msgid "no solver set"
@@ -733,6 +733,9 @@ msgid ""
 "deprecated and the support will be dropped in future versions. Use '=' "
 "operator instead."
 msgstr ""
+"Att använda operatorn ”==” i reldeps kan resultera i ett odefinierat "
+"beteende. Det undanbedes och stödet kommer tas bort i framtida versioner. "
+"Använd operatorn ”=” istället."
 
 #: libdnf/repo/Repo.cpp:321
 #, c-format
@@ -754,7 +757,7 @@ msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
 msgstr ""
-"Maximal hämtningshastighet är mindre än minimum.  Ändra konfigurationen av "
+"Maximal hämtningshastighet är mindre än minimum. Ändra konfigurationen av "
 "minrate eller throttle"
 
 #: libdnf/repo/Repo.cpp:623 libdnf/repo/Repo.cpp:645
