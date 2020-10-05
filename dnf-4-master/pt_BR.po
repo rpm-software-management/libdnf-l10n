@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-24 09:18-0400\n"
+"POT-Creation-Date: 2020-10-05 09:18-0400\n"
 "PO-Revision-Date: 2020-08-05 17:29+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -39,7 +39,7 @@ msgstr "não foi possível converter '%s'para bytes"
 msgid "unknown unit '%s'"
 msgstr "unidade desconhecida '%s'"
 
-#: libdnf/conf/ConfigMain.cpp:331
+#: libdnf/conf/ConfigMain.cpp:332
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "porcentagem '%s' está fora do intervalo"

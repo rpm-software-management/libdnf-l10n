@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-24 09:18-0400\n"
+"POT-Creation-Date: 2020-10-05 09:18-0400\n"
 "PO-Revision-Date: 2020-08-28 12:29+0000\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -37,7 +37,7 @@ msgstr "無法將「%s」轉換成位元組"
 msgid "unknown unit '%s'"
 msgstr "未知的單位「%s」"
 
-#: libdnf/conf/ConfigMain.cpp:331
+#: libdnf/conf/ConfigMain.cpp:332
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "「%s」百分比超出範圍"
