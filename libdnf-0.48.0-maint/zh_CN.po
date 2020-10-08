@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 08:17+0200\n"
-"PO-Revision-Date: 2020-07-09 13:27+0000\n"
+"PO-Revision-Date: 2020-10-08 21:32+0000\n"
 "Last-Translator: Charles Lee <lchopn@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-libdnf-0480-maint/zh_CN/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.2.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -119,7 +119,7 @@ msgstr " 问题: %s\n"
 msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
-msgstr ""
+msgstr "对于模块软件包 '%s' 没有可用的模块元数据，它将不能被安装至此系统上"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
@@ -395,7 +395,7 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:75 libdnf/goal/Goal.cpp:102
 msgid "some dependency problem"
-msgstr ""
+msgstr "一些依赖问题"
 
 #: libdnf/goal/Goal.cpp:76
 msgid "cannot install the best update candidate for package "
@@ -418,7 +418,7 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:80
 #, c-format
 msgid "package %s is not installable"
-msgstr ""
+msgstr "软件包 %s 不可安装"
 
 #: libdnf/goal/Goal.cpp:81
 #, c-format
@@ -477,7 +477,7 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:100
 #, c-format
 msgid "module %s does not exist"
-msgstr ""
+msgstr "模块 %s 不存在"
 
 #: libdnf/goal/Goal.cpp:103
 msgid "cannot install the best update candidate for module "
@@ -587,7 +587,7 @@ msgstr "在 %1$s 中设置 perms 失败: %2$s"
 #: libdnf/hy-iutil.cpp:376
 #, c-format
 msgid "cannot create directory %1$s: %2$s"
-msgstr ""
+msgstr "无法创建目录 %1$s: %2$s"
 
 #: libdnf/hy-iutil.cpp:411
 #, c-format
@@ -664,7 +664,7 @@ msgstr ""
 #: libdnf/module/modulemd/ModuleMetadata.cpp:68
 #, c-format
 msgid "Failed to resolve: %s"
-msgstr ""
+msgstr "无法解析: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:73
 #, c-format
@@ -805,7 +805,7 @@ msgstr "恢复: '%s' 失败，不匹配的 repomd。"
 #: libdnf/repo/Repo.cpp:1214
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
-msgstr ""
+msgstr "无法创建仓库目标目录 \"%s\": %s"
 
 #: libdnf/repo/Repo.cpp:1220
 #, c-format
