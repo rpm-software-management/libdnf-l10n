@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-12 09:18-0400\n"
-"PO-Revision-Date: 2020-10-05 20:30+0000\n"
+"PO-Revision-Date: 2020-10-18 19:15+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/ru/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.3.1-dev\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -264,7 +264,7 @@ msgstr "не удалось загрузить RPMDB"
 
 #: libdnf/dnf-sack.cpp:2466
 msgid "No module defaults found"
-msgstr ""
+msgstr "Не найдено стандартных настроек модуля"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
@@ -737,7 +737,7 @@ msgstr "Не загружается дополнение «%s»: %s"
 #: libdnf/repo/Repo.cpp:337
 #, c-format
 msgid "Bad id for repo: %s, byte = %s %d"
-msgstr ""
+msgstr "Плохой идентификатор для репозитория: %s, байт = %s %d"
 
 #: libdnf/repo/Repo.cpp:362
 #, c-format
