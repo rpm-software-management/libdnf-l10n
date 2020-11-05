@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-04 09:18-0500\n"
+"POT-Creation-Date: 2020-11-05 09:18-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -94,6 +94,105 @@ msgstr ""
 
 #: libdnf/conf/OptionString.cpp:74
 msgid "GetValue(): Value not set"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3033 libdnf/dnf-context.cpp:3042
+#, c-format
+msgid "Cannot enable more streams from module '%s' at the same time"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3051 libdnf/dnf-context.cpp:3069
+#, c-format
+msgid ""
+"Cannot enable module '%1$s' stream '%2$s': State of module already modified"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3118
+#, c-format
+msgid "Modular dependency problem with Defaults: %s"
+msgstr ""
+
+#. TODO(jmracek) Remove printf when logger will proparly work with g_logger
+#: libdnf/dnf-context.cpp:3120
+#, c-format
+msgid "Modular dependency problem with Defaults: %s\n"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3123
+#, c-format
+msgid "Modular dependency problem: %s"
+msgstr ""
+
+#. TODO(jmracek) Remove printf when logger will proparly work with g_logger
+#: libdnf/dnf-context.cpp:3126
+#, c-format
+msgid "Modular dependency problem: %s\n"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3167 libdnf/dnf-context.cpp:3191
+#: libdnf/dnf-context.cpp:3202 libdnf/dnf-context.cpp:3241
+#: libdnf/dnf-context.cpp:3257 libdnf/dnf-context.cpp:3289
+#, c-format
+msgid "Unable to resolve argument '%s'"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3174
+#, c-format
+msgid ""
+"Only module name is required. Ignoring unneeded information in argument: '%s'"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3188
+#, c-format
+msgid "Cannot reset module '%s': State of module already modified"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3199
+#, c-format
+msgid "Cannot disable module '%s': State of module already modified"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3230 libdnf/dnf-context.cpp:3321
+msgid "No modular data available"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3247
+#, c-format
+msgid "Ignoring unneeded information in argument: '%s'"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3285
+#, c-format
+msgid ""
+"Problem during enablement of dependency tree for moduele '%1$s' stream "
+"'%2$s': %3$s"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3297
+msgid "Problems appeared for module enable request"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3352
+msgid "Problems appeared for module reset request"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3354
+msgid "Problems appeared for module disable request"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3390
+#, c-format
+msgid ""
+"The operation would result in switching of module '%s' stream '%s' to stream "
+"'%s'"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3397
+msgid ""
+"It is not possible to switch enabled streams of a module.\n"
+"It is recommended to remove all installed content from the module, and reset "
+"the module using 'microdnf module reset <module_name>' command. After you "
+"reset the module, you can install the other stream."
 msgstr ""
 
 #: libdnf/dnf-goal.cpp:68
@@ -340,7 +439,7 @@ msgstr ""
 msgid "Error %i running transaction"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1473
+#: libdnf/dnf-transaction.cpp:1474
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
@@ -572,7 +671,16 @@ msgstr ""
 msgid "no solution possible"
 msgstr ""
 
-#: libdnf/goal/Goal.cpp:1482
+#: libdnf/goal/Goal.cpp:1193
+msgid "Problem: "
+msgstr ""
+
+#: libdnf/goal/Goal.cpp:1198
+#, c-format
+msgid "Problem %d: "
+msgstr ""
+
+#: libdnf/goal/Goal.cpp:1525
 msgid ""
 "The operation would result in removing the following protected packages: "
 msgstr ""
@@ -634,27 +742,51 @@ msgstr ""
 msgid "Conflicting defaults with repo '%s': %s"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:1569
+#: libdnf/module/ModulePackageContainer.cpp:829
+msgid "Installing module profiles:\n"
+msgstr ""
+
+#: libdnf/module/ModulePackageContainer.cpp:844
+msgid "Disabling module profiles:\n"
+msgstr ""
+
+#: libdnf/module/ModulePackageContainer.cpp:859
+msgid "Enabling module streams:\n"
+msgstr ""
+
+#: libdnf/module/ModulePackageContainer.cpp:873
+msgid "Switching module streams:\n"
+msgstr ""
+
+#: libdnf/module/ModulePackageContainer.cpp:891
+msgid "Disabling modules:\n"
+msgstr ""
+
+#: libdnf/module/ModulePackageContainer.cpp:902
+msgid "Resetting modules:\n"
+msgstr ""
+
+#: libdnf/module/ModulePackageContainer.cpp:1586
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:1575
+#: libdnf/module/ModulePackageContainer.cpp:1592
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:1639
+#: libdnf/module/ModulePackageContainer.cpp:1656
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:1661
+#: libdnf/module/ModulePackageContainer.cpp:1678
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:1686
+#: libdnf/module/ModulePackageContainer.cpp:1703
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr ""
