@@ -1,11 +1,12 @@
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
+# Ricky Tigg <ricky.tigg@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-18 09:18-0400\n"
-"PO-Revision-Date: 2020-03-22 12:28+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2020-11-17 14:35+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fi/>\n"
 "Language: fi\n"
@@ -13,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -27,7 +28,7 @@ msgstr "sekuntien arvo '%s' ei saa olla negatiivinen"
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
 msgid "could not convert '%s' to bytes"
-msgstr ""
+msgstr "'%s' ei voitu muuntaa tavuiksi"
 
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
@@ -37,7 +38,7 @@ msgstr "tuntematon yksikkö '%s'"
 #: libdnf/conf/ConfigMain.cpp:332
 #, c-format
 msgid "percentage '%s' is out of range"
-msgstr ""
+msgstr "prosenttiosuus '%s' on alueen ulkopuolella"
 
 #: libdnf/conf/OptionBinds.cpp:76
 #, c-format
@@ -191,7 +192,7 @@ msgstr "avaaminen epäonnistui: %s"
 #: libdnf/dnf-sack.cpp:501
 #, c-format
 msgid "cannot create temporary file: %s"
-msgstr "ei voida luoda väliaikaistiedostoa: %s"
+msgstr "Väliaikaistiedostoa '%s' ei voi luoda"
 
 #: libdnf/dnf-sack.cpp:511
 #, c-format
@@ -210,7 +211,7 @@ msgstr ""
 #: libdnf/dnf-sack.cpp:605
 #, c-format
 msgid "can not create temporary file %s"
-msgstr ""
+msgstr "Väliaikaistiedostoa '%s' ei voi luoda"
 
 #: libdnf/dnf-sack.cpp:623
 #, c-format
@@ -371,7 +372,7 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:69
 msgid "problem with installed package "
-msgstr ""
+msgstr "ongelma asennetun paketin kanssa "
 
 #: libdnf/goal/Goal.cpp:70 libdnf/goal/Goal.cpp:97
 msgid "conflicting requests"
@@ -396,7 +397,7 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:75 libdnf/goal/Goal.cpp:102
 msgid "some dependency problem"
-msgstr ""
+msgstr "riippuvuusongelma"
 
 #: libdnf/goal/Goal.cpp:76
 msgid "cannot install the best update candidate for package "
