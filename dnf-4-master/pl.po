@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-18 09:18-0400\n"
+"POT-Creation-Date: 2020-11-17 09:18-0500\n"
 "PO-Revision-Date: 2020-06-27 19:40+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/"
@@ -45,7 +45,7 @@ msgstr "nie można przekonwertować „%s” na bajty"
 msgid "unknown unit '%s'"
 msgstr "nieznana jednostka „%s”"
 
-#: libdnf/conf/ConfigMain.cpp:332
+#: libdnf/conf/ConfigMain.cpp:334
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "procent „%s” jest poza zakresem"
@@ -103,6 +103,96 @@ msgstr "nie można przekonwertować „%s” na sekundy"
 #: libdnf/conf/OptionString.cpp:74
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): nie ustawiono wartości"
+
+#: libdnf/dnf-context.cpp:3033 libdnf/dnf-context.cpp:3042
+#, fuzzy, c-format
+#| msgid "Cannot enable multiple streams for module '%s'"
+msgid "Cannot enable more streams from module '%s' at the same time"
+msgstr "Nie można włączyć wielu strumieni dla modułu „%s”"
+
+#: libdnf/dnf-context.cpp:3051 libdnf/dnf-context.cpp:3069
+#, c-format
+msgid ""
+"Cannot enable module '%1$s' stream '%2$s': State of module already modified"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3116
+#, c-format
+msgid "Modular dependency problem with Defaults: %s"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3119
+#, fuzzy, c-format
+#| msgid "some dependency problem"
+msgid "Modular dependency problem: %s"
+msgstr "problem zależności"
+
+#: libdnf/dnf-context.cpp:3153 libdnf/dnf-context.cpp:3177
+#: libdnf/dnf-context.cpp:3188 libdnf/dnf-context.cpp:3227
+#: libdnf/dnf-context.cpp:3243 libdnf/dnf-context.cpp:3275
+#, fuzzy, c-format
+#| msgid "Failed to resolve: %s"
+msgid "Unable to resolve argument '%s'"
+msgstr "Rozwiązanie się nie powiodło: %s"
+
+#: libdnf/dnf-context.cpp:3160
+#, c-format
+msgid ""
+"Only module name is required. Ignoring unneeded information in argument: '%s'"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3174
+#, c-format
+msgid "Cannot reset module '%s': State of module already modified"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3185
+#, c-format
+msgid "Cannot disable module '%s': State of module already modified"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3216 libdnf/dnf-context.cpp:3307
+msgid "No modular data available"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3233
+#, c-format
+msgid "Ignoring unneeded information in argument: '%s'"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3271
+#, c-format
+msgid ""
+"Problem during enablement of dependency tree for moduele '%1$s' stream "
+"'%2$s': %3$s"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3283
+msgid "Problems appeared for module enable request"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3338
+msgid "Problems appeared for module reset request"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3340
+msgid "Problems appeared for module disable request"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3376
+#, c-format
+msgid ""
+"The operation would result in switching of module '%s' stream '%s' to stream "
+"'%s'"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3380
+msgid ""
+"It is not possible to switch enabled streams of a module.\n"
+"It is recommended to remove all installed content from the module, and reset "
+"the module using 'microdnf module reset <module_name>' command. After you "
+"reset the module, you can install the other stream."
+msgstr ""
 
 #: libdnf/dnf-goal.cpp:68
 msgid "Could not depsolve transaction; "
@@ -188,86 +278,86 @@ msgstr "odnalezienie pakietu %s się nie powiodło"
 msgid "could not add erase element %1$s(%2$i)"
 msgstr "nie można dodać elementu usunięcia %1$s(%2$i)"
 
-#: libdnf/dnf-sack.cpp:381
+#: libdnf/dnf-sack.cpp:383
 #, c-format
 msgid "no %1$s string for %2$s"
 msgstr "brak ciągu %1$s dla %2$s"
 
-#: libdnf/dnf-sack.cpp:404
+#: libdnf/dnf-sack.cpp:406
 msgid "failed to add solv"
 msgstr "dodanie mechanizmu rozwiązywania się nie powiodło"
 
-#: libdnf/dnf-sack.cpp:422
+#: libdnf/dnf-sack.cpp:424
 #, c-format
 msgid "failed to open: %s"
 msgstr "otwarcie się nie powiodło: %s"
 
-#: libdnf/dnf-sack.cpp:501
+#: libdnf/dnf-sack.cpp:503
 #, c-format
 msgid "cannot create temporary file: %s"
 msgstr "nie można utworzyć pliku tymczasowego: %s"
 
-#: libdnf/dnf-sack.cpp:511
+#: libdnf/dnf-sack.cpp:513
 #, c-format
 msgid "failed opening tmp file: %s"
 msgstr "otwarcie pliku tymczasowego się nie powiodło: %s"
 
-#: libdnf/dnf-sack.cpp:523
+#: libdnf/dnf-sack.cpp:525
 #, c-format
 msgid "write_main() failed writing data: %i"
 msgstr "zapisanie danych przez write_main() się nie powiodło: %i"
 
-#: libdnf/dnf-sack.cpp:540
+#: libdnf/dnf-sack.cpp:542
 msgid "write_main() failed to re-load written solv file"
 msgstr ""
 "ponowne wczytanie zapisanego pliku mechanizmu rozwiązywania przez "
 "write_main() się nie powiodło"
 
-#: libdnf/dnf-sack.cpp:605
+#: libdnf/dnf-sack.cpp:607
 #, c-format
 msgid "can not create temporary file %s"
 msgstr "nie można utworzyć pliku tymczasowego %s"
 
-#: libdnf/dnf-sack.cpp:623
+#: libdnf/dnf-sack.cpp:625
 #, c-format
 msgid "write_ext(%1$d) has failed: %2$d"
 msgstr "write_ext(%1$d) się nie powiodło: %2$d"
 
-#: libdnf/dnf-sack.cpp:678
+#: libdnf/dnf-sack.cpp:680
 msgid "null repo md file"
 msgstr "pusty plik md repozytorium"
 
-#: libdnf/dnf-sack.cpp:687
+#: libdnf/dnf-sack.cpp:689
 #, c-format
 msgid "can not read file %1$s: %2$s"
 msgstr "nie można odczytać pliku %1$s: %2$s"
 
-#: libdnf/dnf-sack.cpp:701
+#: libdnf/dnf-sack.cpp:703
 msgid "repo_add_solv() has failed."
 msgstr "repo_add_solv() się nie powiodło."
 
-#: libdnf/dnf-sack.cpp:714
+#: libdnf/dnf-sack.cpp:716
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "wczytanie MD_TYPE_PRIMARY się nie powiodło."
 
-#: libdnf/dnf-sack.cpp:727
+#: libdnf/dnf-sack.cpp:729
 msgid "repo_add_repomdxml/rpmmd() has failed."
 msgstr "repo_add_repomdxml/rpmmd() się nie powiodło."
 
-#: libdnf/dnf-sack.cpp:794
+#: libdnf/dnf-sack.cpp:796
 msgid "failed to auto-detect architecture"
 msgstr "automatyczne wykrycie architektury się nie powiodło"
 
-#: libdnf/dnf-sack.cpp:919
+#: libdnf/dnf-sack.cpp:961
 #, c-format
 msgid "failed creating cachedir %s"
 msgstr "utworzenie katalogu pamięci podręcznej %s się nie powiodło"
 
-#: libdnf/dnf-sack.cpp:1696
+#: libdnf/dnf-sack.cpp:1738
 msgid "failed loading RPMDB"
 msgstr "wczytanie bazy danych RPM się nie powiodło"
 
-#: libdnf/dnf-sack.cpp:2403
+#: libdnf/dnf-sack.cpp:2445
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "Nie odnaleziono domyślnych modułu: %s"
@@ -358,7 +448,7 @@ msgstr "Błąd %i podczas wykonywania testu transakcji"
 msgid "Error %i running transaction"
 msgstr "Błąd %i podczas wykonywania transakcji"
 
-#: libdnf/dnf-transaction.cpp:1473
+#: libdnf/dnf-transaction.cpp:1474
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
@@ -598,7 +688,19 @@ msgstr "brak rozwiązania, nie można usunąć chronionego pakietu"
 msgid "no solution possible"
 msgstr "brak możliwego rozwiązania"
 
-#: libdnf/goal/Goal.cpp:1479
+#: libdnf/goal/Goal.cpp:1193
+#, fuzzy
+#| msgid " Problem: %s\n"
+msgid "Problem: "
+msgstr " Problem: %s\n"
+
+#: libdnf/goal/Goal.cpp:1198
+#, fuzzy, c-format
+#| msgid " Problem: %s\n"
+msgid "Problem %d: "
+msgstr " Problem: %s\n"
+
+#: libdnf/goal/Goal.cpp:1525
 msgid ""
 "The operation would result in removing the following protected packages: "
 msgstr "Działanie spowodowałoby usunięcie tych chronionych pakietów: "
@@ -660,30 +762,54 @@ msgstr "Nie można włączyć wielu strumieni dla modułu „%s”"
 msgid "Conflicting defaults with repo '%s': %s"
 msgstr "Sprzeczne domyślne z repozytorium „%s”: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1569
+#: libdnf/module/ModulePackageContainer.cpp:829
+msgid "Installing module profiles:\n"
+msgstr ""
+
+#: libdnf/module/ModulePackageContainer.cpp:844
+msgid "Disabling module profiles:\n"
+msgstr ""
+
+#: libdnf/module/ModulePackageContainer.cpp:859
+msgid "Enabling module streams:\n"
+msgstr ""
+
+#: libdnf/module/ModulePackageContainer.cpp:873
+msgid "Switching module streams:\n"
+msgstr ""
+
+#: libdnf/module/ModulePackageContainer.cpp:891
+msgid "Disabling modules:\n"
+msgstr ""
+
+#: libdnf/module/ModulePackageContainer.cpp:902
+msgid "Resetting modules:\n"
+msgstr ""
+
+#: libdnf/module/ModulePackageContainer.cpp:1586
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "Wczytanie modularnych danych Fail-Safe w „%s” się nie powiodło"
 
-#: libdnf/module/ModulePackageContainer.cpp:1575
+#: libdnf/module/ModulePackageContainer.cpp:1592
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
 "Wczytanie modularnych danych Fail-Safe dla modułu „%s:%s” się nie powiodło"
 
-#: libdnf/module/ModulePackageContainer.cpp:1639
+#: libdnf/module/ModulePackageContainer.cpp:1656
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 "Utworzenie katalogu „%s” dla modularnych danych Fail Safe się nie powiodło: "
 "%s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1661
+#: libdnf/module/ModulePackageContainer.cpp:1678
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "Zapisanie modularnych danych Fail Safe do „%s” się nie powiodło"
 
-#: libdnf/module/ModulePackageContainer.cpp:1686
+#: libdnf/module/ModulePackageContainer.cpp:1703
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Usunięcie modularnych danych Fail Safe w „%s” się nie powiodło"
