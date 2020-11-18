@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-17 09:18-0500\n"
+"POT-Creation-Date: 2020-11-18 09:18-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1004,13 +1004,13 @@ msgstr ""
 msgid "In progress"
 msgstr ""
 
-#: libdnf/transaction/Swdb.cpp:188 libdnf/transaction/Swdb.cpp:216
-#: libdnf/transaction/Swdb.cpp:228 libdnf/transaction/Swdb.cpp:245
-#: libdnf/transaction/Swdb.cpp:384 libdnf/transaction/Swdb.cpp:394
+#: libdnf/transaction/Swdb.cpp:187 libdnf/transaction/Swdb.cpp:215
+#: libdnf/transaction/Swdb.cpp:227 libdnf/transaction/Swdb.cpp:244
+#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:393
 msgid "Not in progress"
 msgstr ""
 
-#: libdnf/transaction/Swdb.cpp:255
+#: libdnf/transaction/Swdb.cpp:254
 msgid "No transaction in progress"
 msgstr ""
 
