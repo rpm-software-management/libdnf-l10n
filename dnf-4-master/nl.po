@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-17 09:18-0500\n"
+"POT-Creation-Date: 2020-11-19 09:18-0500\n"
 "PO-Revision-Date: 2020-11-19 15:35+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
@@ -94,12 +94,12 @@ msgstr "kon '%s' niet converteren naar seconden"
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): Waarde niet ingesteld"
 
-#: libdnf/dnf-context.cpp:3033 libdnf/dnf-context.cpp:3042
+#: libdnf/dnf-context.cpp:3066 libdnf/dnf-context.cpp:3075
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr "Kan niet meer streams voor module '%s' gelijktijdig aanzetten"
 
-#: libdnf/dnf-context.cpp:3051 libdnf/dnf-context.cpp:3069
+#: libdnf/dnf-context.cpp:3084 libdnf/dnf-context.cpp:3102
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
@@ -107,24 +107,24 @@ msgstr ""
 "Kan module '%1$s' stream '%2$s' niet inschakelen: status van module is al "
 "gewijzigd"
 
-#: libdnf/dnf-context.cpp:3116
+#: libdnf/dnf-context.cpp:3149
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "Modulair afhankelijkheidsprobleem met Standaard: %s"
 
-#: libdnf/dnf-context.cpp:3119
+#: libdnf/dnf-context.cpp:3152
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "Modulair afhankelijkheidsprobleem: %s"
 
-#: libdnf/dnf-context.cpp:3153 libdnf/dnf-context.cpp:3177
-#: libdnf/dnf-context.cpp:3188 libdnf/dnf-context.cpp:3227
-#: libdnf/dnf-context.cpp:3243 libdnf/dnf-context.cpp:3275
+#: libdnf/dnf-context.cpp:3186 libdnf/dnf-context.cpp:3210
+#: libdnf/dnf-context.cpp:3221 libdnf/dnf-context.cpp:3260
+#: libdnf/dnf-context.cpp:3276 libdnf/dnf-context.cpp:3308
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "Kan argument '%s' niet oplossen"
 
-#: libdnf/dnf-context.cpp:3160
+#: libdnf/dnf-context.cpp:3193
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
@@ -132,49 +132,49 @@ msgstr ""
 "Alleen de modulenaam is vereist. Onnodige informatie in argument wordt "
 "genegeerd: '%s'"
 
-#: libdnf/dnf-context.cpp:3174
+#: libdnf/dnf-context.cpp:3207
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr "Kan module '%s' niet herstellen: status van de module is al gewijzigd"
 
-#: libdnf/dnf-context.cpp:3185
+#: libdnf/dnf-context.cpp:3218
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr "Kan module '%s' niet uitschakelen: status van module is al gewijzigd"
 
-#: libdnf/dnf-context.cpp:3216 libdnf/dnf-context.cpp:3307
+#: libdnf/dnf-context.cpp:3249 libdnf/dnf-context.cpp:3340
 msgid "No modular data available"
 msgstr "Geen modulaire data beschikbaar"
 
-#: libdnf/dnf-context.cpp:3233
+#: libdnf/dnf-context.cpp:3266
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Onnodige informatie in argument wordt genegeerd: '%s'"
 
-#: libdnf/dnf-context.cpp:3271
+#: libdnf/dnf-context.cpp:3304
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for moduele '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
-"Probleem tijdens het inschakelen van de afhankelijkheidsboom voor module '%1$"
-"s' stream '%2$s': %3$s"
+"Probleem tijdens het inschakelen van de afhankelijkheidsboom voor module "
+"'%1$s' stream '%2$s': %3$s"
 
-#: libdnf/dnf-context.cpp:3283
+#: libdnf/dnf-context.cpp:3316
 msgid "Problems appeared for module enable request"
 msgstr "Er zijn problemen opgetreden met het verzoek om module-inschakeling"
 
-#: libdnf/dnf-context.cpp:3338
+#: libdnf/dnf-context.cpp:3371
 msgid "Problems appeared for module reset request"
 msgstr ""
 "Er zijn problemen opgetreden met het verzoek om een module opnieuw in te "
 "stellen"
 
-#: libdnf/dnf-context.cpp:3340
+#: libdnf/dnf-context.cpp:3373
 msgid "Problems appeared for module disable request"
 msgstr "Er zijn problemen opgetreden voor het verzoek om module-uitschakeling"
 
-#: libdnf/dnf-context.cpp:3376
+#: libdnf/dnf-context.cpp:3409
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -183,7 +183,7 @@ msgstr ""
 "De operatie zou resulteren in het omschakelen van module '%s' stream '%s' "
 "naar stream '%s'"
 
-#: libdnf/dnf-context.cpp:3380
+#: libdnf/dnf-context.cpp:3413
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -1044,13 +1044,13 @@ msgstr "Logboekafhandelaar met id %ld bestaat niet"
 msgid "In progress"
 msgstr "Bezig"
 
-#: libdnf/transaction/Swdb.cpp:188 libdnf/transaction/Swdb.cpp:216
-#: libdnf/transaction/Swdb.cpp:228 libdnf/transaction/Swdb.cpp:245
-#: libdnf/transaction/Swdb.cpp:384 libdnf/transaction/Swdb.cpp:394
+#: libdnf/transaction/Swdb.cpp:187 libdnf/transaction/Swdb.cpp:215
+#: libdnf/transaction/Swdb.cpp:227 libdnf/transaction/Swdb.cpp:244
+#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:393
 msgid "Not in progress"
 msgstr "Niet bezig"
 
-#: libdnf/transaction/Swdb.cpp:255
+#: libdnf/transaction/Swdb.cpp:254
 msgid "No transaction in progress"
 msgstr "Geen transactie bezig"
 
