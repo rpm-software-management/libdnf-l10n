@@ -4,13 +4,14 @@
 # Frederico Henrique Gonçalves Lima <fred@fredericolima.com.br>, 2017. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2020.
+# Gustavo Costa <gusta@null.net>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 08:17+0200\n"
-"PO-Revision-Date: 2020-08-05 17:29+0000\n"
-"Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
+"PO-Revision-Date: 2020-11-21 01:35+0000\n"
+"Last-Translator: Gustavo Costa <gusta@null.net>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-libdnf-0480-maint/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -103,24 +104,24 @@ msgid "Could not depsolve transaction; "
 msgstr ""
 
 #: libdnf/dnf-goal.cpp:70
-#, fuzzy, c-format
+#, c-format
 msgid "%i problem detected:\n"
 msgid_plural "%i problems detected:\n"
 msgstr[0] "%i problema detectado:\n"
 msgstr[1] "%i problemas detectados:\n"
 
 #: libdnf/dnf-goal.cpp:78
-#, fuzzy, c-format
+#, c-format
 msgid " Problem %1$i: %2$s\n"
 msgstr " Problema %1$i: %2$s\n"
 
 #: libdnf/dnf-goal.cpp:80
-#, fuzzy, c-format
+#, c-format
 msgid " Problem: %s\n"
 msgstr " Problema: %s\n"
 
 #: libdnf/dnf-rpmts.cpp:79
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
@@ -182,7 +183,7 @@ msgid "could not add erase element %1$s(%2$i)"
 msgstr "não foi possível adicionar o elemento apagar %1$s(%2$i)"
 
 #: libdnf/dnf-sack.cpp:381
-#, fuzzy, c-format
+#, c-format
 msgid "no %1$s string for %2$s"
 msgstr "nenhuma string %1$s para %2$s"
 
@@ -220,7 +221,7 @@ msgid "can not create temporary file %s"
 msgstr "não pode criar um arquivo temporário %s"
 
 #: libdnf/dnf-sack.cpp:623
-#, fuzzy, c-format
+#, c-format
 msgid "write_ext(%1$d) has failed: %2$d"
 msgstr "write_ext(%1$d) falhou: %2$d"
 
@@ -238,7 +239,6 @@ msgid "repo_add_solv() has failed."
 msgstr "repo_add_solv () falhou."
 
 #: libdnf/dnf-sack.cpp:714
-#, fuzzy
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "o carregamento de MD_TYPE_PRIMARY falhou."
 
@@ -260,7 +260,7 @@ msgid "failed loading RPMDB"
 msgstr "falha ao carregar o RPMDB"
 
 #: libdnf/dnf-sack.cpp:2403
-#, fuzzy, c-format
+#, c-format
 msgid "No module defaults found: %s"
 msgstr "Nenhum padrão de módulo encontrado: %s"
 
@@ -378,22 +378,18 @@ msgid " does not belong to a distupgrade repository"
 msgstr ""
 
 #: libdnf/goal/Goal.cpp:68 libdnf/goal/Goal.cpp:95
-#, fuzzy
 msgid " has inferior architecture"
 msgstr " tem arquitetura inferior"
 
 #: libdnf/goal/Goal.cpp:69
-#, fuzzy
 msgid "problem with installed package "
 msgstr "problema com o pacote instalado "
 
 #: libdnf/goal/Goal.cpp:70 libdnf/goal/Goal.cpp:97
-#, fuzzy
 msgid "conflicting requests"
 msgstr "solicitações conflitantes"
 
 #: libdnf/goal/Goal.cpp:71 libdnf/goal/Goal.cpp:98
-#, fuzzy
 msgid "unsupported request"
 msgstr "solicitação não suportada"
 
@@ -402,25 +398,21 @@ msgid "nothing provides requested "
 msgstr ""
 
 #: libdnf/goal/Goal.cpp:73
-#, fuzzy, c-format
+#, c-format
 msgid "package %s does not exist"
 msgstr "o pacote %s não existe"
 
 #: libdnf/goal/Goal.cpp:74 libdnf/goal/Goal.cpp:101
-#, fuzzy
 msgid " is provided by the system"
 msgstr " é fornecido pelo sistema"
 
 #: libdnf/goal/Goal.cpp:75 libdnf/goal/Goal.cpp:102
-#, fuzzy
 msgid "some dependency problem"
 msgstr "algum problema de dependência"
 
 #: libdnf/goal/Goal.cpp:76
-#, fuzzy
 msgid "cannot install the best update candidate for package "
-msgstr ""
-"Não é possível instalar o melhor candidato à atualização para o pacote "
+msgstr "não é possível instalar o melhor candidato à atualização para o pacote "
 
 #: libdnf/goal/Goal.cpp:77 libdnf/goal/Goal.cpp:104
 msgid "cannot install the best candidate for the job"
@@ -432,9 +424,9 @@ msgid "package %s is filtered out by modular filtering"
 msgstr ""
 
 #: libdnf/goal/Goal.cpp:79
-#, fuzzy, c-format
+#, c-format
 msgid "package %s does not have a compatible architecture"
-msgstr "O pacote %s não possui uma arquitetura compatível"
+msgstr "o pacote %s não possui uma arquitetura compatível"
 
 #: libdnf/goal/Goal.cpp:80
 #, c-format
@@ -452,9 +444,9 @@ msgid "nothing provides %s needed by %s"
 msgstr ""
 
 #: libdnf/goal/Goal.cpp:83
-#, fuzzy, c-format
+#, c-format
 msgid "cannot install both %s and %s"
-msgstr "Não é possível instalar ambos %s e %s"
+msgstr "não é possível instalar %s e %s"
 
 #: libdnf/goal/Goal.cpp:84
 #, c-format
@@ -781,9 +773,9 @@ msgid "can not list keys: %s"
 msgstr "não pode listar chaves: %s"
 
 #: libdnf/repo/Repo.cpp:796
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
-msgstr "Falha ao recuperar a chave GPG para o repo '%s': %s"
+msgstr "Falha ao recuperar a chave GPG para o repo. '%s': %s"
 
 #: libdnf/repo/Repo.cpp:849
 #, c-format
@@ -861,9 +853,9 @@ msgid "repo: downloading from remote: %s"
 msgstr "repo: download do controle remoto: %s"
 
 #: libdnf/repo/Repo.cpp:1302
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to download metadata for repo '%s': %s"
-msgstr "Falha ao baixar os metadados do repositório '%s': %s"
+msgstr "Falha ao baixar os metadados do repo. '%s': %s"
 
 #: libdnf/repo/Repo.cpp:1328
 msgid "getCachedir(): Computation of SHA256 failed"
