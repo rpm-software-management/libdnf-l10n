@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-19 09:18-0500\n"
+"POT-Creation-Date: 2020-11-20 09:18-0500\n"
 "PO-Revision-Date: 2018-11-02 05:26+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Italian\n"
@@ -342,7 +342,7 @@ msgstr "non è riuscito a creare cache %s"
 msgid "failed loading RPMDB"
 msgstr "errore durante il caricamento di RPMDB"
 
-#: libdnf/dnf-sack.cpp:2445
+#: libdnf/dnf-sack.cpp:2461
 #, c-format
 msgid "No module defaults found: %s"
 msgstr ""

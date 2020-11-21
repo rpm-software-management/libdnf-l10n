@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-19 09:18-0500\n"
+"POT-Creation-Date: 2020-11-20 09:18-0500\n"
 "PO-Revision-Date: 2020-11-19 15:35+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -356,7 +356,7 @@ msgstr "не вдалося створити каталог кешу %s"
 msgid "failed loading RPMDB"
 msgstr "не вдалося завантажити RPMDB"
 
-#: libdnf/dnf-sack.cpp:2445
+#: libdnf/dnf-sack.cpp:2461
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "Не знайдено типових налаштувань модуля: %s"

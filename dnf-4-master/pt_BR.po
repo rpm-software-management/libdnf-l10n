@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-19 09:18-0500\n"
+"POT-Creation-Date: 2020-11-20 09:18-0500\n"
 "PO-Revision-Date: 2020-11-21 01:35+0000\n"
 "Last-Translator: Gustavo Costa <gusta@null.net>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -347,7 +347,7 @@ msgstr "Falha ao criar o Cachedir %s"
 msgid "failed loading RPMDB"
 msgstr "falha ao carregar o RPMDB"
 
-#: libdnf/dnf-sack.cpp:2445
+#: libdnf/dnf-sack.cpp:2461
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "Nenhum padrão de módulo encontrado: %s"
@@ -500,7 +500,8 @@ msgstr "algum problema de dependência"
 
 #: libdnf/goal/Goal.cpp:76
 msgid "cannot install the best update candidate for package "
-msgstr "não é possível instalar o melhor candidato à atualização para o pacote "
+msgstr ""
+"não é possível instalar o melhor candidato à atualização para o pacote "
 
 #: libdnf/goal/Goal.cpp:77 libdnf/goal/Goal.cpp:104
 msgid "cannot install the best candidate for the job"

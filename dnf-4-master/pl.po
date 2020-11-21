@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-19 09:18-0500\n"
+"POT-Creation-Date: 2020-11-20 09:18-0500\n"
 "PO-Revision-Date: 2020-06-27 19:40+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/"
@@ -357,7 +357,7 @@ msgstr "utworzenie katalogu pamięci podręcznej %s się nie powiodło"
 msgid "failed loading RPMDB"
 msgstr "wczytanie bazy danych RPM się nie powiodło"
 
-#: libdnf/dnf-sack.cpp:2445
+#: libdnf/dnf-sack.cpp:2461
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "Nie odnaleziono domyślnych modułu: %s"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-19 09:18-0500\n"
+"POT-Creation-Date: 2020-11-20 09:18-0500\n"
 "PO-Revision-Date: 2020-07-21 13:29+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
@@ -348,7 +348,7 @@ msgstr ""
 msgid "failed loading RPMDB"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:2445
+#: libdnf/dnf-sack.cpp:2461
 #, c-format
 msgid "No module defaults found: %s"
 msgstr ""
