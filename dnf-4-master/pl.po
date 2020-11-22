@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-20 09:18-0500\n"
-"PO-Revision-Date: 2020-06-27 19:40+0000\n"
+"PO-Revision-Date: 2020-11-22 12:05+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/pl/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -105,60 +105,61 @@ msgid "GetValue(): Value not set"
 msgstr "GetValue(): nie ustawiono wartości"
 
 #: libdnf/dnf-context.cpp:3066 libdnf/dnf-context.cpp:3075
-#, fuzzy, c-format
-#| msgid "Cannot enable multiple streams for module '%s'"
+#, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
-msgstr "Nie można włączyć wielu strumieni dla modułu „%s”"
+msgstr "Nie można włączyć więcej strumieni z modułu „%s” jednocześnie"
 
 #: libdnf/dnf-context.cpp:3084 libdnf/dnf-context.cpp:3102
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr ""
+"Nie można włączyć modułu „%1$s” strumienia „%2$s”: stan modułu został już "
+"zmodyfikowany"
 
 #: libdnf/dnf-context.cpp:3149
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
-msgstr ""
+msgstr "Problem z modularną zależnością za pomocą domyślnych: %s"
 
 #: libdnf/dnf-context.cpp:3152
-#, fuzzy, c-format
-#| msgid "some dependency problem"
+#, c-format
 msgid "Modular dependency problem: %s"
-msgstr "problem zależności"
+msgstr "Problem z modularną zależnością: %s"
 
 #: libdnf/dnf-context.cpp:3186 libdnf/dnf-context.cpp:3210
 #: libdnf/dnf-context.cpp:3221 libdnf/dnf-context.cpp:3260
 #: libdnf/dnf-context.cpp:3276 libdnf/dnf-context.cpp:3308
-#, fuzzy, c-format
-#| msgid "Failed to resolve: %s"
+#, c-format
 msgid "Unable to resolve argument '%s'"
-msgstr "Rozwiązanie się nie powiodło: %s"
+msgstr "Nie można rozwiązać parametru „%s”"
 
 #: libdnf/dnf-context.cpp:3193
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr ""
+"Wymagana jest tylko nazwa modułu. Ignorowanie niepotrzebnych informacji w "
+"parametrze: „%s”"
 
 #: libdnf/dnf-context.cpp:3207
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
-msgstr ""
+msgstr "Nie można przywrócić modułu „%s”: stan modułu został już zmodyfikowany"
 
 #: libdnf/dnf-context.cpp:3218
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
-msgstr ""
+msgstr "Nie można wyłączyć modułu „%s”: stan modułu został już zmodyfikowany"
 
 #: libdnf/dnf-context.cpp:3249 libdnf/dnf-context.cpp:3340
 msgid "No modular data available"
-msgstr ""
+msgstr "Brak dostępnych danych modularnych"
 
 #: libdnf/dnf-context.cpp:3266
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
-msgstr ""
+msgstr "Ignorowanie niepotrzebnych informacji w parametrze: „%s”"
 
 #: libdnf/dnf-context.cpp:3304
 #, c-format
@@ -166,18 +167,20 @@ msgid ""
 "Problem during enablement of dependency tree for moduele '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
+"Problem podczas włączania drzewa zależności dla modułu „%1$s” strumienia "
+"„%2$s”: %3$s"
 
 #: libdnf/dnf-context.cpp:3316
 msgid "Problems appeared for module enable request"
-msgstr ""
+msgstr "Wystąpiły problemy podczas żądania włączenia modułu"
 
 #: libdnf/dnf-context.cpp:3371
 msgid "Problems appeared for module reset request"
-msgstr ""
+msgstr "Wystąpiły problemy podczas żądania przywrócenia modułu"
 
 #: libdnf/dnf-context.cpp:3373
 msgid "Problems appeared for module disable request"
-msgstr ""
+msgstr "Wystąpiły problemy podczas żądania wyłączenia modułu"
 
 #: libdnf/dnf-context.cpp:3409
 #, c-format
@@ -185,6 +188,8 @@ msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
 msgstr ""
+"Działanie spowodowałoby przełączenie modułu „%s” strumienia „%s” na strumień "
+"„%s”"
 
 #: libdnf/dnf-context.cpp:3413
 msgid ""
@@ -193,6 +198,10 @@ msgid ""
 "the module using 'microdnf module reset <module_name>' command. After you "
 "reset the module, you can install the other stream."
 msgstr ""
+"Przełączenie włączonych strumieni modułu jest niemożliwe.\n"
+"Zalecane jest usunięcie całej zainstalowanej treści z modułu, a następnie "
+"przywrócenie modułu za pomocą polecenia „microdnf module reset "
+"<nazwa_modułu>”. Po przywróceniu modułu można zainstalować inny strumień."
 
 #: libdnf/dnf-goal.cpp:68
 msgid "Could not depsolve transaction; "
@@ -689,16 +698,13 @@ msgid "no solution possible"
 msgstr "brak możliwego rozwiązania"
 
 #: libdnf/goal/Goal.cpp:1193
-#, fuzzy
-#| msgid " Problem: %s\n"
 msgid "Problem: "
-msgstr " Problem: %s\n"
+msgstr "Problem: "
 
 #: libdnf/goal/Goal.cpp:1198
-#, fuzzy, c-format
-#| msgid " Problem: %s\n"
+#, c-format
 msgid "Problem %d: "
-msgstr " Problem: %s\n"
+msgstr "%d. problem: "
 
 #: libdnf/goal/Goal.cpp:1525
 msgid ""
@@ -764,27 +770,27 @@ msgstr "Sprzeczne domyślne z repozytorium „%s”: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:829
 msgid "Installing module profiles:\n"
-msgstr ""
+msgstr "Instalowanie profili modułów:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:844
 msgid "Disabling module profiles:\n"
-msgstr ""
+msgstr "Wyłączanie profili modułów:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:859
 msgid "Enabling module streams:\n"
-msgstr ""
+msgstr "Włączanie strumieni modułów:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:873
 msgid "Switching module streams:\n"
-msgstr ""
+msgstr "Przełączanie strumieni modułów:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:891
 msgid "Disabling modules:\n"
-msgstr ""
+msgstr "Wyłączanie modułów:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:902
 msgid "Resetting modules:\n"
-msgstr ""
+msgstr "Przywracanie modułów:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:1586
 #, c-format
