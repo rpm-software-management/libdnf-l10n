@@ -1,12 +1,13 @@
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
 # Ricky Tigg <ricky.tigg@gmail.com>, 2020.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-21 09:18-0500\n"
-"PO-Revision-Date: 2020-11-17 14:35+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2020-11-25 18:35+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fi/>\n"
 "Language: fi\n"
@@ -111,10 +112,9 @@ msgid "Modular dependency problem with Defaults: %s"
 msgstr ""
 
 #: libdnf/dnf-context.cpp:3152
-#, fuzzy, c-format
-#| msgid "some dependency problem"
+#, c-format
 msgid "Modular dependency problem: %s"
-msgstr "riippuvuusongelma"
+msgstr "Modulaarinen riippuvuusongelma: %s"
 
 #: libdnf/dnf-context.cpp:3186 libdnf/dnf-context.cpp:3210
 #: libdnf/dnf-context.cpp:3221 libdnf/dnf-context.cpp:3260
@@ -660,16 +660,13 @@ msgid "no solution possible"
 msgstr ""
 
 #: libdnf/goal/Goal.cpp:1193
-#, fuzzy
-#| msgid " Problem: %s\n"
 msgid "Problem: "
-msgstr " Ongelma: %s\n"
+msgstr "Ongelma: "
 
 #: libdnf/goal/Goal.cpp:1198
-#, fuzzy, c-format
-#| msgid " Problem: %s\n"
+#, c-format
 msgid "Problem %d: "
-msgstr " Ongelma: %s\n"
+msgstr "Ongelma:%d "
 
 #: libdnf/goal/Goal.cpp:1525
 msgid ""
