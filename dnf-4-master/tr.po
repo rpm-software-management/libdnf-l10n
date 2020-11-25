@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 09:18-0500\n"
-"PO-Revision-Date: 2020-11-19 15:35+0000\n"
+"PO-Revision-Date: 2020-11-27 12:35+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/tr/>\n"
@@ -890,7 +890,7 @@ msgstr "'%s' deposunun desteklenmeyen bir türü var: 'type=%s', atlanıyor."
 #: libdnf/repo/Repo.cpp:1364
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
-msgstr ""
+msgstr "depo '%s': 'basecachedir' ayarlanmadı"
 
 #: libdnf/repo/Repo.cpp:553
 #, c-format
@@ -908,7 +908,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:625
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "depo '%s': 'proxy_username' ayarlandı ama 'proxy_password' ayarlanmadı"
 
 #: libdnf/repo/Repo.cpp:647 libdnf/repo/Repo.cpp:669
 #, c-format
@@ -1030,7 +1030,7 @@ msgstr "\"%s\" kalıcı dizini oluşturulamıyor: %s"
 
 #: libdnf/repo/Repo.cpp:1711
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "'proxy_username' ayarlandı ama 'proxy_password' ayarlanmadı"
 
 #: libdnf/repo/Repo.cpp:1783
 msgid "resume cannot be used simultaneously with the byterangestart param"
