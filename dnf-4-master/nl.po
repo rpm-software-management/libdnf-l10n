@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-25 09:18-0500\n"
-"PO-Revision-Date: 2020-11-19 15:35+0000\n"
+"PO-Revision-Date: 2020-11-27 12:35+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/nl/>\n"
@@ -896,7 +896,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:1364
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
-msgstr ""
+msgstr "repo '%s': 'basecachedir' is niet ingesteld"
 
 #: libdnf/repo/Repo.cpp:553
 #, c-format
@@ -914,7 +914,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:625
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "repo '%s': 'proxy_username' is ingesteld maar niet 'proxy_password'"
 
 #: libdnf/repo/Repo.cpp:647 libdnf/repo/Repo.cpp:669
 #, c-format
@@ -1033,7 +1033,7 @@ msgstr "Kan persistente map \"%s\" niet aanmaken: %s"
 
 #: libdnf/repo/Repo.cpp:1711
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "'proxy_username' is ingesteld maar niet 'proxy_password'"
 
 #: libdnf/repo/Repo.cpp:1783
 msgid "resume cannot be used simultaneously with the byterangestart param"
