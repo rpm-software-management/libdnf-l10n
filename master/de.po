@@ -3,20 +3,22 @@
 # Tobias Weise <tobias.weise@web.de>, 2017. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Paul Ritter <paul-ritter@gmx.net>, 2018. #zanata
+# Fabian Affolter <mail@fabian-affolter.ch>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-02 09:18-0500\n"
-"PO-Revision-Date: 2018-11-02 05:26+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: German\n"
+"PO-Revision-Date: 2020-12-13 17:36+0000\n"
+"Last-Translator: Fabian Affolter <mail@fabian-affolter.ch>\n"
+"Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
+"libdnf-master/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -107,14 +109,14 @@ msgid_plural "%i problems detected:\n"
 msgstr[0] ""
 
 #: libdnf/dnf-goal.cpp:78
-#, c-format
+#, c-format, fuzzy
 msgid " Problem %1$i: %2$s\n"
-msgstr ""
+msgstr " Problem %1$i: %2$s\n"
 
 #: libdnf/dnf-goal.cpp:80
-#, c-format
+#, c-format, fuzzy
 msgid " Problem: %s\n"
-msgstr ""
+msgstr " Problem: %s\n"
 
 #: libdnf/dnf-rpmts.cpp:79
 #, c-format
@@ -180,7 +182,7 @@ msgstr "Erase Element konnte nicht hinzugefügt werden %1$s(%2$i)"
 #: libdnf/dnf-sack.cpp:417
 #, c-format
 msgid "no %1$s string for %2$s"
-msgstr ""
+msgstr "kein %1$s String für %2$s"
 
 #: libdnf/dnf-sack.cpp:440
 msgid "failed to add solv"
