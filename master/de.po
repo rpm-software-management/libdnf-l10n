@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-02 09:18-0500\n"
+"POT-Creation-Date: 2020-12-13 09:18-0500\n"
 "PO-Revision-Date: 2020-12-13 17:36+0000\n"
 "Last-Translator: Fabian Affolter <mail@fabian-affolter.ch>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
@@ -109,12 +109,12 @@ msgid_plural "%i problems detected:\n"
 msgstr[0] ""
 
 #: libdnf/dnf-goal.cpp:78
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid " Problem %1$i: %2$s\n"
 msgstr " Problem %1$i: %2$s\n"
 
 #: libdnf/dnf-goal.cpp:80
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid " Problem: %s\n"
 msgstr " Problem: %s\n"
 
