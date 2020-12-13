@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-02 09:18-0500\n"
+"POT-Creation-Date: 2020-12-13 09:18-0500\n"
 "PO-Revision-Date: 2020-05-05 09:40+0000\n"
 "Last-Translator: Casey Jones <nahareport@yahoo.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -41,12 +41,12 @@ msgstr "不明な単位 '%s'"
 msgid "percentage '%s' is out of range"
 msgstr "パーセンテージ '%s' が範囲外にあります"
 
-#: libdnf/conf/OptionBinds.cpp:76
+#: libdnf/conf/OptionBinds.cpp:85
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
 msgstr "設定: id \"%s\" を伴う OptionBinding は存在しません"
 
-#: libdnf/conf/OptionBinds.cpp:88
+#: libdnf/conf/OptionBinds.cpp:97
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
 msgstr "設定: id \"%s\" を伴う OptionBinding はすでに存在します"
@@ -57,7 +57,7 @@ msgid "invalid boolean value '%s'"
 msgstr "無効な boolean 値 '%s'"
 
 #: libdnf/conf/OptionEnum.cpp:72 libdnf/conf/OptionEnum.cpp:158
-#: libdnf/conf/OptionString.cpp:59 libdnf/conf/OptionStringList.cpp:59
+#: libdnf/conf/OptionString.cpp:64 libdnf/conf/OptionStringList.cpp:59
 #, c-format
 msgid "'%s' is not an allowed value"
 msgstr "'%s' 値は許可されていない値です"
@@ -91,7 +91,7 @@ msgstr "指定されたパス '%s' が存在しません。"
 msgid "could not convert '%s' to seconds"
 msgstr "'%s' を 秒に変換できません"
 
-#: libdnf/conf/OptionString.cpp:74
+#: libdnf/conf/OptionString.cpp:79
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): 値は設定されていません"
 
@@ -268,14 +268,14 @@ msgstr "パッケージ %s を見つけることができませんでした"
 msgid "could not add erase element %1$s(%2$i)"
 msgstr "erase 要素 %1$s(%2$i) を追加することができません"
 
-#: libdnf/dnf-sack.cpp:383
+#: libdnf/dnf-sack.cpp:395
+msgid "failed to add solv"
+msgstr "solv の追加に失敗しました"
+
+#: libdnf/dnf-sack.cpp:414
 #, c-format
 msgid "no %1$s string for %2$s"
 msgstr "%2$s の %1$s 文字列はありません"
-
-#: libdnf/dnf-sack.cpp:406
-msgid "failed to add solv"
-msgstr "solv の追加に失敗しました"
 
 #: libdnf/dnf-sack.cpp:424
 #, c-format
@@ -882,7 +882,7 @@ msgstr ""
 "ピング。"
 
 #: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:534 libdnf/repo/Repo.cpp:581
-#: libdnf/repo/Repo.cpp:1364
+#: libdnf/repo/Repo.cpp:1368
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr ""
@@ -892,7 +892,7 @@ msgstr ""
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr "repo に対して有効な baseurl を見つけられません: %s"
 
-#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1689
+#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1693
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
@@ -940,106 +940,106 @@ msgstr "repo %s: 0x%s はインポート済みです"
 msgid "repo %s: imported key 0x%s."
 msgstr "repo %s: インポート済みのキー 0x%s。"
 
-#: libdnf/repo/Repo.cpp:1145
+#: libdnf/repo/Repo.cpp:1149
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "復元中: repo '%s' はスキップされました、metalink はありません。"
 
-#: libdnf/repo/Repo.cpp:1164
+#: libdnf/repo/Repo.cpp:1168
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr ""
 "復元中: repo '%s' はスキップされました、使用可能なハッシュはありません。"
 
-#: libdnf/repo/Repo.cpp:1187
+#: libdnf/repo/Repo.cpp:1191
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "復元中: '%s' は失敗しました、%s の合計は一致しません。"
 
-#: libdnf/repo/Repo.cpp:1193
+#: libdnf/repo/Repo.cpp:1197
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr "復元中: '%s' は復元できます - metalink チェックサムが一致します。"
 
-#: libdnf/repo/Repo.cpp:1218
+#: libdnf/repo/Repo.cpp:1222
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "復元中: '%s' は復元できます - repomd が一致します。"
 
-#: libdnf/repo/Repo.cpp:1220
+#: libdnf/repo/Repo.cpp:1224
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "復元中:  '%s' に失敗しました、repomd が一致しません。"
 
-#: libdnf/repo/Repo.cpp:1238
+#: libdnf/repo/Repo.cpp:1242
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr "repo 送信先ディレクトリ \"%s\" を作成できません : %s"
 
-#: libdnf/repo/Repo.cpp:1244
+#: libdnf/repo/Repo.cpp:1248
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "repo 一時ディレクトリー \"%s\" を作成できません: %s "
 
-#: libdnf/repo/Repo.cpp:1258
+#: libdnf/repo/Repo.cpp:1262
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "ディレクトリー \"%s\" を作成できません: %s "
 
-#: libdnf/repo/Repo.cpp:1281
+#: libdnf/repo/Repo.cpp:1285
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "ディレクトリー名を \"%s\" から \"%s\" へと変更できません: %s"
 
-#: libdnf/repo/Repo.cpp:1304
+#: libdnf/repo/Repo.cpp:1308
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "repo: キャッシュを使用: %s"
 
-#: libdnf/repo/Repo.cpp:1316
+#: libdnf/repo/Repo.cpp:1320
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr ""
 "キャッシュオンリーが有効になっていますが、'%s' に対するキャッシュはありません"
 
-#: libdnf/repo/Repo.cpp:1320
+#: libdnf/repo/Repo.cpp:1324
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "repo: リモートからダウンロード中: %s"
 
-#: libdnf/repo/Repo.cpp:1326
+#: libdnf/repo/Repo.cpp:1330
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr "repo '%s' のメタデータのダウンロードに失敗しました : %s"
 
-#: libdnf/repo/Repo.cpp:1352
+#: libdnf/repo/Repo.cpp:1356
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir(): SHA256 のコンピュテーションに失敗しました"
 
-#: libdnf/repo/Repo.cpp:1380
+#: libdnf/repo/Repo.cpp:1384
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr "persistdir \"%s\" を作成できません : %s"
 
-#: libdnf/repo/Repo.cpp:1711
+#: libdnf/repo/Repo.cpp:1715
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1783
+#: libdnf/repo/Repo.cpp:1787
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr "resume は byterangestart param と同時に使用できません"
 
-#: libdnf/repo/Repo.cpp:1800
+#: libdnf/repo/Repo.cpp:1804
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "PackageTarget の初期化に失敗しました: %s"
 
-#: libdnf/repo/Repo.cpp:1906
+#: libdnf/repo/Repo.cpp:1910
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "%s を開くことができません: %s"
 
-#: libdnf/repo/Repo.cpp:1950
+#: libdnf/repo/Repo.cpp:1954
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "id %ld を伴うログハンドラーは存在しません"

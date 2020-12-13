@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-02 09:18-0500\n"
+"POT-Creation-Date: 2020-12-13 09:18-0500\n"
 "PO-Revision-Date: 2018-11-02 05:26+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Korean\n"
@@ -42,12 +42,12 @@ msgstr "알 수없는 단위 '%s'"
 msgid "percentage '%s' is out of range"
 msgstr "백분율 '%s'범위를 벗어났습니다."
 
-#: libdnf/conf/OptionBinds.cpp:76
+#: libdnf/conf/OptionBinds.cpp:85
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
 msgstr "구성 : ID가 \"%s\" 존재하지 않는다"
 
-#: libdnf/conf/OptionBinds.cpp:88
+#: libdnf/conf/OptionBinds.cpp:97
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
 msgstr "구성 : ID가 \"%s\" 이미 존재 함"
@@ -58,7 +58,7 @@ msgid "invalid boolean value '%s'"
 msgstr "유효하지 않은 부울 값 '%s'"
 
 #: libdnf/conf/OptionEnum.cpp:72 libdnf/conf/OptionEnum.cpp:158
-#: libdnf/conf/OptionString.cpp:59 libdnf/conf/OptionStringList.cpp:59
+#: libdnf/conf/OptionString.cpp:64 libdnf/conf/OptionStringList.cpp:59
 #, c-format
 msgid "'%s' is not an allowed value"
 msgstr "'%s'은 (는) 허용 된 값이 아닙니다."
@@ -92,7 +92,7 @@ msgstr "주어진 경로 '%s' 존재하지 않는다."
 msgid "could not convert '%s' to seconds"
 msgstr "변환 할 수 없습니다 '%s'초까지"
 
-#: libdnf/conf/OptionString.cpp:74
+#: libdnf/conf/OptionString.cpp:79
 msgid "GetValue(): Value not set"
 msgstr "GetValue () : 값이 설정되지 않았습니다."
 
@@ -265,14 +265,14 @@ msgstr "꾸러미를 찾지 못했습니다. %s"
 msgid "could not add erase element %1$s(%2$i)"
 msgstr "요소 지우기를 추가 할 수 없습니다. %1$s(%2$i)"
 
-#: libdnf/dnf-sack.cpp:383
+#: libdnf/dnf-sack.cpp:395
+msgid "failed to add solv"
+msgstr "solv를 추가하지 못했습니다."
+
+#: libdnf/dnf-sack.cpp:414
 #, c-format
 msgid "no %1$s string for %2$s"
 msgstr ""
-
-#: libdnf/dnf-sack.cpp:406
-msgid "failed to add solv"
-msgstr "solv를 추가하지 못했습니다."
 
 #: libdnf/dnf-sack.cpp:424
 #, c-format
@@ -859,7 +859,7 @@ msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr ""
 
 #: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:534 libdnf/repo/Repo.cpp:581
-#: libdnf/repo/Repo.cpp:1364
+#: libdnf/repo/Repo.cpp:1368
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr ""
@@ -869,7 +869,7 @@ msgstr ""
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1689
+#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1693
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
@@ -915,104 +915,104 @@ msgstr "레포 %s: 0x%s 이미 수입"
 msgid "repo %s: imported key 0x%s."
 msgstr "레포 %s: 가져온 키 0x%s."
 
-#: libdnf/repo/Repo.cpp:1145
+#: libdnf/repo/Repo.cpp:1149
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "부활 : repo '%s'건너 뛰었습니다."
 
-#: libdnf/repo/Repo.cpp:1164
+#: libdnf/repo/Repo.cpp:1168
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr "부활 : repo '%s'건너 뛰었습니다. 사용 가능한 해시가 없습니다."
 
-#: libdnf/repo/Repo.cpp:1187
+#: libdnf/repo/Repo.cpp:1191
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "되살리기 : 실패한 '%s', 불일치 %s 합집합."
 
-#: libdnf/repo/Repo.cpp:1193
+#: libdnf/repo/Repo.cpp:1197
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr "되살아 난다 : '%s'부활 할 수 있습니다 - metalink 체크섬이 일치합니다."
 
-#: libdnf/repo/Repo.cpp:1218
+#: libdnf/repo/Repo.cpp:1222
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "되살아 난다 : '%s'부활 할 수 있습니다 - repomd가 일치합니다."
 
-#: libdnf/repo/Repo.cpp:1220
+#: libdnf/repo/Repo.cpp:1224
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "되살리기 : 실패한 '%s', 일치하지 않는 repomd."
 
-#: libdnf/repo/Repo.cpp:1238
+#: libdnf/repo/Repo.cpp:1242
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1244
+#: libdnf/repo/Repo.cpp:1248
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "임시 저장소 디렉토리를 만들 수 없습니다 \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1258
+#: libdnf/repo/Repo.cpp:1262
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "디렉토리를 만들 수 없습니다 \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1281
+#: libdnf/repo/Repo.cpp:1285
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "디렉터리 이름을 바꿀 수 없습니다 \"%s\"~\"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1304
+#: libdnf/repo/Repo.cpp:1308
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "repo : 캐시 사용 : %s"
 
-#: libdnf/repo/Repo.cpp:1316
+#: libdnf/repo/Repo.cpp:1320
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "캐시 만 사용 가능하지만 '%s'"
 
-#: libdnf/repo/Repo.cpp:1320
+#: libdnf/repo/Repo.cpp:1324
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "repo : 원격에서 다운로드 중 : %s"
 
-#: libdnf/repo/Repo.cpp:1326
+#: libdnf/repo/Repo.cpp:1330
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1352
+#: libdnf/repo/Repo.cpp:1356
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir () : SHA256 계산에 실패했습니다."
 
-#: libdnf/repo/Repo.cpp:1380
+#: libdnf/repo/Repo.cpp:1384
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1711
+#: libdnf/repo/Repo.cpp:1715
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1783
+#: libdnf/repo/Repo.cpp:1787
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr "이력서는 byterangestart 매개 변수와 동시에 사용할 수 없습니다."
 
-#: libdnf/repo/Repo.cpp:1800
+#: libdnf/repo/Repo.cpp:1804
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "PackageTarget 초기화에 실패했습니다 : %s"
 
-#: libdnf/repo/Repo.cpp:1906
+#: libdnf/repo/Repo.cpp:1910
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "열 수 없다 %s: %s"
 
-#: libdnf/repo/Repo.cpp:1950
+#: libdnf/repo/Repo.cpp:1954
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "ID가있는 로그 처리기 %ld 존재하지 않는다."

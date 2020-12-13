@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-02 09:18-0500\n"
+"POT-Creation-Date: 2020-12-13 09:18-0500\n"
 "PO-Revision-Date: 2020-12-01 14:35+0000\n"
 "Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
@@ -43,12 +43,12 @@ msgstr "unidad '%s' desconocida"
 msgid "percentage '%s' is out of range"
 msgstr "el valor del porcentaje (%s) se encuentra fuera del rango aceptable"
 
-#: libdnf/conf/OptionBinds.cpp:76
+#: libdnf/conf/OptionBinds.cpp:85
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
 msgstr "Configuración: no existe OptionBinding con id \"%s\""
 
-#: libdnf/conf/OptionBinds.cpp:88
+#: libdnf/conf/OptionBinds.cpp:97
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
 msgstr "Configuración: ya existe OptionBinding con id \"%s\""
@@ -59,7 +59,7 @@ msgid "invalid boolean value '%s'"
 msgstr "valor booleano inválido '%s'"
 
 #: libdnf/conf/OptionEnum.cpp:72 libdnf/conf/OptionEnum.cpp:158
-#: libdnf/conf/OptionString.cpp:59 libdnf/conf/OptionStringList.cpp:59
+#: libdnf/conf/OptionString.cpp:64 libdnf/conf/OptionStringList.cpp:59
 #, c-format
 msgid "'%s' is not an allowed value"
 msgstr "no se admite el valor '%s'"
@@ -93,7 +93,7 @@ msgstr "la ruta '%s' no existe."
 msgid "could not convert '%s' to seconds"
 msgstr "no se pudo convertir '%s' en segundos"
 
-#: libdnf/conf/OptionString.cpp:74
+#: libdnf/conf/OptionString.cpp:79
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): valor no definido"
 
@@ -268,14 +268,14 @@ msgstr "no se encontró el paquete %s"
 msgid "could not add erase element %1$s(%2$i)"
 msgstr "no se pudo añadir elemento de borrado %1$s (%2$i)"
 
-#: libdnf/dnf-sack.cpp:383
+#: libdnf/dnf-sack.cpp:395
+msgid "failed to add solv"
+msgstr "no se pudo añadir resolutor"
+
+#: libdnf/dnf-sack.cpp:414
 #, c-format
 msgid "no %1$s string for %2$s"
 msgstr ""
-
-#: libdnf/dnf-sack.cpp:406
-msgid "failed to add solv"
-msgstr "no se pudo añadir resolutor"
 
 #: libdnf/dnf-sack.cpp:424
 #, c-format
@@ -871,7 +871,7 @@ msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr ""
 
 #: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:534 libdnf/repo/Repo.cpp:581
-#: libdnf/repo/Repo.cpp:1364
+#: libdnf/repo/Repo.cpp:1368
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr ""
@@ -881,7 +881,7 @@ msgstr ""
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr "No se encuentra URL válida para el repositorio: %s"
 
-#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1689
+#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1693
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
@@ -929,105 +929,105 @@ msgstr "repo %s: clave 0x%s ya importada"
 msgid "repo %s: imported key 0x%s."
 msgstr "repo %s: importada clave 0x%s."
 
-#: libdnf/repo/Repo.cpp:1145
+#: libdnf/repo/Repo.cpp:1149
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "reviving: omitido el repositorio '%s', no hay metalink."
 
-#: libdnf/repo/Repo.cpp:1164
+#: libdnf/repo/Repo.cpp:1168
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr "reviving: omitido el repositorio '%s', no se puede usar el hash."
 
-#: libdnf/repo/Repo.cpp:1187
+#: libdnf/repo/Repo.cpp:1191
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "reviving: error para '%s', no coincide la suma %s."
 
-#: libdnf/repo/Repo.cpp:1193
+#: libdnf/repo/Repo.cpp:1197
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
 "reviving: '%s' se puede reutilizar, las comprobaciones del metalink cuadran."
 
-#: libdnf/repo/Repo.cpp:1218
+#: libdnf/repo/Repo.cpp:1222
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "reviving: '%s' se puede reutilizar, los metadatos coinciden."
 
-#: libdnf/repo/Repo.cpp:1220
+#: libdnf/repo/Repo.cpp:1224
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "reviving: no se puede con '%s', los metadatos no coinciden."
 
-#: libdnf/repo/Repo.cpp:1238
+#: libdnf/repo/Repo.cpp:1242
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1244
+#: libdnf/repo/Repo.cpp:1248
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "No se pudo crear el directorio temporal \"%s\" del repositorio: %s"
 
-#: libdnf/repo/Repo.cpp:1258
+#: libdnf/repo/Repo.cpp:1262
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "No se pudo crear el directorio \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1281
+#: libdnf/repo/Repo.cpp:1285
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "No se pudo renombrar el directorio \"%s\" a \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1304
+#: libdnf/repo/Repo.cpp:1308
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "repo: se usa caché para %s"
 
-#: libdnf/repo/Repo.cpp:1316
+#: libdnf/repo/Repo.cpp:1320
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "Se ha activado cache-only, pero no hay caché para '%s'"
 
-#: libdnf/repo/Repo.cpp:1320
+#: libdnf/repo/Repo.cpp:1324
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "repo: descargando desde remoto: %s"
 
-#: libdnf/repo/Repo.cpp:1326
+#: libdnf/repo/Repo.cpp:1330
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1352
+#: libdnf/repo/Repo.cpp:1356
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir(): Falló el cálculo de SHA256"
 
-#: libdnf/repo/Repo.cpp:1380
+#: libdnf/repo/Repo.cpp:1384
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1711
+#: libdnf/repo/Repo.cpp:1715
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1783
+#: libdnf/repo/Repo.cpp:1787
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr "no se puede usar resume con el parámetro byterangestart"
 
-#: libdnf/repo/Repo.cpp:1800
+#: libdnf/repo/Repo.cpp:1804
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "Falló la inicialización de PackageTarget: %s"
 
-#: libdnf/repo/Repo.cpp:1906
+#: libdnf/repo/Repo.cpp:1910
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "No se pudo abrir %s: %s"
 
-#: libdnf/repo/Repo.cpp:1950
+#: libdnf/repo/Repo.cpp:1954
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "No hay gestor de informes con id %ld"

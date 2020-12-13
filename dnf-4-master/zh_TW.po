@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-02 09:18-0500\n"
+"POT-Creation-Date: 2020-12-13 09:18-0500\n"
 "PO-Revision-Date: 2020-08-28 12:29+0000\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -42,12 +42,12 @@ msgstr "未知的單位「%s」"
 msgid "percentage '%s' is out of range"
 msgstr "「%s」百分比超出範圍"
 
-#: libdnf/conf/OptionBinds.cpp:76
+#: libdnf/conf/OptionBinds.cpp:85
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
 msgstr "設定：含「%s」ID 的 OptionBinding 不存在"
 
-#: libdnf/conf/OptionBinds.cpp:88
+#: libdnf/conf/OptionBinds.cpp:97
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
 msgstr "設定：含「%s」ID 的 OptionBinding 已經存在"
@@ -58,7 +58,7 @@ msgid "invalid boolean value '%s'"
 msgstr "無效的布林值「%s」"
 
 #: libdnf/conf/OptionEnum.cpp:72 libdnf/conf/OptionEnum.cpp:158
-#: libdnf/conf/OptionString.cpp:59 libdnf/conf/OptionStringList.cpp:59
+#: libdnf/conf/OptionString.cpp:64 libdnf/conf/OptionStringList.cpp:59
 #, c-format
 msgid "'%s' is not an allowed value"
 msgstr "「%s」不是允許的值"
@@ -92,7 +92,7 @@ msgstr "提供的路徑「%s」不存在。"
 msgid "could not convert '%s' to seconds"
 msgstr "無法將「%s」轉換為秒"
 
-#: libdnf/conf/OptionString.cpp:74
+#: libdnf/conf/OptionString.cpp:79
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): 未設定值"
 
@@ -266,14 +266,14 @@ msgstr "找不到 %s 軟體包"
 msgid "could not add erase element %1$s(%2$i)"
 msgstr "無法新增抹除元素 %1$s(%2$i)"
 
-#: libdnf/dnf-sack.cpp:383
+#: libdnf/dnf-sack.cpp:395
+msgid "failed to add solv"
+msgstr "無法加入 solv"
+
+#: libdnf/dnf-sack.cpp:414
 #, c-format
 msgid "no %1$s string for %2$s"
 msgstr "%2$s 沒有 %1$s 字串"
-
-#: libdnf/dnf-sack.cpp:406
-msgid "failed to add solv"
-msgstr "無法加入 solv"
 
 #: libdnf/dnf-sack.cpp:424
 #, c-format
@@ -862,7 +862,7 @@ msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr "「%s」軟體庫有不支援的類型：「類型=%s」，跳過。"
 
 #: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:534 libdnf/repo/Repo.cpp:581
-#: libdnf/repo/Repo.cpp:1364
+#: libdnf/repo/Repo.cpp:1368
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr ""
@@ -872,7 +872,7 @@ msgstr ""
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr "找不到軟體庫的有效基礎 URL：%s"
 
-#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1689
+#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1693
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
@@ -918,104 +918,104 @@ msgstr "%s 軟體庫：0x%s 早已匯入"
 msgid "repo %s: imported key 0x%s."
 msgstr "%s 軟體庫：已匯入 0x%s 金鑰。"
 
-#: libdnf/repo/Repo.cpp:1145
+#: libdnf/repo/Repo.cpp:1149
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "reviving：跳過「%s」軟體庫，沒有 metalink。"
 
-#: libdnf/repo/Repo.cpp:1164
+#: libdnf/repo/Repo.cpp:1168
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr "reviving：跳過「%s」軟體庫，沒有可用的雜湊值。"
 
-#: libdnf/repo/Repo.cpp:1187
+#: libdnf/repo/Repo.cpp:1191
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "reviving：「%s」失敗，%s 總和不符。"
 
-#: libdnf/repo/Repo.cpp:1193
+#: libdnf/repo/Repo.cpp:1197
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr "reviving：可以重生 (revive)「%s」- metalink 總和檢查碼符合。"
 
-#: libdnf/repo/Repo.cpp:1218
+#: libdnf/repo/Repo.cpp:1222
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "reviving：可以重生 (revive)「%s」- repomd 符合。"
 
-#: libdnf/repo/Repo.cpp:1220
+#: libdnf/repo/Repo.cpp:1224
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "reviving：「%s」失敗，repomd 不符。"
 
-#: libdnf/repo/Repo.cpp:1238
+#: libdnf/repo/Repo.cpp:1242
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr "無法建立軟體庫的目的地目錄「%s」：%s"
 
-#: libdnf/repo/Repo.cpp:1244
+#: libdnf/repo/Repo.cpp:1248
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "無法建立軟體庫的暫存目錄「%s」：%s"
 
-#: libdnf/repo/Repo.cpp:1258
+#: libdnf/repo/Repo.cpp:1262
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "無法建立「%s」目錄：%s"
 
-#: libdnf/repo/Repo.cpp:1281
+#: libdnf/repo/Repo.cpp:1285
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "無法將「%s」目錄重新命名至「%s」：%s"
 
-#: libdnf/repo/Repo.cpp:1304
+#: libdnf/repo/Repo.cpp:1308
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "repo：使用下述的快取：%s"
 
-#: libdnf/repo/Repo.cpp:1316
+#: libdnf/repo/Repo.cpp:1320
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "啟用了「只使用快取」，但是沒有「%s」的快取。"
 
-#: libdnf/repo/Repo.cpp:1320
+#: libdnf/repo/Repo.cpp:1324
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "repo：從遠端下載：%s"
 
-#: libdnf/repo/Repo.cpp:1326
+#: libdnf/repo/Repo.cpp:1330
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr "無法下載「%s」軟體庫的中介資料：%s"
 
-#: libdnf/repo/Repo.cpp:1352
+#: libdnf/repo/Repo.cpp:1356
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir(): 計算 SHA256 失敗"
 
-#: libdnf/repo/Repo.cpp:1380
+#: libdnf/repo/Repo.cpp:1384
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr "無法建立「%s」persistdir：%s"
 
-#: libdnf/repo/Repo.cpp:1711
+#: libdnf/repo/Repo.cpp:1715
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1783
+#: libdnf/repo/Repo.cpp:1787
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr "resume 不可與 byterangestart 參數同時使用"
 
-#: libdnf/repo/Repo.cpp:1800
+#: libdnf/repo/Repo.cpp:1804
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "PackageTarget 初始化失敗：%s"
 
-#: libdnf/repo/Repo.cpp:1906
+#: libdnf/repo/Repo.cpp:1910
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "無法開啟 %s：%s"
 
-#: libdnf/repo/Repo.cpp:1950
+#: libdnf/repo/Repo.cpp:1954
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "有 ID %ld 的記錄處理器不存在"
