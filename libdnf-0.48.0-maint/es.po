@@ -917,7 +917,8 @@ msgstr ""
 
 #: libdnf/transaction/Transformer.cpp:681
 msgid "Transformer: can't open history persist dir"
-msgstr "Transformador: no se puede abrir el historial de directorio persistente"
+msgstr ""
+"Transformador: no se puede abrir el historial de directorio persistente"
 
 #: libdnf/transaction/Transformer.cpp:694
 msgid "Couldn't find a history database"

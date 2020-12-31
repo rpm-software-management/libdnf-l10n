@@ -414,7 +414,8 @@ msgstr "algum problema de dependência"
 
 #: libdnf/goal/Goal.cpp:76
 msgid "cannot install the best update candidate for package "
-msgstr "não é possível instalar o melhor candidato à atualização para o pacote "
+msgstr ""
+"não é possível instalar o melhor candidato à atualização para o pacote "
 
 #: libdnf/goal/Goal.cpp:77 libdnf/goal/Goal.cpp:104
 msgid "cannot install the best candidate for the job"
