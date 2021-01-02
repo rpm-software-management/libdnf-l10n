@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-30 09:18-0500\n"
+"POT-Creation-Date: 2021-01-01 09:18-0500\n"
 "PO-Revision-Date: 2021-01-02 00:36+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
@@ -179,7 +179,8 @@ msgstr ""
 
 #: libdnf/dnf-context.cpp:3373
 msgid "Problems appeared for module disable request"
-msgstr "Des problèmes sont apparus durant la requête de désactivation du module"
+msgstr ""
+"Des problèmes sont apparus durant la requête de désactivation du module"
 
 #: libdnf/dnf-context.cpp:3409
 #, c-format
@@ -187,8 +188,8 @@ msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
 msgstr ""
-"Le résultat de l’opération sera le basculement du flux « %s » du module « %s "
-"» vers le flux « %s »"
+"Le résultat de l’opération sera le basculement du flux « %s » du module "
+"« %s » vers le flux « %s »"
 
 #: libdnf/dnf-context.cpp:3413
 msgid ""
