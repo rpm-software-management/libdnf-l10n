@@ -1,11 +1,11 @@
 # Emin Tufan Çetin <etcetin@gmail.com>, 2016. #zanata
-# Oğuz Ersen <oguzersen@protonmail.com>, 2020.
+# Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-01 09:18-0500\n"
-"PO-Revision-Date: 2020-09-06 18:29+0000\n"
+"PO-Revision-Date: 2021-01-05 16:36+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/tr/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.4\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -858,7 +858,7 @@ msgstr "repo: %s için önbellek kullanılıyor"
 #: libdnf/repo/Repo.cpp:1335
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
-msgstr "Sadece-önbellek modu etkin ancak '%s' için önbellek yok"
+msgstr "Yalnızca-önbellek modu etkin ancak '%s' için önbellek yok"
 
 #: libdnf/repo/Repo.cpp:1339
 #, c-format
