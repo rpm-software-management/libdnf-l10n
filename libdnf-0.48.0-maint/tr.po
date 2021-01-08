@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-26 08:17+0200\n"
-"PO-Revision-Date: 2021-01-05 16:36+0000\n"
+"PO-Revision-Date: 2021-01-09 06:36+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-libdnf-0480-maint/tr/>\n"
@@ -157,12 +157,11 @@ msgstr "install (kurulum) ögesi eklenemedi: %1$s [%2$i]"
 #: libdnf/dnf-rpmts.cpp:274
 #, c-format
 msgid "Error running transaction: %s"
-msgstr "İşlem gerçekleştirilirken hata oluştu: %s"
+msgstr "İşlem çalıştırılırken hata oluştu: %s"
 
 #: libdnf/dnf-rpmts.cpp:283
 msgid "Error running transaction and no problems were reported!"
-msgstr ""
-"İşlem gerçekleştirilirken hata oluştu ve herhangi bir sorun bildirilmedi!"
+msgstr "İşlem çalıştırılırken hata oluştu ve herhangi bir sorun bildirilmedi!"
 
 #: libdnf/dnf-rpmts.cpp:346
 msgid "Fatal error, run database recovery"
@@ -337,12 +336,12 @@ msgstr "kök dizin ayarlanamadı"
 #: libdnf/dnf-transaction.cpp:1418
 #, c-format
 msgid "Error %i running transaction test"
-msgstr "İşlem testi gerçekleştirilirken %i hatası"
+msgstr "İşlem testi çalıştırılırken %i hatası"
 
 #: libdnf/dnf-transaction.cpp:1458
 #, c-format
 msgid "Error %i running transaction"
-msgstr "İşlem gerçekleştirilirken %i hatası"
+msgstr "İşlem çalıştırılırken %i hatası"
 
 #: libdnf/dnf-transaction.cpp:1473
 #, c-format
