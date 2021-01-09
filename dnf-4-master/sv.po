@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-05 09:18-0500\n"
+"POT-Creation-Date: 2021-01-08 09:18-0500\n"
 "PO-Revision-Date: 2020-12-03 07:35+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
@@ -97,13 +97,13 @@ msgstr "kunde inte konvertera ”%s” till sekunder"
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): Värdet är inte satt"
 
-#: libdnf/dnf-context.cpp:3066 libdnf/dnf-context.cpp:3075
+#: libdnf/dnf-context.cpp:3069 libdnf/dnf-context.cpp:3078
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr ""
 "Det går inte att aktivera flera strömmar från modulen ”%s” på samma gång"
 
-#: libdnf/dnf-context.cpp:3084 libdnf/dnf-context.cpp:3102
+#: libdnf/dnf-context.cpp:3087 libdnf/dnf-context.cpp:3105
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
@@ -111,54 +111,54 @@ msgstr ""
 "Det går inte att aktivera modulen ”%1$s” strömmen ”%2$s”: tillståndet på "
 "modulen är redan ändrat"
 
-#: libdnf/dnf-context.cpp:3149
+#: libdnf/dnf-context.cpp:3152
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "Modulärt beroendeproblem med standard: %s"
 
-#: libdnf/dnf-context.cpp:3152
+#: libdnf/dnf-context.cpp:3155
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "Modulärt beroendeproblem: %s"
 
-#: libdnf/dnf-context.cpp:3186 libdnf/dnf-context.cpp:3210
-#: libdnf/dnf-context.cpp:3221 libdnf/dnf-context.cpp:3260
-#: libdnf/dnf-context.cpp:3276 libdnf/dnf-context.cpp:3308
+#: libdnf/dnf-context.cpp:3189 libdnf/dnf-context.cpp:3213
+#: libdnf/dnf-context.cpp:3224 libdnf/dnf-context.cpp:3263
+#: libdnf/dnf-context.cpp:3279 libdnf/dnf-context.cpp:3311
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "Kan inte slå upp argumentet ”%s”"
 
-#: libdnf/dnf-context.cpp:3193
+#: libdnf/dnf-context.cpp:3196
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr ""
 "Endast modulnamn behövs. Ignorerar onödig information i argumentet: ”%s”"
 
-#: libdnf/dnf-context.cpp:3207
+#: libdnf/dnf-context.cpp:3210
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr ""
 "Det går inte att återställa modulen”%s”: tillståndet på modulen är redan "
 "ändrat"
 
-#: libdnf/dnf-context.cpp:3218
+#: libdnf/dnf-context.cpp:3221
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr ""
 "Det går inte att avaktivera modulen”%s”: tillståndet på modulen är redan "
 "ändrat"
 
-#: libdnf/dnf-context.cpp:3249 libdnf/dnf-context.cpp:3340
+#: libdnf/dnf-context.cpp:3252 libdnf/dnf-context.cpp:3343
 msgid "No modular data available"
 msgstr "Inga modulära data gilltängliga"
 
-#: libdnf/dnf-context.cpp:3266
+#: libdnf/dnf-context.cpp:3269
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Ignorerar onödig information i argumentet: ”%s”"
 
-#: libdnf/dnf-context.cpp:3304
+#: libdnf/dnf-context.cpp:3307
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for moduele '%1$s' stream "
@@ -167,19 +167,19 @@ msgstr ""
 "Problem under aktivering av beroendeträdet för modulen ”%1$s” strömmen "
 "”%2$s”: %3$s"
 
-#: libdnf/dnf-context.cpp:3316
+#: libdnf/dnf-context.cpp:3319
 msgid "Problems appeared for module enable request"
 msgstr "Problem uppstod för modulaktiveringsbegäran"
 
-#: libdnf/dnf-context.cpp:3371
+#: libdnf/dnf-context.cpp:3374
 msgid "Problems appeared for module reset request"
 msgstr "Problem uppstod för modulåterställningsbegäran"
 
-#: libdnf/dnf-context.cpp:3373
+#: libdnf/dnf-context.cpp:3376
 msgid "Problems appeared for module disable request"
 msgstr "Problem uppstod för modulavaktiveringsbegäran"
 
-#: libdnf/dnf-context.cpp:3409
+#: libdnf/dnf-context.cpp:3412
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -187,7 +187,7 @@ msgid ""
 msgstr ""
 "Åtgärden skulle resultera i byte av modulen ”%s” ström ”%s” till ström ”%s”"
 
-#: libdnf/dnf-context.cpp:3413
+#: libdnf/dnf-context.cpp:3416
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
