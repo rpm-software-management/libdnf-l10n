@@ -1,13 +1,13 @@
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
 # Ricky Tigg <ricky.tigg@gmail.com>, 2020.
-# Jan Kuparinen <copper_fin@hotmail.com>, 2020.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-08 09:18-0500\n"
-"PO-Revision-Date: 2020-12-03 07:35+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2021-01-10 20:36+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fi/>\n"
 "Language: fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.4\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -84,16 +84,16 @@ msgstr ""
 #: libdnf/conf/OptionPath.cpp:82
 #, c-format
 msgid "given path '%s' does not exist."
-msgstr ""
+msgstr "annettua polkua '%s' ei ole."
 
 #: libdnf/conf/OptionSeconds.cpp:52
 #, c-format
 msgid "could not convert '%s' to seconds"
-msgstr ""
+msgstr "ei pystynyt kääntämään '%s' sekunneiksi"
 
 #: libdnf/conf/OptionString.cpp:79
 msgid "GetValue(): Value not set"
-msgstr ""
+msgstr "GetValue(): Arvoa ei ole asetettu"
 
 #: libdnf/dnf-context.cpp:3069 libdnf/dnf-context.cpp:3078
 #, c-format
@@ -222,17 +222,17 @@ msgstr ""
 #: libdnf/dnf-rpmts.cpp:129 libdnf/dnf-rpmts.cpp:174
 #, c-format
 msgid "failed to open(generic error): %s"
-msgstr ""
+msgstr "avaaminen epäonnistui (geneerinen virhe): %s"
 
 #: libdnf/dnf-rpmts.cpp:142
 #, c-format
 msgid "failed to verify key for %s"
-msgstr ""
+msgstr "avaimen tarkistaminen %s:hon epäonnistui"
 
 #: libdnf/dnf-rpmts.cpp:150
 #, c-format
 msgid "public key unavailable for %s"
-msgstr ""
+msgstr "Julkista avainta ei ole saatavilla %s:lle"
 
 #: libdnf/dnf-rpmts.cpp:158
 #, c-format
@@ -791,7 +791,7 @@ msgstr ""
 #: libdnf/module/modulemd/ModuleMetadata.cpp:110
 #, c-format
 msgid "Failed to resolve: %s"
-msgstr ""
+msgstr "'%s':n ratkaiseminen epäonnistui"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:115
 #, c-format
@@ -960,7 +960,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:1262
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
-msgstr ""
+msgstr "Hakemistoa \"%s\": %s ei voitu luoda"
 
 #: libdnf/repo/Repo.cpp:1285
 #, c-format
