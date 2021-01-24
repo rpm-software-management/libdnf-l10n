@@ -1,14 +1,14 @@
-# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020.
-# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020.
-# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020.
-# Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata, 2020.
-# Yuri Chornoivan <yurchor@ukr.net>, 2020. #zanata
+# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2017. #zanata, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020. #zanata, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-24 09:18-0500\n"
-"PO-Revision-Date: 2020-11-27 12:35+0000\n"
+"PO-Revision-Date: 2021-01-26 15:38+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -116,10 +116,9 @@ msgid "Modular dependency problem with Defaults: %s"
 msgstr "Проблема із залежностями модулів у Defaults: %s"
 
 #: libdnf/dnf-context.cpp:3155
-#, fuzzy, c-format
-#| msgid "Modular dependency problem with Defaults: %s"
+#, c-format
 msgid "Modular dependency problem with the lates modules: %s"
-msgstr "Проблема із залежностями модулів у Defaults: %s"
+msgstr "Проблема із залежностями модулів із найсвіжішими модулями: %s"
 
 #: libdnf/dnf-context.cpp:3159
 #, c-format
@@ -823,6 +822,8 @@ msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
 msgstr ""
+"Не вдалося застосувати модульне застарівання до «%s:%s», оскільки модуль "
+"призначення, «%s», вимкнено"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -853,6 +854,8 @@ msgstr "Не вдалося оновити потоки: %s"
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""
+"Не вдалося отримати застарілі пакунки для модуля, оскільки немає потоку, що "
+"відповідає запису %s: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
