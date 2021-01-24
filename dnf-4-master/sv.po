@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-12 09:18-0500\n"
+"POT-Creation-Date: 2021-01-24 09:18-0500\n"
 "PO-Revision-Date: 2020-12-03 07:35+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
@@ -38,7 +38,7 @@ msgstr "kunde inte konvertera ”%s” till byte"
 msgid "unknown unit '%s'"
 msgstr "okänd enhet ”%s”"
 
-#: libdnf/conf/ConfigMain.cpp:334
+#: libdnf/conf/ConfigMain.cpp:335
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "procentsatsen ”%s” är utanför intervallet"
@@ -117,48 +117,54 @@ msgid "Modular dependency problem with Defaults: %s"
 msgstr "Modulärt beroendeproblem med standard: %s"
 
 #: libdnf/dnf-context.cpp:3155
+#, fuzzy, c-format
+#| msgid "Modular dependency problem with Defaults: %s"
+msgid "Modular dependency problem with the lates modules: %s"
+msgstr "Modulärt beroendeproblem med standard: %s"
+
+#: libdnf/dnf-context.cpp:3159
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "Modulärt beroendeproblem: %s"
 
-#: libdnf/dnf-context.cpp:3189 libdnf/dnf-context.cpp:3213
-#: libdnf/dnf-context.cpp:3224 libdnf/dnf-context.cpp:3263
-#: libdnf/dnf-context.cpp:3279 libdnf/dnf-context.cpp:3311
+#: libdnf/dnf-context.cpp:3193 libdnf/dnf-context.cpp:3217
+#: libdnf/dnf-context.cpp:3228 libdnf/dnf-context.cpp:3267
+#: libdnf/dnf-context.cpp:3283 libdnf/dnf-context.cpp:3315
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "Kan inte slå upp argumentet ”%s”"
 
-#: libdnf/dnf-context.cpp:3196
+#: libdnf/dnf-context.cpp:3200
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr ""
 "Endast modulnamn behövs. Ignorerar onödig information i argumentet: ”%s”"
 
-#: libdnf/dnf-context.cpp:3210
+#: libdnf/dnf-context.cpp:3214
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr ""
 "Det går inte att återställa modulen”%s”: tillståndet på modulen är redan "
 "ändrat"
 
-#: libdnf/dnf-context.cpp:3221
+#: libdnf/dnf-context.cpp:3225
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr ""
 "Det går inte att avaktivera modulen”%s”: tillståndet på modulen är redan "
 "ändrat"
 
-#: libdnf/dnf-context.cpp:3252 libdnf/dnf-context.cpp:3343
+#: libdnf/dnf-context.cpp:3256 libdnf/dnf-context.cpp:3347
 msgid "No modular data available"
 msgstr "Inga modulära data gilltängliga"
 
-#: libdnf/dnf-context.cpp:3269
+#: libdnf/dnf-context.cpp:3273
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Ignorerar onödig information i argumentet: ”%s”"
 
-#: libdnf/dnf-context.cpp:3307
+#: libdnf/dnf-context.cpp:3311
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for moduele '%1$s' stream "
@@ -167,19 +173,19 @@ msgstr ""
 "Problem under aktivering av beroendeträdet för modulen ”%1$s” strömmen "
 "”%2$s”: %3$s"
 
-#: libdnf/dnf-context.cpp:3319
+#: libdnf/dnf-context.cpp:3323
 msgid "Problems appeared for module enable request"
 msgstr "Problem uppstod för modulaktiveringsbegäran"
 
-#: libdnf/dnf-context.cpp:3374
+#: libdnf/dnf-context.cpp:3378
 msgid "Problems appeared for module reset request"
 msgstr "Problem uppstod för modulåterställningsbegäran"
 
-#: libdnf/dnf-context.cpp:3376
+#: libdnf/dnf-context.cpp:3380
 msgid "Problems appeared for module disable request"
 msgstr "Problem uppstod för modulavaktiveringsbegäran"
 
-#: libdnf/dnf-context.cpp:3412
+#: libdnf/dnf-context.cpp:3416
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -187,7 +193,7 @@ msgid ""
 msgstr ""
 "Åtgärden skulle resultera i byte av modulen ”%s” ström ”%s” till ström ”%s”"
 
-#: libdnf/dnf-context.cpp:3416
+#: libdnf/dnf-context.cpp:3420
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -359,7 +365,7 @@ msgstr "misslyckades att skapa cache-katalogen %s"
 msgid "failed loading RPMDB"
 msgstr "misslyckades att läsa in RPMDB"
 
-#: libdnf/dnf-sack.cpp:2461
+#: libdnf/dnf-sack.cpp:2460
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "Inga standardmoduler funna: %s"
@@ -464,235 +470,235 @@ msgstr "kan inte öppna katalogen %1$s: %2$s"
 msgid "failed to remove %s"
 msgstr "misslyckades att ta bort %s"
 
-#: libdnf/goal/Goal.cpp:55
+#: libdnf/goal/Goal.cpp:78
 msgid "Ill-formed Selector, presence of multiple match objects in the filter"
 msgstr "Felformad väljare, det finns flera matchningsobjekt i filtret"
 
-#: libdnf/goal/Goal.cpp:56
+#: libdnf/goal/Goal.cpp:79
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr "Felformulerad väljare använd för åtgärden, felaktig jämförelsetyp"
 
-#: libdnf/goal/Goal.cpp:67 libdnf/goal/Goal.cpp:94
+#: libdnf/goal/Goal.cpp:90 libdnf/goal/Goal.cpp:117
 msgid " does not belong to a distupgrade repository"
 msgstr " tillhör inte något dist-uppgraderingsförråd"
 
-#: libdnf/goal/Goal.cpp:68 libdnf/goal/Goal.cpp:95
+#: libdnf/goal/Goal.cpp:91 libdnf/goal/Goal.cpp:118
 msgid " has inferior architecture"
 msgstr " har underarkitektur"
 
-#: libdnf/goal/Goal.cpp:69
+#: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
 msgstr "problem med installerat paket "
 
-#: libdnf/goal/Goal.cpp:70 libdnf/goal/Goal.cpp:97
+#: libdnf/goal/Goal.cpp:93 libdnf/goal/Goal.cpp:120
 msgid "conflicting requests"
 msgstr "begäranden i konflikt"
 
-#: libdnf/goal/Goal.cpp:71 libdnf/goal/Goal.cpp:98
+#: libdnf/goal/Goal.cpp:94 libdnf/goal/Goal.cpp:121
 msgid "unsupported request"
 msgstr "begäran som ej stödjs"
 
-#: libdnf/goal/Goal.cpp:72 libdnf/goal/Goal.cpp:99
+#: libdnf/goal/Goal.cpp:95 libdnf/goal/Goal.cpp:122
 msgid "nothing provides requested "
 msgstr "inget tillhandahåller begärda "
 
-#: libdnf/goal/Goal.cpp:73
+#: libdnf/goal/Goal.cpp:96
 #, c-format
 msgid "package %s does not exist"
 msgstr "paketet %s finns inte"
 
-#: libdnf/goal/Goal.cpp:74 libdnf/goal/Goal.cpp:101
+#: libdnf/goal/Goal.cpp:97 libdnf/goal/Goal.cpp:124
 msgid " is provided by the system"
 msgstr " tillhandahålls av systemet"
 
-#: libdnf/goal/Goal.cpp:75 libdnf/goal/Goal.cpp:102
+#: libdnf/goal/Goal.cpp:98 libdnf/goal/Goal.cpp:125
 msgid "some dependency problem"
 msgstr "något beroendeproblem"
 
-#: libdnf/goal/Goal.cpp:76
+#: libdnf/goal/Goal.cpp:99
 msgid "cannot install the best update candidate for package "
 msgstr ""
 "det går inte att installera den bästa uppdateringskandidaten för paketet "
 
-#: libdnf/goal/Goal.cpp:77 libdnf/goal/Goal.cpp:104
+#: libdnf/goal/Goal.cpp:100 libdnf/goal/Goal.cpp:127
 msgid "cannot install the best candidate for the job"
 msgstr "det går inte att installera den bästa kandidaten för jobbet"
 
-#: libdnf/goal/Goal.cpp:78
+#: libdnf/goal/Goal.cpp:101
 #, c-format
 msgid "package %s is filtered out by modular filtering"
 msgstr "paketet %s är utfiltrerat av modulfiltrering"
 
-#: libdnf/goal/Goal.cpp:79
+#: libdnf/goal/Goal.cpp:102
 #, c-format
 msgid "package %s does not have a compatible architecture"
 msgstr "paketet %s har inte en kompatibel arkitektur"
 
-#: libdnf/goal/Goal.cpp:80
+#: libdnf/goal/Goal.cpp:103
 #, c-format
 msgid "package %s is not installable"
 msgstr "paketet %s är inte installerbart"
 
-#: libdnf/goal/Goal.cpp:81
+#: libdnf/goal/Goal.cpp:104
 #, c-format
 msgid "package %s is filtered out by exclude filtering"
 msgstr "paketet %s är utfiltrerat av uteslutningsfiltrering"
 
-#: libdnf/goal/Goal.cpp:82
+#: libdnf/goal/Goal.cpp:105
 #, c-format
 msgid "nothing provides %s needed by %s"
 msgstr "inget tillhandahåller %s som behövs av %s"
 
-#: libdnf/goal/Goal.cpp:83
+#: libdnf/goal/Goal.cpp:106
 #, c-format
 msgid "cannot install both %s and %s"
 msgstr "det går inte att installera både %s och %s"
 
-#: libdnf/goal/Goal.cpp:84
+#: libdnf/goal/Goal.cpp:107
 #, c-format
 msgid "package %s conflicts with %s provided by %s"
 msgstr "paketet %s står i konflikt med %s som tillhandahålls av %s"
 
-#: libdnf/goal/Goal.cpp:85
+#: libdnf/goal/Goal.cpp:108
 #, c-format
 msgid "package %s obsoletes %s provided by %s"
 msgstr "paketet %s fasar ut %s som tillhandahålls av %s"
 
-#: libdnf/goal/Goal.cpp:86
+#: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
 msgstr "det installerade paketet %s fasar ut %s som tillhandahålls av %s"
 
-#: libdnf/goal/Goal.cpp:87
+#: libdnf/goal/Goal.cpp:110
 #, c-format
 msgid "package %s implicitly obsoletes %s provided by %s"
 msgstr "paketet %s fasar implicit ut %s som tillhandahålls av %s"
 
-#: libdnf/goal/Goal.cpp:88
+#: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid "package %s requires %s, but none of the providers can be installed"
 msgstr "paketet %s behöver %s, men ingen av leverantörerna kan installeras"
 
-#: libdnf/goal/Goal.cpp:89
+#: libdnf/goal/Goal.cpp:112
 #, c-format
 msgid "package %s conflicts with %s provided by itself"
 msgstr "paketet %s står i konflikt med %s som det tillhandahåller själv"
 
-#: libdnf/goal/Goal.cpp:90
+#: libdnf/goal/Goal.cpp:113
 #, c-format
 msgid "both package %s and %s obsolete %s"
 msgstr "både paketet %s och %s fasar ut %s"
 
-#: libdnf/goal/Goal.cpp:96
+#: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
 msgstr "problem med den installerade modulen "
 
-#: libdnf/goal/Goal.cpp:100
+#: libdnf/goal/Goal.cpp:123
 #, c-format
 msgid "module %s does not exist"
 msgstr "modulen %s finns inte"
 
-#: libdnf/goal/Goal.cpp:103
+#: libdnf/goal/Goal.cpp:126
 msgid "cannot install the best update candidate for module "
 msgstr ""
 "det går inte att installera den bästa uppdateringskandidaten för modulen "
 
-#: libdnf/goal/Goal.cpp:105 libdnf/goal/Goal.cpp:108
+#: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
 #, c-format
 msgid "module %s is disabled"
 msgstr "modulen %s är avaktiverad"
 
-#: libdnf/goal/Goal.cpp:106
+#: libdnf/goal/Goal.cpp:129
 #, c-format
 msgid "module %s does not have a compatible architecture"
 msgstr "modulen %s har inte en kompatibel arkitektur"
 
-#: libdnf/goal/Goal.cpp:107
+#: libdnf/goal/Goal.cpp:130
 #, c-format
 msgid "module %s is not installable"
 msgstr "modulen %s är inte installerbar"
 
-#: libdnf/goal/Goal.cpp:109
+#: libdnf/goal/Goal.cpp:132
 #, c-format
 msgid "nothing provides %s needed by module %s"
 msgstr "ingenting tillhandahåller %s som behövs av modulen %s"
 
-#: libdnf/goal/Goal.cpp:110
+#: libdnf/goal/Goal.cpp:133
 #, c-format
 msgid "cannot install both modules %s and %s"
 msgstr "det går inte att installera både modulen %s och %s"
 
-#: libdnf/goal/Goal.cpp:111
+#: libdnf/goal/Goal.cpp:134
 #, c-format
 msgid "module %s conflicts with %s provided by %s"
 msgstr "modulen %s står i konflikt med %s som tillhandahålls av %s"
 
-#: libdnf/goal/Goal.cpp:112
+#: libdnf/goal/Goal.cpp:135
 #, c-format
 msgid "module %s obsoletes %s provided by %s"
 msgstr "modulen %s fasar ut %s som tillhandahålls av %s"
 
-#: libdnf/goal/Goal.cpp:113
+#: libdnf/goal/Goal.cpp:136
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s"
 msgstr "den installerade modulen %s fasar ut %s som tillhandahålls av %s"
 
-#: libdnf/goal/Goal.cpp:114
+#: libdnf/goal/Goal.cpp:137
 #, c-format
 msgid "module %s implicitly obsoletes %s provided by %s"
 msgstr "modulen %s fasar implicit ut %s som tillhandahålls av %s"
 
-#: libdnf/goal/Goal.cpp:115
+#: libdnf/goal/Goal.cpp:138
 #, c-format
 msgid "module %s requires %s, but none of the providers can be installed"
 msgstr "modulen %s behöver %s, men ingen av leverantörerna kan installeras"
 
-#: libdnf/goal/Goal.cpp:116
+#: libdnf/goal/Goal.cpp:139
 #, c-format
 msgid "module %s conflicts with %s provided by itself"
 msgstr "modulen %s står i konflikt med %s som den tillhandahåller själv"
 
-#: libdnf/goal/Goal.cpp:117
+#: libdnf/goal/Goal.cpp:140
 #, c-format
 msgid "both module %s and %s obsolete %s"
 msgstr "både modulen %s och %s fasar ut %sx"
 
-#: libdnf/goal/Goal.cpp:1038
+#: libdnf/goal/Goal.cpp:1069
 msgid "no solver set"
 msgstr "ingen lösare angiven"
 
-#: libdnf/goal/Goal.cpp:1043
+#: libdnf/goal/Goal.cpp:1074
 #, c-format
 msgid "failed to make %s absolute"
 msgstr "misslyckades att göra %s absolut"
 
-#: libdnf/goal/Goal.cpp:1050
+#: libdnf/goal/Goal.cpp:1081
 #, c-format
 msgid "failed writing debugdata to %1$s: %2$s"
 msgstr "misslyckades att skriva felsökningsdata till %1$s: %2$s"
 
-#: libdnf/goal/Goal.cpp:1062
+#: libdnf/goal/Goal.cpp:1093
 msgid "no solv in the goal"
 msgstr "ingen lösning i målet"
 
-#: libdnf/goal/Goal.cpp:1064
+#: libdnf/goal/Goal.cpp:1095
 msgid "no solution, cannot remove protected package"
 msgstr "ingen lösning, kan inte ta bort skyddat paket"
 
-#: libdnf/goal/Goal.cpp:1067
+#: libdnf/goal/Goal.cpp:1098
 msgid "no solution possible"
 msgstr "ingen lösning möjlig"
 
-#: libdnf/goal/Goal.cpp:1193
+#: libdnf/goal/Goal.cpp:1224
 msgid "Problem: "
 msgstr "Problem: "
 
-#: libdnf/goal/Goal.cpp:1198
+#: libdnf/goal/Goal.cpp:1229
 #, c-format
 msgid "Problem %d: "
 msgstr "Problem %d: "
 
-#: libdnf/goal/Goal.cpp:1525
+#: libdnf/goal/Goal.cpp:1556
 msgid ""
 "The operation would result in removing the following protected packages: "
 msgstr "Åtgärden skulle resultera i att ta bort följande skyddade paket: "
@@ -717,91 +723,98 @@ msgstr "kan inte skapa katalogen %1$s: %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "kan inte ta status på sökvägen %1$s: %2$s"
 
-#: libdnf/module/ModulePackage.cpp:499
+#: libdnf/module/ModulePackage.cpp:546
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "Felaktigt format på plattformsmodulen: %s"
 
-#: libdnf/module/ModulePackage.cpp:514
+#: libdnf/module/ModulePackage.cpp:561
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "Flera modulplattformar tillhandahålls av tillgängliga paket\n"
 
-#: libdnf/module/ModulePackage.cpp:527
+#: libdnf/module/ModulePackage.cpp:574
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "Flera modulplattformar tillhandahålls av installerade paket\n"
 
-#: libdnf/module/ModulePackage.cpp:554
+#: libdnf/module/ModulePackage.cpp:601
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "Detektering av plattformsmodul i %s misslyckades: %s"
 
-#: libdnf/module/ModulePackage.cpp:563
+#: libdnf/module/ModulePackage.cpp:610
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "Saknad PLATFORM_ID i %s"
 
-#: libdnf/module/ModulePackage.cpp:568
+#: libdnf/module/ModulePackage.cpp:615
 msgid "No valid Platform ID detected"
 msgstr "Inget giltigt plattforms-ID detekterat"
 
-#: libdnf/module/ModulePackageContainer.cpp:68
+#: libdnf/module/ModulePackageContainer.cpp:107
 #, c-format
 msgid "Cannot enable multiple streams for module '%s'"
 msgstr "Det går inte att aktivera multipla strömmar för modulen ”%s”"
 
-#: libdnf/module/ModulePackageContainer.cpp:294
+#: libdnf/module/ModulePackageContainer.cpp:346
 #, c-format
 msgid "Conflicting defaults with repo '%s': %s"
 msgstr "Standardvärden i konflikt med förrådet ”%s”: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:829
+#: libdnf/module/ModulePackageContainer.cpp:916
 msgid "Installing module profiles:\n"
 msgstr "Installerar modulprofiler:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:844
+#: libdnf/module/ModulePackageContainer.cpp:931
 msgid "Disabling module profiles:\n"
 msgstr "Avaktiverar modulprofiler:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:859
+#: libdnf/module/ModulePackageContainer.cpp:946
 msgid "Enabling module streams:\n"
 msgstr "Aktiverar modulströmmar:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:873
+#: libdnf/module/ModulePackageContainer.cpp:960
 msgid "Switching module streams:\n"
 msgstr "Byter modulströmmar:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:891
+#: libdnf/module/ModulePackageContainer.cpp:978
 msgid "Disabling modules:\n"
 msgstr "Avaktiverar moduler:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:902
+#: libdnf/module/ModulePackageContainer.cpp:989
 msgid "Resetting modules:\n"
 msgstr "Återställer moduler:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1586
+#: libdnf/module/ModulePackageContainer.cpp:1672
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "Kan inte läsa in modulär felsäker data vid ”%s”"
 
-#: libdnf/module/ModulePackageContainer.cpp:1592
+#: libdnf/module/ModulePackageContainer.cpp:1678
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "Kan inte läsa in modulär felsäker data för modulen ”%s:%s”"
 
-#: libdnf/module/ModulePackageContainer.cpp:1656
+#: libdnf/module/ModulePackageContainer.cpp:1765
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr "Det går inte att skapa katalogen ”%s” för modulär felsäker data: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1678
+#: libdnf/module/ModulePackageContainer.cpp:1787
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "Kan inte spara modulär felsäker data till ”%s”"
 
-#: libdnf/module/ModulePackageContainer.cpp:1703
+#: libdnf/module/ModulePackageContainer.cpp:1812
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Kan inte ta bort modulär felsäker data i ”%s”"
+
+#: libdnf/module/ModulePackageContainer.cpp:1846
+#, c-format
+msgid ""
+"Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
+"disabled"
+msgstr ""
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -827,6 +840,11 @@ msgstr "Misslyckades att uppgradera standardvärden: %s"
 #, c-format
 msgid "Failed to upgrade streams: %s"
 msgstr "Misslyckades att uppgradera strömmar: %s"
+
+#: libdnf/module/modulemd/ModuleMetadata.cpp:219
+#, c-format
+msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
+msgstr ""
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
