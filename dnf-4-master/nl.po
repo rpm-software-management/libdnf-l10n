@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-24 09:18-0500\n"
+"POT-Creation-Date: 2021-01-26 09:18-0500\n"
 "PO-Revision-Date: 2021-01-26 15:38+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
@@ -113,8 +113,9 @@ msgid "Modular dependency problem with Defaults: %s"
 msgstr "Modulair afhankelijkheidsprobleem met Standaard: %s"
 
 #: libdnf/dnf-context.cpp:3155
-#, c-format
-msgid "Modular dependency problem with the lates modules: %s"
+#, fuzzy, c-format
+#| msgid "Modular dependency problem with the lates modules: %s"
+msgid "Modular dependency problem with the latest modules: %s"
 msgstr "Modulair afhankelijkheidsprobleem met de lates modules: %s"
 
 #: libdnf/dnf-context.cpp:3159

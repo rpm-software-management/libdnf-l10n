@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-24 09:18-0500\n"
+"POT-Creation-Date: 2021-01-26 09:18-0500\n"
 "PO-Revision-Date: 2021-01-26 15:38+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
@@ -113,8 +113,9 @@ msgid "Modular dependency problem with Defaults: %s"
 msgstr "Öntanımlı değerlerle modüler bağımlılık sorunu: %s"
 
 #: libdnf/dnf-context.cpp:3155
-#, c-format
-msgid "Modular dependency problem with the lates modules: %s"
+#, fuzzy, c-format
+#| msgid "Modular dependency problem with the lates modules: %s"
+msgid "Modular dependency problem with the latest modules: %s"
 msgstr "En son modüllerle modüler bağımlılık sorunu: %s"
 
 #: libdnf/dnf-context.cpp:3159
@@ -562,7 +563,8 @@ msgstr "%s paketi, %s'i (%s tarafından sağlanan) kullanım dışı bırakıyor
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
-msgstr "kurulu %s paketi, %s'i (%s tarafından sağlanan) kullanım dışı bırakıyor"
+msgstr ""
+"kurulu %s paketi, %s'i (%s tarafından sağlanan) kullanım dışı bırakıyor"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
@@ -637,7 +639,8 @@ msgstr "%s modülü, %s'i (%s tarafından sağlanan) kullanım dışı bırakıy
 #: libdnf/goal/Goal.cpp:136
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s"
-msgstr "kurulu %s modülü, %s'i (%s tarafından sağlanan) kullanım dışı bırakıyor"
+msgstr ""
+"kurulu %s modülü, %s'i (%s tarafından sağlanan) kullanım dışı bırakıyor"
 
 #: libdnf/goal/Goal.cpp:137
 #, c-format

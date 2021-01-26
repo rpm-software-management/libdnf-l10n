@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-24 09:18-0500\n"
+"POT-Creation-Date: 2021-01-26 09:18-0500\n"
 "PO-Revision-Date: 2020-08-28 12:29+0000\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -116,7 +116,7 @@ msgstr ""
 #: libdnf/dnf-context.cpp:3155
 #, fuzzy, c-format
 #| msgid "some dependency problem"
-msgid "Modular dependency problem with the lates modules: %s"
+msgid "Modular dependency problem with the latest modules: %s"
 msgstr "有一些依賴關係問題"
 
 #: libdnf/dnf-context.cpp:3159

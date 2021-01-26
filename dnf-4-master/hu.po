@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-24 09:18-0500\n"
+"POT-Creation-Date: 2021-01-26 09:18-0500\n"
 "PO-Revision-Date: 2020-07-21 13:29+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
@@ -119,7 +119,7 @@ msgstr ""
 #: libdnf/dnf-context.cpp:3155
 #, fuzzy, c-format
 #| msgid "some dependency problem"
-msgid "Modular dependency problem with the lates modules: %s"
+msgid "Modular dependency problem with the latest modules: %s"
 msgstr "valamilyen függőségi probléma"
 
 #: libdnf/dnf-context.cpp:3159
