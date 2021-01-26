@@ -1,11 +1,11 @@
-# Geert Warrink <geert.warrink@onsnet.nu>, 2017. #zanata, 2020.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2017. #zanata, 2020, 2021.
 # Richard E. van der Luit <fedoraproject@veneax.nl>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-24 09:18-0500\n"
-"PO-Revision-Date: 2020-11-27 12:35+0000\n"
+"PO-Revision-Date: 2021-01-26 15:38+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/nl/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -113,10 +113,9 @@ msgid "Modular dependency problem with Defaults: %s"
 msgstr "Modulair afhankelijkheidsprobleem met Standaard: %s"
 
 #: libdnf/dnf-context.cpp:3155
-#, fuzzy, c-format
-#| msgid "Modular dependency problem with Defaults: %s"
+#, c-format
 msgid "Modular dependency problem with the lates modules: %s"
-msgstr "Modulair afhankelijkheidsprobleem met Standaard: %s"
+msgstr "Modulair afhankelijkheidsprobleem met de lates modules: %s"
 
 #: libdnf/dnf-context.cpp:3159
 #, c-format
@@ -821,6 +820,8 @@ msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
 msgstr ""
+"Kan modulaire veroudering niet toepassen op '%s:%s' omdat doelmodule '%s' is "
+"uitgeschakeld"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -852,6 +853,7 @@ msgstr "Kan streams niet upgraden: %s"
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""
+"Kan verouderde module niet ophalen omdat er geen stream overeenkomt met %s:%s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
