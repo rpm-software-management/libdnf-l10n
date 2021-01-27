@@ -1,9 +1,9 @@
-# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2016. #zanata
+# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2016. #zanata, 2021.
 # José Fournier <jaaf64@zoraldia.com>, 2016. #zanata
 # José Fournier <jaaf64@zoraldia.com>, 2017. #zanata
 # Jérôme Fenal <jfenal@gmail.com>, 2017. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
-# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2019. #zanata
+# Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2019. #zanata, 2021.
 # Julien Humbert <julroy67@gmail.com>, 2020, 2021.
 # Arnaud T. <listes.00@gmail.com>, 2020.
 msgid ""
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-26 09:18-0500\n"
-"PO-Revision-Date: 2021-01-02 00:36+0000\n"
-"Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
+"PO-Revision-Date: 2021-01-28 12:40+0000\n"
+"Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
 "Language: fr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -119,10 +119,9 @@ msgid "Modular dependency problem with Defaults: %s"
 msgstr "Problème de dépendance Modular avec Defaults : %s"
 
 #: libdnf/dnf-context.cpp:3155
-#, fuzzy, c-format
-#| msgid "Modular dependency problem with Defaults: %s"
+#, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr "Problème de dépendance Modular avec Defaults : %s"
+msgstr "Problème de dépendance modulaire avec les derniers modules : %s"
 
 #: libdnf/dnf-context.cpp:3159
 #, c-format
@@ -834,6 +833,8 @@ msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
 msgstr ""
+"Impossible d'appliquer les obsolescences modulaires à « %s:%s » car le "
+"module cible « %s » est désactivé"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -865,6 +866,8 @@ msgstr "Échec de la mise à jour des flux : %s"
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""
+"Impossible de récupérer les obsolescences modulaires aucun flux ne "
+"correspond à « %s:%s »"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
