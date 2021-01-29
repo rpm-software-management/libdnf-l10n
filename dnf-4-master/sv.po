@@ -1,6 +1,6 @@
-# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020.
-# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020.
-# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020.
+# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021.
 # Mikael Granberg <mikael@famgra.se>, 2020.
 # Vilhelm Prytz <vilhelm@prytznet.se>, 2020.
 msgid ""
@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-27 09:18-0500\n"
-"PO-Revision-Date: 2020-12-03 07:35+0000\n"
+"PO-Revision-Date: 2021-01-30 19:40+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -117,10 +117,9 @@ msgid "Modular dependency problem with Defaults: %s"
 msgstr "Modulärt beroendeproblem med standard: %s"
 
 #: libdnf/dnf-context.cpp:3155
-#, fuzzy, c-format
-#| msgid "Modular dependency problem with Defaults: %s"
+#, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr "Modulärt beroendeproblem med standard: %s"
+msgstr "Modulärt beroendeproblem med de senaste modulerna: %s"
 
 #: libdnf/dnf-context.cpp:3159
 #, c-format
@@ -815,6 +814,8 @@ msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
 msgstr ""
+"Kan inte verkställa modulära föråldranden på ”%s:%s” för att målmodulen ”%s” "
+"är avaktiverad"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -844,7 +845,7 @@ msgstr "Misslyckades att uppgradera strömmar: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:219
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
-msgstr ""
+msgstr "Kan inte hämta modulutfasningar eftersom ingen ström matchar %s: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
