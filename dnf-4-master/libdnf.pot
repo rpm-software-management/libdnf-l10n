@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-28 09:18-0500\n"
+"POT-Creation-Date: 2021-01-29 09:18-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -874,7 +874,7 @@ msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr ""
 
 #: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:534 libdnf/repo/Repo.cpp:581
-#: libdnf/repo/Repo.cpp:1368
+#: libdnf/repo/Repo.cpp:1369
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr ""
@@ -884,7 +884,7 @@ msgstr ""
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1693
+#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1694
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
@@ -995,39 +995,39 @@ msgstr ""
 msgid "repo: downloading from remote: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1330
+#: libdnf/repo/Repo.cpp:1331
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1356
+#: libdnf/repo/Repo.cpp:1357
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1384
+#: libdnf/repo/Repo.cpp:1385
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1715
+#: libdnf/repo/Repo.cpp:1716
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1787
+#: libdnf/repo/Repo.cpp:1788
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1804
+#: libdnf/repo/Repo.cpp:1805
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1910
+#: libdnf/repo/Repo.cpp:1911
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1954
+#: libdnf/repo/Repo.cpp:1955
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr ""
