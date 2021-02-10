@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-30 09:18-0500\n"
+"POT-Creation-Date: 2021-02-09 09:18-0500\n"
 "PO-Revision-Date: 2018-10-24 09:32+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan\n"
@@ -94,91 +94,91 @@ msgstr ""
 msgid "GetValue(): Value not set"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3068 libdnf/dnf-context.cpp:3077
+#: libdnf/dnf-context.cpp:3097 libdnf/dnf-context.cpp:3106
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3086 libdnf/dnf-context.cpp:3104
+#: libdnf/dnf-context.cpp:3115 libdnf/dnf-context.cpp:3133
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3151
+#: libdnf/dnf-context.cpp:3180
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3154
+#: libdnf/dnf-context.cpp:3183
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3158
+#: libdnf/dnf-context.cpp:3187
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3192 libdnf/dnf-context.cpp:3216
-#: libdnf/dnf-context.cpp:3227 libdnf/dnf-context.cpp:3266
-#: libdnf/dnf-context.cpp:3282 libdnf/dnf-context.cpp:3314
+#: libdnf/dnf-context.cpp:3221 libdnf/dnf-context.cpp:3245
+#: libdnf/dnf-context.cpp:3256 libdnf/dnf-context.cpp:3295
+#: libdnf/dnf-context.cpp:3311 libdnf/dnf-context.cpp:3343
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3199
+#: libdnf/dnf-context.cpp:3228
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3213
+#: libdnf/dnf-context.cpp:3242
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3224
+#: libdnf/dnf-context.cpp:3253
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3255 libdnf/dnf-context.cpp:3346
+#: libdnf/dnf-context.cpp:3284 libdnf/dnf-context.cpp:3375
 msgid "No modular data available"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3272
+#: libdnf/dnf-context.cpp:3301
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3310
+#: libdnf/dnf-context.cpp:3339
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for moduele '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3322
+#: libdnf/dnf-context.cpp:3351
 msgid "Problems appeared for module enable request"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3377
+#: libdnf/dnf-context.cpp:3406
 msgid "Problems appeared for module reset request"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3379
+#: libdnf/dnf-context.cpp:3408
 msgid "Problems appeared for module disable request"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3415
+#: libdnf/dnf-context.cpp:3444
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3419
+#: libdnf/dnf-context.cpp:3448
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -186,22 +186,22 @@ msgid ""
 "reset the module, you can install the other stream."
 msgstr ""
 
-#: libdnf/dnf-goal.cpp:68
+#: libdnf/dnf-goal.cpp:85
 msgid "Could not depsolve transaction; "
 msgstr ""
 
-#: libdnf/dnf-goal.cpp:70
+#: libdnf/dnf-goal.cpp:87
 #, c-format
 msgid "%i problem detected:\n"
 msgid_plural "%i problems detected:\n"
 msgstr[0] ""
 
-#: libdnf/dnf-goal.cpp:78
+#: libdnf/dnf-goal.cpp:95
 #, c-format
 msgid " Problem %1$i: %2$s\n"
 msgstr " Problema %1$i: %2$s\n"
 
-#: libdnf/dnf-goal.cpp:80
+#: libdnf/dnf-goal.cpp:97
 #, c-format
 msgid " Problem: %s\n"
 msgstr " Problema: %s\n"
@@ -874,7 +874,7 @@ msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr ""
 
 #: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:534 libdnf/repo/Repo.cpp:581
-#: libdnf/repo/Repo.cpp:1369
+#: libdnf/repo/Repo.cpp:1380
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr ""
@@ -884,7 +884,7 @@ msgstr ""
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr "No es pot trobar un url base vàlid per al dipòsit: %s"
 
-#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1694
+#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1705
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
@@ -897,139 +897,139 @@ msgstr ""
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:647 libdnf/repo/Repo.cpp:669
+#: libdnf/repo/Repo.cpp:658 libdnf/repo/Repo.cpp:680
 #, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:655 libdnf/repo/Repo.cpp:677
+#: libdnf/repo/Repo.cpp:666 libdnf/repo/Repo.cpp:688
 #, c-format
 msgid "%s: gpgme_op_import(): %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:700 libdnf/repo/Repo.cpp:766 libdnf/repo/Repo.cpp:894
+#: libdnf/repo/Repo.cpp:711 libdnf/repo/Repo.cpp:777 libdnf/repo/Repo.cpp:905
 #, c-format
 msgid "%s: gpgme_ctx_set_engine_info(): %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:727 libdnf/repo/Repo.cpp:791
+#: libdnf/repo/Repo.cpp:738 libdnf/repo/Repo.cpp:802
 #, c-format
 msgid "can not list keys: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:820
+#: libdnf/repo/Repo.cpp:831
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:873
+#: libdnf/repo/Repo.cpp:884
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:901
+#: libdnf/repo/Repo.cpp:912
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1149
+#: libdnf/repo/Repo.cpp:1160
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1168
+#: libdnf/repo/Repo.cpp:1179
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1191
+#: libdnf/repo/Repo.cpp:1202
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1197
+#: libdnf/repo/Repo.cpp:1208
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1222
+#: libdnf/repo/Repo.cpp:1233
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1224
+#: libdnf/repo/Repo.cpp:1235
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1242
+#: libdnf/repo/Repo.cpp:1253
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1248
+#: libdnf/repo/Repo.cpp:1259
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1262
+#: libdnf/repo/Repo.cpp:1273
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1285
+#: libdnf/repo/Repo.cpp:1296
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1308
+#: libdnf/repo/Repo.cpp:1319
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "dipòsit: s'utilitza la memòria cau per: %s"
 
-#: libdnf/repo/Repo.cpp:1320
+#: libdnf/repo/Repo.cpp:1331
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1324
+#: libdnf/repo/Repo.cpp:1335
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1331
+#: libdnf/repo/Repo.cpp:1342
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1357
+#: libdnf/repo/Repo.cpp:1368
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1385
+#: libdnf/repo/Repo.cpp:1396
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1716
+#: libdnf/repo/Repo.cpp:1727
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1788
+#: libdnf/repo/Repo.cpp:1818
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1805
+#: libdnf/repo/Repo.cpp:1835
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1911
+#: libdnf/repo/Repo.cpp:1941
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1955
+#: libdnf/repo/Repo.cpp:1985
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr ""
