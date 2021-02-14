@@ -1,4 +1,4 @@
-# Igor Gorbounov <igor.gorbounov@gmail.com>, 2017. #zanata, 2020.
+# Igor Gorbounov <igor.gorbounov@gmail.com>, 2017. #zanata, 2020, 2021.
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Petr Molodyk <pamolodyk@gmail.com>, 2020.
 # Vladyslav Spirin <vladspirin@hotmail.com>, 2020.
@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-09 09:18-0500\n"
-"PO-Revision-Date: 2020-10-05 20:30+0000\n"
+"PO-Revision-Date: 2021-02-15 18:40+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ru/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -98,66 +98,67 @@ msgid "GetValue(): Value not set"
 msgstr "GetValue (): значение не установлено"
 
 #: libdnf/dnf-context.cpp:3097 libdnf/dnf-context.cpp:3106
-#, fuzzy, c-format
-#| msgid "Cannot enable multiple streams for module '%s'"
+#, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
-msgstr "Не удалось активировать несколько потоков для модуля «%s»"
+msgstr "Не удалось одновременно активировать больше потоков из модуля «%s»"
 
 #: libdnf/dnf-context.cpp:3115 libdnf/dnf-context.cpp:3133
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr ""
+"Не удалось активировать модуль «%1$s», поток «%2$s»: состояние модуля уже "
+"изменено"
 
 #: libdnf/dnf-context.cpp:3180
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
-msgstr ""
+msgstr "Проблема с зависимостями модулей у Defaults: %s"
 
 #: libdnf/dnf-context.cpp:3183
-#, fuzzy, c-format
-#| msgid "some dependency problem"
+#, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr "какая-то проблема с зависимостями"
+msgstr "Проблема с зависимостями у последних модулей: %s"
 
 #: libdnf/dnf-context.cpp:3187
-#, fuzzy, c-format
-#| msgid "some dependency problem"
+#, c-format
 msgid "Modular dependency problem: %s"
-msgstr "какая-то проблема с зависимостями"
+msgstr "Проблема с зависимостями модулей: %s"
 
 #: libdnf/dnf-context.cpp:3221 libdnf/dnf-context.cpp:3245
 #: libdnf/dnf-context.cpp:3256 libdnf/dnf-context.cpp:3295
 #: libdnf/dnf-context.cpp:3311 libdnf/dnf-context.cpp:3343
-#, fuzzy, c-format
-#| msgid "Failed to resolve: %s"
+#, c-format
 msgid "Unable to resolve argument '%s'"
-msgstr "Не удалось разрешить: %s"
+msgstr "Не удалось разрешить аргумент «%s»"
 
 #: libdnf/dnf-context.cpp:3228
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr ""
+"Требуется только имя модуля. Игнорируется ненужная информация в аргументе: "
+"«%s»"
 
 #: libdnf/dnf-context.cpp:3242
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr ""
+"Не удается переинициализировать модуль «%s»: состояние модуля уже изменено"
 
 #: libdnf/dnf-context.cpp:3253
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
-msgstr ""
+msgstr "Не удается деактивировать модуль «%s»: состояние модуля уже изменено"
 
 #: libdnf/dnf-context.cpp:3284 libdnf/dnf-context.cpp:3375
 msgid "No modular data available"
-msgstr ""
+msgstr "Нет данных модуля"
 
 #: libdnf/dnf-context.cpp:3301
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
-msgstr ""
+msgstr "Игнорируется ненужная информация в аргументе: «%s»"
 
 #: libdnf/dnf-context.cpp:3339
 #, c-format
@@ -165,25 +166,27 @@ msgid ""
 "Problem during enablement of dependency tree for moduele '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
+"Проблема при включении дерева зависимостей для модуля «%1$s», поток «%2$s»: "
+"%3$s"
 
 #: libdnf/dnf-context.cpp:3351
 msgid "Problems appeared for module enable request"
-msgstr ""
+msgstr "Возникли проблемы при запросе включения модуля"
 
 #: libdnf/dnf-context.cpp:3406
 msgid "Problems appeared for module reset request"
-msgstr ""
+msgstr "Возникли проблемы при запросе переинициализации модуля"
 
 #: libdnf/dnf-context.cpp:3408
 msgid "Problems appeared for module disable request"
-msgstr ""
+msgstr "Возникли проблемы при запросе отключения модуля"
 
 #: libdnf/dnf-context.cpp:3444
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
-msgstr ""
+msgstr "Операция приведет к переключению модуля «%s», поток «%s» на поток «%s»"
 
 #: libdnf/dnf-context.cpp:3448
 msgid ""
@@ -192,6 +195,10 @@ msgid ""
 "the module using 'microdnf module reset <module_name>' command. After you "
 "reset the module, you can install the other stream."
 msgstr ""
+"Невозможно переключить активированные потоки модуля.\n"
+"Рекомендуется удалить из модуля всё установленное и обновить модуль с "
+"помощью команды «{microdnf module reset <имя_модуля>». После обновления "
+"модуля можно установить другой поток."
 
 #: libdnf/dnf-goal.cpp:85
 msgid "Could not depsolve transaction; "
@@ -685,16 +692,13 @@ msgid "no solution possible"
 msgstr "решение невозможно"
 
 #: libdnf/goal/Goal.cpp:1224
-#, fuzzy
-#| msgid " Problem: %s\n"
 msgid "Problem: "
-msgstr " Проблема: %s\n"
+msgstr "Проблема: "
 
 #: libdnf/goal/Goal.cpp:1229
-#, fuzzy, c-format
-#| msgid " Problem: %s\n"
+#, c-format
 msgid "Problem %d: "
-msgstr " Проблема: %s\n"
+msgstr "Проблема %d: "
 
 #: libdnf/goal/Goal.cpp:1556
 msgid ""
@@ -760,27 +764,27 @@ msgstr "Конфликт параметров по умолчанию для р�
 
 #: libdnf/module/ModulePackageContainer.cpp:916
 msgid "Installing module profiles:\n"
-msgstr ""
+msgstr "Установка профилей модулей:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:931
 msgid "Disabling module profiles:\n"
-msgstr ""
+msgstr "Отключение профилей модулей:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:946
 msgid "Enabling module streams:\n"
-msgstr ""
+msgstr "Включение потоков модулей:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:960
 msgid "Switching module streams:\n"
-msgstr ""
+msgstr "Переключение потоков модулей:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:978
 msgid "Disabling modules:\n"
-msgstr ""
+msgstr "Отключение модулей:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:989
 msgid "Resetting modules:\n"
-msgstr ""
+msgstr "Сброс модулей:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:1672
 #, c-format
@@ -813,6 +817,8 @@ msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
 msgstr ""
+"Не удается применить устаревшие возможности модуля к «%s:%s», потому что "
+"целевой модуль «%s» отключен"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -843,6 +849,8 @@ msgstr "Не удалось обновить потоки: %s"
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""
+"Не удается получить устаревшие возможности модуля, потому что нет "
+"соответствия потока %s: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
@@ -903,7 +911,7 @@ msgstr "У репозитория «%s» не поддерживается ти�
 #: libdnf/repo/Repo.cpp:1380
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
-msgstr ""
+msgstr "репозиторий «%s»: не установлен «basecachedir»"
 
 #: libdnf/repo/Repo.cpp:553
 #, c-format
@@ -921,7 +929,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:625
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "репозиторий «%s»: настроен «proxy_username», но не «proxy_password»"
 
 #: libdnf/repo/Repo.cpp:658 libdnf/repo/Repo.cpp:680
 #, c-format
@@ -1045,7 +1053,7 @@ msgstr "Не создается постоянный каталог «%s»: %s"
 
 #: libdnf/repo/Repo.cpp:1727
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "настроен «proxy_username», а не «proxy_password»"
 
 #: libdnf/repo/Repo.cpp:1818
 msgid "resume cannot be used simultaneously with the byterangestart param"
