@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-15 09:18-0500\n"
+"POT-Creation-Date: 2021-02-16 09:18-0500\n"
 "PO-Revision-Date: 2021-02-17 12:40+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
@@ -306,7 +306,8 @@ msgstr "write_main() tietojen kirjoittaminen epäonnistui: %i"
 
 #: libdnf/dnf-sack.cpp:542
 msgid "write_main() failed to re-load written solv file"
-msgstr "write_main() kirjoitetun solv-tiedoston uudelleenlataaminen epäonnistui"
+msgstr ""
+"write_main() kirjoitetun solv-tiedoston uudelleenlataaminen epäonnistui"
 
 #: libdnf/dnf-sack.cpp:607
 #, c-format
@@ -465,7 +466,8 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:79
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
-msgstr "Ill-muodostunutta valitsinta käytetään toimintaan, väärä vertailutyyppi"
+msgstr ""
+"Ill-muodostunutta valitsinta käytetään toimintaan, väärä vertailutyyppi"
 
 #: libdnf/goal/Goal.cpp:90 libdnf/goal/Goal.cpp:117
 msgid " does not belong to a distupgrade repository"
@@ -565,7 +567,8 @@ msgstr "paketti %s epäsuorasti vanhentaa %s n %s:n tarjoamana"
 #: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid "package %s requires %s, but none of the providers can be installed"
-msgstr "paketti %s vaatii %s, mutta mitään palveluntarjoajista ei voida asentaa"
+msgstr ""
+"paketti %s vaatii %s, mutta mitään palveluntarjoajista ei voida asentaa"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
