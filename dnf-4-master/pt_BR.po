@@ -11,9 +11,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-16 09:18-0500\n"
-"PO-Revision-Date: 2020-11-29 00:49+0000\n"
-"Last-Translator: Henrique Roberto Gattermann Mittelstaedt <henrique."
-"roberto97@gmail.com>\n"
+"PO-Revision-Date: 2021-02-22 20:40+0000\n"
+"Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -21,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -102,26 +101,28 @@ msgid "GetValue(): Value not set"
 msgstr "GetValue (): valor não definido"
 
 #: libdnf/dnf-context.cpp:3097 libdnf/dnf-context.cpp:3106
-#, c-format
+#, c-format, fuzzy
 msgid "Cannot enable more streams from module '%s' at the same time"
-msgstr ""
+msgstr "Não é possível habilitar mais fluxos do módulo '%s' ao mesmo tempo"
 
 #: libdnf/dnf-context.cpp:3115 libdnf/dnf-context.cpp:3133
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr ""
+"Não é possível habilitar o módulo '%1$s' stream '%2$s': Estado do módulo já "
+"modificado"
 
 #: libdnf/dnf-context.cpp:3180
-#, c-format
+#, c-format, fuzzy
 msgid "Modular dependency problem with Defaults: %s"
-msgstr ""
+msgstr "Problema de dependência modular com padrões: %s"
 
 #: libdnf/dnf-context.cpp:3183
 #, fuzzy, c-format
 #| msgid "Modular dependency problem: %s"
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr "Problema de dependência modular: %s"
+msgstr "Problema de dependência modular com os módulos mais recentes: %s"
 
 #: libdnf/dnf-context.cpp:3187
 #, c-format
@@ -163,42 +164,54 @@ msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Ignorando informação desnecessária no argumento: '%s'"
 
 #: libdnf/dnf-context.cpp:3339
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "Problem during enablement of dependency tree for moduele '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
+"problema durante a ativação da árvore de dependências para o fluxo do módulo "
+"'%1$s' de '%2$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3351
+#, fuzzy
 msgid "Problems appeared for module enable request"
-msgstr ""
+msgstr "Apareceram problemas para a solicitação de ativação do módulo"
 
 #: libdnf/dnf-context.cpp:3406
+#, fuzzy
 msgid "Problems appeared for module reset request"
-msgstr ""
+msgstr "Apareceram problemas para a solicitação de redefinição do módulo"
 
 #: libdnf/dnf-context.cpp:3408
+#, fuzzy
 msgid "Problems appeared for module disable request"
-msgstr ""
+msgstr "Apareceram problemas para a solicitação de desativação do módulo"
 
 #: libdnf/dnf-context.cpp:3444
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
 msgstr ""
+"A operação resultaria na mudança do módulo '%s' do fluxo '%s' para o '%s'"
 
 #: libdnf/dnf-context.cpp:3448
+#, fuzzy
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
 "the module using 'microdnf module reset <module_name>' command. After you "
 "reset the module, you can install the other stream."
 msgstr ""
+"Não é possível alternar fluxos ativados de um módulo.\n"
+"É recomendável remover todo o conteúdo instalado do módulo e redefinir o "
+"módulo usando o comando '{prog} module reset <nome_do_módulo>'. Depois de "
+"redefinir o módulo, você pode instalar o outro fluxo."
 
 #: libdnf/dnf-goal.cpp:85
+#, fuzzy
 msgid "Could not depsolve transaction; "
-msgstr ""
+msgstr "Não foi possível resolver a transação; "
 
 #: libdnf/dnf-goal.cpp:87
 #, c-format
@@ -463,16 +476,20 @@ msgid "failed to remove %s"
 msgstr "não foi possível remover %s"
 
 #: libdnf/goal/Goal.cpp:78
+#, fuzzy
 msgid "Ill-formed Selector, presence of multiple match objects in the filter"
 msgstr ""
+"Seletor malformado, presença de vários objetos de correspondência no filtro"
 
 #: libdnf/goal/Goal.cpp:79
+#, fuzzy
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
-msgstr ""
+msgstr "Seletor malformado usado para a operação, tipo de comparação incorreto"
 
 #: libdnf/goal/Goal.cpp:90 libdnf/goal/Goal.cpp:117
+#, fuzzy
 msgid " does not belong to a distupgrade repository"
-msgstr ""
+msgstr " não pertence a um repositório distupgrade"
 
 #: libdnf/goal/Goal.cpp:91 libdnf/goal/Goal.cpp:118
 msgid " has inferior architecture"
@@ -517,9 +534,9 @@ msgid "cannot install the best candidate for the job"
 msgstr "não é possível instalar o melhor candidato para a tarefa"
 
 #: libdnf/goal/Goal.cpp:101
-#, c-format
+#, c-format, fuzzy
 msgid "package %s is filtered out by modular filtering"
-msgstr ""
+msgstr "o pacote %s é filtrado por filtragem modular"
 
 #: libdnf/goal/Goal.cpp:102
 #, c-format
@@ -532,14 +549,14 @@ msgid "package %s is not installable"
 msgstr "pacote %s não é instalável"
 
 #: libdnf/goal/Goal.cpp:104
-#, c-format
+#, c-format, fuzzy
 msgid "package %s is filtered out by exclude filtering"
-msgstr ""
+msgstr "o pacote %s é filtrado pela filtragem de exclusão"
 
 #: libdnf/goal/Goal.cpp:105
-#, c-format
+#, c-format, fuzzy
 msgid "nothing provides %s needed by %s"
-msgstr ""
+msgstr "nada fornece %s necessário para %s"
 
 #: libdnf/goal/Goal.cpp:106
 #, c-format
@@ -562,9 +579,9 @@ msgid "installed package %s obsoletes %s provided by %s"
 msgstr "pacote instalado %s torna obsoleto %s oferecido por %s"
 
 #: libdnf/goal/Goal.cpp:110
-#, c-format
+#, c-format, fuzzy
 msgid "package %s implicitly obsoletes %s provided by %s"
-msgstr ""
+msgstr "o pacote %s torna obsoleto implicitamente %s fornecido por %s"
 
 #: libdnf/goal/Goal.cpp:111
 #, c-format
@@ -636,9 +653,9 @@ msgid "installed module %s obsoletes %s provided by %s"
 msgstr "módulo instalado %s torna obsoleto %s oferecido por %s"
 
 #: libdnf/goal/Goal.cpp:137
-#, c-format
+#, c-format, fuzzy
 msgid "module %s implicitly obsoletes %s provided by %s"
-msgstr ""
+msgstr "o módulo %s torna obsoleto implicitamente %s fornecido por %s"
 
 #: libdnf/goal/Goal.cpp:138
 #, c-format
@@ -656,18 +673,19 @@ msgid "both module %s and %s obsolete %s"
 msgstr "ambos os módulos %s e %s tornam obsoleto %s"
 
 #: libdnf/goal/Goal.cpp:1069
+#, fuzzy
 msgid "no solver set"
-msgstr ""
+msgstr "nenhum solucionador definido"
 
 #: libdnf/goal/Goal.cpp:1074
-#, c-format
+#, c-format, fuzzy
 msgid "failed to make %s absolute"
-msgstr ""
+msgstr "falhou em tornar %s absoluto"
 
 #: libdnf/goal/Goal.cpp:1081
-#, c-format
+#, c-format, fuzzy
 msgid "failed writing debugdata to %1$s: %2$s"
-msgstr ""
+msgstr "falha ao gravar dados de depuração em %1$s: %2$s"
 
 #: libdnf/goal/Goal.cpp:1093
 msgid "no solv in the goal"
