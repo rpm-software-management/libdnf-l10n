@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-16 09:18-0500\n"
+"POT-Creation-Date: 2021-02-22 09:18-0500\n"
 "PO-Revision-Date: 2021-02-22 20:40+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -430,7 +430,7 @@ msgid "cannot install the best candidate for the job"
 msgstr "não é possível instalar o melhor candidato para a tarefa"
 
 #: libdnf/goal/Goal.cpp:78
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "package %s is filtered out by modular filtering"
 msgstr "o pacote %s é filtrado por filtragem modular"
 
@@ -445,12 +445,12 @@ msgid "package %s is not installable"
 msgstr "pacote %s não é instalável"
 
 #: libdnf/goal/Goal.cpp:81
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "package %s is filtered out by exclude filtering"
 msgstr "o pacote %s é filtrado pela filtragem de exclusão"
 
 #: libdnf/goal/Goal.cpp:82
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "nothing provides %s needed by %s"
 msgstr "nada fornece %s necessário para %s"
 
@@ -475,7 +475,7 @@ msgid "installed package %s obsoletes %s provided by %s"
 msgstr "pacote instalado %s torna obsoleto %s oferecido por %s"
 
 #: libdnf/goal/Goal.cpp:87
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "package %s implicitly obsoletes %s provided by %s"
 msgstr "o pacote %s torna obsoleto implicitamente %s fornecido por %s"
 
@@ -549,7 +549,7 @@ msgid "installed module %s obsoletes %s provided by %s"
 msgstr "módulo instalado %s torna obsoleto %s oferecido por %s"
 
 #: libdnf/goal/Goal.cpp:114
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "module %s implicitly obsoletes %s provided by %s"
 msgstr "o módulo %s torna obsoleto implicitamente %s fornecido por %s"
 
@@ -574,12 +574,12 @@ msgid "no solver set"
 msgstr "nenhum solucionador definido"
 
 #: libdnf/goal/Goal.cpp:1013
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "failed to make %s absolute"
 msgstr "falhou em tornar %s absoluto"
 
 #: libdnf/goal/Goal.cpp:1020
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "failed writing debugdata to %1$s: %2$s"
 msgstr "falha ao gravar dados de depuração em %1$s: %2$s"
 
