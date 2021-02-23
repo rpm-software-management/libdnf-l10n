@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 09:18-0500\n"
-"PO-Revision-Date: 2021-02-17 12:40+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2021-02-24 19:40+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/fi/>\n"
 "Language: fi\n"
@@ -45,12 +45,12 @@ msgstr "prosenttiosuus '%s' on alueen ulkopuolella"
 #: libdnf/conf/OptionBinds.cpp:76
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr ""
+msgstr "Kokoonpano: OptionBinding-tunnusta \"%s\" ei ole olemassa"
 
 #: libdnf/conf/OptionBinds.cpp:88
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr ""
+msgstr "Kokoonpano: OptionBinding-tunnus \"%s\" on jo olemassa"
 
 #: libdnf/conf/OptionBool.cpp:47
 #, c-format
@@ -255,7 +255,7 @@ msgstr "cachedir:n %s luominen epäonnistui"
 
 #: libdnf/dnf-sack.cpp:1727
 msgid "failed calculating RPMDB checksum"
-msgstr ""
+msgstr "RPMDB-tarkistussumman laskeminen epäonnistui"
 
 #: libdnf/dnf-sack.cpp:1751
 msgid "failed loading RPMDB"
@@ -263,7 +263,7 @@ msgstr "RPMDB:n lataaminen epäonnistui"
 
 #: libdnf/dnf-sack.cpp:2466
 msgid "No module defaults found"
-msgstr ""
+msgstr "Moduulin oletusarvoja ei löytynyt"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
@@ -518,7 +518,7 @@ msgstr "moduuli %s ei ole asennettavissa"
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "nothing provides %s needed by module %s"
-msgstr ""
+msgstr "mikään ei tarjoa %s: tä, jota moduuli %s tarvitsee"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
@@ -577,11 +577,11 @@ msgstr "virheenkorjaustietojen kirjoittaminen %1$s:lle epäonnistui: %2$s"
 
 #: libdnf/goal/Goal.cpp:1032
 msgid "no solv in the goal"
-msgstr ""
+msgstr "Ei ratkaisua päästä tavoitteeseen"
 
 #: libdnf/goal/Goal.cpp:1034
 msgid "no solution, cannot remove protected package"
-msgstr ""
+msgstr "ei ratkaisua, suojattua pakettia ei voi poistaa"
 
 #: libdnf/goal/Goal.cpp:1037
 msgid "no solution possible"
@@ -652,32 +652,37 @@ msgstr "Ristiriitaiset oletusasetukset ohjelmistolähteen '%s' kanssa: %s"
 #: libdnf/module/ModulePackageContainer.cpp:1568
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
-msgstr ""
+msgstr "Modulaarisen vikaturvallisen tiedon lataaminen \"%s\":ssa epäonnistui"
 
 #: libdnf/module/ModulePackageContainer.cpp:1574
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
+"Modulaarisen vikaturvallisen tiedon lataaminen moduulille \"%s:%s\" "
+"epäonnistui"
 
 #: libdnf/module/ModulePackageContainer.cpp:1638
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
+"Hakemiston \"%s\"luominen modulaariselle vikaturvalliselle tiedolle \"%s\" "
+"epäonnistui"
 
 #: libdnf/module/ModulePackageContainer.cpp:1660
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr ""
+"Modulaarisen vikaturvallisen tiedon tallennus kohteeseen \"%s\" epäonnistui"
 
 #: libdnf/module/ModulePackageContainer.cpp:1685
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
-msgstr ""
+msgstr "Modulaarisen vikaturvallisen tiedon poisto paikasta \"%s\" epäonnistui"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:43
 #, c-format
 msgid "Failed to update from string: %s"
-msgstr ""
+msgstr "Merkkijonosta %s päivittäminen epäonnistui"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:68
 #: libdnf/module/modulemd/ModuleMetadata.cpp:70
@@ -733,7 +738,7 @@ msgstr "Ei voi ladata liitännäistä \"%s\": %s"
 #: libdnf/repo/Repo.cpp:337
 #, c-format
 msgid "Bad id for repo: %s, byte = %s %d"
-msgstr ""
+msgstr "Huono tunnus asennuslähteelle: %s, byte = %s %d"
 
 #: libdnf/repo/Repo.cpp:362
 #, c-format
@@ -813,16 +818,17 @@ msgstr "elvytys: epäonnistui '%s':lle, ei täsmää %s summa."
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
+"elvyttäminen: '%s' voidaan elvyttää - metalink-tarkistussummat vastaavat."
 
 #: libdnf/repo/Repo.cpp:1237
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
-msgstr ""
+msgstr "elvyttäminen: '%s' voidaan elvyttää - repomd on sama."
 
 #: libdnf/repo/Repo.cpp:1239
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
-msgstr ""
+msgstr "'%s' elvyttäminen epäonnistui, repomd ovat erilaiset."
 
 #: libdnf/repo/Repo.cpp:1257
 #, c-format
@@ -852,12 +858,12 @@ msgstr "ohjelmistolähde: käyttää välimuistia tälle: %s"
 #: libdnf/repo/Repo.cpp:1335
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
-msgstr ""
+msgstr "Pelkkä välimuisti käytössä, mutta ei välimuistia kohteelle ”%s”"
 
 #: libdnf/repo/Repo.cpp:1339
 #, c-format
 msgid "repo: downloading from remote: %s"
-msgstr ""
+msgstr "asennuslähde: ladataan etäkohteesta: %s"
 
 #: libdnf/repo/Repo.cpp:1345
 #, c-format
@@ -866,21 +872,23 @@ msgstr "Ohjelmistolähteen '%s' metatietojen lataaminen epäonnistu: %s"
 
 #: libdnf/repo/Repo.cpp:1371
 msgid "getCachedir(): Computation of SHA256 failed"
-msgstr ""
+msgstr "getCachedir(): SHA256 laskeminen epäonnistui"
 
 #: libdnf/repo/Repo.cpp:1396
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
-msgstr ""
+msgstr "Pysyvän hakemiston \"%s\": %s luominen epäonnistui"
 
 #: libdnf/repo/Repo.cpp:1796
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr ""
+"palauta toimintoa ei voi käyttää samanaikaisesti parametrin byterangestart "
+"kanssa"
 
 #: libdnf/repo/Repo.cpp:1807
 #, c-format
 msgid "PackageTarget initialization failed: %s"
-msgstr ""
+msgstr "Paketin kohteen alustus epäonnistui: %s"
 
 #: libdnf/repo/Repo.cpp:1924
 #, c-format
@@ -890,7 +898,7 @@ msgstr "Ei voi avata %s: %s"
 #: libdnf/repo/Repo.cpp:1968
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
-msgstr ""
+msgstr "Lokinkäsittelijää id:llä %ld ei ole"
 
 #: libdnf/transaction/Swdb.cpp:107
 msgid "In progress"
@@ -908,19 +916,19 @@ msgstr "Transaktiota ei ole meneillään"
 
 #: libdnf/transaction/TransactionItem.cpp:147
 msgid "Attempt to insert transaction item into completed transaction"
-msgstr ""
+msgstr "Yritetty lisätä transaktiokohta valmiiseen transaktioon"
 
 #: libdnf/transaction/TransactionItem.cpp:218
 msgid "Attempt to update transaction item in completed transaction"
-msgstr ""
+msgstr "Yritetty päivittää transaktiokohta valmiissa transaktiossa"
 
 #: libdnf/transaction/Transformer.cpp:659
 msgid "Transformer: can't open history persist dir"
-msgstr ""
+msgstr "Muunnin: Pysyvän historiakansion avaus epäonnistui"
 
 #: libdnf/transaction/Transformer.cpp:672
 msgid "Couldn't find a history database"
-msgstr ""
+msgstr "Historia tietokantaa ei löytynyt"
 
 #: libdnf/transaction/private/Transaction.cpp:41
 msgid "Transaction has already began!"
@@ -929,8 +937,8 @@ msgstr "Transaktio on jo alkanut!"
 #: libdnf/transaction/private/Transaction.cpp:58
 #, c-format
 msgid "TransactionItem state is not set: %s"
-msgstr ""
+msgstr "Transaktiokohdan tilaa ei asetettu: %s"
 
 #: libdnf/transaction/private/Transaction.cpp:239
 msgid "Can't add console output to unsaved transaction"
-msgstr ""
+msgstr "Konsolin ulostuloa ei voi lisätä tallentamattomaan transaktioon"
