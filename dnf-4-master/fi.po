@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-24 09:18-0500\n"
-"PO-Revision-Date: 2021-02-24 19:40+0000\n"
+"PO-Revision-Date: 2021-02-26 12:40+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fi/>\n"
@@ -98,18 +98,20 @@ msgstr "GetValue(): Arvoa ei ole asetettu"
 #: libdnf/dnf-context.cpp:3097 libdnf/dnf-context.cpp:3106
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
-msgstr ""
+msgstr "Enempää virtoja moduulista '%s' ei voida ottaa käyttöön samanaikaisesti"
 
 #: libdnf/dnf-context.cpp:3115 libdnf/dnf-context.cpp:3133
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr ""
+"Ei voida ottaa käyttöön moduulia '%1$s' virta '%2$s': Moduulin tilaa on jo "
+"muokattu"
 
 #: libdnf/dnf-context.cpp:3180
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
-msgstr ""
+msgstr "Modulaarinen riippuvuusongelma oletusarvojen kanssa: %s"
 
 #: libdnf/dnf-context.cpp:3183
 #, c-format
@@ -126,32 +128,34 @@ msgstr "Modulaarinen riippuvuusongelma: %s"
 #: libdnf/dnf-context.cpp:3311 libdnf/dnf-context.cpp:3343
 #, c-format
 msgid "Unable to resolve argument '%s'"
-msgstr ""
+msgstr "Argumenttia %s ei voida ratkaista"
 
 #: libdnf/dnf-context.cpp:3228
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr ""
+"Vain moduulin nimi vaaditaan. Ohitetaan tarpeettomat tiedot argumentissa: "
+"'%s'"
 
 #: libdnf/dnf-context.cpp:3242
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
-msgstr ""
+msgstr "Moduulia '%s' ei voi nollata: Moduulin tilaa on jo muokattu"
 
 #: libdnf/dnf-context.cpp:3253
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
-msgstr ""
+msgstr "Moduulia '%s' ei voi ottaa pois käytöstä: Moduulin tilaa on jo muokattu"
 
 #: libdnf/dnf-context.cpp:3284 libdnf/dnf-context.cpp:3375
 msgid "No modular data available"
-msgstr ""
+msgstr "Modulaarista tietoa ei ole saatavilla"
 
 #: libdnf/dnf-context.cpp:3301
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
-msgstr ""
+msgstr "Ohitetaan tarpeettomat tiedot argumentissa: '%s'"
 
 #: libdnf/dnf-context.cpp:3339
 #, c-format
@@ -159,18 +163,20 @@ msgid ""
 "Problem during enablement of dependency tree for moduele '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
+"Ongelma moduulin '%1$s' virran '%2$s': %3$s riippuvuuspuun käyttöönoton "
+"yhteydessä"
 
 #: libdnf/dnf-context.cpp:3351
 msgid "Problems appeared for module enable request"
-msgstr ""
+msgstr "Moduulin käyttöönottopyynnössä ilmeni ongelmia"
 
 #: libdnf/dnf-context.cpp:3406
 msgid "Problems appeared for module reset request"
-msgstr ""
+msgstr "Moduulin nollauspyynnössä ilmeni ongelmia"
 
 #: libdnf/dnf-context.cpp:3408
 msgid "Problems appeared for module disable request"
-msgstr ""
+msgstr "Moduulin käyttöönoton poiston pyynnössä ilmeni ongelmia"
 
 #: libdnf/dnf-context.cpp:3444
 #, c-format
@@ -752,27 +758,27 @@ msgstr "Ristiriitaiset oletusasetukset ohjelmistolähteen '%s' kanssa: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:916
 msgid "Installing module profiles:\n"
-msgstr ""
+msgstr "Asennetaan moduuliprofiileita:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:931
 msgid "Disabling module profiles:\n"
-msgstr ""
+msgstr "Poistetaan käytöstä moduuliprofiileita:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:946
 msgid "Enabling module streams:\n"
-msgstr ""
+msgstr "Otetaan moduulivirtoja käyttöön:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:960
 msgid "Switching module streams:\n"
-msgstr ""
+msgstr "Vaihdetaan moduulivirtoja:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:978
 msgid "Disabling modules:\n"
-msgstr ""
+msgstr "Poistetaan moduuleita käytöstä:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:989
 msgid "Resetting modules:\n"
-msgstr ""
+msgstr "Resetoidaan moduuleita:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:1672
 #, c-format
@@ -810,6 +816,8 @@ msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
 msgstr ""
+"Modulaarisia vanhentumisia ei voida soveltaa kohteisiin '%s:%s', koska "
+"kohdemoduuli '%s' on poistettu käytöstä"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -839,7 +847,7 @@ msgstr "Virtojen päivittäminen epäonnistui: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:219
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
-msgstr ""
+msgstr "ei voi hakea Moduulin vanhenemisia, koska virta ei täsmää %s: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
@@ -882,6 +890,9 @@ msgid ""
 "deprecated and the support will be dropped in future versions. Use '=' "
 "operator instead."
 msgstr ""
+"= = -Operaattorin käyttö reldep:eissä voi johtaa määrittelemättömään "
+"toimintaan. Se on vanhentunut ja tuki poistetaan tulevissa versioissa. Käytä "
+"sen sijaan operaattoria '='."
 
 #: libdnf/repo/Repo.cpp:321
 #, c-format
@@ -897,7 +908,7 @@ msgstr "Ohjelmistolähteen '%s' tyyppiä ei tueta: 'type=%s'; ohitetaan."
 #: libdnf/repo/Repo.cpp:1380
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
-msgstr ""
+msgstr "asennuslähde '%s': 'basecachedir' ei ole asetettu"
 
 #: libdnf/repo/Repo.cpp:553
 #, c-format
@@ -916,6 +927,8 @@ msgstr ""
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
 msgstr ""
+"asennuslähde '%s': 'proxy_username' on asettettu, mutta 'proxy_password' "
+"puuttuu"
 
 #: libdnf/repo/Repo.cpp:658 libdnf/repo/Repo.cpp:680
 #, c-format
@@ -1035,7 +1048,7 @@ msgstr "Pysyvän hakemiston \"%s\": %s luominen epäonnistui"
 
 #: libdnf/repo/Repo.cpp:1727
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "'proxy_username' on asettettu, mutta 'proxy_password' puuttuu"
 
 #: libdnf/repo/Repo.cpp:1818
 msgid "resume cannot be used simultaneously with the byterangestart param"
