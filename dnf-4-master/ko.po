@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-24 09:18-0500\n"
+"POT-Creation-Date: 2021-02-25 09:18-0500\n"
 "PO-Revision-Date: 2018-11-02 05:26+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Korean\n"
@@ -876,7 +876,7 @@ msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr ""
 
 #: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:534 libdnf/repo/Repo.cpp:581
-#: libdnf/repo/Repo.cpp:1380
+#: libdnf/repo/Repo.cpp:1373
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr ""
@@ -886,150 +886,150 @@ msgstr ""
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1705
+#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1710
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:625
+#: libdnf/repo/Repo.cpp:618
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:658 libdnf/repo/Repo.cpp:680
+#: libdnf/repo/Repo.cpp:651 libdnf/repo/Repo.cpp:673
 #, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
 msgstr "%s: gpgme_data_new_from_fd(): %s"
 
-#: libdnf/repo/Repo.cpp:666 libdnf/repo/Repo.cpp:688
+#: libdnf/repo/Repo.cpp:659 libdnf/repo/Repo.cpp:681
 #, c-format
 msgid "%s: gpgme_op_import(): %s"
 msgstr "%s: gpgme_op_import(): %s"
 
-#: libdnf/repo/Repo.cpp:711 libdnf/repo/Repo.cpp:777 libdnf/repo/Repo.cpp:905
+#: libdnf/repo/Repo.cpp:704 libdnf/repo/Repo.cpp:770 libdnf/repo/Repo.cpp:898
 #, c-format
 msgid "%s: gpgme_ctx_set_engine_info(): %s"
 msgstr "%s: gpgme_ctx_set_engine_info(): %s"
 
-#: libdnf/repo/Repo.cpp:738 libdnf/repo/Repo.cpp:802
+#: libdnf/repo/Repo.cpp:731 libdnf/repo/Repo.cpp:795
 #, c-format
 msgid "can not list keys: %s"
 msgstr "열쇠를 나열 할 수 없습니다 : %s"
 
-#: libdnf/repo/Repo.cpp:831
+#: libdnf/repo/Repo.cpp:824
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:884
+#: libdnf/repo/Repo.cpp:877
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr "레포 %s: 0x%s 이미 수입"
 
-#: libdnf/repo/Repo.cpp:912
+#: libdnf/repo/Repo.cpp:905
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr "레포 %s: 가져온 키 0x%s."
 
-#: libdnf/repo/Repo.cpp:1160
+#: libdnf/repo/Repo.cpp:1153
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "부활 : repo '%s'건너 뛰었습니다."
 
-#: libdnf/repo/Repo.cpp:1179
+#: libdnf/repo/Repo.cpp:1172
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr "부활 : repo '%s'건너 뛰었습니다. 사용 가능한 해시가 없습니다."
 
-#: libdnf/repo/Repo.cpp:1202
+#: libdnf/repo/Repo.cpp:1195
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "되살리기 : 실패한 '%s', 불일치 %s 합집합."
 
-#: libdnf/repo/Repo.cpp:1208
+#: libdnf/repo/Repo.cpp:1201
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr "되살아 난다 : '%s'부활 할 수 있습니다 - metalink 체크섬이 일치합니다."
 
-#: libdnf/repo/Repo.cpp:1233
+#: libdnf/repo/Repo.cpp:1226
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "되살아 난다 : '%s'부활 할 수 있습니다 - repomd가 일치합니다."
 
-#: libdnf/repo/Repo.cpp:1235
+#: libdnf/repo/Repo.cpp:1228
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "되살리기 : 실패한 '%s', 일치하지 않는 repomd."
 
-#: libdnf/repo/Repo.cpp:1253
+#: libdnf/repo/Repo.cpp:1246
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1259
+#: libdnf/repo/Repo.cpp:1252
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "임시 저장소 디렉토리를 만들 수 없습니다 \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1273
+#: libdnf/repo/Repo.cpp:1266
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "디렉토리를 만들 수 없습니다 \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1296
+#: libdnf/repo/Repo.cpp:1289
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "디렉터리 이름을 바꿀 수 없습니다 \"%s\"~\"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1319
+#: libdnf/repo/Repo.cpp:1312
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "repo : 캐시 사용 : %s"
 
-#: libdnf/repo/Repo.cpp:1331
+#: libdnf/repo/Repo.cpp:1324
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "캐시 만 사용 가능하지만 '%s'"
 
-#: libdnf/repo/Repo.cpp:1335
+#: libdnf/repo/Repo.cpp:1328
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "repo : 원격에서 다운로드 중 : %s"
 
-#: libdnf/repo/Repo.cpp:1342
+#: libdnf/repo/Repo.cpp:1335
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1368
+#: libdnf/repo/Repo.cpp:1361
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir () : SHA256 계산에 실패했습니다."
 
-#: libdnf/repo/Repo.cpp:1396
+#: libdnf/repo/Repo.cpp:1389
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1727
+#: libdnf/repo/Repo.cpp:1725
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1818
+#: libdnf/repo/Repo.cpp:1816
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr "이력서는 byterangestart 매개 변수와 동시에 사용할 수 없습니다."
 
-#: libdnf/repo/Repo.cpp:1835
+#: libdnf/repo/Repo.cpp:1833
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "PackageTarget 초기화에 실패했습니다 : %s"
 
-#: libdnf/repo/Repo.cpp:1941
+#: libdnf/repo/Repo.cpp:1939
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "열 수 없다 %s: %s"
 
-#: libdnf/repo/Repo.cpp:1985
+#: libdnf/repo/Repo.cpp:1983
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "ID가있는 로그 처리기 %ld 존재하지 않는다."

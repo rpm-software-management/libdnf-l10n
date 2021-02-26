@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-24 09:18-0500\n"
+"POT-Creation-Date: 2021-02-25 09:18-0500\n"
 "PO-Revision-Date: 2021-02-15 18:40+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
@@ -908,7 +908,7 @@ msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr "У репозитория «%s» не поддерживается тип: «type=%s», пропускается."
 
 #: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:534 libdnf/repo/Repo.cpp:581
-#: libdnf/repo/Repo.cpp:1380
+#: libdnf/repo/Repo.cpp:1373
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr "репозиторий «%s»: не установлен «basecachedir»"
@@ -918,7 +918,7 @@ msgstr "репозиторий «%s»: не установлен «basecachedir�
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr "Не удается найти правильный baseurl для репозитория: %s"
 
-#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1705
+#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1710
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
@@ -926,151 +926,151 @@ msgstr ""
 "Максимальная скорость загрузки ниже минимальной. Измените настройку minrate "
 "или throttle"
 
-#: libdnf/repo/Repo.cpp:625
+#: libdnf/repo/Repo.cpp:618
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
 msgstr "репозиторий «%s»: настроен «proxy_username», но не «proxy_password»"
 
-#: libdnf/repo/Repo.cpp:658 libdnf/repo/Repo.cpp:680
+#: libdnf/repo/Repo.cpp:651 libdnf/repo/Repo.cpp:673
 #, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
 msgstr "%s: gpgme_data_new_from_fd(): %s"
 
-#: libdnf/repo/Repo.cpp:666 libdnf/repo/Repo.cpp:688
+#: libdnf/repo/Repo.cpp:659 libdnf/repo/Repo.cpp:681
 #, c-format
 msgid "%s: gpgme_op_import(): %s"
 msgstr "%s: gpgme_op_import(): %s"
 
-#: libdnf/repo/Repo.cpp:711 libdnf/repo/Repo.cpp:777 libdnf/repo/Repo.cpp:905
+#: libdnf/repo/Repo.cpp:704 libdnf/repo/Repo.cpp:770 libdnf/repo/Repo.cpp:898
 #, c-format
 msgid "%s: gpgme_ctx_set_engine_info(): %s"
 msgstr "%s: gpgme_ctx_set_engine_info(): %s"
 
-#: libdnf/repo/Repo.cpp:738 libdnf/repo/Repo.cpp:802
+#: libdnf/repo/Repo.cpp:731 libdnf/repo/Repo.cpp:795
 #, c-format
 msgid "can not list keys: %s"
 msgstr "не может перечислить ключи: %s"
 
-#: libdnf/repo/Repo.cpp:831
+#: libdnf/repo/Repo.cpp:824
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr "Не удалось получить ключ GPG для репозитория «%s»: %s"
 
-#: libdnf/repo/Repo.cpp:884
+#: libdnf/repo/Repo.cpp:877
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr "Сделки рЕПО %s: 0x%s уже импортировано"
 
-#: libdnf/repo/Repo.cpp:912
+#: libdnf/repo/Repo.cpp:905
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr "Сделки рЕПО %s: импортированный ключ 0x%s"
 
-#: libdnf/repo/Repo.cpp:1160
+#: libdnf/repo/Repo.cpp:1153
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "восстановление: репозиторий «%s» игнорируется, нет метассылок."
 
-#: libdnf/repo/Repo.cpp:1179
+#: libdnf/repo/Repo.cpp:1172
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr ""
 "восстановление: репозиторий «%s» игнорируется, нет пригодного хэш-кода."
 
-#: libdnf/repo/Repo.cpp:1202
+#: libdnf/repo/Repo.cpp:1195
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "восстановление: не удалось для «%s», сумма %s не совпадает."
 
-#: libdnf/repo/Repo.cpp:1208
+#: libdnf/repo/Repo.cpp:1201
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
 "восстановление: «%s» может быть восстановлен - контрольные суммы метассылок "
 "совпадают."
 
-#: libdnf/repo/Repo.cpp:1233
+#: libdnf/repo/Repo.cpp:1226
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr ""
 "восстановление: «%s» может быть восстановлен - совпадают метаданные "
 "репозитория."
 
-#: libdnf/repo/Repo.cpp:1235
+#: libdnf/repo/Repo.cpp:1228
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr ""
 "восстановление: не удалось для «%s», не совпадают метаданные репозитория."
 
-#: libdnf/repo/Repo.cpp:1253
+#: libdnf/repo/Repo.cpp:1246
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr "Не создается каталог назначения репозитория «%s»: %s"
 
-#: libdnf/repo/Repo.cpp:1259
+#: libdnf/repo/Repo.cpp:1252
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "Невозможно создать временный каталог репо \"%s«: %s"
 
-#: libdnf/repo/Repo.cpp:1273
+#: libdnf/repo/Repo.cpp:1266
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "Невозможно создать каталог \"%s«: %s"
 
-#: libdnf/repo/Repo.cpp:1296
+#: libdnf/repo/Repo.cpp:1289
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "Невозможно переименовать каталог \"%s\"to\"%s«: %s"
 
-#: libdnf/repo/Repo.cpp:1319
+#: libdnf/repo/Repo.cpp:1312
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "репозиторий: используется кэш для: %s"
 
-#: libdnf/repo/Repo.cpp:1331
+#: libdnf/repo/Repo.cpp:1324
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "Использование режима cacheonly включено, но нет кэша для «%s»"
 
-#: libdnf/repo/Repo.cpp:1335
+#: libdnf/repo/Repo.cpp:1328
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "РЕПО: загрузка с удаленного устройства: %s"
 
-#: libdnf/repo/Repo.cpp:1342
+#: libdnf/repo/Repo.cpp:1335
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr "Не удалось загрузить метаданные для репозитория «%s»: %s"
 
-#: libdnf/repo/Repo.cpp:1368
+#: libdnf/repo/Repo.cpp:1361
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir (): вычисление SHA256 не выполнено"
 
-#: libdnf/repo/Repo.cpp:1396
+#: libdnf/repo/Repo.cpp:1389
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr "Не создается постоянный каталог «%s»: %s"
 
-#: libdnf/repo/Repo.cpp:1727
+#: libdnf/repo/Repo.cpp:1725
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr "настроен «proxy_username», а не «proxy_password»"
 
-#: libdnf/repo/Repo.cpp:1818
+#: libdnf/repo/Repo.cpp:1816
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr ""
 "резюме не может использоваться одновременно с параметром byterangestart"
 
-#: libdnf/repo/Repo.cpp:1835
+#: libdnf/repo/Repo.cpp:1833
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "Не удалось инициализировать PackageTarget: %s"
 
-#: libdnf/repo/Repo.cpp:1941
+#: libdnf/repo/Repo.cpp:1939
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "Не могу открыть %s: %s"
 
-#: libdnf/repo/Repo.cpp:1985
+#: libdnf/repo/Repo.cpp:1983
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "Обработчик журнала с идентификатором %ld не существует"
