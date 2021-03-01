@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 09:18-0500\n"
-"PO-Revision-Date: 2021-01-26 15:38+0000\n"
+"PO-Revision-Date: 2021-03-02 14:59+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/tr/>\n"
@@ -330,7 +330,7 @@ msgstr "%s için dosya sistemindeki boş alan boyutu alınamadı"
 #: libdnf/dnf-transaction.cpp:935
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
-msgstr "%1$s dizininde yeterli boş alan yok: %2$s gerekli, %3$s kullanılabilir"
+msgstr "%1$s dizininde yeterli boş alan yok: %2$s gerekli, %3$s var"
 
 #: libdnf/dnf-transaction.cpp:1196
 msgid "failed to set root"
@@ -621,7 +621,7 @@ msgstr "Geçersiz platform modülü biçimi: %s"
 #: libdnf/module/ModulePackage.cpp:478
 msgid "Multiple module platforms provided by available packages\n"
 msgstr ""
-"Kullanılabilir paketler tarafından sağlanan birden çok modül platformu\n"
+"Kullanılabilir paketler tarafından birden çok modül platformu sağlanıyor\n"
 
 #: libdnf/module/ModulePackage.cpp:491
 msgid "Multiple module platforms provided by installed packages\n"
@@ -649,7 +649,7 @@ msgstr "'%s' modülü için birden çok akış etkinleştirilemiyor"
 #: libdnf/module/ModulePackageContainer.cpp:294
 #, c-format
 msgid "Conflicting defaults with repo '%s': %s"
-msgstr "Öntanımlılar '%s' deposu ile çakışıyor: %s"
+msgstr "Öntanımlı değerler '%s' deposu ile çakışıyor: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1568
 #, c-format
@@ -690,7 +690,7 @@ msgstr "Çözümlenemedi: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:74
 #, c-format
 msgid "Failed to upgrade defaults: %s"
-msgstr "Öntanımlılar yükseltilemedi: %s"
+msgstr "Öntanımlı değerler yükseltilemedi: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:77
 #, c-format
