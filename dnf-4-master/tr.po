@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-01 09:18-0500\n"
-"PO-Revision-Date: 2021-01-28 12:40+0000\n"
+"PO-Revision-Date: 2021-03-02 14:59+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/tr/>\n"
@@ -97,7 +97,7 @@ msgstr "GetValue(): Değer ayarlanmadı"
 #: libdnf/dnf-context.cpp:3097 libdnf/dnf-context.cpp:3106
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
-msgstr "Aynı anda \"%s\" modülünden daha fazla akış etkinleştirilemiyor"
+msgstr "Aynı anda '%s' modülünden daha fazla akış etkinleştirilemiyor"
 
 #: libdnf/dnf-context.cpp:3115 libdnf/dnf-context.cpp:3133
 #, c-format
@@ -361,7 +361,7 @@ msgstr "RPMDB yüklenemedi"
 #: libdnf/dnf-sack.cpp:2460
 #, c-format
 msgid "No module defaults found: %s"
-msgstr "Modül öntanımlısı bulunamadı: %s"
+msgstr "Modül öntanımlı değerleri bulunamadı: %s"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
@@ -431,7 +431,7 @@ msgstr "%s için dosya sistemindeki boş alan boyutu alınamadı"
 #: libdnf/dnf-transaction.cpp:935
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
-msgstr "%1$s dizininde yeterli boş alan yok: %2$s gerekli, %3$s kullanılabilir"
+msgstr "%1$s dizininde yeterli boş alan yok: %2$s gerekli, %3$s var"
 
 #: libdnf/dnf-transaction.cpp:1196
 msgid "failed to set root"
@@ -731,7 +731,7 @@ msgstr "Geçersiz platform modülü biçimi: %s"
 #: libdnf/module/ModulePackage.cpp:561
 msgid "Multiple module platforms provided by available packages\n"
 msgstr ""
-"Kullanılabilir paketler tarafından sağlanan birden çok modül platformu\n"
+"Kullanılabilir paketler tarafından birden çok modül platformu sağlanıyor\n"
 
 #: libdnf/module/ModulePackage.cpp:574
 msgid "Multiple module platforms provided by installed packages\n"
@@ -759,7 +759,7 @@ msgstr "'%s' modülü için birden çok akış etkinleştirilemiyor"
 #: libdnf/module/ModulePackageContainer.cpp:346
 #, c-format
 msgid "Conflicting defaults with repo '%s': %s"
-msgstr "Öntanımlılar '%s' deposu ile çakışıyor: %s"
+msgstr "Öntanımlı değerler '%s' deposu ile çakışıyor: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:916
 msgid "Installing module profiles:\n"
@@ -832,12 +832,12 @@ msgstr "Çözümlenemedi: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:115
 #, c-format
 msgid "There were errors while resolving modular defaults: %s"
-msgstr "Modüler öntanımlılar çözümlenirken hatalar oluştu: %s"
+msgstr "Modüler öntanımlı değerler çözümlenirken hatalar oluştu: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:120
 #, c-format
 msgid "Failed to upgrade defaults: %s"
-msgstr "Öntanımlılar yükseltilemedi: %s"
+msgstr "Öntanımlı değerler yükseltilemedi: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:123
 #, c-format
