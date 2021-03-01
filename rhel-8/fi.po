@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 09:52+0100\n"
 "PO-Revision-Date: 2021-03-02 14:59+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-8/fi/>\n"
 "Language: fi\n"
@@ -21,22 +21,22 @@ msgstr ""
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
-msgstr ""
+msgstr "arvoa ei määritetty"
 
 #: libdnf/conf/ConfigMain.cpp:67 libdnf/conf/OptionSeconds.cpp:48
 #, c-format
 msgid "seconds value '%s' must not be negative"
-msgstr ""
+msgstr "sekuntien arvo '%s' ei saa olla negatiivinen"
 
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
 msgid "could not convert '%s' to bytes"
-msgstr ""
+msgstr "'%s' ei voitu muuntaa tavuiksi"
 
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
 msgid "unknown unit '%s'"
-msgstr ""
+msgstr "tuntematon yksikkö '%s'"
 
 #: libdnf/conf/ConfigMain.cpp:334
 #, c-format
