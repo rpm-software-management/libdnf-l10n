@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 09:18-0500\n"
-"PO-Revision-Date: 2021-03-02 14:59+0000\n"
+"PO-Revision-Date: 2021-03-05 07:38+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/fi/>\n"
@@ -779,7 +779,7 @@ msgstr "%s: gpgme_ctx_set_engine_info(): %s"
 #: libdnf/repo/Repo.cpp:746 libdnf/repo/Repo.cpp:810
 #, c-format
 msgid "can not list keys: %s"
-msgstr "avaimia ei voi listata: %s"
+msgstr "avaimia ei voi luetella: %s"
 
 #: libdnf/repo/Repo.cpp:839
 #, c-format
