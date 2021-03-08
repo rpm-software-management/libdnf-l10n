@@ -1,4 +1,4 @@
-# Geert Warrink <geert.warrink@onsnet.nu>, 2017. #zanata, 2020.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2017. #zanata, 2020, 2021.
 # Richard E. van der Luit <fedoraproject@veneax.nl>, 2020.
 msgid ""
 msgstr ""
