@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-09 09:18-0500\n"
+"POT-Creation-Date: 2021-03-11 09:18-0500\n"
 "PO-Revision-Date: 2021-02-22 20:40+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -369,7 +369,7 @@ msgstr "Falha ao criar o Cachedir %s"
 msgid "failed loading RPMDB"
 msgstr "falha ao carregar o RPMDB"
 
-#: libdnf/dnf-sack.cpp:2460
+#: libdnf/dnf-sack.cpp:2462
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "Nenhum padrão de módulo encontrado: %s"
@@ -733,30 +733,30 @@ msgstr "não é possível criar o diretório %1$s: %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:546
+#: libdnf/module/ModulePackage.cpp:548
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "Formato inválido da Plataforma do módulo: %s"
 
-#: libdnf/module/ModulePackage.cpp:561
+#: libdnf/module/ModulePackage.cpp:563
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "Múltiplas plataformas de módulo oferecidas pelos pacotes disponíveis\n"
 
-#: libdnf/module/ModulePackage.cpp:574
+#: libdnf/module/ModulePackage.cpp:576
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "Múltiplas plataformas de módulo oferecidas pelos pacotes instalados\n"
 
-#: libdnf/module/ModulePackage.cpp:601
+#: libdnf/module/ModulePackage.cpp:603
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "Detecção do Módulo de Plataforma em %s falhou: %s"
 
-#: libdnf/module/ModulePackage.cpp:610
+#: libdnf/module/ModulePackage.cpp:612
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:615
+#: libdnf/module/ModulePackage.cpp:617
 msgid "No valid Platform ID detected"
 msgstr "Nenhum ID de Plataforma válido detectado"
 
@@ -770,56 +770,56 @@ msgstr ""
 msgid "Conflicting defaults with repo '%s': %s"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:916
+#: libdnf/module/ModulePackageContainer.cpp:918
 msgid "Installing module profiles:\n"
 msgstr "Instalando perfis de módulo:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:931
+#: libdnf/module/ModulePackageContainer.cpp:933
 msgid "Disabling module profiles:\n"
 msgstr "Desativando perfis de módulo:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:946
+#: libdnf/module/ModulePackageContainer.cpp:948
 msgid "Enabling module streams:\n"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:960
+#: libdnf/module/ModulePackageContainer.cpp:962
 msgid "Switching module streams:\n"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:978
+#: libdnf/module/ModulePackageContainer.cpp:980
 msgid "Disabling modules:\n"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:989
+#: libdnf/module/ModulePackageContainer.cpp:991
 msgid "Resetting modules:\n"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:1672
+#: libdnf/module/ModulePackageContainer.cpp:1674
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:1678
+#: libdnf/module/ModulePackageContainer.cpp:1680
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:1765
+#: libdnf/module/ModulePackageContainer.cpp:1767
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:1787
+#: libdnf/module/ModulePackageContainer.cpp:1789
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:1812
+#: libdnf/module/ModulePackageContainer.cpp:1814
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:1846
+#: libdnf/module/ModulePackageContainer.cpp:1848
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "

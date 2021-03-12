@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-09 09:18-0500\n"
+"POT-Creation-Date: 2021-03-11 09:18-0500\n"
 "PO-Revision-Date: 2020-08-28 12:29+0000\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -349,7 +349,7 @@ msgstr "建立快取目錄 (cachedir) %s 失敗"
 msgid "failed loading RPMDB"
 msgstr "載入 RPMDB 失敗"
 
-#: libdnf/dnf-sack.cpp:2460
+#: libdnf/dnf-sack.cpp:2462
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "找不到模組的預設值：%s"
@@ -704,30 +704,30 @@ msgstr "無法建立 %1$s 目錄：%2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "無法 stat %1$s 路徑：%2$s"
 
-#: libdnf/module/ModulePackage.cpp:546
+#: libdnf/module/ModulePackage.cpp:548
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "Platform 模組的格式無效：%s"
 
-#: libdnf/module/ModulePackage.cpp:561
+#: libdnf/module/ModulePackage.cpp:563
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "可用的軟體包提供了多個模組平臺\n"
 
-#: libdnf/module/ModulePackage.cpp:574
+#: libdnf/module/ModulePackage.cpp:576
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "安裝的軟體包提供了多個模組平臺\n"
 
-#: libdnf/module/ModulePackage.cpp:601
+#: libdnf/module/ModulePackage.cpp:603
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "偵測 %s 中的 Platform 模組失敗：%s"
 
-#: libdnf/module/ModulePackage.cpp:610
+#: libdnf/module/ModulePackage.cpp:612
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "%s 缺少 PLATFORM_ID"
 
-#: libdnf/module/ModulePackage.cpp:615
+#: libdnf/module/ModulePackage.cpp:617
 msgid "No valid Platform ID detected"
 msgstr "未偵測到有效的 Platform ID"
 
@@ -741,56 +741,56 @@ msgstr "無法啟用「%s」模組的多個串流"
 msgid "Conflicting defaults with repo '%s': %s"
 msgstr "預設值與「%s」軟體庫衝突：%s"
 
-#: libdnf/module/ModulePackageContainer.cpp:916
+#: libdnf/module/ModulePackageContainer.cpp:918
 msgid "Installing module profiles:\n"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:931
+#: libdnf/module/ModulePackageContainer.cpp:933
 msgid "Disabling module profiles:\n"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:946
+#: libdnf/module/ModulePackageContainer.cpp:948
 msgid "Enabling module streams:\n"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:960
+#: libdnf/module/ModulePackageContainer.cpp:962
 msgid "Switching module streams:\n"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:978
+#: libdnf/module/ModulePackageContainer.cpp:980
 msgid "Disabling modules:\n"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:989
+#: libdnf/module/ModulePackageContainer.cpp:991
 msgid "Resetting modules:\n"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:1672
+#: libdnf/module/ModulePackageContainer.cpp:1674
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "無法載入位於「%s」的模組化防故障資料"
 
-#: libdnf/module/ModulePackageContainer.cpp:1678
+#: libdnf/module/ModulePackageContainer.cpp:1680
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "無法載入「%s:%s」模組的模組化防故障資料"
 
-#: libdnf/module/ModulePackageContainer.cpp:1765
+#: libdnf/module/ModulePackageContainer.cpp:1767
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr "無法為模組化防故障資料建立「%s」目錄：%s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1787
+#: libdnf/module/ModulePackageContainer.cpp:1789
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "無法儲存模組化防故障資料至「%s」"
 
-#: libdnf/module/ModulePackageContainer.cpp:1812
+#: libdnf/module/ModulePackageContainer.cpp:1814
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "無法移除「%s」的模組化防故障資料"
 
-#: libdnf/module/ModulePackageContainer.cpp:1846
+#: libdnf/module/ModulePackageContainer.cpp:1848
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "

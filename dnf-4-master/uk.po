@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-09 09:18-0500\n"
+"POT-Creation-Date: 2021-03-11 09:18-0500\n"
 "PO-Revision-Date: 2021-01-28 12:40+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -361,7 +361,7 @@ msgstr "не вдалося створити каталог кешу %s"
 msgid "failed loading RPMDB"
 msgstr "не вдалося завантажити RPMDB"
 
-#: libdnf/dnf-sack.cpp:2460
+#: libdnf/dnf-sack.cpp:2462
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "Не знайдено типових налаштувань модуля: %s"
@@ -726,30 +726,30 @@ msgstr "Не вдалося створити каталог %1$s: %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "не вдалося отримати статистичні дані для шляху %1$s: %2$s"
 
-#: libdnf/module/ModulePackage.cpp:546
+#: libdnf/module/ModulePackage.cpp:548
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "Некоректний формат модуля платформи: %s"
 
-#: libdnf/module/ModulePackage.cpp:561
+#: libdnf/module/ModulePackage.cpp:563
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "Доступними пакунками надано декілька платформ модулів\n"
 
-#: libdnf/module/ModulePackage.cpp:574
+#: libdnf/module/ModulePackage.cpp:576
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "Встановленими пакунками надано декілька платформ модулів\n"
 
-#: libdnf/module/ModulePackage.cpp:601
+#: libdnf/module/ModulePackage.cpp:603
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "Не вдалося визначити модуль платформи у %s: %s"
 
-#: libdnf/module/ModulePackage.cpp:610
+#: libdnf/module/ModulePackage.cpp:612
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "Пропущено PLATFORM_ID у %s"
 
-#: libdnf/module/ModulePackage.cpp:615
+#: libdnf/module/ModulePackage.cpp:617
 msgid "No valid Platform ID detected"
 msgstr "Не виявлено коректного ідентифікатора платформи"
 
@@ -763,60 +763,60 @@ msgstr "Не вдалося увімкнути декілька потоків �
 msgid "Conflicting defaults with repo '%s': %s"
 msgstr "Конфлікт типових параметрів із сховищем «%s»: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:916
+#: libdnf/module/ModulePackageContainer.cpp:918
 msgid "Installing module profiles:\n"
 msgstr "Встановлюємо профілі модуля:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:931
+#: libdnf/module/ModulePackageContainer.cpp:933
 msgid "Disabling module profiles:\n"
 msgstr "Вимикаємо профілі модуля:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:946
+#: libdnf/module/ModulePackageContainer.cpp:948
 msgid "Enabling module streams:\n"
 msgstr "Вмикаємо потоки модуля:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:960
+#: libdnf/module/ModulePackageContainer.cpp:962
 msgid "Switching module streams:\n"
 msgstr "Перемикаємо потоки модуля:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:978
+#: libdnf/module/ModulePackageContainer.cpp:980
 msgid "Disabling modules:\n"
 msgstr "Вимикаємо модулі:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:989
+#: libdnf/module/ModulePackageContainer.cpp:991
 msgid "Resetting modules:\n"
 msgstr "Відновлюємо початковий стан модулів:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1672
+#: libdnf/module/ModulePackageContainer.cpp:1674
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "Не вдалося завантажити модульні дані безпечного встановлення у «%s»"
 
-#: libdnf/module/ModulePackageContainer.cpp:1678
+#: libdnf/module/ModulePackageContainer.cpp:1680
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
 "Не вдалося завантажити модульні дані безпечного встановлення для модуля «%s:"
 "%s»"
 
-#: libdnf/module/ModulePackageContainer.cpp:1765
+#: libdnf/module/ModulePackageContainer.cpp:1767
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 "Не вдалося створити каталог «%s» для модульних даних для безпечного "
 "встановлення: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1787
+#: libdnf/module/ModulePackageContainer.cpp:1789
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "Не вдалося зберегти модульні дані для безпечного встановлення до «%s»"
 
-#: libdnf/module/ModulePackageContainer.cpp:1812
+#: libdnf/module/ModulePackageContainer.cpp:1814
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Не вдалося вилучити модульні дані для безпечного встановлення з «%s»"
 
-#: libdnf/module/ModulePackageContainer.cpp:1846
+#: libdnf/module/ModulePackageContainer.cpp:1848
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
