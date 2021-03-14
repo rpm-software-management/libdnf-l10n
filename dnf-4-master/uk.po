@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-11 09:18-0500\n"
+"POT-Creation-Date: 2021-03-13 09:18-0500\n"
 "PO-Revision-Date: 2021-01-28 12:40+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -437,21 +437,21 @@ msgstr "Не вдалося отримати дані щодо вільного 
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
 msgstr "Недостатньо вільного місця у %1$s: потрібно %2$s, доступно %3$s"
 
-#: libdnf/dnf-transaction.cpp:1196
+#: libdnf/dnf-transaction.cpp:1195
 msgid "failed to set root"
 msgstr "не вдалося встановити root"
 
-#: libdnf/dnf-transaction.cpp:1418
+#: libdnf/dnf-transaction.cpp:1416
 #, c-format
 msgid "Error %i running transaction test"
 msgstr "Помилка %i під час перевірки операції"
 
-#: libdnf/dnf-transaction.cpp:1458
+#: libdnf/dnf-transaction.cpp:1456
 #, c-format
 msgid "Error %i running transaction"
 msgstr "Помилка %i під час виконання операції"
 
-#: libdnf/dnf-transaction.cpp:1474
+#: libdnf/dnf-transaction.cpp:1472
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
@@ -726,30 +726,30 @@ msgstr "Не вдалося створити каталог %1$s: %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "не вдалося отримати статистичні дані для шляху %1$s: %2$s"
 
-#: libdnf/module/ModulePackage.cpp:548
+#: libdnf/module/ModulePackage.cpp:553
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "Некоректний формат модуля платформи: %s"
 
-#: libdnf/module/ModulePackage.cpp:563
+#: libdnf/module/ModulePackage.cpp:568
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "Доступними пакунками надано декілька платформ модулів\n"
 
-#: libdnf/module/ModulePackage.cpp:576
+#: libdnf/module/ModulePackage.cpp:581
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "Встановленими пакунками надано декілька платформ модулів\n"
 
-#: libdnf/module/ModulePackage.cpp:603
+#: libdnf/module/ModulePackage.cpp:608
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "Не вдалося визначити модуль платформи у %s: %s"
 
-#: libdnf/module/ModulePackage.cpp:612
+#: libdnf/module/ModulePackage.cpp:617
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "Пропущено PLATFORM_ID у %s"
 
-#: libdnf/module/ModulePackage.cpp:617
+#: libdnf/module/ModulePackage.cpp:622
 msgid "No valid Platform ID detected"
 msgstr "Не виявлено коректного ідентифікатора платформи"
 

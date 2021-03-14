@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-11 09:18-0500\n"
+"POT-Creation-Date: 2021-03-13 09:18-0500\n"
 "PO-Revision-Date: 2021-02-22 20:40+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -445,21 +445,21 @@ msgstr "Falha ao obter tamanho livre do sistema de arquivos para %s"
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
 msgstr "Não há espaço livre suficiente %1$s: necessário %2$s, acessível %3$s"
 
-#: libdnf/dnf-transaction.cpp:1196
+#: libdnf/dnf-transaction.cpp:1195
 msgid "failed to set root"
 msgstr "não conseguiu definir raiz"
 
-#: libdnf/dnf-transaction.cpp:1418
+#: libdnf/dnf-transaction.cpp:1416
 #, c-format
 msgid "Error %i running transaction test"
 msgstr "Erro %i executando o teste de transação"
 
-#: libdnf/dnf-transaction.cpp:1458
+#: libdnf/dnf-transaction.cpp:1456
 #, c-format
 msgid "Error %i running transaction"
 msgstr "Erro %i transação em execução"
 
-#: libdnf/dnf-transaction.cpp:1474
+#: libdnf/dnf-transaction.cpp:1472
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
@@ -733,30 +733,30 @@ msgstr "não é possível criar o diretório %1$s: %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:548
+#: libdnf/module/ModulePackage.cpp:553
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "Formato inválido da Plataforma do módulo: %s"
 
-#: libdnf/module/ModulePackage.cpp:563
+#: libdnf/module/ModulePackage.cpp:568
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "Múltiplas plataformas de módulo oferecidas pelos pacotes disponíveis\n"
 
-#: libdnf/module/ModulePackage.cpp:576
+#: libdnf/module/ModulePackage.cpp:581
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "Múltiplas plataformas de módulo oferecidas pelos pacotes instalados\n"
 
-#: libdnf/module/ModulePackage.cpp:603
+#: libdnf/module/ModulePackage.cpp:608
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "Detecção do Módulo de Plataforma em %s falhou: %s"
 
-#: libdnf/module/ModulePackage.cpp:612
+#: libdnf/module/ModulePackage.cpp:617
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:617
+#: libdnf/module/ModulePackage.cpp:622
 msgid "No valid Platform ID detected"
 msgstr "Nenhum ID de Plataforma válido detectado"
 

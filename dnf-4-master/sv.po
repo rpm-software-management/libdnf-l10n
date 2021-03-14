@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-11 09:18-0500\n"
+"POT-Creation-Date: 2021-03-13 09:18-0500\n"
 "PO-Revision-Date: 2021-01-30 19:40+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
@@ -440,21 +440,21 @@ msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
 msgstr ""
 "Inte tillräckligt med fritt utrymme i %1$s: %2$s behövs, %3$s är tillgängligt"
 
-#: libdnf/dnf-transaction.cpp:1196
+#: libdnf/dnf-transaction.cpp:1195
 msgid "failed to set root"
 msgstr "misslyckades att sätta roten"
 
-#: libdnf/dnf-transaction.cpp:1418
+#: libdnf/dnf-transaction.cpp:1416
 #, c-format
 msgid "Error %i running transaction test"
 msgstr "Fel %i när transaktionstesten kördes"
 
-#: libdnf/dnf-transaction.cpp:1458
+#: libdnf/dnf-transaction.cpp:1456
 #, c-format
 msgid "Error %i running transaction"
 msgstr "Fel %i när transaktionen kördes"
 
-#: libdnf/dnf-transaction.cpp:1474
+#: libdnf/dnf-transaction.cpp:1472
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr "Transaktionen kom inte till skrivfasen, men returnerade inget fel(%i)"
@@ -722,30 +722,30 @@ msgstr "kan inte skapa katalogen %1$s: %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "kan inte ta status på sökvägen %1$s: %2$s"
 
-#: libdnf/module/ModulePackage.cpp:548
+#: libdnf/module/ModulePackage.cpp:553
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "Felaktigt format på plattformsmodulen: %s"
 
-#: libdnf/module/ModulePackage.cpp:563
+#: libdnf/module/ModulePackage.cpp:568
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "Flera modulplattformar tillhandahålls av tillgängliga paket\n"
 
-#: libdnf/module/ModulePackage.cpp:576
+#: libdnf/module/ModulePackage.cpp:581
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "Flera modulplattformar tillhandahålls av installerade paket\n"
 
-#: libdnf/module/ModulePackage.cpp:603
+#: libdnf/module/ModulePackage.cpp:608
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "Detektering av plattformsmodul i %s misslyckades: %s"
 
-#: libdnf/module/ModulePackage.cpp:612
+#: libdnf/module/ModulePackage.cpp:617
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "Saknad PLATFORM_ID i %s"
 
-#: libdnf/module/ModulePackage.cpp:617
+#: libdnf/module/ModulePackage.cpp:622
 msgid "No valid Platform ID detected"
 msgstr "Inget giltigt plattforms-ID detekterat"
 

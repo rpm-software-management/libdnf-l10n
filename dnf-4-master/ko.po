@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-11 09:18-0500\n"
+"POT-Creation-Date: 2021-03-13 09:18-0500\n"
 "PO-Revision-Date: 2021-03-14 07:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
@@ -106,7 +106,9 @@ msgstr "동시에 모듈 '%s’에서 다른 스트림을 활성화 할 수 없�
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
-msgstr "모듈 '%1$s' 스트림 '%2$s 을 활성화 할 수 없습니다: 모듈 상태가 이미 변경되었습니다"
+msgstr ""
+"모듈 '%1$s' 스트림 '%2$s 을 활성화 할 수 없습니다: 모듈 상태가 이미 변경되었"
+"습니다"
 
 #: libdnf/dnf-context.cpp:3180
 #, c-format
@@ -160,7 +162,9 @@ msgstr "인수: '%s'에 불필요한 정보를 무시하기"
 msgid ""
 "Problem during enablement of dependency tree for moduele '%1$s' stream "
 "'%2$s': %3$s"
-msgstr "모듈 '%1$s' 스트림 '%2$s': %3$s 위해 의존성 트리의 활성화하는 동안에 발생하는 문제"
+msgstr ""
+"모듈 '%1$s' 스트림 '%2$s': %3$s 위해 의존성 트리의 활성화하는 동안에 발생하"
+"는 문제"
 
 #: libdnf/dnf-context.cpp:3351
 msgid "Problems appeared for module enable request"
@@ -189,8 +193,9 @@ msgid ""
 "reset the module, you can install the other stream."
 msgstr ""
 "활성화된 모듈 스트림을 전환 할 수 없습니다.\n"
-"설치된 모든 내용을 모듈에서 제거하고 ‘<module_name>' 명령을 사용하여 모듈을 재설정하는 것이 좋습니다. 모듈을 재설정한 후, "
-"다른 스트림을 설치할 수 있습니다."
+"설치된 모든 내용을 모듈에서 제거하고 ‘<module_name>' 명령을 사용하여 모듈을 "
+"재설정하는 것이 좋습니다. 모듈을 재설정한 후, 다른 스트림을 설치할 수 있습니"
+"다."
 
 #: libdnf/dnf-goal.cpp:85
 msgid "Could not depsolve transaction; "
@@ -217,7 +222,9 @@ msgstr " 문제: %s\n"
 msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
-msgstr "모듈 꾸러미 '%s'를 위하여 사용 가능한 메타 데이터가 없으며; 시스템에 설치할 수 없습니다"
+msgstr ""
+"모듈 꾸러미 '%s'를 위하여 사용 가능한 메타 데이터가 없으며; 시스템에 설치할 "
+"수 없습니다"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
@@ -422,21 +429,21 @@ msgstr "에 대한 파일 시스템 크기를 가져 오는 데 실패했습니�
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
 msgstr "여유 공간이 부족합니다. %1$s: 필요 %2$s, 이용 가능 %3$s"
 
-#: libdnf/dnf-transaction.cpp:1196
+#: libdnf/dnf-transaction.cpp:1195
 msgid "failed to set root"
 msgstr "루트를 설정하지 못했습니다"
 
-#: libdnf/dnf-transaction.cpp:1418
+#: libdnf/dnf-transaction.cpp:1416
 #, c-format
 msgid "Error %i running transaction test"
 msgstr "오류 %i 실행중인 트랜잭션 테스트"
 
-#: libdnf/dnf-transaction.cpp:1458
+#: libdnf/dnf-transaction.cpp:1456
 #, c-format
 msgid "Error %i running transaction"
 msgstr "오류 %i 실행중인 거래"
 
-#: libdnf/dnf-transaction.cpp:1474
+#: libdnf/dnf-transaction.cpp:1472
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
@@ -703,30 +710,30 @@ msgstr "디렉토리를 생성 할 수 없습니다 %1$s: %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "경로 %1$s: %2$s stat 할 수 없습니다"
 
-#: libdnf/module/ModulePackage.cpp:548
+#: libdnf/module/ModulePackage.cpp:553
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "잘못된 형식의 기반 모듈: %s"
 
-#: libdnf/module/ModulePackage.cpp:563
+#: libdnf/module/ModulePackage.cpp:568
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "사용 가능한 꾸러미로 제공되는 다중 모듈 기반\n"
 
-#: libdnf/module/ModulePackage.cpp:576
+#: libdnf/module/ModulePackage.cpp:581
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "설치된 꾸러미로 제공되는 다중 모듈 기반\n"
 
-#: libdnf/module/ModulePackage.cpp:603
+#: libdnf/module/ModulePackage.cpp:608
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "%s 실패한: %s 에서 기반(Platform) 모듈 감지"
 
-#: libdnf/module/ModulePackage.cpp:612
+#: libdnf/module/ModulePackage.cpp:617
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "%s에서 PLATFORM_ID가 누락됨"
 
-#: libdnf/module/ModulePackage.cpp:617
+#: libdnf/module/ModulePackage.cpp:622
 msgid "No valid Platform ID detected"
 msgstr "유효한 기반(Platform) ID가 없습니다"
 
@@ -794,7 +801,9 @@ msgstr "'%s'에서 모듈식 Fail Safe 자료를 제거 할 수 없습니다"
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
-msgstr "'%s:%s'에 모듈 폐기를 적용 할 수 없다 왜냐하면 목표 모듈 '%s' 을 사용 할 수 없기 때문입니다"
+msgstr ""
+"'%s:%s'에 모듈 폐기를 적용 할 수 없다 왜냐하면 목표 모듈 '%s' 을 사용 할 수 "
+"없기 때문입니다"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -824,7 +833,8 @@ msgstr "스트림 최신화에 실패하였습니다: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:219
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
-msgstr "모듈 폐기를 검색 할 수 없습니다 왜냐하면 스트림 일치 %s: %s 가 없습니다"
+msgstr ""
+"모듈 폐기를 검색 할 수 없습니다 왜냐하면 스트림 일치 %s: %s 가 없습니다"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
@@ -867,8 +877,9 @@ msgid ""
 "deprecated and the support will be dropped in future versions. Use '=' "
 "operator instead."
 msgstr ""
-"reldeps에 '=='연산자를 사용하면 정의되지 않은 동작이 발생할 수 있습니다. 이 연산자는 더 이상 사용되지 않으며, 향후 "
-"버전에서는 지원이 중단됩니다. 대신 '=' 연산자를 사용하세요."
+"reldeps에 '=='연산자를 사용하면 정의되지 않은 동작이 발생할 수 있습니다. 이 "
+"연산자는 더 이상 사용되지 않으며, 향후 버전에서는 지원이 중단됩니다. 대신 "
+"'=' 연산자를 사용하세요."
 
 #: libdnf/repo/Repo.cpp:321
 #, c-format
@@ -895,12 +906,15 @@ msgstr "repo: %s 를 위해 유효한 baseurl을 찾을 수 없습니다"
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
-msgstr "최대 내려받기 속도는 최저보다 낮습니다. 최저속도나 변환 환경구성을 변경해 주세요"
+msgstr ""
+"최대 내려받기 속도는 최저보다 낮습니다. 최저속도나 변환 환경구성을 변경해 주"
+"세요"
 
 #: libdnf/repo/Repo.cpp:618
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
-msgstr "repo '%s': 'proxy_username' 는 구성되어 있지만 'proxy_password'가 없습니다"
+msgstr ""
+"repo '%s': 'proxy_username' 는 구성되어 있지만 'proxy_password'가 없습니다"
 
 #: libdnf/repo/Repo.cpp:651 libdnf/repo/Repo.cpp:673
 #, c-format

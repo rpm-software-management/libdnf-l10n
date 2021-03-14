@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-11 09:18-0500\n"
+"POT-Creation-Date: 2021-03-13 09:18-0500\n"
 "PO-Revision-Date: 2020-05-05 09:40+0000\n"
 "Last-Translator: Casey Jones <nahareport@yahoo.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -427,21 +427,21 @@ msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
 msgstr ""
 "%1$s に十分なスペースがありません: %2$s 必要で、利用可能なのは %3$s です"
 
-#: libdnf/dnf-transaction.cpp:1196
+#: libdnf/dnf-transaction.cpp:1195
 msgid "failed to set root"
 msgstr "root の設定に失敗しました"
 
-#: libdnf/dnf-transaction.cpp:1418
+#: libdnf/dnf-transaction.cpp:1416
 #, c-format
 msgid "Error %i running transaction test"
 msgstr "トランザクションテストの実行中にエラー %i "
 
-#: libdnf/dnf-transaction.cpp:1458
+#: libdnf/dnf-transaction.cpp:1456
 #, c-format
 msgid "Error %i running transaction"
 msgstr "トランザクションの実行中にエラー %i "
 
-#: libdnf/dnf-transaction.cpp:1474
+#: libdnf/dnf-transaction.cpp:1472
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
@@ -720,30 +720,30 @@ msgstr "ディレクトリー %1$s を作成できません : %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "パス %1$s のstatを調べられません : %2$s"
 
-#: libdnf/module/ModulePackage.cpp:548
+#: libdnf/module/ModulePackage.cpp:553
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "不正なプラットフォームモジュールのフォーマット: %s"
 
-#: libdnf/module/ModulePackage.cpp:563
+#: libdnf/module/ModulePackage.cpp:568
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "利用可能パッケージに提供される複数のモジュールプラットフォーム\n"
 
-#: libdnf/module/ModulePackage.cpp:576
+#: libdnf/module/ModulePackage.cpp:581
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "インストール済パッケージに提供される複数のモジュールプラットフォーム\n"
 
-#: libdnf/module/ModulePackage.cpp:603
+#: libdnf/module/ModulePackage.cpp:608
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "%s のプラットフォームモジュールの検出に失敗しました: %s"
 
-#: libdnf/module/ModulePackage.cpp:612
+#: libdnf/module/ModulePackage.cpp:617
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "%s に PLATFORM_ID が見つかりません"
 
-#: libdnf/module/ModulePackage.cpp:617
+#: libdnf/module/ModulePackage.cpp:622
 msgid "No valid Platform ID detected"
 msgstr "有効な Platform ID が検出されませんでした"
 
