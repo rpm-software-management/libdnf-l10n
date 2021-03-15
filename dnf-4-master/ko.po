@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-13 09:18-0500\n"
-"PO-Revision-Date: 2021-03-14 07:01+0000\n"
+"PO-Revision-Date: 2021-03-16 04:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ko/>\n"
@@ -259,12 +259,11 @@ msgstr "설치 요소를 추가하지 못했습니다. %1$s [%2$i]"
 #: libdnf/dnf-rpmts.cpp:274
 #, c-format
 msgid "Error running transaction: %s"
-msgstr "트랜잭션 실행 오류 : %s"
+msgstr "연결 실행 오류 : %s"
 
 #: libdnf/dnf-rpmts.cpp:283
 msgid "Error running transaction and no problems were reported!"
-msgstr ""
-"트랜잭션을 실행하는 중 오류가 발생했으며 아무런 문제도보고되지 않았습니다!"
+msgstr "연결을 실행하는 중 오류가 발생했으며 아무런 문제도 보고되지 않았습니다!"
 
 #: libdnf/dnf-rpmts.cpp:346
 msgid "Fatal error, run database recovery"
@@ -389,7 +388,7 @@ msgstr "이미 100 %% 상태 [%s]"
 #: libdnf/dnf-transaction.cpp:300
 #, c-format
 msgid "Sources not set when trying to ensure package %s"
-msgstr "패키지를 만들 때 소스가 설정되지 않았습니다. %s"
+msgstr "꾸러미를 만들 때 소스가 설정되지 않았습니다. %s"
 
 #: libdnf/dnf-transaction.cpp:326
 #, c-format
@@ -436,7 +435,7 @@ msgstr "루트를 설정하지 못했습니다"
 #: libdnf/dnf-transaction.cpp:1416
 #, c-format
 msgid "Error %i running transaction test"
-msgstr "오류 %i 실행중인 트랜잭션 테스트"
+msgstr "%i 연결 실행 중 오류"
 
 #: libdnf/dnf-transaction.cpp:1456
 #, c-format
@@ -446,8 +445,7 @@ msgstr "오류 %i 실행중인 거래"
 #: libdnf/dnf-transaction.cpp:1472
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
-msgstr ""
-"트랜잭션이 쓰기 단계로 이동하지 않았지만 오류를 반환하지 않았습니다 (%i)"
+msgstr "연결이 쓰기 단계로 이동하지 않았지만 오류를 반환하지 않았습니다 (%i)"
 
 #: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:399
 #, c-format
@@ -555,7 +553,7 @@ msgstr "꾸러미 %s가 %s에의해 제공된 %s를 폐기합니다"
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
-msgstr "설치된 패키지 %s는 %s에 의해 %s 폐기되었습니다"
+msgstr "설치된 꾸러미 %s는 %s에 의해 %s 폐기되었습니다"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
@@ -1065,15 +1063,15 @@ msgstr "진행 중이 아님"
 
 #: libdnf/transaction/Swdb.cpp:254
 msgid "No transaction in progress"
-msgstr "진행중인 트랜잭션 없음"
+msgstr "진행 중인 연결 없음"
 
 #: libdnf/transaction/TransactionItem.cpp:147
 msgid "Attempt to insert transaction item into completed transaction"
-msgstr "트랜잭션 항목을 완료된 트랜잭션에 삽입하려고 시도했습니다"
+msgstr "연결 항목을 완료된 연결에 삽입하려고 시도했습니다"
 
 #: libdnf/transaction/TransactionItem.cpp:218
 msgid "Attempt to update transaction item in completed transaction"
-msgstr "완료된 트랜잭션에서 트랜잭션 항목 업데이트를 시도합니다"
+msgstr "완료된 연결에서 연결 항목 최신화를 시도합니다"
 
 #: libdnf/transaction/Transformer.cpp:76
 msgid "Database Corrupted: no row 'version' in table 'config'"
@@ -1098,7 +1096,7 @@ msgstr "TransactionItem 상태가 설정되지 않았습니다. %s"
 
 #: libdnf/transaction/private/Transaction.cpp:243
 msgid "Can't add console output to unsaved transaction"
-msgstr "저장되지 않은 트랜잭션에 콘솔 출력을 추가 할 수 없습니다"
+msgstr "저장되지 않은 연결에 콘솔 출력을 추가 할 수 없습니다"
 
 #~ msgid "failed calculating RPMDB checksum"
 #~ msgstr "RPMDB 체크섬 계산 실패"
