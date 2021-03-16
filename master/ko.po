@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-13 09:18-0500\n"
+"POT-Creation-Date: 2021-03-15 09:18-0400\n"
 "PO-Revision-Date: 2021-03-16 04:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
@@ -163,7 +163,8 @@ msgstr "연결 실행 오류 : %s"
 
 #: libdnf/dnf-rpmts.cpp:283
 msgid "Error running transaction and no problems were reported!"
-msgstr "연결을 실행하는 중 오류가 발생했으며 아무런 문제도 보고되지 않았습니다!"
+msgstr ""
+"연결을 실행하는 중 오류가 발생했으며 아무런 문제도 보고되지 않았습니다!"
 
 #: libdnf/dnf-rpmts.cpp:346
 msgid "Fatal error, run database recovery"
