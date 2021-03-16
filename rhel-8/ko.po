@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 09:52+0100\n"
-"PO-Revision-Date: 2021-03-16 04:01+0000\n"
+"PO-Revision-Date: 2021-03-17 21:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-8/ko/>\n"
@@ -189,7 +189,7 @@ msgstr ""
 
 #: libdnf/dnf-goal.cpp:68
 msgid "Could not depsolve transaction; "
-msgstr "거래를 해제 할 수 없습니다; "
+msgstr "연결을 해제 할 수 없습니다; "
 
 #: libdnf/dnf-goal.cpp:70
 #, c-format
@@ -428,7 +428,7 @@ msgstr "%i 연결 실행 중 오류"
 #: libdnf/dnf-transaction.cpp:1458
 #, c-format
 msgid "Error %i running transaction"
-msgstr "오류 %i 실행중인 거래"
+msgstr "오류 %i 실행중인 연결"
 
 #: libdnf/dnf-transaction.cpp:1474
 #, c-format
@@ -1056,7 +1056,7 @@ msgstr "기록 자료저장소를 찾을 수 없습니다"
 
 #: libdnf/transaction/private/Transaction.cpp:41
 msgid "Transaction has already began!"
-msgstr "거래가 이미 시작되었습니다!"
+msgstr "연결이 이미 시작되었습니다!"
 
 #: libdnf/transaction/private/Transaction.cpp:58
 #, c-format
