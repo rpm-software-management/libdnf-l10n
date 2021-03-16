@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 09:18-0400\n"
-"PO-Revision-Date: 2021-02-22 20:40+0000\n"
+"PO-Revision-Date: 2021-03-17 21:01+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/pt_BR/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -34,7 +34,7 @@ msgstr "valor de segundos '%s' não deve ser negativo"
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
 msgid "could not convert '%s' to bytes"
-msgstr "não foi possível converter '%s'para bytes"
+msgstr "não foi possível converter '%s' para bytes"
 
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
@@ -145,9 +145,9 @@ msgstr ""
 "no argumento: '%s'"
 
 #: libdnf/dnf-context.cpp:3242
-#, c-format
+#, c-format, fuzzy
 msgid "Cannot reset module '%s': State of module already modified"
-msgstr ""
+msgstr "Não pode desabilitar módulo '%s': Estado do módulo já modificado"
 
 #: libdnf/dnf-context.cpp:3253
 #, c-format
@@ -214,7 +214,7 @@ msgid "Could not depsolve transaction; "
 msgstr "Não foi possível resolver a transação; "
 
 #: libdnf/dnf-goal.cpp:87
-#, c-format
+#, c-format, fuzzy
 msgid "%i problem detected:\n"
 msgid_plural "%i problems detected:\n"
 msgstr[0] "%i problema detectado:\n"
