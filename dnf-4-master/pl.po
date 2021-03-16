@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-13 09:18-0500\n"
+"POT-Creation-Date: 2021-03-15 09:18-0400\n"
 "PO-Revision-Date: 2021-01-26 16:21+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/"
@@ -808,24 +808,24 @@ msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
 "Wczytanie modularnych danych Fail-Safe dla modułu „%s:%s” się nie powiodło"
 
-#: libdnf/module/ModulePackageContainer.cpp:1767
+#: libdnf/module/ModulePackageContainer.cpp:1763
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 "Utworzenie katalogu „%s” dla modularnych danych Fail Safe się nie powiodło: "
 "%s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1789
+#: libdnf/module/ModulePackageContainer.cpp:1779
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "Zapisanie modularnych danych Fail Safe do „%s” się nie powiodło"
 
-#: libdnf/module/ModulePackageContainer.cpp:1814
+#: libdnf/module/ModulePackageContainer.cpp:1802
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Usunięcie modularnych danych Fail Safe w „%s” się nie powiodło"
 
-#: libdnf/module/ModulePackageContainer.cpp:1848
+#: libdnf/module/ModulePackageContainer.cpp:1834
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
@@ -923,19 +923,13 @@ msgstr ""
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr "Repozytorium „%s” ma nieobsługiwany typ: „type=%s”, pomijanie."
 
-#: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:534 libdnf/repo/Repo.cpp:581
-#: libdnf/repo/Repo.cpp:1373
+#: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:609 libdnf/repo/Repo.cpp:640
+#: libdnf/repo/Repo.cpp:1381
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr "repozytorium „%s”: „basecachedir” nie jest ustawione"
 
-#: libdnf/repo/Repo.cpp:553
-#, c-format
-msgid "Cannot find a valid baseurl for repo: %s"
-msgstr ""
-"Nie można odnaleźć prawidłowego podstawowego adresu URL dla repozytorium: %s"
-
-#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1710
+#: libdnf/repo/Repo.cpp:512
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
@@ -943,149 +937,155 @@ msgstr ""
 "Maksymalna prędkość pobierania jest mniejsza niż minimalna. Proszę zmienić "
 "konfigurację „minrate” lub „throttle”"
 
-#: libdnf/repo/Repo.cpp:618
+#: libdnf/repo/Repo.cpp:546
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 "repozytorium „%s”: „proxy_username” jest ustawione, ale „proxy_password” nie "
 "jest"
 
-#: libdnf/repo/Repo.cpp:651 libdnf/repo/Repo.cpp:673
+#: libdnf/repo/Repo.cpp:548
+msgid "'proxy_username' is set but not 'proxy_password'"
+msgstr "„proxy_username” jest ustawione, ale „proxy_password” nie jest"
+
+#: libdnf/repo/Repo.cpp:628
+#, c-format
+msgid "Cannot find a valid baseurl for repo: %s"
+msgstr ""
+"Nie można odnaleźć prawidłowego podstawowego adresu URL dla repozytorium: %s"
+
+#: libdnf/repo/Repo.cpp:659 libdnf/repo/Repo.cpp:681
 #, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
 msgstr "%s: gpgme_data_new_from_fd(): %s"
 
-#: libdnf/repo/Repo.cpp:659 libdnf/repo/Repo.cpp:681
+#: libdnf/repo/Repo.cpp:667 libdnf/repo/Repo.cpp:689
 #, c-format
 msgid "%s: gpgme_op_import(): %s"
 msgstr "%s: gpgme_op_import(): %s"
 
-#: libdnf/repo/Repo.cpp:704 libdnf/repo/Repo.cpp:770 libdnf/repo/Repo.cpp:898
+#: libdnf/repo/Repo.cpp:712 libdnf/repo/Repo.cpp:778 libdnf/repo/Repo.cpp:906
 #, c-format
 msgid "%s: gpgme_ctx_set_engine_info(): %s"
 msgstr "%s: gpgme_ctx_set_engine_info(): %s"
 
-#: libdnf/repo/Repo.cpp:731 libdnf/repo/Repo.cpp:795
+#: libdnf/repo/Repo.cpp:739 libdnf/repo/Repo.cpp:803
 #, c-format
 msgid "can not list keys: %s"
 msgstr "nie można wyświetlić listy kluczy: %s"
 
-#: libdnf/repo/Repo.cpp:824
+#: libdnf/repo/Repo.cpp:832
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr "Pobranie klucza GPG dla repozytorium „%s” się nie powiodło: %s"
 
-#: libdnf/repo/Repo.cpp:877
+#: libdnf/repo/Repo.cpp:885
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr "repozytorium %s: 0x%s jest już zaimportowane"
 
-#: libdnf/repo/Repo.cpp:905
+#: libdnf/repo/Repo.cpp:913
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr "repozytorium %s: zaimportowano klucz 0x%s."
 
-#: libdnf/repo/Repo.cpp:1153
+#: libdnf/repo/Repo.cpp:1161
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "odnawianie: pominięto repozytorium „%s”, brak metaodnośnika."
 
-#: libdnf/repo/Repo.cpp:1172
+#: libdnf/repo/Repo.cpp:1180
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr ""
 "odnawianie: pominięto repozytorium „%s”, brak sumy kontrolnej możliwej do "
 "użycia."
 
-#: libdnf/repo/Repo.cpp:1195
+#: libdnf/repo/Repo.cpp:1203
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "odnawianie: niepowodzenie dla „%s”, suma kontrolna %s się nie zgadza."
 
-#: libdnf/repo/Repo.cpp:1201
+#: libdnf/repo/Repo.cpp:1209
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
 "odnawianie: można odnowić „%s” — sumy kontrolne metaodnośnika się zgadzają."
 
-#: libdnf/repo/Repo.cpp:1226
+#: libdnf/repo/Repo.cpp:1234
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "odnawianie: można odnowić „%s” — repomd się zgadza."
 
-#: libdnf/repo/Repo.cpp:1228
+#: libdnf/repo/Repo.cpp:1236
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "odnawianie: niepowodzenie dla „%s”, repomd się nie zgadza."
 
-#: libdnf/repo/Repo.cpp:1246
+#: libdnf/repo/Repo.cpp:1254
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr "Nie można utworzyć katalogu docelowego repozytorium „%s”: %s"
 
-#: libdnf/repo/Repo.cpp:1252
+#: libdnf/repo/Repo.cpp:1260
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "Nie można utworzyć katalogu tymczasowego repozytorium „%s”: %s"
 
-#: libdnf/repo/Repo.cpp:1266
+#: libdnf/repo/Repo.cpp:1274
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "Nie można utworzyć katalogu „%s”: %s"
 
-#: libdnf/repo/Repo.cpp:1289
+#: libdnf/repo/Repo.cpp:1297
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "Nie można zmienić nazwy katalogu „%s” na „%s”: %s"
 
-#: libdnf/repo/Repo.cpp:1312
+#: libdnf/repo/Repo.cpp:1320
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "repozytorium: używanie pamięci podręcznej dla: %s"
 
-#: libdnf/repo/Repo.cpp:1324
+#: libdnf/repo/Repo.cpp:1332
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "Włączono tylko pamięć podręczną, ale brak pamięci podręcznej dla „%s”"
 
-#: libdnf/repo/Repo.cpp:1328
+#: libdnf/repo/Repo.cpp:1336
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "repozytorium: pobieranie z serwera: %s"
 
-#: libdnf/repo/Repo.cpp:1335
+#: libdnf/repo/Repo.cpp:1343
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr "Pobranie metadanych repozytorium „%s” się nie powiodło: %s"
 
-#: libdnf/repo/Repo.cpp:1361
+#: libdnf/repo/Repo.cpp:1369
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir(): obliczenie sumy SHA256 się nie powiodło"
 
-#: libdnf/repo/Repo.cpp:1389
+#: libdnf/repo/Repo.cpp:1397
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr "Nie można utworzyć trwałego katalogu „%s”: %s"
 
-#: libdnf/repo/Repo.cpp:1725
-msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr "„proxy_username” jest ustawione, ale „proxy_password” nie jest"
-
-#: libdnf/repo/Repo.cpp:1816
+#: libdnf/repo/Repo.cpp:1774
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr "nie można używać wznawiania jednocześnie z parametrem byterangestart"
 
-#: libdnf/repo/Repo.cpp:1833
+#: libdnf/repo/Repo.cpp:1791
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "Inicjacja PackageTarget się nie powiodła: %s"
 
-#: libdnf/repo/Repo.cpp:1939
+#: libdnf/repo/Repo.cpp:1897
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "Nie można otworzyć %s: %s"
 
-#: libdnf/repo/Repo.cpp:1983
+#: libdnf/repo/Repo.cpp:1941
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "Program obsługujący dziennik o identyfikatorze %ld nie istnieje"

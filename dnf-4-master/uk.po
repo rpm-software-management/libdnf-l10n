@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-13 09:18-0500\n"
+"POT-Creation-Date: 2021-03-15 09:18-0400\n"
 "PO-Revision-Date: 2021-01-28 12:40+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -799,24 +799,24 @@ msgstr ""
 "Не вдалося завантажити модульні дані безпечного встановлення для модуля «%s:"
 "%s»"
 
-#: libdnf/module/ModulePackageContainer.cpp:1767
+#: libdnf/module/ModulePackageContainer.cpp:1763
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 "Не вдалося створити каталог «%s» для модульних даних для безпечного "
 "встановлення: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1789
+#: libdnf/module/ModulePackageContainer.cpp:1779
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "Не вдалося зберегти модульні дані для безпечного встановлення до «%s»"
 
-#: libdnf/module/ModulePackageContainer.cpp:1814
+#: libdnf/module/ModulePackageContainer.cpp:1802
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Не вдалося вилучити модульні дані для безпечного встановлення з «%s»"
 
-#: libdnf/module/ModulePackageContainer.cpp:1848
+#: libdnf/module/ModulePackageContainer.cpp:1834
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
@@ -914,18 +914,13 @@ msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr ""
 "Сховище «%s» належить до непідтримуваного типу: «type=%s», пропускаємо."
 
-#: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:534 libdnf/repo/Repo.cpp:581
-#: libdnf/repo/Repo.cpp:1373
+#: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:609 libdnf/repo/Repo.cpp:640
+#: libdnf/repo/Repo.cpp:1381
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr "сховище «%s»: не встановлено «basecachedir»"
 
-#: libdnf/repo/Repo.cpp:553
-#, c-format
-msgid "Cannot find a valid baseurl for repo: %s"
-msgstr "Не вдалося знайти коректну базову адресу для сховища: %s"
-
-#: libdnf/repo/Repo.cpp:594 libdnf/repo/Repo.cpp:1710
+#: libdnf/repo/Repo.cpp:512
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
@@ -933,147 +928,152 @@ msgstr ""
 "Максимальна швидкість отримання даних є меншою за мінімальну. Будь ласка, "
 "змініть значення для minrate або throttle"
 
-#: libdnf/repo/Repo.cpp:618
+#: libdnf/repo/Repo.cpp:546
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 "сховище «%s»: встановлено «proxy_username», але не встановлено "
 "«proxy_password»"
 
-#: libdnf/repo/Repo.cpp:651 libdnf/repo/Repo.cpp:673
+#: libdnf/repo/Repo.cpp:548
+msgid "'proxy_username' is set but not 'proxy_password'"
+msgstr "встановлено «proxy_username», але не встановлено «proxy_password»"
+
+#: libdnf/repo/Repo.cpp:628
+#, c-format
+msgid "Cannot find a valid baseurl for repo: %s"
+msgstr "Не вдалося знайти коректну базову адресу для сховища: %s"
+
+#: libdnf/repo/Repo.cpp:659 libdnf/repo/Repo.cpp:681
 #, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
 msgstr "%s: gpgme_data_new_from_fd(): %s"
 
-#: libdnf/repo/Repo.cpp:659 libdnf/repo/Repo.cpp:681
+#: libdnf/repo/Repo.cpp:667 libdnf/repo/Repo.cpp:689
 #, c-format
 msgid "%s: gpgme_op_import(): %s"
 msgstr "%s: gpgme_op_import(): %s"
 
-#: libdnf/repo/Repo.cpp:704 libdnf/repo/Repo.cpp:770 libdnf/repo/Repo.cpp:898
+#: libdnf/repo/Repo.cpp:712 libdnf/repo/Repo.cpp:778 libdnf/repo/Repo.cpp:906
 #, c-format
 msgid "%s: gpgme_ctx_set_engine_info(): %s"
 msgstr "%s: gpgme_ctx_set_engine_info(): %s"
 
-#: libdnf/repo/Repo.cpp:731 libdnf/repo/Repo.cpp:795
+#: libdnf/repo/Repo.cpp:739 libdnf/repo/Repo.cpp:803
 #, c-format
 msgid "can not list keys: %s"
 msgstr "не вдалося побудувати список ключів: %s"
 
-#: libdnf/repo/Repo.cpp:824
+#: libdnf/repo/Repo.cpp:832
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr "Не вдалося отримати ключ GPG для сховища «%s»: %s"
 
-#: libdnf/repo/Repo.cpp:877
+#: libdnf/repo/Repo.cpp:885
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr "сховище %s: 0x%s вже імпортовано"
 
-#: libdnf/repo/Repo.cpp:905
+#: libdnf/repo/Repo.cpp:913
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr "сховище %s: імпортовано ключ 0x%s."
 
-#: libdnf/repo/Repo.cpp:1153
+#: libdnf/repo/Repo.cpp:1161
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "відновлюємо: сховище «%s» пропущено, немає метапосилання."
 
-#: libdnf/repo/Repo.cpp:1172
+#: libdnf/repo/Repo.cpp:1180
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr "відновлюємо: сховище «%s» пропущено, немає придатного хешу."
 
-#: libdnf/repo/Repo.cpp:1195
+#: libdnf/repo/Repo.cpp:1203
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "відновлюємо: помилка обробки «%s», невідповідна контрольна сума %s."
 
-#: libdnf/repo/Repo.cpp:1201
+#: libdnf/repo/Repo.cpp:1209
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
 "відновлюємо: «%s» можна відновити — контрольні суми метапосилань збігаються."
 
-#: libdnf/repo/Repo.cpp:1226
+#: libdnf/repo/Repo.cpp:1234
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "відновлюємо: «%s» можна відновити — значення repomd збігаються."
 
-#: libdnf/repo/Repo.cpp:1228
+#: libdnf/repo/Repo.cpp:1236
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "відновлюємо: помилка обробки «%s», невідповідність repomd."
 
-#: libdnf/repo/Repo.cpp:1246
+#: libdnf/repo/Repo.cpp:1254
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr "Не вдалося створити каталог призначення сховища «%s»: %s"
 
-#: libdnf/repo/Repo.cpp:1252
+#: libdnf/repo/Repo.cpp:1260
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "Не вдалося створити тимчасовий каталог сховища «%s»: %s"
 
-#: libdnf/repo/Repo.cpp:1266
+#: libdnf/repo/Repo.cpp:1274
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "Не вдалося створити каталог «%s»: %s"
 
-#: libdnf/repo/Repo.cpp:1289
+#: libdnf/repo/Repo.cpp:1297
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "Не вдалося перейменувати каталог «%s» на «%s»: %s"
 
-#: libdnf/repo/Repo.cpp:1312
+#: libdnf/repo/Repo.cpp:1320
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "сховище: використовуємо кеш для %s"
 
-#: libdnf/repo/Repo.cpp:1324
+#: libdnf/repo/Repo.cpp:1332
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "Увімкнено отримання даних лише з кешу, але немає кешу для «%s»"
 
-#: libdnf/repo/Repo.cpp:1328
+#: libdnf/repo/Repo.cpp:1336
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "сховище: отримуємо з віддаленого сховища: %s"
 
-#: libdnf/repo/Repo.cpp:1335
+#: libdnf/repo/Repo.cpp:1343
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr "Не вдалося отримати метадані для сховища «%s»: %s"
 
-#: libdnf/repo/Repo.cpp:1361
+#: libdnf/repo/Repo.cpp:1369
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir(): помилка під час обчислення SHA256"
 
-#: libdnf/repo/Repo.cpp:1389
+#: libdnf/repo/Repo.cpp:1397
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr "Не вдалося створити сталий каталог «%s»: %s"
 
-#: libdnf/repo/Repo.cpp:1725
-msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr "встановлено «proxy_username», але не встановлено «proxy_password»"
-
-#: libdnf/repo/Repo.cpp:1816
+#: libdnf/repo/Repo.cpp:1774
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr "resume не можна використовувати одночасно з параметром byterangestart"
 
-#: libdnf/repo/Repo.cpp:1833
+#: libdnf/repo/Repo.cpp:1791
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "Помилка ініціалізації PackageTarget: %s"
 
-#: libdnf/repo/Repo.cpp:1939
+#: libdnf/repo/Repo.cpp:1897
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "Не вдалося відкрити %s: %s"
 
-#: libdnf/repo/Repo.cpp:1983
+#: libdnf/repo/Repo.cpp:1941
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "Обробника журналу із ідентифікатором %ld не існує"
