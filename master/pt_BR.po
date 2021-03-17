@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-15 09:18-0400\n"
+"POT-Creation-Date: 2021-03-17 09:18-0400\n"
 "PO-Revision-Date: 2021-03-17 21:01+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -106,7 +106,7 @@ msgid "Could not depsolve transaction; "
 msgstr "Não foi possível resolver a transação; "
 
 #: libdnf/dnf-goal.cpp:70
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "%i problem detected:\n"
 msgid_plural "%i problems detected:\n"
 msgstr[0] "%i problema detectado:\n"
