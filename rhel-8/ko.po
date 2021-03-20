@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 09:52+0100\n"
-"PO-Revision-Date: 2021-03-17 21:01+0000\n"
+"PO-Revision-Date: 2021-03-21 07:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-8/ko/>\n"
@@ -123,13 +123,13 @@ msgstr "모듈러 의존성 문제: %s"
 #: libdnf/dnf-context.cpp:3243 libdnf/dnf-context.cpp:3275
 #, c-format
 msgid "Unable to resolve argument '%s'"
-msgstr "인수 %s 해결 할 수 없습니다"
+msgstr "인수 %s를 해결 할 수 없습니다"
 
 #: libdnf/dnf-context.cpp:3160
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
-msgstr "모듈 이름만 필요합니다. 인수에서 불필요한 정보를 무시합니다:'%s'"
+msgstr "모듈 이름만 필요합니다. 인수에서 불필요한 정보를 무시합니다: '%s'"
 
 #: libdnf/dnf-context.cpp:3174
 #, c-format
@@ -174,7 +174,7 @@ msgstr "모듈 비활성화 요청을 위해 나타난 문제"
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
-msgstr "이 동작은 '%s'' 모듈을 '%s' 스트림에서 ‘%s' 스트림 전환의 결과입니다"
+msgstr "이 동작은 모듈 '%s'' 스트림 ‘%s'에서 스트림 '%s'로의 전환 결과입니다"
 
 #: libdnf/dnf-context.cpp:3380
 msgid ""
