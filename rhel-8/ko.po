@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 09:52+0100\n"
-"PO-Revision-Date: 2021-03-21 07:01+0000\n"
+"PO-Revision-Date: 2021-03-25 03:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-8/ko/>\n"
@@ -390,7 +390,7 @@ msgstr "신뢰할 수 없는지 확인하지 못했습니다. "
 #: libdnf/dnf-transaction.cpp:377
 #, c-format
 msgid "Downloaded file for %s not found"
-msgstr "에 대한 다운로드 파일 %s 찾을 수 없음"
+msgstr "에 대한 내려받기 파일 %s 찾을 수 없음"
 
 #: libdnf/dnf-transaction.cpp:397
 #, c-format
@@ -981,7 +981,7 @@ msgstr "캐시 만 사용 가능하지만 '%s'"
 #: libdnf/repo/Repo.cpp:1324
 #, c-format
 msgid "repo: downloading from remote: %s"
-msgstr "repo : 원격에서 다운로드 중 : %s"
+msgstr "repo : 원격에서 내려받기 중 : %s"
 
 #: libdnf/repo/Repo.cpp:1330
 #, c-format
