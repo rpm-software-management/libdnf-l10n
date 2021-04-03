@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-24 09:18-0400\n"
-"PO-Revision-Date: 2021-03-25 03:01+0000\n"
+"PO-Revision-Date: 2021-04-04 06:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/ko/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.5.3\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -246,7 +246,7 @@ msgstr "repo_add_repomdxml/rpmmd() 실패하였습니다."
 
 #: libdnf/dnf-sack.cpp:830
 msgid "failed to auto-detect architecture"
-msgstr "아키텍처 자동 검색에 실패했습니다"
+msgstr "구조 자동 검색에 실패했습니다"
 
 #: libdnf/dnf-sack.cpp:955
 #, c-format
@@ -375,7 +375,7 @@ msgstr " distupgrade 저장소에 속하지 않습니다"
 
 #: libdnf/goal/Goal.cpp:68 libdnf/goal/Goal.cpp:95
 msgid " has inferior architecture"
-msgstr " 하위 아키텍처"
+msgstr " 하위 구조"
 
 #: libdnf/goal/Goal.cpp:69
 msgid "problem with installed package "
@@ -422,7 +422,7 @@ msgstr "꾸러미 %s가 모듈식으로 걸러 제거됩니다"
 #: libdnf/goal/Goal.cpp:79
 #, c-format
 msgid "package %s does not have a compatible architecture"
-msgstr "꾸러미 %s에 호환 아키텍처가 없습니다"
+msgstr "꾸러미 %s에 호환 구조가 없습니다"
 
 #: libdnf/goal/Goal.cpp:80
 #, c-format
@@ -500,7 +500,7 @@ msgstr "모듈 %s를 사용할 수 없습니다"
 #: libdnf/goal/Goal.cpp:106
 #, c-format
 msgid "module %s does not have a compatible architecture"
-msgstr "모듈 %s 에 호환되는 아키텍처가 없습니다"
+msgstr "모듈 %s 에 호환되는 구조가 없습니다"
 
 #: libdnf/goal/Goal.cpp:107
 #, c-format
