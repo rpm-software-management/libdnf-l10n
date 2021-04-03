@@ -1,100 +1,100 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Abu Huraira <abuhuraira@tutamail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-24 09:18-0400\n"
-"PO-Revision-Date: 2015-03-23 02:51+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Bengali\n"
+"PO-Revision-Date: 2021-04-04 06:01+0000\n"
+"Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
+"Language-Team: Bengali <https://translate.fedoraproject.org/projects/dnf/"
+"libdnf-master/bn/>\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 4.5.3\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
-msgstr ""
+msgstr "কোনও মান নির্দিষ্ট করা হয়নি"
 
 #: libdnf/conf/ConfigMain.cpp:67 libdnf/conf/OptionSeconds.cpp:48
 #, c-format
 msgid "seconds value '%s' must not be negative"
-msgstr ""
+msgstr "সেকেন্ডের মান '%s' অবশ্যই নেতিবাচক হওয়া উচিত নয়"
 
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
 msgid "could not convert '%s' to bytes"
-msgstr ""
+msgstr "'%s' কে বাইটে রূপান্তর করা যায়নি"
 
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
 msgid "unknown unit '%s'"
-msgstr ""
+msgstr "অজানা ইউনিট '%s'"
 
 #: libdnf/conf/ConfigMain.cpp:329
 #, c-format
 msgid "percentage '%s' is out of range"
-msgstr ""
+msgstr "শতাংশ '%s' সীমার বাইরে"
 
 #: libdnf/conf/OptionBinds.cpp:76
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr ""
+msgstr "কনফিগারেশন: \"%s\" আইডি সহ অপশনবাইন্ডিংয়ের অস্তিত্ব নেই"
 
 #: libdnf/conf/OptionBinds.cpp:88
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr ""
+msgstr "কনফিগারেশন: \"%s\" আইডি সহ অপশনবাইন্ডিং ইতিমধ্যে বিদ্যমান"
 
 #: libdnf/conf/OptionBool.cpp:47
 #, c-format
 msgid "invalid boolean value '%s'"
-msgstr ""
+msgstr "অবৈধ বুলিয়ান মান '%s'"
 
 #: libdnf/conf/OptionEnum.cpp:72 libdnf/conf/OptionEnum.cpp:158
 #: libdnf/conf/OptionString.cpp:59 libdnf/conf/OptionStringList.cpp:59
 #, c-format
 msgid "'%s' is not an allowed value"
-msgstr ""
+msgstr "'%s' একটি অনুমোদিত মান নয়"
 
 #: libdnf/conf/OptionEnum.cpp:83 libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
-msgstr ""
+msgstr "অবৈধ মান"
 
 #: libdnf/conf/OptionNumber.cpp:73
 #, c-format
 msgid "given value [%d] should be less than allowed value [%d]."
-msgstr ""
+msgstr "প্রদত্ত মান [%d] অনুমোদিত মান [%d] এর চেয়ে কম হওয়া উচিত।"
 
 #: libdnf/conf/OptionNumber.cpp:76
 #, c-format
 msgid "given value [%d] should be greater than allowed value [%d]."
-msgstr ""
+msgstr "প্রদত্ত মান [%d] অনুমোদিত মান [%d] এর চেয়ে বেশি হওয়া উচিত।"
 
 #: libdnf/conf/OptionPath.cpp:78
 #, c-format
 msgid "given path '%s' is not absolute."
-msgstr ""
+msgstr "প্রদত্ত পাথ %s নিখুঁত নয়।"
 
 #: libdnf/conf/OptionPath.cpp:82
 #, c-format
 msgid "given path '%s' does not exist."
-msgstr ""
+msgstr "প্রদত্ত পাথ '%s' পাওয়া যায়নি।"
 
 #: libdnf/conf/OptionSeconds.cpp:52
 #, c-format
 msgid "could not convert '%s' to seconds"
-msgstr ""
+msgstr "'%s' টি সেকেন্ডে কনভার্ট করা সম্ভব হয়নি"
 
 #: libdnf/conf/OptionString.cpp:74
 msgid "GetValue(): Value not set"
-msgstr ""
+msgstr "GetValue(): মান সেট করা নেই"
 
 #: libdnf/dnf-goal.cpp:68
 msgid "Could not depsolve transaction; "
