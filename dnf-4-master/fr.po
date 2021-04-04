@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-24 09:18-0400\n"
+"POT-Creation-Date: 2021-04-03 09:18-0400\n"
 "PO-Revision-Date: 2021-01-28 12:40+0000\n"
 "Last-Translator: Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
@@ -465,7 +465,7 @@ msgstr ""
 "La transaction n’a pas pu opérer en phase d’écriture, mais a renvoyé « no "
 "error(%i) »"
 
-#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:399
+#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:403
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
 msgstr "impossible d’ouvrir le dossier %1$s : %2$s"
@@ -713,22 +713,22 @@ msgid ""
 msgstr ""
 "L’opération résulterait en la suppression des packages protégés suivants : "
 
-#: libdnf/hy-iutil.cpp:322
+#: libdnf/hy-iutil.cpp:326
 #, c-format
 msgid "Failed renaming %1$s to %2$s: %3$s"
 msgstr "N’a pas pu renommer %1$s en %2$s : %3$s"
 
-#: libdnf/hy-iutil.cpp:330
+#: libdnf/hy-iutil.cpp:334
 #, c-format
 msgid "Failed setting perms on %1$s: %2$s"
 msgstr "N’a pas pu définir les permissions sur %1$s : %2$s"
 
-#: libdnf/hy-iutil.cpp:376
+#: libdnf/hy-iutil.cpp:380
 #, c-format
 msgid "cannot create directory %1$s: %2$s"
 msgstr "impossible de créer le dossier %1$s : %2$s"
 
-#: libdnf/hy-iutil.cpp:411
+#: libdnf/hy-iutil.cpp:415
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
 msgstr "impossible de stat le chemin %1$s : %2$s"
