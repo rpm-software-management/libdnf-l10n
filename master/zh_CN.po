@@ -1,12 +1,13 @@
 # Charles Lee <lchopn@gmail.com>, 2017. #zanata, 2020.
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Qiyu Yan <yanqiyu01@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-03 09:18-0400\n"
-"PO-Revision-Date: 2020-10-08 21:32+0000\n"
-"Last-Translator: Charles Lee <lchopn@gmail.com>\n"
+"PO-Revision-Date: 2021-04-06 08:39+0000\n"
+"Last-Translator: Qiyu Yan <yanqiyu01@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -14,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.5.3\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -177,7 +178,7 @@ msgstr "无法添加删除元素 %1$s(%2$i)"
 #: libdnf/dnf-sack.cpp:417
 #, c-format
 msgid "no %1$s string for %2$s"
-msgstr ""
+msgstr "没有为 %2$s 的 %1$s 字符串"
 
 #: libdnf/dnf-sack.cpp:440
 msgid "failed to add solv"
@@ -232,7 +233,7 @@ msgstr "repo_add_solv() 已失败。"
 
 #: libdnf/dnf-sack.cpp:750
 msgid "loading of MD_TYPE_PRIMARY has failed."
-msgstr ""
+msgstr "加载 MD_TYPE_PRIMARY 失败。"
 
 #: libdnf/dnf-sack.cpp:763
 msgid "repo_add_repomdxml/rpmmd() has failed."
@@ -257,7 +258,7 @@ msgstr "无法加载 RPMDB"
 
 #: libdnf/dnf-sack.cpp:2466
 msgid "No module defaults found"
-msgstr ""
+msgstr "没有找到模块默认设置：%s"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
@@ -365,23 +366,23 @@ msgstr "这个操作使用了 Ill-formed Selector，不正确的比较类型"
 
 #: libdnf/goal/Goal.cpp:67 libdnf/goal/Goal.cpp:94
 msgid " does not belong to a distupgrade repository"
-msgstr ""
+msgstr " 不属于 distupgrade 仓库"
 
 #: libdnf/goal/Goal.cpp:68 libdnf/goal/Goal.cpp:95
 msgid " has inferior architecture"
-msgstr ""
+msgstr " 有 inferior 架构"
 
 #: libdnf/goal/Goal.cpp:69
 msgid "problem with installed package "
-msgstr ""
+msgstr "安装的软件包的问题 "
 
 #: libdnf/goal/Goal.cpp:70 libdnf/goal/Goal.cpp:97
 msgid "conflicting requests"
-msgstr ""
+msgstr "冲突的请求"
 
 #: libdnf/goal/Goal.cpp:71 libdnf/goal/Goal.cpp:98
 msgid "unsupported request"
-msgstr ""
+msgstr "不支持的请求"
 
 #: libdnf/goal/Goal.cpp:72 libdnf/goal/Goal.cpp:99
 msgid "nothing provides requested "
