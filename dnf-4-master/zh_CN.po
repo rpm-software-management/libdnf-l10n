@@ -1,12 +1,13 @@
 # Charles Lee <lchopn@gmail.com>, 2017. #zanata, 2020.
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Qiyu Yan <yanqiyu01@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-03 09:18-0400\n"
-"PO-Revision-Date: 2020-10-08 21:32+0000\n"
-"Last-Translator: Charles Lee <lchopn@gmail.com>\n"
+"PO-Revision-Date: 2021-04-06 08:39+0000\n"
+"Last-Translator: Qiyu Yan <yanqiyu01@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -14,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.5.3\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -97,18 +98,18 @@ msgstr "GetValue(): 值没有设置"
 #: libdnf/dnf-context.cpp:3097 libdnf/dnf-context.cpp:3106
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
-msgstr ""
+msgstr "无法同时从模块 '%s' 中启用更多流"
 
 #: libdnf/dnf-context.cpp:3115 libdnf/dnf-context.cpp:3133
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
-msgstr ""
+msgstr "无法启用模块 '%1$s' 流 '%2$s'：已经修改的模块状态"
 
 #: libdnf/dnf-context.cpp:3180
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
-msgstr ""
+msgstr "默认设置的模块依赖性问题：%s"
 
 #: libdnf/dnf-context.cpp:3183
 #, fuzzy, c-format
@@ -134,17 +135,17 @@ msgstr "无法解析: %s"
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
-msgstr ""
+msgstr "只需要模块名。忽略参数 '%s' 中的无用信息"
 
 #: libdnf/dnf-context.cpp:3242
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
-msgstr ""
+msgstr "无法重置模块 '%s':已修改的模块状态"
 
 #: libdnf/dnf-context.cpp:3253
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
-msgstr ""
+msgstr "无法禁用模块 '%s':已经修改的模块状态"
 
 #: libdnf/dnf-context.cpp:3284 libdnf/dnf-context.cpp:3375
 msgid "No modular data available"
@@ -276,7 +277,7 @@ msgstr "添加 solv 失败"
 #: libdnf/dnf-sack.cpp:414
 #, c-format
 msgid "no %1$s string for %2$s"
-msgstr ""
+msgstr "没有为 %2$s 的 %1$s 字符串"
 
 #: libdnf/dnf-sack.cpp:424
 #, c-format
@@ -327,7 +328,7 @@ msgstr "repo_add_solv() 已失败。"
 
 #: libdnf/dnf-sack.cpp:716
 msgid "loading of MD_TYPE_PRIMARY has failed."
-msgstr ""
+msgstr "加载 MD_TYPE_PRIMARY 失败。"
 
 #: libdnf/dnf-sack.cpp:729
 msgid "repo_add_repomdxml/rpmmd() has failed."
@@ -457,23 +458,23 @@ msgstr "这个操作使用了 Ill-formed Selector，不正确的比较类型"
 
 #: libdnf/goal/Goal.cpp:90 libdnf/goal/Goal.cpp:117
 msgid " does not belong to a distupgrade repository"
-msgstr ""
+msgstr " 不属于 distupgrade 仓库"
 
 #: libdnf/goal/Goal.cpp:91 libdnf/goal/Goal.cpp:118
 msgid " has inferior architecture"
-msgstr ""
+msgstr " 有 inferior 架构"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
-msgstr ""
+msgstr "安装的软件包的问题 "
 
 #: libdnf/goal/Goal.cpp:93 libdnf/goal/Goal.cpp:120
 msgid "conflicting requests"
-msgstr ""
+msgstr "冲突的请求"
 
 #: libdnf/goal/Goal.cpp:94 libdnf/goal/Goal.cpp:121
 msgid "unsupported request"
-msgstr ""
+msgstr "不支持的请求"
 
 #: libdnf/goal/Goal.cpp:95 libdnf/goal/Goal.cpp:122
 msgid "nothing provides requested "
