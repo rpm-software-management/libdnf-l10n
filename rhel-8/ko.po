@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 09:52+0100\n"
-"PO-Revision-Date: 2021-04-04 06:01+0000\n"
+"PO-Revision-Date: 2021-04-06 08:39+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-8/ko/>\n"
@@ -826,7 +826,7 @@ msgstr "플러그인 파일 적재중=\"%s\""
 #: libdnf/plugin/plugin.cpp:89
 #, c-format
 msgid "Loaded plugin name=\"%s\", version=\"%s\""
-msgstr "적재된 플러그인 이름=\"%s\", 버전=\"%s\""
+msgstr "적재된 플러그인 이름=\"%s\", 상태번호=\"%s\""
 
 #: libdnf/plugin/plugin.cpp:96
 msgid "Plugins::loadPlugins() dirPath cannot be empty"
@@ -849,7 +849,7 @@ msgid ""
 "operator instead."
 msgstr ""
 "reldeps에 '=='연산자를 사용하면 정의되지 않은 동작이 발생할 수 있습니다. 이 연산자는 더 이상 사용되지 않으며, 향후 "
-"버전에서는 지원이 중단됩니다. 대신 '=' 연산자를 사용하세요."
+"상태번호에서는 지원이 중단됩니다. 대신 '=' 연산자를 사용하세요."
 
 #: libdnf/repo/Repo.cpp:321
 #, c-format
