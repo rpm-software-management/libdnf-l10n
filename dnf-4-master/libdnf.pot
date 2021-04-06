@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-05 09:18-0400\n"
+"POT-Creation-Date: 2021-04-06 09:18-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,20 @@ msgstr ""
 msgid "unknown unit '%s'"
 msgstr ""
 
-#: libdnf/conf/ConfigMain.cpp:335
+#: libdnf/conf/ConfigMain.cpp:204 libdnf/conf/OptionEnum.cpp:83
+#: libdnf/conf/OptionNumber.cpp:88
+msgid "invalid value"
+msgstr ""
+
+#: libdnf/conf/ConfigMain.cpp:207
+msgid "value 1 is not allowed"
+msgstr ""
+
+#: libdnf/conf/ConfigMain.cpp:209
+msgid "negative value is not allowed"
+msgstr ""
+
+#: libdnf/conf/ConfigMain.cpp:341
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr ""
@@ -61,10 +74,6 @@ msgstr ""
 #: libdnf/conf/OptionString.cpp:64 libdnf/conf/OptionStringList.cpp:59
 #, c-format
 msgid "'%s' is not an allowed value"
-msgstr ""
-
-#: libdnf/conf/OptionEnum.cpp:83 libdnf/conf/OptionNumber.cpp:88
-msgid "invalid value"
 msgstr ""
 
 #: libdnf/conf/OptionNumber.cpp:73
