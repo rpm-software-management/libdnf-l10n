@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-05 09:18-0400\n"
-"PO-Revision-Date: 2021-04-06 08:39+0000\n"
+"PO-Revision-Date: 2021-04-13 07:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/ko/>\n"
@@ -705,7 +705,7 @@ msgstr "플러그인 파일 적재중=\"%s\""
 #: libdnf/plugin/plugin.cpp:89
 #, c-format
 msgid "Loaded plugin name=\"%s\", version=\"%s\""
-msgstr "적재된 플러그인 이름=\"%s\", 상태번호=\"%s\""
+msgstr "적재된 플러그인 이름=\"%s\", 버전=\"%s\""
 
 #: libdnf/plugin/plugin.cpp:96
 msgid "Plugins::loadPlugins() dirPath cannot be empty"
@@ -910,7 +910,7 @@ msgstr "변형 : persist dir 기록을 열 수 없습니다"
 
 #: libdnf/transaction/Transformer.cpp:672
 msgid "Couldn't find a history database"
-msgstr "기록 자료저장소를 찾을 수 없습니다"
+msgstr "기록 데이타베이스를 찾을 수 없습니다"
 
 #: libdnf/transaction/private/Transaction.cpp:41
 msgid "Transaction has already began!"
