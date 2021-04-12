@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-22 09:52+0100\n"
-"PO-Revision-Date: 2021-04-06 08:39+0000\n"
+"PO-Revision-Date: 2021-04-13 07:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-8/ko/>\n"
@@ -826,7 +826,7 @@ msgstr "플러그인 파일 적재중=\"%s\""
 #: libdnf/plugin/plugin.cpp:89
 #, c-format
 msgid "Loaded plugin name=\"%s\", version=\"%s\""
-msgstr "적재된 플러그인 이름=\"%s\", 상태번호=\"%s\""
+msgstr "적재된 플러그인 이름=\"%s\", 버전=\"%s\""
 
 #: libdnf/plugin/plugin.cpp:96
 msgid "Plugins::loadPlugins() dirPath cannot be empty"
@@ -849,7 +849,7 @@ msgid ""
 "operator instead."
 msgstr ""
 "reldeps에 '=='연산자를 사용하면 정의되지 않은 동작이 발생할 수 있습니다. 이 연산자는 더 이상 사용되지 않으며, 향후 "
-"상태번호에서는 지원이 중단됩니다. 대신 '=' 연산자를 사용하세요."
+"버전에서는 지원이 중단됩니다. 대신 '=' 연산자를 사용하세요."
 
 #: libdnf/repo/Repo.cpp:321
 #, c-format
@@ -1044,7 +1044,7 @@ msgstr "완료된 연결에서 연결 항목 최신화를 시도합니다"
 
 #: libdnf/transaction/Transformer.cpp:76
 msgid "Database Corrupted: no row 'version' in table 'config'"
-msgstr "자료저장소가 오염되었습니다: 테이블 'config'에 'version'행이 없습니다"
+msgstr "데이타베이스가 오염되었습니다: 테이블 'config'에 'version' 행이 없습니다"
 
 #: libdnf/transaction/Transformer.cpp:681
 msgid "Transformer: can't open history persist dir"
@@ -1052,7 +1052,7 @@ msgstr "변형 : persist dir 기록을 열 수 없습니다"
 
 #: libdnf/transaction/Transformer.cpp:694
 msgid "Couldn't find a history database"
-msgstr "기록 자료저장소를 찾을 수 없습니다"
+msgstr "기록 데이타베이스를 찾을 수 없습니다"
 
 #: libdnf/transaction/private/Transaction.cpp:41
 msgid "Transaction has already began!"
