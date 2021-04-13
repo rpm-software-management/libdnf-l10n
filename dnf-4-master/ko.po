@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-05 09:18-0400\n"
+"POT-Creation-Date: 2021-04-12 09:18-0400\n"
 "PO-Revision-Date: 2021-04-13 07:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
@@ -38,7 +38,22 @@ msgstr "변환 할 수 없습니다 '%s'~ 바이트"
 msgid "unknown unit '%s'"
 msgstr "알 수없는 단위 '%s'"
 
-#: libdnf/conf/ConfigMain.cpp:335
+#: libdnf/conf/ConfigMain.cpp:204 libdnf/conf/OptionEnum.cpp:83
+#: libdnf/conf/OptionNumber.cpp:88
+msgid "invalid value"
+msgstr "잘못된 값"
+
+#: libdnf/conf/ConfigMain.cpp:207
+#, fuzzy
+#| msgid "'%s' is not an allowed value"
+msgid "value 1 is not allowed"
+msgstr "'%s'는 허용 된 값이 아닙니다"
+
+#: libdnf/conf/ConfigMain.cpp:209
+msgid "negative value is not allowed"
+msgstr ""
+
+#: libdnf/conf/ConfigMain.cpp:341
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "백분율 '%s' 범위를 벗어났습니다"
@@ -63,10 +78,6 @@ msgstr "유효하지 않은 부울 값 '%s'"
 #, c-format
 msgid "'%s' is not an allowed value"
 msgstr "'%s'는 허용 된 값이 아닙니다"
-
-#: libdnf/conf/OptionEnum.cpp:83 libdnf/conf/OptionNumber.cpp:88
-msgid "invalid value"
-msgstr "잘못된 값"
 
 #: libdnf/conf/OptionNumber.cpp:73
 #, c-format
@@ -876,8 +887,9 @@ msgid ""
 "deprecated and the support will be dropped in future versions. Use '=' "
 "operator instead."
 msgstr ""
-"reldeps에 '=='연산자를 사용하면 정의되지 않은 동작이 발생할 수 있습니다. 이 연산자는 더 이상 사용되지 않으며, 향후 "
-"버전에서는 지원이 중단됩니다. 대신 '=' 연산자를 사용하세요."
+"reldeps에 '=='연산자를 사용하면 정의되지 않은 동작이 발생할 수 있습니다. 이 "
+"연산자는 더 이상 사용되지 않으며, 향후 버전에서는 지원이 중단됩니다. 대신 "
+"'=' 연산자를 사용하세요."
 
 #: libdnf/repo/Repo.cpp:321
 #, c-format
@@ -889,8 +901,8 @@ msgstr "저장소 %s 는 연결주소 또는 baseurl 구성을 갖고 있지 않
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr "저장소 '%s'는 지원하지 않는 유형: 'type=%s'이며, 건너뜁니다."
 
-#: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:609 libdnf/repo/Repo.cpp:640
-#: libdnf/repo/Repo.cpp:1381
+#: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:610 libdnf/repo/Repo.cpp:641
+#: libdnf/repo/Repo.cpp:1382
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr "repo '%s': 'basecachedir가 구성되어 있지 않습니다"
@@ -913,140 +925,140 @@ msgstr ""
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr "'proxy_username' 이 구성되어 있지만 'proxy_password'가 없습니다"
 
-#: libdnf/repo/Repo.cpp:628
+#: libdnf/repo/Repo.cpp:629
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr "repo: %s 를 위해 유효한 baseurl을 찾을 수 없습니다"
 
-#: libdnf/repo/Repo.cpp:659 libdnf/repo/Repo.cpp:681
+#: libdnf/repo/Repo.cpp:660 libdnf/repo/Repo.cpp:682
 #, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
 msgstr "%s: gpgme_data_new_from_fd(): %s"
 
-#: libdnf/repo/Repo.cpp:667 libdnf/repo/Repo.cpp:689
+#: libdnf/repo/Repo.cpp:668 libdnf/repo/Repo.cpp:690
 #, c-format
 msgid "%s: gpgme_op_import(): %s"
 msgstr "%s: gpgme_op_import(): %s"
 
-#: libdnf/repo/Repo.cpp:712 libdnf/repo/Repo.cpp:778 libdnf/repo/Repo.cpp:906
+#: libdnf/repo/Repo.cpp:713 libdnf/repo/Repo.cpp:779 libdnf/repo/Repo.cpp:907
 #, c-format
 msgid "%s: gpgme_ctx_set_engine_info(): %s"
 msgstr "%s: gpgme_ctx_set_engine_info(): %s"
 
-#: libdnf/repo/Repo.cpp:739 libdnf/repo/Repo.cpp:803
+#: libdnf/repo/Repo.cpp:740 libdnf/repo/Repo.cpp:804
 #, c-format
 msgid "can not list keys: %s"
 msgstr "열쇠를 나열 할 수 없습니다 : %s"
 
-#: libdnf/repo/Repo.cpp:832
+#: libdnf/repo/Repo.cpp:833
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr "repo '%s': %sf 를 위해 GPG key 가져오기에 실패하였습니다"
 
-#: libdnf/repo/Repo.cpp:885
+#: libdnf/repo/Repo.cpp:886
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr "repo %s: 0x%s를 이미 가져왔습니다"
 
-#: libdnf/repo/Repo.cpp:913
+#: libdnf/repo/Repo.cpp:914
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr "repo %s: 0x%s 키를 가져왔습니다."
 
-#: libdnf/repo/Repo.cpp:1161
+#: libdnf/repo/Repo.cpp:1162
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "부활 : repo '%s'건너 뛰었습니다."
 
-#: libdnf/repo/Repo.cpp:1180
+#: libdnf/repo/Repo.cpp:1181
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr "부활 : repo '%s'건너 뛰었습니다. 사용 가능한 해시가 없습니다."
 
-#: libdnf/repo/Repo.cpp:1203
+#: libdnf/repo/Repo.cpp:1204
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "되살리기 : 실패한 '%s', 불일치 %s 합집합."
 
-#: libdnf/repo/Repo.cpp:1209
+#: libdnf/repo/Repo.cpp:1210
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr "되살아 난다 : '%s'부활 할 수 있습니다 - metalink 체크섬이 일치합니다."
 
-#: libdnf/repo/Repo.cpp:1234
+#: libdnf/repo/Repo.cpp:1235
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "되살아 난다 : '%s'부활 할 수 있습니다 - repomd가 일치합니다."
 
-#: libdnf/repo/Repo.cpp:1236
+#: libdnf/repo/Repo.cpp:1237
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "되살리기 : 실패한 '%s', 일치하지 않는 repomd."
 
-#: libdnf/repo/Repo.cpp:1254
+#: libdnf/repo/Repo.cpp:1255
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr "repo 목적지 디렉토리 \"%s\": %s 를 생성 할 수 없습니다"
 
-#: libdnf/repo/Repo.cpp:1260
+#: libdnf/repo/Repo.cpp:1261
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "임시 저장소 디렉토리를 만들 수 없습니다 \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1274
+#: libdnf/repo/Repo.cpp:1275
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "디렉토리를 만들 수 없습니다 \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1297
+#: libdnf/repo/Repo.cpp:1298
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "디렉터리 이름을 바꿀 수 없습니다 \"%s\"~\"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1320
+#: libdnf/repo/Repo.cpp:1321
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "repo : 캐시 사용 : %s"
 
-#: libdnf/repo/Repo.cpp:1332
+#: libdnf/repo/Repo.cpp:1333
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "캐시 만 사용 가능하지만 '%s'"
 
-#: libdnf/repo/Repo.cpp:1336
+#: libdnf/repo/Repo.cpp:1337
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "repo : 원격에서 내려받기 중 : %s"
 
-#: libdnf/repo/Repo.cpp:1343
+#: libdnf/repo/Repo.cpp:1344
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr "repo '%s': %s 를 위해 메타데이타 내려받기에 실패하였습니다"
 
-#: libdnf/repo/Repo.cpp:1369
+#: libdnf/repo/Repo.cpp:1370
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir () : SHA256 계산에 실패했습니다"
 
-#: libdnf/repo/Repo.cpp:1397
+#: libdnf/repo/Repo.cpp:1398
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr "persistdir \"%s\": %s 를 생성 할 수 없습니다"
 
-#: libdnf/repo/Repo.cpp:1774
+#: libdnf/repo/Repo.cpp:1775
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr "이력서는 byterangestart 매개 변수와 동시에 사용 할 수 없습니다"
 
-#: libdnf/repo/Repo.cpp:1791
+#: libdnf/repo/Repo.cpp:1792
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "PackageTarget 초기화에 실패했습니다 : %s"
 
-#: libdnf/repo/Repo.cpp:1897
+#: libdnf/repo/Repo.cpp:1898
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "열 수 없다 %s: %s"
 
-#: libdnf/repo/Repo.cpp:1941
+#: libdnf/repo/Repo.cpp:1942
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "ID가 있는 로그 처리기 %ld 존재하지 않는다"
@@ -1075,7 +1087,8 @@ msgstr "완료된 연결에서 연결 항목 최신화를 시도합니다"
 
 #: libdnf/transaction/Transformer.cpp:76
 msgid "Database Corrupted: no row 'version' in table 'config'"
-msgstr "데이타베이스가 오염되었습니다: 테이블 'config'에 'version' 행이 없습니다"
+msgstr ""
+"데이타베이스가 오염되었습니다: 테이블 'config'에 'version' 행이 없습니다"
 
 #: libdnf/transaction/Transformer.cpp:681
 msgid "Transformer: can't open history persist dir"

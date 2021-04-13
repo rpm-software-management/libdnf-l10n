@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-05 09:18-0400\n"
+"POT-Creation-Date: 2021-04-12 09:18-0400\n"
 "PO-Revision-Date: 2020-08-28 12:29+0000\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -37,7 +37,22 @@ msgstr "無法將「%s」轉換成位元組"
 msgid "unknown unit '%s'"
 msgstr "未知的單位「%s」"
 
-#: libdnf/conf/ConfigMain.cpp:335
+#: libdnf/conf/ConfigMain.cpp:204 libdnf/conf/OptionEnum.cpp:83
+#: libdnf/conf/OptionNumber.cpp:88
+msgid "invalid value"
+msgstr "值無效"
+
+#: libdnf/conf/ConfigMain.cpp:207
+#, fuzzy
+#| msgid "'%s' is not an allowed value"
+msgid "value 1 is not allowed"
+msgstr "「%s」不是允許的值"
+
+#: libdnf/conf/ConfigMain.cpp:209
+msgid "negative value is not allowed"
+msgstr ""
+
+#: libdnf/conf/ConfigMain.cpp:341
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "「%s」百分比超出範圍"
@@ -62,10 +77,6 @@ msgstr "無效的布林值「%s」"
 #, c-format
 msgid "'%s' is not an allowed value"
 msgstr "「%s」不是允許的值"
-
-#: libdnf/conf/OptionEnum.cpp:83 libdnf/conf/OptionNumber.cpp:88
-msgid "invalid value"
-msgstr "值無效"
 
 #: libdnf/conf/OptionNumber.cpp:73
 #, c-format
@@ -879,8 +890,8 @@ msgstr "%s 軟體庫沒有設定鏡像站或基礎 URL。"
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr "「%s」軟體庫有不支援的類型：「類型=%s」，跳過。"
 
-#: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:609 libdnf/repo/Repo.cpp:640
-#: libdnf/repo/Repo.cpp:1381
+#: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:610 libdnf/repo/Repo.cpp:641
+#: libdnf/repo/Repo.cpp:1382
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr ""
@@ -900,140 +911,140 @@ msgstr ""
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:628
+#: libdnf/repo/Repo.cpp:629
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr "找不到軟體庫的有效基礎 URL：%s"
 
-#: libdnf/repo/Repo.cpp:659 libdnf/repo/Repo.cpp:681
+#: libdnf/repo/Repo.cpp:660 libdnf/repo/Repo.cpp:682
 #, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
 msgstr "%s: gpgme_data_new_from_fd(): %s"
 
-#: libdnf/repo/Repo.cpp:667 libdnf/repo/Repo.cpp:689
+#: libdnf/repo/Repo.cpp:668 libdnf/repo/Repo.cpp:690
 #, c-format
 msgid "%s: gpgme_op_import(): %s"
 msgstr "%s: gpgme_op_import(): %s"
 
-#: libdnf/repo/Repo.cpp:712 libdnf/repo/Repo.cpp:778 libdnf/repo/Repo.cpp:906
+#: libdnf/repo/Repo.cpp:713 libdnf/repo/Repo.cpp:779 libdnf/repo/Repo.cpp:907
 #, c-format
 msgid "%s: gpgme_ctx_set_engine_info(): %s"
 msgstr "%s: gpgme_ctx_set_engine_info(): %s"
 
-#: libdnf/repo/Repo.cpp:739 libdnf/repo/Repo.cpp:803
+#: libdnf/repo/Repo.cpp:740 libdnf/repo/Repo.cpp:804
 #, c-format
 msgid "can not list keys: %s"
 msgstr "無法列舉設定鍵：%s"
 
-#: libdnf/repo/Repo.cpp:832
+#: libdnf/repo/Repo.cpp:833
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr "無法取出「%s」軟體庫的 GPG 金鑰：%s"
 
-#: libdnf/repo/Repo.cpp:885
+#: libdnf/repo/Repo.cpp:886
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr "%s 軟體庫：0x%s 早已匯入"
 
-#: libdnf/repo/Repo.cpp:913
+#: libdnf/repo/Repo.cpp:914
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr "%s 軟體庫：已匯入 0x%s 金鑰。"
 
-#: libdnf/repo/Repo.cpp:1161
+#: libdnf/repo/Repo.cpp:1162
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "reviving：跳過「%s」軟體庫，沒有 metalink。"
 
-#: libdnf/repo/Repo.cpp:1180
+#: libdnf/repo/Repo.cpp:1181
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr "reviving：跳過「%s」軟體庫，沒有可用的雜湊值。"
 
-#: libdnf/repo/Repo.cpp:1203
+#: libdnf/repo/Repo.cpp:1204
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "reviving：「%s」失敗，%s 總和不符。"
 
-#: libdnf/repo/Repo.cpp:1209
+#: libdnf/repo/Repo.cpp:1210
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr "reviving：可以重生 (revive)「%s」- metalink 總和檢查碼符合。"
 
-#: libdnf/repo/Repo.cpp:1234
+#: libdnf/repo/Repo.cpp:1235
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "reviving：可以重生 (revive)「%s」- repomd 符合。"
 
-#: libdnf/repo/Repo.cpp:1236
+#: libdnf/repo/Repo.cpp:1237
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "reviving：「%s」失敗，repomd 不符。"
 
-#: libdnf/repo/Repo.cpp:1254
+#: libdnf/repo/Repo.cpp:1255
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr "無法建立軟體庫的目的地目錄「%s」：%s"
 
-#: libdnf/repo/Repo.cpp:1260
+#: libdnf/repo/Repo.cpp:1261
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "無法建立軟體庫的暫存目錄「%s」：%s"
 
-#: libdnf/repo/Repo.cpp:1274
+#: libdnf/repo/Repo.cpp:1275
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "無法建立「%s」目錄：%s"
 
-#: libdnf/repo/Repo.cpp:1297
+#: libdnf/repo/Repo.cpp:1298
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "無法將「%s」目錄重新命名至「%s」：%s"
 
-#: libdnf/repo/Repo.cpp:1320
+#: libdnf/repo/Repo.cpp:1321
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "repo：使用下述的快取：%s"
 
-#: libdnf/repo/Repo.cpp:1332
+#: libdnf/repo/Repo.cpp:1333
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "啟用了「只使用快取」，但是沒有「%s」的快取。"
 
-#: libdnf/repo/Repo.cpp:1336
+#: libdnf/repo/Repo.cpp:1337
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "repo：從遠端下載：%s"
 
-#: libdnf/repo/Repo.cpp:1343
+#: libdnf/repo/Repo.cpp:1344
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr "無法下載「%s」軟體庫的中介資料：%s"
 
-#: libdnf/repo/Repo.cpp:1369
+#: libdnf/repo/Repo.cpp:1370
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir(): 計算 SHA256 失敗"
 
-#: libdnf/repo/Repo.cpp:1397
+#: libdnf/repo/Repo.cpp:1398
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr "無法建立「%s」persistdir：%s"
 
-#: libdnf/repo/Repo.cpp:1774
+#: libdnf/repo/Repo.cpp:1775
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr "resume 不可與 byterangestart 參數同時使用"
 
-#: libdnf/repo/Repo.cpp:1791
+#: libdnf/repo/Repo.cpp:1792
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "PackageTarget 初始化失敗：%s"
 
-#: libdnf/repo/Repo.cpp:1897
+#: libdnf/repo/Repo.cpp:1898
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "無法開啟 %s：%s"
 
-#: libdnf/repo/Repo.cpp:1941
+#: libdnf/repo/Repo.cpp:1942
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "有 ID %ld 的記錄處理器不存在"

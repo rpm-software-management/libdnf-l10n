@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-05 09:18-0400\n"
+"POT-Creation-Date: 2021-04-12 09:18-0400\n"
 "PO-Revision-Date: 2021-04-04 06:01+0000\n"
 "Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
 "Language-Team: Bengali <https://translate.fedoraproject.org/projects/dnf/"
@@ -37,7 +37,22 @@ msgstr "'%s' কে বাইটে রূপান্তর করা যায়
 msgid "unknown unit '%s'"
 msgstr "অজানা ইউনিট '%s'"
 
-#: libdnf/conf/ConfigMain.cpp:335
+#: libdnf/conf/ConfigMain.cpp:204 libdnf/conf/OptionEnum.cpp:83
+#: libdnf/conf/OptionNumber.cpp:88
+msgid "invalid value"
+msgstr "অবৈধ মান"
+
+#: libdnf/conf/ConfigMain.cpp:207
+#, fuzzy
+#| msgid "'%s' is not an allowed value"
+msgid "value 1 is not allowed"
+msgstr "'%s' একটি অনুমোদিত মান নয়"
+
+#: libdnf/conf/ConfigMain.cpp:209
+msgid "negative value is not allowed"
+msgstr ""
+
+#: libdnf/conf/ConfigMain.cpp:341
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "শতাংশ '%s' সীমার বাইরে"
@@ -62,10 +77,6 @@ msgstr "অবৈধ বুলিয়ান মান '%s'"
 #, c-format
 msgid "'%s' is not an allowed value"
 msgstr "'%s' একটি অনুমোদিত মান নয়"
-
-#: libdnf/conf/OptionEnum.cpp:83 libdnf/conf/OptionNumber.cpp:88
-msgid "invalid value"
-msgstr "অবৈধ মান"
 
 #: libdnf/conf/OptionNumber.cpp:73
 #, c-format
@@ -873,8 +884,8 @@ msgstr ""
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:609 libdnf/repo/Repo.cpp:640
-#: libdnf/repo/Repo.cpp:1381
+#: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:610 libdnf/repo/Repo.cpp:641
+#: libdnf/repo/Repo.cpp:1382
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr ""
@@ -894,140 +905,140 @@ msgstr ""
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:628
+#: libdnf/repo/Repo.cpp:629
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:659 libdnf/repo/Repo.cpp:681
+#: libdnf/repo/Repo.cpp:660 libdnf/repo/Repo.cpp:682
 #, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:667 libdnf/repo/Repo.cpp:689
+#: libdnf/repo/Repo.cpp:668 libdnf/repo/Repo.cpp:690
 #, c-format
 msgid "%s: gpgme_op_import(): %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:712 libdnf/repo/Repo.cpp:778 libdnf/repo/Repo.cpp:906
+#: libdnf/repo/Repo.cpp:713 libdnf/repo/Repo.cpp:779 libdnf/repo/Repo.cpp:907
 #, c-format
 msgid "%s: gpgme_ctx_set_engine_info(): %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:739 libdnf/repo/Repo.cpp:803
+#: libdnf/repo/Repo.cpp:740 libdnf/repo/Repo.cpp:804
 #, c-format
 msgid "can not list keys: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:832
+#: libdnf/repo/Repo.cpp:833
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:885
+#: libdnf/repo/Repo.cpp:886
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:913
+#: libdnf/repo/Repo.cpp:914
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1161
+#: libdnf/repo/Repo.cpp:1162
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1180
+#: libdnf/repo/Repo.cpp:1181
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1203
+#: libdnf/repo/Repo.cpp:1204
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1209
+#: libdnf/repo/Repo.cpp:1210
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1234
+#: libdnf/repo/Repo.cpp:1235
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1236
+#: libdnf/repo/Repo.cpp:1237
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1254
+#: libdnf/repo/Repo.cpp:1255
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1260
+#: libdnf/repo/Repo.cpp:1261
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1274
+#: libdnf/repo/Repo.cpp:1275
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1297
+#: libdnf/repo/Repo.cpp:1298
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1320
+#: libdnf/repo/Repo.cpp:1321
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1332
+#: libdnf/repo/Repo.cpp:1333
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1336
+#: libdnf/repo/Repo.cpp:1337
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1343
+#: libdnf/repo/Repo.cpp:1344
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1369
+#: libdnf/repo/Repo.cpp:1370
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1397
+#: libdnf/repo/Repo.cpp:1398
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1774
+#: libdnf/repo/Repo.cpp:1775
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1791
+#: libdnf/repo/Repo.cpp:1792
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1897
+#: libdnf/repo/Repo.cpp:1898
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1941
+#: libdnf/repo/Repo.cpp:1942
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr ""
