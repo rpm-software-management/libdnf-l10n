@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-12 09:18-0400\n"
-"PO-Revision-Date: 2021-04-13 07:01+0000\n"
+"PO-Revision-Date: 2021-04-13 14:39+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ko/>\n"
@@ -44,14 +44,12 @@ msgid "invalid value"
 msgstr "잘못된 값"
 
 #: libdnf/conf/ConfigMain.cpp:207
-#, fuzzy
-#| msgid "'%s' is not an allowed value"
 msgid "value 1 is not allowed"
-msgstr "'%s'는 허용 된 값이 아닙니다"
+msgstr "값 1은 허용하지 않습니다"
 
 #: libdnf/conf/ConfigMain.cpp:209
 msgid "negative value is not allowed"
-msgstr ""
+msgstr "음수 값은 허용하지 않습니다"
 
 #: libdnf/conf/ConfigMain.cpp:341
 #, c-format
