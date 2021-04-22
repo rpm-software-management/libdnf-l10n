@@ -1,4 +1,4 @@
-# Charles Lee <lchopn@gmail.com>, 2017. #zanata, 2020.
+# Charles Lee <lchopn@gmail.com>, 2017. #zanata, 2020, 2021.
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Qiyu Yan <yanqiyu01@gmail.com>, 2021.
 msgid ""
@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-18 09:18-0400\n"
-"PO-Revision-Date: 2021-04-06 08:39+0000\n"
-"Last-Translator: Qiyu Yan <yanqiyu01@gmail.com>\n"
+"PO-Revision-Date: 2021-04-23 08:02+0000\n"
+"Last-Translator: Charles Lee <lchopn@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 4.6\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -489,16 +489,16 @@ msgstr "不支持的请求"
 
 #: libdnf/goal/Goal.cpp:95 libdnf/goal/Goal.cpp:122
 msgid "nothing provides requested "
-msgstr ""
+msgstr "没有东西可以提供所请求的 "
 
 #: libdnf/goal/Goal.cpp:96
 #, c-format
 msgid "package %s does not exist"
-msgstr ""
+msgstr "软件包 %s 不存在"
 
 #: libdnf/goal/Goal.cpp:97 libdnf/goal/Goal.cpp:124
 msgid " is provided by the system"
-msgstr ""
+msgstr " 由系统提供"
 
 #: libdnf/goal/Goal.cpp:98 libdnf/goal/Goal.cpp:125
 msgid "some dependency problem"
@@ -506,21 +506,21 @@ msgstr "一些依赖问题"
 
 #: libdnf/goal/Goal.cpp:99
 msgid "cannot install the best update candidate for package "
-msgstr ""
+msgstr "无法为软件包安装最佳更新候选 "
 
 #: libdnf/goal/Goal.cpp:100 libdnf/goal/Goal.cpp:127
 msgid "cannot install the best candidate for the job"
-msgstr ""
+msgstr "无法为该任务安装最佳候选"
 
 #: libdnf/goal/Goal.cpp:101
 #, c-format
 msgid "package %s is filtered out by modular filtering"
-msgstr ""
+msgstr "软件包 %s 被模块过滤过滤掉"
 
 #: libdnf/goal/Goal.cpp:102
 #, c-format
 msgid "package %s does not have a compatible architecture"
-msgstr ""
+msgstr "软件包 %s 没有兼容的架构"
 
 #: libdnf/goal/Goal.cpp:103
 #, c-format
@@ -530,7 +530,7 @@ msgstr "软件包 %s 不可安装"
 #: libdnf/goal/Goal.cpp:104
 #, c-format
 msgid "package %s is filtered out by exclude filtering"
-msgstr ""
+msgstr "软件包 %s 被排除过滤过滤掉"
 
 #: libdnf/goal/Goal.cpp:105
 #, c-format
