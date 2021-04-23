@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-22 09:18-0400\n"
-"PO-Revision-Date: 2021-04-13 14:39+0000\n"
+"PO-Revision-Date: 2021-04-23 15:23+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/nl/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 4.6\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -168,16 +168,13 @@ msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Onnodige informatie in argument wordt genegeerd: '%s'"
 
 #: libdnf/dnf-context.cpp:3412
-#, fuzzy, c-format
-#| msgid ""
-#| "Problem during enablement of dependency tree for moduele '%1$s' stream "
-#| "'%2$s': %3$s"
+#, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
-"Probleem tijdens het inschakelen van de afhankelijkheidsboom voor module "
-"'%1$s' stream '%2$s': %3$s"
+"Probleem tijdens het inschakelen van de afhankelijkheidsboom voor module '%1$"
+"s' stream '%2$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3424
 msgid "Problems appeared for module enable request"
@@ -185,16 +182,13 @@ msgstr "Er zijn problemen opgetreden met het verzoek om module-inschakeling"
 
 #. this really should never happen; unless the modular repodata is corrupted
 #: libdnf/dnf-context.cpp:3496
-#, fuzzy, c-format
-#| msgid "Failed to upgrade defaults: %s"
+#, c-format
 msgid "Failed to parse module artifact NEVRA '%s'"
-msgstr "Kan standaardwaarden niet upgraden: %s"
+msgstr "Kan module artefact NEVRA '%s' niet ontleden"
 
 #: libdnf/dnf-context.cpp:3530
-#, fuzzy
-#| msgid "Problems appeared for module disable request"
 msgid "Problems appeared for module install request"
-msgstr "Er zijn problemen opgetreden voor het verzoek om module-uitschakeling"
+msgstr "Er zijn problemen opgetreden bij het module installatie verzoek"
 
 #: libdnf/dnf-context.cpp:3590
 msgid "Problems appeared for module reset request"
