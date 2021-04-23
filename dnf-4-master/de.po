@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-18 09:18-0400\n"
+"POT-Creation-Date: 2021-04-22 09:18-0400\n"
 "PO-Revision-Date: 2020-12-13 17:36+0000\n"
 "Last-Translator: Fabian Affolter <mail@fabian-affolter.ch>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
@@ -138,6 +138,7 @@ msgstr ""
 #: libdnf/dnf-context.cpp:3294 libdnf/dnf-context.cpp:3318
 #: libdnf/dnf-context.cpp:3329 libdnf/dnf-context.cpp:3368
 #: libdnf/dnf-context.cpp:3384 libdnf/dnf-context.cpp:3416
+#: libdnf/dnf-context.cpp:3460 libdnf/dnf-context.cpp:3470
 #, fuzzy, c-format
 #| msgid "failed to remove %s"
 msgid "Unable to resolve argument '%s'"
@@ -159,7 +160,8 @@ msgstr ""
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3357 libdnf/dnf-context.cpp:3448
+#: libdnf/dnf-context.cpp:3357 libdnf/dnf-context.cpp:3449
+#: libdnf/dnf-context.cpp:3559
 msgid "No modular data available"
 msgstr ""
 
@@ -171,7 +173,7 @@ msgstr ""
 #: libdnf/dnf-context.cpp:3412
 #, c-format
 msgid ""
-"Problem during enablement of dependency tree for moduele '%1$s' stream "
+"Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
 
@@ -179,22 +181,32 @@ msgstr ""
 msgid "Problems appeared for module enable request"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3479
+#. this really should never happen; unless the modular repodata is corrupted
+#: libdnf/dnf-context.cpp:3496
+#, c-format
+msgid "Failed to parse module artifact NEVRA '%s'"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3530
+msgid "Problems appeared for module install request"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3590
 msgid "Problems appeared for module reset request"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3481
+#: libdnf/dnf-context.cpp:3592
 msgid "Problems appeared for module disable request"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3517
+#: libdnf/dnf-context.cpp:3628
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3521
+#: libdnf/dnf-context.cpp:3632
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -718,30 +730,30 @@ msgstr ""
 msgid "cannot stat path %1$s: %2$s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:553
+#: libdnf/module/ModulePackage.cpp:573
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:568
+#: libdnf/module/ModulePackage.cpp:588
 msgid "Multiple module platforms provided by available packages\n"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:581
+#: libdnf/module/ModulePackage.cpp:601
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:608
+#: libdnf/module/ModulePackage.cpp:628
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:617
+#: libdnf/module/ModulePackage.cpp:637
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:622
+#: libdnf/module/ModulePackage.cpp:642
 msgid "No valid Platform ID detected"
 msgstr ""
 

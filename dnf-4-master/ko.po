@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-18 09:18-0400\n"
+"POT-Creation-Date: 2021-04-22 09:18-0400\n"
 "PO-Revision-Date: 2021-04-13 14:39+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
@@ -137,6 +137,7 @@ msgstr "모듈러 의존성 문제: %s"
 #: libdnf/dnf-context.cpp:3294 libdnf/dnf-context.cpp:3318
 #: libdnf/dnf-context.cpp:3329 libdnf/dnf-context.cpp:3368
 #: libdnf/dnf-context.cpp:3384 libdnf/dnf-context.cpp:3416
+#: libdnf/dnf-context.cpp:3460 libdnf/dnf-context.cpp:3470
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "인수 %s를 해결 할 수 없습니다"
@@ -157,7 +158,8 @@ msgstr "모듈 '%s 를 재설정 할 수 없습니다: 모듈 상태가 이미 �
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr "모듈 '%s'사용 할 수 없습니다: 모듈 상태는 이미 적재되었습니다"
 
-#: libdnf/dnf-context.cpp:3357 libdnf/dnf-context.cpp:3448
+#: libdnf/dnf-context.cpp:3357 libdnf/dnf-context.cpp:3449
+#: libdnf/dnf-context.cpp:3559
 msgid "No modular data available"
 msgstr "모듈러 자료를 이용 할 수 없습니다"
 
@@ -167,9 +169,12 @@ msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "인수: '%s'에 불필요한 정보를 무시하기"
 
 #: libdnf/dnf-context.cpp:3412
-#, c-format
+#, fuzzy, c-format
+#| msgid ""
+#| "Problem during enablement of dependency tree for moduele '%1$s' stream "
+#| "'%2$s': %3$s"
 msgid ""
-"Problem during enablement of dependency tree for moduele '%1$s' stream "
+"Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
 "모듈 '%1$s' 스트림 '%2$s': %3$s 위해 의존성 트리의 활성화하는 동안에 발생하"
@@ -179,22 +184,35 @@ msgstr ""
 msgid "Problems appeared for module enable request"
 msgstr "모듈 활성화 요청에 나타난 문제"
 
-#: libdnf/dnf-context.cpp:3479
+#. this really should never happen; unless the modular repodata is corrupted
+#: libdnf/dnf-context.cpp:3496
+#, fuzzy, c-format
+#| msgid "Failed to upgrade defaults: %s"
+msgid "Failed to parse module artifact NEVRA '%s'"
+msgstr "기본값을 최신화에 실패하였습니다: %s"
+
+#: libdnf/dnf-context.cpp:3530
+#, fuzzy
+#| msgid "Problems appeared for module disable request"
+msgid "Problems appeared for module install request"
+msgstr "모듈 비활성화 요청을 위해 나타난 문제"
+
+#: libdnf/dnf-context.cpp:3590
 msgid "Problems appeared for module reset request"
 msgstr "모듈 초기화 요청을 위해 나나탄 문제"
 
-#: libdnf/dnf-context.cpp:3481
+#: libdnf/dnf-context.cpp:3592
 msgid "Problems appeared for module disable request"
 msgstr "모듈 비활성화 요청을 위해 나타난 문제"
 
-#: libdnf/dnf-context.cpp:3517
+#: libdnf/dnf-context.cpp:3628
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
 msgstr "이 동작은 모듈 '%s'' 스트림 ‘%s'에서 스트림 '%s'로의 전환 결과입니다"
 
-#: libdnf/dnf-context.cpp:3521
+#: libdnf/dnf-context.cpp:3632
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -718,30 +736,30 @@ msgstr "디렉토리를 생성 할 수 없습니다 %1$s: %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "경로 %1$s: %2$s stat 할 수 없습니다"
 
-#: libdnf/module/ModulePackage.cpp:553
+#: libdnf/module/ModulePackage.cpp:573
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "잘못된 형식의 기반 모듈: %s"
 
-#: libdnf/module/ModulePackage.cpp:568
+#: libdnf/module/ModulePackage.cpp:588
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "사용 가능한 꾸러미로 제공되는 다중 모듈 기반\n"
 
-#: libdnf/module/ModulePackage.cpp:581
+#: libdnf/module/ModulePackage.cpp:601
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "설치된 꾸러미로 제공되는 다중 모듈 기반\n"
 
-#: libdnf/module/ModulePackage.cpp:608
+#: libdnf/module/ModulePackage.cpp:628
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "%s 실패한: %s 에서 기반(Platform) 모듈 감지"
 
-#: libdnf/module/ModulePackage.cpp:617
+#: libdnf/module/ModulePackage.cpp:637
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "%s에서 PLATFORM_ID가 누락됨"
 
-#: libdnf/module/ModulePackage.cpp:622
+#: libdnf/module/ModulePackage.cpp:642
 msgid "No valid Platform ID detected"
 msgstr "유효한 기반(Platform) ID가 없습니다"
 

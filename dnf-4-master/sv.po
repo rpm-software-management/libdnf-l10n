@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-18 09:18-0400\n"
+"POT-Creation-Date: 2021-04-22 09:18-0400\n"
 "PO-Revision-Date: 2021-04-13 14:39+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
@@ -138,6 +138,7 @@ msgstr "Modulärt beroendeproblem: %s"
 #: libdnf/dnf-context.cpp:3294 libdnf/dnf-context.cpp:3318
 #: libdnf/dnf-context.cpp:3329 libdnf/dnf-context.cpp:3368
 #: libdnf/dnf-context.cpp:3384 libdnf/dnf-context.cpp:3416
+#: libdnf/dnf-context.cpp:3460 libdnf/dnf-context.cpp:3470
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "Kan inte slå upp argumentet ”%s”"
@@ -163,7 +164,8 @@ msgstr ""
 "Det går inte att avaktivera modulen”%s”: tillståndet på modulen är redan "
 "ändrat"
 
-#: libdnf/dnf-context.cpp:3357 libdnf/dnf-context.cpp:3448
+#: libdnf/dnf-context.cpp:3357 libdnf/dnf-context.cpp:3449
+#: libdnf/dnf-context.cpp:3559
 msgid "No modular data available"
 msgstr "Inga modulära data gilltängliga"
 
@@ -173,9 +175,12 @@ msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Ignorerar onödig information i argumentet: ”%s”"
 
 #: libdnf/dnf-context.cpp:3412
-#, c-format
+#, fuzzy, c-format
+#| msgid ""
+#| "Problem during enablement of dependency tree for moduele '%1$s' stream "
+#| "'%2$s': %3$s"
 msgid ""
-"Problem during enablement of dependency tree for moduele '%1$s' stream "
+"Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
 "Problem under aktivering av beroendeträdet för modulen ”%1$s” strömmen "
@@ -185,15 +190,28 @@ msgstr ""
 msgid "Problems appeared for module enable request"
 msgstr "Problem uppstod för modulaktiveringsbegäran"
 
-#: libdnf/dnf-context.cpp:3479
+#. this really should never happen; unless the modular repodata is corrupted
+#: libdnf/dnf-context.cpp:3496
+#, fuzzy, c-format
+#| msgid "Failed to upgrade defaults: %s"
+msgid "Failed to parse module artifact NEVRA '%s'"
+msgstr "Misslyckades att uppgradera standardvärden: %s"
+
+#: libdnf/dnf-context.cpp:3530
+#, fuzzy
+#| msgid "Problems appeared for module disable request"
+msgid "Problems appeared for module install request"
+msgstr "Problem uppstod för modulavaktiveringsbegäran"
+
+#: libdnf/dnf-context.cpp:3590
 msgid "Problems appeared for module reset request"
 msgstr "Problem uppstod för modulåterställningsbegäran"
 
-#: libdnf/dnf-context.cpp:3481
+#: libdnf/dnf-context.cpp:3592
 msgid "Problems appeared for module disable request"
 msgstr "Problem uppstod för modulavaktiveringsbegäran"
 
-#: libdnf/dnf-context.cpp:3517
+#: libdnf/dnf-context.cpp:3628
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -201,7 +219,7 @@ msgid ""
 msgstr ""
 "Åtgärden skulle resultera i byte av modulen ”%s” ström ”%s” till ström ”%s”"
 
-#: libdnf/dnf-context.cpp:3521
+#: libdnf/dnf-context.cpp:3632
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -731,30 +749,30 @@ msgstr "kan inte skapa katalogen %1$s: %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "kan inte ta status på sökvägen %1$s: %2$s"
 
-#: libdnf/module/ModulePackage.cpp:553
+#: libdnf/module/ModulePackage.cpp:573
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "Felaktigt format på plattformsmodulen: %s"
 
-#: libdnf/module/ModulePackage.cpp:568
+#: libdnf/module/ModulePackage.cpp:588
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "Flera modulplattformar tillhandahålls av tillgängliga paket\n"
 
-#: libdnf/module/ModulePackage.cpp:581
+#: libdnf/module/ModulePackage.cpp:601
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "Flera modulplattformar tillhandahålls av installerade paket\n"
 
-#: libdnf/module/ModulePackage.cpp:608
+#: libdnf/module/ModulePackage.cpp:628
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "Detektering av plattformsmodul i %s misslyckades: %s"
 
-#: libdnf/module/ModulePackage.cpp:617
+#: libdnf/module/ModulePackage.cpp:637
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "Saknad PLATFORM_ID i %s"
 
-#: libdnf/module/ModulePackage.cpp:622
+#: libdnf/module/ModulePackage.cpp:642
 msgid "No valid Platform ID detected"
 msgstr "Inget giltigt plattforms-ID detekterat"
 

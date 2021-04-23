@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-18 09:18-0400\n"
+"POT-Creation-Date: 2021-04-22 09:18-0400\n"
 "PO-Revision-Date: 2021-03-17 21:01+0000\n"
 "Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -143,6 +143,7 @@ msgstr "Problema de dependência modular: %s"
 #: libdnf/dnf-context.cpp:3294 libdnf/dnf-context.cpp:3318
 #: libdnf/dnf-context.cpp:3329 libdnf/dnf-context.cpp:3368
 #: libdnf/dnf-context.cpp:3384 libdnf/dnf-context.cpp:3416
+#: libdnf/dnf-context.cpp:3460 libdnf/dnf-context.cpp:3470
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "Não foi possível resolver o argumento '%s'"
@@ -165,7 +166,8 @@ msgstr "Não pode desabilitar módulo '%s': Estado do módulo já modificado"
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr "Não pode desabilitar módulo '%s': Estado do módulo já modificado"
 
-#: libdnf/dnf-context.cpp:3357 libdnf/dnf-context.cpp:3448
+#: libdnf/dnf-context.cpp:3357 libdnf/dnf-context.cpp:3449
+#: libdnf/dnf-context.cpp:3559
 msgid "No modular data available"
 msgstr "Nenhum dado modular disponível"
 
@@ -177,7 +179,7 @@ msgstr "Ignorando informação desnecessária no argumento: '%s'"
 #: libdnf/dnf-context.cpp:3412
 #, fuzzy, c-format
 msgid ""
-"Problem during enablement of dependency tree for moduele '%1$s' stream "
+"Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
 "problema durante a ativação da árvore de dependências para o fluxo do módulo "
@@ -188,17 +190,28 @@ msgstr ""
 msgid "Problems appeared for module enable request"
 msgstr "Apareceram problemas para a solicitação de ativação do módulo"
 
-#: libdnf/dnf-context.cpp:3479
+#. this really should never happen; unless the modular repodata is corrupted
+#: libdnf/dnf-context.cpp:3496
+#, c-format
+msgid "Failed to parse module artifact NEVRA '%s'"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3530
+#, fuzzy
+msgid "Problems appeared for module install request"
+msgstr "Apareceram problemas para a solicitação de desativação do módulo"
+
+#: libdnf/dnf-context.cpp:3590
 #, fuzzy
 msgid "Problems appeared for module reset request"
 msgstr "Apareceram problemas para a solicitação de redefinição do módulo"
 
-#: libdnf/dnf-context.cpp:3481
+#: libdnf/dnf-context.cpp:3592
 #, fuzzy
 msgid "Problems appeared for module disable request"
 msgstr "Apareceram problemas para a solicitação de desativação do módulo"
 
-#: libdnf/dnf-context.cpp:3517
+#: libdnf/dnf-context.cpp:3628
 #, fuzzy, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -206,7 +219,7 @@ msgid ""
 msgstr ""
 "A operação resultaria na mudança do módulo '%s' do fluxo '%s' para o '%s'"
 
-#: libdnf/dnf-context.cpp:3521
+#: libdnf/dnf-context.cpp:3632
 #, fuzzy
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
@@ -744,30 +757,30 @@ msgstr "não é possível criar o diretório %1$s: %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:553
+#: libdnf/module/ModulePackage.cpp:573
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "Formato inválido da Plataforma do módulo: %s"
 
-#: libdnf/module/ModulePackage.cpp:568
+#: libdnf/module/ModulePackage.cpp:588
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "Múltiplas plataformas de módulo oferecidas pelos pacotes disponíveis\n"
 
-#: libdnf/module/ModulePackage.cpp:581
+#: libdnf/module/ModulePackage.cpp:601
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "Múltiplas plataformas de módulo oferecidas pelos pacotes instalados\n"
 
-#: libdnf/module/ModulePackage.cpp:608
+#: libdnf/module/ModulePackage.cpp:628
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "Detecção do Módulo de Plataforma em %s falhou: %s"
 
-#: libdnf/module/ModulePackage.cpp:617
+#: libdnf/module/ModulePackage.cpp:637
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:622
+#: libdnf/module/ModulePackage.cpp:642
 msgid "No valid Platform ID detected"
 msgstr "Nenhum ID de Plataforma válido detectado"
 
