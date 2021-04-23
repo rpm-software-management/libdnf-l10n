@@ -3,13 +3,14 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021.
 # Mikael Granberg <mikael@famgra.se>, 2020.
 # Vilhelm Prytz <vilhelm@prytznet.se>, 2020.
+# Luna Jernberg <bittin@reimu.nl>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-22 09:18-0400\n"
-"PO-Revision-Date: 2021-04-13 14:39+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"PO-Revision-Date: 2021-04-23 15:23+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/sv/>\n"
 "Language: sv\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 4.6\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -175,16 +176,13 @@ msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Ignorerar onödig information i argumentet: ”%s”"
 
 #: libdnf/dnf-context.cpp:3412
-#, fuzzy, c-format
-#| msgid ""
-#| "Problem during enablement of dependency tree for moduele '%1$s' stream "
-#| "'%2$s': %3$s"
+#, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
-"Problem under aktivering av beroendeträdet för modulen ”%1$s” strömmen "
-"”%2$s”: %3$s"
+"Problem under aktivering av beroendeträdet för modul”%1$s” strömmen ”%2$s”: "
+"%3$s"
 
 #: libdnf/dnf-context.cpp:3424
 msgid "Problems appeared for module enable request"
@@ -192,16 +190,13 @@ msgstr "Problem uppstod för modulaktiveringsbegäran"
 
 #. this really should never happen; unless the modular repodata is corrupted
 #: libdnf/dnf-context.cpp:3496
-#, fuzzy, c-format
-#| msgid "Failed to upgrade defaults: %s"
+#, c-format
 msgid "Failed to parse module artifact NEVRA '%s'"
-msgstr "Misslyckades att uppgradera standardvärden: %s"
+msgstr "Det gick inte att analysera artefakt för modulen NEVRA '%s'"
 
 #: libdnf/dnf-context.cpp:3530
-#, fuzzy
-#| msgid "Problems appeared for module disable request"
 msgid "Problems appeared for module install request"
-msgstr "Problem uppstod för modulavaktiveringsbegäran"
+msgstr "Problem uppstod för modul installationsbegäran"
 
 #: libdnf/dnf-context.cpp:3590
 msgid "Problems appeared for module reset request"
