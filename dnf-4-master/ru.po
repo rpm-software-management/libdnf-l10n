@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-24 09:18-0400\n"
-"PO-Revision-Date: 2021-04-19 08:46+0000\n"
+"PO-Revision-Date: 2021-04-26 20:02+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ru/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.5.3\n"
+"X-Generator: Weblate 4.6\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -172,10 +172,7 @@ msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Игнорируется ненужная информация в аргументе: «%s»"
 
 #: libdnf/dnf-context.cpp:3412
-#, fuzzy, c-format
-#| msgid ""
-#| "Problem during enablement of dependency tree for moduele '%1$s' stream "
-#| "'%2$s': %3$s"
+#, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
@@ -189,16 +186,13 @@ msgstr "Возникли проблемы при запросе включени
 
 #. this really should never happen; unless the modular repodata is corrupted
 #: libdnf/dnf-context.cpp:3496
-#, fuzzy, c-format
-#| msgid "Failed to upgrade defaults: %s"
+#, c-format
 msgid "Failed to parse module artifact NEVRA '%s'"
-msgstr "Не удалось обновить параметры по умолчанию: %s"
+msgstr "Не удалось сделать разбор артефакта модуля NEVRA: «%s»"
 
 #: libdnf/dnf-context.cpp:3530
-#, fuzzy
-#| msgid "Problems appeared for module disable request"
 msgid "Problems appeared for module install request"
-msgstr "Возникли проблемы при запросе отключения модуля"
+msgstr "Возникли проблемы при запросе установки модуля"
 
 #: libdnf/dnf-context.cpp:3590
 msgid "Problems appeared for module reset request"
