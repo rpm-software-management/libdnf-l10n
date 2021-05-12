@@ -6,13 +6,14 @@
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2020, 2021.
 # Gustavo Costa <gusta@null.net>, 2020.
 # Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020.
+# Gustavo Costa <xfgusta@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-28 09:18-0400\n"
-"PO-Revision-Date: 2021-03-17 21:01+0000\n"
-"Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
+"PO-Revision-Date: 2021-05-12 11:47+0000\n"
+"Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.6.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -106,7 +107,7 @@ msgid "Could not depsolve transaction; "
 msgstr "Não foi possível resolver a transação; "
 
 #: libdnf/dnf-goal.cpp:70
-#, fuzzy, c-format
+#, c-format
 msgid "%i problem detected:\n"
 msgid_plural "%i problems detected:\n"
 msgstr[0] "%i problema detectado:\n"
