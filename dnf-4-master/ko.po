@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-16 09:18-0400\n"
+"POT-Creation-Date: 2021-06-18 09:18-0400\n"
 "PO-Revision-Date: 2021-04-24 16:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
@@ -106,12 +106,12 @@ msgstr "변환 할 수 없습니다 '%s'초까지"
 msgid "GetValue(): Value not set"
 msgstr "GetValue () : 값이 설정되지 않았습니다"
 
-#: libdnf/dnf-context.cpp:3170 libdnf/dnf-context.cpp:3179
+#: libdnf/dnf-context.cpp:3173 libdnf/dnf-context.cpp:3182
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr "동시에 모듈 '%s’에서 다른 스트림을 활성화 할 수 없습니다"
 
-#: libdnf/dnf-context.cpp:3188 libdnf/dnf-context.cpp:3206
+#: libdnf/dnf-context.cpp:3191 libdnf/dnf-context.cpp:3209
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
@@ -119,56 +119,56 @@ msgstr ""
 "모듈 '%1$s' 스트림 '%2$s 을 활성화 할 수 없습니다: 모듈 상태가 이미 변경되었"
 "습니다"
 
-#: libdnf/dnf-context.cpp:3253
+#: libdnf/dnf-context.cpp:3258
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "기본설정에 모듈 의존성 문제: %s"
 
-#: libdnf/dnf-context.cpp:3256
+#: libdnf/dnf-context.cpp:3261
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
 msgstr "최신 모듈: %s 에 모듈러 의존성 문제"
 
-#: libdnf/dnf-context.cpp:3260
+#: libdnf/dnf-context.cpp:3265
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "모듈러 의존성 문제: %s"
 
-#: libdnf/dnf-context.cpp:3294 libdnf/dnf-context.cpp:3318
-#: libdnf/dnf-context.cpp:3329 libdnf/dnf-context.cpp:3368
-#: libdnf/dnf-context.cpp:3384 libdnf/dnf-context.cpp:3416
-#: libdnf/dnf-context.cpp:3460 libdnf/dnf-context.cpp:3470
+#: libdnf/dnf-context.cpp:3288 libdnf/dnf-context.cpp:3312
+#: libdnf/dnf-context.cpp:3323 libdnf/dnf-context.cpp:3362
+#: libdnf/dnf-context.cpp:3378 libdnf/dnf-context.cpp:3410
+#: libdnf/dnf-context.cpp:3459 libdnf/dnf-context.cpp:3469
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "인수 %s를 해결 할 수 없습니다"
 
-#: libdnf/dnf-context.cpp:3301
+#: libdnf/dnf-context.cpp:3295
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr "모듈 이름만 필요합니다. 인수에서 불필요한 정보를 무시합니다: '%s'"
 
-#: libdnf/dnf-context.cpp:3315
+#: libdnf/dnf-context.cpp:3309
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr "모듈 '%s 를 재설정 할 수 없습니다: 모듈 상태가 이미 변경되었습니다"
 
-#: libdnf/dnf-context.cpp:3326
+#: libdnf/dnf-context.cpp:3320
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr "모듈 '%s'사용 할 수 없습니다: 모듈 상태는 이미 적재되었습니다"
 
-#: libdnf/dnf-context.cpp:3357 libdnf/dnf-context.cpp:3449
-#: libdnf/dnf-context.cpp:3559
+#: libdnf/dnf-context.cpp:3351 libdnf/dnf-context.cpp:3447
+#: libdnf/dnf-context.cpp:3620
 msgid "No modular data available"
 msgstr "모듈러 자료를 이용 할 수 없습니다"
 
-#: libdnf/dnf-context.cpp:3374
+#: libdnf/dnf-context.cpp:3368
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "인수: '%s'에 불필요한 정보를 무시하기"
 
-#: libdnf/dnf-context.cpp:3412
+#: libdnf/dnf-context.cpp:3406
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
@@ -177,36 +177,69 @@ msgstr ""
 "모듈 '%1$s' 스트림 '%2$s': %3$s 위해 의존성 트리의 활성화하는 동안에 발생하"
 "는 문제"
 
-#: libdnf/dnf-context.cpp:3424
-msgid "Problems appeared for module enable request"
+#: libdnf/dnf-context.cpp:3418
+#, fuzzy
+#| msgid "Problems appeared for module enable request"
+msgid "Problems appeared for module enable request:"
 msgstr "모듈 활성화 요청에 나타난 문제"
 
-#. this really should never happen; unless the modular repodata is corrupted
-#: libdnf/dnf-context.cpp:3496
+#: libdnf/dnf-context.cpp:3513
 #, c-format
-msgid "Failed to parse module artifact NEVRA '%s'"
-msgstr "모듈 artifact NERVRA '%s'를 구문 분석하는데 실패하였습니다"
+msgid "No active module packages found for module spec '%s'"
+msgstr ""
 
-#: libdnf/dnf-context.cpp:3530
-msgid "Problems appeared for module install request"
+#: libdnf/dnf-context.cpp:3518
+#, fuzzy, c-format
+#| msgid "cannot install both modules %s and %s"
+msgid "Cannot install module '%s' from fail-safe repository"
+msgstr "%s 와 %s 모듈을 모두 설치할 수 없습니다"
+
+#: libdnf/dnf-context.cpp:3525
+#, c-format
+msgid "No profile found matching '%s'"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3571
+#, c-format
+msgid "No match for package '%s' for module spec %s"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3582
+#, fuzzy, c-format
+#| msgid ""
+#| "Problem during enablement of dependency tree for module '%1$s' stream "
+#| "'%2$s': %3$s"
+msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
+msgstr ""
+"모듈 '%1$s' 스트림 '%2$s': %3$s 위해 의존성 트리의 활성화하는 동안에 발생하"
+"는 문제"
+
+#: libdnf/dnf-context.cpp:3591
+#, fuzzy
+#| msgid "Problems appeared for module install request"
+msgid "Problems appeared for module install request:"
 msgstr "모듈 설치 요청을 위해 나타난 문제"
 
-#: libdnf/dnf-context.cpp:3590
-msgid "Problems appeared for module reset request"
+#: libdnf/dnf-context.cpp:3650
+#, fuzzy
+#| msgid "Problems appeared for module reset request"
+msgid "Problems appeared for module reset request:"
 msgstr "모듈 초기화 요청을 위해 나나탄 문제"
 
-#: libdnf/dnf-context.cpp:3592
-msgid "Problems appeared for module disable request"
+#: libdnf/dnf-context.cpp:3651
+#, fuzzy
+#| msgid "Problems appeared for module disable request"
+msgid "Problems appeared for module disable request:"
 msgstr "모듈 비활성화 요청을 위해 나타난 문제"
 
-#: libdnf/dnf-context.cpp:3628
+#: libdnf/dnf-context.cpp:3689
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
 msgstr "이 동작은 모듈 '%s'' 스트림 ‘%s'에서 스트림 '%s'로의 전환 결과입니다"
 
-#: libdnf/dnf-context.cpp:3632
+#: libdnf/dnf-context.cpp:3693
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -767,56 +800,56 @@ msgstr "모듈 '%s’를 위해 다중 스트림을 활성화 할 수 없습니�
 msgid "Conflicting defaults with repo '%s': %s"
 msgstr "repo '%s: %s'와 기본 설정이 충돌합니다"
 
-#: libdnf/module/ModulePackageContainer.cpp:918
+#: libdnf/module/ModulePackageContainer.cpp:917
 msgid "Installing module profiles:\n"
 msgstr "모듈 프로파일 설치:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:933
+#: libdnf/module/ModulePackageContainer.cpp:932
 msgid "Disabling module profiles:\n"
 msgstr "모듈 프로파일 비활성화:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:948
+#: libdnf/module/ModulePackageContainer.cpp:947
 msgid "Enabling module streams:\n"
 msgstr "모듈 스트림 활성화:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:962
+#: libdnf/module/ModulePackageContainer.cpp:961
 msgid "Switching module streams:\n"
 msgstr "모듈 스트림 전환:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:980
+#: libdnf/module/ModulePackageContainer.cpp:979
 msgid "Disabling modules:\n"
 msgstr "모듈 비활성화:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:991
+#: libdnf/module/ModulePackageContainer.cpp:990
 msgid "Resetting modules:\n"
 msgstr "모듈 재설정:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1674
+#: libdnf/module/ModulePackageContainer.cpp:1673
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "'%s'에서 모듈식 Fail-Safe 자료를 적재 할 수 없습니다"
 
-#: libdnf/module/ModulePackageContainer.cpp:1680
+#: libdnf/module/ModulePackageContainer.cpp:1679
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "모듈 '%s:%s'에 대해 모듈식 Fail-Safe 자료를 적재 할 수 없습니다"
 
-#: libdnf/module/ModulePackageContainer.cpp:1763
+#: libdnf/module/ModulePackageContainer.cpp:1762
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr "모듈식 Fail-Safe 데이터에 대한 “%s\" 디렉토리를 만들 수 없습니다: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1779
+#: libdnf/module/ModulePackageContainer.cpp:1778
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "모듈식 Fail Safe 자료를 '%s'에 저장 할 수 없습니다"
 
-#: libdnf/module/ModulePackageContainer.cpp:1802
+#: libdnf/module/ModulePackageContainer.cpp:1801
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "'%s'에서 모듈식 Fail Safe 자료를 제거 할 수 없습니다"
 
-#: libdnf/module/ModulePackageContainer.cpp:1834
+#: libdnf/module/ModulePackageContainer.cpp:1833
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
@@ -1120,6 +1153,9 @@ msgstr "TransactionItem 상태가 설정되지 않았습니다. %s"
 #: libdnf/transaction/private/Transaction.cpp:243
 msgid "Can't add console output to unsaved transaction"
 msgstr "저장되지 않은 연결에 콘솔 출력을 추가 할 수 없습니다"
+
+#~ msgid "Failed to parse module artifact NEVRA '%s'"
+#~ msgstr "모듈 artifact NERVRA '%s'를 구문 분석하는데 실패하였습니다"
 
 #~ msgid "failed calculating RPMDB checksum"
 #~ msgstr "RPMDB 체크섬 계산 실패"
