@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-18 09:18-0400\n"
-"PO-Revision-Date: 2021-04-23 15:23+0000\n"
+"PO-Revision-Date: 2021-06-20 16:04+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/tr/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.6\n"
+"X-Generator: Weblate 4.7\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -178,59 +178,45 @@ msgstr ""
 "oluştu: %3$s"
 
 #: libdnf/dnf-context.cpp:3418
-#, fuzzy
-#| msgid "Problems appeared for module enable request"
 msgid "Problems appeared for module enable request:"
-msgstr "Modül etkinleştirme isteği için sorunlar ortaya çıktı"
+msgstr "Modül etkinleştirme isteği için sorunlar ortaya çıktı:"
 
 #: libdnf/dnf-context.cpp:3513
 #, c-format
 msgid "No active module packages found for module spec '%s'"
-msgstr ""
+msgstr "'%s' modül belirtimi için etkin modül paketi bulunamadı"
 
 #: libdnf/dnf-context.cpp:3518
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
-msgstr "%s ve %s modülleri birlikte kurulamıyor"
+msgstr "Fail-Safe deposundan '%s' modülü kurulamıyor"
 
 #: libdnf/dnf-context.cpp:3525
 #, c-format
 msgid "No profile found matching '%s'"
-msgstr ""
+msgstr "'%s' ile eşleşen profil bulunamadı"
 
 #: libdnf/dnf-context.cpp:3571
 #, c-format
 msgid "No match for package '%s' for module spec %s"
-msgstr ""
+msgstr "'%s' paketiyle (%s modül belirtimi için) eşleşme yok"
 
 #: libdnf/dnf-context.cpp:3582
-#, fuzzy, c-format
-#| msgid ""
-#| "Problem during enablement of dependency tree for module '%1$s' stream "
-#| "'%2$s': %3$s"
+#, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
-msgstr ""
-"'%1$s' modülünün '%2$s' akışı için bağımlılık ağacı etkinleştirilirken sorun "
-"oluştu: %3$s"
+msgstr "'%1$s' modülünün '%2$s' akışı için kurulum sırasında sorun oluştu: %3$s"
 
 #: libdnf/dnf-context.cpp:3591
-#, fuzzy
-#| msgid "Problems appeared for module install request"
 msgid "Problems appeared for module install request:"
-msgstr "Modül kurma isteği için sorunlar ortaya çıktı"
+msgstr "Modül kurma isteği için sorunlar ortaya çıktı:"
 
 #: libdnf/dnf-context.cpp:3650
-#, fuzzy
-#| msgid "Problems appeared for module reset request"
 msgid "Problems appeared for module reset request:"
-msgstr "Modül sıfırlama isteği için sorunlar ortaya çıktı"
+msgstr "Modül sıfırlama isteği için sorunlar ortaya çıktı:"
 
 #: libdnf/dnf-context.cpp:3651
-#, fuzzy
-#| msgid "Problems appeared for module disable request"
 msgid "Problems appeared for module disable request:"
-msgstr "Modül devre dışı bırakma isteği için sorunlar ortaya çıktı"
+msgstr "Modül devre dışı bırakma isteği için sorunlar ortaya çıktı:"
 
 #: libdnf/dnf-context.cpp:3689
 #, c-format
