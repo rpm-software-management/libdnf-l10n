@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-04-23 15:23+0000\n"
+"PO-Revision-Date: 2021-06-26 19:04+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/sv/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6\n"
+"X-Generator: Weblate 4.7\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -185,31 +185,28 @@ msgstr ""
 "%3$s"
 
 #: libdnf/dnf-context.cpp:3418
-#, fuzzy
-#| msgid "Problems appeared for module enable request"
 msgid "Problems appeared for module enable request:"
-msgstr "Problem uppstod för modulaktiveringsbegäran"
+msgstr "Problem uppstod för modulaktiveringsbegäran:"
 
 #: libdnf/dnf-context.cpp:3513
 #, c-format
 msgid "No active module packages found for module spec '%s'"
-msgstr ""
+msgstr "Inga aktiva modulpaket hittades för modul spec '%s'"
 
 #: libdnf/dnf-context.cpp:3518
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
-msgstr "det går inte att installera både modulen %s och %s"
+msgstr "Kan inte installera modulen '%s' från felsäkert arkiv"
 
 #: libdnf/dnf-context.cpp:3525
 #, c-format
 msgid "No profile found matching '%s'"
-msgstr ""
+msgstr "Ingen profil hittades matchande '%s'"
 
 #: libdnf/dnf-context.cpp:3571
 #, c-format
 msgid "No match for package '%s' for module spec %s"
-msgstr ""
+msgstr "Ingen matchning för paket '%s' för modul spec %s"
 
 #: libdnf/dnf-context.cpp:3582
 #, fuzzy, c-format
@@ -222,22 +219,16 @@ msgstr ""
 "%3$s"
 
 #: libdnf/dnf-context.cpp:3591
-#, fuzzy
-#| msgid "Problems appeared for module install request"
 msgid "Problems appeared for module install request:"
-msgstr "Problem uppstod för modul installationsbegäran"
+msgstr "Problem uppstod för modul installationsbegäran:"
 
 #: libdnf/dnf-context.cpp:3650
-#, fuzzy
-#| msgid "Problems appeared for module reset request"
 msgid "Problems appeared for module reset request:"
-msgstr "Problem uppstod för modulåterställningsbegäran"
+msgstr "Problem uppstod för modulåterställningsbegäran:"
 
 #: libdnf/dnf-context.cpp:3651
-#, fuzzy
-#| msgid "Problems appeared for module disable request"
 msgid "Problems appeared for module disable request:"
-msgstr "Problem uppstod för modulavaktiveringsbegäran"
+msgstr "Problem uppstod för modulavaktiveringsbegäran:"
 
 #: libdnf/dnf-context.cpp:3689
 #, c-format
