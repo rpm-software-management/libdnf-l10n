@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-04-28 19:02+0000\n"
+"PO-Revision-Date: 2021-07-01 18:04+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fi/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.6\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -179,59 +179,45 @@ msgstr ""
 "yhteydessä"
 
 #: libdnf/dnf-context.cpp:3418
-#, fuzzy
-#| msgid "Problems appeared for module enable request"
 msgid "Problems appeared for module enable request:"
-msgstr "Moduulin käyttöönottopyynnössä ilmeni ongelmia"
+msgstr "Moduulin käyttöönottopyynnössä ilmeni ongelmia:"
 
 #: libdnf/dnf-context.cpp:3513
 #, c-format
 msgid "No active module packages found for module spec '%s'"
-msgstr ""
+msgstr "Moduulimäärityksille '%s' ei löytynyt aktiivisia moduulipaketteja"
 
 #: libdnf/dnf-context.cpp:3518
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
-msgstr "ei voi asentaa molempia moduuleja %s ja %s"
+msgstr "Ei voi asentaa moduulia '%s' vikaturvallisesta asennuslähteestä"
 
 #: libdnf/dnf-context.cpp:3525
 #, c-format
 msgid "No profile found matching '%s'"
-msgstr ""
+msgstr "'%s' vastaavaa profiilia ei löytynyt"
 
 #: libdnf/dnf-context.cpp:3571
 #, c-format
 msgid "No match for package '%s' for module spec %s"
-msgstr ""
+msgstr "Ei vastaavuutta moduulin määrittelylle %s paketille '%s'"
 
 #: libdnf/dnf-context.cpp:3582
-#, fuzzy, c-format
-#| msgid ""
-#| "Problem during enablement of dependency tree for module '%1$s' stream "
-#| "'%2$s': %3$s"
+#, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
-msgstr ""
-"Ongelma moduulin '%1$s' virran '%2$s': %3$s riippuvuuspuun käyttöönoton "
-"yhteydessä"
+msgstr "Ongelma moduulin '%1$s' virran '%2$s': %3$s asennuksen yhteydessä"
 
 #: libdnf/dnf-context.cpp:3591
-#, fuzzy
-#| msgid "Problems appeared for module install request"
 msgid "Problems appeared for module install request:"
-msgstr "Moduulin käyttöönottopyynnössä ilmeni ongelmia"
+msgstr "Moduulin asennuspyynnössä ilmeni ongelmia:"
 
 #: libdnf/dnf-context.cpp:3650
-#, fuzzy
-#| msgid "Problems appeared for module reset request"
 msgid "Problems appeared for module reset request:"
-msgstr "Moduulin nollauspyynnössä ilmeni ongelmia"
+msgstr "Moduulin nollauspyynnössä ilmeni ongelmia:"
 
 #: libdnf/dnf-context.cpp:3651
-#, fuzzy
-#| msgid "Problems appeared for module disable request"
 msgid "Problems appeared for module disable request:"
-msgstr "Moduulin käyttöönoton poiston pyynnössä ilmeni ongelmia"
+msgstr "Moduulin käyttöönoton poiston pyynnössä ilmeni ongelmia:"
 
 #: libdnf/dnf-context.cpp:3689
 #, c-format
