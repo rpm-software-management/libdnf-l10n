@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-06-23 04:04+0000\n"
+"PO-Revision-Date: 2021-07-01 18:04+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/ko/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -445,7 +445,7 @@ msgstr "%s 와 %s 모두 설치 할 수 없습니다"
 #: libdnf/goal/Goal.cpp:84
 #, c-format
 msgid "package %s conflicts with %s provided by %s"
-msgstr "제공된 꾸러미 %s 은 %s에 의해 %s 와 충돌합니다"
+msgstr "꾸러미 %s은 %s에서 제공된 %s와 충돌합니다"
 
 #: libdnf/goal/Goal.cpp:85
 #, c-format
@@ -470,7 +470,7 @@ msgstr "꾸러미 %s는 %s가 필요하지만, 공급자가 없어 설치 할 �
 #: libdnf/goal/Goal.cpp:89
 #, c-format
 msgid "package %s conflicts with %s provided by itself"
-msgstr "꾸러미 %s가 %s와 자체적으로 충돌합니다"
+msgstr "꾸러미 %s가 자체적으로 제공된 %s와 충돌합니다"
 
 #: libdnf/goal/Goal.cpp:90
 #, c-format
@@ -518,7 +518,7 @@ msgstr "모듈 %s 와 %s를 모두 설치 할 수 없습니다"
 #: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid "module %s conflicts with %s provided by %s"
-msgstr "모듈 %s 가 %s와 함께 %s와 충돌합니다"
+msgstr "모듈 %s가 %s에 의해 제공된 %s와 충돌합니다"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
@@ -636,7 +636,7 @@ msgstr "모듈 '%s’를 위해 다중 스트림을 활성화 할 수 없습니�
 #: libdnf/module/ModulePackageContainer.cpp:294
 #, c-format
 msgid "Conflicting defaults with repo '%s': %s"
-msgstr "repo '%s: %s'와 기본 설정이 충돌합니다"
+msgstr "저장소 '%s: %s'와 기본 설정이 충돌합니다"
 
 #: libdnf/module/ModulePackageContainer.cpp:1568
 #, c-format
