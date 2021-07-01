@@ -2,13 +2,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Petr Molodyk <pamolodyk@gmail.com>, 2020.
 # Vladyslav Spirin <vladspirin@hotmail.com>, 2020.
+# Alexey Rubtsov <rushills@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-06-21 19:04+0000\n"
-"Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
+"PO-Revision-Date: 2021-07-01 18:04+0000\n"
+"Last-Translator: Alexey Rubtsov <rushills@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ru/>\n"
 "Language: ru\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -31,7 +32,7 @@ msgstr "значение для секунд «%s» не должно быть �
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
 msgid "could not convert '%s' to bytes"
-msgstr "не удалось преобразовать '%s'к байтам"
+msgstr "не удалось преобразовать «%s» к байтам"
 
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
@@ -355,7 +356,7 @@ msgstr "write_main () не удалось записать данные: %i"
 
 #: libdnf/dnf-sack.cpp:542
 msgid "write_main() failed to re-load written solv file"
-msgstr "write_main() failed to re-load written solv file"
+msgstr "write_main() fне удалось перезагрузить файл solv"
 
 #: libdnf/dnf-sack.cpp:607
 #, c-format
@@ -365,11 +366,11 @@ msgstr "не удается создать временный файл %s"
 #: libdnf/dnf-sack.cpp:625
 #, c-format
 msgid "write_ext(%1$d) has failed: %2$d"
-msgstr "write_ext(%1$d) has failed: %2$d"
+msgstr "write_ext(%1$d) выдал ошибку: %2$d"
 
 #: libdnf/dnf-sack.cpp:680
 msgid "null repo md file"
-msgstr "null repo md file"
+msgstr "файл md  пустого репозитория null"
 
 #: libdnf/dnf-sack.cpp:689
 #, c-format
@@ -378,7 +379,7 @@ msgstr "невозможно прочитать файл %1$s: %2$s"
 
 #: libdnf/dnf-sack.cpp:703
 msgid "repo_add_solv() has failed."
-msgstr "repo_add_solv() has failed."
+msgstr "repo_add_solv() завершился ошибкой."
 
 #: libdnf/dnf-sack.cpp:716
 msgid "loading of MD_TYPE_PRIMARY has failed."
@@ -386,7 +387,7 @@ msgstr "не удалось загрузить MD_TYPE_PRIMARY."
 
 #: libdnf/dnf-sack.cpp:729
 msgid "repo_add_repomdxml/rpmmd() has failed."
-msgstr "repo_add_repomdxml/rpmmd() has failed."
+msgstr "repo_add_repomdxml/rpmmd() завершился ошибкой."
 
 #: libdnf/dnf-sack.cpp:796
 msgid "failed to auto-detect architecture"
@@ -523,7 +524,7 @@ msgstr " не относится к хранилищу обновлений ди
 
 #: libdnf/goal/Goal.cpp:91 libdnf/goal/Goal.cpp:118
 msgid " has inferior architecture"
-msgstr "относится к плохой архитектуре"
+msgstr " относится к плохой архитектуре"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -539,7 +540,7 @@ msgstr "неподдерживаемый запрос"
 
 #: libdnf/goal/Goal.cpp:95 libdnf/goal/Goal.cpp:122
 msgid "nothing provides requested "
-msgstr "ничего из пакетов не содержит запрашиваемого"
+msgstr "ничего из пакетов не содержит запрашиваемого "
 
 #: libdnf/goal/Goal.cpp:96
 #, c-format
@@ -1003,12 +1004,12 @@ msgstr "Не удалось получить ключ GPG для репозит�
 #: libdnf/repo/Repo.cpp:886
 #, c-format
 msgid "repo %s: 0x%s already imported"
-msgstr "Сделки рЕПО %s: 0x%s уже импортировано"
+msgstr "репозиторий %s: 0x%s уже импортирован"
 
 #: libdnf/repo/Repo.cpp:914
 #, c-format
 msgid "repo %s: imported key 0x%s."
-msgstr "Сделки рЕПО %s: импортированный ключ 0x%s"
+msgstr "репозиторий %s: импортирован ключ 0x%s."
 
 #: libdnf/repo/Repo.cpp:1162
 #, c-format
