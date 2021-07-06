@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-06-26 19:04+0000\n"
+"PO-Revision-Date: 2021-07-07 08:04+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/sv/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -209,14 +209,9 @@ msgid "No match for package '%s' for module spec %s"
 msgstr "Ingen matchning för paket '%s' för modul spec %s"
 
 #: libdnf/dnf-context.cpp:3582
-#, fuzzy, c-format
-#| msgid ""
-#| "Problem during enablement of dependency tree for module '%1$s' stream "
-#| "'%2$s': %3$s"
+#, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
-msgstr ""
-"Problem under aktivering av beroendeträdet för modul”%1$s” strömmen ”%2$s”: "
-"%3$s"
+msgstr "Problem under installation för modul”%1$s” strömmen ”%2$s”: %3$s"
 
 #: libdnf/dnf-context.cpp:3591
 msgid "Problems appeared for module install request:"
