@@ -1,0 +1,38 @@
+name: Update strings in the translations repository from the source repository
+on:
+  schedule:
+    - cron: '45 0 * * *' # at 0:45 UTC
+
+  # allow to run the workflow manually
+  workflow_dispatch:
+
+jobs:
+  update-translations-source:
+    name: Update strings in the translations repository from the source repository
+    runs-on: ubuntu-latest
+    # use pre-built Fedora container
+    container: ghcr.io/rpm-software-management/dnf-ci-host
+
+    steps:
+      - name: Checkout ci-dnf-stack
+        uses: actions/checkout@v2
+        with:
+          repository: rpm-software-management/ci-dnf-stack
+          path: ci-dnf-stack
+
+      - name: Check out l10n repo
+        uses: actions/checkout@v2
+        with:
+          path: l10n
+
+      - name: Check out source repo
+        uses: actions/checkout@v2
+        with:
+          repository: rpm-software-management/libdnf
+          ref: dnf-4-master
+          path: source
+
+      - name: Update *.pot files
+        uses: ./ci-dnf-stack/.github/actions/l10n-update-pot
+        with:
+          branch: dnf-4-master
