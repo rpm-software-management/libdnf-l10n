@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-23 01:47+0000\n"
+"POT-Creation-Date: 2021-07-24 01:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -156,7 +156,7 @@ msgid "Cannot disable module '%s': State of module already modified"
 msgstr ""
 
 #: libdnf/dnf-context.cpp:3351 libdnf/dnf-context.cpp:3447
-#: libdnf/dnf-context.cpp:3620
+#: libdnf/dnf-context.cpp:3628
 msgid "No modular data available"
 msgstr ""
 
@@ -191,36 +191,36 @@ msgstr ""
 msgid "No profile found matching '%s'"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3571
+#: libdnf/dnf-context.cpp:3579
 #, c-format
 msgid "No match for package '%s' for module spec %s"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3582
+#: libdnf/dnf-context.cpp:3590
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3591
+#: libdnf/dnf-context.cpp:3599
 msgid "Problems appeared for module install request:"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3650
+#: libdnf/dnf-context.cpp:3658
 msgid "Problems appeared for module reset request:"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3651
+#: libdnf/dnf-context.cpp:3659
 msgid "Problems appeared for module disable request:"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3689
+#: libdnf/dnf-context.cpp:3697
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3693
+#: libdnf/dnf-context.cpp:3701
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -738,30 +738,30 @@ msgstr ""
 msgid "cannot stat path %1$s: %2$s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:573
+#: libdnf/module/ModulePackage.cpp:586
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:588
+#: libdnf/module/ModulePackage.cpp:601
 msgid "Multiple module platforms provided by available packages\n"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:601
+#: libdnf/module/ModulePackage.cpp:614
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:628
+#: libdnf/module/ModulePackage.cpp:641
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:637
+#: libdnf/module/ModulePackage.cpp:650
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr ""
 
-#: libdnf/module/ModulePackage.cpp:642
+#: libdnf/module/ModulePackage.cpp:655
 msgid "No valid Platform ID detected"
 msgstr ""
 
