@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Syahmin Sukhairi <syahmin@gmail.com>, 2020.
 # Andika Triwidada <andika@gmail.com>, 2020.
+# Didik Supriadi <didiksupriadi41@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2020-05-01 08:35+0000\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"PO-Revision-Date: 2021-07-30 08:04+0000\n"
+"Last-Translator: Didik Supriadi <didiksupriadi41@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/id/>\n"
 "Language: id\n"
@@ -17,21 +18,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.0.1\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
-msgstr "tidak ada nilai yang spesifik"
+msgstr "tidak ada nilai yang ditentukan"
 
 #: libdnf/conf/ConfigMain.cpp:67 libdnf/conf/OptionSeconds.cpp:48
 #, c-format
 msgid "seconds value '%s' must not be negative"
-msgstr "nilai kedua '%s' tidak boleh negatif"
+msgstr ""
 
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
 msgid "could not convert '%s' to bytes"
-msgstr ""
+msgstr "tidak dapat mengubah '%s' menjadi byte"
 
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
@@ -41,7 +42,7 @@ msgstr "unit '%s' tidak diketahui"
 #: libdnf/conf/ConfigMain.cpp:204 libdnf/conf/OptionEnum.cpp:83
 #: libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
-msgstr ""
+msgstr "nilai tidak valid"
 
 #: libdnf/conf/ConfigMain.cpp:207
 msgid "value 1 is not allowed"
@@ -54,22 +55,22 @@ msgstr ""
 #: libdnf/conf/ConfigMain.cpp:341
 #, c-format
 msgid "percentage '%s' is out of range"
-msgstr "prosentase '%s' di luar batas"
+msgstr "persentase '%s' di luar batas"
 
 #: libdnf/conf/OptionBinds.cpp:85
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr "Konfigurasi: tidak ada OptionBinding dengan id \"%s\""
+msgstr "Konfigurasi: OptionBinding dengan id \"%s\" tidak ada"
 
 #: libdnf/conf/OptionBinds.cpp:97
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr "Konfigurasi: OptionBinding dengna id \"%s\" sudah ada"
+msgstr "Konfigurasi: OptionBinding dengan id \"%s\" sudah ada"
 
 #: libdnf/conf/OptionBool.cpp:47
 #, c-format
 msgid "invalid boolean value '%s'"
-msgstr ""
+msgstr "nilai boolean tidak valid '%s'"
 
 #: libdnf/conf/OptionEnum.cpp:72 libdnf/conf/OptionEnum.cpp:158
 #: libdnf/conf/OptionString.cpp:64 libdnf/conf/OptionStringList.cpp:59
