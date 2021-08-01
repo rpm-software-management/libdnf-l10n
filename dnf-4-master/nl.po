@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-01 01:51+0000\n"
-"PO-Revision-Date: 2021-06-21 19:04+0000\n"
+"PO-Revision-Date: 2021-08-03 19:04+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/nl/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -1018,10 +1018,9 @@ msgid "repo %s: 0x%s already imported"
 msgstr "repo %s: 0x%s is al geïmporteerd"
 
 #: libdnf/repo/Repo.cpp:904 libdnf/utils/filesystem.cpp:79
-#, fuzzy, c-format
-#| msgid "Cannot create directory \"%s\": %s"
+#, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
-msgstr "Kan map \"%s\" niet aanmaken: %s"
+msgstr "Aanmaken van map \"%s\" mislukte: %d - %s"
 
 #: libdnf/repo/Repo.cpp:924
 #, c-format
