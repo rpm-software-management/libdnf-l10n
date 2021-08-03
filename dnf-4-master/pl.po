@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-01 01:51+0000\n"
+"POT-Creation-Date: 2021-08-03 01:51+0000\n"
 "PO-Revision-Date: 2021-07-30 15:05+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/"
@@ -227,7 +227,7 @@ msgstr "Wystąpiły problemy podczas żądania przywrócenia modułu:"
 msgid "Problems appeared for module disable request:"
 msgstr "Wystąpiły problemy podczas żądania wyłączenia modułu:"
 
-#: libdnf/dnf-context.cpp:3697
+#: libdnf/dnf-context.cpp:3723
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -236,7 +236,7 @@ msgstr ""
 "Działanie spowodowałoby przełączenie modułu „%s” strumienia „%s” na strumień "
 "„%s”"
 
-#: libdnf/dnf-context.cpp:3701
+#: libdnf/dnf-context.cpp:3727
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "

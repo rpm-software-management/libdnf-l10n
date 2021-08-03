@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-01 01:51+0000\n"
+"POT-Creation-Date: 2021-08-03 01:51+0000\n"
 "PO-Revision-Date: 2021-05-12 11:47+0000\n"
 "Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -234,7 +234,7 @@ msgstr "Apareceram problemas para a solicitação de redefinição do módulo"
 msgid "Problems appeared for module disable request:"
 msgstr "Apareceram problemas para a solicitação de desativação do módulo"
 
-#: libdnf/dnf-context.cpp:3697
+#: libdnf/dnf-context.cpp:3723
 #, fuzzy, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -242,7 +242,7 @@ msgid ""
 msgstr ""
 "A operação resultaria na mudança do módulo '%s' do fluxo '%s' para o '%s'"
 
-#: libdnf/dnf-context.cpp:3701
+#: libdnf/dnf-context.cpp:3727
 #, fuzzy
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
