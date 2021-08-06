@@ -2,13 +2,14 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020.
 # Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020.
 # Mikael Granberg <mikael@famgra.se>, 2020.
+# Luna Jernberg <bittin@reimu.nl>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2020-08-26 19:29+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"PO-Revision-Date: 2021-08-07 16:04+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/sv/>\n"
 "Language: sv\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.1\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -262,7 +263,7 @@ msgstr "misslyckades att läsa in RPMDB"
 
 #: libdnf/dnf-sack.cpp:2466
 msgid "No module defaults found"
-msgstr "Inga defaultinställningar kunde hittas för modulen."
+msgstr "Inga defaultinställningar kunde hittas för modulen"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
