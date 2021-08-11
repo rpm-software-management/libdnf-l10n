@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 01:42+0000\n"
-"PO-Revision-Date: 2021-07-30 11:02+0000\n"
+"PO-Revision-Date: 2021-08-11 14:04+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/uk/>\n"
@@ -46,7 +46,7 @@ msgstr "некоректне значення"
 
 #: libdnf/conf/ConfigMain.cpp:207
 msgid "value 1 is not allowed"
-msgstr "не можна використовувати значення 1"
+msgstr "значення 1 не є дозволеним"
 
 #: libdnf/conf/ConfigMain.cpp:209
 msgid "negative value is not allowed"
