@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 01:42+0000\n"
-"PO-Revision-Date: 2021-08-01 03:04+0000\n"
+"PO-Revision-Date: 2021-08-13 09:04+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ko/>\n"
@@ -45,11 +45,11 @@ msgstr "잘못된 값"
 
 #: libdnf/conf/ConfigMain.cpp:207
 msgid "value 1 is not allowed"
-msgstr "값 1은 허용하지 않습니다"
+msgstr "값 1은 허용되지 않습니다"
 
 #: libdnf/conf/ConfigMain.cpp:209
 msgid "negative value is not allowed"
-msgstr "음수 값은 허용하지 않습니다"
+msgstr "음수 값은 허용되지 않습니다"
 
 #: libdnf/conf/ConfigMain.cpp:341
 #, c-format
@@ -173,9 +173,7 @@ msgstr "인수: '%s'에 불필요한 정보를 무시하기"
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
-msgstr ""
-"모듈 '%1$s' 스트림 '%2$s': %3$s 위해 의존성 트리의 활성화하는 동안에 발생하"
-"는 문제"
+msgstr "모듈 '%1$s' 스트림 '%2$s': %3$s 위해 의존성 트리의 활성화하는 중에 발생하는 문제"
 
 #: libdnf/dnf-context.cpp:3418
 msgid "Problems appeared for module enable request:"
@@ -840,9 +838,7 @@ msgstr "'%s'에서 모듈식 Fail Safe 자료를 제거 할 수 없습니다"
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
-msgstr ""
-"'%s:%s'에 모듈 폐기를 적용 할 수 없다 왜냐하면 목표 모듈 '%s' 을 사용 할 수 "
-"없기 때문입니다"
+msgstr "'%s:%s'에 사용되지 않는 모듈을 적용할 수 없습니다(대상 모듈 '%s'가 비활성화 되어 있기 때문에)"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -872,8 +868,7 @@ msgstr "스트림 최신화에 실패하였습니다: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:219
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
-msgstr ""
-"모듈 폐기를 검색 할 수 없습니다 왜냐하면 스트림 일치 %s: %s 가 없습니다"
+msgstr "%s: %s 일치하는 스트림이 없기 때문에 구식 모듈을 검색 할 수 없습니다"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
