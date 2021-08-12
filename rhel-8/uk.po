@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 14:28+0200\n"
-"PO-Revision-Date: 2021-08-11 14:04+0000\n"
+"PO-Revision-Date: 2021-08-13 09:04+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-8/uk/>\n"
@@ -164,10 +164,7 @@ msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Ігноруємо непотрібні дані в аргументі: «%s»"
 
 #: libdnf/dnf-context.cpp:3408
-#, fuzzy, c-format
-#| msgid ""
-#| "Problem during enablement of dependency tree for moduele '%1$s' stream "
-#| "'%2$s': %3$s"
+#, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
@@ -181,16 +178,13 @@ msgstr "Виникли проблеми із запитом щодо вмика�
 
 #. this really should never happen; unless the modular repodata is corrupted
 #: libdnf/dnf-context.cpp:3495
-#, fuzzy, c-format
-#| msgid "Failed to upgrade defaults: %s"
+#, c-format
 msgid "Failed to parse module artifact NEVRA '%s'"
-msgstr "Не вдалося оновити типові значення: %s"
+msgstr "Не вдалося обробити ідентифікатор модуля NEVRA «%s»"
 
 #: libdnf/dnf-context.cpp:3529
-#, fuzzy
-#| msgid "Problems appeared for module disable request"
 msgid "Problems appeared for module install request"
-msgstr "Виникли проблеми із запитом щодо вимикання модуля"
+msgstr "Виникли проблеми із запитом щодо встановлення модуля"
 
 #: libdnf/dnf-context.cpp:3589
 msgid "Problems appeared for module reset request"
@@ -843,6 +837,8 @@ msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
 msgstr ""
+"Не вдалося застосувати дані щодо застарівання за модулями до «%s:%s», "
+"оскільки модуль призначення «%s» вимкнено"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -873,6 +869,8 @@ msgstr "Не вдалося оновити потоки: %s"
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""
+"Не вдалося отримати застарілі пакунки для модуля, оскільки немає потоку, що "
+"відповідає запису %s: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
