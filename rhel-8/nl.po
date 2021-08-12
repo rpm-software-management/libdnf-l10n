@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 14:28+0200\n"
-"PO-Revision-Date: 2021-03-09 20:01+0000\n"
+"PO-Revision-Date: 2021-08-13 09:04+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-8/nl/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -43,14 +43,12 @@ msgid "invalid value"
 msgstr "ongeldige waarde"
 
 #: libdnf/conf/ConfigMain.cpp:207
-#, fuzzy
-#| msgid "'%s' is not an allowed value"
 msgid "value 1 is not allowed"
-msgstr "'%s' is geen toegestane waarde"
+msgstr "waarde 1 wordt niet toegestaan"
 
 #: libdnf/conf/ConfigMain.cpp:209
 msgid "negative value is not allowed"
-msgstr ""
+msgstr "negatieve waarde wordt niet toegestaan"
 
 #: libdnf/conf/ConfigMain.cpp:341
 #, c-format
@@ -167,16 +165,13 @@ msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Onnodige informatie in argument wordt genegeerd: '%s'"
 
 #: libdnf/dnf-context.cpp:3408
-#, fuzzy, c-format
-#| msgid ""
-#| "Problem during enablement of dependency tree for moduele '%1$s' stream "
-#| "'%2$s': %3$s"
+#, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
-"Probleem tijdens het inschakelen van de afhankelijkheidsboom voor module "
-"'%1$s' stream '%2$s': %3$s"
+"Probleem tijdens het inschakelen van de afhankelijkheidsboom voor module '%1$"
+"s' stream '%2$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3420
 msgid "Problems appeared for module enable request"
@@ -184,16 +179,13 @@ msgstr "Er zijn problemen opgetreden met het verzoek om module-inschakeling"
 
 #. this really should never happen; unless the modular repodata is corrupted
 #: libdnf/dnf-context.cpp:3495
-#, fuzzy, c-format
-#| msgid "Failed to upgrade defaults: %s"
+#, c-format
 msgid "Failed to parse module artifact NEVRA '%s'"
-msgstr "Kan standaardwaarden niet upgraden: %s"
+msgstr "Kan moduleartefact NEVRA '%s' niet ontleden"
 
 #: libdnf/dnf-context.cpp:3529
-#, fuzzy
-#| msgid "Problems appeared for module disable request"
 msgid "Problems appeared for module install request"
-msgstr "Er zijn problemen opgetreden voor het verzoek om module-uitschakeling"
+msgstr "Er zijn problemen opgetreden voor het verzoek om module-installatie"
 
 #: libdnf/dnf-context.cpp:3589
 msgid "Problems appeared for module reset request"
@@ -846,6 +838,8 @@ msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
 msgstr ""
+"Kan modulaire veroudering niet toepassen op '%s:%s' omdat doelmodule '%s' is "
+"uitgeschakeld"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -877,6 +871,7 @@ msgstr "Kan streams niet upgraden: %s"
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""
+"Kan verouderde module niet ophalen omdat er geen stream overeenkomt met %s:%s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
