@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-05-12 11:47+0000\n"
+"PO-Revision-Date: 2021-08-16 13:50+0000\n"
 "Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-master/pt_BR/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -384,7 +384,6 @@ msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr "Seletor malformado usado para a operação, tipo de comparação incorreto"
 
 #: libdnf/goal/Goal.cpp:67 libdnf/goal/Goal.cpp:94
-#, fuzzy
 msgid " does not belong to a distupgrade repository"
 msgstr " não pertence a um repositório distupgrade"
 
@@ -405,8 +404,9 @@ msgid "unsupported request"
 msgstr "solicitação não suportada"
 
 #: libdnf/goal/Goal.cpp:72 libdnf/goal/Goal.cpp:99
+#, fuzzy
 msgid "nothing provides requested "
-msgstr ""
+msgstr "nada fornece solicitado "
 
 #: libdnf/goal/Goal.cpp:73
 #, c-format
@@ -431,7 +431,7 @@ msgid "cannot install the best candidate for the job"
 msgstr "não é possível instalar o melhor candidato para a tarefa"
 
 #: libdnf/goal/Goal.cpp:78
-#, fuzzy, c-format
+#, c-format
 msgid "package %s is filtered out by modular filtering"
 msgstr "o pacote %s é filtrado por filtragem modular"
 
@@ -446,12 +446,12 @@ msgid "package %s is not installable"
 msgstr "pacote %s não é instalável"
 
 #: libdnf/goal/Goal.cpp:81
-#, fuzzy, c-format
+#, c-format
 msgid "package %s is filtered out by exclude filtering"
 msgstr "o pacote %s é filtrado pela filtragem de exclusão"
 
 #: libdnf/goal/Goal.cpp:82
-#, fuzzy, c-format
+#, c-format
 msgid "nothing provides %s needed by %s"
 msgstr "nada fornece %s necessário para %s"
 
@@ -476,7 +476,7 @@ msgid "installed package %s obsoletes %s provided by %s"
 msgstr "pacote instalado %s torna obsoleto %s oferecido por %s"
 
 #: libdnf/goal/Goal.cpp:87
-#, fuzzy, c-format
+#, c-format
 msgid "package %s implicitly obsoletes %s provided by %s"
 msgstr "o pacote %s torna obsoleto implicitamente %s fornecido por %s"
 
@@ -527,7 +527,7 @@ msgstr "módulo %s não é instalável"
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "nothing provides %s needed by module %s"
-msgstr ""
+msgstr "nada fornece %s necessário para o módulo %s"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
@@ -575,14 +575,14 @@ msgid "no solver set"
 msgstr "nenhum solucionador definido"
 
 #: libdnf/goal/Goal.cpp:1013
-#, fuzzy, c-format
+#, c-format
 msgid "failed to make %s absolute"
-msgstr "falhou em tornar %s absoluto"
+msgstr "falha em tornar %s absoluto"
 
 #: libdnf/goal/Goal.cpp:1020
-#, fuzzy, c-format
+#, c-format
 msgid "failed writing debugdata to %1$s: %2$s"
-msgstr "falha ao gravar dados de depuração em %1$s: %2$s"
+msgstr "falha ao gravar debugdata em %1$s: %2$s"
 
 #: libdnf/goal/Goal.cpp:1032
 msgid "no solv in the goal"
@@ -609,7 +609,7 @@ msgstr "Falha ao renomear %1$s para %2$s: %3$s"
 #: libdnf/hy-iutil.cpp:330
 #, c-format
 msgid "Failed setting perms on %1$s: %2$s"
-msgstr ""
+msgstr "Falha ao definir permissões em %1$s: %2$s"
 
 #: libdnf/hy-iutil.cpp:376
 #, c-format
@@ -619,7 +619,7 @@ msgstr "não é possível criar o diretório %1$s: %2$s"
 #: libdnf/hy-iutil.cpp:411
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
-msgstr ""
+msgstr "não foi possível obter stat do caminho %1$s: %2$s"
 
 #: libdnf/module/ModulePackage.cpp:463
 #, c-format
@@ -642,7 +642,7 @@ msgstr "Detecção do Módulo de Plataforma em %s falhou: %s"
 #: libdnf/module/ModulePackage.cpp:527
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
-msgstr ""
+msgstr "PLATFORM_ID faltando em %s"
 
 #: libdnf/module/ModulePackage.cpp:532
 msgid "No valid Platform ID detected"
@@ -723,11 +723,11 @@ msgstr "Carregando arquivo plugin=\"%s\""
 #: libdnf/plugin/plugin.cpp:89
 #, c-format
 msgid "Loaded plugin name=\"%s\", version=\"%s\""
-msgstr ""
+msgstr "Plugin carregado nome=\"%s\", versão=\"%s\""
 
 #: libdnf/plugin/plugin.cpp:96
 msgid "Plugins::loadPlugins() dirPath cannot be empty"
-msgstr ""
+msgstr "Plugins::loadPlugins() dirPath não pode estar vazio"
 
 #: libdnf/plugin/plugin.cpp:105
 #, c-format
@@ -742,7 +742,7 @@ msgstr "Não é possível carregar o plugin \"%s\": %s"
 #: libdnf/repo/Repo.cpp:337
 #, c-format
 msgid "Bad id for repo: %s, byte = %s %d"
-msgstr ""
+msgstr "Id inválido para repo: %s, byte = %s %d"
 
 #: libdnf/repo/Repo.cpp:362
 #, c-format
@@ -835,7 +835,7 @@ msgstr "reativando: falhou por '%s', repomd não coincide."
 #: libdnf/repo/Repo.cpp:1257
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
-msgstr ""
+msgstr "Não foi possível criar o diretório de destino do repo \"%s\": %s"
 
 #: libdnf/repo/Repo.cpp:1263
 #, c-format
@@ -879,7 +879,7 @@ msgstr "getCachedir (): Falha na computação de SHA256"
 #: libdnf/repo/Repo.cpp:1396
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
-msgstr ""
+msgstr "Não foi possível criar persistdir \"%s\": %s"
 
 #: libdnf/repo/Repo.cpp:1796
 msgid "resume cannot be used simultaneously with the byterangestart param"
