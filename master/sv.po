@@ -1,6 +1,6 @@
-# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020.
-# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020.
-# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020.
+# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021.
 # Mikael Granberg <mikael@famgra.se>, 2020.
 # Luna Jernberg <bittin@reimu.nl>, 2021.
 msgid ""
@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-08-07 16:04+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"PO-Revision-Date: 2021-08-19 06:05+0000\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/sv/>\n"
 "Language: sv\n"
@@ -556,7 +556,7 @@ msgstr "modulen %s står i konflikt med %s som den tillhandahåller själv"
 #: libdnf/goal/Goal.cpp:117
 #, c-format
 msgid "both module %s and %s obsolete %s"
-msgstr "både modulen %s och %s fasar ut %sx"
+msgstr "både modulen %s och %s fasar ut %s"
 
 #: libdnf/goal/Goal.cpp:1008
 msgid "no solver set"
