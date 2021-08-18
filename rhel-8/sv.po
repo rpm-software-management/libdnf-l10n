@@ -2,19 +2,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Göran Uddeborg <goeran@uddeborg.se>, 2021.
+# Luna Jernberg <bittin@reimu.nl>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 14:28+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-19 06:05+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
+"libdnf-rhel-8/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -786,17 +789,17 @@ msgstr ""
 #: libdnf/module/ModulePackageContainer.cpp:1663
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
-msgstr ""
+msgstr "Det går inte att skapa katalogen ”%s” för modulär felsäker data: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1679
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
-msgstr ""
+msgstr "Kan inte spara modulär felsäker data till ”%s”"
 
 #: libdnf/module/ModulePackageContainer.cpp:1702
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
-msgstr ""
+msgstr "Kan inte ta bort modulär felsäker data i ”%s”"
 
 #: libdnf/module/ModulePackageContainer.cpp:1734
 #, c-format
@@ -804,71 +807,73 @@ msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
 msgstr ""
+"Kan inte verkställa modulära föråldranden på ”%s:%s” för att målmodulen ”%s” "
+"är avaktiverad"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
 msgid "Failed to update from string: %s"
-msgstr ""
+msgstr "Misslyckades att uppgradera från en sträng: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:110
 #, c-format
 msgid "Failed to resolve: %s"
-msgstr ""
+msgstr "Misslyckades att slå upp: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:115
 #, c-format
 msgid "There were errors while resolving modular defaults: %s"
-msgstr ""
+msgstr "Fel uppstod när modulstandarder löstes upp: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:120
 #, c-format
 msgid "Failed to upgrade defaults: %s"
-msgstr ""
+msgstr "Misslyckades att uppgradera standardvärden: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:123
 #, c-format
 msgid "Failed to upgrade streams: %s"
-msgstr ""
+msgstr "Misslyckades att uppgradera strömmar: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:212
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
-msgstr ""
+msgstr "Kan inte hämta modulutfasningar eftersom ingen ström matchar %s: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
 msgid "Can't load shared library \"%s\": %s"
-msgstr ""
+msgstr "Kan inte ladda det delade biblioteket ”%s”: %s"
 
 #: libdnf/plugin/plugin.cpp:61 libdnf/plugin/plugin.cpp:67
 #: libdnf/plugin/plugin.cpp:73 libdnf/plugin/plugin.cpp:79
 #, c-format
 msgid "Can't obtain address of symbol \"%s\": %s"
-msgstr ""
+msgstr "Kan inte få adressen till symbolen ”%s”: %s"
 
 #: libdnf/plugin/plugin.cpp:86
 #, c-format
 msgid "Loading plugin file=\"%s\""
-msgstr ""
+msgstr "Läser in insticksmodulsfilen=”%s”"
 
 #: libdnf/plugin/plugin.cpp:89
 #, c-format
 msgid "Loaded plugin name=\"%s\", version=\"%s\""
-msgstr ""
+msgstr "Läste in insticksmodulen namn=”%s”, version=”%s”"
 
 #: libdnf/plugin/plugin.cpp:96
 msgid "Plugins::loadPlugins() dirPath cannot be empty"
-msgstr ""
+msgstr "Plugins::loadPlugins() dirPath får inte vara tom"
 
 #: libdnf/plugin/plugin.cpp:105
 #, c-format
 msgid "Can't read plugin directory \"%s\": %s"
-msgstr ""
+msgstr "Kan inte läsa katalogen för insticksmoduler ”%s”: %s"
 
 #: libdnf/plugin/plugin.cpp:114
 #, c-format
 msgid "Can't load plugin \"%s\": %s"
-msgstr ""
+msgstr "Kan inte läsa in insticksmodulen ”%s”: %s"
 
 #: libdnf/repo/DependencySplitter.cpp:50
 msgid ""
@@ -876,219 +881,225 @@ msgid ""
 "deprecated and the support will be dropped in future versions. Use '=' "
 "operator instead."
 msgstr ""
+"Att använda operatorn ”==” i reldeps kan resultera i ett odefinierat "
+"beteende. Det undanbedes och stödet kommer tas bort i framtida versioner. "
+"Använd operatorn ”=” istället."
 
 #: libdnf/repo/Repo.cpp:321
 #, c-format
 msgid "Repository %s has no mirror or baseurl set."
-msgstr ""
+msgstr "Förrådet %s har ingen spegel eller bas-url satt."
 
 #: libdnf/repo/Repo.cpp:330
 #, c-format
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
-msgstr ""
+msgstr "Förrådet ”%s” har en typ som inte stödjs: ”type=%s”, hoppar över."
 
 #: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:610 libdnf/repo/Repo.cpp:641
 #: libdnf/repo/Repo.cpp:1382
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
-msgstr ""
+msgstr "förrådet ”%s”: ”basecachedir” är inte satt"
 
 #: libdnf/repo/Repo.cpp:512
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
 msgstr ""
+"Maximal hämtningshastighet är mindre än minimum. Ändra konfigurationen av "
+"minrate eller throttle"
 
 #: libdnf/repo/Repo.cpp:546
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "förrådet ”%s”: ”proxy_username” är satt men inte ”proxy_password”"
 
 #: libdnf/repo/Repo.cpp:548
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "”proxy_username” är satt men inte ”proxy_password”"
 
 #: libdnf/repo/Repo.cpp:629
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
-msgstr ""
+msgstr "Kan inte hitta en giltig bas-url för förrådet: %s"
 
 #: libdnf/repo/Repo.cpp:660 libdnf/repo/Repo.cpp:682
 #, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
-msgstr ""
+msgstr "%s: gpgme_data_new_from_fd(): %s"
 
 #: libdnf/repo/Repo.cpp:668 libdnf/repo/Repo.cpp:690
 #, c-format
 msgid "%s: gpgme_op_import(): %s"
-msgstr ""
+msgstr "%s: gpgme_op_import(): %s"
 
 #: libdnf/repo/Repo.cpp:713 libdnf/repo/Repo.cpp:779 libdnf/repo/Repo.cpp:907
 #, c-format
 msgid "%s: gpgme_ctx_set_engine_info(): %s"
-msgstr ""
+msgstr "%s: gpgme_ctx_set_engine_info(): %s"
 
 #: libdnf/repo/Repo.cpp:740 libdnf/repo/Repo.cpp:804
 #, c-format
 msgid "can not list keys: %s"
-msgstr ""
+msgstr "kan inte lista nycklar: %s"
 
 #: libdnf/repo/Repo.cpp:833
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
-msgstr ""
+msgstr "Misslyckades att hämta GPG-nyckel för förrådet ”%s”: %s"
 
 #: libdnf/repo/Repo.cpp:886
 #, c-format
 msgid "repo %s: 0x%s already imported"
-msgstr ""
+msgstr "förrådet %s: 0x%s är redan importerad"
 
 #: libdnf/repo/Repo.cpp:914
 #, c-format
 msgid "repo %s: imported key 0x%s."
-msgstr ""
+msgstr "Paketkatalog %s: importerade nyckeln 0x%s."
 
 #: libdnf/repo/Repo.cpp:1162
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
-msgstr ""
+msgstr "återupplivar: förrådet ”%s” överhoppat, ingen metalink."
 
 #: libdnf/repo/Repo.cpp:1181
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
-msgstr ""
+msgstr "återupplivar: förrådet ”%s” överhoppat, ingen användbar hash."
 
 #: libdnf/repo/Repo.cpp:1204
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
-msgstr ""
+msgstr "återupplivar: misslyckades med ”%s”, %s-summor stämmer inte."
 
 #: libdnf/repo/Repo.cpp:1210
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
+"återupplivar: ”%s” kan återupplivas – metalänkens kontrollsummor stämmer."
 
 #: libdnf/repo/Repo.cpp:1235
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
-msgstr ""
+msgstr "återupplivar: ”%s” kan återupplivas – repomd stämmer."
 
 #: libdnf/repo/Repo.cpp:1237
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
-msgstr ""
+msgstr "återupplivar: misslyckades med ”%s”, repomd stämmer inte."
 
 #: libdnf/repo/Repo.cpp:1255
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
-msgstr ""
+msgstr "Kan inte skapa målkatalogen för förrådet ”%s”: %s"
 
 #: libdnf/repo/Repo.cpp:1261
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
-msgstr ""
+msgstr "Kaan inte skapa den temporära förrådskatalogen ”%s”: %s"
 
 #: libdnf/repo/Repo.cpp:1275
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
-msgstr ""
+msgstr "Kan inte skapa katalogen ”%s”: %s"
 
 #: libdnf/repo/Repo.cpp:1298
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
-msgstr ""
+msgstr "Kan inte byta namn på katalogen ”%s” till ”%s”: %s"
 
 #: libdnf/repo/Repo.cpp:1321
 #, c-format
 msgid "repo: using cache for: %s"
-msgstr ""
+msgstr "förråd: använder cache för: %s"
 
 #: libdnf/repo/Repo.cpp:1333
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
-msgstr ""
+msgstr "Enbart-cache aktiverat men ingen cache för ”%s”"
 
 #: libdnf/repo/Repo.cpp:1337
 #, c-format
 msgid "repo: downloading from remote: %s"
-msgstr ""
+msgstr "förråd: hämtar från fjärrförråd: %s"
 
 #: libdnf/repo/Repo.cpp:1344
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
-msgstr ""
+msgstr "Misslyckades att hämta metadata för förrådet ”%s”: %s"
 
 #: libdnf/repo/Repo.cpp:1370
 msgid "getCachedir(): Computation of SHA256 failed"
-msgstr ""
+msgstr "getCachedir(): Beräkningen av SHA256 misslyckades"
 
 #: libdnf/repo/Repo.cpp:1398
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
-msgstr ""
+msgstr "Det går inte att skapa ett persistdir ”%s”: %s"
 
 #: libdnf/repo/Repo.cpp:1775
 msgid "resume cannot be used simultaneously with the byterangestart param"
-msgstr ""
+msgstr "resume kan inte användas samtidigt med parametern byterangestart"
 
 #: libdnf/repo/Repo.cpp:1792
 #, c-format
 msgid "PackageTarget initialization failed: %s"
-msgstr ""
+msgstr "Initiering av PackageTarget misslyckades: %s"
 
 #: libdnf/repo/Repo.cpp:1898
 #, c-format
 msgid "Cannot open %s: %s"
-msgstr ""
+msgstr "Kan inte öppna %s: %s"
 
 #: libdnf/repo/Repo.cpp:1942
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
-msgstr ""
+msgstr "Logghanterare med id %ld finns inte"
 
 #: libdnf/transaction/Swdb.cpp:173
 msgid "In progress"
-msgstr ""
+msgstr "Pågår"
 
 #: libdnf/transaction/Swdb.cpp:187 libdnf/transaction/Swdb.cpp:215
 #: libdnf/transaction/Swdb.cpp:227 libdnf/transaction/Swdb.cpp:244
 #: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:393
 msgid "Not in progress"
-msgstr ""
+msgstr "Pågår inte"
 
 #: libdnf/transaction/Swdb.cpp:254
 msgid "No transaction in progress"
-msgstr ""
+msgstr "Ingen transaktion pågår"
 
 #: libdnf/transaction/TransactionItem.cpp:147
 msgid "Attempt to insert transaction item into completed transaction"
-msgstr ""
+msgstr "Försök att infoga transaktionsobjekt i en avslutad transaktion"
 
 #: libdnf/transaction/TransactionItem.cpp:218
 msgid "Attempt to update transaction item in completed transaction"
-msgstr ""
+msgstr "Försök att uppdatera transaktionsobjekt i en avslutad transaktion"
 
 #: libdnf/transaction/Transformer.cpp:76
 msgid "Database Corrupted: no row 'version' in table 'config'"
-msgstr ""
+msgstr "Databasen är trasig: det finns ingen rad ”version” i tabellen ”config”"
 
 #: libdnf/transaction/Transformer.cpp:681
 msgid "Transformer: can't open history persist dir"
-msgstr ""
+msgstr "Transformerare: kan inte öppna historisk varaktig katalog"
 
 #: libdnf/transaction/Transformer.cpp:694
 msgid "Couldn't find a history database"
-msgstr ""
+msgstr "Kan inte hitta en historiedatabas"
 
 #: libdnf/transaction/private/Transaction.cpp:41
 msgid "Transaction has already began!"
-msgstr ""
+msgstr "Transaktionen har redan påbörjats!"
 
 #: libdnf/transaction/private/Transaction.cpp:58
 #, c-format
 msgid "TransactionItem state is not set: %s"
-msgstr ""
+msgstr "Transaktionsobjektets tillstånd inte satt: %s"
 
 #: libdnf/transaction/private/Transaction.cpp:243
 msgid "Can't add console output to unsaved transaction"
-msgstr ""
+msgstr "Kan inte lägga till konsolutdata till en osparad transaktion"
