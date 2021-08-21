@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-19 01:35+0000\n"
+"POT-Creation-Date: 2021-08-21 01:40+0000\n"
 "PO-Revision-Date: 2021-07-15 07:04+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
@@ -811,33 +811,33 @@ msgstr ""
 msgid "Resetting modules:\n"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:1673
+#: libdnf/module/ModulePackageContainer.cpp:1675
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "Impussibil cjariâ i dâts modulârs a prove di erôr su '%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1679
+#: libdnf/module/ModulePackageContainer.cpp:1681
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "Impussibil cjariâ i dâts modulârs a prove di erôr pal modul '%s:%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1760
+#: libdnf/module/ModulePackageContainer.cpp:1762
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 "Impussibil creâ la cartele \"%s\" pai dâts modulârs a prove di erôr: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1776
+#: libdnf/module/ModulePackageContainer.cpp:1778
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "Impussibil salvâ un dât modulâr a prove di erôr su '%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1799
+#: libdnf/module/ModulePackageContainer.cpp:1801
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Impussibil gjavâ un dât modulâr a prove di erôr in '%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1831
+#: libdnf/module/ModulePackageContainer.cpp:1833
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
@@ -869,7 +869,7 @@ msgstr "Nol è stât pussibil inzornâ i parametris predefinîts: %s"
 msgid "Failed to upgrade streams: %s"
 msgstr "Nol è stât pussibil inzornâ i flus: %s"
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:219
+#: libdnf/module/modulemd/ModuleMetadata.cpp:221
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""

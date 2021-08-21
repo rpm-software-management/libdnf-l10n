@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-19 01:35+0000\n"
+"POT-Creation-Date: 2021-08-21 01:40+0000\n"
 "PO-Revision-Date: 2021-05-17 03:02+0000\n"
 "Last-Translator: Julien Humbert <julroy67@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
@@ -851,37 +851,37 @@ msgstr "Désactivation des modules :\n"
 msgid "Resetting modules:\n"
 msgstr "Réinitialisation des modules :\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1673
+#: libdnf/module/ModulePackageContainer.cpp:1675
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "Impossible de charger les données de sécurité à « %s »"
 
-#: libdnf/module/ModulePackageContainer.cpp:1679
+#: libdnf/module/ModulePackageContainer.cpp:1681
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
 "Impossible de charger les données de sécurité modulaires pour le module "
 "« %s : %s »"
 
-#: libdnf/module/ModulePackageContainer.cpp:1760
+#: libdnf/module/ModulePackageContainer.cpp:1762
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 "Impossible de créer le dossier « %s » pour les données de sécurité "
 "modulaires : %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1776
+#: libdnf/module/ModulePackageContainer.cpp:1778
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr ""
 "Impossible d’enregistrer les données de sécurité modulaires vers « %s »"
 
-#: libdnf/module/ModulePackageContainer.cpp:1799
+#: libdnf/module/ModulePackageContainer.cpp:1801
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Impossible de supprimer les données de sécurité modulaires dans « %s »"
 
-#: libdnf/module/ModulePackageContainer.cpp:1831
+#: libdnf/module/ModulePackageContainer.cpp:1833
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
@@ -916,7 +916,7 @@ msgstr "Échec de la mise à jour des paramètres par défaut : %s"
 msgid "Failed to upgrade streams: %s"
 msgstr "Échec de la mise à jour des flux : %s"
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:219
+#: libdnf/module/modulemd/ModuleMetadata.cpp:221
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""

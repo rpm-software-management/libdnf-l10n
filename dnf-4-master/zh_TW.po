@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-19 01:35+0000\n"
+"POT-Creation-Date: 2021-08-21 01:40+0000\n"
 "PO-Revision-Date: 2020-08-28 12:29+0000\n"
 "Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
@@ -808,32 +808,32 @@ msgstr ""
 msgid "Resetting modules:\n"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:1673
+#: libdnf/module/ModulePackageContainer.cpp:1675
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "無法載入位於「%s」的模組化防故障資料"
 
-#: libdnf/module/ModulePackageContainer.cpp:1679
+#: libdnf/module/ModulePackageContainer.cpp:1681
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "無法載入「%s:%s」模組的模組化防故障資料"
 
-#: libdnf/module/ModulePackageContainer.cpp:1760
+#: libdnf/module/ModulePackageContainer.cpp:1762
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr "無法為模組化防故障資料建立「%s」目錄：%s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1776
+#: libdnf/module/ModulePackageContainer.cpp:1778
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "無法儲存模組化防故障資料至「%s」"
 
-#: libdnf/module/ModulePackageContainer.cpp:1799
+#: libdnf/module/ModulePackageContainer.cpp:1801
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "無法移除「%s」的模組化防故障資料"
 
-#: libdnf/module/ModulePackageContainer.cpp:1831
+#: libdnf/module/ModulePackageContainer.cpp:1833
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
@@ -865,7 +865,7 @@ msgstr "無法升級預設值：%s"
 msgid "Failed to upgrade streams: %s"
 msgstr "無法升級串流：%s"
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:219
+#: libdnf/module/modulemd/ModuleMetadata.cpp:221
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""

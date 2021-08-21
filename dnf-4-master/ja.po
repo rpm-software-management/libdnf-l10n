@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-19 01:35+0000\n"
+"POT-Creation-Date: 2021-08-21 01:40+0000\n"
 "PO-Revision-Date: 2020-05-05 09:40+0000\n"
 "Last-Translator: Casey Jones <nahareport@yahoo.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -824,34 +824,34 @@ msgstr ""
 msgid "Resetting modules:\n"
 msgstr ""
 
-#: libdnf/module/ModulePackageContainer.cpp:1673
+#: libdnf/module/ModulePackageContainer.cpp:1675
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "'%s' のモジュラーフェイルセーフデータをロードできません"
 
-#: libdnf/module/ModulePackageContainer.cpp:1679
+#: libdnf/module/ModulePackageContainer.cpp:1681
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "モジュール '%s:%s' のモジュラーフェイルセーフデータをロードできません"
 
-#: libdnf/module/ModulePackageContainer.cpp:1760
+#: libdnf/module/ModulePackageContainer.cpp:1762
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 "ディレクトリー \"%s\" を作成できません。対象モジュラーフェイルセーフデータ: "
 "%s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1776
+#: libdnf/module/ModulePackageContainer.cpp:1778
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "'%s' のモジュラーフェイルセーフデータを保存できません"
 
-#: libdnf/module/ModulePackageContainer.cpp:1799
+#: libdnf/module/ModulePackageContainer.cpp:1801
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "'%s' のモジュラーフェイルセーフデータを削除できません"
 
-#: libdnf/module/ModulePackageContainer.cpp:1831
+#: libdnf/module/ModulePackageContainer.cpp:1833
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
@@ -883,7 +883,7 @@ msgstr "デフォルトのアップグレードに失敗しました: %s"
 msgid "Failed to upgrade streams: %s"
 msgstr "ストリームのアップグレードに失敗しました: %s"
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:219
+#: libdnf/module/modulemd/ModuleMetadata.cpp:221
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""

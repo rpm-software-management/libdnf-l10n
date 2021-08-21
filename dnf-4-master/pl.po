@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-19 01:35+0000\n"
+"POT-Creation-Date: 2021-08-21 01:40+0000\n"
 "PO-Revision-Date: 2021-07-30 15:05+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/"
@@ -837,35 +837,35 @@ msgstr "Wyłączanie modułów:\n"
 msgid "Resetting modules:\n"
 msgstr "Przywracanie modułów:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1673
+#: libdnf/module/ModulePackageContainer.cpp:1675
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "Wczytanie modularnych danych Fail-Safe w „%s” się nie powiodło"
 
-#: libdnf/module/ModulePackageContainer.cpp:1679
+#: libdnf/module/ModulePackageContainer.cpp:1681
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
 "Wczytanie modularnych danych Fail-Safe dla modułu „%s:%s” się nie powiodło"
 
-#: libdnf/module/ModulePackageContainer.cpp:1760
+#: libdnf/module/ModulePackageContainer.cpp:1762
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 "Utworzenie katalogu „%s” dla modularnych danych Fail Safe się nie powiodło: "
 "%s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1776
+#: libdnf/module/ModulePackageContainer.cpp:1778
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "Zapisanie modularnych danych Fail Safe do „%s” się nie powiodło"
 
-#: libdnf/module/ModulePackageContainer.cpp:1799
+#: libdnf/module/ModulePackageContainer.cpp:1801
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Usunięcie modularnych danych Fail Safe w „%s” się nie powiodło"
 
-#: libdnf/module/ModulePackageContainer.cpp:1831
+#: libdnf/module/ModulePackageContainer.cpp:1833
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
@@ -899,7 +899,7 @@ msgstr "Zaktualizowanie domyślnych się nie powiodło: %s"
 msgid "Failed to upgrade streams: %s"
 msgstr "Zaktualizowanie strumieni się nie powiodło: %s"
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:219
+#: libdnf/module/modulemd/ModuleMetadata.cpp:221
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""
