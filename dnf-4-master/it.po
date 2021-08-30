@@ -2,20 +2,22 @@
 # Luigi Toscano <luigi.toscano@tiscali.it>, 2017. #zanata
 # Giovanni Grieco <giovanni.grc96@gmail.com>, 2018. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Alessio <alciregi@posteo.net>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-21 01:40+0000\n"
-"PO-Revision-Date: 2018-11-02 05:26+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Italian\n"
+"PO-Revision-Date: 2021-08-31 17:04+0000\n"
+"Last-Translator: Alessio <alciregi@posteo.net>\n"
+"Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/"
+"libdnf-dnf-4-master/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -42,14 +44,12 @@ msgid "invalid value"
 msgstr "valore chiave/certificato non valido"
 
 #: libdnf/conf/ConfigMain.cpp:207
-#, fuzzy
-#| msgid "'%s' is not an allowed value"
 msgid "value 1 is not allowed"
-msgstr "'%s' non è un valore ammesso"
+msgstr "value 1 non è un valore consentito"
 
 #: libdnf/conf/ConfigMain.cpp:209
 msgid "negative value is not allowed"
-msgstr ""
+msgstr "un valore negativo non è consentito"
 
 #: libdnf/conf/ConfigMain.cpp:341
 #, c-format
