@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 01:42+0000\n"
-"PO-Revision-Date: 2021-08-19 06:05+0000\n"
+"PO-Revision-Date: 2021-09-04 21:04+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/sv/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -1010,7 +1010,7 @@ msgstr "förrådet %s: 0x%s är redan importerad"
 #: libdnf/repo/Repo.cpp:904 libdnf/utils/filesystem.cpp:79
 #, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
-msgstr "Misslyckades med att skapa katalog \"%s\": %d - %s"
+msgstr "Misslyckades med att skapa katalogen ”%s”: %d - %s"
 
 #: libdnf/repo/Repo.cpp:924
 #, c-format
