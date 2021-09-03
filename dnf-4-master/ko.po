@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 01:42+0000\n"
-"PO-Revision-Date: 2021-08-13 09:04+0000\n"
+"PO-Revision-Date: 2021-09-04 21:04+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ko/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -127,7 +127,7 @@ msgstr "기본설정에 모듈 의존성 문제: %s"
 #: libdnf/dnf-context.cpp:3266
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr "최신 모듈: %s 에 모듈러 의존성 문제"
+msgstr "최신 모듈에 모듈 의존성 문제: %s"
 
 #: libdnf/dnf-context.cpp:3270
 #, c-format
