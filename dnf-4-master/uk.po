@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 01:42+0000\n"
-"PO-Revision-Date: 2021-08-13 09:04+0000\n"
+"PO-Revision-Date: 2021-09-04 21:04+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -127,7 +127,7 @@ msgstr "Проблема із залежностями модулів у Default
 #: libdnf/dnf-context.cpp:3266
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr "Проблема із залежностями модулів із найсвіжішими модулями: %s"
+msgstr "Проблема із залежностями модулів для найсвіжіших модулів: %s"
 
 #: libdnf/dnf-context.cpp:3270
 #, c-format
@@ -1023,7 +1023,7 @@ msgstr "сховище %s: 0x%s вже імпортовано"
 #: libdnf/repo/Repo.cpp:904 libdnf/utils/filesystem.cpp:79
 #, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
-msgstr "Не вдалося створити каталог «%s»: %d – %s"
+msgstr "Не вдалося створити каталог «%s»: %d — %s"
 
 #: libdnf/repo/Repo.cpp:924
 #, c-format
