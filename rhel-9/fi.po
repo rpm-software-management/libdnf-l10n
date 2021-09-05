@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 08:49+0200\n"
-"PO-Revision-Date: 2021-08-13 09:04+0000\n"
+"PO-Revision-Date: 2021-09-06 17:27+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
-"libdnf-rhel-8/fi/>\n"
+"libdnf-rhel-9/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -126,10 +126,9 @@ msgid "Modular dependency problem with Defaults: %s"
 msgstr "Modulaarinen riippuvuusongelma oletusarvojen kanssa: %s"
 
 #: libdnf/dnf-context.cpp:3256
-#, fuzzy, c-format
-#| msgid "Modular dependency problem with Defaults: %s"
+#, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr "Modulaarinen riippuvuusongelma oletusarvojen kanssa: %s"
+msgstr "Modulaarinen riippuvuusongelma viimeisimpien moduuleiden: %s kanssa"
 
 #: libdnf/dnf-context.cpp:3260
 #, c-format
@@ -993,10 +992,9 @@ msgid "repo %s: 0x%s already imported"
 msgstr "ohjelmistolähde %s: 0x%s jo tuotu"
 
 #: libdnf/repo/Repo.cpp:904 libdnf/utils/filesystem.cpp:79
-#, fuzzy, c-format
-#| msgid "Cannot create directory \"%s\": %s"
+#, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
-msgstr "Hakemistoa \"%s\" ei voida luoda: %s"
+msgstr "Hakemiston \"%s\": %d luonti epäonnistui: %s"
 
 #: libdnf/repo/Repo.cpp:924
 #, c-format
