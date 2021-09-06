@@ -1,13 +1,14 @@
 # Casey Jones <nahareport@live.com>, 2018. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Casey Jones <nahareport@yahoo.com>, 2020.
+# Sundeep Anand <suanand@redhat.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2020-05-05 09:40+0000\n"
-"Last-Translator: Casey Jones <nahareport@yahoo.com>\n"
+"PO-Revision-Date: 2021-09-06 17:27+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/ja/>\n"
 "Language: ja\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.0.3\n"
+"X-Generator: Weblate 4.8\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -69,12 +70,12 @@ msgstr "無効な値"
 #: libdnf/conf/OptionNumber.cpp:73
 #, c-format
 msgid "given value [%d] should be less than allowed value [%d]."
-msgstr "指定された値 [%d] は許可された値 [%d]より小さくしてください"
+msgstr "指定された値 [%d] は許可された値 [%d]より小さくしてください。"
 
 #: libdnf/conf/OptionNumber.cpp:76
 #, c-format
 msgid "given value [%d] should be greater than allowed value [%d]."
-msgstr "指定された値 [%d] は許可された値 [%d]より大きくしてください"
+msgstr "指定された値 [%d] は許可された値 [%d]より大きくしてください。"
 
 #: libdnf/conf/OptionPath.cpp:78
 #, c-format
@@ -341,12 +342,12 @@ msgstr "root の設定に失敗しました"
 #: libdnf/dnf-transaction.cpp:1418
 #, c-format
 msgid "Error %i running transaction test"
-msgstr "トランザクションテストの実行中にエラー %i "
+msgstr "トランザクションテストの実行中にエラー %i"
 
 #: libdnf/dnf-transaction.cpp:1458
 #, c-format
 msgid "Error %i running transaction"
-msgstr "トランザクションの実行中にエラー %i "
+msgstr "トランザクションの実行中にエラー %i"
 
 #: libdnf/dnf-transaction.cpp:1473
 #, c-format
@@ -761,9 +762,7 @@ msgstr "repo に対して有効な baseurl を見つけられません: %s"
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
-msgstr ""
-"ダウンロードの最高速度は、最低速度よりも低いです。minrate またはスロットルの"
-"設定を変更してください。"
+msgstr "ダウンロードの最高速度は、最低速度よりも低いです。minrate またはスロットルの設定を変更してください"
 
 #: libdnf/repo/Repo.cpp:666 libdnf/repo/Repo.cpp:688
 #, c-format
@@ -829,7 +828,7 @@ msgstr "復元中: '%s' は復元できます - repomd が一致します。"
 #: libdnf/repo/Repo.cpp:1239
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
-msgstr "復元中:  '%s' に失敗しました、repomd が一致しません。"
+msgstr "復元中: '%s' に失敗しました、repomd が一致しません。"
 
 #: libdnf/repo/Repo.cpp:1257
 #, c-format
@@ -839,12 +838,12 @@ msgstr "repo 送信先ディレクトリ \"%s\" を作成できません : %s"
 #: libdnf/repo/Repo.cpp:1263
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
-msgstr "repo 一時ディレクトリー \"%s\" を作成できません: %s "
+msgstr "repo 一時ディレクトリー \"%s\" を作成できません: %s"
 
 #: libdnf/repo/Repo.cpp:1277
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
-msgstr "ディレクトリー \"%s\" を作成できません: %s "
+msgstr "ディレクトリー \"%s\" を作成できません: %s"
 
 #: libdnf/repo/Repo.cpp:1300
 #, c-format
