@@ -11,16 +11,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 08:49+0200\n"
-"PO-Revision-Date: 2021-03-08 11:09+0000\n"
+"PO-Revision-Date: 2021-09-06 17:27+0000\n"
 "Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
-"libdnf-rhel-8/fr/>\n"
+"libdnf-rhel-9/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.8\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -47,14 +47,12 @@ msgid "invalid value"
 msgstr "valeur non valide"
 
 #: libdnf/conf/ConfigMain.cpp:207
-#, fuzzy
-#| msgid "'%s' is not an allowed value"
 msgid "value 1 is not allowed"
-msgstr "la valeur « %s » n’est pas autorisée"
+msgstr "la valeur 1 n’est pas autorisée"
 
 #: libdnf/conf/ConfigMain.cpp:209
 msgid "negative value is not allowed"
-msgstr ""
+msgstr "la valeur négative n'est pas autorisée"
 
 #: libdnf/conf/ConfigMain.cpp:341
 #, c-format
@@ -178,16 +176,13 @@ msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Ignorer les informations inutiles dans l'argumentation : '%s'"
 
 #: libdnf/dnf-context.cpp:3412
-#, fuzzy, c-format
-#| msgid ""
-#| "Problem during enablement of dependency tree for moduele '%1$s' stream "
-#| "'%2$s': %3$s"
+#, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
-"Problème lors de l'activation de l'arbre des dépendances pour le flux de "
-"module '%1$s' stream '%2$s' : %3$s"
+"Problème lors de l'activation de l'arbre des dépendances pour le module '%1$"
+"s' flux '%2$s' : %3$s"
 
 #: libdnf/dnf-context.cpp:3424
 msgid "Problems appeared for module enable request"
@@ -195,16 +190,13 @@ msgstr "Des problèmes sont apparus pour la demande d'activation du module"
 
 #. this really should never happen; unless the modular repodata is corrupted
 #: libdnf/dnf-context.cpp:3496
-#, fuzzy, c-format
-#| msgid "Failed to upgrade defaults: %s"
+#, c-format
 msgid "Failed to parse module artifact NEVRA '%s'"
-msgstr "Échec de la mise à jour des paramètres par défaut : %s"
+msgstr "Échec de l'analyse de l'artefact de module '%s'"
 
 #: libdnf/dnf-context.cpp:3530
-#, fuzzy
-#| msgid "Problems appeared for module disable request"
 msgid "Problems appeared for module install request"
-msgstr "Des problèmes sont apparus pour la demande de désactivation du module"
+msgstr "Des problèmes sont apparus pour la demande d'installation du module"
 
 #: libdnf/dnf-context.cpp:3590
 msgid "Problems appeared for module reset request"
@@ -861,6 +853,8 @@ msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
 msgstr ""
+"Impossible d'appliquer les obsolètes modulaires à '%s:%s' car le module "
+"cible '%s' est désactivé"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -892,6 +886,8 @@ msgstr "Échec de la mise à jour des flux : %s"
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""
+"Impossible de récupérer les modules obsolètes car aucune correspondance de "
+"flux %s: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
