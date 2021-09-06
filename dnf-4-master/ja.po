@@ -1,13 +1,14 @@
 # Casey Jones <nahareport@live.com>, 2018. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Casey Jones <nahareport@yahoo.com>, 2020.
+# Sundeep Anand <suanand@redhat.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-04 01:43+0000\n"
-"PO-Revision-Date: 2020-05-05 09:40+0000\n"
-"Last-Translator: Casey Jones <nahareport@yahoo.com>\n"
+"PO-Revision-Date: 2021-09-06 17:27+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ja/>\n"
 "Language: ja\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.0.3\n"
+"X-Generator: Weblate 4.8\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -139,43 +140,42 @@ msgstr "いくつかの依存問題"
 #: libdnf/dnf-context.cpp:3328 libdnf/dnf-context.cpp:3367
 #: libdnf/dnf-context.cpp:3383 libdnf/dnf-context.cpp:3415
 #: libdnf/dnf-context.cpp:3464 libdnf/dnf-context.cpp:3474
-#, fuzzy, c-format
-#| msgid "Failed to resolve: %s"
+#, c-format
 msgid "Unable to resolve argument '%s'"
-msgstr "名前解決に失敗しました: %s"
+msgstr "引数 '%s' を解決できません"
 
 #: libdnf/dnf-context.cpp:3300
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
-msgstr ""
+msgstr "モジュール名のみが必要です。引数の不必要な情報は無視します: '%s'"
 
 #: libdnf/dnf-context.cpp:3314
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
-msgstr ""
+msgstr "モジュール '%s' をリセットできません。モジュールの状態はすでに変更されています"
 
 #: libdnf/dnf-context.cpp:3325
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
-msgstr ""
+msgstr "モジュール '%s' を無効にできません。モジュールの状態はすでに変更されています"
 
 #: libdnf/dnf-context.cpp:3356 libdnf/dnf-context.cpp:3452
 #: libdnf/dnf-context.cpp:3633
 msgid "No modular data available"
-msgstr ""
+msgstr "モジュールデータは利用できません"
 
 #: libdnf/dnf-context.cpp:3373
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
-msgstr ""
+msgstr "引数の不要な情報は無視します: '%s'"
 
 #: libdnf/dnf-context.cpp:3411
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
-msgstr ""
+msgstr "モジュール '%1$s' ストリーム '%2$s' の依存関係ツリーの有効化中に問題: %3$s"
 
 #: libdnf/dnf-context.cpp:3423
 msgid "Problems appeared for module enable request:"
@@ -224,7 +224,7 @@ msgstr ""
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
-msgstr ""
+msgstr "オペレーションは、モジュール '%s' ストリーム '%s' を ストリーム '%s' へと切り替える結果となります"
 
 #: libdnf/dnf-context.cpp:3759
 msgid ""
@@ -233,6 +233,9 @@ msgid ""
 "the module using 'microdnf module reset <module_name>' command. After you "
 "reset the module, you can install the other stream."
 msgstr ""
+"有効化されたモジュールのストリームの切り替えはできません。\n"
+"モジュールからすべてのインストールされたコンテンツを削除し、'microdnf module reset <module_name>' "
+"コマンドを使用してモジュールをリセットすることを推奨します。モジュールのリセット後に、別のストリームをインストールできます。"
 
 #: libdnf/dnf-goal.cpp:85
 msgid "Could not depsolve transaction; "
@@ -397,7 +400,7 @@ msgstr "RPMDB のロードに失敗しました"
 #: libdnf/dnf-sack.cpp:2462
 #, c-format
 msgid "No module defaults found: %s"
-msgstr ""
+msgstr "モジュールのデフォルトは見つかりませんでした: %s"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
@@ -477,12 +480,12 @@ msgstr "root の設定に失敗しました"
 #: libdnf/dnf-transaction.cpp:1416
 #, c-format
 msgid "Error %i running transaction test"
-msgstr "トランザクションテストの実行中にエラー %i "
+msgstr "トランザクションテストの実行中にエラー %i"
 
 #: libdnf/dnf-transaction.cpp:1456
 #, c-format
 msgid "Error %i running transaction"
-msgstr "トランザクションの実行中にエラー %i "
+msgstr "トランザクションの実行中にエラー %i"
 
 #: libdnf/dnf-transaction.cpp:1472
 #, c-format
@@ -727,16 +730,13 @@ msgid "no solution possible"
 msgstr "可能なソリューションがありません"
 
 #: libdnf/goal/Goal.cpp:1210
-#, fuzzy
-#| msgid " Problem: %s\n"
 msgid "Problem: "
-msgstr " 問題: %s\n"
+msgstr "問題: "
 
 #: libdnf/goal/Goal.cpp:1215
-#, fuzzy, c-format
-#| msgid " Problem: %s\n"
+#, c-format
 msgid "Problem %d: "
-msgstr " 問題: %s\n"
+msgstr "問題 %d: "
 
 #: libdnf/goal/Goal.cpp:1542
 msgid ""
@@ -802,27 +802,27 @@ msgstr "repo '%s' のデフォルトが競合: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:917
 msgid "Installing module profiles:\n"
-msgstr ""
+msgstr "モジュールプロファイルのインストール中:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:932
 msgid "Disabling module profiles:\n"
-msgstr ""
+msgstr "モジュールプロファイルの無効化中:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:947
 msgid "Enabling module streams:\n"
-msgstr ""
+msgstr "モジュールストリームの有効化中:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:961
 msgid "Switching module streams:\n"
-msgstr ""
+msgstr "モジュールストリームの切り替え中:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:979
 msgid "Disabling modules:\n"
-msgstr ""
+msgstr "モジュールの無効化:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:990
 msgid "Resetting modules:\n"
-msgstr ""
+msgstr "モジュールの再設定中:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:1675
 #, c-format
@@ -856,7 +856,7 @@ msgstr "'%s' のモジュラーフェイルセーフデータを削除できま�
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
-msgstr ""
+msgstr "ターゲットモジュール '%s' が無効であるため、モジュラーの廃止を '%s:%s' に適用できません"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -871,7 +871,7 @@ msgstr "名前解決に失敗しました: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:115
 #, c-format
 msgid "There were errors while resolving modular defaults: %s"
-msgstr ""
+msgstr "モジュラーデフォルトの解決中にエラーが発生しました: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:120
 #, c-format
@@ -886,7 +886,7 @@ msgstr "ストリームのアップグレードに失敗しました: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:221
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
-msgstr ""
+msgstr "%s に一致するストリームがないため、モジュールの廃止を取得できません: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
@@ -929,6 +929,8 @@ msgid ""
 "deprecated and the support will be dropped in future versions. Use '=' "
 "operator instead."
 msgstr ""
+"reldeps で '==' 演算子を使用すると、未定義の動作が発生する可能性があります。これは非推奨で、将来のバージョンではサポートされなくなります。"
+"代わりに '=' 演算子を使用してください。"
 
 #: libdnf/repo/Repo.cpp:321
 #, c-format
@@ -946,24 +948,22 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:1400
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
-msgstr ""
+msgstr "repo '%s': 'basecachedir' が設定されていません"
 
 #: libdnf/repo/Repo.cpp:512
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
-msgstr ""
-"ダウンロードの最高速度は、最低速度よりも低いです。minrate またはスロットルの"
-"設定を変更してください。"
+msgstr "ダウンロードの最高速度は、最低速度よりも低いです。minrate またはスロットルの設定を変更してください"
 
 #: libdnf/repo/Repo.cpp:546
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "repo '%s': 'proxy_username' は設定済みですが、'proxy_password' は設定されていません"
 
 #: libdnf/repo/Repo.cpp:548
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "'proxy_username' は設定済みですが、'proxy_password' は設定されていません"
 
 #: libdnf/repo/Repo.cpp:629
 #, c-format
@@ -984,7 +984,7 @@ msgstr "%s: gpgme_op_import(): %s"
 #: libdnf/repo/Repo.cpp:1279
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
-msgstr "repo 一時ディレクトリー \"%s\" を作成できません: %s "
+msgstr "repo 一時ディレクトリー \"%s\" を作成できません: %s"
 
 #: libdnf/repo/Repo.cpp:717 libdnf/repo/Repo.cpp:783 libdnf/repo/Repo.cpp:917
 #, c-format
@@ -1046,7 +1046,7 @@ msgstr "復元中: '%s' は復元できます - repomd が一致します。"
 #: libdnf/repo/Repo.cpp:1255
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
-msgstr "復元中:  '%s' に失敗しました、repomd が一致しません。"
+msgstr "復元中: '%s' に失敗しました、repomd が一致しません。"
 
 #: libdnf/repo/Repo.cpp:1273
 #, c-format
@@ -1056,7 +1056,7 @@ msgstr "repo 送信先ディレクトリ \"%s\" を作成できません : %s"
 #: libdnf/repo/Repo.cpp:1293
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
-msgstr "ディレクトリー \"%s\" を作成できません: %s "
+msgstr "ディレクトリー \"%s\" を作成できません: %s"
 
 #: libdnf/repo/Repo.cpp:1316
 #, c-format
@@ -1136,7 +1136,7 @@ msgstr "完了したトランザクションにトランザクションアイテ
 
 #: libdnf/transaction/Transformer.cpp:76
 msgid "Database Corrupted: no row 'version' in table 'config'"
-msgstr ""
+msgstr "データベースが破損しています。テーブル 'config' の行 'version' がありません"
 
 #: libdnf/transaction/Transformer.cpp:681
 msgid "Transformer: can't open history persist dir"
