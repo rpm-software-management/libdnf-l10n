@@ -1,5 +1,5 @@
 # Casey Jones <nahareport@live.com>, 2018. #zanata
-# Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
 # Casey Jones <nahareport@yahoo.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021.
 msgid ""
@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-04 01:43+0000\n"
 "PO-Revision-Date: 2021-09-06 17:27+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ja/>\n"
 "Language: ja\n"
@@ -43,14 +43,12 @@ msgid "invalid value"
 msgstr "無効な値"
 
 #: libdnf/conf/ConfigMain.cpp:207
-#, fuzzy
-#| msgid "'%s' is not an allowed value"
 msgid "value 1 is not allowed"
-msgstr "'%s' 値は許可されていない値です"
+msgstr "値 1 は許可されません"
 
 #: libdnf/conf/ConfigMain.cpp:209
 msgid "negative value is not allowed"
-msgstr ""
+msgstr "負の値は許可されていません"
 
 #: libdnf/conf/ConfigMain.cpp:341
 #, c-format
@@ -81,12 +79,12 @@ msgstr "'%s' 値は許可されていない値です"
 #: libdnf/conf/OptionNumber.cpp:73
 #, c-format
 msgid "given value [%d] should be less than allowed value [%d]."
-msgstr "指定された値 [%d] は許可された値 [%d]より小さくしてください"
+msgstr "指定された値 [%d] は許可された値 [%d]より小さくしてください。"
 
 #: libdnf/conf/OptionNumber.cpp:76
 #, c-format
 msgid "given value [%d] should be greater than allowed value [%d]."
-msgstr "指定された値 [%d] は許可された値 [%d]より大きくしてください"
+msgstr "指定された値 [%d] は許可された値 [%d]より大きくしてください。"
 
 #: libdnf/conf/OptionPath.cpp:78
 #, c-format
@@ -108,21 +106,20 @@ msgid "GetValue(): Value not set"
 msgstr "GetValue(): 値は設定されていません"
 
 #: libdnf/dnf-context.cpp:3178 libdnf/dnf-context.cpp:3187
-#, fuzzy, c-format
-#| msgid "Cannot enable multiple streams for module '%s'"
+#, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
-msgstr "モジュール '%s' の複数ストリームを有効化できません"
+msgstr "モジュール '%s' から、さらにストリームを同時に有効にできません"
 
 #: libdnf/dnf-context.cpp:3196 libdnf/dnf-context.cpp:3214
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
-msgstr ""
+msgstr "モジュール '%1$s' ストリーム '%2$s' を有効にできません。モジュールの状態はすでに変更されています"
 
 #: libdnf/dnf-context.cpp:3263
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
-msgstr ""
+msgstr "デフォルトのモジュラー依存問題: %s"
 
 #: libdnf/dnf-context.cpp:3266
 #, fuzzy, c-format
@@ -131,10 +128,9 @@ msgid "Modular dependency problem with the latest modules: %s"
 msgstr "いくつかの依存問題"
 
 #: libdnf/dnf-context.cpp:3270
-#, fuzzy, c-format
-#| msgid "some dependency problem"
+#, c-format
 msgid "Modular dependency problem: %s"
-msgstr "いくつかの依存問題"
+msgstr "モジュラーの依存に関する問題: %s"
 
 #: libdnf/dnf-context.cpp:3293 libdnf/dnf-context.cpp:3317
 #: libdnf/dnf-context.cpp:3328 libdnf/dnf-context.cpp:3367
