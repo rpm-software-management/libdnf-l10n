@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 14:28+0200\n"
-"PO-Revision-Date: 2021-08-19 06:05+0000\n"
-"Last-Translator: Charles Lee <lchopn@gmail.com>\n"
+"PO-Revision-Date: 2021-09-06 17:27+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-rhel-8/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -160,14 +160,11 @@ msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "忽略参数：\"%s\" 中不需要的信息"
 
 #: libdnf/dnf-context.cpp:3408
-#, fuzzy, c-format
-#| msgid ""
-#| "Problem during enablement of dependency tree for moduele '%1$s' stream "
-#| "'%2$s': %3$s"
+#, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
-msgstr "为模块 '%1$s' 流 '%2$s' 启用依赖树时出现问题： %3$s"
+msgstr "为模块 '%1$s' 流 '%2$s' 启用依赖树时出现问题: %3$s"
 
 #: libdnf/dnf-context.cpp:3420
 msgid "Problems appeared for module enable request"
@@ -175,16 +172,13 @@ msgstr "模块启用请求时出现问题"
 
 #. this really should never happen; unless the modular repodata is corrupted
 #: libdnf/dnf-context.cpp:3495
-#, fuzzy, c-format
-#| msgid "Failed to upgrade defaults: %s"
+#, c-format
 msgid "Failed to parse module artifact NEVRA '%s'"
-msgstr "无法升级默认值: %s"
+msgstr "无法解析模块工件 NEVRA '%s'"
 
 #: libdnf/dnf-context.cpp:3529
-#, fuzzy
-#| msgid "Problems appeared for module disable request"
 msgid "Problems appeared for module install request"
-msgstr "模块禁用请求时出现问题"
+msgstr "模块安装请求出现问题"
 
 #: libdnf/dnf-context.cpp:3589
 msgid "Problems appeared for module reset request"
@@ -812,7 +806,7 @@ msgstr "无法删除 '%s' 处的模块 Fail Safe 数据"
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
-msgstr ""
+msgstr "无法将模块化过时应用到 '%s:%s'，因为目标模块 '%s' 被禁用"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -842,7 +836,7 @@ msgstr "升级流失败: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:212
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
-msgstr ""
+msgstr "无法获取模块过时，因为没有流匹配 %s：%s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
