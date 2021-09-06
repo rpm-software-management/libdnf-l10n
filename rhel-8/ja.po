@@ -1,5 +1,5 @@
 # Casey Jones <nahareport@live.com>, 2018. #zanata
-# Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
 # Casey Jones <nahareport@yahoo.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021.
 msgid ""
@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-11 14:28+0200\n"
-"PO-Revision-Date: 2021-09-06 14:20+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2021-09-06 17:27+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-8/ja/>\n"
 "Language: ja\n"
@@ -114,9 +114,7 @@ msgstr "モジュール '%s' から、さらにストリームを同時に有効
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
-msgstr ""
-"モジュール '%1$s' ストリーム '%2$s' を有効にできません。モジュールの状態はす"
-"でに変更されています"
+msgstr "モジュール '%1$s' ストリーム '%2$s' を有効にできません。モジュールの状態はすでに変更されています"
 
 #: libdnf/dnf-context.cpp:3253
 #, c-format
