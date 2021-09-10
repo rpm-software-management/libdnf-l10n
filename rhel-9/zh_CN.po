@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 08:49+0200\n"
-"PO-Revision-Date: 2021-09-06 17:27+0000\n"
+"PO-Revision-Date: 2021-09-10 10:00+0000\n"
 "Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-rhel-9/zh_CN/>\n"
@@ -121,10 +121,9 @@ msgid "Modular dependency problem with Defaults: %s"
 msgstr "默认设置的模块依赖性问题：%s"
 
 #: libdnf/dnf-context.cpp:3256
-#, fuzzy, c-format
-#| msgid "Modular dependency problem with Defaults: %s"
+#, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr "默认设置的模块依赖性问题：%s"
+msgstr "最新模块的模块化依赖关系问题： %s"
 
 #: libdnf/dnf-context.cpp:3260
 #, c-format
@@ -961,10 +960,9 @@ msgid "repo %s: 0x%s already imported"
 msgstr "repo %s: 0x%s 已被导入"
 
 #: libdnf/repo/Repo.cpp:904 libdnf/utils/filesystem.cpp:79
-#, fuzzy, c-format
-#| msgid "Cannot create directory \"%s\": %s"
+#, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
-msgstr "无法创建目录 \"%s\": %s"
+msgstr "无法创建目录 \"%s\": %d - %s"
 
 #: libdnf/repo/Repo.cpp:924
 #, c-format
