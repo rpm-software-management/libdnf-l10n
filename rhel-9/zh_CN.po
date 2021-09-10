@@ -1,13 +1,13 @@
 # Charles Lee <lchopn@gmail.com>, 2017. #zanata, 2020, 2021.
-# Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
 # Sundeep Anand <suanand@redhat.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 08:49+0200\n"
-"PO-Revision-Date: 2021-09-10 10:00+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2021-09-11 10:04+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-rhel-9/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -207,9 +207,9 @@ msgid ""
 "the module using 'microdnf module reset <module_name>' command. After you "
 "reset the module, you can install the other stream."
 msgstr ""
-"无法切换一个模块已启用的流。 推荐从模块中删除所有已安装的内容，使用 "
-"'microdnf module reset <module_name>' 命令重置模块。在重置模块后就可以安装其"
-"他流。"
+"无法切换一个模块已启用的流。 \n"
+"推荐从模块中删除所有已安装的内容，使用 'microdnf module reset <module_name>' "
+"命令重置模块。在重置模块后就可以安装其他流。"
 
 #: libdnf/dnf-goal.cpp:85
 msgid "Could not depsolve transaction; "
