@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-04 01:43+0000\n"
-"PO-Revision-Date: 2021-09-06 17:27+0000\n"
+"PO-Revision-Date: 2021-09-10 10:00+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ja/>\n"
@@ -122,10 +122,9 @@ msgid "Modular dependency problem with Defaults: %s"
 msgstr "デフォルトのモジュラー依存問題: %s"
 
 #: libdnf/dnf-context.cpp:3266
-#, fuzzy, c-format
-#| msgid "some dependency problem"
+#, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr "いくつかの依存問題"
+msgstr "最新のモジュールでモジュールの依存関係の問題: %s"
 
 #: libdnf/dnf-context.cpp:3270
 #, c-format
