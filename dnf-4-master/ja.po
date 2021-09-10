@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-10 01:45+0000\n"
-"PO-Revision-Date: 2021-09-10 10:00+0000\n"
+"PO-Revision-Date: 2021-09-11 10:04+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ja/>\n"
@@ -1020,10 +1020,9 @@ msgid "repo %s: 0x%s already imported"
 msgstr "repo %s: 0x%s はインポート済みです"
 
 #: libdnf/repo/Repo.cpp:904 libdnf/utils/filesystem.cpp:79
-#, fuzzy, c-format
-#| msgid "Cannot create directory \"%s\": %s"
+#, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
-msgstr "ディレクトリー \"%s\" を作成できません: %s "
+msgstr "ディレクトリー \"%s\" の作成に失敗しました: %d - %s"
 
 #: libdnf/repo/Repo.cpp:924
 #, c-format
