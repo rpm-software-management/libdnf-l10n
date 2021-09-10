@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-04 01:43+0000\n"
+"POT-Creation-Date: 2021-09-10 01:45+0000\n"
 "PO-Revision-Date: 2021-09-10 10:00+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -114,7 +114,9 @@ msgstr "モジュール '%s' から、さらにストリームを同時に有効
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
-msgstr "モジュール '%1$s' ストリーム '%2$s' を有効にできません。モジュールの状態はすでに変更されています"
+msgstr ""
+"モジュール '%1$s' ストリーム '%2$s' を有効にできません。モジュールの状態はす"
+"でに変更されています"
 
 #: libdnf/dnf-context.cpp:3263
 #, c-format
@@ -148,12 +150,15 @@ msgstr "モジュール名のみが必要です。引数の不必要な情報は
 #: libdnf/dnf-context.cpp:3314
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
-msgstr "モジュール '%s' をリセットできません。モジュールの状態はすでに変更されています"
+msgstr ""
+"モジュール '%s' をリセットできません。モジュールの状態はすでに変更されていま"
+"す"
 
 #: libdnf/dnf-context.cpp:3325
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
-msgstr "モジュール '%s' を無効にできません。モジュールの状態はすでに変更されています"
+msgstr ""
+"モジュール '%s' を無効にできません。モジュールの状態はすでに変更されています"
 
 #: libdnf/dnf-context.cpp:3356 libdnf/dnf-context.cpp:3452
 #: libdnf/dnf-context.cpp:3633
@@ -170,7 +175,8 @@ msgstr "引数の不要な情報は無視します: '%s'"
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
-msgstr "モジュール '%1$s' ストリーム '%2$s' の依存関係ツリーの有効化中に問題: %3$s"
+msgstr ""
+"モジュール '%1$s' ストリーム '%2$s' の依存関係ツリーの有効化中に問題: %3$s"
 
 #: libdnf/dnf-context.cpp:3423
 msgid "Problems appeared for module enable request:"
@@ -219,7 +225,9 @@ msgstr ""
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
-msgstr "オペレーションは、モジュール '%s' ストリーム '%s' を ストリーム '%s' へと切り替える結果となります"
+msgstr ""
+"オペレーションは、モジュール '%s' ストリーム '%s' を ストリーム '%s' へと切り"
+"替える結果となります"
 
 #: libdnf/dnf-context.cpp:3759
 msgid ""
@@ -229,8 +237,9 @@ msgid ""
 "reset the module, you can install the other stream."
 msgstr ""
 "有効化されたモジュールのストリームの切り替えはできません。\n"
-"モジュールからすべてのインストールされたコンテンツを削除し、'microdnf module reset <module_name>' "
-"コマンドを使用してモジュールをリセットすることを推奨します。モジュールのリセット後に、別のストリームをインストールできます。"
+"モジュールからすべてのインストールされたコンテンツを削除し、'microdnf module "
+"reset <module_name>' コマンドを使用してモジュールをリセットすることを推奨しま"
+"す。モジュールのリセット後に、別のストリームをインストールできます。"
 
 #: libdnf/dnf-goal.cpp:85
 msgid "Could not depsolve transaction; "
@@ -851,7 +860,9 @@ msgstr "'%s' のモジュラーフェイルセーフデータを削除できま�
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
-msgstr "ターゲットモジュール '%s' が無効であるため、モジュラーの廃止を '%s:%s' に適用できません"
+msgstr ""
+"ターゲットモジュール '%s' が無効であるため、モジュラーの廃止を '%s:%s' に適用"
+"できません"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -881,7 +892,8 @@ msgstr "ストリームのアップグレードに失敗しました: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:221
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
-msgstr "%s に一致するストリームがないため、モジュールの廃止を取得できません: %s"
+msgstr ""
+"%s に一致するストリームがないため、モジュールの廃止を取得できません: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
@@ -924,8 +936,9 @@ msgid ""
 "deprecated and the support will be dropped in future versions. Use '=' "
 "operator instead."
 msgstr ""
-"reldeps で '==' 演算子を使用すると、未定義の動作が発生する可能性があります。これは非推奨で、将来のバージョンではサポートされなくなります。"
-"代わりに '=' 演算子を使用してください。"
+"reldeps で '==' 演算子を使用すると、未定義の動作が発生する可能性があります。"
+"これは非推奨で、将来のバージョンではサポートされなくなります。代わりに '=' 演"
+"算子を使用してください。"
 
 #: libdnf/repo/Repo.cpp:321
 #, c-format
@@ -949,16 +962,21 @@ msgstr "repo '%s': 'basecachedir' が設定されていません"
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
-msgstr "ダウンロードの最高速度は、最低速度よりも低いです。minrate またはスロットルの設定を変更してください"
+msgstr ""
+"ダウンロードの最高速度は、最低速度よりも低いです。minrate またはスロットルの"
+"設定を変更してください"
 
 #: libdnf/repo/Repo.cpp:546
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
-msgstr "repo '%s': 'proxy_username' は設定済みですが、'proxy_password' は設定されていません"
+msgstr ""
+"repo '%s': 'proxy_username' は設定済みですが、'proxy_password' は設定されてい"
+"ません"
 
 #: libdnf/repo/Repo.cpp:548
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr "'proxy_username' は設定済みですが、'proxy_password' は設定されていません"
+msgstr ""
+"'proxy_username' は設定済みですが、'proxy_password' は設定されていません"
 
 #: libdnf/repo/Repo.cpp:629
 #, c-format
@@ -1131,7 +1149,8 @@ msgstr "完了したトランザクションにトランザクションアイテ
 
 #: libdnf/transaction/Transformer.cpp:76
 msgid "Database Corrupted: no row 'version' in table 'config'"
-msgstr "データベースが破損しています。テーブル 'config' の行 'version' がありません"
+msgstr ""
+"データベースが破損しています。テーブル 'config' の行 'version' がありません"
 
 #: libdnf/transaction/Transformer.cpp:681
 msgid "Transformer: can't open history persist dir"
