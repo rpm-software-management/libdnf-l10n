@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-10 01:45+0000\n"
+"POT-Creation-Date: 2021-09-11 01:42+0000\n"
 "PO-Revision-Date: 2021-09-11 10:04+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -401,7 +401,7 @@ msgstr "cachedir %s の作成に失敗しました"
 msgid "failed loading RPMDB"
 msgstr "RPMDB のロードに失敗しました"
 
-#: libdnf/dnf-sack.cpp:2462
+#: libdnf/dnf-sack.cpp:2522
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "モジュールのデフォルトは見つかりませんでした: %s"
@@ -767,30 +767,30 @@ msgstr "ディレクトリー %1$s を作成できません : %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "パス %1$s のstatを調べられません : %2$s"
 
-#: libdnf/module/ModulePackage.cpp:586
+#: libdnf/module/ModulePackage.cpp:604
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "不正なプラットフォームモジュールのフォーマット: %s"
 
-#: libdnf/module/ModulePackage.cpp:601
+#: libdnf/module/ModulePackage.cpp:619
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "利用可能パッケージに提供される複数のモジュールプラットフォーム\n"
 
-#: libdnf/module/ModulePackage.cpp:614
+#: libdnf/module/ModulePackage.cpp:632
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "インストール済パッケージに提供される複数のモジュールプラットフォーム\n"
 
-#: libdnf/module/ModulePackage.cpp:641
+#: libdnf/module/ModulePackage.cpp:659
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "%s のプラットフォームモジュールの検出に失敗しました: %s"
 
-#: libdnf/module/ModulePackage.cpp:650
+#: libdnf/module/ModulePackage.cpp:668
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "%s に PLATFORM_ID が見つかりません"
 
-#: libdnf/module/ModulePackage.cpp:655
+#: libdnf/module/ModulePackage.cpp:673
 msgid "No valid Platform ID detected"
 msgstr "有効な Platform ID が検出されませんでした"
 
@@ -828,34 +828,34 @@ msgstr "モジュールの無効化:\n"
 msgid "Resetting modules:\n"
 msgstr "モジュールの再設定中:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1675
+#: libdnf/module/ModulePackageContainer.cpp:1704
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "'%s' のモジュラーフェイルセーフデータをロードできません"
 
-#: libdnf/module/ModulePackageContainer.cpp:1681
+#: libdnf/module/ModulePackageContainer.cpp:1710
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "モジュール '%s:%s' のモジュラーフェイルセーフデータをロードできません"
 
-#: libdnf/module/ModulePackageContainer.cpp:1762
+#: libdnf/module/ModulePackageContainer.cpp:1791
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 "ディレクトリー \"%s\" を作成できません。対象モジュラーフェイルセーフデータ: "
 "%s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1778
+#: libdnf/module/ModulePackageContainer.cpp:1807
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "'%s' のモジュラーフェイルセーフデータを保存できません"
 
-#: libdnf/module/ModulePackageContainer.cpp:1801
+#: libdnf/module/ModulePackageContainer.cpp:1830
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "'%s' のモジュラーフェイルセーフデータを削除できません"
 
-#: libdnf/module/ModulePackageContainer.cpp:1833
+#: libdnf/module/ModulePackageContainer.cpp:1862
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-10 01:45+0000\n"
+"POT-Creation-Date: 2021-09-11 01:42+0000\n"
 "PO-Revision-Date: 2021-08-01 03:04+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
@@ -399,7 +399,7 @@ msgstr "%s önbellek dizini oluşturulamadı"
 msgid "failed loading RPMDB"
 msgstr "RPMDB yüklenemedi"
 
-#: libdnf/dnf-sack.cpp:2462
+#: libdnf/dnf-sack.cpp:2522
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "Modül öntanımlı değerleri bulunamadı: %s"
@@ -764,31 +764,31 @@ msgstr "%1$s dizini oluşturulamıyor: %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "%1$s yolu için dosya bilgileri alınamıyor: %2$s"
 
-#: libdnf/module/ModulePackage.cpp:586
+#: libdnf/module/ModulePackage.cpp:604
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "Geçersiz platform modülü biçimi: %s"
 
-#: libdnf/module/ModulePackage.cpp:601
+#: libdnf/module/ModulePackage.cpp:619
 msgid "Multiple module platforms provided by available packages\n"
 msgstr ""
 "Kullanılabilir paketler tarafından birden çok modül platformu sağlanıyor\n"
 
-#: libdnf/module/ModulePackage.cpp:614
+#: libdnf/module/ModulePackage.cpp:632
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "Kurulu paketler tarafından birden çok modül platformu sağlanıyor\n"
 
-#: libdnf/module/ModulePackage.cpp:641
+#: libdnf/module/ModulePackage.cpp:659
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "%s yolunda platform modülü algılanamadı: %s"
 
-#: libdnf/module/ModulePackage.cpp:650
+#: libdnf/module/ModulePackage.cpp:668
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "%s yolunda PLATFORM_ID eksik"
 
-#: libdnf/module/ModulePackage.cpp:655
+#: libdnf/module/ModulePackage.cpp:673
 msgid "No valid Platform ID detected"
 msgstr "Geçerli bir platform kimliği algılanmadı"
 
@@ -826,32 +826,32 @@ msgstr "Modüller devre dışı bırakılıyor:\n"
 msgid "Resetting modules:\n"
 msgstr "Modüller sıfırlanıyor:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1675
+#: libdnf/module/ModulePackageContainer.cpp:1704
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "'%s' dosyasında modüler Fail-Safe verileri yüklenemedi"
 
-#: libdnf/module/ModulePackageContainer.cpp:1681
+#: libdnf/module/ModulePackageContainer.cpp:1710
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "'%s:%s' modülü için modüler Fail-Safe verileri yüklenemedi"
 
-#: libdnf/module/ModulePackageContainer.cpp:1762
+#: libdnf/module/ModulePackageContainer.cpp:1791
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr "Modüler Fail Safe verileri için \"%s\" dizini oluşturulamadı: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1778
+#: libdnf/module/ModulePackageContainer.cpp:1807
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "'%s' dosyasına bir modüler Fail Safe verisi kaydedilemedi"
 
-#: libdnf/module/ModulePackageContainer.cpp:1801
+#: libdnf/module/ModulePackageContainer.cpp:1830
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "'%s' dosyasından bir modüler Fail Safe verisi kaldırılamadı"
 
-#: libdnf/module/ModulePackageContainer.cpp:1833
+#: libdnf/module/ModulePackageContainer.cpp:1862
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "

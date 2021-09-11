@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-10 01:45+0000\n"
+"POT-Creation-Date: 2021-09-11 01:42+0000\n"
 "PO-Revision-Date: 2021-08-03 19:04+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
@@ -404,7 +404,7 @@ msgstr "aanmaken van cachemap %s is mislukt"
 msgid "failed loading RPMDB"
 msgstr "laden van RPMDB is mislukt"
 
-#: libdnf/dnf-sack.cpp:2462
+#: libdnf/dnf-sack.cpp:2522
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "Geen modulestandaardwaarden gevonden: %s"
@@ -769,30 +769,30 @@ msgstr "kan map %1$s niet aanmaken: %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "kan geen stat uitvoeren op pad %1$s: %2$s"
 
-#: libdnf/module/ModulePackage.cpp:586
+#: libdnf/module/ModulePackage.cpp:604
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "Ongeldig formaat van Platform module: %s"
 
-#: libdnf/module/ModulePackage.cpp:601
+#: libdnf/module/ModulePackage.cpp:619
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "Meerdere moduleplatforms aangeboden door beschikbare pakketten\n"
 
-#: libdnf/module/ModulePackage.cpp:614
+#: libdnf/module/ModulePackage.cpp:632
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "Meerdere moduleplatforms aangeboden door geïnstalleerde pakketten\n"
 
-#: libdnf/module/ModulePackage.cpp:641
+#: libdnf/module/ModulePackage.cpp:659
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "Detectie van platformmodule in %s mislukte: %s"
 
-#: libdnf/module/ModulePackage.cpp:650
+#: libdnf/module/ModulePackage.cpp:668
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "PLATFORM_ID ontbreekt in %s"
 
-#: libdnf/module/ModulePackage.cpp:655
+#: libdnf/module/ModulePackage.cpp:673
 msgid "No valid Platform ID detected"
 msgstr "Geen geldig Platform ID gedetecteerd"
 
@@ -830,32 +830,32 @@ msgstr "Modules uitschakelen:\n"
 msgid "Resetting modules:\n"
 msgstr "Modules herstellen:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1675
+#: libdnf/module/ModulePackageContainer.cpp:1704
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "Kan modulaire Fail-Safe data op '%s' niet laden"
 
-#: libdnf/module/ModulePackageContainer.cpp:1681
+#: libdnf/module/ModulePackageContainer.cpp:1710
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "Kan modulaire Fail-Safe data voor module niet laden '%s:%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1762
+#: libdnf/module/ModulePackageContainer.cpp:1791
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr "Kan map \"%s\" voor modulaire Fail Safe data niet aanmaken: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1778
+#: libdnf/module/ModulePackageContainer.cpp:1807
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "Kan modulairr Fail Safe data niet opslaan naar '%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1801
+#: libdnf/module/ModulePackageContainer.cpp:1830
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Kan modulaire Fail Safe data in '%s' niet verwijderen"
 
-#: libdnf/module/ModulePackageContainer.cpp:1833
+#: libdnf/module/ModulePackageContainer.cpp:1862
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-10 01:45+0000\n"
+"POT-Creation-Date: 2021-09-11 01:42+0000\n"
 "PO-Revision-Date: 2021-09-06 17:27+0000\n"
 "Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
@@ -423,7 +423,7 @@ msgstr "n’a pu créer le cachedir %s"
 msgid "failed loading RPMDB"
 msgstr "n’a pu télécharger RPMDB"
 
-#: libdnf/dnf-sack.cpp:2462
+#: libdnf/dnf-sack.cpp:2522
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "Aucun module par défaut n’a été trouvé : %s"
@@ -787,33 +787,33 @@ msgstr "impossible de créer le dossier %1$s : %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "impossible de stat le chemin %1$s : %2$s"
 
-#: libdnf/module/ModulePackage.cpp:586
+#: libdnf/module/ModulePackage.cpp:604
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "Format invalide du module de plateforme : %s"
 
-#: libdnf/module/ModulePackage.cpp:601
+#: libdnf/module/ModulePackage.cpp:619
 msgid "Multiple module platforms provided by available packages\n"
 msgstr ""
 "De multiples modules de plateformes sont fournis par les paquets "
 "disponibles\n"
 
-#: libdnf/module/ModulePackage.cpp:614
+#: libdnf/module/ModulePackage.cpp:632
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr ""
 "De multiples modules de plateformes sont fournis par les paquets installés\n"
 
-#: libdnf/module/ModulePackage.cpp:641
+#: libdnf/module/ModulePackage.cpp:659
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "La détection des modules de plateformes dans %s a échoué : %s"
 
-#: libdnf/module/ModulePackage.cpp:650
+#: libdnf/module/ModulePackage.cpp:668
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "L'identifiant de la platforme est manquant dans %s"
 
-#: libdnf/module/ModulePackage.cpp:655
+#: libdnf/module/ModulePackage.cpp:673
 msgid "No valid Platform ID detected"
 msgstr "Aucun identifiant de plateforme n'a été détecté"
 
@@ -851,37 +851,37 @@ msgstr "Désactivation des modules :\n"
 msgid "Resetting modules:\n"
 msgstr "Réinitialisation des modules :\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1675
+#: libdnf/module/ModulePackageContainer.cpp:1704
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "Impossible de charger les données de sécurité à « %s »"
 
-#: libdnf/module/ModulePackageContainer.cpp:1681
+#: libdnf/module/ModulePackageContainer.cpp:1710
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
 "Impossible de charger les données de sécurité modulaires pour le module "
 "« %s : %s »"
 
-#: libdnf/module/ModulePackageContainer.cpp:1762
+#: libdnf/module/ModulePackageContainer.cpp:1791
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 "Impossible de créer le dossier « %s » pour les données de sécurité "
 "modulaires : %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1778
+#: libdnf/module/ModulePackageContainer.cpp:1807
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr ""
 "Impossible d’enregistrer les données de sécurité modulaires vers « %s »"
 
-#: libdnf/module/ModulePackageContainer.cpp:1801
+#: libdnf/module/ModulePackageContainer.cpp:1830
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Impossible de supprimer les données de sécurité modulaires dans « %s »"
 
-#: libdnf/module/ModulePackageContainer.cpp:1833
+#: libdnf/module/ModulePackageContainer.cpp:1862
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "

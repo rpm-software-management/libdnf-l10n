@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-10 01:45+0000\n"
+"POT-Creation-Date: 2021-09-11 01:42+0000\n"
 "PO-Revision-Date: 2021-07-30 15:05+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/"
@@ -411,7 +411,7 @@ msgstr "utworzenie katalogu pamięci podręcznej %s się nie powiodło"
 msgid "failed loading RPMDB"
 msgstr "wczytanie bazy danych RPM się nie powiodło"
 
-#: libdnf/dnf-sack.cpp:2462
+#: libdnf/dnf-sack.cpp:2522
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "Nie odnaleziono domyślnych modułu: %s"
@@ -776,30 +776,30 @@ msgstr "nie można utworzyć katalogu %1$s: %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "nie można wykonać stat na ścieżce %1$s: %2$s"
 
-#: libdnf/module/ModulePackage.cpp:586
+#: libdnf/module/ModulePackage.cpp:604
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "Nieprawidłowy format modułu platformy: %s"
 
-#: libdnf/module/ModulePackage.cpp:601
+#: libdnf/module/ModulePackage.cpp:619
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "Dostępne pakiety dostarczają wiele platform modułów\n"
 
-#: libdnf/module/ModulePackage.cpp:614
+#: libdnf/module/ModulePackage.cpp:632
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "Zainstalowane pakiety dostarczają wiele platform modułów\n"
 
-#: libdnf/module/ModulePackage.cpp:641
+#: libdnf/module/ModulePackage.cpp:659
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "Wykrycie modułu platformy w %s się nie powiodło: %s"
 
-#: libdnf/module/ModulePackage.cpp:650
+#: libdnf/module/ModulePackage.cpp:668
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "Brak PLATFORM_ID w %s"
 
-#: libdnf/module/ModulePackage.cpp:655
+#: libdnf/module/ModulePackage.cpp:673
 msgid "No valid Platform ID detected"
 msgstr "Nie wykryto prawidłowego identyfikatora platformy"
 
@@ -837,35 +837,35 @@ msgstr "Wyłączanie modułów:\n"
 msgid "Resetting modules:\n"
 msgstr "Przywracanie modułów:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1675
+#: libdnf/module/ModulePackageContainer.cpp:1704
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "Wczytanie modularnych danych Fail-Safe w „%s” się nie powiodło"
 
-#: libdnf/module/ModulePackageContainer.cpp:1681
+#: libdnf/module/ModulePackageContainer.cpp:1710
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
 "Wczytanie modularnych danych Fail-Safe dla modułu „%s:%s” się nie powiodło"
 
-#: libdnf/module/ModulePackageContainer.cpp:1762
+#: libdnf/module/ModulePackageContainer.cpp:1791
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 "Utworzenie katalogu „%s” dla modularnych danych Fail Safe się nie powiodło: "
 "%s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1778
+#: libdnf/module/ModulePackageContainer.cpp:1807
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "Zapisanie modularnych danych Fail Safe do „%s” się nie powiodło"
 
-#: libdnf/module/ModulePackageContainer.cpp:1801
+#: libdnf/module/ModulePackageContainer.cpp:1830
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Usunięcie modularnych danych Fail Safe w „%s” się nie powiodło"
 
-#: libdnf/module/ModulePackageContainer.cpp:1833
+#: libdnf/module/ModulePackageContainer.cpp:1862
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
