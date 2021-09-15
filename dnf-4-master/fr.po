@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-15 01:44+0000\n"
-"PO-Revision-Date: 2021-09-15 03:04+0000\n"
+"PO-Revision-Date: 2021-09-16 04:04+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
@@ -257,8 +257,8 @@ msgid ""
 "the module using 'microdnf module reset <module_name>' command. After you "
 "reset the module, you can install the other stream."
 msgstr ""
-"Il n’est pas possible de basculer les flux actifs d’un module. Il est "
-"recommandé de retirer tout contenu installé par le module, et de "
+"Il n’est pas possible de basculer les flux actifs d’un module. \n"
+"Il est recommandé de retirer tout contenu installé par le module, et de "
 "réinitialiser le mode en utilisant la commande 'microdnf module reset "
 "<module_name>’. Après la réinitialisation du module, vous pouvez installer "
 "les autres flux."
@@ -921,7 +921,7 @@ msgstr "Échec de la mise à jour des flux : %s"
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""
 "Impossible de récupérer les modules obsolètes car aucune correspondance de "
-"flux %s: %s"
+"flux %s : %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
@@ -997,7 +997,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:546
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
-msgstr "repo '%s' : 'proxy_username' est défini mais pas 'proxy_password'."
+msgstr "repo '%s' : 'proxy_username' est défini mais pas 'proxy_password'"
 
 #: libdnf/repo/Repo.cpp:548
 msgid "'proxy_username' is set but not 'proxy_password'"
@@ -1047,10 +1047,9 @@ msgid "repo %s: 0x%s already imported"
 msgstr "dépôt %s : 0x%s déjà importé"
 
 #: libdnf/repo/Repo.cpp:904 libdnf/utils/filesystem.cpp:79
-#, fuzzy, c-format
-#| msgid "Cannot create directory \"%s\": %s"
+#, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
-msgstr "Impossible de créer le répertoire « %s » : %s"
+msgstr "Impossible de créer le répertoire \"%s« :%d - %s"
 
 #: libdnf/repo/Repo.cpp:924
 #, c-format
