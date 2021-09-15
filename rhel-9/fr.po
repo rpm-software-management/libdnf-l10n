@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 08:49+0200\n"
-"PO-Revision-Date: 2021-09-06 17:27+0000\n"
+"PO-Revision-Date: 2021-09-15 03:04+0000\n"
 "Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-9/fr/>\n"
@@ -128,10 +128,9 @@ msgid "Modular dependency problem with Defaults: %s"
 msgstr "Problème de dépendance modulaire avec les valeurs par défaut : %s"
 
 #: libdnf/dnf-context.cpp:3256
-#, fuzzy, c-format
-#| msgid "Modular dependency problem with Defaults: %s"
+#, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr "Problème de dépendance modulaire avec les valeurs par défaut : %s"
+msgstr "Problème de dépendance modulaire avec les derniers modules : %s"
 
 #: libdnf/dnf-context.cpp:3260
 #, c-format
@@ -1013,10 +1012,9 @@ msgid "repo %s: 0x%s already imported"
 msgstr "dépôt %s : 0x%s déjà importé"
 
 #: libdnf/repo/Repo.cpp:904 libdnf/utils/filesystem.cpp:79
-#, fuzzy, c-format
-#| msgid "Cannot create directory \"%s\": %s"
+#, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
-msgstr "Impossible de créer le répertoire « %s » : %s"
+msgstr "Impossible de créer le répertoire \"%s« :%s - %s"
 
 #: libdnf/repo/Repo.cpp:924
 #, c-format
