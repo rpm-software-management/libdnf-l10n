@@ -2,7 +2,7 @@
 # José Fournier <jaaf64@zoraldia.com>, 2016. #zanata
 # José Fournier <jaaf64@zoraldia.com>, 2017. #zanata
 # Jérôme Fenal <jfenal@gmail.com>, 2017. #zanata
-# Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2019. #zanata, 2021.
 # Julien Humbert <julroy67@gmail.com>, 2020, 2021.
 # Arnaud T. <listes.00@gmail.com>, 2020.
@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-11 01:42+0000\n"
-"PO-Revision-Date: 2021-09-06 17:27+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2021-09-15 03:04+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
 "Language: fr\n"
@@ -131,7 +131,7 @@ msgstr "Problème de dépendance modulaire avec les valeurs par défaut : %s"
 #: libdnf/dnf-context.cpp:3266
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr "Problème de dépendance modulaire avec les derniers modules : %s"
+msgstr "Problème de dépendance modulaire avec les derniers modules : %s"
 
 #: libdnf/dnf-context.cpp:3270
 #, c-format
