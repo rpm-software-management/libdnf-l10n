@@ -7,13 +7,14 @@
 # Julien Humbert <julroy67@gmail.com>, 2020, 2021.
 # Arnaud T. <listes.00@gmail.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021.
+# Titouan Bénard <itotutona@evta.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-16 01:49+0000\n"
-"PO-Revision-Date: 2021-09-16 04:04+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2021-10-10 00:45+0000\n"
+"Last-Translator: Titouan Bénard <itotutona@evta.fr>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
 "Language: fr\n"
@@ -185,61 +186,52 @@ msgstr ""
 "'%1$s' flux '%2$s' : %3$s"
 
 #: libdnf/dnf-context.cpp:3423
-#, fuzzy
-#| msgid "Problems appeared for module enable request"
 msgid "Problems appeared for module enable request:"
-msgstr "Des problèmes sont apparus durant la requête d’activation du module"
+msgstr "Des problèmes sont apparus durant la requête d’activation du module :"
 
 #: libdnf/dnf-context.cpp:3518
 #, c-format
 msgid "No active module packages found for module spec '%s'"
 msgstr ""
+"Aucun package de module actif trouvé pour la spécification de module '%s'"
 
 #: libdnf/dnf-context.cpp:3523
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
-msgstr "installation impossible à la fois des modules %s et %s"
+msgstr ""
+"Impossible d'installer le module '%s' à partir du référentiel de sécurité "
+"intégrée"
 
 #: libdnf/dnf-context.cpp:3530
 #, c-format
 msgid "No profile found matching '%s'"
-msgstr ""
+msgstr "Aucun profil trouvé correspondant à '%s'"
 
 #: libdnf/dnf-context.cpp:3584
 #, c-format
 msgid "No match for package '%s' for module spec %s"
 msgstr ""
+"Aucune correspondance pour le package '%s' pour la spécification de module %s"
 
 #: libdnf/dnf-context.cpp:3595
-#, fuzzy, c-format
-#| msgid ""
-#| "Problem during enablement of dependency tree for module '%1$s' stream "
-#| "'%2$s': %3$s"
+#, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
 msgstr ""
-"Problème durant l'activation de l'arbre de dépendances pour le module « %1$s "
-"» du flux « %2$s » : %3$s"
+"Problème lors de l'installation du module « %1$s » du flux « %2$s » : %3$s"
 
 #: libdnf/dnf-context.cpp:3604
-#, fuzzy
-#| msgid "Problems appeared for module install request"
 msgid "Problems appeared for module install request:"
-msgstr "Des problèmes sont apparus durant la requête d’installation du module"
+msgstr "Des problèmes sont apparus durant la requête d’installation du module :"
 
 #: libdnf/dnf-context.cpp:3663
-#, fuzzy
-#| msgid "Problems appeared for module reset request"
 msgid "Problems appeared for module reset request:"
 msgstr ""
-"Des problèmes sont apparus durant la requête de réinitialisation du module"
+"Des problèmes sont apparus durant la requête de réinitialisation du module :"
 
 #: libdnf/dnf-context.cpp:3664 libdnf/dnf-context.cpp:3723
-#, fuzzy
-#| msgid "Problems appeared for module disable request"
 msgid "Problems appeared for module disable request:"
 msgstr ""
-"Des problèmes sont apparus durant la requête de désactivation du module"
+"Des problèmes sont apparus durant la requête de désactivation du module :"
 
 #: libdnf/dnf-context.cpp:3755
 #, c-format
@@ -391,7 +383,7 @@ msgstr "write_ext(%1$d) a échoué : %2$d"
 
 #: libdnf/dnf-sack.cpp:680
 msgid "null repo md file"
-msgstr "null repo md file"
+msgstr "fichier md de dépôt nul"
 
 #: libdnf/dnf-sack.cpp:689
 #, c-format
