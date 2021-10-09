@@ -6,13 +6,14 @@
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2019. #zanata
 # Julien Humbert <julroy67@gmail.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021.
+# Titouan Bénard <itotutona@evta.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 08:49+0200\n"
-"PO-Revision-Date: 2021-09-16 04:04+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2021-10-10 00:45+0000\n"
+"Last-Translator: Titouan Bénard <itotutona@evta.fr>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-9/fr/>\n"
 "Language: fr\n"
@@ -356,7 +357,7 @@ msgstr "write_ext(%1$d) a échoué : %2$d"
 
 #: libdnf/dnf-sack.cpp:680
 msgid "null repo md file"
-msgstr "null repo md file"
+msgstr "fichier md de dépôt nul"
 
 #: libdnf/dnf-sack.cpp:689
 #, c-format
