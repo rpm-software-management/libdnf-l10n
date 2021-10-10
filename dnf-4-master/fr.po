@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-16 01:49+0000\n"
+"POT-Creation-Date: 2021-09-30 01:51+0000\n"
 "PO-Revision-Date: 2021-10-10 00:45+0000\n"
 "Last-Translator: Titouan Bénard <itotutona@evta.fr>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
@@ -221,7 +221,8 @@ msgstr ""
 
 #: libdnf/dnf-context.cpp:3604
 msgid "Problems appeared for module install request:"
-msgstr "Des problèmes sont apparus durant la requête d’installation du module :"
+msgstr ""
+"Des problèmes sont apparus durant la requête d’installation du module :"
 
 #: libdnf/dnf-context.cpp:3663
 msgid "Problems appeared for module reset request:"
