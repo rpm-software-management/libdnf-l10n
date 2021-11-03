@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-11-03 20:57+0000\n"
+"PO-Revision-Date: 2021-11-04 08:05+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/hu/>\n"
@@ -268,21 +268,21 @@ msgstr "az RPMDB betöltése sikertelen"
 
 #: libdnf/dnf-sack.cpp:2466
 msgid "No module defaults found"
-msgstr ""
+msgstr "A modul alapértelmezései nem találhatók"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
 msgid "percentage not 100: %i"
-msgstr ""
+msgstr "a százalék nem 100: %i"
 
 #: libdnf/dnf-state.cpp:1194
 #, c-format
 msgid "failed to set number steps: %i"
-msgstr ""
+msgstr "a lépésszám beállítása sikertelen: %i"
 
 #: libdnf/dnf-state.cpp:1293
 msgid "cancelled by user action"
-msgstr ""
+msgstr "felhasználó által megszakítva"
 
 #: libdnf/dnf-state.cpp:1332
 #, c-format
@@ -292,7 +292,7 @@ msgstr ""
 #: libdnf/dnf-state.cpp:1357
 #, c-format
 msgid "already at 100%% state [%s]"
-msgstr ""
+msgstr "már 100%%-os állapotban van [%s]"
 
 #: libdnf/dnf-transaction.cpp:300
 #, c-format
