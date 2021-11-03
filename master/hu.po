@@ -1,14 +1,14 @@
 # Meskó Balázs <meskobalazs@gmail.com>, 2016. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2017. #zanata
 # Teknős Ferenc <teknos.ferenc@gmail.com>, 2018. #zanata
-# Balázs Meskó <meskobalazs@mailbox.org>, 2020.
+# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021.
 # Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2020-07-21 13:29+0000\n"
+"PO-Revision-Date: 2021-11-03 20:57+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.8\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -144,54 +144,55 @@ msgstr "a megnyitás sikertelen (általános hiba): %s"
 #: libdnf/dnf-rpmts.cpp:142
 #, c-format
 msgid "failed to verify key for %s"
-msgstr ""
+msgstr "a(z) %s kulcsának ellenőrzése sikertelen"
 
 #: libdnf/dnf-rpmts.cpp:150
 #, c-format
 msgid "public key unavailable for %s"
-msgstr ""
+msgstr "a(z) %s nyilvános kulcsa nem érhető el"
 
 #: libdnf/dnf-rpmts.cpp:158
 #, c-format
 msgid "signature not found for %s"
-msgstr ""
+msgstr "a(z) %s aláírása nem található"
 
 #: libdnf/dnf-rpmts.cpp:193
 #, c-format
 msgid "failed to add install element: %1$s [%2$i]"
-msgstr ""
+msgstr "a telepítendő elem hozzáadása sikertelen: %1$s [%2$i]"
 
 #: libdnf/dnf-rpmts.cpp:274
 #, c-format
 msgid "Error running transaction: %s"
-msgstr ""
+msgstr "Hiba a tranzakció futtatásakor: %s"
 
 #: libdnf/dnf-rpmts.cpp:283
 msgid "Error running transaction and no problems were reported!"
 msgstr ""
+"Hiba a tranzakció futtatásakor, és semmilyen probléma nem volt jelentve!"
 
 #: libdnf/dnf-rpmts.cpp:346
 msgid "Fatal error, run database recovery"
-msgstr ""
+msgstr "Végzetes hiba, adatbázis-helyreállítás futtatása"
 
 #: libdnf/dnf-rpmts.cpp:355
 #, c-format
 msgid "failed to find package %s"
-msgstr ""
+msgstr "a(z) %s csomag nem található"
 
 #: libdnf/dnf-rpmts.cpp:401
 #, c-format
 msgid "could not add erase element %1$s(%2$i)"
-msgstr ""
+msgstr "a törlendő elem nem adható hozzá: %1$s(%2$i)"
 
 #: libdnf/dnf-sack.cpp:417
 #, c-format
 msgid "no %1$s string for %2$s"
-msgstr ""
+msgstr "nincs %1$s karakterlánc ehhez: %2$s"
 
 #: libdnf/dnf-sack.cpp:440
 msgid "failed to add solv"
-msgstr ""
+msgstr "a megoldás hozzáadása sikertelen"
 
 #: libdnf/dnf-sack.cpp:458
 #, c-format
@@ -206,16 +207,16 @@ msgstr "nem hozható létre ideiglenes fájl: %s"
 #: libdnf/dnf-sack.cpp:547
 #, c-format
 msgid "failed opening tmp file: %s"
-msgstr ""
+msgstr "az átmeneti fájl megnyitása sikertelen: %s"
 
 #: libdnf/dnf-sack.cpp:559
 #, c-format
 msgid "write_main() failed writing data: %i"
-msgstr ""
+msgstr "a write_main() nem tudta kiírni az adatokat: %i"
 
 #: libdnf/dnf-sack.cpp:576
 msgid "write_main() failed to re-load written solv file"
-msgstr ""
+msgstr "a write_main() nem tudta újratölteni a kiírt megoldásfájlt"
 
 #: libdnf/dnf-sack.cpp:641
 #, c-format
@@ -225,45 +226,45 @@ msgstr "nem hozható létre a(z) %s ideiglenes fájl"
 #: libdnf/dnf-sack.cpp:659
 #, c-format
 msgid "write_ext(%1$d) has failed: %2$d"
-msgstr ""
+msgstr "a write_ext(%1$d) sikertelen: %2$d"
 
 #: libdnf/dnf-sack.cpp:714
 msgid "null repo md file"
-msgstr ""
+msgstr "null tároló MD-fájl"
 
 #: libdnf/dnf-sack.cpp:723
 #, c-format
 msgid "can not read file %1$s: %2$s"
-msgstr ""
+msgstr "a(z) %1$s fájl nem írható: %2$s"
 
 #: libdnf/dnf-sack.cpp:737
 msgid "repo_add_solv() has failed."
-msgstr ""
+msgstr "a repo_add_solv() sikertelen."
 
 #: libdnf/dnf-sack.cpp:750
 msgid "loading of MD_TYPE_PRIMARY has failed."
-msgstr ""
+msgstr "az MD_TYPE_PRIMARY betöltése sikertelen."
 
 #: libdnf/dnf-sack.cpp:763
 msgid "repo_add_repomdxml/rpmmd() has failed."
-msgstr ""
+msgstr "a repo_add_repomdxml/rpmmd() sikertelen."
 
 #: libdnf/dnf-sack.cpp:830
 msgid "failed to auto-detect architecture"
-msgstr ""
+msgstr "az architektúra automatikus észlelése sikertelen"
 
 #: libdnf/dnf-sack.cpp:955
 #, c-format
 msgid "failed creating cachedir %s"
-msgstr ""
+msgstr "a(z) %s gyorsítótármappa létrehozása sikertelen"
 
 #: libdnf/dnf-sack.cpp:1727
 msgid "failed calculating RPMDB checksum"
-msgstr ""
+msgstr "az RPMDB ellenőrzőösszeg kiszámítása sikertelen"
 
 #: libdnf/dnf-sack.cpp:1751
 msgid "failed loading RPMDB"
-msgstr ""
+msgstr "az RPMDB betöltése sikertelen"
 
 #: libdnf/dnf-sack.cpp:2466
 msgid "No module defaults found"
