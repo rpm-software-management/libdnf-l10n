@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-01 08:49+0200\n"
-"PO-Revision-Date: 2021-09-04 21:04+0000\n"
+"PO-Revision-Date: 2021-11-04 08:05+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-9/ko/>\n"
@@ -988,32 +988,32 @@ msgstr "repo %s: 0x%s 키를 가져왔습니다."
 #: libdnf/repo/Repo.cpp:1176
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
-msgstr "부활 : repo '%s'건너 뛰었습니다."
+msgstr "부활: repo '%s' 건너 뛰었으며, 메타링크가 없습니다."
 
 #: libdnf/repo/Repo.cpp:1195
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
-msgstr "부활 : repo '%s'건너 뛰었습니다. 사용 가능한 해시가 없습니다."
+msgstr "부활: repo '%s'건너 뛰었으며, 사용 가능한 해쉬가 없습니다."
 
 #: libdnf/repo/Repo.cpp:1218
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
-msgstr "되살리기 : 실패한 '%s', 불일치 %s 합집합."
+msgstr "부활 : '%s'에 실패하고, %s 합과 일치하지 않음."
 
 #: libdnf/repo/Repo.cpp:1224
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
-msgstr "되살아 난다 : '%s'부활 할 수 있습니다 - metalink 체크섬이 일치합니다."
+msgstr "부활: '%s'는 부활 할 수 있습니다 - 메타링크 체크섬이 일치합니다."
 
 #: libdnf/repo/Repo.cpp:1253
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
-msgstr "되살아 난다 : '%s'부활 할 수 있습니다 - repomd가 일치합니다."
+msgstr "부활: '%s'는 부활 할 수 있습니다 - repomd가 일치합니다."
 
 #: libdnf/repo/Repo.cpp:1255
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
-msgstr "되살리기 : 실패한 '%s', 일치하지 않는 repomd."
+msgstr "부활: '%s'에 실패하고, 일치하지 않은 repomd."
 
 #: libdnf/repo/Repo.cpp:1273
 #, c-format
@@ -1033,26 +1033,26 @@ msgstr "디렉터리 이름을 바꿀 수 없습니다 \"%s\"~\"%s\": %s"
 #: libdnf/repo/Repo.cpp:1339
 #, c-format
 msgid "repo: using cache for: %s"
-msgstr "repo : 캐시 사용 : %s"
+msgstr "repo: 캐쉬 사용: %s"
 
 #: libdnf/repo/Repo.cpp:1351
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
-msgstr "캐시 만 사용 가능하지만 '%s'"
+msgstr "캐쉬만 사용 가능하지만 '%s'를 위해 캐쉬가 없습니다"
 
 #: libdnf/repo/Repo.cpp:1355
 #, c-format
 msgid "repo: downloading from remote: %s"
-msgstr "repo : 원격에서 내려받기 중 : %s"
+msgstr "repo: 원격에서 내려받기 중: %s"
 
 #: libdnf/repo/Repo.cpp:1362
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
-msgstr "repo '%s': %s 를 위해 메타데이타 내려받기에 실패하였습니다"
+msgstr "repo를 위한 메타자료 내려받기에 실패하였습니다 '%s': %s"
 
 #: libdnf/repo/Repo.cpp:1388
 msgid "getCachedir(): Computation of SHA256 failed"
-msgstr "getCachedir () : SHA256 계산에 실패했습니다"
+msgstr "getCachedir(): SHA256 계산에 실패했습니다"
 
 #: libdnf/repo/Repo.cpp:1416
 #, c-format
@@ -1066,17 +1066,17 @@ msgstr "이력서는 byterangestart 매개 변수와 동시에 사용 할 수 �
 #: libdnf/repo/Repo.cpp:1810
 #, c-format
 msgid "PackageTarget initialization failed: %s"
-msgstr "PackageTarget 초기화에 실패했습니다 : %s"
+msgstr "PackageTarget 초기화에 실패했습니다: %s"
 
 #: libdnf/repo/Repo.cpp:1916
 #, c-format
 msgid "Cannot open %s: %s"
-msgstr "열 수 없다 %s: %s"
+msgstr "열 수 없습니다 %s: %s"
 
 #: libdnf/repo/Repo.cpp:1960
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
-msgstr "ID가 있는 로그 처리기 %ld 존재하지 않는다"
+msgstr "ID가 있는 로그 처리기 %ld가 존재하지 않습니다"
 
 #: libdnf/transaction/Swdb.cpp:173
 msgid "In progress"
@@ -1107,7 +1107,7 @@ msgstr ""
 
 #: libdnf/transaction/Transformer.cpp:681
 msgid "Transformer: can't open history persist dir"
-msgstr "변형 : persist dir 기록을 열 수 없습니다"
+msgstr "변형: persist dir 기록을 열 수 없습니다"
 
 #: libdnf/transaction/Transformer.cpp:694
 msgid "Couldn't find a history database"
