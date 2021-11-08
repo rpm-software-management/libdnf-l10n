@@ -2,13 +2,13 @@
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2017. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2018. #zanata
-# Emilio Herrera <ehespinosa57@gmail.com>, 2020.
+# Emilio Herrera <ehespinosa57@gmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-30 01:51+0000\n"
-"PO-Revision-Date: 2020-12-01 14:35+0000\n"
+"PO-Revision-Date: 2021-11-09 17:03+0000\n"
 "Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Weblate 4.8.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -251,7 +251,7 @@ msgstr " Problema %1$i: %2$s\n"
 #: libdnf/dnf-goal.cpp:97
 #, c-format
 msgid " Problem: %s\n"
-msgstr ""
+msgstr " Problema: %*s\n"
 
 #: libdnf/dnf-rpmts.cpp:79
 #, c-format
@@ -259,6 +259,8 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
+"No hay metadatos modulares disponibles para el paquete modular '%s'; no "
+"puede ser instalado en el sistema"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
@@ -322,7 +324,7 @@ msgstr "no se pudo añadir resolutor"
 #: libdnf/dnf-sack.cpp:414
 #, c-format
 msgid "no %1$s string for %2$s"
-msgstr ""
+msgstr "ninguna cadena %1$s para %2$s"
 
 #: libdnf/dnf-sack.cpp:424
 #, c-format
@@ -373,7 +375,7 @@ msgstr "falló repo_add_solv()."
 
 #: libdnf/dnf-sack.cpp:716
 msgid "loading of MD_TYPE_PRIMARY has failed."
-msgstr ""
+msgstr "la carga de MD_TIPO_PRIMARIO ha fallado."
 
 #: libdnf/dnf-sack.cpp:729
 msgid "repo_add_repomdxml/rpmmd() has failed."
