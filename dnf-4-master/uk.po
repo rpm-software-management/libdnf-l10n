@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-30 01:51+0000\n"
+"POT-Creation-Date: 2021-11-09 01:43+0000\n"
 "PO-Revision-Date: 2021-09-04 21:04+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -52,7 +52,7 @@ msgstr "значення 1 не є дозволеним"
 msgid "negative value is not allowed"
 msgstr "не можна використовувати від'ємні значення"
 
-#: libdnf/conf/ConfigMain.cpp:341
+#: libdnf/conf/ConfigMain.cpp:343
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "значення відсотків, «%s», поза припустимим діапазоном"
@@ -239,11 +239,11 @@ msgstr ""
 "стан модуля за допомогою команди «microdnf module reset <назва_модуля>». "
 "Після відновлення початкового стану модуля ви зможете встановити інший потік."
 
-#: libdnf/dnf-goal.cpp:85
+#: libdnf/dnf-goal.cpp:107
 msgid "Could not depsolve transaction; "
 msgstr "Не вдалося розв'язати залежності операції; "
 
-#: libdnf/dnf-goal.cpp:87
+#: libdnf/dnf-goal.cpp:109
 #, c-format
 msgid "%i problem detected:\n"
 msgid_plural "%i problems detected:\n"
@@ -251,12 +251,12 @@ msgstr[0] "Виявлено %i проблему:\n"
 msgstr[1] "Виявлено %i проблеми:\n"
 msgstr[2] "Виявлено %i проблем:\n"
 
-#: libdnf/dnf-goal.cpp:95
+#: libdnf/dnf-goal.cpp:117
 #, c-format
 msgid " Problem %1$i: %2$s\n"
 msgstr " Проблема %1$i: %2$s\n"
 
-#: libdnf/dnf-goal.cpp:97
+#: libdnf/dnf-goal.cpp:119
 #, c-format
 msgid " Problem: %s\n"
 msgstr " Проблема: %s\n"
@@ -706,42 +706,42 @@ msgstr "модуль %s конфліктує з %s, що надається са
 msgid "both module %s and %s obsolete %s"
 msgstr "обидва модулі, %s і %s, роблять застарілим %s"
 
-#: libdnf/goal/Goal.cpp:1055
+#: libdnf/goal/Goal.cpp:1141
 msgid "no solver set"
 msgstr "не встановлено розв'язувача"
 
-#: libdnf/goal/Goal.cpp:1060
+#: libdnf/goal/Goal.cpp:1146
 #, c-format
 msgid "failed to make %s absolute"
 msgstr "не вдалося зробити %s абсолютним"
 
-#: libdnf/goal/Goal.cpp:1067
+#: libdnf/goal/Goal.cpp:1153
 #, c-format
 msgid "failed writing debugdata to %1$s: %2$s"
 msgstr "не вдалося записати діагностичні дані до %1$s: %2$s"
 
-#: libdnf/goal/Goal.cpp:1079
+#: libdnf/goal/Goal.cpp:1165
 msgid "no solv in the goal"
 msgstr "немає solv у цілі"
 
-#: libdnf/goal/Goal.cpp:1081
+#: libdnf/goal/Goal.cpp:1167
 msgid "no solution, cannot remove protected package"
 msgstr "немає розв'язку, неможливо вилучити захищений пакунок"
 
-#: libdnf/goal/Goal.cpp:1084
+#: libdnf/goal/Goal.cpp:1170
 msgid "no solution possible"
 msgstr "розв'язання неможливе"
 
-#: libdnf/goal/Goal.cpp:1210
+#: libdnf/goal/Goal.cpp:1296
 msgid "Problem: "
 msgstr "Проблема: "
 
-#: libdnf/goal/Goal.cpp:1215
+#: libdnf/goal/Goal.cpp:1301
 #, c-format
 msgid "Problem %d: "
 msgstr "Проблема %d: "
 
-#: libdnf/goal/Goal.cpp:1542
+#: libdnf/goal/Goal.cpp:1634
 msgid ""
 "The operation would result in removing the following protected packages: "
 msgstr "Дія призведе до вилучення таких захищених пакунків: "
