@@ -5,13 +5,14 @@
 # Anonymous <noreply@weblate.org>, 2020.
 # Andika Triwidada <andika@gmail.com>, 2020.
 # Didik Supriadi <didiksupriadi41@gmail.com>, 2021.
+# Alief Gilang <aliefgilang54@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-07-30 08:04+0000\n"
-"Last-Translator: Didik Supriadi <didiksupriadi41@gmail.com>\n"
+"PO-Revision-Date: 2021-11-12 02:05+0000\n"
+"Last-Translator: Alief Gilang <aliefgilang54@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/id/>\n"
 "Language: id\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.8.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -62,9 +63,9 @@ msgstr "nilai boolean tidak valid '%s'"
 
 #: libdnf/conf/OptionEnum.cpp:72 libdnf/conf/OptionEnum.cpp:158
 #: libdnf/conf/OptionString.cpp:59 libdnf/conf/OptionStringList.cpp:59
-#, c-format
+#, c-format, fuzzy
 msgid "'%s' is not an allowed value"
-msgstr ""
+msgstr "'%s' bukan nilai yang diizinkan"
 
 #: libdnf/conf/OptionEnum.cpp:83 libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
