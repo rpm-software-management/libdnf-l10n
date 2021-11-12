@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-09 01:43+0000\n"
+"POT-Creation-Date: 2021-11-12 01:43+0000\n"
 "PO-Revision-Date: 2021-11-12 02:05+0000\n"
 "Last-Translator: Alief Gilang <aliefgilang54@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
@@ -75,7 +75,7 @@ msgstr "nilai boolean tidak valid '%s'"
 
 #: libdnf/conf/OptionEnum.cpp:72 libdnf/conf/OptionEnum.cpp:158
 #: libdnf/conf/OptionString.cpp:64 libdnf/conf/OptionStringList.cpp:59
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "'%s' is not an allowed value"
 msgstr "'%s' bukan nilai yang diizinkan"
 
