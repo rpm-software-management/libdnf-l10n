@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-08-21 14:36+0000\n"
+"PO-Revision-Date: 2021-12-05 20:16+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/de/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -111,12 +111,12 @@ msgstr[0] "%i Problem erkannt:\n"
 msgstr[1] "%i Probleme erkannt:\n"
 
 #: libdnf/dnf-goal.cpp:78
-#, fuzzy, c-format
+#, c-format
 msgid " Problem %1$i: %2$s\n"
 msgstr " Problem %1$i: %2$s\n"
 
 #: libdnf/dnf-goal.cpp:80
-#, fuzzy, c-format
+#, c-format
 msgid " Problem: %s\n"
 msgstr " Problem: %s\n"
 
@@ -239,7 +239,7 @@ msgstr "repo_add_solv() has failed."
 
 #: libdnf/dnf-sack.cpp:750
 msgid "loading of MD_TYPE_PRIMARY has failed."
-msgstr ""
+msgstr "Das Laden von MD_TYPE_PRIMARY ist fehlgeschlagen."
 
 #: libdnf/dnf-sack.cpp:763
 msgid "repo_add_repomdxml/rpmmd() has failed."
@@ -424,12 +424,12 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:78
 #, c-format
 msgid "package %s is filtered out by modular filtering"
-msgstr ""
+msgstr "Paket %s wird durch modulare Filterung herausgefiltert"
 
 #: libdnf/goal/Goal.cpp:79
 #, c-format
 msgid "package %s does not have a compatible architecture"
-msgstr ""
+msgstr "Paket %s hat keine kompatible Architektur"
 
 #: libdnf/goal/Goal.cpp:80
 #, c-format
@@ -439,12 +439,12 @@ msgstr "Paket %s ist nicht installierbar"
 #: libdnf/goal/Goal.cpp:81
 #, c-format
 msgid "package %s is filtered out by exclude filtering"
-msgstr ""
+msgstr "Paket %s wird durch Ausschlussfilterung herausgefiltert"
 
 #: libdnf/goal/Goal.cpp:82
 #, c-format
 msgid "nothing provides %s needed by %s"
-msgstr ""
+msgstr "nichts stellt %s bereit, das von %s benötigt wird"
 
 #: libdnf/goal/Goal.cpp:83
 #, c-format
@@ -589,6 +589,8 @@ msgstr "keine Lösung möglich"
 msgid ""
 "The operation would result in removing the following protected packages: "
 msgstr ""
+"Die Operation würde dazu führen, dass die folgenden geschützten Pakete "
+"entfernt werden: "
 
 #: libdnf/hy-iutil.cpp:322
 #, c-format
@@ -635,7 +637,7 @@ msgstr "Fehlende PLATFORM_ID in %s"
 
 #: libdnf/module/ModulePackage.cpp:532
 msgid "No valid Platform ID detected"
-msgstr ""
+msgstr "Keine gültige Plattformkennung erkannt"
 
 #: libdnf/module/ModulePackageContainer.cpp:68
 #, c-format
