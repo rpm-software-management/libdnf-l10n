@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-05 01:51+0000\n"
-"PO-Revision-Date: 2021-12-05 20:16+0000\n"
+"PO-Revision-Date: 2021-12-28 22:16+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/de/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -583,22 +583,22 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:107
 #, c-format
 msgid "package %s conflicts with %s provided by %s"
-msgstr ""
+msgstr "Paket %s steht im Konflikt mit %s, das von %s bereitgestellt wird"
 
 #: libdnf/goal/Goal.cpp:108
 #, c-format
 msgid "package %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "Paket %s macht %s obsolet, das von %s bereitgestellt wird"
 
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "installiertes Paket %s macht %s obsolet, das von %s bereitgestellt wird"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
 msgid "package %s implicitly obsoletes %s provided by %s"
-msgstr ""
+msgstr "Paket %s macht %s implizit obsolet, das von %s bereitgestellt wird"
 
 #: libdnf/goal/Goal.cpp:111
 #, c-format
@@ -608,12 +608,12 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:112
 #, c-format
 msgid "package %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "Paket %s steht im Konflikt mit dem von ihm selbst bereitgestellten %s"
 
 #: libdnf/goal/Goal.cpp:113
 #, c-format
 msgid "both package %s and %s obsolete %s"
-msgstr ""
+msgstr "beide Pakete %s und %s machen %s obsolet"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -656,22 +656,22 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:134
 #, c-format
 msgid "module %s conflicts with %s provided by %s"
-msgstr ""
+msgstr "Modul %s steht im Konflikt mit %s, das von %s bereitgestellt wird"
 
 #: libdnf/goal/Goal.cpp:135
 #, c-format
 msgid "module %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "Modul %s macht %s obsolet, das von %s bereitgestellt wird"
 
 #: libdnf/goal/Goal.cpp:136
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "installiertes Modul %s macht %s obsolet, das von %s bereitgestellt wird"
 
 #: libdnf/goal/Goal.cpp:137
 #, c-format
 msgid "module %s implicitly obsoletes %s provided by %s"
-msgstr ""
+msgstr "Modul %s macht %s implizit obsolet, das von %s bereitgestellt wird"
 
 #: libdnf/goal/Goal.cpp:138
 #, c-format
@@ -681,12 +681,12 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:139
 #, c-format
 msgid "module %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "Modul %s steht im Konflikt mit dem von ihm selbst bereitgestellten %s"
 
 #: libdnf/goal/Goal.cpp:140
 #, c-format
 msgid "both module %s and %s obsolete %s"
-msgstr ""
+msgstr "beide Module %s und %s machen %s obsolet"
 
 #: libdnf/goal/Goal.cpp:1141
 msgid "no solver set"
@@ -743,7 +743,7 @@ msgstr ""
 #: libdnf/hy-iutil.cpp:380
 #, c-format
 msgid "cannot create directory %1$s: %2$s"
-msgstr ""
+msgstr "kann Verzeichnis %1$s nicht erstellen: %2$s"
 
 #: libdnf/hy-iutil.cpp:415
 #, c-format
@@ -753,20 +753,23 @@ msgstr ""
 #: libdnf/module/ModulePackage.cpp:604
 #, c-format
 msgid "Invalid format of Platform module: %s"
-msgstr ""
+msgstr "Ungültiges Format des Plattformmoduls: %s"
 
 #: libdnf/module/ModulePackage.cpp:619
 msgid "Multiple module platforms provided by available packages\n"
 msgstr ""
+"Mehrere Modulplattformen, die durch verfügbare Pakete bereitgestellt werden\n"
 
 #: libdnf/module/ModulePackage.cpp:632
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr ""
+"Mehrere Modulplattformen, die von installierten Paketen bereitgestellt "
+"werden\n"
 
 #: libdnf/module/ModulePackage.cpp:659
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
-msgstr ""
+msgstr "Erkennung des Plattformmoduls in %s fehlgeschlagen: %s"
 
 #: libdnf/module/ModulePackage.cpp:668
 #, c-format
