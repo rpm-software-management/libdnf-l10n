@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-05 01:51+0000\n"
+"POT-Creation-Date: 2021-12-27 01:49+0000\n"
 "PO-Revision-Date: 2021-12-28 22:16+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
@@ -593,7 +593,8 @@ msgstr "Paket %s macht %s obsolet, das von %s bereitgestellt wird"
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
-msgstr "installiertes Paket %s macht %s obsolet, das von %s bereitgestellt wird"
+msgstr ""
+"installiertes Paket %s macht %s obsolet, das von %s bereitgestellt wird"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
@@ -666,7 +667,8 @@ msgstr "Modul %s macht %s obsolet, das von %s bereitgestellt wird"
 #: libdnf/goal/Goal.cpp:136
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s"
-msgstr "installiertes Modul %s macht %s obsolet, das von %s bereitgestellt wird"
+msgstr ""
+"installiertes Modul %s macht %s obsolet, das von %s bereitgestellt wird"
 
 #: libdnf/goal/Goal.cpp:137
 #, c-format
