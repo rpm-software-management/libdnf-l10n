@@ -1,13 +1,13 @@
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2020.
-# Ricky Tigg <ricky.tigg@gmail.com>, 2020, 2021.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2020, 2021, 2022.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-03-05 07:38+0000\n"
+"PO-Revision-Date: 2022-01-05 17:16+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/fi/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -454,7 +454,7 @@ msgstr "molempia %s ja %s ei voi asentaa"
 #: libdnf/goal/Goal.cpp:84
 #, c-format
 msgid "package %s conflicts with %s provided by %s"
-msgstr "paketti %s on ristiriidassa %s:n tarjoama %s n kanssa"
+msgstr "paketti %s on ristiriidassa %s:n tarjoamansa %s:n kanssa"
 
 #: libdnf/goal/Goal.cpp:85
 #, c-format
@@ -480,7 +480,7 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:89
 #, c-format
 msgid "package %s conflicts with %s provided by itself"
-msgstr "paketti %s on ristiriidassa itsen tarjoama %s:n kanssa"
+msgstr "paketti %s on ristiriidassa itse tarjoamansa %s:n kanssa"
 
 #: libdnf/goal/Goal.cpp:90
 #, c-format
@@ -528,7 +528,7 @@ msgstr "ei voi asentaa molempia moduuleja %s ja %s"
 #: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid "module %s conflicts with %s provided by %s"
-msgstr "moduuli %s on ristiriidassa %s:n tarjoama %s:n kanssa"
+msgstr "moduuli %s on ristiriidassa %s:n tarjoamansa %s:n kanssa"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
@@ -554,7 +554,7 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:116
 #, c-format
 msgid "module %s conflicts with %s provided by itself"
-msgstr "moduuli %s on ristiriidassa itsen tarjoama %s:n kanssa"
+msgstr "moduuli %s on ristiriidassa itse tarjoamansa %s:n kanssa"
 
 #: libdnf/goal/Goal.cpp:117
 #, c-format
