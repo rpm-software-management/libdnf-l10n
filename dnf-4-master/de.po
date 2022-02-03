@@ -5,13 +5,14 @@
 # Paul Ritter <paul-ritter@gmx.net>, 2018. #zanata
 # Fabian Affolter <mail@fabian-affolter.ch>, 2020.
 # Ettore Atalan <atalanttore@googlemail.com>, 2021.
+# Philipp Trulson <philipp@trulson.de>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-31 01:42+0000\n"
-"PO-Revision-Date: 2021-12-28 22:16+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"PO-Revision-Date: 2022-02-04 17:16+0000\n"
+"Last-Translator: Philipp Trulson <philipp@trulson.de>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/de/>\n"
 "Language: de\n"
@@ -994,7 +995,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:890
 #, c-format
 msgid "repo %s: 0x%s already imported"
-msgstr "Repo %s: 0x%s bereits importiert"
+msgstr "Paketquelle %s: 0x%s bereits importiert"
 
 #: libdnf/repo/Repo.cpp:904 libdnf/utils/filesystem.cpp:79
 #, fuzzy, c-format
