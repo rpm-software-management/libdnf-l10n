@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-04 01:37+0000\n"
+"POT-Creation-Date: 2022-02-06 01:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -309,84 +309,84 @@ msgstr ""
 msgid "could not add erase element %1$s(%2$i)"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:395
+#: libdnf/dnf-sack.cpp:394
 msgid "failed to add solv"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:414
+#: libdnf/dnf-sack.cpp:413
 #, c-format
 msgid "no %1$s string for %2$s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:424
+#: libdnf/dnf-sack.cpp:423
 #, c-format
 msgid "failed to open: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:503
+#: libdnf/dnf-sack.cpp:502
 #, c-format
 msgid "cannot create temporary file: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:513
+#: libdnf/dnf-sack.cpp:512
 #, c-format
 msgid "failed opening tmp file: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:525
+#: libdnf/dnf-sack.cpp:524
 #, c-format
 msgid "write_main() failed writing data: %i"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:542
+#: libdnf/dnf-sack.cpp:541
 msgid "write_main() failed to re-load written solv file"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:607
+#: libdnf/dnf-sack.cpp:606
 #, c-format
 msgid "can not create temporary file %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:625
+#: libdnf/dnf-sack.cpp:624
 #, c-format
 msgid "write_ext(%1$d) has failed: %2$d"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:680
+#: libdnf/dnf-sack.cpp:679
 msgid "null repo md file"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:689
+#: libdnf/dnf-sack.cpp:688
 #, c-format
 msgid "can not read file %1$s: %2$s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:703
+#: libdnf/dnf-sack.cpp:702
 msgid "repo_add_solv() has failed."
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:716
+#: libdnf/dnf-sack.cpp:715
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:729
+#: libdnf/dnf-sack.cpp:728
 msgid "repo_add_repomdxml/rpmmd() has failed."
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:796
+#: libdnf/dnf-sack.cpp:795
 msgid "failed to auto-detect architecture"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:961
+#: libdnf/dnf-sack.cpp:960
 #, c-format
 msgid "failed creating cachedir %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:1738
+#: libdnf/dnf-sack.cpp:1737
 msgid "failed loading RPMDB"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:2522
+#: libdnf/dnf-sack.cpp:2521
 #, c-format
 msgid "No module defaults found: %s"
 msgstr ""
@@ -415,64 +415,73 @@ msgstr ""
 msgid "already at 100%% state [%s]"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:300
+#: libdnf/dnf-transaction.cpp:302
 #, c-format
 msgid "Sources not set when trying to ensure package %s"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:326
+#: libdnf/dnf-transaction.cpp:328
 #, c-format
 msgid "Failed to ensure %1$s as repo %2$s not found(%3$i repos loaded)"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:367
+#: libdnf/dnf-transaction.cpp:369
 msgid "Failed to check untrusted: "
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:377
+#: libdnf/dnf-transaction.cpp:379
 #, c-format
 msgid "Downloaded file for %s not found"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:397
+#: libdnf/dnf-transaction.cpp:399
 #, c-format
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:831 libdnf/dnf-transaction.cpp:903
+#: libdnf/dnf-transaction.cpp:833 libdnf/dnf-transaction.cpp:905
 msgid "Failed to get value for CacheDir"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:911
+#: libdnf/dnf-transaction.cpp:913
 #, c-format
 msgid "Failed to get filesystem free size for %s: "
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:919
+#: libdnf/dnf-transaction.cpp:921
 #, c-format
 msgid "Failed to get filesystem free size for %s"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:935
+#: libdnf/dnf-transaction.cpp:937
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1195
+#: libdnf/dnf-transaction.cpp:1196
 msgid "failed to set root"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1416
+#: libdnf/dnf-transaction.cpp:1417
 #, c-format
 msgid "Error %i running transaction test"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1456
+#: libdnf/dnf-transaction.cpp:1441
+#, c-format
+msgid "Error %i opening rpm database"
+msgstr ""
+
+#: libdnf/dnf-transaction.cpp:1449 libdnf/dnf-transaction.cpp:1495
+msgid "The rpmdbCookie() function did not return cookie of rpm database."
+msgstr ""
+
+#: libdnf/dnf-transaction.cpp:1464
 #, c-format
 msgid "Error %i running transaction"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1472
+#: libdnf/dnf-transaction.cpp:1480
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
