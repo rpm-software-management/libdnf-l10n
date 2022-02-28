@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-11 14:28+0200\n"
+"POT-Creation-Date: 2022-02-28 11:03+0100\n"
 "PO-Revision-Date: 2021-08-13 09:04+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
@@ -170,8 +170,8 @@ msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
-"Probleem tijdens het inschakelen van de afhankelijkheidsboom voor module '%1$"
-"s' stream '%2$s': %3$s"
+"Probleem tijdens het inschakelen van de afhankelijkheidsboom voor module "
+"'%1$s' stream '%2$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3420
 msgid "Problems appeared for module enable request"
@@ -807,32 +807,32 @@ msgstr "Modules uitschakelen:\n"
 msgid "Resetting modules:\n"
 msgstr "Modules herstellen:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1599
+#: libdnf/module/ModulePackageContainer.cpp:1638
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "Kan modulaire Fail-Safe data op '%s' niet laden"
 
-#: libdnf/module/ModulePackageContainer.cpp:1605
+#: libdnf/module/ModulePackageContainer.cpp:1644
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "Kan modulaire Fail-Safe data voor module niet laden '%s:%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1663
+#: libdnf/module/ModulePackageContainer.cpp:1702
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr "Kan map \"%s\" voor modulaire Fail Safe data niet aanmaken: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1679
+#: libdnf/module/ModulePackageContainer.cpp:1718
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "Kan modulairr Fail Safe data niet opslaan naar '%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1702
+#: libdnf/module/ModulePackageContainer.cpp:1741
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Kan modulaire Fail Safe data in '%s' niet verwijderen"
 
-#: libdnf/module/ModulePackageContainer.cpp:1734
+#: libdnf/module/ModulePackageContainer.cpp:1773
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-11 14:28+0200\n"
+"POT-Creation-Date: 2022-02-28 11:03+0100\n"
 "PO-Revision-Date: 2021-09-06 17:27+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -114,7 +114,9 @@ msgstr "モジュール '%s' から、さらにストリームを同時に有効
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
-msgstr "モジュール '%1$s' ストリーム '%2$s' を有効にできません。モジュールの状態はすでに変更されています"
+msgstr ""
+"モジュール '%1$s' ストリーム '%2$s' を有効にできません。モジュールの状態はす"
+"でに変更されています"
 
 #: libdnf/dnf-context.cpp:3253
 #, c-format
@@ -168,7 +170,8 @@ msgstr "引数の不要な情報は無視します: '%s'"
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
-msgstr "モジュール '%1$s' ストリーム '%2$s' の依存関係ツリーの有効化中に問題: %3$s"
+msgstr ""
+"モジュール '%1$s' ストリーム '%2$s' の依存関係ツリーの有効化中に問題: %3$s"
 
 #: libdnf/dnf-context.cpp:3420
 msgid "Problems appeared for module enable request"
@@ -800,39 +803,41 @@ msgstr "モジュールの無効化:\n"
 msgid "Resetting modules:\n"
 msgstr "モジュールの再設定中:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1599
+#: libdnf/module/ModulePackageContainer.cpp:1638
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "'%s' のモジュラーフェイルセーフデータをロードできません"
 
-#: libdnf/module/ModulePackageContainer.cpp:1605
+#: libdnf/module/ModulePackageContainer.cpp:1644
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "モジュール '%s:%s' のモジュラーフェイルセーフデータをロードできません"
 
-#: libdnf/module/ModulePackageContainer.cpp:1663
+#: libdnf/module/ModulePackageContainer.cpp:1702
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 "ディレクトリー \"%s\" を作成できません。対象モジュラーフェイルセーフデータ: "
 "%s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1679
+#: libdnf/module/ModulePackageContainer.cpp:1718
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "'%s' のモジュラーフェイルセーフデータを保存できません"
 
-#: libdnf/module/ModulePackageContainer.cpp:1702
+#: libdnf/module/ModulePackageContainer.cpp:1741
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "'%s' のモジュラーフェイルセーフデータを削除できません"
 
-#: libdnf/module/ModulePackageContainer.cpp:1734
+#: libdnf/module/ModulePackageContainer.cpp:1773
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
-msgstr "ターゲットモジュール '%s' が無効であるため、モジュラーの廃止を '%s:%s' に適用できません"
+msgstr ""
+"ターゲットモジュール '%s' が無効であるため、モジュラーの廃止を '%s:%s' に適用"
+"できません"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -862,7 +867,8 @@ msgstr "ストリームのアップグレードに失敗しました: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:212
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
-msgstr "%s に一致するストリームがないため、モジュールの廃止を取得できません: %s"
+msgstr ""
+"%s に一致するストリームがないため、モジュールの廃止を取得できません: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format

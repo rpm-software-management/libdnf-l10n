@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-11 14:28+0200\n"
+"POT-Creation-Date: 2022-02-28 11:03+0100\n"
 "PO-Revision-Date: 2021-08-19 06:05+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
@@ -799,32 +799,32 @@ msgstr "Avaktiverar moduler:\n"
 msgid "Resetting modules:\n"
 msgstr "Återställer moduler:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1599
+#: libdnf/module/ModulePackageContainer.cpp:1638
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "Kan inte läsa in modulär felsäker data vid ”%s”"
 
-#: libdnf/module/ModulePackageContainer.cpp:1605
+#: libdnf/module/ModulePackageContainer.cpp:1644
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "Kan inte läsa in modulär felsäker data för modulen ”%s:%s”"
 
-#: libdnf/module/ModulePackageContainer.cpp:1663
+#: libdnf/module/ModulePackageContainer.cpp:1702
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr "Det går inte att skapa katalogen ”%s” för modulär felsäker data: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1679
+#: libdnf/module/ModulePackageContainer.cpp:1718
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "Kan inte spara modulär felsäker data till ”%s”"
 
-#: libdnf/module/ModulePackageContainer.cpp:1702
+#: libdnf/module/ModulePackageContainer.cpp:1741
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Kan inte ta bort modulär felsäker data i ”%s”"
 
-#: libdnf/module/ModulePackageContainer.cpp:1734
+#: libdnf/module/ModulePackageContainer.cpp:1773
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
