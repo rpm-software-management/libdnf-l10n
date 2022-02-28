@@ -1,11 +1,11 @@
 # Emin Tufan Çetin <etcetin@gmail.com>, 2016. #zanata
-# Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
+# Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 01:52+0000\n"
-"PO-Revision-Date: 2021-08-01 03:04+0000\n"
+"PO-Revision-Date: 2022-03-01 07:37+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/tr/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.11\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -486,11 +486,11 @@ msgstr "İşlem testi çalıştırılırken %i hatası"
 #: libdnf/dnf-transaction.cpp:1441
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "rpm veri tabanını açarken hata %i"
 
 #: libdnf/dnf-transaction.cpp:1449 libdnf/dnf-transaction.cpp:1495
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr ""
+msgstr "rpmdbCookie() işlevi rpm veri tabanının tanımlama çerezini döndürmedi."
 
 #: libdnf/dnf-transaction.cpp:1464
 #, c-format
