@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-04 01:37+0000\n"
+"POT-Creation-Date: 2022-02-28 01:52+0000\n"
 "PO-Revision-Date: 2021-07-30 15:05+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/"
@@ -332,86 +332,86 @@ msgstr "odnalezienie pakietu %s się nie powiodło"
 msgid "could not add erase element %1$s(%2$i)"
 msgstr "nie można dodać elementu usunięcia %1$s(%2$i)"
 
-#: libdnf/dnf-sack.cpp:395
+#: libdnf/dnf-sack.cpp:394
 msgid "failed to add solv"
 msgstr "dodanie mechanizmu rozwiązywania się nie powiodło"
 
-#: libdnf/dnf-sack.cpp:414
+#: libdnf/dnf-sack.cpp:413
 #, c-format
 msgid "no %1$s string for %2$s"
 msgstr "brak ciągu %1$s dla %2$s"
 
-#: libdnf/dnf-sack.cpp:424
+#: libdnf/dnf-sack.cpp:423
 #, c-format
 msgid "failed to open: %s"
 msgstr "otwarcie się nie powiodło: %s"
 
-#: libdnf/dnf-sack.cpp:503
+#: libdnf/dnf-sack.cpp:502
 #, c-format
 msgid "cannot create temporary file: %s"
 msgstr "nie można utworzyć pliku tymczasowego: %s"
 
-#: libdnf/dnf-sack.cpp:513
+#: libdnf/dnf-sack.cpp:512
 #, c-format
 msgid "failed opening tmp file: %s"
 msgstr "otwarcie pliku tymczasowego się nie powiodło: %s"
 
-#: libdnf/dnf-sack.cpp:525
+#: libdnf/dnf-sack.cpp:524
 #, c-format
 msgid "write_main() failed writing data: %i"
 msgstr "zapisanie danych przez write_main() się nie powiodło: %i"
 
-#: libdnf/dnf-sack.cpp:542
+#: libdnf/dnf-sack.cpp:541
 msgid "write_main() failed to re-load written solv file"
 msgstr ""
 "ponowne wczytanie zapisanego pliku mechanizmu rozwiązywania przez "
 "write_main() się nie powiodło"
 
-#: libdnf/dnf-sack.cpp:607
+#: libdnf/dnf-sack.cpp:606
 #, c-format
 msgid "can not create temporary file %s"
 msgstr "nie można utworzyć pliku tymczasowego %s"
 
-#: libdnf/dnf-sack.cpp:625
+#: libdnf/dnf-sack.cpp:624
 #, c-format
 msgid "write_ext(%1$d) has failed: %2$d"
 msgstr "write_ext(%1$d) się nie powiodło: %2$d"
 
-#: libdnf/dnf-sack.cpp:680
+#: libdnf/dnf-sack.cpp:679
 msgid "null repo md file"
 msgstr "pusty plik md repozytorium"
 
-#: libdnf/dnf-sack.cpp:689
+#: libdnf/dnf-sack.cpp:688
 #, c-format
 msgid "can not read file %1$s: %2$s"
 msgstr "nie można odczytać pliku %1$s: %2$s"
 
-#: libdnf/dnf-sack.cpp:703
+#: libdnf/dnf-sack.cpp:702
 msgid "repo_add_solv() has failed."
 msgstr "repo_add_solv() się nie powiodło."
 
-#: libdnf/dnf-sack.cpp:716
+#: libdnf/dnf-sack.cpp:715
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "wczytanie MD_TYPE_PRIMARY się nie powiodło."
 
-#: libdnf/dnf-sack.cpp:729
+#: libdnf/dnf-sack.cpp:728
 msgid "repo_add_repomdxml/rpmmd() has failed."
 msgstr "repo_add_repomdxml/rpmmd() się nie powiodło."
 
-#: libdnf/dnf-sack.cpp:796
+#: libdnf/dnf-sack.cpp:795
 msgid "failed to auto-detect architecture"
 msgstr "automatyczne wykrycie architektury się nie powiodło"
 
-#: libdnf/dnf-sack.cpp:961
+#: libdnf/dnf-sack.cpp:960
 #, c-format
 msgid "failed creating cachedir %s"
 msgstr "utworzenie katalogu pamięci podręcznej %s się nie powiodło"
 
-#: libdnf/dnf-sack.cpp:1738
+#: libdnf/dnf-sack.cpp:1737
 msgid "failed loading RPMDB"
 msgstr "wczytanie bazy danych RPM się nie powiodło"
 
-#: libdnf/dnf-sack.cpp:2522
+#: libdnf/dnf-sack.cpp:2521
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "Nie odnaleziono domyślnych modułu: %s"
@@ -440,69 +440,78 @@ msgstr "ukończono na stanie %1$p, który nie ma ustawionego rozmiaru. [%2$s]"
 msgid "already at 100%% state [%s]"
 msgstr "ma już stan 100%% [%s]"
 
-#: libdnf/dnf-transaction.cpp:300
+#: libdnf/dnf-transaction.cpp:302
 #, c-format
 msgid "Sources not set when trying to ensure package %s"
 msgstr "Źródła nie są ustawione podczas próby zapewnienia pakietu %s"
 
-#: libdnf/dnf-transaction.cpp:326
+#: libdnf/dnf-transaction.cpp:328
 #, c-format
 msgid "Failed to ensure %1$s as repo %2$s not found(%3$i repos loaded)"
 msgstr ""
 "Zapewnienie pakietu %1$s się nie powiodło, ponieważ nie odnaleziono "
 "repozytorium %2$s (wczytane repozytoria: %3$i)"
 
-#: libdnf/dnf-transaction.cpp:367
+#: libdnf/dnf-transaction.cpp:369
 msgid "Failed to check untrusted: "
 msgstr "Sprawdzenie niezaufanych się nie powiodło: "
 
-#: libdnf/dnf-transaction.cpp:377
+#: libdnf/dnf-transaction.cpp:379
 #, c-format
 msgid "Downloaded file for %s not found"
 msgstr "Nie odnaleziono pobranego pliku dla %s"
 
-#: libdnf/dnf-transaction.cpp:397
+#: libdnf/dnf-transaction.cpp:399
 #, c-format
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
 msgstr ""
 "nie można sprawdzić poprawności pakietu %1$s, a repozytorium %2$s ma "
 "włączone GPG: %3$s"
 
-#: libdnf/dnf-transaction.cpp:831 libdnf/dnf-transaction.cpp:903
+#: libdnf/dnf-transaction.cpp:833 libdnf/dnf-transaction.cpp:905
 msgid "Failed to get value for CacheDir"
 msgstr "Uzyskanie wartości dla katalogu pamięci podręcznej się nie powiodło"
 
-#: libdnf/dnf-transaction.cpp:911
+#: libdnf/dnf-transaction.cpp:913
 #, c-format
 msgid "Failed to get filesystem free size for %s: "
 msgstr "Uzyskanie wolnego miejsca w systemie plików dla %s się nie powiodło: "
 
-#: libdnf/dnf-transaction.cpp:919
+#: libdnf/dnf-transaction.cpp:921
 #, c-format
 msgid "Failed to get filesystem free size for %s"
 msgstr "Uzyskanie wolnego miejsca w systemie plików dla %s się nie powiodło"
 
-#: libdnf/dnf-transaction.cpp:935
+#: libdnf/dnf-transaction.cpp:937
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
 msgstr ""
 "Za mało wolnego miejsca na %1$s: wymagane jest %2$s, dostępne jest %3$s"
 
-#: libdnf/dnf-transaction.cpp:1195
+#: libdnf/dnf-transaction.cpp:1196
 msgid "failed to set root"
 msgstr "ustawienie roota się nie powiodło"
 
-#: libdnf/dnf-transaction.cpp:1416
+#: libdnf/dnf-transaction.cpp:1417
 #, c-format
 msgid "Error %i running transaction test"
 msgstr "Błąd %i podczas wykonywania testu transakcji"
 
-#: libdnf/dnf-transaction.cpp:1456
+#: libdnf/dnf-transaction.cpp:1441
+#, c-format
+msgid "Error %i opening rpm database"
+msgstr ""
+
+#: libdnf/dnf-transaction.cpp:1449 libdnf/dnf-transaction.cpp:1495
+msgid "The rpmdbCookie() function did not return cookie of rpm database."
+msgstr ""
+
+#: libdnf/dnf-transaction.cpp:1464
 #, c-format
 msgid "Error %i running transaction"
 msgstr "Błąd %i podczas wykonywania transakcji"
 
-#: libdnf/dnf-transaction.cpp:1472
+#: libdnf/dnf-transaction.cpp:1480
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
@@ -1150,11 +1159,11 @@ msgstr "Nie jest w trakcie wykonywania"
 msgid "No transaction in progress"
 msgstr "Nie ma wykonywanych transakcji"
 
-#: libdnf/transaction/TransactionItem.cpp:147
+#: libdnf/transaction/TransactionItem.cpp:146
 msgid "Attempt to insert transaction item into completed transaction"
 msgstr "Próba wstawienia elementu transakcji do ukończonej transakcji"
 
-#: libdnf/transaction/TransactionItem.cpp:218
+#: libdnf/transaction/TransactionItem.cpp:217
 msgid "Attempt to update transaction item in completed transaction"
 msgstr "Próba zaktualizowania elementu transakcji w ukończonej transakcji"
 
