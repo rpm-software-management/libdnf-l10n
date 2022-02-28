@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-01 08:49+0200\n"
+"POT-Creation-Date: 2022-02-28 10:38+0100\n"
 "PO-Revision-Date: 2021-09-04 21:04+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
@@ -51,7 +51,7 @@ msgstr "värdet 1 är inte tillåtet"
 msgid "negative value is not allowed"
 msgstr "negativt värde är inte tillåtet"
 
-#: libdnf/conf/ConfigMain.cpp:341
+#: libdnf/conf/ConfigMain.cpp:343
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "procentsatsen ”%s” är utanför intervallet"
@@ -106,13 +106,13 @@ msgstr "kunde inte konvertera ”%s” till sekunder"
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): Värdet är inte satt"
 
-#: libdnf/dnf-context.cpp:3170 libdnf/dnf-context.cpp:3179
+#: libdnf/dnf-context.cpp:3178 libdnf/dnf-context.cpp:3187
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr ""
 "Det går inte att aktivera flera strömmar från modulen ”%s” på samma gång"
 
-#: libdnf/dnf-context.cpp:3188 libdnf/dnf-context.cpp:3206
+#: libdnf/dnf-context.cpp:3196 libdnf/dnf-context.cpp:3214
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
@@ -120,61 +120,61 @@ msgstr ""
 "Det går inte att aktivera modulen ”%1$s” strömmen ”%2$s”: tillståndet på "
 "modulen är redan ändrat"
 
-#: libdnf/dnf-context.cpp:3253
+#: libdnf/dnf-context.cpp:3263
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "Modulärt beroendeproblem med standard: %s"
 
-#: libdnf/dnf-context.cpp:3256
+#: libdnf/dnf-context.cpp:3266
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
 msgstr "Modulärt beroendeproblem med de senaste modulerna: %s"
 
-#: libdnf/dnf-context.cpp:3260
+#: libdnf/dnf-context.cpp:3270
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "Modulärt beroendeproblem: %s"
 
-#: libdnf/dnf-context.cpp:3294 libdnf/dnf-context.cpp:3318
-#: libdnf/dnf-context.cpp:3329 libdnf/dnf-context.cpp:3368
-#: libdnf/dnf-context.cpp:3384 libdnf/dnf-context.cpp:3416
-#: libdnf/dnf-context.cpp:3460 libdnf/dnf-context.cpp:3470
+#: libdnf/dnf-context.cpp:3293 libdnf/dnf-context.cpp:3317
+#: libdnf/dnf-context.cpp:3328 libdnf/dnf-context.cpp:3367
+#: libdnf/dnf-context.cpp:3383 libdnf/dnf-context.cpp:3415
+#: libdnf/dnf-context.cpp:3464 libdnf/dnf-context.cpp:3474
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "Kan inte slå upp argumentet ”%s”"
 
-#: libdnf/dnf-context.cpp:3301
+#: libdnf/dnf-context.cpp:3300
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr ""
 "Endast modulnamn behövs. Ignorerar onödig information i argumentet: ”%s”"
 
-#: libdnf/dnf-context.cpp:3315
+#: libdnf/dnf-context.cpp:3314
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr ""
 "Det går inte att återställa modulen”%s”: tillståndet på modulen är redan "
 "ändrat"
 
-#: libdnf/dnf-context.cpp:3326
+#: libdnf/dnf-context.cpp:3325
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr ""
 "Det går inte att avaktivera modulen”%s”: tillståndet på modulen är redan "
 "ändrat"
 
-#: libdnf/dnf-context.cpp:3357 libdnf/dnf-context.cpp:3449
-#: libdnf/dnf-context.cpp:3559
+#: libdnf/dnf-context.cpp:3356 libdnf/dnf-context.cpp:3452
+#: libdnf/dnf-context.cpp:3633
 msgid "No modular data available"
 msgstr "Inga modulära data gilltängliga"
 
-#: libdnf/dnf-context.cpp:3374
+#: libdnf/dnf-context.cpp:3373
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Ignorerar onödig information i argumentet: ”%s”"
 
-#: libdnf/dnf-context.cpp:3412
+#: libdnf/dnf-context.cpp:3411
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
@@ -183,29 +183,62 @@ msgstr ""
 "Problem under aktivering av beroendeträdet för modulen ”%1$s” strömmen "
 "”%2$s”: %3$s"
 
-#: libdnf/dnf-context.cpp:3424
-msgid "Problems appeared for module enable request"
+#: libdnf/dnf-context.cpp:3423
+#, fuzzy
+#| msgid "Problems appeared for module enable request"
+msgid "Problems appeared for module enable request:"
 msgstr "Problem uppstod för modulaktiveringsbegäran"
 
-#. this really should never happen; unless the modular repodata is corrupted
-#: libdnf/dnf-context.cpp:3496
+#: libdnf/dnf-context.cpp:3518
 #, c-format
-msgid "Failed to parse module artifact NEVRA '%s'"
-msgstr "Misslyckades att tolka modulartifakt-NEVRA ”%s”"
+msgid "No active module packages found for module spec '%s'"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3523
+#, fuzzy, c-format
+#| msgid "cannot install both modules %s and %s"
+msgid "Cannot install module '%s' from fail-safe repository"
+msgstr "det går inte att installera både modulen %s och %s"
 
 #: libdnf/dnf-context.cpp:3530
-msgid "Problems appeared for module install request"
+#, c-format
+msgid "No profile found matching '%s'"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3584
+#, c-format
+msgid "No match for package '%s' for module spec %s"
+msgstr ""
+
+#: libdnf/dnf-context.cpp:3595
+#, fuzzy, c-format
+#| msgid ""
+#| "Problem during enablement of dependency tree for module '%1$s' stream "
+#| "'%2$s': %3$s"
+msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
+msgstr ""
+"Problem under aktivering av beroendeträdet för modulen ”%1$s” strömmen "
+"”%2$s”: %3$s"
+
+#: libdnf/dnf-context.cpp:3604
+#, fuzzy
+#| msgid "Problems appeared for module install request"
+msgid "Problems appeared for module install request:"
 msgstr "Problem uppstod för modulavaktiveringsbegäran"
 
-#: libdnf/dnf-context.cpp:3590
-msgid "Problems appeared for module reset request"
+#: libdnf/dnf-context.cpp:3663
+#, fuzzy
+#| msgid "Problems appeared for module reset request"
+msgid "Problems appeared for module reset request:"
 msgstr "Problem uppstod för modulåterställningsbegäran"
 
-#: libdnf/dnf-context.cpp:3592
-msgid "Problems appeared for module disable request"
+#: libdnf/dnf-context.cpp:3664 libdnf/dnf-context.cpp:3723
+#, fuzzy
+#| msgid "Problems appeared for module disable request"
+msgid "Problems appeared for module disable request:"
 msgstr "Problem uppstod för modulavaktiveringsbegäran"
 
-#: libdnf/dnf-context.cpp:3628
+#: libdnf/dnf-context.cpp:3755
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -213,7 +246,7 @@ msgid ""
 msgstr ""
 "Åtgärden skulle resultera i byte av modulen ”%s” ström ”%s” till ström ”%s”"
 
-#: libdnf/dnf-context.cpp:3632
+#: libdnf/dnf-context.cpp:3759
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -225,23 +258,23 @@ msgstr ""
 "modulen med kommandot ”dnf module reset <modulnamn>”. Efter att du "
 "återställt modulen kan du installera den andra strömmen."
 
-#: libdnf/dnf-goal.cpp:85
+#: libdnf/dnf-goal.cpp:107
 msgid "Could not depsolve transaction; "
 msgstr "Kunde inte hitta transaktionsberoende "
 
-#: libdnf/dnf-goal.cpp:87
+#: libdnf/dnf-goal.cpp:109
 #, c-format
 msgid "%i problem detected:\n"
 msgid_plural "%i problems detected:\n"
 msgstr[0] "%i problem upptäcktes:\n"
 msgstr[1] "%i problem upptäcktes:\n"
 
-#: libdnf/dnf-goal.cpp:95
+#: libdnf/dnf-goal.cpp:117
 #, c-format
 msgid " Problem %1$i: %2$s\n"
 msgstr " Problem %1$i: %2$s\n"
 
-#: libdnf/dnf-goal.cpp:97
+#: libdnf/dnf-goal.cpp:119
 #, c-format
 msgid " Problem: %s\n"
 msgstr " Problem: %s\n"
@@ -308,84 +341,84 @@ msgstr "misslyckades att hitta paketet %s"
 msgid "could not add erase element %1$s(%2$i)"
 msgstr "kunde inte lägga till borttagningselement %1$s(%2$i)"
 
-#: libdnf/dnf-sack.cpp:395
+#: libdnf/dnf-sack.cpp:394
 msgid "failed to add solv"
 msgstr "misslyckades att lägga till lösning"
 
-#: libdnf/dnf-sack.cpp:414
+#: libdnf/dnf-sack.cpp:413
 #, c-format
 msgid "no %1$s string for %2$s"
 msgstr "ingen %1$s sträng för %2$s"
 
-#: libdnf/dnf-sack.cpp:424
+#: libdnf/dnf-sack.cpp:423
 #, c-format
 msgid "failed to open: %s"
 msgstr "misslyckades att öppna: %s"
 
-#: libdnf/dnf-sack.cpp:503
+#: libdnf/dnf-sack.cpp:502
 #, c-format
 msgid "cannot create temporary file: %s"
 msgstr "kan inte skapa temporärfil: %s"
 
-#: libdnf/dnf-sack.cpp:513
+#: libdnf/dnf-sack.cpp:512
 #, c-format
 msgid "failed opening tmp file: %s"
 msgstr "misslyckades att öppna temporärfil: %s"
 
-#: libdnf/dnf-sack.cpp:525
+#: libdnf/dnf-sack.cpp:524
 #, c-format
 msgid "write_main() failed writing data: %i"
 msgstr "write_main() misslyckades att skriva data: %i"
 
-#: libdnf/dnf-sack.cpp:542
+#: libdnf/dnf-sack.cpp:541
 msgid "write_main() failed to re-load written solv file"
 msgstr "write_main() misslyckades att läsa om en skriven lösningsfil"
 
-#: libdnf/dnf-sack.cpp:607
+#: libdnf/dnf-sack.cpp:606
 #, c-format
 msgid "can not create temporary file %s"
 msgstr "kan inte skapa den temporära filen %s"
 
-#: libdnf/dnf-sack.cpp:625
+#: libdnf/dnf-sack.cpp:624
 #, c-format
 msgid "write_ext(%1$d) has failed: %2$d"
 msgstr "write_ext(%1$d) har misslyckats: %2$d"
 
-#: libdnf/dnf-sack.cpp:680
+#: libdnf/dnf-sack.cpp:679
 msgid "null repo md file"
 msgstr "null repo-md-fil"
 
-#: libdnf/dnf-sack.cpp:689
+#: libdnf/dnf-sack.cpp:688
 #, c-format
 msgid "can not read file %1$s: %2$s"
 msgstr "kan inte läsa filen %1$s: %2$s"
 
-#: libdnf/dnf-sack.cpp:703
+#: libdnf/dnf-sack.cpp:702
 msgid "repo_add_solv() has failed."
 msgstr "repo_add_solv() har misslyckats."
 
-#: libdnf/dnf-sack.cpp:716
+#: libdnf/dnf-sack.cpp:715
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "Kunde inte ladda MD_TYPE_PRIMARY."
 
-#: libdnf/dnf-sack.cpp:729
+#: libdnf/dnf-sack.cpp:728
 msgid "repo_add_repomdxml/rpmmd() has failed."
 msgstr "repo_add_repomdxml/rpmmd() har misslyckats."
 
-#: libdnf/dnf-sack.cpp:796
+#: libdnf/dnf-sack.cpp:795
 msgid "failed to auto-detect architecture"
 msgstr "misslyckades att automatdetektera arkitekturen"
 
-#: libdnf/dnf-sack.cpp:961
+#: libdnf/dnf-sack.cpp:960
 #, c-format
 msgid "failed creating cachedir %s"
 msgstr "misslyckades att skapa cache-katalogen %s"
 
-#: libdnf/dnf-sack.cpp:1738
+#: libdnf/dnf-sack.cpp:1737
 msgid "failed loading RPMDB"
 msgstr "misslyckades att läsa in RPMDB"
 
-#: libdnf/dnf-sack.cpp:2462
+#: libdnf/dnf-sack.cpp:2521
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "Inga standardmoduler funna: %s"
@@ -414,68 +447,77 @@ msgstr "klar i tillstånd %1$p som inte hade en storlek satt! [%2$s]"
 msgid "already at 100%% state [%s]"
 msgstr "reda i 100 %%-tillstånd [%s]"
 
-#: libdnf/dnf-transaction.cpp:300
+#: libdnf/dnf-transaction.cpp:302
 #, c-format
 msgid "Sources not set when trying to ensure package %s"
 msgstr "Källor inte angivna vid försök att säkerställa paketet %s"
 
-#: libdnf/dnf-transaction.cpp:326
+#: libdnf/dnf-transaction.cpp:328
 #, c-format
 msgid "Failed to ensure %1$s as repo %2$s not found(%3$i repos loaded)"
 msgstr ""
 "Misslyckades att säkerställa %1$s eftersom förrådet %2$s inte finns (%3$i "
 "förråd inlästa)"
 
-#: libdnf/dnf-transaction.cpp:367
+#: libdnf/dnf-transaction.cpp:369
 msgid "Failed to check untrusted: "
 msgstr "Misslyckades att kontrollera ej betrodda: "
 
-#: libdnf/dnf-transaction.cpp:377
+#: libdnf/dnf-transaction.cpp:379
 #, c-format
 msgid "Downloaded file for %s not found"
 msgstr "Den hämtade filen för %s finns inte"
 
-#: libdnf/dnf-transaction.cpp:397
+#: libdnf/dnf-transaction.cpp:399
 #, c-format
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
 msgstr ""
 "paketet %1$s kan inte verifieras och förrådet %2$s är GPG-aktiverat: %3$s"
 
-#: libdnf/dnf-transaction.cpp:831 libdnf/dnf-transaction.cpp:903
+#: libdnf/dnf-transaction.cpp:833 libdnf/dnf-transaction.cpp:905
 msgid "Failed to get value for CacheDir"
 msgstr "Misslyckades att få värdet för CacheDir"
 
-#: libdnf/dnf-transaction.cpp:911
+#: libdnf/dnf-transaction.cpp:913
 #, c-format
 msgid "Failed to get filesystem free size for %s: "
 msgstr "Misslyckades att ta reda på filsystemets fria utrymme för %s: "
 
-#: libdnf/dnf-transaction.cpp:919
+#: libdnf/dnf-transaction.cpp:921
 #, c-format
 msgid "Failed to get filesystem free size for %s"
 msgstr "Misslyckades att ta reda på filsystemets fria utrymme för %s"
 
-#: libdnf/dnf-transaction.cpp:935
+#: libdnf/dnf-transaction.cpp:937
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
 msgstr ""
 "Inte tillräckligt med fritt utrymme i %1$s: %2$s behövs, %3$s är tillgängligt"
 
-#: libdnf/dnf-transaction.cpp:1195
+#: libdnf/dnf-transaction.cpp:1196
 msgid "failed to set root"
 msgstr "misslyckades att sätta roten"
 
-#: libdnf/dnf-transaction.cpp:1416
+#: libdnf/dnf-transaction.cpp:1417
 #, c-format
 msgid "Error %i running transaction test"
 msgstr "Fel %i när transaktionstesten kördes"
 
-#: libdnf/dnf-transaction.cpp:1456
+#: libdnf/dnf-transaction.cpp:1441
+#, c-format
+msgid "Error %i opening rpm database"
+msgstr ""
+
+#: libdnf/dnf-transaction.cpp:1449 libdnf/dnf-transaction.cpp:1495
+msgid "The rpmdbCookie() function did not return cookie of rpm database."
+msgstr ""
+
+#: libdnf/dnf-transaction.cpp:1464
 #, c-format
 msgid "Error %i running transaction"
 msgstr "Fel %i när transaktionen kördes"
 
-#: libdnf/dnf-transaction.cpp:1472
+#: libdnf/dnf-transaction.cpp:1480
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr "Transaktionen kom inte till skrivfasen, men returnerade inget fel(%i)"
@@ -683,42 +725,42 @@ msgstr "modulen %s står i konflikt med %s som den tillhandahåller själv"
 msgid "both module %s and %s obsolete %s"
 msgstr "både modulen %s och %s fasar ut %s"
 
-#: libdnf/goal/Goal.cpp:1055
+#: libdnf/goal/Goal.cpp:1141
 msgid "no solver set"
 msgstr "ingen lösare angiven"
 
-#: libdnf/goal/Goal.cpp:1060
+#: libdnf/goal/Goal.cpp:1146
 #, c-format
 msgid "failed to make %s absolute"
 msgstr "misslyckades att göra %s absolut"
 
-#: libdnf/goal/Goal.cpp:1067
+#: libdnf/goal/Goal.cpp:1153
 #, c-format
 msgid "failed writing debugdata to %1$s: %2$s"
 msgstr "misslyckades att skriva felsökningsdata till %1$s: %2$s"
 
-#: libdnf/goal/Goal.cpp:1079
+#: libdnf/goal/Goal.cpp:1165
 msgid "no solv in the goal"
 msgstr "ingen lösning i målet"
 
-#: libdnf/goal/Goal.cpp:1081
+#: libdnf/goal/Goal.cpp:1167
 msgid "no solution, cannot remove protected package"
 msgstr "ingen lösning, kan inte ta bort skyddat paket"
 
-#: libdnf/goal/Goal.cpp:1084
+#: libdnf/goal/Goal.cpp:1170
 msgid "no solution possible"
 msgstr "ingen lösning möjlig"
 
-#: libdnf/goal/Goal.cpp:1210
+#: libdnf/goal/Goal.cpp:1296
 msgid "Problem: "
 msgstr "Problem: "
 
-#: libdnf/goal/Goal.cpp:1215
+#: libdnf/goal/Goal.cpp:1301
 #, c-format
 msgid "Problem %d: "
 msgstr "Problem %d: "
 
-#: libdnf/goal/Goal.cpp:1542
+#: libdnf/goal/Goal.cpp:1634
 msgid ""
 "The operation would result in removing the following protected packages: "
 msgstr "Åtgärden skulle resultera i att ta bort följande skyddade paket: "
@@ -743,30 +785,30 @@ msgstr "kan inte skapa katalogen %1$s: %2$s"
 msgid "cannot stat path %1$s: %2$s"
 msgstr "kan inte ta status på sökvägen %1$s: %2$s"
 
-#: libdnf/module/ModulePackage.cpp:573
+#: libdnf/module/ModulePackage.cpp:604
 #, c-format
 msgid "Invalid format of Platform module: %s"
 msgstr "Felaktigt format på plattformsmodulen: %s"
 
-#: libdnf/module/ModulePackage.cpp:588
+#: libdnf/module/ModulePackage.cpp:619
 msgid "Multiple module platforms provided by available packages\n"
 msgstr "Flera modulplattformar tillhandahålls av tillgängliga paket\n"
 
-#: libdnf/module/ModulePackage.cpp:601
+#: libdnf/module/ModulePackage.cpp:632
 msgid "Multiple module platforms provided by installed packages\n"
 msgstr "Flera modulplattformar tillhandahålls av installerade paket\n"
 
-#: libdnf/module/ModulePackage.cpp:628
+#: libdnf/module/ModulePackage.cpp:659
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
 msgstr "Detektering av plattformsmodul i %s misslyckades: %s"
 
-#: libdnf/module/ModulePackage.cpp:637
+#: libdnf/module/ModulePackage.cpp:668
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
 msgstr "Saknad PLATFORM_ID i %s"
 
-#: libdnf/module/ModulePackage.cpp:642
+#: libdnf/module/ModulePackage.cpp:673
 msgid "No valid Platform ID detected"
 msgstr "Inget giltigt plattforms-ID detekterat"
 
@@ -780,56 +822,56 @@ msgstr "Det går inte att aktivera multipla strömmar för modulen ”%s”"
 msgid "Conflicting defaults with repo '%s': %s"
 msgstr "Standardvärden i konflikt med förrådet ”%s”: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:918
+#: libdnf/module/ModulePackageContainer.cpp:917
 msgid "Installing module profiles:\n"
 msgstr "Installerar modulprofiler:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:933
+#: libdnf/module/ModulePackageContainer.cpp:932
 msgid "Disabling module profiles:\n"
 msgstr "Avaktiverar modulprofiler:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:948
+#: libdnf/module/ModulePackageContainer.cpp:947
 msgid "Enabling module streams:\n"
 msgstr "Aktiverar modulströmmar:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:962
+#: libdnf/module/ModulePackageContainer.cpp:961
 msgid "Switching module streams:\n"
 msgstr "Byter modulströmmar:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:980
+#: libdnf/module/ModulePackageContainer.cpp:979
 msgid "Disabling modules:\n"
 msgstr "Avaktiverar moduler:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:991
+#: libdnf/module/ModulePackageContainer.cpp:990
 msgid "Resetting modules:\n"
 msgstr "Återställer moduler:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1674
+#: libdnf/module/ModulePackageContainer.cpp:1704
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "Kan inte läsa in modulär felsäker data vid ”%s”"
 
-#: libdnf/module/ModulePackageContainer.cpp:1680
+#: libdnf/module/ModulePackageContainer.cpp:1710
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "Kan inte läsa in modulär felsäker data för modulen ”%s:%s”"
 
-#: libdnf/module/ModulePackageContainer.cpp:1761
+#: libdnf/module/ModulePackageContainer.cpp:1791
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr "Det går inte att skapa katalogen ”%s” för modulär felsäker data: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1777
+#: libdnf/module/ModulePackageContainer.cpp:1807
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "Kan inte spara modulär felsäker data till ”%s”"
 
-#: libdnf/module/ModulePackageContainer.cpp:1800
+#: libdnf/module/ModulePackageContainer.cpp:1830
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Kan inte ta bort modulär felsäker data i ”%s”"
 
-#: libdnf/module/ModulePackageContainer.cpp:1832
+#: libdnf/module/ModulePackageContainer.cpp:1862
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
@@ -863,7 +905,7 @@ msgstr "Misslyckades att uppgradera standardvärden: %s"
 msgid "Failed to upgrade streams: %s"
 msgstr "Misslyckades att uppgradera strömmar: %s"
 
-#: libdnf/module/modulemd/ModuleMetadata.cpp:219
+#: libdnf/module/modulemd/ModuleMetadata.cpp:221
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr "Kan inte hämta modulutfasningar eftersom ingen ström matchar %s: %s"
@@ -1137,3 +1179,6 @@ msgstr "Transaktionsobjektets tillstånd inte satt: %s"
 #: libdnf/transaction/private/Transaction.cpp:243
 msgid "Can't add console output to unsaved transaction"
 msgstr "Kan inte lägga till konsolutdata till en osparad transaktion"
+
+#~ msgid "Failed to parse module artifact NEVRA '%s'"
+#~ msgstr "Misslyckades att tolka modulartifakt-NEVRA ”%s”"
