@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Jan Kuparinen <copper_fin@hotmail.com>, 2021.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 10:38+0100\n"
-"PO-Revision-Date: 2022-01-05 17:16+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2022-03-03 09:51+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-9/fi/>\n"
 "Language: fi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -181,59 +181,45 @@ msgstr ""
 "yhteydessä"
 
 #: libdnf/dnf-context.cpp:3423
-#, fuzzy
-#| msgid "Problems appeared for module enable request"
 msgid "Problems appeared for module enable request:"
-msgstr "Moduulin käyttöönottopyynnössä ilmeni ongelmia"
+msgstr "Moduulin käyttöönottopyynnössä ilmeni ongelmia:"
 
 #: libdnf/dnf-context.cpp:3518
 #, c-format
 msgid "No active module packages found for module spec '%s'"
-msgstr ""
+msgstr "Moduulimäärityksille '%s' ei löytynyt aktiivisia moduulipaketteja"
 
 #: libdnf/dnf-context.cpp:3523
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
-msgstr "ei voi asentaa molempia moduuleja %s ja %s"
+msgstr "Ei voi asentaa moduulia '%s' vikaturvallisesta asennuslähteestä"
 
 #: libdnf/dnf-context.cpp:3530
 #, c-format
 msgid "No profile found matching '%s'"
-msgstr ""
+msgstr "'%s' vastaavaa profiilia ei löytynyt"
 
 #: libdnf/dnf-context.cpp:3584
 #, c-format
 msgid "No match for package '%s' for module spec %s"
-msgstr ""
+msgstr "Ei vastaavuutta moduulin määrittelylle %s paketille '%s'"
 
 #: libdnf/dnf-context.cpp:3595
-#, fuzzy, c-format
-#| msgid ""
-#| "Problem during enablement of dependency tree for module '%1$s' stream "
-#| "'%2$s': %3$s"
+#, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
-msgstr ""
-"Ongelma moduulin '%1$s' virran '%2$s': %3$s riippuvuuspuun käyttöönoton "
-"yhteydessä"
+msgstr "Ongelma moduulin '%1$s' virran '%2$s': %3$s asennuksen yhteydessä"
 
 #: libdnf/dnf-context.cpp:3604
-#, fuzzy
-#| msgid "Problems appeared for module install request"
 msgid "Problems appeared for module install request:"
-msgstr "Moduulin asennuspyynnössä ilmeni ongelmia"
+msgstr "Moduulin asennuspyynnössä ilmeni ongelmia:"
 
 #: libdnf/dnf-context.cpp:3663
-#, fuzzy
-#| msgid "Problems appeared for module reset request"
 msgid "Problems appeared for module reset request:"
-msgstr "Moduulin nollauspyynnössä ilmeni ongelmia"
+msgstr "Moduulin nollauspyynnössä ilmeni ongelmia:"
 
 #: libdnf/dnf-context.cpp:3664 libdnf/dnf-context.cpp:3723
-#, fuzzy
-#| msgid "Problems appeared for module disable request"
 msgid "Problems appeared for module disable request:"
-msgstr "Moduulin käyttöönoton poiston pyynnössä ilmeni ongelmia"
+msgstr "Moduulin käyttöönoton poiston pyynnössä ilmeni ongelmia:"
 
 #: libdnf/dnf-context.cpp:3755
 #, c-format
@@ -504,11 +490,11 @@ msgstr "Tapahtumatestin suorittamisessa tapahtui virhe %i"
 #: libdnf/dnf-transaction.cpp:1441
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "Virhe %i avattaessa rpm-tietokantaa"
 
 #: libdnf/dnf-transaction.cpp:1449 libdnf/dnf-transaction.cpp:1495
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr ""
+msgstr "rpmdbCookie()-funktio ei palauttanut rpm-tietokannan evästettä."
 
 #: libdnf/dnf-transaction.cpp:1464
 #, c-format
