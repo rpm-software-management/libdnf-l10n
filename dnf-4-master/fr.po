@@ -6,15 +6,15 @@
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2019. #zanata, 2021.
 # Julien Humbert <julroy67@gmail.com>, 2020, 2021.
 # Arnaud T. <listes.00@gmail.com>, 2020.
-# Sundeep Anand <suanand@redhat.com>, 2021.
+# Sundeep Anand <suanand@redhat.com>, 2021, 2022.
 # Titouan Bénard <itotutona@evta.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-01 02:05+0000\n"
-"PO-Revision-Date: 2021-10-10 00:45+0000\n"
-"Last-Translator: Titouan Bénard <itotutona@evta.fr>\n"
+"PO-Revision-Date: 2022-03-02 10:16+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
 "Language: fr\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.11\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -187,20 +187,17 @@ msgstr ""
 
 #: libdnf/dnf-context.cpp:3423
 msgid "Problems appeared for module enable request:"
-msgstr "Des problèmes sont apparus durant la requête d’activation du module :"
+msgstr "Des problèmes sont apparus pour la demande d'activation du module :"
 
 #: libdnf/dnf-context.cpp:3518
 #, c-format
 msgid "No active module packages found for module spec '%s'"
-msgstr ""
-"Aucun package de module actif trouvé pour la spécification de module '%s'"
+msgstr "Aucun paquetage de module actif n'a été trouvé pour le module spec '%s'"
 
 #: libdnf/dnf-context.cpp:3523
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
-msgstr ""
-"Impossible d'installer le module '%s' à partir du référentiel de sécurité "
-"intégrée"
+msgstr "Impossible d'installer le module '%s' à partir du dépôt de sécurité"
 
 #: libdnf/dnf-context.cpp:3530
 #, c-format
@@ -210,29 +207,25 @@ msgstr "Aucun profil trouvé correspondant à '%s'"
 #: libdnf/dnf-context.cpp:3584
 #, c-format
 msgid "No match for package '%s' for module spec %s"
-msgstr ""
-"Aucune correspondance pour le package '%s' pour la spécification de module %s"
+msgstr "Aucune correspondance pour le paquet '%s' pour le module spec %s"
 
 #: libdnf/dnf-context.cpp:3595
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
-msgstr ""
-"Problème lors de l'installation du module « %1$s » du flux « %2$s » : %3$s"
+msgstr "Problème lors de l'installation du module '%1$s' stream '%2$s' : %3$s"
 
 #: libdnf/dnf-context.cpp:3604
 msgid "Problems appeared for module install request:"
-msgstr ""
-"Des problèmes sont apparus durant la requête d’installation du module :"
+msgstr "Des problèmes sont apparus pour la demande d'installation du module :"
 
 #: libdnf/dnf-context.cpp:3663
 msgid "Problems appeared for module reset request:"
 msgstr ""
-"Des problèmes sont apparus durant la requête de réinitialisation du module :"
+"Des problèmes sont apparus pour la demande de réinitialisation des modules :"
 
 #: libdnf/dnf-context.cpp:3664 libdnf/dnf-context.cpp:3723
 msgid "Problems appeared for module disable request:"
-msgstr ""
-"Des problèmes sont apparus durant la requête de désactivation du module :"
+msgstr "Des problèmes sont apparus pour la demande de désactivation du module :"
 
 #: libdnf/dnf-context.cpp:3755
 #, c-format
@@ -503,11 +496,13 @@ msgstr "Erreur %i lors du test transactionnel"
 #: libdnf/dnf-transaction.cpp:1441
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "Erreur %i lors de l’ouverture de la base de données rpm"
 
 #: libdnf/dnf-transaction.cpp:1449 libdnf/dnf-transaction.cpp:1495
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
 msgstr ""
+"La fonction rpmdbCookie() n'a pas retourné le cookie de la base de données "
+"rpm."
 
 #: libdnf/dnf-transaction.cpp:1464
 #, c-format
