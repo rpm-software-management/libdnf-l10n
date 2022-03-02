@@ -1,14 +1,14 @@
 # Casey Jones <nahareport@live.com>, 2018. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
 # Casey Jones <nahareport@yahoo.com>, 2020.
-# Sundeep Anand <suanand@redhat.com>, 2021.
+# Sundeep Anand <suanand@redhat.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 10:38+0100\n"
-"PO-Revision-Date: 2021-09-11 10:04+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2022-03-02 10:16+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-9/ja/>\n"
 "Language: ja\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.11\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -179,58 +179,46 @@ msgstr ""
 "モジュール '%1$s' ストリーム '%2$s' の依存関係ツリーの有効化中に問題: %3$s"
 
 #: libdnf/dnf-context.cpp:3423
-#, fuzzy
-#| msgid "Problems appeared for module enable request"
 msgid "Problems appeared for module enable request:"
-msgstr "モジュール有効リクエストに発生する問題"
+msgstr "モジュール有効化リクエストに発生する問題:"
 
 #: libdnf/dnf-context.cpp:3518
 #, c-format
 msgid "No active module packages found for module spec '%s'"
-msgstr ""
+msgstr "モジュール仕様 '%s' "
+"について、アクティブなモジュールパッケージが見つかりません"
 
 #: libdnf/dnf-context.cpp:3523
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
-msgstr "モジュール %s と %s どちらもインストールできません"
+msgstr "フェイルセーフリポジトリーからモジュール '%s' をインストールできません"
 
 #: libdnf/dnf-context.cpp:3530
 #, c-format
 msgid "No profile found matching '%s'"
-msgstr ""
+msgstr "'%s' にマッチするプロファイルが見つかりません"
 
 #: libdnf/dnf-context.cpp:3584
 #, c-format
 msgid "No match for package '%s' for module spec %s"
-msgstr ""
+msgstr "モジュール仕様 %s について、パッケージ '%s' にマッチする項目はありません"
 
 #: libdnf/dnf-context.cpp:3595
-#, fuzzy, c-format
-#| msgid ""
-#| "Problem during enablement of dependency tree for module '%1$s' stream "
-#| "'%2$s': %3$s"
+#, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
-msgstr ""
-"モジュール '%1$s' ストリーム '%2$s' の依存関係ツリーの有効化中に問題: %3$s"
+msgstr "モジュール '%1$s' ストリーム '%2$s' のインストール中に問題: %3$s"
 
 #: libdnf/dnf-context.cpp:3604
-#, fuzzy
-#| msgid "Problems appeared for module install request"
 msgid "Problems appeared for module install request:"
-msgstr "モジュールインストールリクエストに発生する問題"
+msgstr "モジュールインストールリクエストに発生する問題:"
 
 #: libdnf/dnf-context.cpp:3663
-#, fuzzy
-#| msgid "Problems appeared for module reset request"
 msgid "Problems appeared for module reset request:"
-msgstr "モジュールリセットリクエストに発生する問題"
+msgstr "モジュールリセットリクエストに発生する問題:"
 
 #: libdnf/dnf-context.cpp:3664 libdnf/dnf-context.cpp:3723
-#, fuzzy
-#| msgid "Problems appeared for module disable request"
 msgid "Problems appeared for module disable request:"
-msgstr "モジュール無効化リクエストに発生する問題"
+msgstr "モジュール無効化リクエストに発生する問題:"
 
 #: libdnf/dnf-context.cpp:3755
 #, c-format
@@ -501,11 +489,11 @@ msgstr "トランザクションテストの実行中にエラー %i"
 #: libdnf/dnf-transaction.cpp:1441
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "rpm データベースを開く際にエラー %i"
 
 #: libdnf/dnf-transaction.cpp:1449 libdnf/dnf-transaction.cpp:1495
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr ""
+msgstr "rpmdbCookie() 関数は rpm データベースのクッキーを返しませんでした。"
 
 #: libdnf/dnf-transaction.cpp:1464
 #, c-format
