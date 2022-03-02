@@ -1,13 +1,13 @@
 # Charles Lee <lchopn@gmail.com>, 2017. #zanata, 2020, 2021.
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
-# Sundeep Anand <suanand@redhat.com>, 2021.
+# Sundeep Anand <suanand@redhat.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 10:38+0100\n"
-"PO-Revision-Date: 2021-09-11 10:04+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2022-03-02 10:16+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-rhel-9/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.11\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -172,57 +172,45 @@ msgid ""
 msgstr "为模块 '%1$s' 流 '%2$s' 启用依赖树时出现问题: %3$s"
 
 #: libdnf/dnf-context.cpp:3423
-#, fuzzy
-#| msgid "Problems appeared for module enable request"
 msgid "Problems appeared for module enable request:"
-msgstr "模块启用请求时出现问题"
+msgstr "模块启用请求出现问题："
 
 #: libdnf/dnf-context.cpp:3518
 #, c-format
 msgid "No active module packages found for module spec '%s'"
-msgstr ""
+msgstr "未找到模块规范 '%s' 的活动模块包"
 
 #: libdnf/dnf-context.cpp:3523
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
-msgstr "无法同时安装模块 %s 和 %s"
+msgstr "无法从故障保护存储库安装模块 '%s'"
 
 #: libdnf/dnf-context.cpp:3530
 #, c-format
 msgid "No profile found matching '%s'"
-msgstr ""
+msgstr "未找到匹配 '%s' 的配置文件"
 
 #: libdnf/dnf-context.cpp:3584
 #, c-format
 msgid "No match for package '%s' for module spec %s"
-msgstr ""
+msgstr "没有匹配模块规范 %s 的包 '%s'"
 
 #: libdnf/dnf-context.cpp:3595
-#, fuzzy, c-format
-#| msgid ""
-#| "Problem during enablement of dependency tree for module '%1$s' stream "
-#| "'%2$s': %3$s"
+#, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
-msgstr "为模块 '%1$s' 流 '%2$s' 启用依赖树时出现问题: %3$s"
+msgstr "在安装模块 '%1$s' 流 '%2$s'时的问题:%3$s"
 
 #: libdnf/dnf-context.cpp:3604
-#, fuzzy
-#| msgid "Problems appeared for module install request"
 msgid "Problems appeared for module install request:"
-msgstr "模块安装请求出现问题"
+msgstr "模块安装请求出现问题："
 
 #: libdnf/dnf-context.cpp:3663
-#, fuzzy
-#| msgid "Problems appeared for module reset request"
 msgid "Problems appeared for module reset request:"
-msgstr "模块重置请求时出现问题"
+msgstr "模块重置请求出现问题："
 
 #: libdnf/dnf-context.cpp:3664 libdnf/dnf-context.cpp:3723
-#, fuzzy
-#| msgid "Problems appeared for module disable request"
 msgid "Problems appeared for module disable request:"
-msgstr "模块禁用请求时出现问题"
+msgstr "模块禁用请求出现问题："
 
 #: libdnf/dnf-context.cpp:3755
 #, c-format
@@ -478,21 +466,21 @@ msgstr "设置 root 失败"
 #: libdnf/dnf-transaction.cpp:1417
 #, c-format
 msgid "Error %i running transaction test"
-msgstr "错误 %i 运行事务测试"
+msgstr "运行事务测试时错误 %i"
 
 #: libdnf/dnf-transaction.cpp:1441
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "打开 rpm 数据库时错误 %i"
 
 #: libdnf/dnf-transaction.cpp:1449 libdnf/dnf-transaction.cpp:1495
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr ""
+msgstr "rpmdbCookie()函数没有返回 rpm 数据库的 cookie。"
 
 #: libdnf/dnf-transaction.cpp:1464
 #, c-format
 msgid "Error %i running transaction"
-msgstr "错误 %i 运行事务"
+msgstr "运行事务时错误 %i"
 
 #: libdnf/dnf-transaction.cpp:1480
 #, c-format
