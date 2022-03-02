@@ -1,13 +1,14 @@
 # Charles Lee <lchopn@gmail.com>, 2017. #zanata, 2020, 2021.
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Qiyu Yan <yanqiyu01@gmail.com>, 2021.
+# Sundeep Anand <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-06-19 13:04+0000\n"
-"Last-Translator: Charles Lee <lchopn@gmail.com>\n"
+"PO-Revision-Date: 2022-03-02 10:16+0000\n"
+"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.11\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -334,12 +335,12 @@ msgstr "设置 root 失败"
 #: libdnf/dnf-transaction.cpp:1418
 #, c-format
 msgid "Error %i running transaction test"
-msgstr "错误 %i 运行事务测试"
+msgstr "运行事务测试时错误 %i"
 
 #: libdnf/dnf-transaction.cpp:1458
 #, c-format
 msgid "Error %i running transaction"
-msgstr "错误 %i 运行事务"
+msgstr "运行事务时错误 %i"
 
 #: libdnf/dnf-transaction.cpp:1473
 #, c-format
