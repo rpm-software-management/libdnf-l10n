@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-01 02:05+0000\n"
+"POT-Creation-Date: 2022-03-02 02:01+0000\n"
 "PO-Revision-Date: 2022-03-02 10:16+0000\n"
 "Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
@@ -192,7 +192,8 @@ msgstr "Des problèmes sont apparus pour la demande d'activation du module :"
 #: libdnf/dnf-context.cpp:3518
 #, c-format
 msgid "No active module packages found for module spec '%s'"
-msgstr "Aucun paquetage de module actif n'a été trouvé pour le module spec '%s'"
+msgstr ""
+"Aucun paquetage de module actif n'a été trouvé pour le module spec '%s'"
 
 #: libdnf/dnf-context.cpp:3523
 #, c-format
@@ -225,7 +226,8 @@ msgstr ""
 
 #: libdnf/dnf-context.cpp:3664 libdnf/dnf-context.cpp:3723
 msgid "Problems appeared for module disable request:"
-msgstr "Des problèmes sont apparus pour la demande de désactivation du module :"
+msgstr ""
+"Des problèmes sont apparus pour la demande de désactivation du module :"
 
 #: libdnf/dnf-context.cpp:3755
 #, c-format

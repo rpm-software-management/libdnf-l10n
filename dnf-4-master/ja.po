@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-01 02:05+0000\n"
+"POT-Creation-Date: 2022-03-02 02:01+0000\n"
 "PO-Revision-Date: 2022-03-02 10:16+0000\n"
 "Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -185,8 +185,9 @@ msgstr "モジュール有効化リクエストに発生する問題:"
 #: libdnf/dnf-context.cpp:3518
 #, c-format
 msgid "No active module packages found for module spec '%s'"
-msgstr "モジュール仕様 '%s' "
-"について、アクティブなモジュールパッケージが見つかりません"
+msgstr ""
+"モジュール仕様 '%s' について、アクティブなモジュールパッケージが見つかりませ"
+"ん"
 
 #: libdnf/dnf-context.cpp:3523
 #, c-format
@@ -201,7 +202,8 @@ msgstr "'%s' にマッチするプロファイルが見つかりません"
 #: libdnf/dnf-context.cpp:3584
 #, c-format
 msgid "No match for package '%s' for module spec %s"
-msgstr "モジュール仕様 %s について、パッケージ '%s' にマッチする項目はありません"
+msgstr ""
+"モジュール仕様 %s について、パッケージ '%s' にマッチする項目はありません"
 
 #: libdnf/dnf-context.cpp:3595
 #, c-format
