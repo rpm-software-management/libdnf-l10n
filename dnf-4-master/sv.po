@@ -3,14 +3,14 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021.
 # Mikael Granberg <mikael@famgra.se>, 2020.
 # Vilhelm Prytz <vilhelm@prytznet.se>, 2020.
-# Luna Jernberg <bittin@reimu.nl>, 2021.
+# Luna Jernberg <bittin@reimu.nl>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-03 02:02+0000\n"
-"PO-Revision-Date: 2021-09-04 21:04+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"PO-Revision-Date: 2022-03-08 22:24+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/sv/>\n"
 "Language: sv\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -211,7 +211,7 @@ msgstr "Ingen matchning för paket '%s' för modul spec %s"
 #: libdnf/dnf-context.cpp:3595
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
-msgstr "Problem under installation för modul”%1$s” strömmen ”%2$s”: %3$s"
+msgstr "Problem under installering för modul '%1$s' ström '%2$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3604
 msgid "Problems appeared for module install request:"
@@ -223,7 +223,7 @@ msgstr "Problem uppstod för modulåterställningsbegäran:"
 
 #: libdnf/dnf-context.cpp:3664 libdnf/dnf-context.cpp:3723
 msgid "Problems appeared for module disable request:"
-msgstr "Problem uppstod för modulavaktiveringsbegäran:"
+msgstr "Problem uppstod för modulinaktiveringsbegäran:"
 
 #: libdnf/dnf-context.cpp:3755
 #, c-format
