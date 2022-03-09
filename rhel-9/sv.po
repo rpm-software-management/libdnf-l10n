@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 10:38+0100\n"
-"PO-Revision-Date: 2022-03-08 22:24+0000\n"
+"PO-Revision-Date: 2022-03-09 12:39+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-9/sv/>\n"
@@ -201,7 +201,7 @@ msgstr "det går inte att installera både modulen %s och %s"
 #: libdnf/dnf-context.cpp:3530
 #, c-format
 msgid "No profile found matching '%s'"
-msgstr ""
+msgstr "Ingen profil hittades som matchar '%s'"
 
 #: libdnf/dnf-context.cpp:3584
 #, c-format
@@ -493,11 +493,11 @@ msgstr "Fel %i när transaktionstesten kördes"
 #: libdnf/dnf-transaction.cpp:1441
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "Fel %i vid öppnande av rpm databas"
 
 #: libdnf/dnf-transaction.cpp:1449 libdnf/dnf-transaction.cpp:1495
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr ""
+msgstr "Funktionen dbCookie() returnerade inte någon kaka från rpm-databasen."
 
 #: libdnf/dnf-transaction.cpp:1464
 #, c-format
