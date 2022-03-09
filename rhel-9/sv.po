@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Göran Uddeborg <goeran@uddeborg.se>, 2021.
 # Luna Jernberg <bittin@reimu.nl>, 2021, 2022.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 10:38+0100\n"
-"PO-Revision-Date: 2022-03-09 12:39+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"PO-Revision-Date: 2022-03-09 16:16+0000\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-9/sv/>\n"
 "Language: sv\n"
@@ -493,11 +494,12 @@ msgstr "Fel %i när transaktionstesten kördes"
 #: libdnf/dnf-transaction.cpp:1441
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr "Fel %i vid öppnande av rpm databas"
+msgstr "Fel %i vid öppnande av rpm-databas"
 
 #: libdnf/dnf-transaction.cpp:1449 libdnf/dnf-transaction.cpp:1495
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr "Funktionen dbCookie() returnerade inte någon kaka från rpm-databasen."
+msgstr ""
+"Funktionen rpmdbCookie() returnerade inte någon kaka från rpm-databasen."
 
 #: libdnf/dnf-transaction.cpp:1464
 #, c-format
