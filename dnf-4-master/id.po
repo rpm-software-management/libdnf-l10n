@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Syahmin Sukhairi <syahmin@gmail.com>, 2020.
-# Andika Triwidada <andika@gmail.com>, 2020.
+# Andika Triwidada <andika@gmail.com>, 2020, 2022.
 # Didik Supriadi <didiksupriadi41@gmail.com>, 2021.
 # Alief Gilang <aliefgilang54@gmail.com>, 2021.
 msgid ""
@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-18 02:08+0000\n"
-"PO-Revision-Date: 2021-11-12 02:05+0000\n"
-"Last-Translator: Alief Gilang <aliefgilang54@gmail.com>\n"
+"PO-Revision-Date: 2022-03-27 13:32+0000\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/id/>\n"
 "Language: id\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -984,7 +984,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:890
 #, c-format
 msgid "repo %s: 0x%s already imported"
-msgstr ""
+msgstr "repo %s: 0x%s sudah diimpor"
 
 #: libdnf/repo/Repo.cpp:904 libdnf/utils/filesystem.cpp:79
 #, c-format
@@ -994,7 +994,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:924
 #, c-format
 msgid "repo %s: imported key 0x%s."
-msgstr ""
+msgstr "repo %s: kunci yang diimpor 0x%s."
 
 #: libdnf/repo/Repo.cpp:1176
 #, c-format
