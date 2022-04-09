@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Yuri Chornoivan <yurchor@ukr.net>, 2021, 2022.
+# Martin Nozistance <nozistance@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 10:38+0100\n"
 "PO-Revision-Date: 2022-04-10 05:29+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Last-Translator: Martin Nozistance <nozistance@gmail.com>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-9/uk/>\n"
 "Language: uk\n"
@@ -178,10 +179,8 @@ msgstr ""
 "«%2$s»: %3$s"
 
 #: libdnf/dnf-context.cpp:3423
-#, fuzzy
-#| msgid "Problems appeared for module enable request"
 msgid "Problems appeared for module enable request:"
-msgstr "Виникли проблеми із запитом щодо вмикання модуля"
+msgstr "Виникли проблеми із запитом щодо вмикання модуля:"
 
 #: libdnf/dnf-context.cpp:3518
 #, c-format
