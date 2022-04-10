@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-27 02:11+0000\n"
-"PO-Revision-Date: 2022-02-28 09:28+0000\n"
+"PO-Revision-Date: 2022-04-10 05:30+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -190,7 +190,7 @@ msgstr "Для специфікації модуля «%s» не знайден�
 #: libdnf/dnf-context.cpp:3523
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
-msgstr "Не можна встановити модуль «%s» із надійного сховища"
+msgstr "Не вдалося встановити модуль «%s» з безпечного сховища"
 
 #: libdnf/dnf-context.cpp:3530
 #, c-format
@@ -205,7 +205,7 @@ msgstr "Немає відповідників для пакунка «%s» дл�
 #: libdnf/dnf-context.cpp:3595
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
-msgstr "Проблема під час встановлення для модуля «%1$s», потік «%2$s»: %3$s"
+msgstr "Проблема під час встановлення модуля «%1$s», потік «%2$s»: %3$s"
 
 #: libdnf/dnf-context.cpp:3604
 msgid "Problems appeared for module install request:"
