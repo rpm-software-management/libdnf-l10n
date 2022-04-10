@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-10 02:20+0000\n"
-"PO-Revision-Date: 2022-03-03 09:51+0000\n"
+"PO-Revision-Date: 2022-04-10 10:12+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/pl/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -339,7 +339,7 @@ msgstr "repo_add_solv() się nie powiodło."
 #: libdnf/dnf-sack.cpp:415
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "Wczytanie pamięci podręcznej rozszerzeń %s (%d) się nie powiodło: "
 
 #: libdnf/dnf-sack.cpp:429
 #, c-format
@@ -365,22 +365,23 @@ msgstr "otwarcie pliku tymczasowego się nie powiodło: %s"
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
+"Podczas zapisywania głównej pamięci podręcznej %s zapis repowriter się nie "
+"powiódł: %i, błąd: %s"
 
 #: libdnf/dnf-sack.cpp:560
-#, fuzzy, c-format
-#| msgid "failed opening tmp file: %s"
+#, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr "otwarcie pliku tymczasowego się nie powiodło: %s"
+msgstr "Zamknięcie pliku tymczasowego %s się nie powiodło: %s"
 
 #: libdnf/dnf-sack.cpp:570
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "Użycie nowo zapisanej głównej pamięci podręcznej się nie powiodło: %s: "
 
 #: libdnf/dnf-sack.cpp:576
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "Użycie nowo zapisanej głównej pamięci podręcznej się nie powiodło: %s"
 
 #: libdnf/dnf-sack.cpp:626
 #, c-format
@@ -392,21 +393,28 @@ msgstr "nie można utworzyć pliku tymczasowego %s"
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
+"Podczas zapisywania pamięci podręcznej rozszerzeń %s (%d): zapis repowriter "
+"się nie powiódł: %i, błąd: %s"
 
 #: libdnf/dnf-sack.cpp:676
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
 msgstr ""
+"Podczas zapisywania pamięci podręcznej rozszerzeń (%d): nie można zamknąć "
+"pliku tymczasowego: %s"
 
 #: libdnf/dnf-sack.cpp:692
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
 msgstr ""
+"Użycie nowo zapisanej pamięci podręcznej rozszerzeń się nie powiodło: %s "
+"(%d): "
 
 #: libdnf/dnf-sack.cpp:699
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
 msgstr ""
+"Użycie nowo zapisanej pamięci podręcznej rozszerzeń się nie powiodło: %s (%d)"
 
 #: libdnf/dnf-sack.cpp:740
 msgid "null repo md file"
@@ -420,23 +428,21 @@ msgstr "nie można odczytać pliku %1$s: %2$s"
 #: libdnf/dnf-sack.cpp:764
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "Użycie %s podczas wczytywania repozytorium się nie powiodło: "
 
 #: libdnf/dnf-sack.cpp:775
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "wczytanie MD_TYPE_PRIMARY się nie powiodło."
 
 #: libdnf/dnf-sack.cpp:787
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading repomd has failed: %s"
-msgstr "Wczytywanie wtyczki file=\"%s\""
+msgstr "Wczytanie repomd się nie powiodło: %s"
 
 #: libdnf/dnf-sack.cpp:798
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading primary has failed: %s"
-msgstr "Wczytywanie wtyczki file=\"%s\""
+msgstr "Wczytanie głównej się nie powiodło: %s"
 
 #: libdnf/dnf-sack.cpp:864
 msgid "failed to auto-detect architecture"
@@ -809,6 +815,8 @@ msgstr "Działanie spowodowałoby usunięcie tych chronionych pakietów: "
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
 msgstr ""
+"solv_toolversion biblioteki libsolv ma: %zu, kiedy oczekiwane jest maksimum: "
+"%zu"
 
 #: libdnf/hy-iutil.cpp:408
 #, c-format
