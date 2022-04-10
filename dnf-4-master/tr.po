@@ -1,12 +1,13 @@
 # Emin Tufan Çetin <etcetin@gmail.com>, 2016. #zanata
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021, 2022.
+# Oğuz Ersen <oguz@ersen.moe>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-04-10 02:20+0000\n"
-"PO-Revision-Date: 2022-03-01 07:37+0000\n"
-"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"PO-Revision-Date: 2022-04-11 20:17+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/tr/>\n"
 "Language: tr\n"
@@ -14,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -329,7 +330,7 @@ msgstr "repo_add_solv() başarısız oldu."
 #: libdnf/dnf-sack.cpp:415
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "%s (%d) uzantı önbelleği yüklenemedi: "
 
 #: libdnf/dnf-sack.cpp:429
 #, c-format
@@ -355,22 +356,23 @@ msgstr "geçici dosya açılamadı: %s"
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
+"Birincil önbellek %s yazılırken repowriter yazma işlemi başarısız oldu: %i, "
+"hata: %s"
 
 #: libdnf/dnf-sack.cpp:560
-#, fuzzy, c-format
-#| msgid "failed opening tmp file: %s"
+#, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr "geçici dosya açılamadı: %s"
+msgstr "Geçici dosya %s kapatılamadı: %s"
 
 #: libdnf/dnf-sack.cpp:570
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "Yeni yazılan birincil önbellek kullanılamadı: %s: "
 
 #: libdnf/dnf-sack.cpp:576
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "Yeni yazılan birincil önbellek kullanılamadı: %s"
 
 #: libdnf/dnf-sack.cpp:626
 #, c-format
@@ -382,21 +384,23 @@ msgstr "%s geçici dosyası oluşturulamıyor"
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
+"Uzantı önbelleği %s (%d) yazılırken repowriter yazma işlemi başarısız oldu: "
+"%i, hata: %s"
 
 #: libdnf/dnf-sack.cpp:676
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
-msgstr ""
+msgstr "Uzantı önbelleği (%d) yazılırken geçici dosya kapatılamıyor: %s"
 
 #: libdnf/dnf-sack.cpp:692
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
-msgstr ""
+msgstr "Yeni yazılan uzantı önbelleği kullanılamadı: %s (%d): "
 
 #: libdnf/dnf-sack.cpp:699
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
-msgstr ""
+msgstr "Yeni yazılan uzantı önbelleği kullanılamadı: %s (%d)"
 
 #: libdnf/dnf-sack.cpp:740
 msgid "null repo md file"
@@ -410,23 +414,21 @@ msgstr "%1$s dosyası okunamıyor: %2$s"
 #: libdnf/dnf-sack.cpp:764
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "Depo yüklenirken %s kullanılamadı: "
 
 #: libdnf/dnf-sack.cpp:775
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "MD_TYPE_PRIMARY yüklenemedi."
 
 #: libdnf/dnf-sack.cpp:787
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading repomd has failed: %s"
-msgstr "Eklenti dosyası=\"%s\" yükleniyor"
+msgstr "repomd yüklenemedi: %s"
 
 #: libdnf/dnf-sack.cpp:798
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading primary has failed: %s"
-msgstr "Eklenti dosyası=\"%s\" yükleniyor"
+msgstr "Birincil yüklenemedi: %s"
 
 #: libdnf/dnf-sack.cpp:864
 msgid "failed to auto-detect architecture"
@@ -798,7 +800,7 @@ msgstr "İşlem, aşağıdaki korumalı paketlerin kaldırılmasına neden olur:
 #: libdnf/hy-iutil.cpp:181
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
-msgstr ""
+msgstr "Libsolv solv_toolversion %zu uzunluğunda en fazla %zu bekleniyor"
 
 #: libdnf/hy-iutil.cpp:408
 #, c-format
