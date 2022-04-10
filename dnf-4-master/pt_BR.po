@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-27 02:11+0000\n"
+"POT-Creation-Date: 2022-04-10 02:20+0000\n"
 "PO-Revision-Date: 2021-10-12 12:05+0000\n"
 "Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -112,12 +112,12 @@ msgstr "não foi possível converter '%s'para segundos"
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): valor não definido"
 
-#: libdnf/dnf-context.cpp:3178 libdnf/dnf-context.cpp:3187
+#: libdnf/dnf-context.cpp:3179 libdnf/dnf-context.cpp:3188
 #, fuzzy, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr "Não é possível habilitar mais fluxos do módulo '%s' ao mesmo tempo"
 
-#: libdnf/dnf-context.cpp:3196 libdnf/dnf-context.cpp:3214
+#: libdnf/dnf-context.cpp:3197 libdnf/dnf-context.cpp:3215
 #, fuzzy, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
@@ -125,31 +125,31 @@ msgstr ""
 "Não é possível habilitar o módulo '%1$s' stream '%2$s': Estado do módulo já "
 "modificado"
 
-#: libdnf/dnf-context.cpp:3263
+#: libdnf/dnf-context.cpp:3264
 #, fuzzy, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "Problema de dependência modular com padrões: %s"
 
-#: libdnf/dnf-context.cpp:3266
+#: libdnf/dnf-context.cpp:3267
 #, fuzzy, c-format
 #| msgid "Modular dependency problem: %s"
 msgid "Modular dependency problem with the latest modules: %s"
 msgstr "Problema de dependência modular com os módulos mais recentes: %s"
 
-#: libdnf/dnf-context.cpp:3270
+#: libdnf/dnf-context.cpp:3271
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "Problema de dependência modular: %s"
 
-#: libdnf/dnf-context.cpp:3293 libdnf/dnf-context.cpp:3317
-#: libdnf/dnf-context.cpp:3328 libdnf/dnf-context.cpp:3367
-#: libdnf/dnf-context.cpp:3383 libdnf/dnf-context.cpp:3415
-#: libdnf/dnf-context.cpp:3464 libdnf/dnf-context.cpp:3474
+#: libdnf/dnf-context.cpp:3294 libdnf/dnf-context.cpp:3318
+#: libdnf/dnf-context.cpp:3329 libdnf/dnf-context.cpp:3368
+#: libdnf/dnf-context.cpp:3384 libdnf/dnf-context.cpp:3416
+#: libdnf/dnf-context.cpp:3465 libdnf/dnf-context.cpp:3475
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "Não foi possível resolver o argumento '%s'"
 
-#: libdnf/dnf-context.cpp:3300
+#: libdnf/dnf-context.cpp:3301
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
@@ -157,27 +157,27 @@ msgstr ""
 "Somente o nome do módulo é necessário. Ignorando informações desnecessárias "
 "no argumento: '%s'"
 
-#: libdnf/dnf-context.cpp:3314
+#: libdnf/dnf-context.cpp:3315
 #, fuzzy, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr "Não pode desabilitar módulo '%s': Estado do módulo já modificado"
 
-#: libdnf/dnf-context.cpp:3325
+#: libdnf/dnf-context.cpp:3326
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr "Não pode desabilitar módulo '%s': Estado do módulo já modificado"
 
-#: libdnf/dnf-context.cpp:3356 libdnf/dnf-context.cpp:3452
-#: libdnf/dnf-context.cpp:3633
+#: libdnf/dnf-context.cpp:3357 libdnf/dnf-context.cpp:3453
+#: libdnf/dnf-context.cpp:3634
 msgid "No modular data available"
 msgstr "Nenhum dado modular disponível"
 
-#: libdnf/dnf-context.cpp:3373
+#: libdnf/dnf-context.cpp:3374
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Ignorando informação desnecessária no argumento: '%s'"
 
-#: libdnf/dnf-context.cpp:3411
+#: libdnf/dnf-context.cpp:3412
 #, fuzzy, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
@@ -186,55 +186,55 @@ msgstr ""
 "problema durante a ativação da árvore de dependências para o fluxo do módulo "
 "'%1$s' de '%2$s': %3$s"
 
-#: libdnf/dnf-context.cpp:3423
+#: libdnf/dnf-context.cpp:3424
 #, fuzzy
 msgid "Problems appeared for module enable request:"
 msgstr "Apareceram problemas para a solicitação de ativação do módulo"
 
-#: libdnf/dnf-context.cpp:3518
+#: libdnf/dnf-context.cpp:3519
 #, c-format
 msgid "No active module packages found for module spec '%s'"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3523
+#: libdnf/dnf-context.cpp:3524
 #, fuzzy, c-format
 #| msgid "cannot install both modules %s and %s"
 msgid "Cannot install module '%s' from fail-safe repository"
 msgstr "não é possível instalar ambos os módulos %s e %s"
 
-#: libdnf/dnf-context.cpp:3530
+#: libdnf/dnf-context.cpp:3531
 #, c-format
 msgid "No profile found matching '%s'"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3584
+#: libdnf/dnf-context.cpp:3585
 #, c-format
 msgid "No match for package '%s' for module spec %s"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3595
+#: libdnf/dnf-context.cpp:3596
 #, fuzzy, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
 msgstr ""
 "problema durante a ativação da árvore de dependências para o fluxo do módulo "
 "'%1$s' de '%2$s': %3$s"
 
-#: libdnf/dnf-context.cpp:3604
+#: libdnf/dnf-context.cpp:3605
 #, fuzzy
 msgid "Problems appeared for module install request:"
 msgstr "Apareceram problemas para a solicitação de desativação do módulo"
 
-#: libdnf/dnf-context.cpp:3663
+#: libdnf/dnf-context.cpp:3664
 #, fuzzy
 msgid "Problems appeared for module reset request:"
 msgstr "Apareceram problemas para a solicitação de redefinição do módulo"
 
-#: libdnf/dnf-context.cpp:3664 libdnf/dnf-context.cpp:3723
+#: libdnf/dnf-context.cpp:3665 libdnf/dnf-context.cpp:3724
 #, fuzzy
 msgid "Problems appeared for module disable request:"
 msgstr "Apareceram problemas para a solicitação de desativação do módulo"
 
-#: libdnf/dnf-context.cpp:3755
+#: libdnf/dnf-context.cpp:3756
 #, fuzzy, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -242,7 +242,7 @@ msgid ""
 msgstr ""
 "A operação resultaria na mudança do módulo '%s' do fluxo '%s' para o '%s'"
 
-#: libdnf/dnf-context.cpp:3759
+#: libdnf/dnf-context.cpp:3760
 #, fuzzy
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
@@ -339,84 +339,126 @@ msgstr "não encontrou o pacote %s"
 msgid "could not add erase element %1$s(%2$i)"
 msgstr "não foi possível adicionar o elemento apagar %1$s(%2$i)"
 
-#: libdnf/dnf-sack.cpp:394
-msgid "failed to add solv"
-msgstr "não conseguiu adicionar solv"
+#: libdnf/dnf-sack.cpp:251
+msgid "repo_add_solv() has failed."
+msgstr "repo_add_solv () falhou."
 
-#: libdnf/dnf-sack.cpp:413
+#: libdnf/dnf-sack.cpp:415
+#, c-format
+msgid "Loading extension cache %s (%d) failed: "
+msgstr ""
+
+#: libdnf/dnf-sack.cpp:429
 #, c-format
 msgid "no %1$s string for %2$s"
 msgstr "nenhuma string %1$s para %2$s"
 
-#: libdnf/dnf-sack.cpp:423
+#: libdnf/dnf-sack.cpp:439
 #, c-format
 msgid "failed to open: %s"
 msgstr "falhou para abrir: %s"
 
-#: libdnf/dnf-sack.cpp:502
+#: libdnf/dnf-sack.cpp:518
 #, c-format
 msgid "cannot create temporary file: %s"
 msgstr "não é possível criar um arquivo temporário: %s"
 
-#: libdnf/dnf-sack.cpp:512
+#: libdnf/dnf-sack.cpp:528
 #, c-format
 msgid "failed opening tmp file: %s"
 msgstr "Falha ao abrir o arquivo tmp: %s"
 
-#: libdnf/dnf-sack.cpp:524
+#: libdnf/dnf-sack.cpp:550
 #, c-format
-msgid "write_main() failed writing data: %i"
-msgstr "write_main () falhou ao gravar dados: %i"
+msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
+msgstr ""
 
-#: libdnf/dnf-sack.cpp:541
-msgid "write_main() failed to re-load written solv file"
-msgstr "write_main () falhou ao recarregar um arquivo resolvido por escrito"
+#: libdnf/dnf-sack.cpp:560
+#, fuzzy, c-format
+#| msgid "failed opening tmp file: %s"
+msgid "Failed closing tmp file %s: %s"
+msgstr "Falha ao abrir o arquivo tmp: %s"
 
-#: libdnf/dnf-sack.cpp:606
+#: libdnf/dnf-sack.cpp:570
+#, c-format
+msgid "Failed to use newly written primary cache: %s: "
+msgstr ""
+
+#: libdnf/dnf-sack.cpp:576
+#, c-format
+msgid "Failed to use newly written primary cache: %s"
+msgstr ""
+
+#: libdnf/dnf-sack.cpp:626
 #, c-format
 msgid "can not create temporary file %s"
 msgstr "não pode criar um arquivo temporário %s"
 
-#: libdnf/dnf-sack.cpp:624
+#: libdnf/dnf-sack.cpp:666
 #, c-format
-msgid "write_ext(%1$d) has failed: %2$d"
-msgstr "write_ext(%1$d) falhou: %2$d"
+msgid ""
+"While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
+msgstr ""
 
-#: libdnf/dnf-sack.cpp:679
+#: libdnf/dnf-sack.cpp:676
+#, c-format
+msgid "While writing extension cache (%d): cannot close temporary file: %s"
+msgstr ""
+
+#: libdnf/dnf-sack.cpp:692
+#, c-format
+msgid "Failed to use newly written extension cache: %s (%d): "
+msgstr ""
+
+#: libdnf/dnf-sack.cpp:699
+#, c-format
+msgid "Failed to use newly written extension cache: %s (%d)"
+msgstr ""
+
+#: libdnf/dnf-sack.cpp:740
 msgid "null repo md file"
 msgstr "arquivo nulo repo md"
 
-#: libdnf/dnf-sack.cpp:688
+#: libdnf/dnf-sack.cpp:749
 #, c-format
 msgid "can not read file %1$s: %2$s"
 msgstr "não consigo ler o arquivo %1$s: %2$s"
 
-#: libdnf/dnf-sack.cpp:702
-msgid "repo_add_solv() has failed."
-msgstr "repo_add_solv () falhou."
+#: libdnf/dnf-sack.cpp:764
+#, c-format
+msgid "While loading repository failed to use %s: "
+msgstr ""
 
-#: libdnf/dnf-sack.cpp:715
+#: libdnf/dnf-sack.cpp:775
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "o carregamento de MD_TYPE_PRIMARY falhou."
 
-#: libdnf/dnf-sack.cpp:728
-msgid "repo_add_repomdxml/rpmmd() has failed."
-msgstr "repo_add_repomdxml / rpmmd () falhou."
+#: libdnf/dnf-sack.cpp:787
+#, fuzzy, c-format
+#| msgid "Loading plugin file=\"%s\""
+msgid "Loading repomd has failed: %s"
+msgstr "Carregando arquivo plugin=\"%s\""
 
-#: libdnf/dnf-sack.cpp:795
+#: libdnf/dnf-sack.cpp:798
+#, fuzzy, c-format
+#| msgid "Loading plugin file=\"%s\""
+msgid "Loading primary has failed: %s"
+msgstr "Carregando arquivo plugin=\"%s\""
+
+#: libdnf/dnf-sack.cpp:864
 msgid "failed to auto-detect architecture"
 msgstr "Falha ao detectar automaticamente a arquitetura"
 
-#: libdnf/dnf-sack.cpp:960
+#: libdnf/dnf-sack.cpp:1029
 #, c-format
 msgid "failed creating cachedir %s"
 msgstr "Falha ao criar o Cachedir %s"
 
-#: libdnf/dnf-sack.cpp:1737
+#: libdnf/dnf-sack.cpp:1806
 msgid "failed loading RPMDB"
 msgstr "falha ao carregar o RPMDB"
 
-#: libdnf/dnf-sack.cpp:2521
+#: libdnf/dnf-sack.cpp:2590
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "Nenhum padrão de módulo encontrado: %s"
@@ -521,7 +563,7 @@ msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
 "A transação não foi para a fase de escrita, mas não retornou nenhum erro (%i)"
 
-#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:403
+#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:485
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
 msgstr "não pode abrir o diretório %1$s: %2$s"
@@ -769,22 +811,27 @@ msgid ""
 "The operation would result in removing the following protected packages: "
 msgstr "A operação resultaria na remoção dos seguintes pacotes protegidos: "
 
-#: libdnf/hy-iutil.cpp:326
+#: libdnf/hy-iutil.cpp:181
+#, c-format
+msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
+msgstr ""
+
+#: libdnf/hy-iutil.cpp:408
 #, c-format
 msgid "Failed renaming %1$s to %2$s: %3$s"
 msgstr "Falha ao renomear %1$s para %2$s: %3$s"
 
-#: libdnf/hy-iutil.cpp:334
+#: libdnf/hy-iutil.cpp:416
 #, c-format
 msgid "Failed setting perms on %1$s: %2$s"
 msgstr "Falha ao definir permissões em %1$s: %2$s"
 
-#: libdnf/hy-iutil.cpp:380
+#: libdnf/hy-iutil.cpp:462
 #, c-format
 msgid "cannot create directory %1$s: %2$s"
 msgstr "não é possível criar o diretório %1$s: %2$s"
 
-#: libdnf/hy-iutil.cpp:415
+#: libdnf/hy-iutil.cpp:497
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
 msgstr "não foi possível obter stat do caminho %1$s: %2$s"
@@ -1179,6 +1226,21 @@ msgstr "O estado TransactionItem não está definido: %s"
 #: libdnf/transaction/private/Transaction.cpp:243
 msgid "Can't add console output to unsaved transaction"
 msgstr "Não é possível adicionar saída do console a transação não salva"
+
+#~ msgid "failed to add solv"
+#~ msgstr "não conseguiu adicionar solv"
+
+#~ msgid "write_main() failed writing data: %i"
+#~ msgstr "write_main () falhou ao gravar dados: %i"
+
+#~ msgid "write_main() failed to re-load written solv file"
+#~ msgstr "write_main () falhou ao recarregar um arquivo resolvido por escrito"
+
+#~ msgid "write_ext(%1$d) has failed: %2$d"
+#~ msgstr "write_ext(%1$d) falhou: %2$d"
+
+#~ msgid "repo_add_repomdxml/rpmmd() has failed."
+#~ msgstr "repo_add_repomdxml / rpmmd () falhou."
 
 #~ msgid "failed calculating RPMDB checksum"
 #~ msgstr "Falha ao calcular a soma de verificação do RPMDB"
