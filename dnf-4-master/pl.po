@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-10 02:20+0000\n"
+"POT-Creation-Date: 2022-04-11 02:30+0000\n"
 "PO-Revision-Date: 2022-04-10 10:12+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/"
@@ -376,7 +376,8 @@ msgstr "Zamknięcie pliku tymczasowego %s się nie powiodło: %s"
 #: libdnf/dnf-sack.cpp:570
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr "Użycie nowo zapisanej głównej pamięci podręcznej się nie powiodło: %s: "
+msgstr ""
+"Użycie nowo zapisanej głównej pamięci podręcznej się nie powiodło: %s: "
 
 #: libdnf/dnf-sack.cpp:576
 #, c-format
