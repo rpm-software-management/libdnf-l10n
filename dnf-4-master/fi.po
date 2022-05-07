@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-02 03:07+0000\n"
-"PO-Revision-Date: 2022-03-03 09:51+0000\n"
+"PO-Revision-Date: 2022-05-07 18:46+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fi/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -328,7 +328,7 @@ msgstr "repo_add_solv() epäonnistui."
 #: libdnf/dnf-sack.cpp:415
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "Laajennuksen välimuistin lataaminen %s (%d) epäonnistui: "
 
 #: libdnf/dnf-sack.cpp:429
 #, c-format
@@ -354,22 +354,22 @@ msgstr "tmp-tiedoston avaaminen epäonnistui: %s"
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
+"Ensisijaisen välimuistin %s repowriter kirjoitus epäonnistui: %i, virhe: %s"
 
 #: libdnf/dnf-sack.cpp:560
-#, fuzzy, c-format
-#| msgid "failed opening tmp file: %s"
+#, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr "tmp-tiedoston avaaminen epäonnistui: %s"
+msgstr "tmp-tiedoston sulkeminen epäonnistui %s:%s"
 
 #: libdnf/dnf-sack.cpp:570
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "Äskettäin kirjoitetun ensisijaisen välimuistin käyttö epäonnistui: %s: "
 
 #: libdnf/dnf-sack.cpp:576
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "Äskettäin kirjoitetun ensisijaisen välimuistin käyttö epäonnistui: %s"
 
 #: libdnf/dnf-sack.cpp:626
 #, c-format
@@ -381,21 +381,27 @@ msgstr "väliaikaistiedostoa %s ei voi luoda"
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
+"Laajennuksen välimuistin %s (%d): repowriter kirjoitus epäonnistui: %i, "
+"virhe: %s"
 
 #: libdnf/dnf-sack.cpp:676
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
 msgstr ""
+"Kun kirjoitetaan laajennusvälimuistia (%d): tilapäistä tiedostoa ei voi "
+"sulkea: %s"
 
 #: libdnf/dnf-sack.cpp:692
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
 msgstr ""
+"Äskettäin kirjoitetun laajennuksen välimuistin käyttö epäonnistui: %s (%d): "
 
 #: libdnf/dnf-sack.cpp:699
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
 msgstr ""
+"Äskettäin kirjoitetun laajennuksen välimuistin käyttö epäonnistui: %s (%d)"
 
 #: libdnf/dnf-sack.cpp:740
 msgid "null repo md file"
@@ -409,23 +415,21 @@ msgstr "ei voida lukea tiedostoa %1$s: %2$s"
 #: libdnf/dnf-sack.cpp:764
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "Ohjelmistolähteen latauksen aikana %s:n käyttö epäonnistui: "
 
 #: libdnf/dnf-sack.cpp:775
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "MD_TYPE_PRIMARY:n lataaminen epäonnistui."
 
 #: libdnf/dnf-sack.cpp:787
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading repomd has failed: %s"
-msgstr "Ladataan liitännäistiedosto=\"%s\""
+msgstr "Repomd:n lataus epäonnistui: %s"
 
 #: libdnf/dnf-sack.cpp:798
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading primary has failed: %s"
-msgstr "Ladataan liitännäistiedosto=\"%s\""
+msgstr "Primary:n lataus epäonnistui: %s"
 
 #: libdnf/dnf-sack.cpp:864
 msgid "failed to auto-detect architecture"
@@ -794,6 +798,7 @@ msgstr "Toiminto johtaisi seuraavien suojattujen pakettien poistamiseen: "
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
 msgstr ""
+"Libsolvin solv_toolversion on: %zu pitkä, sen pitäisi olla enintään: %zu"
 
 #: libdnf/hy-iutil.cpp:408
 #, c-format
