@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-02 03:07+0000\n"
+"POT-Creation-Date: 2022-05-07 02:20+0000\n"
 "PO-Revision-Date: 2022-05-07 18:46+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
@@ -364,7 +364,8 @@ msgstr "tmp-tiedoston sulkeminen epäonnistui %s:%s"
 #: libdnf/dnf-sack.cpp:570
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr "Äskettäin kirjoitetun ensisijaisen välimuistin käyttö epäonnistui: %s: "
+msgstr ""
+"Äskettäin kirjoitetun ensisijaisen välimuistin käyttö epäonnistui: %s: "
 
 #: libdnf/dnf-sack.cpp:576
 #, c-format
