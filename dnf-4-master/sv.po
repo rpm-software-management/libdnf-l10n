@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-07 02:20+0000\n"
-"PO-Revision-Date: 2022-03-09 16:16+0000\n"
-"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"PO-Revision-Date: 2022-05-09 22:48+0000\n"
+"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/sv/>\n"
 "Language: sv\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -336,7 +336,7 @@ msgstr "repo_add_solv() har misslyckats."
 #: libdnf/dnf-sack.cpp:415
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "Laddar tilläggscache %s (%d) misslyckades: "
 
 #: libdnf/dnf-sack.cpp:429
 #, c-format
@@ -364,10 +364,9 @@ msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
 
 #: libdnf/dnf-sack.cpp:560
-#, fuzzy, c-format
-#| msgid "failed opening tmp file: %s"
+#, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr "misslyckades att öppna temporärfil: %s"
+msgstr "Misslyckades att stänga temporärfil %s: %s"
 
 #: libdnf/dnf-sack.cpp:570
 #, c-format
@@ -398,12 +397,12 @@ msgstr ""
 #: libdnf/dnf-sack.cpp:692
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
-msgstr ""
+msgstr "Misslyckades med att använda nyskriven tilläggscache: %s (%d): "
 
 #: libdnf/dnf-sack.cpp:699
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
-msgstr ""
+msgstr "Misslyckades med att använda nyskriven tilläggscache: %s (%d)"
 
 #: libdnf/dnf-sack.cpp:740
 msgid "null repo md file"
@@ -799,7 +798,7 @@ msgstr "Åtgärden skulle resultera i att ta bort följande skyddade paket: "
 #: libdnf/hy-iutil.cpp:181
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
-msgstr ""
+msgstr "Libsolvs solv_toolversion är: %zu lång men vi förväntar oss max: %zu"
 
 #: libdnf/hy-iutil.cpp:408
 #, c-format
