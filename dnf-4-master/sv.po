@@ -1,6 +1,6 @@
-# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020, 2021.
-# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020, 2021.
-# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020, 2021, 2022.
+# Göran Uddeborg <goeran@uddeborg.se>, 2017. #zanata, 2020, 2021, 2022.
+# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021, 2022.
 # Mikael Granberg <mikael@famgra.se>, 2020.
 # Vilhelm Prytz <vilhelm@prytznet.se>, 2020.
 # Luna Jernberg <bittin@reimu.nl>, 2021, 2022.
@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-09 02:46+0000\n"
-"PO-Revision-Date: 2022-05-09 22:48+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"PO-Revision-Date: 2022-05-17 10:18+0000\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/sv/>\n"
 "Language: sv\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -197,7 +197,7 @@ msgstr "Inga aktiva modulpaket hittades för modul spec '%s'"
 #: libdnf/dnf-context.cpp:3524
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
-msgstr "Kan inte installera modulen '%s' från felsäkert arkiv"
+msgstr "Det går inte att installera modulen ”%s” från ett felsäkert förråd"
 
 #: libdnf/dnf-context.cpp:3531
 #, c-format
@@ -362,6 +362,8 @@ msgstr "misslyckades att öppna temporärfil: %s"
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
+"När den primära cachen %s skrevs misslyckades en repowriter-skrivning: %i, "
+"fel: %s"
 
 #: libdnf/dnf-sack.cpp:560
 #, c-format
@@ -371,12 +373,12 @@ msgstr "Misslyckades att stänga temporärfil %s: %s"
 #: libdnf/dnf-sack.cpp:570
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "Misslyckades att använda en nyss skriven primärcache: %s: "
 
 #: libdnf/dnf-sack.cpp:576
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "Misslyckades att använda en nyss skriven primärcache: %s"
 
 #: libdnf/dnf-sack.cpp:626
 #, c-format
@@ -388,11 +390,13 @@ msgstr "kan inte skapa den temporära filen %s"
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
+"När utökningscachen %s (%d) skrevs: en repowriter-skrivning misslyckades: "
+"%i, fel: %s"
 
 #: libdnf/dnf-sack.cpp:676
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
-msgstr ""
+msgstr "När utökningscachen (%d) skrevs: kan inte stänga temporärfilen: %s"
 
 #: libdnf/dnf-sack.cpp:692
 #, c-format
@@ -416,23 +420,21 @@ msgstr "kan inte läsa filen %1$s: %2$s"
 #: libdnf/dnf-sack.cpp:764
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "När förrådet lästes in misslyckades att använda %s: "
 
 #: libdnf/dnf-sack.cpp:775
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "Kunde inte ladda MD_TYPE_PRIMARY."
 
 #: libdnf/dnf-sack.cpp:787
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading repomd has failed: %s"
-msgstr "Läser in insticksmodulsfilen=”%s”"
+msgstr "Att läsa in repomd misslyckades: %s"
 
 #: libdnf/dnf-sack.cpp:798
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading primary has failed: %s"
-msgstr "Läser in insticksmodulsfilen=”%s”"
+msgstr "Att läsa in den primära misslyckades: %s"
 
 #: libdnf/dnf-sack.cpp:864
 msgid "failed to auto-detect architecture"
