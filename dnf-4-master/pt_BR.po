@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-09 02:46+0000\n"
+"POT-Creation-Date: 2022-05-17 02:47+0000\n"
 "PO-Revision-Date: 2021-10-12 12:05+0000\n"
 "Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -112,12 +112,12 @@ msgstr "não foi possível converter '%s'para segundos"
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): valor não definido"
 
-#: libdnf/dnf-context.cpp:3179 libdnf/dnf-context.cpp:3188
+#: libdnf/dnf-context.cpp:3183 libdnf/dnf-context.cpp:3192
 #, fuzzy, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr "Não é possível habilitar mais fluxos do módulo '%s' ao mesmo tempo"
 
-#: libdnf/dnf-context.cpp:3197 libdnf/dnf-context.cpp:3215
+#: libdnf/dnf-context.cpp:3201 libdnf/dnf-context.cpp:3219
 #, fuzzy, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
@@ -125,31 +125,31 @@ msgstr ""
 "Não é possível habilitar o módulo '%1$s' stream '%2$s': Estado do módulo já "
 "modificado"
 
-#: libdnf/dnf-context.cpp:3264
+#: libdnf/dnf-context.cpp:3268
 #, fuzzy, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "Problema de dependência modular com padrões: %s"
 
-#: libdnf/dnf-context.cpp:3267
+#: libdnf/dnf-context.cpp:3271
 #, fuzzy, c-format
 #| msgid "Modular dependency problem: %s"
 msgid "Modular dependency problem with the latest modules: %s"
 msgstr "Problema de dependência modular com os módulos mais recentes: %s"
 
-#: libdnf/dnf-context.cpp:3271
+#: libdnf/dnf-context.cpp:3275
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "Problema de dependência modular: %s"
 
-#: libdnf/dnf-context.cpp:3294 libdnf/dnf-context.cpp:3318
-#: libdnf/dnf-context.cpp:3329 libdnf/dnf-context.cpp:3368
-#: libdnf/dnf-context.cpp:3384 libdnf/dnf-context.cpp:3416
-#: libdnf/dnf-context.cpp:3465 libdnf/dnf-context.cpp:3475
+#: libdnf/dnf-context.cpp:3298 libdnf/dnf-context.cpp:3322
+#: libdnf/dnf-context.cpp:3333 libdnf/dnf-context.cpp:3372
+#: libdnf/dnf-context.cpp:3388 libdnf/dnf-context.cpp:3420
+#: libdnf/dnf-context.cpp:3469 libdnf/dnf-context.cpp:3479
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "Não foi possível resolver o argumento '%s'"
 
-#: libdnf/dnf-context.cpp:3301
+#: libdnf/dnf-context.cpp:3305
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
@@ -157,27 +157,27 @@ msgstr ""
 "Somente o nome do módulo é necessário. Ignorando informações desnecessárias "
 "no argumento: '%s'"
 
-#: libdnf/dnf-context.cpp:3315
+#: libdnf/dnf-context.cpp:3319
 #, fuzzy, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr "Não pode desabilitar módulo '%s': Estado do módulo já modificado"
 
-#: libdnf/dnf-context.cpp:3326
+#: libdnf/dnf-context.cpp:3330
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr "Não pode desabilitar módulo '%s': Estado do módulo já modificado"
 
-#: libdnf/dnf-context.cpp:3357 libdnf/dnf-context.cpp:3453
-#: libdnf/dnf-context.cpp:3634
+#: libdnf/dnf-context.cpp:3361 libdnf/dnf-context.cpp:3457
+#: libdnf/dnf-context.cpp:3638
 msgid "No modular data available"
 msgstr "Nenhum dado modular disponível"
 
-#: libdnf/dnf-context.cpp:3374
+#: libdnf/dnf-context.cpp:3378
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Ignorando informação desnecessária no argumento: '%s'"
 
-#: libdnf/dnf-context.cpp:3412
+#: libdnf/dnf-context.cpp:3416
 #, fuzzy, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
@@ -186,55 +186,55 @@ msgstr ""
 "problema durante a ativação da árvore de dependências para o fluxo do módulo "
 "'%1$s' de '%2$s': %3$s"
 
-#: libdnf/dnf-context.cpp:3424
+#: libdnf/dnf-context.cpp:3428
 #, fuzzy
 msgid "Problems appeared for module enable request:"
 msgstr "Apareceram problemas para a solicitação de ativação do módulo"
 
-#: libdnf/dnf-context.cpp:3519
+#: libdnf/dnf-context.cpp:3523
 #, c-format
 msgid "No active module packages found for module spec '%s'"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3524
+#: libdnf/dnf-context.cpp:3528
 #, fuzzy, c-format
 #| msgid "cannot install both modules %s and %s"
 msgid "Cannot install module '%s' from fail-safe repository"
 msgstr "não é possível instalar ambos os módulos %s e %s"
 
-#: libdnf/dnf-context.cpp:3531
+#: libdnf/dnf-context.cpp:3535
 #, c-format
 msgid "No profile found matching '%s'"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3585
+#: libdnf/dnf-context.cpp:3589
 #, c-format
 msgid "No match for package '%s' for module spec %s"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3596
+#: libdnf/dnf-context.cpp:3600
 #, fuzzy, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
 msgstr ""
 "problema durante a ativação da árvore de dependências para o fluxo do módulo "
 "'%1$s' de '%2$s': %3$s"
 
-#: libdnf/dnf-context.cpp:3605
+#: libdnf/dnf-context.cpp:3609
 #, fuzzy
 msgid "Problems appeared for module install request:"
 msgstr "Apareceram problemas para a solicitação de desativação do módulo"
 
-#: libdnf/dnf-context.cpp:3664
+#: libdnf/dnf-context.cpp:3668
 #, fuzzy
 msgid "Problems appeared for module reset request:"
 msgstr "Apareceram problemas para a solicitação de redefinição do módulo"
 
-#: libdnf/dnf-context.cpp:3665 libdnf/dnf-context.cpp:3724
+#: libdnf/dnf-context.cpp:3669 libdnf/dnf-context.cpp:3728
 #, fuzzy
 msgid "Problems appeared for module disable request:"
 msgstr "Apareceram problemas para a solicitação de desativação do módulo"
 
-#: libdnf/dnf-context.cpp:3756
+#: libdnf/dnf-context.cpp:3760
 #, fuzzy, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -242,7 +242,7 @@ msgid ""
 msgstr ""
 "A operação resultaria na mudança do módulo '%s' do fluxo '%s' para o '%s'"
 
-#: libdnf/dnf-context.cpp:3760
+#: libdnf/dnf-context.cpp:3764
 #, fuzzy
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
