@@ -8,13 +8,14 @@
 # Arnaud T. <listes.00@gmail.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021, 2022.
 # Titouan Bénard <itotutona@evta.fr>, 2021.
+# Arthur Tavernier <arthur.tavernier45@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-19 03:02+0000\n"
-"PO-Revision-Date: 2022-03-02 10:16+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2022-06-22 12:18+0000\n"
+"Last-Translator: Arthur Tavernier <arthur.tavernier45@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
 "Language: fr\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.13\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -341,7 +342,7 @@ msgstr "repo_add_solv() a échoué."
 #: libdnf/dnf-sack.cpp:415
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "Chargement du cache d'extenstion %s (%d) échoué : "
 
 #: libdnf/dnf-sack.cpp:429
 #, c-format
@@ -364,25 +365,26 @@ msgid "failed opening tmp file: %s"
 msgstr "n’a pas pu ouvrir le fichier tmp : %s"
 
 #: libdnf/dnf-sack.cpp:550
-#, c-format
+#, c-format, fuzzy
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
+"Échec de l'écriture du repowriter lors de l'écriture du cache primaire %s : "
+"%i, erreur : %s"
 
 #: libdnf/dnf-sack.cpp:560
-#, fuzzy, c-format
-#| msgid "failed opening tmp file: %s"
+#, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr "n’a pas pu ouvrir le fichier tmp : %s"
+msgstr "N’a pas pu fermer le fichier tmp %s : %s"
 
 #: libdnf/dnf-sack.cpp:570
-#, c-format
+#, c-format, fuzzy
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "Échec de l'utilisation du cache primaire nouvellement écrit : %s : "
 
 #: libdnf/dnf-sack.cpp:576
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "Échec de l'utilisation du cache primaire nouvellement écrit : %s"
 
 #: libdnf/dnf-sack.cpp:626
 #, c-format
@@ -390,25 +392,29 @@ msgid "can not create temporary file %s"
 msgstr "n’a pas pu créer le fichier temporaire %s"
 
 #: libdnf/dnf-sack.cpp:666
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
+"Lors de l'écriture du cache d'extension %s (%d) : échec de l'écriture du "
+"repowriter : %i, erreur : %s"
 
 #: libdnf/dnf-sack.cpp:676
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
 msgstr ""
+"Lors de l'écriture du cache d'extension (%d) : impossible de fermer le "
+"ficher temporaire : %s"
 
 #: libdnf/dnf-sack.cpp:692
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
-msgstr ""
+msgstr "Échec de l'utilisation du nouveau cache d'extension écrit : %s (%d) : "
 
 #: libdnf/dnf-sack.cpp:699
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
-msgstr ""
+msgstr "Échec de l'utilisation du nouveau cache d'extension écrit : %s (%d)"
 
 #: libdnf/dnf-sack.cpp:740
 msgid "null repo md file"
@@ -422,7 +428,7 @@ msgstr "n’a pu lire le fichier %1$s : %2$s"
 #: libdnf/dnf-sack.cpp:764
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "Échec de l'utilisation de %s lors du chargement du dépôt : "
 
 #: libdnf/dnf-sack.cpp:775
 msgid "loading of MD_TYPE_PRIMARY has failed."
@@ -432,13 +438,13 @@ msgstr "échec du chargement du MD_TYPE_PRIMARY."
 #, fuzzy, c-format
 #| msgid "Loading plugin file=\"%s\""
 msgid "Loading repomd has failed: %s"
-msgstr "Chargement du fichier d’extension fichier=« %s »"
+msgstr "Échec du chargement du repomd : %s"
 
 #: libdnf/dnf-sack.cpp:798
 #, fuzzy, c-format
 #| msgid "Loading plugin file=\"%s\""
 msgid "Loading primary has failed: %s"
-msgstr "Chargement du fichier d’extension fichier=« %s »"
+msgstr "Échec lors du chargement du fichier primaire : %s"
 
 #: libdnf/dnf-sack.cpp:864
 msgid "failed to auto-detect architecture"
