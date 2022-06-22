@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-19 03:02+0000\n"
+"POT-Creation-Date: 2022-06-22 02:54+0000\n"
 "PO-Revision-Date: 2022-03-02 10:16+0000\n"
 "Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -420,32 +420,38 @@ msgstr ""
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "MD_TYPE_PRIMARY のロードに失敗しました。"
 
-#: libdnf/dnf-sack.cpp:787
+#: libdnf/dnf-sack.cpp:784
+#, fuzzy, c-format
+#| msgid "Loading plugin file=\"%s\""
+msgid "Opening repository primary data has failed: %s"
+msgstr "プラグインファイル =\"%s\" をロード中"
+
+#: libdnf/dnf-sack.cpp:795
 #, fuzzy, c-format
 #| msgid "Loading plugin file=\"%s\""
 msgid "Loading repomd has failed: %s"
 msgstr "プラグインファイル =\"%s\" をロード中"
 
-#: libdnf/dnf-sack.cpp:798
+#: libdnf/dnf-sack.cpp:806
 #, fuzzy, c-format
 #| msgid "Loading plugin file=\"%s\""
 msgid "Loading primary has failed: %s"
 msgstr "プラグインファイル =\"%s\" をロード中"
 
-#: libdnf/dnf-sack.cpp:864
+#: libdnf/dnf-sack.cpp:872
 msgid "failed to auto-detect architecture"
 msgstr "アーキテクチャーの自動検出に失敗しました"
 
-#: libdnf/dnf-sack.cpp:1029
+#: libdnf/dnf-sack.cpp:1037
 #, c-format
 msgid "failed creating cachedir %s"
 msgstr "cachedir %s の作成に失敗しました"
 
-#: libdnf/dnf-sack.cpp:1806
+#: libdnf/dnf-sack.cpp:1814
 msgid "failed loading RPMDB"
 msgstr "RPMDB のロードに失敗しました"
 
-#: libdnf/dnf-sack.cpp:2590
+#: libdnf/dnf-sack.cpp:2598
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "モジュールのデフォルトは見つかりませんでした: %s"

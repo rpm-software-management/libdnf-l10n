@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-19 03:02+0000\n"
+"POT-Creation-Date: 2022-06-22 02:54+0000\n"
 "PO-Revision-Date: 2021-07-15 07:04+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
@@ -405,32 +405,38 @@ msgstr ""
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "nol è stât pussibil cjariâ MD_TYPE_PRIMARY."
 
-#: libdnf/dnf-sack.cpp:787
+#: libdnf/dnf-sack.cpp:784
+#, fuzzy, c-format
+#| msgid "Loading plugin file=\"%s\""
+msgid "Opening repository primary data has failed: %s"
+msgstr "Daûr a cjariâ il file dal plugin=\"%s\""
+
+#: libdnf/dnf-sack.cpp:795
 #, fuzzy, c-format
 #| msgid "Loading plugin file=\"%s\""
 msgid "Loading repomd has failed: %s"
 msgstr "Daûr a cjariâ il file dal plugin=\"%s\""
 
-#: libdnf/dnf-sack.cpp:798
+#: libdnf/dnf-sack.cpp:806
 #, fuzzy, c-format
 #| msgid "Loading plugin file=\"%s\""
 msgid "Loading primary has failed: %s"
 msgstr "Daûr a cjariâ il file dal plugin=\"%s\""
 
-#: libdnf/dnf-sack.cpp:864
+#: libdnf/dnf-sack.cpp:872
 msgid "failed to auto-detect architecture"
 msgstr "nol è stât pussibil rilevâ in automatic la architeture"
 
-#: libdnf/dnf-sack.cpp:1029
+#: libdnf/dnf-sack.cpp:1037
 #, c-format
 msgid "failed creating cachedir %s"
 msgstr "nol è stât pussibil creâ la cachedir %s"
 
-#: libdnf/dnf-sack.cpp:1806
+#: libdnf/dnf-sack.cpp:1814
 msgid "failed loading RPMDB"
 msgstr "nol è stât pussibil cjariâ la RPMDB"
 
-#: libdnf/dnf-sack.cpp:2590
+#: libdnf/dnf-sack.cpp:2598
 #, c-format
 msgid "No module defaults found: %s"
 msgstr ""

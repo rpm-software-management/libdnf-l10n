@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-19 03:02+0000\n"
+"POT-Creation-Date: 2022-06-22 02:54+0000\n"
 "PO-Revision-Date: 2022-04-11 20:17+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
@@ -415,30 +415,36 @@ msgstr "저장소를 적재하는 동안에 %s를 사용하는데 실패함: "
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "MD_TYPE_PRIMARY를 적재하지 못했습니다."
 
-#: libdnf/dnf-sack.cpp:787
+#: libdnf/dnf-sack.cpp:784
+#, fuzzy, c-format
+#| msgid "Loading primary has failed: %s"
+msgid "Opening repository primary data has failed: %s"
+msgstr "기본 적재하는데 실패함: %s"
+
+#: libdnf/dnf-sack.cpp:795
 #, c-format
 msgid "Loading repomd has failed: %s"
 msgstr "repomd 적재하는데 실패함: %s"
 
-#: libdnf/dnf-sack.cpp:798
+#: libdnf/dnf-sack.cpp:806
 #, c-format
 msgid "Loading primary has failed: %s"
 msgstr "기본 적재하는데 실패함: %s"
 
-#: libdnf/dnf-sack.cpp:864
+#: libdnf/dnf-sack.cpp:872
 msgid "failed to auto-detect architecture"
 msgstr "구조 자동 검색에 실패했습니다"
 
-#: libdnf/dnf-sack.cpp:1029
+#: libdnf/dnf-sack.cpp:1037
 #, c-format
 msgid "failed creating cachedir %s"
 msgstr "캐시 된 생성 실패 %s"
 
-#: libdnf/dnf-sack.cpp:1806
+#: libdnf/dnf-sack.cpp:1814
 msgid "failed loading RPMDB"
 msgstr "RPMDB로드 실패"
 
-#: libdnf/dnf-sack.cpp:2590
+#: libdnf/dnf-sack.cpp:2598
 #, c-format
 msgid "No module defaults found: %s"
 msgstr "모듈 기본 설정을 찾을 수 없습니다: %s"

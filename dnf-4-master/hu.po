@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-19 03:02+0000\n"
+"POT-Creation-Date: 2022-06-22 02:54+0000\n"
 "PO-Revision-Date: 2021-11-04 08:05+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
@@ -414,30 +414,35 @@ msgstr ""
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "az MD_TYPE_PRIMARY betöltése sikertelen."
 
-#: libdnf/dnf-sack.cpp:787
+#: libdnf/dnf-sack.cpp:784
+#, c-format
+msgid "Opening repository primary data has failed: %s"
+msgstr ""
+
+#: libdnf/dnf-sack.cpp:795
 #, c-format
 msgid "Loading repomd has failed: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:798
+#: libdnf/dnf-sack.cpp:806
 #, c-format
 msgid "Loading primary has failed: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:864
+#: libdnf/dnf-sack.cpp:872
 msgid "failed to auto-detect architecture"
 msgstr "az architektúra automatikus észlelése sikertelen"
 
-#: libdnf/dnf-sack.cpp:1029
+#: libdnf/dnf-sack.cpp:1037
 #, c-format
 msgid "failed creating cachedir %s"
 msgstr "a(z) %s gyorsítótármappa létrehozása sikertelen"
 
-#: libdnf/dnf-sack.cpp:1806
+#: libdnf/dnf-sack.cpp:1814
 msgid "failed loading RPMDB"
 msgstr "az RPMDB betöltése sikertelen"
 
-#: libdnf/dnf-sack.cpp:2590
+#: libdnf/dnf-sack.cpp:2598
 #, c-format
 msgid "No module defaults found: %s"
 msgstr ""

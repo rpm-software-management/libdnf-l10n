@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-19 03:02+0000\n"
+"POT-Creation-Date: 2022-06-22 02:54+0000\n"
 "PO-Revision-Date: 2022-05-02 18:18+0000\n"
 "Last-Translator: Alejandro Alcaide <alex@blueselene.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
@@ -412,30 +412,35 @@ msgstr ""
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "la carga de MD_TIPO_PRIMARIO ha fallado."
 
-#: libdnf/dnf-sack.cpp:787
+#: libdnf/dnf-sack.cpp:784
+#, c-format
+msgid "Opening repository primary data has failed: %s"
+msgstr ""
+
+#: libdnf/dnf-sack.cpp:795
 #, c-format
 msgid "Loading repomd has failed: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:798
+#: libdnf/dnf-sack.cpp:806
 #, c-format
 msgid "Loading primary has failed: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:864
+#: libdnf/dnf-sack.cpp:872
 msgid "failed to auto-detect architecture"
 msgstr "no se pudo detectar la arquitectura"
 
-#: libdnf/dnf-sack.cpp:1029
+#: libdnf/dnf-sack.cpp:1037
 #, c-format
 msgid "failed creating cachedir %s"
 msgstr "no se pudo crear el directorio de caché %s"
 
-#: libdnf/dnf-sack.cpp:1806
+#: libdnf/dnf-sack.cpp:1814
 msgid "failed loading RPMDB"
 msgstr "no se pudo cargar la RPMDB"
 
-#: libdnf/dnf-sack.cpp:2590
+#: libdnf/dnf-sack.cpp:2598
 #, c-format
 msgid "No module defaults found: %s"
 msgstr ""
