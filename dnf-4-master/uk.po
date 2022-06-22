@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 02:54+0000\n"
-"PO-Revision-Date: 2022-04-11 20:17+0000\n"
+"PO-Revision-Date: 2022-06-24 07:18+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.13\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -423,10 +423,9 @@ msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "не вдалося завантажити MD_TYPE_PRIMARY."
 
 #: libdnf/dnf-sack.cpp:784
-#, fuzzy, c-format
-#| msgid "Loading primary has failed: %s"
+#, c-format
 msgid "Opening repository primary data has failed: %s"
-msgstr "Не вдалося завантажити основний: %s"
+msgstr "Не вдалося відкрити основні дані сховища: %s"
 
 #: libdnf/dnf-sack.cpp:795
 #, c-format
