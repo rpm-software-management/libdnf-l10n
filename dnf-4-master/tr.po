@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 02:54+0000\n"
-"PO-Revision-Date: 2022-04-11 20:17+0000\n"
+"PO-Revision-Date: 2022-06-24 07:18+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/tr/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.13\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -421,10 +421,9 @@ msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "MD_TYPE_PRIMARY yüklenemedi."
 
 #: libdnf/dnf-sack.cpp:784
-#, fuzzy, c-format
-#| msgid "Loading primary has failed: %s"
+#, c-format
 msgid "Opening repository primary data has failed: %s"
-msgstr "Birincil yüklenemedi: %s"
+msgstr "Depo birincil verileri açılamadı: %s"
 
 #: libdnf/dnf-sack.cpp:795
 #, c-format
