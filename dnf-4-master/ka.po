@@ -7,18 +7,20 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-22 02:54+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-06-24 07:18+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
+"libdnf-dnf-4-master/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
-msgstr ""
+msgstr "მნიშვნელობა მითითებული არაა"
 
 #: libdnf/conf/ConfigMain.cpp:67 libdnf/conf/OptionSeconds.cpp:48
 #, c-format
@@ -33,46 +35,46 @@ msgstr ""
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
 msgid "unknown unit '%s'"
-msgstr ""
+msgstr "უცნობი ერთეული '%s'"
 
 #: libdnf/conf/ConfigMain.cpp:204 libdnf/conf/OptionEnum.cpp:83
 #: libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
-msgstr ""
+msgstr "არასწორი მნიშვნელობა"
 
 #: libdnf/conf/ConfigMain.cpp:207
 msgid "value 1 is not allowed"
-msgstr ""
+msgstr "მნიშვნელობა 1 დაუშვებელია"
 
 #: libdnf/conf/ConfigMain.cpp:209
 msgid "negative value is not allowed"
-msgstr ""
+msgstr "უარყოფითი მნიშვნელობა დაუშვებელია"
 
 #: libdnf/conf/ConfigMain.cpp:343
 #, c-format
 msgid "percentage '%s' is out of range"
-msgstr ""
+msgstr "პროცენტული მნიშვნელობა %s დიაპაზონს გარეთაა"
 
 #: libdnf/conf/OptionBinds.cpp:85
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr ""
+msgstr "კონფიგურაცია: OptionBinding ID-ით '%s' არ არსებობს"
 
 #: libdnf/conf/OptionBinds.cpp:97
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr ""
+msgstr "კონფიგურაცია: OptionBinding ID-ით '%s' უკვე არსებობს"
 
 #: libdnf/conf/OptionBool.cpp:47
 #, c-format
 msgid "invalid boolean value '%s'"
-msgstr ""
+msgstr "არასწორი ლოგიკური მნიშვნელობა '%s'"
 
 #: libdnf/conf/OptionEnum.cpp:72 libdnf/conf/OptionEnum.cpp:158
 #: libdnf/conf/OptionString.cpp:64 libdnf/conf/OptionStringList.cpp:59
 #, c-format
 msgid "'%s' is not an allowed value"
-msgstr ""
+msgstr "მნიშვნელობა %s დაუშვებელია"
 
 #: libdnf/conf/OptionNumber.cpp:73
 #, c-format
@@ -92,16 +94,16 @@ msgstr ""
 #: libdnf/conf/OptionPath.cpp:82
 #, c-format
 msgid "given path '%s' does not exist."
-msgstr ""
+msgstr "ბილიკი არ არსებობს: %s."
 
 #: libdnf/conf/OptionSeconds.cpp:52
 #, c-format
 msgid "could not convert '%s' to seconds"
-msgstr ""
+msgstr "%s-ის წამებში გადაყვანის შეცდომა"
 
 #: libdnf/conf/OptionString.cpp:79
 msgid "GetValue(): Value not set"
-msgstr ""
+msgstr "GetValue(): მნიშვნელობა მითითებული არაა"
 
 #: libdnf/dnf-context.cpp:3189 libdnf/dnf-context.cpp:3198
 #, c-format
@@ -228,7 +230,7 @@ msgstr ""
 
 #: libdnf/dnf-goal.cpp:107
 msgid "Could not depsolve transaction; "
-msgstr ""
+msgstr "ტრანზაქციის დამოკიდებულებების გადაწყვეტის შეცდომა; "
 
 #: libdnf/dnf-goal.cpp:109
 #, c-format
@@ -240,12 +242,12 @@ msgstr[1] ""
 #: libdnf/dnf-goal.cpp:117
 #, c-format
 msgid " Problem %1$i: %2$s\n"
-msgstr ""
+msgstr " პრობლემა %1$i: %2$s\n"
 
 #: libdnf/dnf-goal.cpp:119
 #, c-format
 msgid " Problem: %s\n"
-msgstr ""
+msgstr " პრობლემა: %s\n"
 
 #: libdnf/dnf-rpmts.cpp:79
 #, c-format
@@ -324,17 +326,17 @@ msgstr ""
 #: libdnf/dnf-sack.cpp:439
 #, c-format
 msgid "failed to open: %s"
-msgstr ""
+msgstr "%s-ის გახსნის შეცდომა"
 
 #: libdnf/dnf-sack.cpp:518
 #, c-format
 msgid "cannot create temporary file: %s"
-msgstr ""
+msgstr "დროებითი ფაილის შექმნის შეცდომა (%s)"
 
 #: libdnf/dnf-sack.cpp:528
 #, c-format
 msgid "failed opening tmp file: %s"
-msgstr ""
+msgstr "დროებითი ფაილის გახსნის შეცდომა (%s)"
 
 #: libdnf/dnf-sack.cpp:550
 #, c-format
@@ -344,7 +346,7 @@ msgstr ""
 #: libdnf/dnf-sack.cpp:560
 #, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr ""
+msgstr "დროებითი ფაილის დახურვის შეცდომა (%s): %s"
 
 #: libdnf/dnf-sack.cpp:570
 #, c-format
@@ -1136,7 +1138,7 @@ msgstr ""
 
 #: libdnf/transaction/Swdb.cpp:173
 msgid "In progress"
-msgstr ""
+msgstr "პროცესშია"
 
 #: libdnf/transaction/Swdb.cpp:187 libdnf/transaction/Swdb.cpp:215
 #: libdnf/transaction/Swdb.cpp:227 libdnf/transaction/Swdb.cpp:244
