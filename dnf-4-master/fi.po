@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-29 03:02+0000\n"
-"PO-Revision-Date: 2022-05-07 18:46+0000\n"
+"PO-Revision-Date: 2022-07-05 05:18+0000\n"
 "Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fi/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.13\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -423,10 +423,9 @@ msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "MD_TYPE_PRIMARY:n lataaminen epäonnistui."
 
 #: libdnf/dnf-sack.cpp:784
-#, fuzzy, c-format
-#| msgid "Loading primary has failed: %s"
+#, c-format
 msgid "Opening repository primary data has failed: %s"
-msgstr "Primary:n lataus epäonnistui: %s"
+msgstr "Asennuslähteen ensisijaisten tietojen avaaminen epäonnistui: %s"
 
 #: libdnf/dnf-sack.cpp:795
 #, c-format
