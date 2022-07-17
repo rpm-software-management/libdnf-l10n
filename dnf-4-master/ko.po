@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-05 03:02+0000\n"
-"PO-Revision-Date: 2022-06-24 07:18+0000\n"
+"PO-Revision-Date: 2022-07-18 16:18+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ko/>\n"
@@ -1107,7 +1107,7 @@ msgstr "디렉토리를 만들 수 없습니다 \"%s\": %s"
 #: libdnf/repo/Repo.cpp:1316
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
-msgstr "디렉터리 이름을 바꿀 수 없습니다 \"%s\"~\"%s\": %s"
+msgstr "디렉토리 \"%s\"를 \"%s\": %s로 변경 할 수 없음"
 
 #: libdnf/repo/Repo.cpp:1339
 #, c-format
