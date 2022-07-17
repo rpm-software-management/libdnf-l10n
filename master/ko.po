@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2020.
 # simmon <simmon@nplob.com>, 2021.
+# 김인수 <simmon@nplob.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-11-04 08:05+0000\n"
-"Last-Translator: simmon <simmon@nplob.com>\n"
+"PO-Revision-Date: 2022-07-18 16:18+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/ko/>\n"
 "Language: ko\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.13\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -830,7 +831,7 @@ msgstr "디렉토리를 만들 수 없습니다 \"%s\": %s"
 #: libdnf/repo/Repo.cpp:1300
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
-msgstr "디렉터리 이름을 바꿀 수 없습니다 \"%s\"~\"%s\": %s"
+msgstr "디렉토리 \"%s\"를 \"%s\": %s로 변경 할 수 없음"
 
 #: libdnf/repo/Repo.cpp:1323
 #, c-format
