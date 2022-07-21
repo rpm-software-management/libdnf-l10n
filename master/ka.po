@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2022-06-24 07:18+0000\n"
+"PO-Revision-Date: 2022-07-22 15:18+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/ka/>\n"
@@ -192,7 +192,7 @@ msgstr "solv-ის დამატების შეცდომა"
 #: libdnf/dnf-sack.cpp:458
 #, c-format
 msgid "failed to open: %s"
-msgstr "%s-ის გახსნის შეცდომა"
+msgstr "გახსნის შეცდომა: %s"
 
 #: libdnf/dnf-sack.cpp:537
 #, c-format
@@ -765,17 +765,17 @@ msgstr ""
 "კონფიგურაცია"
 
 #: libdnf/repo/Repo.cpp:666 libdnf/repo/Repo.cpp:688
-#, c-format, fuzzy
+#, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
 msgstr "%s: gpgme_data_new_from_fd(): %s"
 
 #: libdnf/repo/Repo.cpp:674 libdnf/repo/Repo.cpp:696
-#, c-format, fuzzy
+#, c-format
 msgid "%s: gpgme_op_import(): %s"
 msgstr "%s: gpgme_op_import(): %s"
 
 #: libdnf/repo/Repo.cpp:719 libdnf/repo/Repo.cpp:785 libdnf/repo/Repo.cpp:913
-#, c-format, fuzzy
+#, c-format
 msgid "%s: gpgme_ctx_set_engine_info(): %s"
 msgstr "%s: gpgme_ctx_set_engine_info(): %s"
 
