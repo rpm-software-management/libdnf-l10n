@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-18 02:58+0000\n"
-"PO-Revision-Date: 2022-06-24 07:18+0000\n"
+"PO-Revision-Date: 2022-07-22 15:18+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ka/>\n"
@@ -259,7 +259,7 @@ msgstr ""
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
 msgid "signature does not verify for %s"
-msgstr ""
+msgstr "%s-ის ხელმოსაწერა არ შემოწმებულა"
 
 #: libdnf/dnf-rpmts.cpp:129 libdnf/dnf-rpmts.cpp:174
 #, c-format
@@ -284,7 +284,7 @@ msgstr ""
 #: libdnf/dnf-rpmts.cpp:193
 #, c-format
 msgid "failed to add install element: %1$s [%2$i]"
-msgstr ""
+msgstr "%1$s[%2$i]-ის დაყენებს შეცდომა"
 
 #: libdnf/dnf-rpmts.cpp:274
 #, c-format
@@ -326,7 +326,7 @@ msgstr ""
 #: libdnf/dnf-sack.cpp:439
 #, c-format
 msgid "failed to open: %s"
-msgstr "%s-ის გახსნის შეცდომა"
+msgstr "გახსნის შეცდომა: %s"
 
 #: libdnf/dnf-sack.cpp:518
 #, c-format
@@ -391,7 +391,7 @@ msgstr ""
 #: libdnf/dnf-sack.cpp:749
 #, c-format
 msgid "can not read file %1$s: %2$s"
-msgstr ""
+msgstr "%1$s-ის წაკითხვის შეცდომა: %2$s"
 
 #: libdnf/dnf-sack.cpp:764
 #, c-format
@@ -443,11 +443,11 @@ msgstr ""
 #: libdnf/dnf-state.cpp:1194
 #, c-format
 msgid "failed to set number steps: %i"
-msgstr ""
+msgstr "ნაბიჯების რიცხვის დაყენების პრობლემა: %i"
 
 #: libdnf/dnf-state.cpp:1293
 msgid "cancelled by user action"
-msgstr ""
+msgstr "გაუქმებულია მომხმარებლის ქმედების გამო"
 
 #: libdnf/dnf-state.cpp:1332
 #, c-format
@@ -471,12 +471,12 @@ msgstr ""
 
 #: libdnf/dnf-transaction.cpp:369
 msgid "Failed to check untrusted: "
-msgstr ""
+msgstr "არასანდოს შემოწმების პრობლემა: "
 
 #: libdnf/dnf-transaction.cpp:379
 #, c-format
 msgid "Downloaded file for %s not found"
-msgstr ""
+msgstr "%s-ის გადმოსაწერი ფაილის მოძებნის პრობლემა"
 
 #: libdnf/dnf-transaction.cpp:399
 #, c-format
@@ -490,7 +490,7 @@ msgstr ""
 #: libdnf/dnf-transaction.cpp:913
 #, c-format
 msgid "Failed to get filesystem free size for %s: "
-msgstr ""
+msgstr "ფაილური სისტემის (%s) ზომის მიღების პრობლემა: "
 
 #: libdnf/dnf-transaction.cpp:921
 #, c-format
@@ -501,6 +501,7 @@ msgstr ""
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
 msgstr ""
+"%1$s-ზე საკმარისი თავისუფალი ადგილი არაა: საჭიროა: %2$s, ხელმისაწვდომია %3$s"
 
 #: libdnf/dnf-transaction.cpp:1196
 msgid "failed to set root"
@@ -542,11 +543,12 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:78
 msgid "Ill-formed Selector, presence of multiple match objects in the filter"
-msgstr ""
+msgstr "არასწორად ჩამოყალიბებული ამრჩევი, ფილტრში მრავალი დამთხვევის ობიექტით"
 
 #: libdnf/goal/Goal.cpp:79
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr ""
+"ამ ოპერაციისთვის გამოყენებული არასწორი სელექტორი: შედარების არასწორი ტიპი"
 
 #: libdnf/goal/Goal.cpp:90 libdnf/goal/Goal.cpp:117
 msgid " does not belong to a distupgrade repository"
@@ -562,7 +564,7 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:93 libdnf/goal/Goal.cpp:120
 msgid "conflicting requests"
-msgstr ""
+msgstr "ურთიერთგამომრიცხავი მოთხოვნები"
 
 #: libdnf/goal/Goal.cpp:94 libdnf/goal/Goal.cpp:121
 msgid "unsupported request"
@@ -583,7 +585,7 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:98 libdnf/goal/Goal.cpp:125
 msgid "some dependency problem"
-msgstr ""
+msgstr "დამოკიდებულების რამდენიმე პრობლემა"
 
 #: libdnf/goal/Goal.cpp:99
 msgid "cannot install the best update candidate for package "
@@ -606,12 +608,12 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:103
 #, c-format
 msgid "package %s is not installable"
-msgstr ""
+msgstr "პაკეტი %s დაყენებადი არაა"
 
 #: libdnf/goal/Goal.cpp:104
 #, c-format
 msgid "package %s is filtered out by exclude filtering"
-msgstr ""
+msgstr "პაკეტი %s გაიფილტრა ფილტრის მიერ"
 
 #: libdnf/goal/Goal.cpp:105
 #, c-format
@@ -637,6 +639,8 @@ msgstr ""
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
 msgstr ""
+"დაყენებული პაკეტი %s მოძველებულად მონიშნავს %s-ს, რომელიც წარმოდგენილია %s-"
+"ის მიერ"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
@@ -674,7 +678,7 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
 #, c-format
 msgid "module %s is disabled"
-msgstr ""
+msgstr "მოდული %s გამორთულია"
 
 #: libdnf/goal/Goal.cpp:129
 #, c-format
@@ -699,7 +703,7 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:134
 #, c-format
 msgid "module %s conflicts with %s provided by %s"
-msgstr ""
+msgstr "მოდულ %s-ს აქვს კონფლიქტი %s-თან, რომელიც წარმოდგენილია %s-ის მიერ"
 
 #: libdnf/goal/Goal.cpp:135
 #, c-format
@@ -738,12 +742,12 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:1162
 #, c-format
 msgid "failed to make %s absolute"
-msgstr ""
+msgstr "%s-ის აბსოლუტურად გადაქცევა შეუძლებელია"
 
 #: libdnf/goal/Goal.cpp:1169
 #, c-format
 msgid "failed writing debugdata to %1$s: %2$s"
-msgstr ""
+msgstr "გასამართი ინფორმაციის %1$s-ში ჩაწერის შეცდომა: %2$s"
 
 #: libdnf/goal/Goal.cpp:1181
 msgid "no solv in the goal"
@@ -769,7 +773,7 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:1650
 msgid ""
 "The operation would result in removing the following protected packages: "
-msgstr ""
+msgstr "ოპერაციას დასჭირდება შემდეგი დაცული პაკეტების წაშლა: "
 
 #: libdnf/hy-iutil.cpp:181
 #, c-format
@@ -807,12 +811,12 @@ msgstr ""
 
 #: libdnf/module/ModulePackage.cpp:632
 msgid "Multiple module platforms provided by installed packages\n"
-msgstr ""
+msgstr "დაყენებული პაკეტები მრავალი მოდულის პლატფორმას წარმოადგენენ\n"
 
 #: libdnf/module/ModulePackage.cpp:659
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
-msgstr ""
+msgstr "პლატფორმის მოდულის პოვნა (%s) წარუმატებელია: %s"
 
 #: libdnf/module/ModulePackage.cpp:668
 #, c-format
@@ -821,7 +825,7 @@ msgstr ""
 
 #: libdnf/module/ModulePackage.cpp:673
 msgid "No valid Platform ID detected"
-msgstr ""
+msgstr "პლატფორმის ID არასწორია"
 
 #: libdnf/module/ModulePackageContainer.cpp:107
 #, c-format
@@ -870,7 +874,7 @@ msgstr ""
 #: libdnf/module/ModulePackageContainer.cpp:1791
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
-msgstr ""
+msgstr "საქაღალდის (%s) შექმნის შეცდომა მოდულარული უსაფრთხო მონაცემებისთვის: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1807
 #, c-format
@@ -880,7 +884,7 @@ msgstr ""
 #: libdnf/module/ModulePackageContainer.cpp:1830
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
-msgstr ""
+msgstr "მოდულარული უსაფრთხო მონაცემების წაშლის შეცდომა %s-დან"
 
 #: libdnf/module/ModulePackageContainer.cpp:1862
 #, c-format
@@ -964,12 +968,12 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:321
 #, c-format
 msgid "Repository %s has no mirror or baseurl set."
-msgstr ""
+msgstr "რეპოზიტორიას (%s) არც სარკე აქვს მითითებული, არც baseurl."
 
 #: libdnf/repo/Repo.cpp:330
 #, c-format
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
-msgstr ""
+msgstr "რეპოზიტორიის (%s) მხარდაუჭერელი ტიპი: 'type%s'. გამოტოვება."
 
 #: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:610 libdnf/repo/Repo.cpp:641
 #: libdnf/repo/Repo.cpp:1400
@@ -982,6 +986,8 @@ msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
 msgstr ""
+"გადმოწერის მაქსიმალური სიჩქარე მინიმუმზე ნაკლება. გთხოვთ შეცვალოთ "
+"კონფიგურაცია"
 
 #: libdnf/repo/Repo.cpp:546
 #, c-format
@@ -1000,12 +1006,12 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:660 libdnf/repo/Repo.cpp:682
 #, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
-msgstr ""
+msgstr "%s: gpgme_data_new_from_fd(): %s"
 
 #: libdnf/repo/Repo.cpp:668 libdnf/repo/Repo.cpp:690
 #, c-format
 msgid "%s: gpgme_op_import(): %s"
-msgstr ""
+msgstr "%s: gpgme_op_import(): %s"
 
 #: libdnf/repo/Repo.cpp:709 libdnf/repo/Repo.cpp:1162 libdnf/repo/Repo.cpp:1236
 #: libdnf/repo/Repo.cpp:1279
@@ -1016,7 +1022,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:717 libdnf/repo/Repo.cpp:783 libdnf/repo/Repo.cpp:917
 #, c-format
 msgid "%s: gpgme_ctx_set_engine_info(): %s"
-msgstr ""
+msgstr "%s: gpgme_ctx_set_engine_info(): %s"
 
 #: libdnf/repo/Repo.cpp:744 libdnf/repo/Repo.cpp:808
 #, c-format
@@ -1026,7 +1032,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:837
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
-msgstr ""
+msgstr "რეპოსთვის (%s) GPG გასაღებების მიღების პრობლემა: %s"
 
 #: libdnf/repo/Repo.cpp:890
 #, c-format
@@ -1071,7 +1077,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:1255
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
-msgstr ""
+msgstr "აღდგენა: %s-ის შეცდომა. repomd არ ემთხვევა."
 
 #: libdnf/repo/Repo.cpp:1273
 #, c-format
@@ -1096,7 +1102,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:1351
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
-msgstr ""
+msgstr "Cache-only ჩართულია, მაგრამ %s-ის ქეში არ არსებობს"
 
 #: libdnf/repo/Repo.cpp:1355
 #, c-format
@@ -1156,7 +1162,7 @@ msgstr ""
 
 #: libdnf/transaction/TransactionItem.cpp:217
 msgid "Attempt to update transaction item in completed transaction"
-msgstr ""
+msgstr "დასრულებულ ტრანზაქციაში ელემენტის განახლების მცდელობა"
 
 #: libdnf/transaction/Transformer.cpp:76
 msgid "Database Corrupted: no row 'version' in table 'config'"
@@ -1177,7 +1183,7 @@ msgstr ""
 #: libdnf/transaction/private/Transaction.cpp:58
 #, c-format
 msgid "TransactionItem state is not set: %s"
-msgstr ""
+msgstr "ტრანზაქციის მდგომარეობა დაყენებული არაა: %s"
 
 #: libdnf/transaction/private/Transaction.cpp:243
 msgid "Can't add console output to unsaved transaction"
