@@ -7,13 +7,14 @@
 # Gustavo Costa <gusta@null.net>, 2020.
 # Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020.
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
+# Daimar Stein <daimarstein@pm.me>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-22 03:04+0000\n"
-"PO-Revision-Date: 2021-10-12 12:05+0000\n"
-"Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
+"PO-Revision-Date: 2022-08-01 01:19+0000\n"
+"Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.13\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -113,7 +114,7 @@ msgid "GetValue(): Value not set"
 msgstr "GetValue(): valor não definido"
 
 #: libdnf/dnf-context.cpp:3189 libdnf/dnf-context.cpp:3198
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr "Não é possível habilitar mais fluxos do módulo '%s' ao mesmo tempo"
 
@@ -126,9 +127,9 @@ msgstr ""
 "modificado"
 
 #: libdnf/dnf-context.cpp:3274
-#, fuzzy, c-format
+#, c-format
 msgid "Modular dependency problem with Defaults: %s"
-msgstr "Problema de dependência modular com padrões: %s"
+msgstr "Problema de dependência modular com os padrões: %s"
 
 #: libdnf/dnf-context.cpp:3277
 #, fuzzy, c-format
@@ -158,9 +159,9 @@ msgstr ""
 "no argumento: '%s'"
 
 #: libdnf/dnf-context.cpp:3325
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot reset module '%s': State of module already modified"
-msgstr "Não pode desabilitar módulo '%s': Estado do módulo já modificado"
+msgstr "Não é possível resetar módulo '%s': Estado do módulo já foi modificado"
 
 #: libdnf/dnf-context.cpp:3336
 #, c-format
@@ -187,9 +188,8 @@ msgstr ""
 "'%1$s' de '%2$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3434
-#, fuzzy
 msgid "Problems appeared for module enable request:"
-msgstr "Apareceram problemas para a solicitação de ativação do módulo"
+msgstr "Apareceram problemas para a solicitação de ativação do módulo:"
 
 #: libdnf/dnf-context.cpp:3529
 #, c-format
@@ -200,7 +200,7 @@ msgstr ""
 #, fuzzy, c-format
 #| msgid "cannot install both modules %s and %s"
 msgid "Cannot install module '%s' from fail-safe repository"
-msgstr "não é possível instalar ambos os módulos %s e %s"
+msgstr "Não é possível instalar o módulo %s através do reposítório fail-safe"
 
 #: libdnf/dnf-context.cpp:3541
 #, c-format
@@ -220,19 +220,16 @@ msgstr ""
 "'%1$s' de '%2$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3615
-#, fuzzy
 msgid "Problems appeared for module install request:"
-msgstr "Apareceram problemas para a solicitação de desativação do módulo"
+msgstr "Apareceram problemas para a solicitação de instalação do módulo:"
 
 #: libdnf/dnf-context.cpp:3674
-#, fuzzy
 msgid "Problems appeared for module reset request:"
-msgstr "Apareceram problemas para a solicitação de redefinição do módulo"
+msgstr "Apareceram problemas para a solicitação de redefinição do módulo:"
 
 #: libdnf/dnf-context.cpp:3675 libdnf/dnf-context.cpp:3734
-#, fuzzy
 msgid "Problems appeared for module disable request:"
-msgstr "Apareceram problemas para a solicitação de desativação do módulo"
+msgstr "Apareceram problemas para a solicitação de desativação do módulo:"
 
 #: libdnf/dnf-context.cpp:3766
 #, fuzzy, c-format
@@ -256,9 +253,8 @@ msgstr ""
 "redefinir o módulo, você pode instalar o outro fluxo."
 
 #: libdnf/dnf-goal.cpp:107
-#, fuzzy
 msgid "Could not depsolve transaction; "
-msgstr "Não foi possível resolver a transação; "
+msgstr "Não foi possível resolver as dependências da transação; "
 
 #: libdnf/dnf-goal.cpp:109
 #, c-format
@@ -374,10 +370,9 @@ msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
 
 #: libdnf/dnf-sack.cpp:560
-#, fuzzy, c-format
-#| msgid "failed opening tmp file: %s"
+#, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr "Falha ao abrir o arquivo tmp: %s"
+msgstr "Falha ao fechar o arquivo tmp %s: %s"
 
 #: libdnf/dnf-sack.cpp:570
 #, c-format
@@ -611,9 +606,8 @@ msgid "unsupported request"
 msgstr "solicitação não suportada"
 
 #: libdnf/goal/Goal.cpp:95 libdnf/goal/Goal.cpp:122
-#, fuzzy
 msgid "nothing provides requested "
-msgstr "nada fornece solicitado "
+msgstr "nada fornece o solicitado "
 
 #: libdnf/goal/Goal.cpp:96
 #, c-format
