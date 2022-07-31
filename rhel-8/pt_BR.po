@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2021.
 # Fábio Rodrigues Ribeiro <farribeiro@gmail.com>, 2021.
+# Daimar Stein <daimarstein@pm.me>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 11:03+0100\n"
-"PO-Revision-Date: 2021-03-17 21:01+0000\n"
-"Last-Translator: Fábio Rodrigues Ribeiro <farribeiro@gmail.com>\n"
+"PO-Revision-Date: 2022-08-01 01:19+0000\n"
+"Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-rhel-8/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.13\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -109,7 +110,7 @@ msgid "GetValue(): Value not set"
 msgstr "GetValue (): valor não definido"
 
 #: libdnf/dnf-context.cpp:3170 libdnf/dnf-context.cpp:3179
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr "Não é possível habilitar mais fluxos do módulo '%s' ao mesmo tempo"
 
@@ -122,9 +123,9 @@ msgstr ""
 "modificado"
 
 #: libdnf/dnf-context.cpp:3253
-#, fuzzy, c-format
+#, c-format
 msgid "Modular dependency problem with Defaults: %s"
-msgstr "Problema de dependência modular com padrões: %s"
+msgstr "Problema de dependência modular com os padrões: %s"
 
 #: libdnf/dnf-context.cpp:3256
 #, c-format
@@ -148,9 +149,9 @@ msgstr ""
 "no argumento: '%s'"
 
 #: libdnf/dnf-context.cpp:3311
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot reset module '%s': State of module already modified"
-msgstr "Não pode desabilitar módulo '%s': Estado do módulo já modificado"
+msgstr "Não é possível resetar módulo '%s': Estado do módulo já foi modificado"
 
 #: libdnf/dnf-context.cpp:3322
 #, c-format
