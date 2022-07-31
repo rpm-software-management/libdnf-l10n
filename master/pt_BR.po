@@ -7,13 +7,14 @@
 # Gustavo Costa <gusta@null.net>, 2020.
 # Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020.
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
+# Daimar Stein <daimarstein@pm.me>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-10-12 12:05+0000\n"
-"Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
+"PO-Revision-Date: 2022-08-01 01:19+0000\n"
+"Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.13\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -102,9 +103,8 @@ msgid "GetValue(): Value not set"
 msgstr "GetValue(): valor não definido"
 
 #: libdnf/dnf-goal.cpp:68
-#, fuzzy
 msgid "Could not depsolve transaction; "
-msgstr "Não foi possível resolver a transação; "
+msgstr "Não foi possível resolver as dependências da transação; "
 
 #: libdnf/dnf-goal.cpp:70
 #, c-format
@@ -404,9 +404,8 @@ msgid "unsupported request"
 msgstr "solicitação não suportada"
 
 #: libdnf/goal/Goal.cpp:72 libdnf/goal/Goal.cpp:99
-#, fuzzy
 msgid "nothing provides requested "
-msgstr "nada fornece solicitado "
+msgstr "nada fornece o solicitado "
 
 #: libdnf/goal/Goal.cpp:73
 #, c-format
