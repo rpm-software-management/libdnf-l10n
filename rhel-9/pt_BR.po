@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 10:38+0100\n"
-"PO-Revision-Date: 2022-08-03 11:19+0000\n"
+"PO-Revision-Date: 2022-08-05 21:19+0000\n"
 "Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-rhel-9/pt_BR/>\n"
@@ -45,14 +45,12 @@ msgid "invalid value"
 msgstr "valor inválido"
 
 #: libdnf/conf/ConfigMain.cpp:207
-#, fuzzy
-#| msgid "'%s' is not an allowed value"
 msgid "value 1 is not allowed"
-msgstr "'%s' não é um valor permitido"
+msgstr "valor 1 não é permitido"
 
 #: libdnf/conf/ConfigMain.cpp:209
 msgid "negative value is not allowed"
-msgstr ""
+msgstr "valor negativo não é permitido"
 
 #: libdnf/conf/ConfigMain.cpp:343
 #, c-format
@@ -128,9 +126,9 @@ msgid "Modular dependency problem with Defaults: %s"
 msgstr "Problema de dependência modular com os padrões: %s"
 
 #: libdnf/dnf-context.cpp:3266
-#, fuzzy, c-format
+#, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr "Problema de dependência modular com padrões: %s"
+msgstr "Problema de dependência modular com os módulos mais recentes: %s"
 
 #: libdnf/dnf-context.cpp:3270
 #, c-format
@@ -174,13 +172,13 @@ msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Ignorando informação desnecessária no argumento: '%s'"
 
 #: libdnf/dnf-context.cpp:3411
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
 "problema durante a ativação da árvore de dependências para o fluxo do módulo "
-"'%1$s' de '%2$s': %3$s"
+"'%1$s'  de '%2$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3423
 msgid "Problems appeared for module enable request:"
@@ -200,7 +198,7 @@ msgstr "Não é possível instalar o módulo %s através do repositório fail-sa
 #: libdnf/dnf-context.cpp:3530
 #, c-format
 msgid "No profile found matching '%s'"
-msgstr ""
+msgstr "Nenhum perfil encontrado que corresponde a '%s'"
 
 #: libdnf/dnf-context.cpp:3584
 #, c-format
