@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-02-28 11:03+0100\n"
-"PO-Revision-Date: 2022-08-01 01:19+0000\n"
+"PO-Revision-Date: 2022-08-05 21:19+0000\n"
 "Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-rhel-8/pt_BR/>\n"
@@ -45,14 +45,12 @@ msgid "invalid value"
 msgstr "valor inválido"
 
 #: libdnf/conf/ConfigMain.cpp:207
-#, fuzzy
-#| msgid "'%s' is not an allowed value"
 msgid "value 1 is not allowed"
-msgstr "'%s' não é um valor permitido"
+msgstr "valor 1 não é permitido"
 
 #: libdnf/conf/ConfigMain.cpp:209
 msgid "negative value is not allowed"
-msgstr ""
+msgstr "valor negativo não é permitido"
 
 #: libdnf/conf/ConfigMain.cpp:341
 #, c-format
@@ -169,16 +167,15 @@ msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Ignorando informação desnecessária no argumento: '%s'"
 
 #: libdnf/dnf-context.cpp:3408
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
 "problema durante a ativação da árvore de dependências para o fluxo do módulo "
-"'%1$s' de '%2$s': %3$s"
+"'%1$s'  de '%2$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3420
-#, fuzzy
 msgid "Problems appeared for module enable request"
 msgstr "Apareceram problemas para a solicitação de ativação do módulo"
 
@@ -189,17 +186,14 @@ msgid "Failed to parse module artifact NEVRA '%s'"
 msgstr ""
 
 #: libdnf/dnf-context.cpp:3529
-#, fuzzy
 msgid "Problems appeared for module install request"
-msgstr "Apareceram problemas para a solicitação de desativação do módulo"
+msgstr "Apareceram problemas para a solicitação de instalação do módulo"
 
 #: libdnf/dnf-context.cpp:3589
-#, fuzzy
 msgid "Problems appeared for module reset request"
 msgstr "Apareceram problemas para a solicitação de redefinição do módulo"
 
 #: libdnf/dnf-context.cpp:3591
-#, fuzzy
 msgid "Problems appeared for module disable request"
 msgstr "Apareceram problemas para a solicitação de desativação do módulo"
 
