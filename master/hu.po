@@ -1,14 +1,14 @@
 # Meskó Balázs <meskobalazs@gmail.com>, 2016. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2017. #zanata
 # Teknős Ferenc <teknos.ferenc@gmail.com>, 2018. #zanata
-# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021.
+# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021, 2022.
 # Anonymous <noreply@weblate.org>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-11-04 08:05+0000\n"
+"PO-Revision-Date: 2022-08-08 15:19+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.13\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -388,24 +388,24 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:70 libdnf/goal/Goal.cpp:97
 msgid "conflicting requests"
-msgstr ""
+msgstr "ütköző kérések"
 
 #: libdnf/goal/Goal.cpp:71 libdnf/goal/Goal.cpp:98
 msgid "unsupported request"
-msgstr ""
+msgstr "nem támogatott kérés"
 
 #: libdnf/goal/Goal.cpp:72 libdnf/goal/Goal.cpp:99
 msgid "nothing provides requested "
-msgstr ""
+msgstr "semmi sem biztosítja amit kért "
 
 #: libdnf/goal/Goal.cpp:73
 #, c-format
 msgid "package %s does not exist"
-msgstr ""
+msgstr "a(z) %s csomag nem létezik"
 
 #: libdnf/goal/Goal.cpp:74 libdnf/goal/Goal.cpp:101
 msgid " is provided by the system"
-msgstr ""
+msgstr " a rendszer által biztosított"
 
 #: libdnf/goal/Goal.cpp:75 libdnf/goal/Goal.cpp:102
 msgid "some dependency problem"
@@ -559,7 +559,7 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:1008
 msgid "no solver set"
-msgstr ""
+msgstr "nincs megoldó beállítva"
 
 #: libdnf/goal/Goal.cpp:1013
 #, c-format
@@ -577,16 +577,16 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:1034
 msgid "no solution, cannot remove protected package"
-msgstr ""
+msgstr "nincs megoldás, a védett csomag nem távolítható el"
 
 #: libdnf/goal/Goal.cpp:1037
 msgid "no solution possible"
-msgstr ""
+msgstr "nincs megoldás"
 
 #: libdnf/goal/Goal.cpp:1443
 msgid ""
 "The operation would result in removing the following protected packages: "
-msgstr ""
+msgstr "A művelet a következő védett csomagok eltávolítását eredményezné: "
 
 #: libdnf/hy-iutil.cpp:322
 #, c-format
@@ -833,7 +833,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:1277
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
-msgstr "Nem hozható létre könyvtár\"%s\": %s"
+msgstr "Nem hozható létre a(z) „%s” könyvtár: %s"
 
 #: libdnf/repo/Repo.cpp:1300
 #, c-format
@@ -863,12 +863,12 @@ msgstr ""
 
 #: libdnf/repo/Repo.cpp:1371
 msgid "getCachedir(): Computation of SHA256 failed"
-msgstr ""
+msgstr "getCachedir(): A SHA256 kiszámítása sikertelen"
 
 #: libdnf/repo/Repo.cpp:1396
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
-msgstr ""
+msgstr "Nem hozható létre a(z) „%s” állandó könyvtár: %s"
 
 #: libdnf/repo/Repo.cpp:1796
 msgid "resume cannot be used simultaneously with the byterangestart param"
@@ -877,17 +877,17 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:1807
 #, c-format
 msgid "PackageTarget initialization failed: %s"
-msgstr ""
+msgstr "A PackageTarget előkészítése sikertelen: %s"
 
 #: libdnf/repo/Repo.cpp:1924
 #, c-format
 msgid "Cannot open %s: %s"
-msgstr ""
+msgstr "A(z) %s nem nyitható meg: %s"
 
 #: libdnf/repo/Repo.cpp:1968
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
-msgstr ""
+msgstr "A(z) %ld azonosítójú naplókezelő nem létezik"
 
 #: libdnf/transaction/Swdb.cpp:107
 msgid "In progress"
@@ -897,11 +897,11 @@ msgstr "Folyamatban"
 #: libdnf/transaction/Swdb.cpp:160 libdnf/transaction/Swdb.cpp:177
 #: libdnf/transaction/Swdb.cpp:316 libdnf/transaction/Swdb.cpp:326
 msgid "Not in progress"
-msgstr ""
+msgstr "Nincs folyamatban"
 
 #: libdnf/transaction/Swdb.cpp:187
 msgid "No transaction in progress"
-msgstr ""
+msgstr "Nincs folyamatban tranzakció"
 
 #: libdnf/transaction/TransactionItem.cpp:147
 msgid "Attempt to insert transaction item into completed transaction"
