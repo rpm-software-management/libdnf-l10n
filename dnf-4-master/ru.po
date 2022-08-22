@@ -3,13 +3,14 @@
 # Petr Molodyk <pamolodyk@gmail.com>, 2020.
 # Vladyslav Spirin <vladspirin@hotmail.com>, 2020.
 # Alexey Rubtsov <rushills@gmail.com>, 2021.
+# V I <xasertop@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-08 02:55+0000\n"
-"PO-Revision-Date: 2021-08-03 19:04+0000\n"
-"Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
+"PO-Revision-Date: 2022-08-23 18:19+0000\n"
+"Last-Translator: V I <xasertop@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ru/>\n"
 "Language: ru\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.13\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -332,7 +333,7 @@ msgstr "repo_add_solv() завершился ошибкой."
 #: libdnf/dnf-sack.cpp:415
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "Ошибка загрузки кеша расширений %s (%d): "
 
 #: libdnf/dnf-sack.cpp:429
 #, c-format
@@ -360,15 +361,14 @@ msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
 
 #: libdnf/dnf-sack.cpp:560
-#, fuzzy, c-format
-#| msgid "failed opening tmp file: %s"
+#, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr "не удалось открыть файл tmp: %s"
+msgstr "Не удалось закрыть временный файл %s: %s"
 
 #: libdnf/dnf-sack.cpp:570
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "Не удалось использовать вновь записанный первичный кеш: %s: "
 
 #: libdnf/dnf-sack.cpp:576
 #, c-format
@@ -399,11 +399,11 @@ msgstr ""
 #: libdnf/dnf-sack.cpp:699
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
-msgstr ""
+msgstr "Не удалось использовать вновь записанный кеш расширений: %s (%d)"
 
 #: libdnf/dnf-sack.cpp:740
 msgid "null repo md file"
-msgstr "файл md  пустого репозитория null"
+msgstr "файл md пустого репозитория null"
 
 #: libdnf/dnf-sack.cpp:749
 #, c-format
@@ -413,7 +413,7 @@ msgstr "невозможно прочитать файл %1$s: %2$s"
 #: libdnf/dnf-sack.cpp:764
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "При загрузке репозитория не удалось использовать %s: "
 
 #: libdnf/dnf-sack.cpp:775
 msgid "loading of MD_TYPE_PRIMARY has failed."
@@ -537,11 +537,11 @@ msgstr "ошибка %i проверка транзакции"
 #: libdnf/dnf-transaction.cpp:1441
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "Ошибка %i при открытии базы данных rpm"
 
 #: libdnf/dnf-transaction.cpp:1449 libdnf/dnf-transaction.cpp:1495
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr ""
+msgstr "Функция dbCookie() не вернула куки базы данных rpm."
 
 #: libdnf/dnf-transaction.cpp:1464
 #, c-format
@@ -806,7 +806,7 @@ msgstr "Операция приведет к удалению следующих
 #: libdnf/hy-iutil.cpp:181
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
-msgstr ""
+msgstr "solv_toolversion в Libsolv: %zu длинный, но мы ожидаем максимум: %zu"
 
 #: libdnf/hy-iutil.cpp:408
 #, c-format
