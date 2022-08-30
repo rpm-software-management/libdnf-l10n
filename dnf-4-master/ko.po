@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 03:29+0000\n"
-"PO-Revision-Date: 2022-07-18 16:18+0000\n"
+"PO-Revision-Date: 2022-08-31 11:37+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ko/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -329,7 +329,7 @@ msgstr "repo_add_solv() 실패하였습니다."
 #: libdnf/dnf-sack.cpp:415
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr "확장 캐쉬 %s (%d) 적재에 실패함: "
+msgstr "확장 캐쉬 %s (%d) 적재 중 실패함: "
 
 #: libdnf/dnf-sack.cpp:429
 #, c-format
@@ -354,7 +354,7 @@ msgstr "여는 tmp 파일을 열지 못했습니다. %s"
 #: libdnf/dnf-sack.cpp:550
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
-msgstr "기본 캐쉬 %s를 쓰는 동안에 repowriter 쓰기에 실패함: %i, 오류: %s"
+msgstr "기본 캐쉬 %s를 쓰는 동안에 repowriter 쓰기가 실패함: %i, 오류: %s"
 
 #: libdnf/dnf-sack.cpp:560
 #, c-format
@@ -380,7 +380,7 @@ msgstr "임시 파일을 만들 수 없습니다. %s"
 #, c-format
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
-msgstr "확장 캐쉬 %s (%d)를 쓰는 동안: repowriter 쓰기에 실패함: %i, 오류: %s"
+msgstr "확장 캐쉬 %s (%d)를 쓰는 동안: repowriter 쓰기가 실패함: %i, 오류: %s"
 
 #: libdnf/dnf-sack.cpp:676
 #, c-format
