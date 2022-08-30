@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 14:26+0200\n"
-"PO-Revision-Date: 2022-07-18 16:18+0000\n"
+"PO-Revision-Date: 2022-08-31 11:37+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-8/ko/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -59,7 +59,7 @@ msgstr "백분율 '%s' 범위를 벗어났습니다"
 
 #: libdnf/conf/ConfigRepo.cpp:182
 msgid "only the value 'priority' is supported."
-msgstr ""
+msgstr "'우선순위' 값만 지원됩니다."
 
 #: libdnf/conf/OptionBinds.cpp:85
 #, c-format
@@ -308,7 +308,7 @@ msgstr "repo_add_solv() 실패하였습니다."
 #: libdnf/dnf-sack.cpp:416
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "확장 캐쉬 %s (%d) 적재 중 실패함: "
 
 #: libdnf/dnf-sack.cpp:430
 #, c-format
@@ -333,23 +333,22 @@ msgstr "여는 tmp 파일을 열지 못했습니다. %s"
 #: libdnf/dnf-sack.cpp:551
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
-msgstr ""
+msgstr "기본 캐쉬 %s를 쓰는 동안에 repowriter 쓰기가 실패함: %i, 오류: %s"
 
 #: libdnf/dnf-sack.cpp:561
-#, fuzzy, c-format
-#| msgid "failed opening tmp file: %s"
+#, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr "여는 tmp 파일을 열지 못했습니다. %s"
+msgstr "tmp 파일을 닫는데 실패함 %s: %s"
 
 #: libdnf/dnf-sack.cpp:571
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "새롭게 작성된 기본 캐쉬를 사용하는데 실패함: %s: "
 
 #: libdnf/dnf-sack.cpp:577
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "새롭게 작성된 기본 캐쉬를 사용하는데 실패함: %s"
 
 #: libdnf/dnf-sack.cpp:627
 #, c-format
@@ -360,22 +359,22 @@ msgstr "임시 파일을 만들 수 없습니다. %s"
 #, c-format
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
-msgstr ""
+msgstr "확장 캐쉬 %s (%d)를 쓰는 동안: repowriter 쓰기가 실패함: %i, 오류: %s"
 
 #: libdnf/dnf-sack.cpp:677
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
-msgstr ""
+msgstr "확장 캐쉬 (%d)를 쓰는 동안: 임시 파일을 닫을 수 없습니다: %s"
 
 #: libdnf/dnf-sack.cpp:693
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
-msgstr ""
+msgstr "새롭게 작성된 확장 캐쉬를 사용하는데 실패함: %s (%d): "
 
 #: libdnf/dnf-sack.cpp:700
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
-msgstr ""
+msgstr "새롭게 작성된 확장 캐쉬를 사용하는데 실패함: %s (%d)"
 
 #: libdnf/dnf-sack.cpp:741
 msgid "null repo md file"
@@ -389,23 +388,21 @@ msgstr "파일을 읽을 수 없습니다. %1$s: %2$s"
 #: libdnf/dnf-sack.cpp:765
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "저장소를 적재하는 동안에 %s를 사용하는데 실패함: "
 
 #: libdnf/dnf-sack.cpp:776
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "MD_TYPE_PRIMARY를 적재하지 못했습니다."
 
 #: libdnf/dnf-sack.cpp:788
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading repomd has failed: %s"
-msgstr "플러그인 파일 적재중=\"%s\""
+msgstr "repomd 적재하는데 실패함: %s"
 
 #: libdnf/dnf-sack.cpp:799
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading primary has failed: %s"
-msgstr "플러그인 파일 적재중=\"%s\""
+msgstr "기본 적재하는데 실패함: %s"
 
 #: libdnf/dnf-sack.cpp:865
 msgid "failed to auto-detect architecture"
@@ -755,7 +752,7 @@ msgstr "이 작업으로 인해 다음과 같은 보호 꾸러미가 제거됩�
 #: libdnf/hy-iutil.cpp:181
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
-msgstr ""
+msgstr "Libsolv의 solv_toolversion은 %zu 길이지만 최대값은 %zu로 예상됩니다"
 
 #: libdnf/hy-iutil.cpp:408
 #, c-format
