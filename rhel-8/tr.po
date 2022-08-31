@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Oğuz Ersen <oguzersen@protonmail.com>, 2021.
+# Oğuz Ersen <oguz@ersen.moe>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 14:26+0200\n"
-"PO-Revision-Date: 2021-08-13 09:04+0000\n"
-"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"PO-Revision-Date: 2022-08-31 11:37+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-8/tr/>\n"
 "Language: tr\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.14\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -57,7 +58,7 @@ msgstr "yüzde değeri '%s' aralık dışında"
 
 #: libdnf/conf/ConfigRepo.cpp:182
 msgid "only the value 'priority' is supported."
-msgstr ""
+msgstr "yalnızca 'priority' değeri desteklenmektedir."
 
 #: libdnf/conf/OptionBinds.cpp:85
 #, c-format
@@ -310,7 +311,7 @@ msgstr "repo_add_solv() başarısız oldu."
 #: libdnf/dnf-sack.cpp:416
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "%s (%d) uzantı önbelleği yüklenemedi: "
 
 #: libdnf/dnf-sack.cpp:430
 #, c-format
@@ -336,22 +337,23 @@ msgstr "geçici dosya açılamadı: %s"
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
+"Birincil önbellek %s yazılırken repowriter yazma işlemi başarısız oldu: %i, "
+"hata: %s"
 
 #: libdnf/dnf-sack.cpp:561
-#, fuzzy, c-format
-#| msgid "failed opening tmp file: %s"
+#, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr "geçici dosya açılamadı: %s"
+msgstr "Geçici dosya %s kapatılamadı: %s"
 
 #: libdnf/dnf-sack.cpp:571
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "Yeni yazılan birincil önbellek kullanılamadı: %s: "
 
 #: libdnf/dnf-sack.cpp:577
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "Yeni yazılan birincil önbellek kullanılamadı: %s"
 
 #: libdnf/dnf-sack.cpp:627
 #, c-format
@@ -363,21 +365,23 @@ msgstr "%s geçici dosyası oluşturulamıyor"
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
+"Uzantı önbelleği %s (%d) yazılırken repowriter yazma işlemi başarısız oldu: "
+"%i, hata: %s"
 
 #: libdnf/dnf-sack.cpp:677
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
-msgstr ""
+msgstr "Uzantı önbelleği (%d) yazılırken geçici dosya kapatılamıyor: %s"
 
 #: libdnf/dnf-sack.cpp:693
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
-msgstr ""
+msgstr "Yeni yazılan uzantı önbelleği kullanılamadı: %s (%d): "
 
 #: libdnf/dnf-sack.cpp:700
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
-msgstr ""
+msgstr "Yeni yazılan uzantı önbelleği kullanılamadı: %s (%d)"
 
 #: libdnf/dnf-sack.cpp:741
 msgid "null repo md file"
@@ -391,23 +395,21 @@ msgstr "%1$s dosyası okunamıyor: %2$s"
 #: libdnf/dnf-sack.cpp:765
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "Depo yüklenirken %s kullanılamadı: "
 
 #: libdnf/dnf-sack.cpp:776
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "MD_TYPE_PRIMARY yüklenemedi."
 
 #: libdnf/dnf-sack.cpp:788
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading repomd has failed: %s"
-msgstr "Eklenti dosyası=\"%s\" yükleniyor"
+msgstr "repomd yüklenemedi: %s"
 
 #: libdnf/dnf-sack.cpp:799
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading primary has failed: %s"
-msgstr "Eklenti dosyası=\"%s\" yükleniyor"
+msgstr "Birincil yüklenemedi: %s"
 
 #: libdnf/dnf-sack.cpp:865
 msgid "failed to auto-detect architecture"
@@ -770,7 +772,7 @@ msgstr "İşlem, aşağıdaki korumalı paketlerin kaldırılmasına neden olur:
 #: libdnf/hy-iutil.cpp:181
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
-msgstr ""
+msgstr "Libsolv solv_toolversion %zu uzunluğunda en fazla %zu bekleniyor"
 
 #: libdnf/hy-iutil.cpp:408
 #, c-format
