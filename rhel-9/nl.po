@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 14:53+0200\n"
-"PO-Revision-Date: 2022-03-01 07:37+0000\n"
+"PO-Revision-Date: 2022-09-02 02:19+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-9/nl/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.14\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -336,7 +336,7 @@ msgstr "repo_add_solv() is mislukt."
 #: libdnf/dnf-sack.cpp:415
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "Laden van extensiecache %s (%d) is mislukt: "
 
 #: libdnf/dnf-sack.cpp:429
 #, c-format
@@ -362,22 +362,23 @@ msgstr "openen van tijdelijk bestand mislukte: %s"
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
+"Tijdens het schrijven van primaire cache %s repowriter schrijven is mislukt: "
+"%i, fout: %s"
 
 #: libdnf/dnf-sack.cpp:560
-#, fuzzy, c-format
-#| msgid "failed opening tmp file: %s"
+#, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr "openen van tijdelijk bestand mislukte: %s"
+msgstr "Kan tmp-bestand %s niet sluiten: %s"
 
 #: libdnf/dnf-sack.cpp:570
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "Kan nieuw geschreven primaire cache niet gebruiken: %s: "
 
 #: libdnf/dnf-sack.cpp:576
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "Kan nieuw geschreven primaire cache niet gebruiken: %s"
 
 #: libdnf/dnf-sack.cpp:626
 #, c-format
@@ -389,21 +390,25 @@ msgstr "kan geen tijdelijk bestand %s aanmaken"
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
+"Tijdens het schrijven van extensiecache %s (%d): schrijven naar repowriter "
+"is mislukt: %i, fout: %s"
 
 #: libdnf/dnf-sack.cpp:676
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
 msgstr ""
+"Tijdens het schrijven van extensiecache (%d): kan tijdelijk bestand niet "
+"sluiten: %s"
 
 #: libdnf/dnf-sack.cpp:692
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
-msgstr ""
+msgstr "Kan nieuw geschreven extensiecache niet gebruiken: %s (%d): "
 
 #: libdnf/dnf-sack.cpp:699
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
-msgstr ""
+msgstr "Kan nieuw geschreven extensiecache niet gebruiken: %s (%d)"
 
 #: libdnf/dnf-sack.cpp:740
 msgid "null repo md file"
@@ -417,23 +422,21 @@ msgstr "kan bestand %1$s niet lezen: %2$s"
 #: libdnf/dnf-sack.cpp:764
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "Tijdens het laden van de repository kon %s niet worden gebruikt: "
 
 #: libdnf/dnf-sack.cpp:775
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "laden van MD_TYPE_PRIMARY is mislukt."
 
 #: libdnf/dnf-sack.cpp:787
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading repomd has failed: %s"
-msgstr "Laden van plug-in bestand=\"%s\""
+msgstr "Het laden van repomd is mislukt: %s"
 
 #: libdnf/dnf-sack.cpp:798
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading primary has failed: %s"
-msgstr "Laden van plug-in bestand=\"%s\""
+msgstr "Het laden van primair is mislukt: %s"
 
 #: libdnf/dnf-sack.cpp:864
 msgid "failed to auto-detect architecture"
@@ -807,6 +810,8 @@ msgstr ""
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
 msgstr ""
+"Libsolv's solv_toolversion is: %zu lang maar we verwachten een maximum van: "
+"%zu"
 
 #: libdnf/hy-iutil.cpp:408
 #, c-format
