@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-31 03:39+0000\n"
-"PO-Revision-Date: 2022-08-31 11:37+0000\n"
+"PO-Revision-Date: 2022-09-02 02:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ko/>\n"
@@ -437,7 +437,7 @@ msgstr "구조 자동 검색에 실패했습니다"
 #: libdnf/dnf-sack.cpp:1037
 #, c-format
 msgid "failed creating cachedir %s"
-msgstr "캐시 된 생성 실패 %s"
+msgstr "캐쉬 된 생성 실패 %s"
 
 #: libdnf/dnf-sack.cpp:1814
 msgid "failed loading RPMDB"
