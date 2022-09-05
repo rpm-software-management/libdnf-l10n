@@ -2,13 +2,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
 # Casey Jones <nahareport@yahoo.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021.
+# Transtats <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 14:26+0200\n"
-"PO-Revision-Date: 2021-09-06 17:27+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2022-09-05 12:33+0000\n"
+"Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-8/ja/>\n"
 "Language: ja\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.14\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -310,7 +311,7 @@ msgstr "repo_add_solv() は失敗しました。"
 #: libdnf/dnf-sack.cpp:416
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "拡張キャッシュの %s (%d) の読み込みに失敗しました。 "
 
 #: libdnf/dnf-sack.cpp:430
 #, c-format
@@ -335,23 +336,23 @@ msgstr "tmp ファイルを開くことに失敗しました: %s"
 #: libdnf/dnf-sack.cpp:551
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
-msgstr ""
+msgstr "プライマリーキャッシュの %s repowriter 書き込み中に %i "
+"エラーが発生しました。エラー: %s"
 
 #: libdnf/dnf-sack.cpp:561
-#, fuzzy, c-format
-#| msgid "failed opening tmp file: %s"
+#, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr "tmp ファイルを開くことに失敗しました: %s"
+msgstr "tmp ファイル %s の終了に失敗しました: %s"
 
 #: libdnf/dnf-sack.cpp:571
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "新たに書き込まれたプライマリーキャッシュを使用できません: %s: "
 
 #: libdnf/dnf-sack.cpp:577
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "新たに書き込まれたプライマリーキャッシュを使用できません: %s"
 
 #: libdnf/dnf-sack.cpp:627
 #, c-format
@@ -362,22 +363,23 @@ msgstr "一時ファイル %s を作成できません"
 #, c-format
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
-msgstr ""
+msgstr "拡張キャッシュ %s (%d) の書き込み中: repowriter の書き込みに失敗: %i、エラー:"
+" %s"
 
 #: libdnf/dnf-sack.cpp:677
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
-msgstr ""
+msgstr "拡張キャッシュの書き込み中 (%d): 一時ファイルを終了できません: %s"
 
 #: libdnf/dnf-sack.cpp:693
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
-msgstr ""
+msgstr "新たに書き込まれた拡張キャッシュを使用できませんでした: %s (%d): "
 
 #: libdnf/dnf-sack.cpp:700
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
-msgstr ""
+msgstr "新たに書き込まれた拡張キャッシュを使用できませんでした: %s (%d)"
 
 #: libdnf/dnf-sack.cpp:741
 msgid "null repo md file"
@@ -391,23 +393,21 @@ msgstr "ファイル %1$s を読み込みできません: %2$s"
 #: libdnf/dnf-sack.cpp:765
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "リポジトリーのロード中に %s が使用できませんでした: "
 
 #: libdnf/dnf-sack.cpp:776
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "MD_TYPE_PRIMARY のロードに失敗しました。"
 
 #: libdnf/dnf-sack.cpp:788
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading repomd has failed: %s"
-msgstr "プラグインファイル =\"%s\" をロード中"
+msgstr "repomd の読み込みに失敗しました: %s"
 
 #: libdnf/dnf-sack.cpp:799
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading primary has failed: %s"
-msgstr "プラグインファイル =\"%s\" をロード中"
+msgstr "プライマリーの読み込みに失敗しました: %s"
 
 #: libdnf/dnf-sack.cpp:865
 msgid "failed to auto-detect architecture"
@@ -771,7 +771,7 @@ msgstr "操作は結果的に以下の保護されたパッケージを削除し
 #: libdnf/hy-iutil.cpp:181
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
-msgstr ""
+msgstr "Libsolv の solv_toolversion の長さ: %zu ですが、最大の想定値: %zu です。"
 
 #: libdnf/hy-iutil.cpp:408
 #, c-format
