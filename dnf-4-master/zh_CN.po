@@ -2,13 +2,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2021.
 # Qiyu Yan <yanqiyu01@gmail.com>, 2021.
 # Sundeep Anand <suanand@redhat.com>, 2021, 2022.
+# Transtats <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-03 03:18+0000\n"
-"PO-Revision-Date: 2022-03-02 10:16+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2022-09-05 12:33+0000\n"
+"Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.14\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -318,7 +319,7 @@ msgstr "repo_add_solv() 已失败。"
 #: libdnf/dnf-sack.cpp:415
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "加载扩展缓存 %s (%d) 失败： "
 
 #: libdnf/dnf-sack.cpp:429
 #, c-format
@@ -343,23 +344,22 @@ msgstr "打开 tmp 文件失败: %s"
 #: libdnf/dnf-sack.cpp:550
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
-msgstr ""
+msgstr "写主缓存 %s 时 repowriter 写失败：%i 错误：%s"
 
 #: libdnf/dnf-sack.cpp:560
-#, fuzzy, c-format
-#| msgid "failed opening tmp file: %s"
+#, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr "打开 tmp 文件失败: %s"
+msgstr "关闭临时文件 %s 失败：%s"
 
 #: libdnf/dnf-sack.cpp:570
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "使用新写的主缓存失败：%s: "
 
 #: libdnf/dnf-sack.cpp:576
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "使用新写的主缓存失败：%s"
 
 #: libdnf/dnf-sack.cpp:626
 #, c-format
@@ -370,22 +370,22 @@ msgstr "不能创建临时文件 %s"
 #, c-format
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
-msgstr ""
+msgstr "编写扩展缓存 %s (%d) 时: repowriter 写失败： %i，错误： %s"
 
 #: libdnf/dnf-sack.cpp:676
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
-msgstr ""
+msgstr "编写扩展缓存 (%d) 时：无法关闭临时文件：%s"
 
 #: libdnf/dnf-sack.cpp:692
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
-msgstr ""
+msgstr "使用新写的扩展缓存失败：%s (%d): "
 
 #: libdnf/dnf-sack.cpp:699
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
-msgstr ""
+msgstr "使用新写的扩展缓存失败：%s (%d)"
 
 #: libdnf/dnf-sack.cpp:740
 msgid "null repo md file"
@@ -399,7 +399,7 @@ msgstr "不能读文件 %1$s: %2$s"
 #: libdnf/dnf-sack.cpp:764
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "加载软件仓库时使用 %s 失败： "
 
 #: libdnf/dnf-sack.cpp:775
 msgid "loading of MD_TYPE_PRIMARY has failed."
@@ -412,16 +412,14 @@ msgid "Opening repository primary data has failed: %s"
 msgstr "正在加载插件文件=\"%s\""
 
 #: libdnf/dnf-sack.cpp:795
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading repomd has failed: %s"
-msgstr "正在加载插件文件=\"%s\""
+msgstr "加载 repomd 失败：%s"
 
 #: libdnf/dnf-sack.cpp:806
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading primary has failed: %s"
-msgstr "正在加载插件文件=\"%s\""
+msgstr "加载主设备失败：%s"
 
 #: libdnf/dnf-sack.cpp:872
 msgid "failed to auto-detect architecture"
@@ -780,7 +778,7 @@ msgstr "这个操作将会导致删除以下受保护的软件包: "
 #: libdnf/hy-iutil.cpp:181
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
-msgstr ""
+msgstr "Libsolv 的 solv_toolversion 为： %zu，但我们预计最大为：%zu"
 
 #: libdnf/hy-iutil.cpp:408
 #, c-format
