@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-03 03:18+0000\n"
+"POT-Creation-Date: 2022-09-05 03:27+0000\n"
 "PO-Revision-Date: 2022-09-05 12:33+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -359,8 +359,9 @@ msgstr "tmp ファイルを開くことに失敗しました: %s"
 #: libdnf/dnf-sack.cpp:550
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
-msgstr "プライマリーキャッシュの %s repowriter 書き込み中に %i "
-"エラーが発生しました。エラー: %s"
+msgstr ""
+"プライマリーキャッシュの %s repowriter 書き込み中に %i エラーが発生しました。"
+"エラー: %s"
 
 #: libdnf/dnf-sack.cpp:560
 #, c-format
@@ -386,8 +387,9 @@ msgstr "一時ファイル %s を作成できません"
 #, c-format
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
-msgstr "拡張キャッシュ %s (%d) の書き込み中: repowriter の書き込みに失敗: %i、エラー:"
-" %s"
+msgstr ""
+"拡張キャッシュ %s (%d) の書き込み中: repowriter の書き込みに失敗: %i、エ"
+"ラー: %s"
 
 #: libdnf/dnf-sack.cpp:676
 #, c-format
@@ -809,7 +811,8 @@ msgstr "操作は結果的に以下の保護されたパッケージを削除し
 #: libdnf/hy-iutil.cpp:181
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
-msgstr "Libsolv の solv_toolversion の長さ: %zu ですが、最大の想定値: %zu です。"
+msgstr ""
+"Libsolv の solv_toolversion の長さ: %zu ですが、最大の想定値: %zu です。"
 
 #: libdnf/hy-iutil.cpp:408
 #, c-format
