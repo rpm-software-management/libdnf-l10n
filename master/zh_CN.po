@@ -2,13 +2,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Qiyu Yan <yanqiyu01@gmail.com>, 2021.
 # Sundeep Anand <suanand@redhat.com>, 2022.
+# Transtats <suanand@redhat.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2022-03-02 10:16+0000\n"
-"Last-Translator: Sundeep Anand <suanand@redhat.com>\n"
+"PO-Revision-Date: 2022-09-06 07:19+0000\n"
+"Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11\n"
+"X-Generator: Weblate 4.14\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -179,7 +180,7 @@ msgstr "无法添加删除元素 %1$s(%2$i)"
 #: libdnf/dnf-sack.cpp:417
 #, c-format
 msgid "no %1$s string for %2$s"
-msgstr "没有为 %2$s 的 %1$s 字符串"
+msgstr "没有 %2$s 的 %1$s 字符串"
 
 #: libdnf/dnf-sack.cpp:440
 msgid "failed to add solv"
@@ -221,7 +222,7 @@ msgstr "write_ext(%1$d) 已失败: %2$d"
 
 #: libdnf/dnf-sack.cpp:714
 msgid "null repo md file"
-msgstr "null repo md 文件"
+msgstr "null 存储库 md 文件"
 
 #: libdnf/dnf-sack.cpp:723
 #, c-format
@@ -293,7 +294,7 @@ msgstr "在尝试确保软件包 %s 时源没有设置"
 #: libdnf/dnf-transaction.cpp:326
 #, c-format
 msgid "Failed to ensure %1$s as repo %2$s not found(%3$i repos loaded)"
-msgstr "无法确保 %1$s，因为 repo %2$s 没有找到 (%3$i repos 已加载)"
+msgstr "无法确保 %1$s，因为存储库 %2$s 没有找到 (%3$i 存储库已加载)"
 
 #: libdnf/dnf-transaction.cpp:367
 msgid "Failed to check untrusted: "
@@ -307,7 +308,7 @@ msgstr "没有找到下载的文件 %s"
 #: libdnf/dnf-transaction.cpp:397
 #, c-format
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
-msgstr "软件包 %1$s 不能被验证，repo %2$s 启用了 GPG: %3$s"
+msgstr "软件包 %1$s 不能被验证，存储库 %2$s 启用了 GPG: %3$s"
 
 #: libdnf/dnf-transaction.cpp:831 libdnf/dnf-transaction.cpp:903
 msgid "Failed to get value for CacheDir"
@@ -433,7 +434,7 @@ msgstr "软件包 %s 被排除过滤过滤掉"
 #: libdnf/goal/Goal.cpp:82
 #, c-format
 msgid "nothing provides %s needed by %s"
-msgstr "没有东西可提供 %s（%s 需要）"
+msgstr "没有提供 %s 所需要的 %s"
 
 #: libdnf/goal/Goal.cpp:83
 #, c-format
@@ -448,17 +449,17 @@ msgstr "软件包 %s 与 %s（由 %s 提供）冲突"
 #: libdnf/goal/Goal.cpp:85
 #, c-format
 msgid "package %s obsoletes %s provided by %s"
-msgstr "软件包 %s 取代了 %s（由 %s 提供）"
+msgstr "软件包 %s 淘汰了 %s 提供的 %s"
 
 #: libdnf/goal/Goal.cpp:86
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
-msgstr "已安装的软件包 %s 取代了 %s（由 %s 提供）"
+msgstr "已安装的软件包 %s 淘汰了 %s 提供的 %s"
 
 #: libdnf/goal/Goal.cpp:87
 #, c-format
 msgid "package %s implicitly obsoletes %s provided by %s"
-msgstr "软件包 %s 隐式地取代了 %s（由 %s 提供）"
+msgstr "软件包 %s 隐式地淘汰了 %s 提供的 %s"
 
 #: libdnf/goal/Goal.cpp:88
 #, c-format
@@ -506,37 +507,37 @@ msgstr "模块 %s 不可安装"
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "nothing provides %s needed by module %s"
-msgstr "没有东西提供 %s（模块 %s 需要它）"
+msgstr "没有提供模块 %s 所需要的 %s"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
 msgid "cannot install both modules %s and %s"
-msgstr "无法同时安装模块 %s 和 %s"
+msgstr "不能同时安装模块 %s 和 %s"
 
 #: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid "module %s conflicts with %s provided by %s"
-msgstr "模块 %s 与 %s （由 %s 提供）冲突"
+msgstr "模块 %s 与 %s 提供的 %s 冲突"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
 msgid "module %s obsoletes %s provided by %s"
-msgstr "模块 %s 取代了 %s（由 %s 提供）"
+msgstr "模块 %s 淘汰了 %s 提供的 %s"
 
 #: libdnf/goal/Goal.cpp:113
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s"
-msgstr "已安装的模块 %s 取代了 %s（由 %s 提供）"
+msgstr "已安装的模块 %s 淘汰了 %s 提供的 %s"
 
 #: libdnf/goal/Goal.cpp:114
 #, c-format
 msgid "module %s implicitly obsoletes %s provided by %s"
-msgstr "模块 %s 隐式地取代了 %s（由 %s 提供）"
+msgstr "模块 %s 隐式地淘汰了 %s 提供的 %s"
 
 #: libdnf/goal/Goal.cpp:115
 #, c-format
 msgid "module %s requires %s, but none of the providers can be installed"
-msgstr "模块 %s 需要 %s，但没有提供者可以被安装"
+msgstr "模块 %s 需要 %s，但无法安装任何提供程序"
 
 #: libdnf/goal/Goal.cpp:116
 #, c-format
@@ -634,7 +635,7 @@ msgstr "无法为模块 '%s' 启用多个流"
 #: libdnf/module/ModulePackageContainer.cpp:294
 #, c-format
 msgid "Conflicting defaults with repo '%s': %s"
-msgstr "默认设置与 repo '%s' 冲突 : %s"
+msgstr "默认设置与存储库 '%s' 冲突 : %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1568
 #, c-format
@@ -659,7 +660,7 @@ msgstr "无法把模块 Fail Safe 数据保存到 '%s'"
 #: libdnf/module/ModulePackageContainer.cpp:1685
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
-msgstr "无法删除 '%s' 处的模块 Fail Safe 数据"
+msgstr "无法删除 '%s' 中的模块 Fail Safe 数据"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:43
 #, c-format
@@ -735,7 +736,7 @@ msgstr "仓库 '%s' 有不被支持的类型: 'type=%s', 忽略。"
 #: libdnf/repo/Repo.cpp:580
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
-msgstr "无法为仓库 %s 找到一个有效的 baseurl"
+msgstr "无法为存储库找到一个有效的 baseurl：%s"
 
 #: libdnf/repo/Repo.cpp:616 libdnf/repo/Repo.cpp:1705
 msgid ""
@@ -771,12 +772,12 @@ msgstr "为仓库 '%s' 获取 GPG 密钥失败 : %s"
 #: libdnf/repo/Repo.cpp:892
 #, c-format
 msgid "repo %s: 0x%s already imported"
-msgstr "repo %s: 0x%s 已被导入"
+msgstr "存储库 %s: 0x%s 已被导入"
 
 #: libdnf/repo/Repo.cpp:920
 #, c-format
 msgid "repo %s: imported key 0x%s."
-msgstr "repo %s: 已导入密钥 0x%s。"
+msgstr "存储库 %s: 已导入密钥 0x%s。"
 
 #: libdnf/repo/Repo.cpp:1164
 #, c-format
@@ -816,7 +817,7 @@ msgstr "无法创建仓库目标目录 \"%s\": %s"
 #: libdnf/repo/Repo.cpp:1263
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
-msgstr "无法创建 repo 临时目录 \"%s\": %s"
+msgstr "无法创建存储库临时目录 \"%s\": %s"
 
 #: libdnf/repo/Repo.cpp:1277
 #, c-format
@@ -831,17 +832,17 @@ msgstr "无法把目录 \"%s\" 重命名为 \"%s\": %s"
 #: libdnf/repo/Repo.cpp:1323
 #, c-format
 msgid "repo: using cache for: %s"
-msgstr "仓库： 正在为 %s 使用缓存"
+msgstr "存储库：使用缓存用于：%s"
 
 #: libdnf/repo/Repo.cpp:1335
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
-msgstr "仅使用缓存已开启但没有 '%s' 的缓存"
+msgstr "仅启用缓存，但没有 '%s' 的缓存"
 
 #: libdnf/repo/Repo.cpp:1339
 #, c-format
 msgid "repo: downloading from remote: %s"
-msgstr "repo: 从远程下载: %s"
+msgstr "存储库: 从远程下载: %s"
 
 #: libdnf/repo/Repo.cpp:1345
 #, c-format
@@ -900,7 +901,7 @@ msgstr "试图在已完成的事务中更新事务"
 
 #: libdnf/transaction/Transformer.cpp:659
 msgid "Transformer: can't open history persist dir"
-msgstr "Transformer: 无法打开 history persist dir"
+msgstr "转换程序: 无法打开历史持久目录"
 
 #: libdnf/transaction/Transformer.cpp:672
 msgid "Couldn't find a history database"
