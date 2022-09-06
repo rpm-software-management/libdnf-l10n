@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Göran Uddeborg <goeran@uddeborg.se>, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2021, 2022.
 # Luna Jernberg <bittin@reimu.nl>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 14:26+0200\n"
-"PO-Revision-Date: 2021-08-19 06:05+0000\n"
+"PO-Revision-Date: 2022-09-07 14:19+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-8/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.14\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -58,7 +58,7 @@ msgstr "procentsatsen ”%s” är utanför intervallet"
 
 #: libdnf/conf/ConfigRepo.cpp:182
 msgid "only the value 'priority' is supported."
-msgstr ""
+msgstr "endast värdet ”priority” stödjs."
 
 #: libdnf/conf/OptionBinds.cpp:85
 #, c-format
@@ -314,7 +314,7 @@ msgstr "repo_add_solv() har misslyckats."
 #: libdnf/dnf-sack.cpp:416
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "Laddar tilläggscache %s (%d) misslyckades: "
 
 #: libdnf/dnf-sack.cpp:430
 #, c-format
@@ -340,22 +340,23 @@ msgstr "misslyckades att öppna temporärfil: %s"
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
+"När den primära cachen %s skrevs misslyckades en repowriter-skrivning: %i, "
+"fel: %s"
 
 #: libdnf/dnf-sack.cpp:561
-#, fuzzy, c-format
-#| msgid "failed opening tmp file: %s"
+#, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr "misslyckades att öppna temporärfil: %s"
+msgstr "Misslyckades att stänga temporärfil %s: %s"
 
 #: libdnf/dnf-sack.cpp:571
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "Misslyckades att använda en nyss skriven primärcache: %s: "
 
 #: libdnf/dnf-sack.cpp:577
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "Misslyckades att använda en nyss skriven primärcache: %s"
 
 #: libdnf/dnf-sack.cpp:627
 #, c-format
@@ -367,21 +368,23 @@ msgstr "kan inte skapa den temporära filen %s"
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
+"När utökningscachen %s (%d) skrevs: en repowriter-skrivning misslyckades: "
+"%i, fel: %s"
 
 #: libdnf/dnf-sack.cpp:677
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
-msgstr ""
+msgstr "När utökningscachen (%d) skrevs: kan inte stänga temporärfilen: %s"
 
 #: libdnf/dnf-sack.cpp:693
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
-msgstr ""
+msgstr "Misslyckades med att använda nyskriven tilläggscache: %s (%d): "
 
 #: libdnf/dnf-sack.cpp:700
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
-msgstr ""
+msgstr "Misslyckades med att använda nyskriven tilläggscache: %s (%d)"
 
 #: libdnf/dnf-sack.cpp:741
 msgid "null repo md file"
@@ -395,23 +398,21 @@ msgstr "kan inte läsa filen %1$s: %2$s"
 #: libdnf/dnf-sack.cpp:765
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "När förrådet lästes in misslyckades att använda %s: "
 
 #: libdnf/dnf-sack.cpp:776
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "Kunde inte ladda MD_TYPE_PRIMARY."
 
 #: libdnf/dnf-sack.cpp:788
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading repomd has failed: %s"
-msgstr "Läser in insticksmodulsfilen=”%s”"
+msgstr "Att läsa in repomd misslyckades: %s"
 
 #: libdnf/dnf-sack.cpp:799
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading primary has failed: %s"
-msgstr "Läser in insticksmodulsfilen=”%s”"
+msgstr "Att läsa in den primära misslyckades: %s"
 
 #: libdnf/dnf-sack.cpp:865
 msgid "failed to auto-detect architecture"
@@ -767,7 +768,7 @@ msgstr "Åtgärden skulle resultera i att ta bort följande skyddade paket: "
 #: libdnf/hy-iutil.cpp:181
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
-msgstr ""
+msgstr "Libsolvs solv_toolversion är: %zu lång men vi förväntar oss max: %zu"
 
 #: libdnf/hy-iutil.cpp:408
 #, c-format
