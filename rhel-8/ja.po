@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 14:26+0200\n"
-"PO-Revision-Date: 2022-09-05 12:33+0000\n"
+"PO-Revision-Date: 2022-09-06 07:19+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-8/ja/>\n"
@@ -26,7 +26,7 @@ msgstr "値が指定されていません"
 #: libdnf/conf/ConfigMain.cpp:67 libdnf/conf/OptionSeconds.cpp:48
 #, c-format
 msgid "seconds value '%s' must not be negative"
-msgstr "2個目の値 '%s' は負の数にしないでください"
+msgstr "2 個目の値 '%s' は負の数にしないでください"
 
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
@@ -58,7 +58,7 @@ msgstr "パーセンテージ '%s' が範囲外にあります"
 
 #: libdnf/conf/ConfigRepo.cpp:182
 msgid "only the value 'priority' is supported."
-msgstr ""
+msgstr "「priority」の値のみがサポートされます。"
 
 #: libdnf/conf/OptionBinds.cpp:85
 #, c-format
@@ -311,7 +311,7 @@ msgstr "repo_add_solv() は失敗しました。"
 #: libdnf/dnf-sack.cpp:416
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr "拡張キャッシュの %s (%d) の読み込みに失敗しました。 "
+msgstr "拡張キャッシュの %s (%d) の読み込みに失敗しました: "
 
 #: libdnf/dnf-sack.cpp:430
 #, c-format
@@ -771,7 +771,7 @@ msgstr "操作は結果的に以下の保護されたパッケージを削除し
 #: libdnf/hy-iutil.cpp:181
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
-msgstr "Libsolv の solv_toolversion の長さ: %zu ですが、最大の想定値: %zu です。"
+msgstr "Libsolv の solv_toolversion の長さ: %zu ですが、最大の想定値: %zu です"
 
 #: libdnf/hy-iutil.cpp:408
 #, c-format
