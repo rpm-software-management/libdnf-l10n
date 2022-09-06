@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-05 03:27+0000\n"
-"PO-Revision-Date: 2022-09-05 12:33+0000\n"
+"PO-Revision-Date: 2022-09-06 07:19+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/zh_CN/>\n"
@@ -164,7 +164,7 @@ msgstr "没有可用的模块数据"
 #: libdnf/dnf-context.cpp:3384
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
-msgstr "忽略参数：\"%s\" 中不需要的信息"
+msgstr "忽略参数中不需要的信息：'%s'"
 
 #: libdnf/dnf-context.cpp:3422
 #, c-format
@@ -324,7 +324,7 @@ msgstr "加载扩展缓存 %s (%d) 失败： "
 #: libdnf/dnf-sack.cpp:429
 #, c-format
 msgid "no %1$s string for %2$s"
-msgstr "没有为 %2$s 的 %1$s 字符串"
+msgstr "没有 %2$s 的 %1$s 字符串"
 
 #: libdnf/dnf-sack.cpp:439
 #, c-format
@@ -389,7 +389,7 @@ msgstr "使用新写的扩展缓存失败：%s (%d)"
 
 #: libdnf/dnf-sack.cpp:740
 msgid "null repo md file"
-msgstr "null repo md 文件"
+msgstr "null 存储库 md 文件"
 
 #: libdnf/dnf-sack.cpp:749
 #, c-format
@@ -471,7 +471,7 @@ msgstr "在尝试确保软件包 %s 时源没有设置"
 #: libdnf/dnf-transaction.cpp:328
 #, c-format
 msgid "Failed to ensure %1$s as repo %2$s not found(%3$i repos loaded)"
-msgstr "无法确保 %1$s，因为 repo %2$s 没有找到 (%3$i repos 已加载)"
+msgstr "无法确保 %1$s，因为存储库 %2$s 没有找到 (%3$i 存储库已加载)"
 
 #: libdnf/dnf-transaction.cpp:369
 msgid "Failed to check untrusted: "
@@ -485,7 +485,7 @@ msgstr "没有找到下载的文件 %s"
 #: libdnf/dnf-transaction.cpp:399
 #, c-format
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
-msgstr "软件包 %1$s 不能被验证，repo %2$s 启用了 GPG: %3$s"
+msgstr "软件包 %1$s 不能被验证，存储库 %2$s 启用了 GPG: %3$s"
 
 #: libdnf/dnf-transaction.cpp:833 libdnf/dnf-transaction.cpp:905
 msgid "Failed to get value for CacheDir"
@@ -620,7 +620,7 @@ msgstr "软件包 %s 被排除过滤过滤掉"
 #: libdnf/goal/Goal.cpp:105
 #, c-format
 msgid "nothing provides %s needed by %s"
-msgstr "没有东西可提供 %s（%s 需要）"
+msgstr "没有提供 %s 所需要的 %s"
 
 #: libdnf/goal/Goal.cpp:106
 #, c-format
@@ -635,17 +635,17 @@ msgstr "软件包 %s 与 %s（由 %s 提供）冲突"
 #: libdnf/goal/Goal.cpp:108
 #, c-format
 msgid "package %s obsoletes %s provided by %s"
-msgstr "软件包 %s 取代了 %s（由 %s 提供）"
+msgstr "软件包 %s 淘汰了 %s 提供的 %s"
 
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
-msgstr "已安装的软件包 %s 取代了 %s（由 %s 提供）"
+msgstr "已安装的软件包 %s 淘汰了 %s 提供的 %s"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
 msgid "package %s implicitly obsoletes %s provided by %s"
-msgstr "软件包 %s 隐式地取代了 %s（由 %s 提供）"
+msgstr "软件包 %s 隐式地淘汰了 %s 提供的 %s"
 
 #: libdnf/goal/Goal.cpp:111
 #, c-format
@@ -693,37 +693,37 @@ msgstr "模块 %s 不可安装"
 #: libdnf/goal/Goal.cpp:132
 #, c-format
 msgid "nothing provides %s needed by module %s"
-msgstr "没有东西提供 %s（模块 %s 需要它）"
+msgstr "没有提供模块 %s 所需要的 %s"
 
 #: libdnf/goal/Goal.cpp:133
 #, c-format
 msgid "cannot install both modules %s and %s"
-msgstr "无法同时安装模块 %s 和 %s"
+msgstr "不能同时安装模块 %s 和 %s"
 
 #: libdnf/goal/Goal.cpp:134
 #, c-format
 msgid "module %s conflicts with %s provided by %s"
-msgstr "模块 %s 与 %s （由 %s 提供）冲突"
+msgstr "模块 %s 与 %s 提供的 %s 冲突"
 
 #: libdnf/goal/Goal.cpp:135
 #, c-format
 msgid "module %s obsoletes %s provided by %s"
-msgstr "模块 %s 取代了 %s（由 %s 提供）"
+msgstr "模块 %s 淘汰了 %s 提供的 %s"
 
 #: libdnf/goal/Goal.cpp:136
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s"
-msgstr "已安装的模块 %s 取代了 %s（由 %s 提供）"
+msgstr "已安装的模块 %s 淘汰了 %s 提供的 %s"
 
 #: libdnf/goal/Goal.cpp:137
 #, c-format
 msgid "module %s implicitly obsoletes %s provided by %s"
-msgstr "模块 %s 隐式地取代了 %s（由 %s 提供）"
+msgstr "模块 %s 隐式地淘汰了 %s 提供的 %s"
 
 #: libdnf/goal/Goal.cpp:138
 #, c-format
 msgid "module %s requires %s, but none of the providers can be installed"
-msgstr "模块 %s 需要 %s，但没有提供者可以被安装"
+msgstr "模块 %s 需要 %s，但无法安装任何提供程序"
 
 #: libdnf/goal/Goal.cpp:139
 #, c-format
@@ -835,7 +835,7 @@ msgstr "无法为模块 '%s' 启用多个流"
 #: libdnf/module/ModulePackageContainer.cpp:346
 #, c-format
 msgid "Conflicting defaults with repo '%s': %s"
-msgstr "默认设置与 repo '%s' 冲突 : %s"
+msgstr "默认设置与存储库 '%s' 冲突 : %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:917
 msgid "Installing module profiles:\n"
@@ -884,7 +884,7 @@ msgstr "无法把模块 Fail Safe 数据保存到 '%s'"
 #: libdnf/module/ModulePackageContainer.cpp:1830
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
-msgstr "无法删除 '%s' 处的模块 Fail Safe 数据"
+msgstr "无法删除 '%s' 中的模块 Fail Safe 数据"
 
 #: libdnf/module/ModulePackageContainer.cpp:1862
 #, c-format
@@ -981,7 +981,7 @@ msgstr "仓库 '%s' 有不被支持的类型: 'type=%s', 忽略。"
 #: libdnf/repo/Repo.cpp:1407
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
-msgstr "Repo '%s': 'basecachedir' 没有设置"
+msgstr "存储库 '%s': 'basecachedir' 没有设置"
 
 #: libdnf/repo/Repo.cpp:514
 msgid ""
@@ -992,7 +992,7 @@ msgstr "最大下载速度低于最小值。请修改 minrate 或 throttle 的�
 #: libdnf/repo/Repo.cpp:548
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
-msgstr "Repo '%s': 'proxy_username' 已被设置，但没有设置 'proxy_password'"
+msgstr "存储库 '%s': 'proxy_username' 已被设置，但没有设置 'proxy_password'"
 
 #: libdnf/repo/Repo.cpp:550
 msgid "'proxy_username' is set but not 'proxy_password'"
@@ -1001,7 +1001,7 @@ msgstr "'proxy_username' 已被设置，但没有设置 'proxy_password'"
 #: libdnf/repo/Repo.cpp:631
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
-msgstr "无法为仓库 %s 找到一个有效的 baseurl"
+msgstr "无法为存储库找到一个有效的 baseurl：%s"
 
 #: libdnf/repo/Repo.cpp:662 libdnf/repo/Repo.cpp:684
 #, c-format
@@ -1017,7 +1017,7 @@ msgstr "%s: gpgme_op_import(): %s"
 #: libdnf/repo/Repo.cpp:1286
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
-msgstr "无法创建 repo 临时目录 \"%s\": %s"
+msgstr "无法创建存储库临时目录 \"%s\": %s"
 
 #: libdnf/repo/Repo.cpp:719 libdnf/repo/Repo.cpp:785 libdnf/repo/Repo.cpp:919
 #, c-format
@@ -1037,7 +1037,7 @@ msgstr "为仓库 '%s' 获取 GPG 密钥失败 : %s"
 #: libdnf/repo/Repo.cpp:892
 #, c-format
 msgid "repo %s: 0x%s already imported"
-msgstr "repo %s: 0x%s 已被导入"
+msgstr "存储库 %s: 0x%s 已被导入"
 
 #: libdnf/repo/Repo.cpp:906 libdnf/utils/filesystem.cpp:79
 #, c-format
@@ -1047,7 +1047,7 @@ msgstr "无法创建目录 \"%s\": %d - %s"
 #: libdnf/repo/Repo.cpp:926
 #, c-format
 msgid "repo %s: imported key 0x%s."
-msgstr "repo %s: 已导入密钥 0x%s。"
+msgstr "存储库 %s: 已导入密钥 0x%s。"
 
 #: libdnf/repo/Repo.cpp:1183
 #, c-format
@@ -1097,17 +1097,17 @@ msgstr "无法把目录 \"%s\" 重命名为 \"%s\": %s"
 #: libdnf/repo/Repo.cpp:1346
 #, c-format
 msgid "repo: using cache for: %s"
-msgstr "仓库： 正在为 %s 使用缓存"
+msgstr "存储库：使用缓存用于：%s"
 
 #: libdnf/repo/Repo.cpp:1358
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
-msgstr "仅使用缓存已开启但没有 '%s' 的缓存"
+msgstr "仅启用缓存，但没有 '%s' 的缓存"
 
 #: libdnf/repo/Repo.cpp:1362
 #, c-format
 msgid "repo: downloading from remote: %s"
-msgstr "repo: 从远程下载: %s"
+msgstr "存储库: 从远程下载: %s"
 
 #: libdnf/repo/Repo.cpp:1369
 #, c-format
@@ -1170,7 +1170,7 @@ msgstr "数据库损坏：表 'config' 中没有 'version' 行"
 
 #: libdnf/transaction/Transformer.cpp:681
 msgid "Transformer: can't open history persist dir"
-msgstr "Transformer: 无法打开 history persist dir"
+msgstr "转换程序: 无法打开历史持久目录"
 
 #: libdnf/transaction/Transformer.cpp:694
 msgid "Couldn't find a history database"
