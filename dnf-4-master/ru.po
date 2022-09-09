@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-07 03:31+0000\n"
-"PO-Revision-Date: 2022-09-03 12:19+0000\n"
+"PO-Revision-Date: 2022-09-09 15:31+0000\n"
 "Last-Translator: V I <xasertop@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ru/>\n"
@@ -387,11 +387,13 @@ msgstr "не удается создать временный файл %s"
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
+"При записи кеша расширений %s (%d): сбой программы записи отчётов: %i, "
+"ошибка: %s"
 
 #: libdnf/dnf-sack.cpp:676
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
-msgstr ""
+msgstr "При записи кеша расширений (%d): невозможно закрыть временный файл: %s"
 
 #: libdnf/dnf-sack.cpp:692
 #, c-format
