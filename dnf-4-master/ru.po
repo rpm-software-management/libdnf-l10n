@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-09 03:20+0000\n"
-"PO-Revision-Date: 2022-09-09 15:31+0000\n"
+"PO-Revision-Date: 2022-09-10 16:19+0000\n"
 "Last-Translator: V I <xasertop@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ru/>\n"
@@ -43,7 +43,7 @@ msgstr "неизвестная единица «%s»"
 #: libdnf/conf/ConfigMain.cpp:204 libdnf/conf/OptionEnum.cpp:83
 #: libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
-msgstr "Неверное значение"
+msgstr "неверное значение"
 
 #: libdnf/conf/ConfigMain.cpp:207
 msgid "value 1 is not allowed"
@@ -102,7 +102,7 @@ msgstr "данный путь «%s» не существует."
 #: libdnf/conf/OptionSeconds.cpp:52
 #, c-format
 msgid "could not convert '%s' to seconds"
-msgstr "не удалось преобразовать '%s'секунд"
+msgstr "не удалось преобразовать «%s» в секунды"
 
 #: libdnf/conf/OptionString.cpp:79
 msgid "GetValue(): Value not set"
@@ -239,12 +239,12 @@ msgid ""
 msgstr ""
 "Невозможно переключить включённые потоки модуля.\n"
 "Рекомендуется удалить из модуля всё установленное и обновить модуль с "
-"помощью команды «{microdnf module reset <имя_модуля>». После обновления "
+"помощью команды «microdnf module reset <имя_модуля>». После обновления "
 "модуля можно установить другой поток."
 
 #: libdnf/dnf-goal.cpp:107
 msgid "Could not depsolve transaction; "
-msgstr "Не удалось разрешить зависимости операции; "
+msgstr "Не удалось отменить транзакцию; "
 
 #: libdnf/dnf-goal.cpp:109
 #, c-format
@@ -398,7 +398,7 @@ msgstr "При записи кеша расширений (%d): невозмож
 #: libdnf/dnf-sack.cpp:692
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
-msgstr "Не удалось использовать вновь записанный кеш расширений: %s (%d) "
+msgstr "Не удалось использовать вновь записанный кеш расширений: %s (%d): "
 
 #: libdnf/dnf-sack.cpp:699
 #, c-format
@@ -445,7 +445,7 @@ msgstr "не удалось автоматически определить ар
 #: libdnf/dnf-sack.cpp:1037
 #, c-format
 msgid "failed creating cachedir %s"
-msgstr "не удалось создать кешир %s"
+msgstr "не удалось создать cachedir %s"
 
 #: libdnf/dnf-sack.cpp:1814
 msgid "failed loading RPMDB"
