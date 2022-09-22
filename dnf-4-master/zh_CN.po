@@ -3,13 +3,14 @@
 # Qiyu Yan <yanqiyu01@gmail.com>, 2021.
 # Sundeep Anand <suanand@redhat.com>, 2021, 2022.
 # Transtats <suanand@redhat.com>, 2022.
+# Yang Yulin <yylteam@icloud.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-19 03:35+0000\n"
-"PO-Revision-Date: 2022-09-06 07:19+0000\n"
-"Last-Translator: Transtats <suanand@redhat.com>\n"
+"PO-Revision-Date: 2022-09-23 09:19+0000\n"
+"Last-Translator: Yang Yulin <yylteam@icloud.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -406,10 +407,9 @@ msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "加载 MD_TYPE_PRIMARY 失败。"
 
 #: libdnf/dnf-sack.cpp:784
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Opening repository primary data has failed: %s"
-msgstr "正在加载插件文件=\"%s\""
+msgstr "打开软件仓库主数据失败：%s"
 
 #: libdnf/dnf-sack.cpp:795
 #, c-format
