@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # V I <xasertop@gmail.com>, 2022.
 # Alexey Rubtsov <rushills@gmail.com>, 2022.
+# Vi <xasertop@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 14:53+0200\n"
 "PO-Revision-Date: 2022-09-28 10:34+0000\n"
-"Last-Translator: Alexey Rubtsov <rushills@gmail.com>\n"
+"Last-Translator: Vi <xasertop@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-9/ru/>\n"
 "Language: ru\n"
@@ -76,27 +77,27 @@ msgstr "недопустимое логическое значение «%s»"
 #: libdnf/conf/OptionString.cpp:64 libdnf/conf/OptionStringList.cpp:59
 #, c-format
 msgid "'%s' is not an allowed value"
-msgstr ""
+msgstr "«%s» не является допустимым значением"
 
 #: libdnf/conf/OptionNumber.cpp:73
 #, c-format
 msgid "given value [%d] should be less than allowed value [%d]."
-msgstr ""
+msgstr "данное значение [%d] должно быть меньше допустимого значения [%d]."
 
 #: libdnf/conf/OptionNumber.cpp:76
 #, c-format
 msgid "given value [%d] should be greater than allowed value [%d]."
-msgstr ""
+msgstr "данное значение [%d] должно быть больше допустимого значения [%d]."
 
 #: libdnf/conf/OptionPath.cpp:78
 #, c-format
 msgid "given path '%s' is not absolute."
-msgstr ""
+msgstr "данный путь «%s» не является абсолютным."
 
 #: libdnf/conf/OptionPath.cpp:82
 #, c-format
 msgid "given path '%s' does not exist."
-msgstr ""
+msgstr "данный путь «%s» не существует."
 
 #: libdnf/conf/OptionSeconds.cpp:52
 #, c-format
@@ -105,7 +106,7 @@ msgstr "не удалось преобразовать «%s» в секунды"
 
 #: libdnf/conf/OptionString.cpp:79
 msgid "GetValue(): Value not set"
-msgstr ""
+msgstr "GetValue (): значение не установлено"
 
 #: libdnf/dnf-context.cpp:3179 libdnf/dnf-context.cpp:3188
 #, c-format
@@ -141,7 +142,7 @@ msgstr "Проблема с зависимостями модулей: %s"
 #: libdnf/dnf-context.cpp:3465 libdnf/dnf-context.cpp:3475
 #, c-format
 msgid "Unable to resolve argument '%s'"
-msgstr ""
+msgstr "Не удалось разрешить аргумент «%s»"
 
 #: libdnf/dnf-context.cpp:3301
 #, c-format
@@ -154,17 +155,17 @@ msgstr ""
 #: libdnf/dnf-context.cpp:3315
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
-msgstr ""
+msgstr "Не удалось сбросить модуль «%s»: состояние модуля уже изменено"
 
 #: libdnf/dnf-context.cpp:3326
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
-msgstr ""
+msgstr "Не удалось отключить модуль «%s»: состояние модуля уже изменено"
 
 #: libdnf/dnf-context.cpp:3357 libdnf/dnf-context.cpp:3453
 #: libdnf/dnf-context.cpp:3634
 msgid "No modular data available"
-msgstr ""
+msgstr "Нет модульных данных"
 
 #: libdnf/dnf-context.cpp:3374
 #, c-format
@@ -224,7 +225,7 @@ msgstr "Возникли проблемы при запросе отключен
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
-msgstr ""
+msgstr "Операция приведёт к переключению модуля «%s» потока «%s» на поток «%s»"
 
 #: libdnf/dnf-context.cpp:3760
 msgid ""
@@ -246,18 +247,19 @@ msgstr "Не удалось отменить транзакцию; "
 #, c-format
 msgid "%i problem detected:\n"
 msgid_plural "%i problems detected:\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%i проблема обнаружена:\n"
+msgstr[1] "%i проблемы обнаружено:\n"
+msgstr[2] "%i проблем обнаружено:\n"
 
 #: libdnf/dnf-goal.cpp:117
 #, c-format
 msgid " Problem %1$i: %2$s\n"
-msgstr ""
+msgstr " Проблема %1$i: %2$s\n"
 
 #: libdnf/dnf-goal.cpp:119
 #, c-format
 msgid " Problem: %s\n"
-msgstr ""
+msgstr " Проблема: %s\n"
 
 #: libdnf/dnf-rpmts.cpp:79
 #, c-format
@@ -987,6 +989,8 @@ msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
 msgstr ""
+"Максимальная скорость загрузки ниже минимальной. Измените конфигурацию "
+"minrate или throttle"
 
 #: libdnf/repo/Repo.cpp:546
 #, c-format
@@ -1005,12 +1009,12 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:660 libdnf/repo/Repo.cpp:682
 #, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
-msgstr ""
+msgstr "%s: gpgme_data_new_from_fd(): %s"
 
 #: libdnf/repo/Repo.cpp:668 libdnf/repo/Repo.cpp:690
 #, c-format
 msgid "%s: gpgme_op_import(): %s"
-msgstr ""
+msgstr "%s: gpgme_op_import(): %s"
 
 #: libdnf/repo/Repo.cpp:709 libdnf/repo/Repo.cpp:1162 libdnf/repo/Repo.cpp:1236
 #: libdnf/repo/Repo.cpp:1279
@@ -1031,7 +1035,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:837
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
-msgstr ""
+msgstr "Не удалось получить ключ GPG для репозитория «%s»: %s"
 
 #: libdnf/repo/Repo.cpp:890
 #, c-format
@@ -1091,7 +1095,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:1316
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
-msgstr ""
+msgstr "Невозможно переименовать каталог «%s» в «%s»: %s"
 
 #: libdnf/repo/Repo.cpp:1339
 #, c-format
@@ -1134,7 +1138,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:1916
 #, c-format
 msgid "Cannot open %s: %s"
-msgstr ""
+msgstr "Невозможно открыть %s: %s"
 
 #: libdnf/repo/Repo.cpp:1960
 #, c-format
@@ -1157,11 +1161,11 @@ msgstr ""
 
 #: libdnf/transaction/TransactionItem.cpp:146
 msgid "Attempt to insert transaction item into completed transaction"
-msgstr ""
+msgstr "Попытка вставить элемент транзакции в завершенную транзакцию"
 
 #: libdnf/transaction/TransactionItem.cpp:217
 msgid "Attempt to update transaction item in completed transaction"
-msgstr ""
+msgstr "Попытка обновить элемент транзакции в завершенной транзакции"
 
 #: libdnf/transaction/Transformer.cpp:76
 msgid "Database Corrupted: no row 'version' in table 'config'"
@@ -1177,13 +1181,13 @@ msgstr ""
 
 #: libdnf/transaction/private/Transaction.cpp:41
 msgid "Transaction has already began!"
-msgstr ""
+msgstr "Транзакция уже началась!"
 
 #: libdnf/transaction/private/Transaction.cpp:58
 #, c-format
 msgid "TransactionItem state is not set: %s"
-msgstr ""
+msgstr "Состояние TransactionItem не установлено: %s"
 
 #: libdnf/transaction/private/Transaction.cpp:243
 msgid "Can't add console output to unsaved transaction"
-msgstr ""
+msgstr "Не удается добавить вывод консоли в несохраненную транзакцию"
