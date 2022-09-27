@@ -4,13 +4,14 @@
 # Vladyslav Spirin <vladspirin@hotmail.com>, 2020.
 # Alexey Rubtsov <rushills@gmail.com>, 2021.
 # V I <xasertop@gmail.com>, 2022.
+# Vi <xasertop@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2022-09-10 16:19+0000\n"
-"Last-Translator: V I <xasertop@gmail.com>\n"
+"PO-Revision-Date: 2022-09-28 10:34+0000\n"
+"Last-Translator: Vi <xasertop@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/ru/>\n"
 "Language: ru\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -107,9 +108,9 @@ msgstr "Не удалось отменить транзакцию; "
 #, c-format
 msgid "%i problem detected:\n"
 msgid_plural "%i problems detected:\n"
-msgstr[0] "Выявлена %i проблема:\n"
-msgstr[1] "Выявлено %i проблем:\n"
-msgstr[2] "Выявлено%i проблем:\n"
+msgstr[0] "%i проблема обнаружена:\n"
+msgstr[1] "%i проблемы обнаружено:\n"
+msgstr[2] "%i проблем обнаружено:\n"
 
 #: libdnf/dnf-goal.cpp:78
 #, c-format
@@ -761,8 +762,8 @@ msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
 msgstr ""
-"Максимальная скорость загрузки ниже минимальной. Измените настройку minrate "
-"или throttle"
+"Максимальная скорость загрузки ниже минимальной. Измените конфигурацию "
+"minrate или throttle"
 
 #: libdnf/repo/Repo.cpp:666 libdnf/repo/Repo.cpp:688
 #, c-format
@@ -853,7 +854,7 @@ msgstr "Невозможно создать каталог \"%s«: %s"
 #: libdnf/repo/Repo.cpp:1300
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
-msgstr "Невозможно переименовать каталог \"%s\"to\"%s«: %s"
+msgstr "Невозможно переименовать каталог «%s» в «%s»: %s"
 
 #: libdnf/repo/Repo.cpp:1323
 #, c-format
@@ -897,7 +898,7 @@ msgstr "Не удалось инициализировать PackageTarget: %s"
 #: libdnf/repo/Repo.cpp:1924
 #, c-format
 msgid "Cannot open %s: %s"
-msgstr "Не могу открыть %s: %s"
+msgstr "Невозможно открыть %s: %s"
 
 #: libdnf/repo/Repo.cpp:1968
 #, c-format
@@ -920,11 +921,11 @@ msgstr "Никаких транзакций"
 
 #: libdnf/transaction/TransactionItem.cpp:147
 msgid "Attempt to insert transaction item into completed transaction"
-msgstr "Попытка вставить транзакцию в завершенную транзакцию"
+msgstr "Попытка вставить элемент транзакции в завершенную транзакцию"
 
 #: libdnf/transaction/TransactionItem.cpp:218
 msgid "Attempt to update transaction item in completed transaction"
-msgstr "Попытка обновить позицию транзакции в завершенной транзакции"
+msgstr "Попытка обновить элемент транзакции в завершенной транзакции"
 
 #: libdnf/transaction/Transformer.cpp:659
 msgid "Transformer: can't open history persist dir"
@@ -936,7 +937,7 @@ msgstr "Не удалось найти базу данных истории"
 
 #: libdnf/transaction/private/Transaction.cpp:41
 msgid "Transaction has already began!"
-msgstr "Сделка уже началась!"
+msgstr "Транзакция уже началась!"
 
 #: libdnf/transaction/private/Transaction.cpp:58
 #, c-format
@@ -945,4 +946,4 @@ msgstr "Состояние TransactionItem не установлено: %s"
 
 #: libdnf/transaction/private/Transaction.cpp:239
 msgid "Can't add console output to unsaved transaction"
-msgstr "Невозможно добавить вывод консоли в несохраненную транзакцию"
+msgstr "Не удается добавить вывод консоли в несохраненную транзакцию"
