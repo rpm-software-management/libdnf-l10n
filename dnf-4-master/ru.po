@@ -2,15 +2,15 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Petr Molodyk <pamolodyk@gmail.com>, 2020.
 # Vladyslav Spirin <vladspirin@hotmail.com>, 2020.
-# Alexey Rubtsov <rushills@gmail.com>, 2021.
+# Alexey Rubtsov <rushills@gmail.com>, 2021, 2022.
 # V I <xasertop@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-23 03:32+0000\n"
-"PO-Revision-Date: 2022-09-10 16:19+0000\n"
-"Last-Translator: V I <xasertop@gmail.com>\n"
+"PO-Revision-Date: 2022-09-28 10:34+0000\n"
+"Last-Translator: Alexey Rubtsov <rushills@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ru/>\n"
 "Language: ru\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -111,25 +111,25 @@ msgstr "GetValue (): значение не установлено"
 #: libdnf/dnf-context.cpp:3189 libdnf/dnf-context.cpp:3198
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
-msgstr "Не удалось одновременно активировать больше потоков из модуля «%s»"
+msgstr "Невозможно одновременно открыть дополнительные потоки из модуля «%s»"
 
 #: libdnf/dnf-context.cpp:3207 libdnf/dnf-context.cpp:3225
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr ""
-"Не удалось активировать модуль «%1$s», поток «%2$s»: состояние модуля уже "
-"изменено"
+"Невозможно открыть поток «%2$s» модуля «%1$s»: модуль уже в изменённом "
+"состоянии"
 
 #: libdnf/dnf-context.cpp:3274
-#, c-format
+#, c-format, fuzzy
 msgid "Modular dependency problem with Defaults: %s"
-msgstr "Проблема с зависимостями модулей у Defaults: %s"
+msgstr "Проблема с зависимостями в умолчаниях: %s"
 
 #: libdnf/dnf-context.cpp:3277
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr "Проблема с зависимостями у последних модулей: %s"
+msgstr "Проблема с зависимостями в последних модулях: %s"
 
 #: libdnf/dnf-context.cpp:3281
 #, c-format
@@ -171,7 +171,7 @@ msgstr "Нет данных модуля"
 #: libdnf/dnf-context.cpp:3384
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
-msgstr "Игнорируется ненужная информация в аргументе: «%s»"
+msgstr "Игнорирую ненужную информацию в аргументе: «%s»"
 
 #: libdnf/dnf-context.cpp:3422
 #, c-format
