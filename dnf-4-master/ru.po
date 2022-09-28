@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-23 03:32+0000\n"
+"POT-Creation-Date: 2022-09-28 03:24+0000\n"
 "PO-Revision-Date: 2022-09-28 10:34+0000\n"
 "Last-Translator: Alexey Rubtsov <rushills@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
@@ -123,7 +123,7 @@ msgstr ""
 "состоянии"
 
 #: libdnf/dnf-context.cpp:3274
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "Проблема с зависимостями в умолчаниях: %s"
 
@@ -255,7 +255,7 @@ msgstr[1] "%i проблемы обнаружено:\n"
 msgstr[2] "%i проблем обнаружено:\n"
 
 #: libdnf/dnf-goal.cpp:117
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid " Problem %1$i: %2$s\n"
 msgstr " Проблема %1$i: %2$s\n"
 
