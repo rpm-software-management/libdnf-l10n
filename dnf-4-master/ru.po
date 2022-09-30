@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-28 03:24+0000\n"
+"POT-Creation-Date: 2022-09-30 03:46+0000\n"
 "PO-Revision-Date: 2022-09-30 13:19+0000\n"
 "Last-Translator: Vi <xasertop@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
@@ -839,7 +839,8 @@ msgstr "Имеющиеся пакеты предоставляют нескол�
 
 #: libdnf/module/ModulePackage.cpp:632
 msgid "Multiple module platforms provided by installed packages\n"
-msgstr "Несколько модульных платформ, предоставляемых установленными пакетами\n"
+msgstr ""
+"Несколько модульных платформ, предоставляемых установленными пакетами\n"
 
 #: libdnf/module/ModulePackage.cpp:659
 #, c-format
