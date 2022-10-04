@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-30 03:46+0000\n"
-"PO-Revision-Date: 2022-09-30 13:19+0000\n"
-"Last-Translator: Vi <xasertop@gmail.com>\n"
+"PO-Revision-Date: 2022-10-05 07:19+0000\n"
+"Last-Translator: Alexey Rubtsov <rushills@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ru/>\n"
 "Language: ru\n"
@@ -179,32 +179,34 @@ msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
-"Проблема при включении дерева зависимостей для модуля «%1$s», поток «%2$s»: "
-"%3$s"
+"Проблема с разрешением дерева зависимостей для модуля «%1$s» поток "
+"«%2$s»:%3$s"
 
 #: libdnf/dnf-context.cpp:3434
 msgid "Problems appeared for module enable request:"
-msgstr "Возникли проблемы при запросе включения модуля:"
+msgstr "При разрешении модуля возникли проблемы:"
 
 #: libdnf/dnf-context.cpp:3529
 #, c-format
 msgid "No active module packages found for module spec '%s'"
-msgstr "Не найдены пакеты активных модулей для спецификации модуля «%s»"
+msgstr "Не найдено активных пакетов для модуля специфицированного как «%s»"
 
 #: libdnf/dnf-context.cpp:3534
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
-msgstr "Невозможно установить модуль «%s» из отказоустойчивого репозитория"
+msgstr ""
+"Не удалось инсталлировать модуль «%s» из защищённого от ошибок репозитория"
 
 #: libdnf/dnf-context.cpp:3541
 #, c-format
 msgid "No profile found matching '%s'"
-msgstr "Не найден профиль, соответствующий «%s»"
+msgstr "Не найдено подходящего профиля «%s»"
 
 #: libdnf/dnf-context.cpp:3595
 #, c-format
 msgid "No match for package '%s' for module spec %s"
-msgstr "Пакет «%s» не соответствует спецификации модуля %s"
+msgstr ""
+"Не найдено совпадений для пакета «%s» для модуля специфицированного как %s"
 
 #: libdnf/dnf-context.cpp:3606
 #, c-format
