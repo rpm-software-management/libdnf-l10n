@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Yuri Chornoivan <yurchor@ukr.net>, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 14:26+0200\n"
-"PO-Revision-Date: 2021-08-13 09:04+0000\n"
+"PO-Revision-Date: 2022-10-07 14:19+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-8/uk/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.2\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -58,7 +58,7 @@ msgstr "значення відсотків, «%s», поза припустим
 
 #: libdnf/conf/ConfigRepo.cpp:182
 msgid "only the value 'priority' is supported."
-msgstr ""
+msgstr "передбачено підтримку лише значення «priority»."
 
 #: libdnf/conf/OptionBinds.cpp:85
 #, c-format
@@ -310,7 +310,7 @@ msgstr "помилка repo_add_solv()."
 #: libdnf/dnf-sack.cpp:416
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "Помилка під час завантаження кешу розширень %s (%d): "
 
 #: libdnf/dnf-sack.cpp:430
 #, c-format
@@ -336,22 +336,23 @@ msgstr "не вдалося відкрити тимчасовий файл: %s"
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
+"Помилка запису основного кешу %s засобом запису сховища: %i, повідомлення "
+"про помилку: %s"
 
 #: libdnf/dnf-sack.cpp:561
-#, fuzzy, c-format
-#| msgid "failed opening tmp file: %s"
+#, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr "не вдалося відкрити тимчасовий файл: %s"
+msgstr "Не вдалося закрити тимчасовий файл: %s: %s"
 
 #: libdnf/dnf-sack.cpp:571
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "Не вдалося скористатися наново записаним основним кешем: %s: "
 
 #: libdnf/dnf-sack.cpp:577
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "Не вдалося скористатися наново записаним основним кешем: %s"
 
 #: libdnf/dnf-sack.cpp:627
 #, c-format
@@ -363,21 +364,24 @@ msgstr "не вдалося створити тимчасовий файл %s"
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
+"Помилка запису кешу розширень %s (%d): помилка запису засобу запису сховища: "
+"%i, повідомлення про помилку: %s"
 
 #: libdnf/dnf-sack.cpp:677
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
 msgstr ""
+"Під час запису кешу розширень (%d): не вдалося закрити тимчасовий файл: %s"
 
 #: libdnf/dnf-sack.cpp:693
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
-msgstr ""
+msgstr "Не вдалося скористатися наново записаним кешем розширень: %s (%d): "
 
 #: libdnf/dnf-sack.cpp:700
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
-msgstr ""
+msgstr "Не вдалося скористатися наново записаним кешем розширень: %s (%d)"
 
 #: libdnf/dnf-sack.cpp:741
 msgid "null repo md file"
@@ -391,23 +395,21 @@ msgstr "не вдалося прочитати файл %1$s: %2$s"
 #: libdnf/dnf-sack.cpp:765
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "Під час завантаження сховища не вдалося скористатися %s: "
 
 #: libdnf/dnf-sack.cpp:776
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "не вдалося завантажити MD_TYPE_PRIMARY."
 
 #: libdnf/dnf-sack.cpp:788
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading repomd has failed: %s"
-msgstr "Завантажуємо додаток, файл=«%s»"
+msgstr "Не вдалося завантажити repomd: %s"
 
 #: libdnf/dnf-sack.cpp:799
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading primary has failed: %s"
-msgstr "Завантажуємо додаток, файл=«%s»"
+msgstr "Не вдалося завантажити основний: %s"
 
 #: libdnf/dnf-sack.cpp:865
 msgid "failed to auto-detect architecture"
@@ -770,7 +772,7 @@ msgstr "Дія призведе до вилучення таких захище�
 #: libdnf/hy-iutil.cpp:181
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
-msgstr ""
+msgstr "Версія solv_tool libsolve: %zu але нам потрібна максимально така: %zu"
 
 #: libdnf/hy-iutil.cpp:408
 #, c-format
