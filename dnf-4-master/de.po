@@ -4,7 +4,7 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Paul Ritter <paul-ritter@gmx.net>, 2018. #zanata
 # Fabian Affolter <mail@fabian-affolter.ch>, 2020.
-# Ettore Atalan <atalanttore@googlemail.com>, 2021.
+# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022.
 # Philipp Trulson <philipp@trulson.de>, 2022.
 # Joachim Philipp <joachim.philipp@gmail.com>, 2022.
 msgid ""
@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-07 03:08+0000\n"
-"PO-Revision-Date: 2022-04-14 20:17+0000\n"
-"Last-Translator: Joachim Philipp <joachim.philipp@gmail.com>\n"
+"PO-Revision-Date: 2022-10-17 12:19+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/de/>\n"
 "Language: de\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -567,7 +567,7 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:91 libdnf/goal/Goal.cpp:118
 msgid " has inferior architecture"
-msgstr ""
+msgstr " hat eine schlechtere Architektur"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -579,7 +579,7 @@ msgstr "widersprüchliche Anforderungen"
 
 #: libdnf/goal/Goal.cpp:94 libdnf/goal/Goal.cpp:121
 msgid "unsupported request"
-msgstr ""
+msgstr "nicht unterstützte Anfrage"
 
 #: libdnf/goal/Goal.cpp:95 libdnf/goal/Goal.cpp:122
 msgid "nothing provides requested "
@@ -634,7 +634,7 @@ msgstr "nichts stellt %s bereit, das von %s benötigt wird"
 #: libdnf/goal/Goal.cpp:106
 #, c-format
 msgid "cannot install both %s and %s"
-msgstr ""
+msgstr "kann nicht sowohl %s als auch %s installieren"
 
 #: libdnf/goal/Goal.cpp:107
 #, c-format
@@ -660,7 +660,7 @@ msgstr "Paket %s macht %s implizit obsolet, das von %s bereitgestellt wird"
 #: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid "package %s requires %s, but none of the providers can be installed"
-msgstr ""
+msgstr "Paket %s erfordert %s, aber keiner der Anbieter kann installiert werden"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
@@ -684,6 +684,8 @@ msgstr "Modul %s existiert nicht"
 #: libdnf/goal/Goal.cpp:126
 msgid "cannot install the best update candidate for module "
 msgstr ""
+"kann nicht den besten Kandidaten für die Aktualisierung des Moduls "
+"installieren "
 
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
 #, c-format
@@ -703,12 +705,12 @@ msgstr "Modul %s ist nicht installierbar"
 #: libdnf/goal/Goal.cpp:132
 #, c-format
 msgid "nothing provides %s needed by module %s"
-msgstr ""
+msgstr "%s bietet nichts an, was von Modul %s benötigt wird"
 
 #: libdnf/goal/Goal.cpp:133
 #, c-format
 msgid "cannot install both modules %s and %s"
-msgstr ""
+msgstr "kann nicht beide Module %s und %s installieren"
 
 #: libdnf/goal/Goal.cpp:134
 #, c-format
@@ -734,7 +736,7 @@ msgstr "Modul %s macht %s implizit obsolet, das von %s bereitgestellt wird"
 #: libdnf/goal/Goal.cpp:138
 #, c-format
 msgid "module %s requires %s, but none of the providers can be installed"
-msgstr ""
+msgstr "Modul %s erfordert %s, aber keiner der Anbieter kann installiert werden"
 
 #: libdnf/goal/Goal.cpp:139
 #, c-format
@@ -766,7 +768,7 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:1183
 msgid "no solution, cannot remove protected package"
-msgstr ""
+msgstr "keine Lösung, kann geschütztes Paket nicht entfernen"
 
 #: libdnf/goal/Goal.cpp:1186
 msgid "no solution possible"
@@ -796,12 +798,12 @@ msgstr ""
 #: libdnf/hy-iutil.cpp:408
 #, c-format
 msgid "Failed renaming %1$s to %2$s: %3$s"
-msgstr ""
+msgstr "Umbenennung von %1$s nach %2$s fehlgeschlagen: %3$s"
 
 #: libdnf/hy-iutil.cpp:416
 #, c-format
 msgid "Failed setting perms on %1$s: %2$s"
-msgstr ""
+msgstr "Fehler beim Festlegen von Berechtigungen für %1$s: %2$s"
 
 #: libdnf/hy-iutil.cpp:462
 #, c-format
