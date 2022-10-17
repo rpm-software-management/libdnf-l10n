@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-07 03:08+0000\n"
+"POT-Creation-Date: 2022-10-17 03:41+0000\n"
 "PO-Revision-Date: 2022-10-17 12:19+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
@@ -660,7 +660,8 @@ msgstr "Paket %s macht %s implizit obsolet, das von %s bereitgestellt wird"
 #: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid "package %s requires %s, but none of the providers can be installed"
-msgstr "Paket %s erfordert %s, aber keiner der Anbieter kann installiert werden"
+msgstr ""
+"Paket %s erfordert %s, aber keiner der Anbieter kann installiert werden"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
@@ -736,7 +737,8 @@ msgstr "Modul %s macht %s implizit obsolet, das von %s bereitgestellt wird"
 #: libdnf/goal/Goal.cpp:138
 #, c-format
 msgid "module %s requires %s, but none of the providers can be installed"
-msgstr "Modul %s erfordert %s, aber keiner der Anbieter kann installiert werden"
+msgstr ""
+"Modul %s erfordert %s, aber keiner der Anbieter kann installiert werden"
 
 #: libdnf/goal/Goal.cpp:139
 #, c-format
