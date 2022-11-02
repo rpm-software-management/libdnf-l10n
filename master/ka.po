@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2022-07-22 15:18+0000\n"
+"PO-Revision-Date: 2022-11-03 02:19+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -40,17 +40,17 @@ msgstr "უცნობი ერთეული '%s'"
 #: libdnf/conf/ConfigMain.cpp:329
 #, c-format
 msgid "percentage '%s' is out of range"
-msgstr "პროცენტული მნიშვნელობა %s დიაპაზონს გარეთაა"
+msgstr "პროცენტულობა '%s' დიაპაზონს გარეთაა"
 
 #: libdnf/conf/OptionBinds.cpp:76
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr "კონფიგურაცია: OptionBinding ID-ით '%s' არ არსებობს"
+msgstr "მორგება: OptionBinding-ი id-ით \"%s\" არ არსებობს"
 
 #: libdnf/conf/OptionBinds.cpp:88
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr "კონფიგურაცია: OptionBinding ID-ით '%s' უკვე არსებობს"
+msgstr "მორგება: OptionBindin-ი id-ით \"%s\" უკვე არსებობს"
 
 #: libdnf/conf/OptionBool.cpp:47
 #, c-format
@@ -86,12 +86,12 @@ msgstr "მითითებული ბილიკი '%s' აბსოლ�
 #: libdnf/conf/OptionPath.cpp:82
 #, c-format
 msgid "given path '%s' does not exist."
-msgstr "ბილიკი არ არსებობს: %s."
+msgstr "მითითებული ბილიკი '%s' არ არსებობს."
 
 #: libdnf/conf/OptionSeconds.cpp:52
 #, c-format
 msgid "could not convert '%s' to seconds"
-msgstr "%s-ის წამებში გადაყვანის შეცდომა"
+msgstr "'%s'-ის წამებში გადაყვანა შეუძლებელია"
 
 #: libdnf/conf/OptionString.cpp:74
 msgid "GetValue(): Value not set"
@@ -197,12 +197,12 @@ msgstr "გახსნის შეცდომა: %s"
 #: libdnf/dnf-sack.cpp:537
 #, c-format
 msgid "cannot create temporary file: %s"
-msgstr "დროებითი ფაილის შექმნის შეცდომა (%s)"
+msgstr "დროებით ფაილის შექმნის შეცდომა: %s"
 
 #: libdnf/dnf-sack.cpp:547
 #, c-format
 msgid "failed opening tmp file: %s"
-msgstr "დროებითი ფაილის გახსნის შეცდომა (%s)"
+msgstr "დროებითი ფაილის გახსნის შეცდომა: %s"
 
 #: libdnf/dnf-sack.cpp:559
 #, c-format
@@ -792,12 +792,12 @@ msgstr "რეპოსთვის (%s) GPG გასაღებების �
 #: libdnf/repo/Repo.cpp:892
 #, c-format
 msgid "repo %s: 0x%s already imported"
-msgstr "რეპო (%s): 0x%s უკვე შემოტანილია"
+msgstr "რეპო %s: 0x%s უკვე შემოტანილია"
 
 #: libdnf/repo/Repo.cpp:920
 #, c-format
 msgid "repo %s: imported key 0x%s."
-msgstr "რეპო %s: გასაღები 0x%s შემოტანილია."
+msgstr "რეპო %s: შემოტანილია გასაღები 0x%s."
 
 #: libdnf/repo/Repo.cpp:1164
 #, c-format
@@ -901,7 +901,7 @@ msgstr "ჟურნალის მომვლელი id-ით %ld არ �
 
 #: libdnf/transaction/Swdb.cpp:107
 msgid "In progress"
-msgstr "პროცესშია"
+msgstr "მიმდინარეობა"
 
 #: libdnf/transaction/Swdb.cpp:121 libdnf/transaction/Swdb.cpp:148
 #: libdnf/transaction/Swdb.cpp:160 libdnf/transaction/Swdb.cpp:177
