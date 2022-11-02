@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-31 03:07+0000\n"
-"PO-Revision-Date: 2022-09-02 02:19+0000\n"
+"PO-Revision-Date: 2022-11-03 02:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ko/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -475,7 +475,7 @@ msgstr "이미 100 %% 상태 [%s]"
 #: libdnf/dnf-transaction.cpp:302
 #, c-format
 msgid "Sources not set when trying to ensure package %s"
-msgstr "꾸러미를 만들 때 소스가 설정되지 않았습니다. %s"
+msgstr "꾸러미 %s를 확인 하려고 할 때 원천이 설정되지 않았습니다"
 
 #: libdnf/dnf-transaction.cpp:328
 #, c-format
