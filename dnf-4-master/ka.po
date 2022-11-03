@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-31 03:07+0000\n"
+"POT-Creation-Date: 2022-11-02 03:08+0000\n"
 "PO-Revision-Date: 2022-11-03 02:19+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
@@ -85,7 +85,8 @@ msgstr ""
 #: libdnf/conf/OptionNumber.cpp:76
 #, c-format
 msgid "given value [%d] should be greater than allowed value [%d]."
-msgstr "მინიჭებული მნიშვნელობა [%d] დასაშვებ მნიშვნელობაზე [%d] მეტი უნდა იყოს."
+msgstr ""
+"მინიჭებული მნიშვნელობა [%d] დასაშვებ მნიშვნელობაზე [%d] მეტი უნდა იყოს."
 
 #: libdnf/conf/OptionPath.cpp:78
 #, c-format
@@ -484,7 +485,8 @@ msgstr "%s-ის გადმოსაწერი ფაილის მოძ
 #: libdnf/dnf-transaction.cpp:399
 #, c-format
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
-msgstr "პაკეტი %1$s არ შეიძლება შემოწმდეს და რეპო %2$s-ს GPG აქვს ჩართული: %3$s"
+msgstr ""
+"პაკეტი %1$s არ შეიძლება შემოწმდეს და რეპო %2$s-ს GPG აქვს ჩართული: %3$s"
 
 #: libdnf/dnf-transaction.cpp:833 libdnf/dnf-transaction.cpp:905
 msgid "Failed to get value for CacheDir"
@@ -637,7 +639,8 @@ msgstr "პაკეტ %s-ს გააჩნია კონფლიქტი
 #: libdnf/goal/Goal.cpp:108
 #, c-format
 msgid "package %s obsoletes %s provided by %s"
-msgstr "პაკეტი %s მოძველებულად მონიშნავს %s-ს, რომელიც წარმოდგენილია %s-ის მიერ"
+msgstr ""
+"პაკეტი %s მოძველებულად მონიშნავს %s-ს, რომელიც წარმოდგენილია %s-ის მიერ"
 
 #: libdnf/goal/Goal.cpp:109
 #, c-format
