@@ -9,13 +9,14 @@
 # Sundeep Anand <suanand@redhat.com>, 2021, 2022.
 # Titouan Bénard <itotutona@evta.fr>, 2021.
 # Arthur Tavernier <arthur.tavernier45@gmail.com>, 2022.
+# blutch112 <vincent.lefebvre59@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-02 03:08+0000\n"
-"PO-Revision-Date: 2022-10-06 08:19+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2022-11-06 17:19+0000\n"
+"Last-Translator: blutch112 <vincent.lefebvre59@gmail.com>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
 "Language: fr\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -435,10 +436,9 @@ msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "échec du chargement du MD_TYPE_PRIMARY."
 
 #: libdnf/dnf-sack.cpp:784
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Opening repository primary data has failed: %s"
-msgstr "Échec lors du chargement du fichier primaire : %s"
+msgstr "L'ouverture des données principales du dépôt a échoué : %s"
 
 #: libdnf/dnf-sack.cpp:795
 #, c-format
