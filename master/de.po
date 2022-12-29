@@ -7,13 +7,14 @@
 # Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022.
 # Philipp Trulson <philipp@trulson.de>, 2022.
 # Joachim Philipp <joachim.philipp@gmail.com>, 2022.
+# Marius Kamp <msk@posteo.org>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2022-10-17 12:19+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"PO-Revision-Date: 2022-12-30 11:19+0000\n"
+"Last-Translator: Marius Kamp <msk@posteo.org>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/de/>\n"
 "Language: de\n"
@@ -21,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -380,7 +381,7 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:67 libdnf/goal/Goal.cpp:94
 msgid " does not belong to a distupgrade repository"
-msgstr ""
+msgstr " gehört nicht zu einer distupgrade-Paketquelle"
 
 #: libdnf/goal/Goal.cpp:68 libdnf/goal/Goal.cpp:95
 msgid " has inferior architecture"
@@ -417,11 +418,11 @@ msgstr "irgendein Abhängigkeitsproblem"
 
 #: libdnf/goal/Goal.cpp:76
 msgid "cannot install the best update candidate for package "
-msgstr ""
+msgstr "Installation des besten Update-Kandidaten nicht möglich für das Paket "
 
 #: libdnf/goal/Goal.cpp:77 libdnf/goal/Goal.cpp:104
 msgid "cannot install the best candidate for the job"
-msgstr ""
+msgstr "Installation des besten Kandidaten nicht möglich für den Auftrag"
 
 #: libdnf/goal/Goal.cpp:78
 #, c-format
@@ -565,7 +566,7 @@ msgstr "beide Module %s und %s machen %s obsolet"
 
 #: libdnf/goal/Goal.cpp:1008
 msgid "no solver set"
-msgstr ""
+msgstr "kein Auflösungswerkzeug gesetzt"
 
 #: libdnf/goal/Goal.cpp:1013
 #, c-format
@@ -614,7 +615,7 @@ msgstr "kann Verzeichnis %1$s nicht erstellen: %2$s"
 #: libdnf/hy-iutil.cpp:411
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
-msgstr ""
+msgstr "\"stat\" für Pfad %1$s fehlgeschlagen: %2$s"
 
 #: libdnf/module/ModulePackage.cpp:463
 #, c-format
@@ -690,7 +691,7 @@ msgstr ""
 #: libdnf/module/modulemd/ModuleMetadata.cpp:70
 #, c-format
 msgid "Failed to resolve: %s"
-msgstr ""
+msgstr "Auflösung fehlgeschlagen: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:74
 #, c-format
