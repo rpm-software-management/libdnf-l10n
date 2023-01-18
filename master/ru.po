@@ -4,23 +4,23 @@
 # Vladyslav Spirin <vladspirin@hotmail.com>, 2020.
 # Alexey Rubtsov <rushills@gmail.com>, 2021, 2022.
 # V I <xasertop@gmail.com>, 2022.
-# Vi <xasertop@gmail.com>, 2022.
+# Vi <xasertop@gmail.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2022-10-19 10:19+0000\n"
-"Last-Translator: Alexey Rubtsov <rushills@gmail.com>\n"
+"PO-Revision-Date: 2023-01-19 14:20+0000\n"
+"Last-Translator: Vi <xasertop@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.1\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -202,7 +202,7 @@ msgstr "не удалось открыть: %s"
 #: libdnf/dnf-sack.cpp:537
 #, c-format
 msgid "cannot create temporary file: %s"
-msgstr "не может создать временный файл: %s"
+msgstr "не удается создать временный файл: %s"
 
 #: libdnf/dnf-sack.cpp:547
 #, c-format
@@ -235,7 +235,7 @@ msgstr "файл md пустого репозитория null"
 #: libdnf/dnf-sack.cpp:723
 #, c-format
 msgid "can not read file %1$s: %2$s"
-msgstr "невозможно прочитать файл %1$s: %2$s"
+msgstr "не удается прочитать файл %1$s: %2$s"
 
 #: libdnf/dnf-sack.cpp:737
 msgid "repo_add_solv() has failed."
@@ -243,7 +243,7 @@ msgstr "вызов repo_add_solv() не удался."
 
 #: libdnf/dnf-sack.cpp:750
 msgid "loading of MD_TYPE_PRIMARY has failed."
-msgstr "не удалось загрузить MD_TYPE_PRIMARY."
+msgstr "загрузка MD_TYPE_PRIMARY не удалась."
 
 #: libdnf/dnf-sack.cpp:763
 msgid "repo_add_repomdxml/rpmmd() has failed."
