@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-30 02:03+0000\n"
+"POT-Creation-Date: 2023-01-19 02:11+0000\n"
 "PO-Revision-Date: 2022-06-24 07:18+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
@@ -551,7 +551,7 @@ msgstr "İşlem çalıştırılırken %i hatası"
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr "İşlem yazma aşamasına geçmedi, ancak hata döndürmedi (%i)"
 
-#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:485
+#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:487
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
 msgstr "%1$s dizini açılamıyor: %2$s"
@@ -807,22 +807,22 @@ msgstr "İşlem, aşağıdaki korumalı paketlerin kaldırılmasına neden olur:
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
 msgstr "Libsolv solv_toolversion %zu uzunluğunda en fazla %zu bekleniyor"
 
-#: libdnf/hy-iutil.cpp:408
+#: libdnf/hy-iutil.cpp:410
 #, c-format
 msgid "Failed renaming %1$s to %2$s: %3$s"
 msgstr "%1$s, %2$s olarak yeniden adlandırılamadı: %3$s"
 
-#: libdnf/hy-iutil.cpp:416
+#: libdnf/hy-iutil.cpp:418
 #, c-format
 msgid "Failed setting perms on %1$s: %2$s"
 msgstr "%1$s için izinler ayarlanamadı: %2$s"
 
-#: libdnf/hy-iutil.cpp:462
+#: libdnf/hy-iutil.cpp:464
 #, c-format
 msgid "cannot create directory %1$s: %2$s"
 msgstr "%1$s dizini oluşturulamıyor: %2$s"
 
-#: libdnf/hy-iutil.cpp:497
+#: libdnf/hy-iutil.cpp:499
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
 msgstr "%1$s yolu için dosya bilgileri alınamıyor: %2$s"

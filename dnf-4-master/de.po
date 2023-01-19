@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-30 02:03+0000\n"
+"POT-Creation-Date: 2023-01-19 02:11+0000\n"
 "PO-Revision-Date: 2022-12-30 11:19+0000\n"
 "Last-Translator: Marius Kamp <msk@posteo.org>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
@@ -544,7 +544,7 @@ msgstr ""
 "Transaktion ging nicht in die Schreibphase, gab jedoch keinen Fehler zurück "
 "(%i)"
 
-#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:485
+#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:487
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
 msgstr "Verzeichnis kann nicht geöffnet werden %1$s: %2$s"
@@ -798,22 +798,22 @@ msgstr ""
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
 msgstr ""
 
-#: libdnf/hy-iutil.cpp:408
+#: libdnf/hy-iutil.cpp:410
 #, c-format
 msgid "Failed renaming %1$s to %2$s: %3$s"
 msgstr "Umbenennung von %1$s nach %2$s fehlgeschlagen: %3$s"
 
-#: libdnf/hy-iutil.cpp:416
+#: libdnf/hy-iutil.cpp:418
 #, c-format
 msgid "Failed setting perms on %1$s: %2$s"
 msgstr "Fehler beim Festlegen von Berechtigungen für %1$s: %2$s"
 
-#: libdnf/hy-iutil.cpp:462
+#: libdnf/hy-iutil.cpp:464
 #, c-format
 msgid "cannot create directory %1$s: %2$s"
 msgstr "kann Verzeichnis %1$s nicht erstellen: %2$s"
 
-#: libdnf/hy-iutil.cpp:497
+#: libdnf/hy-iutil.cpp:499
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
 msgstr "\"stat\" für Pfad %1$s fehlgeschlagen: %2$s"

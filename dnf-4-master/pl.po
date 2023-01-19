@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-30 02:03+0000\n"
+"POT-Creation-Date: 2023-01-19 02:11+0000\n"
 "PO-Revision-Date: 2022-06-22 15:46+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/"
@@ -569,7 +569,7 @@ msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
 "Transakcja nie przeszła do etapu zapisu, ale nie zwróciła żadnego błędu (%i)"
 
-#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:485
+#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:487
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
 msgstr "nie można otworzyć katalogu %1$s: %2$s"
@@ -824,22 +824,22 @@ msgstr ""
 "solv_toolversion biblioteki libsolv ma: %zu, kiedy oczekiwane jest maksimum: "
 "%zu"
 
-#: libdnf/hy-iutil.cpp:408
+#: libdnf/hy-iutil.cpp:410
 #, c-format
 msgid "Failed renaming %1$s to %2$s: %3$s"
 msgstr "Zmiana nazwy %1$s na %2$s się nie powiodła: %3$s"
 
-#: libdnf/hy-iutil.cpp:416
+#: libdnf/hy-iutil.cpp:418
 #, c-format
 msgid "Failed setting perms on %1$s: %2$s"
 msgstr "Ustawienie uprawnień %1$s się nie powiodło: %2$s"
 
-#: libdnf/hy-iutil.cpp:462
+#: libdnf/hy-iutil.cpp:464
 #, c-format
 msgid "cannot create directory %1$s: %2$s"
 msgstr "nie można utworzyć katalogu %1$s: %2$s"
 
-#: libdnf/hy-iutil.cpp:497
+#: libdnf/hy-iutil.cpp:499
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
 msgstr "nie można wykonać stat na ścieżce %1$s: %2$s"

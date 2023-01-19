@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-30 02:03+0000\n"
+"POT-Creation-Date: 2023-01-19 02:11+0000\n"
 "PO-Revision-Date: 2022-09-23 09:19+0000\n"
 "Last-Translator: Yang Yulin <yylteam@icloud.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -534,7 +534,7 @@ msgstr "运行事务时错误 %i"
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr "事务没有进入写阶段，但没有返回错误(%i)"
 
-#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:485
+#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:487
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
 msgstr "无法打开目录 %1$s: %2$s"
@@ -780,22 +780,22 @@ msgstr "这个操作将会导致删除以下受保护的软件包: "
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
 msgstr "Libsolv 的 solv_toolversion 为： %zu，但我们预计最大为：%zu"
 
-#: libdnf/hy-iutil.cpp:408
+#: libdnf/hy-iutil.cpp:410
 #, c-format
 msgid "Failed renaming %1$s to %2$s: %3$s"
 msgstr "将 %1$s 重命名为 %2$s 失败: %3$s"
 
-#: libdnf/hy-iutil.cpp:416
+#: libdnf/hy-iutil.cpp:418
 #, c-format
 msgid "Failed setting perms on %1$s: %2$s"
 msgstr "在 %1$s 中设置 perms 失败: %2$s"
 
-#: libdnf/hy-iutil.cpp:462
+#: libdnf/hy-iutil.cpp:464
 #, c-format
 msgid "cannot create directory %1$s: %2$s"
 msgstr "无法创建目录 %1$s: %2$s"
 
-#: libdnf/hy-iutil.cpp:497
+#: libdnf/hy-iutil.cpp:499
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
 msgstr "无法 stat 路径 %1$s: %2$s"
