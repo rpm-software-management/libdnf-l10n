@@ -1,10 +1,10 @@
-# Fabio Tomat <f.t.public@gmail.com>, 2018. #zanata, 2020, 2021.
+# Fabio Tomat <f.t.public@gmail.com>, 2018. #zanata, 2020, 2021, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-19 02:11+0000\n"
-"PO-Revision-Date: 2021-07-15 07:04+0000\n"
+"PO-Revision-Date: 2023-02-22 21:20+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fur/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -40,10 +40,8 @@ msgid "invalid value"
 msgstr "valôr no valit"
 
 #: libdnf/conf/ConfigMain.cpp:207
-#, fuzzy
-#| msgid "'%s' is not an allowed value"
 msgid "value 1 is not allowed"
-msgstr "'%s' nol è un valôr permetût"
+msgstr "il valôr 1 nol è consintût"
 
 #: libdnf/conf/ConfigMain.cpp:209
 msgid "negative value is not allowed"
