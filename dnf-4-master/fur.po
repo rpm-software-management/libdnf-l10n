@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-22 02:11+0000\n"
-"PO-Revision-Date: 2023-02-22 21:20+0000\n"
+"PO-Revision-Date: 2023-02-26 07:20+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fur/>\n"
@@ -41,7 +41,7 @@ msgstr "valôr no valit"
 
 #: libdnf/conf/ConfigMain.cpp:207
 msgid "value 1 is not allowed"
-msgstr "il valôr 1 nol è consintût"
+msgstr "il valôr 1 nol è ametût"
 
 #: libdnf/conf/ConfigMain.cpp:209
 msgid "negative value is not allowed"
