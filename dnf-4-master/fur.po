@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-26 02:19+0000\n"
-"PO-Revision-Date: 2023-02-26 07:20+0000\n"
+"PO-Revision-Date: 2023-02-28 07:56+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fur/>\n"
@@ -105,28 +105,30 @@ msgstr "GetValue(): valôr no stabilît"
 #: libdnf/dnf-context.cpp:3215 libdnf/dnf-context.cpp:3224
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
-msgstr ""
+msgstr "Impussibil abilitâ altris flus dal modul '%s' tal stes timp"
 
 #: libdnf/dnf-context.cpp:3233 libdnf/dnf-context.cpp:3251
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr ""
+"Impussibil abilitâ il flus '%2$s' dal modul '%1$s': stât dal modul za "
+"modificât"
 
 #: libdnf/dnf-context.cpp:3300
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
-msgstr ""
+msgstr "Probleme di dipendence modulâr cui predefinîts: %s"
 
 #: libdnf/dnf-context.cpp:3303
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr ""
+msgstr "Probleme di dipendence modulâr cui ultins modui: %s"
 
 #: libdnf/dnf-context.cpp:3307
 #, c-format
 msgid "Modular dependency problem: %s"
-msgstr ""
+msgstr "Probleme di dipendence modulâr: %s"
 
 #: libdnf/dnf-context.cpp:3330 libdnf/dnf-context.cpp:3354
 #: libdnf/dnf-context.cpp:3365 libdnf/dnf-context.cpp:3404
@@ -134,33 +136,36 @@ msgstr ""
 #: libdnf/dnf-context.cpp:3501 libdnf/dnf-context.cpp:3511
 #, c-format
 msgid "Unable to resolve argument '%s'"
-msgstr ""
+msgstr "Impussibil risolvi l'argoment '%s'"
 
 #: libdnf/dnf-context.cpp:3337
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr ""
+"Al covente dome il non dal modul. Si ignore lis informazions tal argoment "
+"che no coventin: '%s'"
 
 #: libdnf/dnf-context.cpp:3351
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr ""
+"Impussibil tornâ a inizializâ il modul '%s': stât dal modul za modificât"
 
 #: libdnf/dnf-context.cpp:3362
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
-msgstr ""
+msgstr "Impussibil disabilitâ il modul '%s': stât dal modul za modificât"
 
 #: libdnf/dnf-context.cpp:3393 libdnf/dnf-context.cpp:3489
 #: libdnf/dnf-context.cpp:3670
 msgid "No modular data available"
-msgstr ""
+msgstr "Nissun dât modulâr disponibil"
 
 #: libdnf/dnf-context.cpp:3410
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
-msgstr ""
+msgstr "Daûr a ignorâ lis informazions tal argoment che no coventin: '%s'"
 
 #: libdnf/dnf-context.cpp:3448
 #, c-format
@@ -168,15 +173,17 @@ msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
+"Probleme dilunc la abilitazion dal arbul des dipendencis pal flus '%2$s' dal "
+"modul '%1$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3460
 msgid "Problems appeared for module enable request:"
-msgstr ""
+msgstr "Problemis vignûts fûr pe richieste di abilitazion dal modul:"
 
 #: libdnf/dnf-context.cpp:3555
 #, c-format
 msgid "No active module packages found for module spec '%s'"
-msgstr ""
+msgstr "Nissun pachet dal modul atîf cjatât pal modul spec '%s'"
 
 #: libdnf/dnf-context.cpp:3560
 #, c-format
