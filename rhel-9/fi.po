@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022, 2023.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-28 09:24+0100\n"
-"PO-Revision-Date: 2022-11-11 11:19+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2023-03-01 13:20+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-rhel-9/fi/>\n"
 "Language: fi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -425,10 +425,9 @@ msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "MD_TYPE_PRIMARY:n lataaminen epäonnistui."
 
 #: libdnf/dnf-sack.cpp:784
-#, fuzzy, c-format
-#| msgid "Loading primary has failed: %s"
+#, c-format
 msgid "Opening repository primary data has failed: %s"
-msgstr "Primary:n lataus epäonnistui: %s"
+msgstr "Asennuslähteen ensisijaisten tietojen avaaminen epäonnistui: %s"
 
 #: libdnf/dnf-sack.cpp:795
 #, c-format
