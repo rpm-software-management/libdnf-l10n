@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-30 14:26+0200\n"
+"POT-Creation-Date: 2023-02-28 09:11+0100\n"
 "PO-Revision-Date: 2022-08-31 11:37+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
@@ -978,7 +978,7 @@ msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr "'%s' deposunun desteklenmeyen bir türü var: 'type=%s', atlanıyor."
 
 #: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:610 libdnf/repo/Repo.cpp:641
-#: libdnf/repo/Repo.cpp:1382
+#: libdnf/repo/Repo.cpp:1387
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr "depo '%s': 'basecachedir' ayarlanmadı"
@@ -1040,104 +1040,104 @@ msgstr "depo %s: 0x%s zaten içe aktarıldı"
 msgid "repo %s: imported key 0x%s."
 msgstr "depo %s: 0x%s anahtarı içe aktarıldı."
 
-#: libdnf/repo/Repo.cpp:1162
+#: libdnf/repo/Repo.cpp:1167
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "yeniden etkinleştirme: '%s' deposu atlandı, üst bağlantı yok."
 
-#: libdnf/repo/Repo.cpp:1181
+#: libdnf/repo/Repo.cpp:1186
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr ""
 "yeniden etkinleştirme: '%s' deposu atlandı, kullanılabilir sağlama kodu yok."
 
-#: libdnf/repo/Repo.cpp:1204
+#: libdnf/repo/Repo.cpp:1209
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "yeniden etkinleştirme: '%s' için başarısız, %s toplamı eşleşmiyor."
 
-#: libdnf/repo/Repo.cpp:1210
+#: libdnf/repo/Repo.cpp:1215
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
 "yeniden etkinleştirme: '%s' yeniden etkinleştirilebilir - üst bağlantı "
 "sağlama toplamları eşleşiyor."
 
-#: libdnf/repo/Repo.cpp:1235
+#: libdnf/repo/Repo.cpp:1240
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr ""
 "yeniden etkinleştirme: '%s' yeniden etkinleştirilebilir - repomd eşleşiyor."
 
-#: libdnf/repo/Repo.cpp:1237
+#: libdnf/repo/Repo.cpp:1242
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "yeniden etkinleştirme: '%s' için başarısız, repomd eşleşmiyor."
 
-#: libdnf/repo/Repo.cpp:1255
+#: libdnf/repo/Repo.cpp:1260
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr "Depo hedef dizini \"%s\" oluşturulamıyor: %s"
 
-#: libdnf/repo/Repo.cpp:1261
+#: libdnf/repo/Repo.cpp:1266
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "Depo geçici dizini \"%s\" oluşturulamıyor: %s"
 
-#: libdnf/repo/Repo.cpp:1275
+#: libdnf/repo/Repo.cpp:1280
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "\"%s\" dizini oluşturulamıyor: %s"
 
-#: libdnf/repo/Repo.cpp:1298
+#: libdnf/repo/Repo.cpp:1303
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "\"%s\" dizini \"%s\" olarak yeniden adlandırılamıyor: %s"
 
-#: libdnf/repo/Repo.cpp:1321
+#: libdnf/repo/Repo.cpp:1326
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "repo: %s için önbellek kullanılıyor"
 
-#: libdnf/repo/Repo.cpp:1333
+#: libdnf/repo/Repo.cpp:1338
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "Yalnızca-önbellek modu etkin ancak '%s' için önbellek yok"
 
-#: libdnf/repo/Repo.cpp:1337
+#: libdnf/repo/Repo.cpp:1342
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "repo: %s uzak deposundan indiriliyor"
 
-#: libdnf/repo/Repo.cpp:1344
+#: libdnf/repo/Repo.cpp:1349
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr "'%s' deposu için üst veriler indirilemedi: %s"
 
-#: libdnf/repo/Repo.cpp:1370
+#: libdnf/repo/Repo.cpp:1375
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir(): SHA256 hesaplaması başarısız oldu"
 
-#: libdnf/repo/Repo.cpp:1398
+#: libdnf/repo/Repo.cpp:1403
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr "\"%s\" kalıcı dizini oluşturulamıyor: %s"
 
-#: libdnf/repo/Repo.cpp:1775
+#: libdnf/repo/Repo.cpp:1780
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr "'resume', 'byterangestart' parametresiyle aynı anda kullanılamaz"
 
-#: libdnf/repo/Repo.cpp:1792
+#: libdnf/repo/Repo.cpp:1797
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "PackageTarget başlatılamadı: %s"
 
-#: libdnf/repo/Repo.cpp:1898
+#: libdnf/repo/Repo.cpp:1903
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "%s açılamıyor: %s"
 
-#: libdnf/repo/Repo.cpp:1942
+#: libdnf/repo/Repo.cpp:1947
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "%ld kimliğine sahip bir günlük kaydı işleyici yok"

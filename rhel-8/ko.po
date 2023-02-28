@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-30 14:26+0200\n"
+"POT-Creation-Date: 2023-02-28 09:11+0100\n"
 "PO-Revision-Date: 2022-11-03 02:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
@@ -955,7 +955,7 @@ msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr "저장소 '%s'는 지원하지 않는 유형: 'type=%s'이며, 건너뜁니다."
 
 #: libdnf/repo/Repo.cpp:489 libdnf/repo/Repo.cpp:610 libdnf/repo/Repo.cpp:641
-#: libdnf/repo/Repo.cpp:1382
+#: libdnf/repo/Repo.cpp:1387
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr "repo '%s': 'basecachedir가 구성되어 있지 않습니다"
@@ -1018,100 +1018,100 @@ msgstr "repo %s: 0x%s를 이미 가져왔습니다"
 msgid "repo %s: imported key 0x%s."
 msgstr "repo %s: 0x%s 키를 가져왔습니다."
 
-#: libdnf/repo/Repo.cpp:1162
+#: libdnf/repo/Repo.cpp:1167
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "부활: repo '%s' 건너 뛰었으며, 메타링크가 없습니다."
 
-#: libdnf/repo/Repo.cpp:1181
+#: libdnf/repo/Repo.cpp:1186
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr "부활: repo '%s'건너 뛰었으며, 사용 가능한 해쉬가 없습니다."
 
-#: libdnf/repo/Repo.cpp:1204
+#: libdnf/repo/Repo.cpp:1209
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "부활 : '%s'에 실패하고, %s 합과 일치하지 않음."
 
-#: libdnf/repo/Repo.cpp:1210
+#: libdnf/repo/Repo.cpp:1215
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr "부활: '%s'는 부활 할 수 있습니다 - 메타링크 체크섬이 일치합니다."
 
-#: libdnf/repo/Repo.cpp:1235
+#: libdnf/repo/Repo.cpp:1240
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "부활: '%s'는 부활 할 수 있습니다 - repomd가 일치합니다."
 
-#: libdnf/repo/Repo.cpp:1237
+#: libdnf/repo/Repo.cpp:1242
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "부활: '%s'에 실패하고, 일치하지 않은 repomd."
 
-#: libdnf/repo/Repo.cpp:1255
+#: libdnf/repo/Repo.cpp:1260
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr "repo 목적지 디렉토리 \"%s\": %s 를 생성 할 수 없습니다"
 
-#: libdnf/repo/Repo.cpp:1261
+#: libdnf/repo/Repo.cpp:1266
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "임시 저장소 디렉토리를 만들 수 없습니다 \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1275
+#: libdnf/repo/Repo.cpp:1280
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "디렉토리를 만들 수 없습니다 \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1298
+#: libdnf/repo/Repo.cpp:1303
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "디렉토리 \"%s\"를 \"%s\": %s로 변경 할 수 없음"
 
-#: libdnf/repo/Repo.cpp:1321
+#: libdnf/repo/Repo.cpp:1326
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "repo: 캐쉬 사용: %s"
 
-#: libdnf/repo/Repo.cpp:1333
+#: libdnf/repo/Repo.cpp:1338
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "캐쉬만 사용 가능하지만 '%s'를 위해 캐쉬가 없습니다"
 
-#: libdnf/repo/Repo.cpp:1337
+#: libdnf/repo/Repo.cpp:1342
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "repo: 원격에서 내려받기 중: %s"
 
-#: libdnf/repo/Repo.cpp:1344
+#: libdnf/repo/Repo.cpp:1349
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr "repo를 위한 메타자료 내려받기에 실패하였습니다 '%s': %s"
 
-#: libdnf/repo/Repo.cpp:1370
+#: libdnf/repo/Repo.cpp:1375
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir(): SHA256 계산에 실패했습니다"
 
-#: libdnf/repo/Repo.cpp:1398
+#: libdnf/repo/Repo.cpp:1403
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr "persistdir \"%s\": %s 를 생성 할 수 없습니다"
 
-#: libdnf/repo/Repo.cpp:1775
+#: libdnf/repo/Repo.cpp:1780
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr "이력서는 byterangestart 매개 변수와 동시에 사용 할 수 없습니다"
 
-#: libdnf/repo/Repo.cpp:1792
+#: libdnf/repo/Repo.cpp:1797
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "PackageTarget 초기화에 실패했습니다: %s"
 
-#: libdnf/repo/Repo.cpp:1898
+#: libdnf/repo/Repo.cpp:1903
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "열 수 없습니다 %s: %s"
 
-#: libdnf/repo/Repo.cpp:1942
+#: libdnf/repo/Repo.cpp:1947
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "ID가 있는 로그 처리기 %ld가 존재하지 않습니다"
