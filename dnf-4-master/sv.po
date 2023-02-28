@@ -3,14 +3,14 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021, 2022.
 # Mikael Granberg <mikael@famgra.se>, 2020.
 # Vilhelm Prytz <vilhelm@prytznet.se>, 2020.
-# Luna Jernberg <bittin@reimu.nl>, 2021, 2022.
+# Luna Jernberg <bittin@reimu.nl>, 2021, 2022, 2023.
 # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-28 02:12+0000\n"
-"PO-Revision-Date: 2022-06-29 06:18+0000\n"
+"PO-Revision-Date: 2023-03-01 13:20+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/sv/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -429,7 +429,7 @@ msgstr "Kunde inte ladda MD_TYPE_PRIMARY."
 #: libdnf/dnf-sack.cpp:784
 #, c-format
 msgid "Opening repository primary data has failed: %s"
-msgstr "Öppning av förrådets primära data har misslyckats: %s"
+msgstr "Öppning av förråd primärdata misslyckades: %s"
 
 #: libdnf/dnf-sack.cpp:795
 #, c-format
