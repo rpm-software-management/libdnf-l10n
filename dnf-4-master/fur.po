@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-01 02:22+0000\n"
-"PO-Revision-Date: 2023-02-28 07:56+0000\n"
+"PO-Revision-Date: 2023-03-02 22:20+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fur/>\n"
@@ -45,7 +45,7 @@ msgstr "il valôr 1 nol è ametût"
 
 #: libdnf/conf/ConfigMain.cpp:209
 msgid "negative value is not allowed"
-msgstr ""
+msgstr "nol è consintût un valôr negatîf"
 
 #: libdnf/conf/ConfigMain.cpp:343
 #, c-format
@@ -189,33 +189,35 @@ msgstr "Nissun pachet dal modul atîf cjatât pal modul spec '%s'"
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
 msgstr ""
+"Impussibil instalâ il modul '%s' dal dipuesit \"fail-safe\" (a prove di "
+"erôrs)"
 
 #: libdnf/dnf-context.cpp:3567
 #, c-format
 msgid "No profile found matching '%s'"
-msgstr ""
+msgstr "Nissun profîl cjatât corispondent a '%s'"
 
 #: libdnf/dnf-context.cpp:3621
 #, c-format
 msgid "No match for package '%s' for module spec %s"
-msgstr ""
+msgstr "Nissune corispondence pal pachet '%s' pal modul spec %s"
 
 #: libdnf/dnf-context.cpp:3632
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
-msgstr ""
+msgstr "Probleme dilunc la instalazion pal flus '%2$s' dal modul '%1$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3641
 msgid "Problems appeared for module install request:"
-msgstr ""
+msgstr "A son vignûts fûr problemis pe richieste di instalazion dal modul:"
 
 #: libdnf/dnf-context.cpp:3700
 msgid "Problems appeared for module reset request:"
-msgstr ""
+msgstr "A son vignûts fûr problemis pe richieste di azerament dal modul:"
 
 #: libdnf/dnf-context.cpp:3701 libdnf/dnf-context.cpp:3760
 msgid "Problems appeared for module disable request:"
-msgstr ""
+msgstr "A son vignûts fûr problemis pe richieste di disabilitazion dal modul:"
 
 #: libdnf/dnf-context.cpp:3792
 #, c-format
@@ -223,6 +225,7 @@ msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
 msgstr ""
+"La operazion e puartarà tal modul '%s' il passaç dal flus '%s' al flus '%s'"
 
 #: libdnf/dnf-context.cpp:3796
 msgid ""
@@ -231,6 +234,10 @@ msgid ""
 "the module using 'microdnf module reset <module_name>' command. After you "
 "reset the module, you can install the other stream."
 msgstr ""
+"Nol è pussibil passâ ai flus abilitâts di un modul.\n"
+"Si consee di gjavâ dal modul ducj i contignûts instalâts e azerâ il modul "
+"doprant il comant 'microdnf module reset <non_modul>'. Dopo vê azerât il "
+"modul, tu puedis instalâ l'altri flus."
 
 #: libdnf/dnf-goal.cpp:107
 msgid "Could not depsolve transaction; "
@@ -323,7 +330,7 @@ msgstr "repo_add_solv() al à falât."
 #: libdnf/dnf-sack.cpp:415
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "Cjariament de cache de estension %s (%d) falît: "
 
 #: libdnf/dnf-sack.cpp:429
 #, c-format
