@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-02 02:18+0000\n"
-"PO-Revision-Date: 2023-03-02 22:20+0000\n"
+"PO-Revision-Date: 2023-03-05 05:24+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fur/>\n"
@@ -356,22 +356,23 @@ msgstr "nol è stât pussibil vierzi il file tmp: %s"
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
+"Dilunc la scriture de cache primarie %s la scriure di repowriter e je falide:"
+" %i, erôr %s"
 
 #: libdnf/dnf-sack.cpp:560
-#, fuzzy, c-format
-#| msgid "failed opening tmp file: %s"
+#, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr "nol è stât pussibil vierzi il file tmp: %s"
+msgstr "Nol è stât pussibil sierâ il file tmp %s: %s"
 
 #: libdnf/dnf-sack.cpp:570
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "Nol è stât pussibil doprâ la cache primarie a pene scrite: %s: "
 
 #: libdnf/dnf-sack.cpp:576
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "Nol è stât pussibil doprâ la cache primarie a pene scrite: %s"
 
 #: libdnf/dnf-sack.cpp:626
 #, c-format
@@ -566,11 +567,11 @@ msgstr "nol è stât pussibil gjavâ %s"
 
 #: libdnf/goal/Goal.cpp:78
 msgid "Ill-formed Selector, presence of multiple match objects in the filter"
-msgstr ""
+msgstr "Seletôr malformât, presince di plui ogjets corispondents tal filtri"
 
 #: libdnf/goal/Goal.cpp:79
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
-msgstr ""
+msgstr "Seletôr malformât doprât pe operazion, gjenar di confront sbaliât"
 
 #: libdnf/goal/Goal.cpp:90 libdnf/goal/Goal.cpp:117
 msgid " does not belong to a distupgrade repository"
@@ -888,12 +889,14 @@ msgstr ""
 #: libdnf/module/ModulePackageContainer.cpp:1704
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
-msgstr "Impussibil cjariâ i dâts modulârs a prove di erôr su '%s'"
+msgstr "Impussibil cjariâ i dâts a prove di erôrs (fail-safe) modulârs su '%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1710
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
-msgstr "Impussibil cjariâ i dâts modulârs a prove di erôr pal modul '%s:%s'"
+msgstr ""
+"Impussibil cjariâ i dâts a prove di erôrs (fail-safe) modulârs pal modul "
+"'%s:%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1791
 #, c-format
