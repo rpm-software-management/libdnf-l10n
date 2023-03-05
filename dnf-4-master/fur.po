@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-02 02:18+0000\n"
+"POT-Creation-Date: 2023-03-05 02:25+0000\n"
 "PO-Revision-Date: 2023-03-05 05:24+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
@@ -356,8 +356,8 @@ msgstr "nol è stât pussibil vierzi il file tmp: %s"
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
-"Dilunc la scriture de cache primarie %s la scriure di repowriter e je falide:"
-" %i, erôr %s"
+"Dilunc la scriture de cache primarie %s la scriure di repowriter e je "
+"falide: %i, erôr %s"
 
 #: libdnf/dnf-sack.cpp:560
 #, c-format
@@ -895,8 +895,8 @@ msgstr "Impussibil cjariâ i dâts a prove di erôrs (fail-safe) modulârs su '%
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
-"Impussibil cjariâ i dâts a prove di erôrs (fail-safe) modulârs pal modul "
-"'%s:%s'"
+"Impussibil cjariâ i dâts a prove di erôrs (fail-safe) modulârs pal modul '%s:"
+"%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1791
 #, c-format
