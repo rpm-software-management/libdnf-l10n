@@ -2,13 +2,13 @@
 # Luigi Toscano <luigi.toscano@tiscali.it>, 2017. #zanata
 # Giovanni Grieco <giovanni.grc96@gmail.com>, 2018. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
-# Alessio <alciregi@posteo.net>, 2021.
+# Alessio <alciregi@posteo.net>, 2021, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-16 02:04+0000\n"
-"PO-Revision-Date: 2021-08-31 17:04+0000\n"
+"PO-Revision-Date: 2023-03-31 06:20+0000\n"
 "Last-Translator: Alessio <alciregi@posteo.net>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/it/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -110,27 +110,30 @@ msgstr "GetValue (): valore non impostato"
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr ""
+"Non è possibile abilitare contemporaneamente più stream per il modulo '%s'"
 
 #: libdnf/dnf-context.cpp:3233 libdnf/dnf-context.cpp:3251
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr ""
+"Non è possibile abilitare lo stream '%2$s' per il modulo '%1$s': lo stato "
+"del modulo è già stato modificato"
 
 #: libdnf/dnf-context.cpp:3300
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
-msgstr ""
+msgstr "Problema di dipendenze modulari con i Default: %s"
 
 #: libdnf/dnf-context.cpp:3303
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr ""
+msgstr "Problema di dipendenze modulari con gli ultimi moduli: %s"
 
 #: libdnf/dnf-context.cpp:3307
 #, c-format
 msgid "Modular dependency problem: %s"
-msgstr ""
+msgstr "Problema di dipendenze modulari: %s"
 
 #: libdnf/dnf-context.cpp:3330 libdnf/dnf-context.cpp:3354
 #: libdnf/dnf-context.cpp:3365 libdnf/dnf-context.cpp:3404
@@ -243,12 +246,12 @@ msgstr[0] ""
 #: libdnf/dnf-goal.cpp:117
 #, c-format
 msgid " Problem %1$i: %2$s\n"
-msgstr ""
+msgstr " Problema %1$i: %2$s\n"
 
 #: libdnf/dnf-goal.cpp:119
 #, c-format
 msgid " Problem: %s\n"
-msgstr ""
+msgstr " Problema: %s\n"
 
 #: libdnf/dnf-rpmts.cpp:79
 #, c-format
@@ -256,6 +259,8 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
+"Nessun metadato modulare disponibile per il pacchetto modulare '%s'; non si "
+"può installare sul sistema"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
@@ -265,7 +270,7 @@ msgstr "la firma non verifica per %s"
 #: libdnf/dnf-rpmts.cpp:129 libdnf/dnf-rpmts.cpp:174
 #, c-format
 msgid "failed to open(generic error): %s"
-msgstr "impossibile aprire (errore generico): %s"
+msgstr "impossibile da aprire (errore generico): %s"
 
 #: libdnf/dnf-rpmts.cpp:142
 #, c-format
@@ -1183,7 +1188,7 @@ msgstr ""
 
 #: libdnf/transaction/Transformer.cpp:76
 msgid "Database Corrupted: no row 'version' in table 'config'"
-msgstr ""
+msgstr "Database Corrotto: nella tabella 'config' manca la riga 'version'"
 
 #: libdnf/transaction/Transformer.cpp:681
 msgid "Transformer: can't open history persist dir"
