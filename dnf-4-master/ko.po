@@ -4,13 +4,13 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # simmon <simmon@nplob.com>, 2021.
 # Kim InSoo <simmon@nplob.com>, 2022.
-# 김인수 <simmon@nplob.com>, 2022.
+# 김인수 <simmon@nplob.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-31 01:58+0000\n"
-"PO-Revision-Date: 2022-11-03 02:19+0000\n"
+"PO-Revision-Date: 2023-04-01 09:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ko/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -562,16 +562,14 @@ msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr "조작에 잘못 형성된 선택자, 잘못된 비교 유형"
 
 #: libdnf/goal/Goal.cpp:90
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s  does not belong to a distupgrade repository"
-msgstr " distupgrade 저장소에 속하지 않습니다"
+msgstr "%s에서 %s  는 distupgrade 저장소에 속하지 않습니다"
 
 #: libdnf/goal/Goal.cpp:91
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s  has inferior architecture"
-msgstr " 하위 구조"
+msgstr "%s에서 %s  는 하위 구조를 갖고 있습니다"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -611,95 +609,80 @@ msgid "cannot install the best candidate for the job"
 msgstr "작업에 가장 적합한 선택을 설치 할 수 없습니다"
 
 #: libdnf/goal/Goal.cpp:101
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by modular filtering"
+#, c-format
 msgid "package %s from %s is filtered out by modular filtering"
-msgstr "꾸러미 %s가 모듈식으로 걸러 제거됩니다"
+msgstr "%s에서 꾸러미 %s가 모듈식으로 걸러 제거됩니다"
 
 #: libdnf/goal/Goal.cpp:102
-#, fuzzy, c-format
-#| msgid "package %s does not have a compatible architecture"
+#, c-format
 msgid "package %s from %s does not have a compatible architecture"
-msgstr "꾸러미 %s에 호환 구조가 없습니다"
+msgstr "%s에서 꾸러미 %s는 호환 구조가 없습니다"
 
 #: libdnf/goal/Goal.cpp:103
-#, fuzzy, c-format
-#| msgid "package %s is not installable"
+#, c-format
 msgid "package %s from %s is not installable"
-msgstr "꾸러미 %s 가 설치 할 수 없습니다"
+msgstr "%s에서 꾸러미 %s는 설치 할 수 없습니다"
 
 #: libdnf/goal/Goal.cpp:104
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by exclude filtering"
+#, c-format
 msgid "package %s from %s is filtered out by exclude filtering"
-msgstr "꾸러미 %s가 걸러지는 것에서 제외되었습니다"
+msgstr "%sㅇ[사 꾸러미 %s가 걸러지는 것에서 제외되었습니다"
 
 #: libdnf/goal/Goal.cpp:105
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by %s"
+#, c-format
 msgid "nothing provides %s needed by %s from %s"
-msgstr "%s에 필요한 %s가 제공되지 않았습니다"
+msgstr "어떤 것도 %s에서 %s에 의해 필요한 %s를 제공하지 않습니다"
 
 #: libdnf/goal/Goal.cpp:106
-#, fuzzy, c-format
-#| msgid "cannot install both %s and %s"
+#, c-format
 msgid "cannot install both %s from %s and %s from %s"
-msgstr "%s 와 %s 모두 설치 할 수 없습니다"
+msgstr "%s에서 %s 및 %s에서 %s 모두 설치 할 수 없습니다"
 
 #: libdnf/goal/Goal.cpp:107
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by %s"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by %s from %s"
-msgstr "꾸러미 %s은 %s에서 제공된 %s와 충돌합니다"
+msgstr "꾸러미 %s에서 %s는 %s에서 %s에 의해 제공된 %s와 충돌합니다"
 
 #: libdnf/goal/Goal.cpp:108
-#, fuzzy, c-format
-#| msgid "package %s obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s obsoletes %s provided by %s from %s"
-msgstr "꾸러미 %s가 %s에의해 제공된 %s를 폐기합니다"
+msgstr "%s에서 꾸러미 %s는 %s에서 %s의해 제공된 %s를 폐기합니다"
 
 #: libdnf/goal/Goal.cpp:109
-#, fuzzy, c-format
-#| msgid "installed package %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed package %s obsoletes %s provided by %s from %s"
-msgstr "설치된 꾸러미 %s는 %s에 의해 %s 폐기되었습니다"
+msgstr "설치된 꾸러미 %s는 %s에서 %s에 의해 제공된 %s를 폐기합니다"
 
 #: libdnf/goal/Goal.cpp:110
-#, fuzzy, c-format
-#| msgid "package %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "꾸러미 %s가 %s에 의해 %s가 암시적으로 폐기되었습니다"
+msgstr "%s에서 꾸러미 %s가 %s에서 %s에 의해 제공된 %s를 암시적으로 폐기합니다"
 
 #: libdnf/goal/Goal.cpp:111
-#, fuzzy, c-format
-#| msgid "package %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
-msgstr "꾸러미 %s는 %s가 필요하지만, 공급자가 없어 설치 할 수 없습니다"
+msgstr "%s에서 꾸러미 %s는 %s가 필요하지만, 공급자가 없어 설치 할 수 없습니다"
 
 #: libdnf/goal/Goal.cpp:112
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by itself"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by itself"
-msgstr "꾸러미 %s가 자체적으로 제공된 %s와 충돌합니다"
+msgstr "%s에서 꾸러미 %s는 자체적으로 제공된 %s와 충돌합니다"
 
 #: libdnf/goal/Goal.cpp:113
-#, fuzzy, c-format
-#| msgid "both package %s and %s obsolete %s"
+#, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
-msgstr "꾸러미 %s 와 %s 는 모두 %s에서 폐기되었습니다"
+msgstr "%s에서 꾸러미 %s 및 %s에서 %s는 모두 %s에서 폐기되었습니다"
 
 #: libdnf/goal/Goal.cpp:117
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s does not belong to a distupgrade repository"
-msgstr " distupgrade 저장소에 속하지 않습니다"
+msgstr "%s에서 %s는 distupgrade 저장소에 속하지 않습니다"
 
 #: libdnf/goal/Goal.cpp:118
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s has inferior architecture"
-msgstr " 하위 구조"
+msgstr "%s에서 %s는 하위 구조를 갖습니다"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -715,77 +698,65 @@ msgid "cannot install the best update candidate for module "
 msgstr "모듈에 가장 적합한 최신화 추천을 설치 할 수 없습니다 "
 
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
-#, fuzzy, c-format
-#| msgid "module %s is disabled"
+#, c-format
 msgid "module %s from %s is disabled"
-msgstr "모듈 %s를 사용할 수 없습니다"
+msgstr "모듈 %s에서 %s는 사용 할 수 없습니다"
 
 #: libdnf/goal/Goal.cpp:129
-#, fuzzy, c-format
-#| msgid "module %s does not have a compatible architecture"
+#, c-format
 msgid "module %s from %s does not have a compatible architecture"
-msgstr "모듈 %s 에 호환되는 구조가 없습니다"
+msgstr "모듈 %s에서 %s는 호환되는 구조를 가지고 있지 않습니다"
 
 #: libdnf/goal/Goal.cpp:130
-#, fuzzy, c-format
-#| msgid "module %s is not installable"
+#, c-format
 msgid "module %s from %s is not installable"
-msgstr "모듈 %s 를 설치 할 수 없습니다"
+msgstr "%s에서 모듈 %s는 설치 할 수 없습니다"
 
 #: libdnf/goal/Goal.cpp:132
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by module %s"
+#, c-format
 msgid "nothing provides %s needed by module %s from %s"
-msgstr "모듈 %s 에 필요한 %s 가 제공되지 않았습니다"
+msgstr "어떤 것도 %s에서 모듈 %s에 의해 필요한 %s를 제공하지 않습니다"
 
 #: libdnf/goal/Goal.cpp:133
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "cannot install both modules %s from %s and %s from %s"
-msgstr "모듈 %s 와 %s를 모두 설치 할 수 없습니다"
+msgstr "%s에서 모듈 %s 및 %s에서 %s를 모두 설치 할 수 없습니다"
 
 #: libdnf/goal/Goal.cpp:134
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by %s"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
-msgstr "모듈 %s가 %s에 의해 제공된 %s와 충돌합니다"
+msgstr "%s에서 모듈 %s가 %s에서 %s에 의해 제공된 %s와 충돌합니다"
 
 #: libdnf/goal/Goal.cpp:135
-#, fuzzy, c-format
-#| msgid "module %s obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s obsoletes %s provided by %s from %s"
-msgstr "모듈 %s가 %s에 의해 제공된 %s를 폐기하였습니다"
+msgstr "%s에서 모듈 %s가 %s에서 %s에 의해 제공된 %s를 폐기합니다"
 
 #: libdnf/goal/Goal.cpp:136
-#, fuzzy, c-format
-#| msgid "installed module %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed module %s obsoletes %s provided by %s from %s"
-msgstr "설치된 모듈 %s 가 %s의해 제공된 %s를 폐기합니다"
+msgstr "설치된 모듈 %s 가 %s에서 %s에 의해 제공된 %s를 폐기합니다"
 
 #: libdnf/goal/Goal.cpp:137
-#, fuzzy, c-format
-#| msgid "module %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "모듈 %s가 %s 에 의해 %s를 암시적으로 폐기되었습니다"
+msgstr "%s에 의해 모듈 %s가 %s에서 %s에 의해 %s를 암시적으로 폐기합니다"
 
 #: libdnf/goal/Goal.cpp:138
-#, fuzzy, c-format
-#| msgid "module %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
-msgstr "모듈 %s 에 %s 가 필요하지만 공급 업체가 없어 설치 할 수 없습니다"
+msgstr "%s에서 모듈 %s는 %s 가 필요하지만, 공급 업체가 없어 설치 할 수 없습니다"
 
 #: libdnf/goal/Goal.cpp:139
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by itself"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by itself"
-msgstr "모듈 %s가 자체적으로 제공된 %s와 충돌합니다"
+msgstr "%s에서 모듈 %s가 자체적으로 제공된 %s와 충돌합니다"
 
 #: libdnf/goal/Goal.cpp:140
-#, fuzzy, c-format
-#| msgid "both module %s and %s obsolete %s"
+#, c-format
 msgid "both module %s from %s and %s from %s obsolete %s"
-msgstr "모듈 %s와 %s가 %s에서 폐기되었습니다"
+msgstr "%s에서 모듈 %s 및 %s에서 %s 모두는 %s에서 폐기되었습니다"
 
 #: libdnf/goal/Goal.cpp:1168
 msgid "no solver set"
