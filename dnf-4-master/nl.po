@@ -1,11 +1,11 @@
-# Geert Warrink <geert.warrink@onsnet.nu>, 2017. #zanata, 2020, 2021, 2022.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2017. #zanata, 2020, 2021, 2022, 2023.
 # Richard E. van der Luit <fedoraproject@veneax.nl>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-01 01:53+0000\n"
-"PO-Revision-Date: 2022-06-24 07:18+0000\n"
+"PO-Revision-Date: 2023-04-02 15:20+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/nl/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -583,16 +583,14 @@ msgstr ""
 "vergelijkingstype"
 
 #: libdnf/goal/Goal.cpp:90
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s  does not belong to a distupgrade repository"
-msgstr " behoort niet tot een distupgrade repository"
+msgstr "%s van %s  behoort niet tot een distupgrade repository"
 
 #: libdnf/goal/Goal.cpp:91
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s  has inferior architecture"
-msgstr " heeft een inferieure architectuur"
+msgstr "%s van %s  heeft een inferieure architectuur"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -632,96 +630,82 @@ msgid "cannot install the best candidate for the job"
 msgstr "kan de beste kandidaat voor de taak niet installeren"
 
 #: libdnf/goal/Goal.cpp:101
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by modular filtering"
+#, c-format
 msgid "package %s from %s is filtered out by modular filtering"
-msgstr "pakket %s wordt uitgefilterd door modulaire filtering"
+msgstr "pakket %s van %s wordt uitgefilterd door modulaire filtering"
 
 #: libdnf/goal/Goal.cpp:102
-#, fuzzy, c-format
-#| msgid "package %s does not have a compatible architecture"
+#, c-format
 msgid "package %s from %s does not have a compatible architecture"
-msgstr "pakket %s heeft geen compatibele architectuur"
+msgstr "pakket %s van %s heeft geen compatibele architectuur"
 
 #: libdnf/goal/Goal.cpp:103
-#, fuzzy, c-format
-#| msgid "package %s is not installable"
+#, c-format
 msgid "package %s from %s is not installable"
-msgstr "pakket %s is niet installeerbaar"
+msgstr "pakket %s van %s is niet installeerbaar"
 
 #: libdnf/goal/Goal.cpp:104
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by exclude filtering"
+#, c-format
 msgid "package %s from %s is filtered out by exclude filtering"
-msgstr "pakket %s wordt uitgefilterd door uitsluitend filteren"
+msgstr "pakket %s van %s wordt uitgefilterd door uitsluitend filteren"
 
 #: libdnf/goal/Goal.cpp:105
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by %s"
+#, c-format
 msgid "nothing provides %s needed by %s from %s"
-msgstr "niets biedt %s welke nodig is voor %s"
+msgstr "niets biedt %s welke nodig is voor %s van %s"
 
 #: libdnf/goal/Goal.cpp:106
-#, fuzzy, c-format
-#| msgid "cannot install both %s and %s"
+#, c-format
 msgid "cannot install both %s from %s and %s from %s"
-msgstr "kan niet zowel %s als %s installeren"
+msgstr "kan niet zowel %s van %s als %s van %s installeren"
 
 #: libdnf/goal/Goal.cpp:107
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by %s"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by %s from %s"
-msgstr "pakket %s conflicteert met %s aangeboden door %s"
+msgstr "pakket %s van %s conflicteert met %s aangeboden door %s van %s"
 
 #: libdnf/goal/Goal.cpp:108
-#, fuzzy, c-format
-#| msgid "package %s obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s obsoletes %s provided by %s from %s"
-msgstr "pakket %s veroudert %s aangeboden door %s"
+msgstr "pakket %s van %s veroudert %s aangeboden door %s van %s"
 
 #: libdnf/goal/Goal.cpp:109
-#, fuzzy, c-format
-#| msgid "installed package %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed package %s obsoletes %s provided by %s from %s"
-msgstr "geïnstalleerde pakket %s veroudert %s aangeboden door %s"
+msgstr "geïnstalleerde pakket %s veroudert %s aangeboden door %s van %s"
 
 #: libdnf/goal/Goal.cpp:110
-#, fuzzy, c-format
-#| msgid "package %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "pakket %s veroudert %s aangeboden door %s impliciet"
+msgstr "pakket %s van %s veroudert %s aangeboden door %s van %s impliciet"
 
 #: libdnf/goal/Goal.cpp:111
-#, fuzzy, c-format
-#| msgid "package %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
-"pakket %s vereist %s, maar niets van de aanbieders kan worden geïnstalleerd"
+"pakket %s van %s vereist %s, maar niets van de aanbieders kan worden "
+"geïnstalleerd"
 
 #: libdnf/goal/Goal.cpp:112
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by itself"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by itself"
-msgstr "pakket %s conflicteert met %s welke het zelf aanbood"
+msgstr "pakket %s van %s conflicteert met %s welke het zelf aanbood"
 
 #: libdnf/goal/Goal.cpp:113
-#, fuzzy, c-format
-#| msgid "both package %s and %s obsolete %s"
+#, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
-msgstr "zowel pakket %s als %s verouderen %s"
+msgstr "zowel pakket %s van %s als %s van %s verouderen %s"
 
 #: libdnf/goal/Goal.cpp:117
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s does not belong to a distupgrade repository"
-msgstr " behoort niet tot een distupgrade repository"
+msgstr "%s van %s behoort niet tot een distupgrade repository"
 
 #: libdnf/goal/Goal.cpp:118
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s has inferior architecture"
-msgstr " heeft een inferieure architectuur"
+msgstr "%s van %s heeft een inferieure architectuur"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -737,78 +721,67 @@ msgid "cannot install the best update candidate for module "
 msgstr "kan de beste update-kandidaat voor module niet installeren "
 
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
-#, fuzzy, c-format
-#| msgid "module %s is disabled"
+#, c-format
 msgid "module %s from %s is disabled"
-msgstr "module %s is uitgeschakeld"
+msgstr "module %s van %s is uitgeschakeld"
 
 #: libdnf/goal/Goal.cpp:129
-#, fuzzy, c-format
-#| msgid "module %s does not have a compatible architecture"
+#, c-format
 msgid "module %s from %s does not have a compatible architecture"
-msgstr "module %s heeft geen compatibele architectuur"
+msgstr "module %s van %s heeft geen compatibele architectuur"
 
 #: libdnf/goal/Goal.cpp:130
-#, fuzzy, c-format
-#| msgid "module %s is not installable"
+#, c-format
 msgid "module %s from %s is not installable"
-msgstr "module %s is niet installeerbaar"
+msgstr "module %s van %s is niet installeerbaar"
 
 #: libdnf/goal/Goal.cpp:132
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by module %s"
+#, c-format
 msgid "nothing provides %s needed by module %s from %s"
-msgstr "niets biedt %s aan welke nodig is voor module %s"
+msgstr "niets biedt %s aan welke nodig is voor module %s van %s"
 
 #: libdnf/goal/Goal.cpp:133
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "cannot install both modules %s from %s and %s from %s"
-msgstr "kan niet zowel modules %s als %s installeren"
+msgstr "kan niet zowel modules %s van %s als %s van %s installeren"
 
 #: libdnf/goal/Goal.cpp:134
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by %s"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
-msgstr "module %s conflicteert met %s aangeboden door %s"
+msgstr "module %s van %s conflicteert met %s aangeboden door %s van %s"
 
 #: libdnf/goal/Goal.cpp:135
-#, fuzzy, c-format
-#| msgid "module %s obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s obsoletes %s provided by %s from %s"
-msgstr "module %s veroudert %s aangeboden door %s"
+msgstr "module %s van %s veroudert %s aangeboden door %s van %s"
 
 #: libdnf/goal/Goal.cpp:136
-#, fuzzy, c-format
-#| msgid "installed module %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed module %s obsoletes %s provided by %s from %s"
-msgstr "geïnstalleerde module %s veroudert %s aangeboden door %s"
+msgstr "geïnstalleerde module %s veroudert %s aangeboden door %s van %s"
 
 #: libdnf/goal/Goal.cpp:137
-#, fuzzy, c-format
-#| msgid "module %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "module %s veroudert %s aangeboden door %s impliciet"
+msgstr "module %s van %s veroudert %s aangeboden door %s van %s impliciet"
 
 #: libdnf/goal/Goal.cpp:138
-#, fuzzy, c-format
-#| msgid "module %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
-"module %s vereist %s, maar niets van de aanbieders kan worden geïnstalleerd"
+"module %s van %s vereist %s, maar niets van de aanbieders kan worden "
+"geïnstalleerd"
 
 #: libdnf/goal/Goal.cpp:139
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by itself"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by itself"
-msgstr "module %s conflicteert met %s welke het zelf aanbiedt"
+msgstr "module %s van %s conflicteert met %s welke het zelf aanbiedt"
 
 #: libdnf/goal/Goal.cpp:140
-#, fuzzy, c-format
-#| msgid "both module %s and %s obsolete %s"
+#, c-format
 msgid "both module %s from %s and %s from %s obsolete %s"
-msgstr "zowel module %s als %s verouderen %s"
+msgstr "zowel module %s van %s als %s van %s verouderen %s"
 
 #: libdnf/goal/Goal.cpp:1168
 msgid "no solver set"
