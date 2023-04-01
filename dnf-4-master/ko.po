@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-31 01:58+0000\n"
+"POT-Creation-Date: 2023-04-01 01:53+0000\n"
 "PO-Revision-Date: 2023-04-01 09:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
@@ -746,7 +746,8 @@ msgstr "%s에 의해 모듈 %s가 %s에서 %s에 의해 %s를 암시적으로 �
 #, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
-msgstr "%s에서 모듈 %s는 %s 가 필요하지만, 공급 업체가 없어 설치 할 수 없습니다"
+msgstr ""
+"%s에서 모듈 %s는 %s 가 필요하지만, 공급 업체가 없어 설치 할 수 없습니다"
 
 #: libdnf/goal/Goal.cpp:139
 #, c-format
