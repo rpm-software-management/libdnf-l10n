@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-02 01:54+0000\n"
-"PO-Revision-Date: 2023-04-01 09:19+0000\n"
+"PO-Revision-Date: 2023-04-05 02:20+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ka/>\n"
@@ -651,33 +651,30 @@ msgstr ""
 "დაყენებული პაკეტი %s მოძველებულად აცხადებს %s, რომელსაც გვაწოდებს %s %s-დან"
 
 #: libdnf/goal/Goal.cpp:110
-#, fuzzy, c-format
-#| msgid "package %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s implicitly obsoletes %s provided by %s from %s"
 msgstr ""
-"პაკეტი %s პირდაპირ ნიშნავს %s-ს, რომელიც წარმოდგენილია %s-ის სახით, "
-"მოძველებულად"
+"პაკეტი %s %s-დან პირდაპირ ნიშნავს %s-ს, რომელიც წარმოდგენილია %s-ის სახით %s-"
+"დან, მოძველებულად"
 
 #: libdnf/goal/Goal.cpp:111
-#, fuzzy, c-format
-#| msgid "package %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
-"პაკეტ %s-ს სჭირდება %s, მაგრამ ვერ ვაყენებ ვერცერთ პაკეტს, რომელიც მას "
-"წარმოადგენს"
+"პაკეტს %s-ს %s-დან სჭირდება %s, მაგრამ ვერ ვაყენებ ვერცერთ პაკეტს, რომელიც "
+"მას წარმოადგენს"
 
 #: libdnf/goal/Goal.cpp:112
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by itself"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by itself"
-msgstr "პაკეტ %s-ს გააჩნია კონფლიქტი %s, რომელსაც თვითონვე წარმოადგენს"
+msgstr ""
+"პაკეტს %s-ს %s-დან გააჩნია კონფლიქტი %s-სთან, რომელსაც თვითონვე წარმოადგენს"
 
 #: libdnf/goal/Goal.cpp:113
-#, fuzzy, c-format
-#| msgid "both package %s and %s obsolete %s"
+#, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
-msgstr "ორივე პაკეტი %s და %s, მოძველებულად ნიშნავს %s-ს"
+msgstr "ორივე პაკეტი %s %s-დან და %s %s-დან, მოძველებულად ნიშნავს %s-ს"
 
 #: libdnf/goal/Goal.cpp:117
 #, c-format
@@ -703,83 +700,76 @@ msgid "cannot install the best update candidate for module "
 msgstr "მოდულის განახლების საუკეთესო კანდიდატის დაყენების შეცდომა "
 
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
-#, fuzzy, c-format
-#| msgid "module %s is disabled"
+#, c-format
 msgid "module %s from %s is disabled"
-msgstr "მოდული %s გამორთულია"
+msgstr "მოდული %s %s-დან გამორთულია"
 
 #: libdnf/goal/Goal.cpp:129
-#, fuzzy, c-format
-#| msgid "module %s does not have a compatible architecture"
+#, c-format
 msgid "module %s from %s does not have a compatible architecture"
-msgstr "მოდულ %s-ს თავსებადი არქტიტექტურა არ გააჩნია"
+msgstr "მოდულს %s %s-დან თავსებადი არქტიტექტურა არ გააჩნია"
 
 #: libdnf/goal/Goal.cpp:130
-#, fuzzy, c-format
-#| msgid "module %s is not installable"
+#, c-format
 msgid "module %s from %s is not installable"
-msgstr "მოდული %s დაყენებადი არაა"
+msgstr "მოდული %s %s-დან დაყენებადი არაა"
 
 #: libdnf/goal/Goal.cpp:132
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by module %s"
+#, c-format
 msgid "nothing provides %s needed by module %s from %s"
-msgstr "არაფერი წარმოადგენს %s-ს, რომელიც საჭიროა მოდულისთვის %s"
+msgstr "არაფერი წარმოადგენს %s-ს, რომელიც საჭიროა მოდულისთვის %s %s-დან"
 
 #: libdnf/goal/Goal.cpp:133
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "cannot install both modules %s from %s and %s from %s"
-msgstr "ორივე მოდულის, %s და %s ერთდროულად დაყენება შეუძლებელია"
+msgstr "ორივე მოდულის, %s %s-დან და %s %s-დან ერთდროულად დაყენება შეუძლებელია"
 
 #: libdnf/goal/Goal.cpp:134
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by %s"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
-msgstr "მოდულ %s-ს აქვს კონფლიქტი %s-თან, რომელიც წარმოდგენილია %s-ის მიერ"
+msgstr ""
+"მოდულს %s %s-დან აქვს კონფლიქტი %s-თან, რომელიც წარმოდგენილია %s-ის მიერ "
+"%s-დან"
 
 #: libdnf/goal/Goal.cpp:135
-#, fuzzy, c-format
-#| msgid "module %s obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s obsoletes %s provided by %s from %s"
 msgstr ""
-"მოდული %s მონიშნულია მოძველებულად %s-ის მიერ, რომელიც წარმოდგენილია %s-ით"
+"მოდული %s %s-დან მონიშნულია მოძველებულად %s-ის მიერ, რომელიც წარმოდგენილია "
+"%s-ით %s-დან"
 
 #: libdnf/goal/Goal.cpp:136
-#, fuzzy, c-format
-#| msgid "installed module %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed module %s obsoletes %s provided by %s from %s"
 msgstr ""
 "დაყენებული მოდული %s მოძველებულად ნიშნავს %s-ს, რომელიც წარმოდგენილია %s-ის "
-"სახით"
+"სახით %s-დან"
 
 #: libdnf/goal/Goal.cpp:137
-#, fuzzy, c-format
-#| msgid "module %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
 msgstr ""
-"მოდული %s პირდაპირ ნიშნავს მოძველებულად %s-ს, რომელიც წარმოდგენილია %s-ის "
-"სახით"
+"მოდული %s %s-დან პირდაპირ ნიშნავს მოძველებულად %s-ს, რომელიც წარმოდგენილია "
+"%s-ის სახით %s-დან"
 
 #: libdnf/goal/Goal.cpp:138
-#, fuzzy, c-format
-#| msgid "module %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
-"მოდულ %s-ს სჭირდება %s, მაგრამ შესაბამისი ყველა პაკეტის დაყენება შეუძლებელია"
+"მოდულს %s %s-დან სჭირდება %s, მაგრამ შესაბამისი ყველა პაკეტის დაყენება "
+"შეუძლებელია"
 
 #: libdnf/goal/Goal.cpp:139
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by itself"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by itself"
-msgstr "მოდულს %s გააჩნია კონფლიქტი %s-თან, რომელსაც თვითონვე წარმოადგენს"
+msgstr ""
+"მოდულს %s %s-დან გააჩნია კონფლიქტი %s-თან, რომელსაც თვითონვე წარმოადგენს"
 
 #: libdnf/goal/Goal.cpp:140
-#, fuzzy, c-format
-#| msgid "both module %s and %s obsolete %s"
+#, c-format
 msgid "both module %s from %s and %s from %s obsolete %s"
-msgstr "ორივე მოდული %s და %s ნიშნავენ %s-ს მოძველებულად ნიშნავენ"
+msgstr "ორივე მოდული %s %s-დან და %s %s-დან %s-ს მოძველებულად ნიშნავენ"
 
 #: libdnf/goal/Goal.cpp:1168
 msgid "no solver set"
