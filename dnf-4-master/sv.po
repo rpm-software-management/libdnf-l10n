@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-02 01:54+0000\n"
-"PO-Revision-Date: 2023-03-01 13:20+0000\n"
+"PO-Revision-Date: 2023-04-05 02:20+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/sv/>\n"
@@ -578,16 +578,14 @@ msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr "Felformulerad väljare använd för åtgärden, felaktig jämförelsetyp"
 
 #: libdnf/goal/Goal.cpp:90
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s  does not belong to a distupgrade repository"
-msgstr " tillhör inte något dist-uppgraderingsförråd"
+msgstr "%s från %s   tillhör inte något dist-uppgraderingsförråd"
 
 #: libdnf/goal/Goal.cpp:91
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s  has inferior architecture"
-msgstr " har underarkitektur"
+msgstr "%s från %s   har underarkitektur"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -628,95 +626,81 @@ msgid "cannot install the best candidate for the job"
 msgstr "det går inte att installera den bästa kandidaten för jobbet"
 
 #: libdnf/goal/Goal.cpp:101
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by modular filtering"
+#, c-format
 msgid "package %s from %s is filtered out by modular filtering"
-msgstr "paketet %s är utfiltrerat av modulfiltrering"
+msgstr "paket %s från %s är utfiltrerat av modulfiltrering"
 
 #: libdnf/goal/Goal.cpp:102
-#, fuzzy, c-format
-#| msgid "package %s does not have a compatible architecture"
+#, c-format
 msgid "package %s from %s does not have a compatible architecture"
-msgstr "paketet %s har inte en kompatibel arkitektur"
+msgstr "paket %s från %s har inte en kompatibel arkitektur"
 
 #: libdnf/goal/Goal.cpp:103
-#, fuzzy, c-format
-#| msgid "package %s is not installable"
+#, c-format
 msgid "package %s from %s is not installable"
-msgstr "paketet %s är inte installerbart"
+msgstr "paket %s från %s är inte installerbart"
 
 #: libdnf/goal/Goal.cpp:104
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by exclude filtering"
+#, c-format
 msgid "package %s from %s is filtered out by exclude filtering"
-msgstr "paketet %s är utfiltrerat av uteslutningsfiltrering"
+msgstr "paket %s från %s är utfiltrerat av uteslutningsfiltrering"
 
 #: libdnf/goal/Goal.cpp:105
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by %s"
+#, c-format
 msgid "nothing provides %s needed by %s from %s"
-msgstr "inget tillhandahåller %s som behövs av %s"
+msgstr "inget tillhandahåller %s som behövs av %s från %s"
 
 #: libdnf/goal/Goal.cpp:106
-#, fuzzy, c-format
-#| msgid "cannot install both %s and %s"
+#, c-format
 msgid "cannot install both %s from %s and %s from %s"
-msgstr "det går inte att installera både %s och %s"
+msgstr "det går inte att installera både %s från %s och %s från %s"
 
 #: libdnf/goal/Goal.cpp:107
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by %s"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by %s from %s"
-msgstr "paketet %s står i konflikt med %s som tillhandahålls av %s"
+msgstr ""
+"paket %s från %s står i konflikt med %s som tillhandahålls av %s från %s"
 
 #: libdnf/goal/Goal.cpp:108
-#, fuzzy, c-format
-#| msgid "package %s obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s obsoletes %s provided by %s from %s"
-msgstr "paketet %s fasar ut %s som tillhandahålls av %s"
+msgstr "paket %s från %s fasar ut %s som tillhandahålls av %s från %s"
 
 #: libdnf/goal/Goal.cpp:109
-#, fuzzy, c-format
-#| msgid "installed package %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed package %s obsoletes %s provided by %s from %s"
-msgstr "det installerade paketet %s fasar ut %s som tillhandahålls av %s"
+msgstr "installerade paketet %s fasar ut %s som tillhandahålls av %s från %s"
 
 #: libdnf/goal/Goal.cpp:110
-#, fuzzy, c-format
-#| msgid "package %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "paketet %s fasar implicit ut %s som tillhandahålls av %s"
+msgstr "paket %s från %s fasar implicit ut %s som tillhandahålls av %s från %s"
 
 #: libdnf/goal/Goal.cpp:111
-#, fuzzy, c-format
-#| msgid "package %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
-msgstr "paketet %s behöver %s, men ingen av leverantörerna kan installeras"
+msgstr "paket %s från %s kräver %s, men ingen av leverantörerna kan installeras"
 
 #: libdnf/goal/Goal.cpp:112
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by itself"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by itself"
-msgstr "paketet %s står i konflikt med %s som det tillhandahåller själv"
+msgstr "paketet %s från %s står i konflikt med %s som det tillhandahåller själv"
 
 #: libdnf/goal/Goal.cpp:113
-#, fuzzy, c-format
-#| msgid "both package %s and %s obsolete %s"
+#, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
-msgstr "både paketet %s och %s fasar ut %s"
+msgstr "både paketet %s från %s och %s från %s fasar ut %s"
 
 #: libdnf/goal/Goal.cpp:117
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s does not belong to a distupgrade repository"
-msgstr " tillhör inte något dist-uppgraderingsförråd"
+msgstr "%s från %s tillhör inte något dist-uppgraderingsförråd"
 
 #: libdnf/goal/Goal.cpp:118
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s has inferior architecture"
-msgstr " har underarkitektur"
+msgstr "%s från %s har underarkitektur"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -733,77 +717,68 @@ msgstr ""
 "det går inte att installera den bästa uppdateringskandidaten för modulen "
 
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
-#, fuzzy, c-format
-#| msgid "module %s is disabled"
+#, c-format
 msgid "module %s from %s is disabled"
-msgstr "modulen %s är avaktiverad"
+msgstr "modul %s från %s är avaktiverad"
 
 #: libdnf/goal/Goal.cpp:129
-#, fuzzy, c-format
-#| msgid "module %s does not have a compatible architecture"
+#, c-format
 msgid "module %s from %s does not have a compatible architecture"
-msgstr "modulen %s har inte en kompatibel arkitektur"
+msgstr "modul %s från %s har inte en kompatibel arkitektur"
 
 #: libdnf/goal/Goal.cpp:130
-#, fuzzy, c-format
-#| msgid "module %s is not installable"
+#, c-format
 msgid "module %s from %s is not installable"
-msgstr "modulen %s är inte installerbar"
+msgstr "modul %s från %s är inte installerbar"
 
 #: libdnf/goal/Goal.cpp:132
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by module %s"
+#, c-format
 msgid "nothing provides %s needed by module %s from %s"
-msgstr "ingenting tillhandahåller %s som behövs av modulen %s"
+msgstr "ingenting tillhandahåller %s som behövs av modulen %s från %s"
 
 #: libdnf/goal/Goal.cpp:133
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "cannot install both modules %s from %s and %s from %s"
-msgstr "det går inte att installera både modulen %s och %s"
+msgstr "det går inte att installera båda modulerna %s från %s och %s från %s"
 
 #: libdnf/goal/Goal.cpp:134
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by %s"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
-msgstr "modulen %s står i konflikt med %s som tillhandahålls av %s"
+msgstr ""
+"modul %s från %s står i konflikt med %s som tillhandahålls av %s från %s"
 
 #: libdnf/goal/Goal.cpp:135
-#, fuzzy, c-format
-#| msgid "module %s obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s obsoletes %s provided by %s from %s"
-msgstr "modulen %s fasar ut %s som tillhandahålls av %s"
+msgstr "modul %s från %s fasas ut %s som tillhandahålls av %s från %s"
 
 #: libdnf/goal/Goal.cpp:136
-#, fuzzy, c-format
-#| msgid "installed module %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed module %s obsoletes %s provided by %s from %s"
-msgstr "den installerade modulen %s fasar ut %s som tillhandahålls av %s"
+msgstr ""
+"den installerade modulen %s fasar ut %s som tillhandahålls av %s från %s"
 
 #: libdnf/goal/Goal.cpp:137
-#, fuzzy, c-format
-#| msgid "module %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "modulen %s fasar implicit ut %s som tillhandahålls av %s"
+msgstr "modul %s från %s fasar implicit ut %s som tillhandahålls av %s från %s"
 
 #: libdnf/goal/Goal.cpp:138
-#, fuzzy, c-format
-#| msgid "module %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
-msgstr "modulen %s behöver %s, men ingen av leverantörerna kan installeras"
+msgstr ""
+"modul %s från %s behöver %s, men ingen av leverantörerna kan installeras"
 
 #: libdnf/goal/Goal.cpp:139
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by itself"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by itself"
-msgstr "modulen %s står i konflikt med %s som den tillhandahåller själv"
+msgstr "modul %s från %s står i konflikt med %s som den tillhandahåller själv"
 
 #: libdnf/goal/Goal.cpp:140
-#, fuzzy, c-format
-#| msgid "both module %s and %s obsolete %s"
+#, c-format
 msgid "both module %s from %s and %s from %s obsolete %s"
-msgstr "både modulen %s och %s fasar ut %s"
+msgstr "både modulen %s från %s och %s från fasar ut %s"
 
 #: libdnf/goal/Goal.cpp:1168
 msgid "no solver set"
