@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-02 01:54+0000\n"
+"POT-Creation-Date: 2023-04-05 01:38+0000\n"
 "PO-Revision-Date: 2023-04-05 02:20+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
@@ -728,8 +728,8 @@ msgstr "ორივე მოდულის, %s %s-დან და %s %s-დ�
 #, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
 msgstr ""
-"მოდულს %s %s-დან აქვს კონფლიქტი %s-თან, რომელიც წარმოდგენილია %s-ის მიერ "
-"%s-დან"
+"მოდულს %s %s-დან აქვს კონფლიქტი %s-თან, რომელიც წარმოდგენილია %s-ის მიერ %s-"
+"დან"
 
 #: libdnf/goal/Goal.cpp:135
 #, c-format

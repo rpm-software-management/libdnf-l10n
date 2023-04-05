@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-02 01:54+0000\n"
+"POT-Creation-Date: 2023-04-05 01:38+0000\n"
 "PO-Revision-Date: 2023-04-05 02:20+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
@@ -680,12 +680,14 @@ msgstr "paket %s från %s fasar implicit ut %s som tillhandahålls av %s från %
 #, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
-msgstr "paket %s från %s kräver %s, men ingen av leverantörerna kan installeras"
+msgstr ""
+"paket %s från %s kräver %s, men ingen av leverantörerna kan installeras"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
 msgid "package %s from %s conflicts with %s provided by itself"
-msgstr "paketet %s från %s står i konflikt med %s som det tillhandahåller själv"
+msgstr ""
+"paketet %s från %s står i konflikt med %s som det tillhandahåller själv"
 
 #: libdnf/goal/Goal.cpp:113
 #, c-format
