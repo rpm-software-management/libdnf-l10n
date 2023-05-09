@@ -2,13 +2,14 @@
 # Meskó Balázs <meskobalazs@gmail.com>, 2017. #zanata
 # Teknős Ferenc <teknos.ferenc@gmail.com>, 2018. #zanata
 # Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021, 2022.
+# Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 01:38+0000\n"
-"PO-Revision-Date: 2022-08-08 15:19+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"PO-Revision-Date: 2023-05-10 19:21+0000\n"
+"Last-Translator: Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/hu/>\n"
 "Language: hu\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -630,10 +631,9 @@ msgid "package %s from %s does not have a compatible architecture"
 msgstr ""
 
 #: libdnf/goal/Goal.cpp:103
-#, fuzzy, c-format
-#| msgid "package %s is not installable"
+#, c-format
 msgid "package %s from %s is not installable"
-msgstr "a(z) %s csomag nem telepíthető"
+msgstr "a %s csomag %s-ből nem telepíthető"
 
 #: libdnf/goal/Goal.cpp:104
 #, c-format
@@ -641,10 +641,9 @@ msgid "package %s from %s is filtered out by exclude filtering"
 msgstr ""
 
 #: libdnf/goal/Goal.cpp:105
-#, fuzzy, c-format
-#| msgid "nothing provides requested "
+#, c-format
 msgid "nothing provides %s needed by %s from %s"
-msgstr "semmi sem biztosítja amit kért "
+msgstr "semmi sem biztosít %s-t, amelyre %s szüksége van %s-tól"
 
 #: libdnf/goal/Goal.cpp:106
 #, fuzzy, c-format
