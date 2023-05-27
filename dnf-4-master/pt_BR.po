@@ -8,13 +8,14 @@
 # Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020.
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
 # Daimar Stein <daimarstein@pm.me>, 2022, 2023.
+# Ian Meyer <ianscuba1465@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-10 01:51+0000\n"
 "PO-Revision-Date: 2023-05-28 14:20+0000\n"
-"Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
+"Last-Translator: Ian Meyer <ianscuba1465@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -194,10 +195,10 @@ msgid "No active module packages found for module spec '%s'"
 msgstr "Nenhum pacote de módulo ativo encontrado para spec de módulo '%s'"
 
 #: libdnf/dnf-context.cpp:3560
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
-msgstr "Não é possível instalar o módulo %s através do reposítório fail-safe"
+msgstr ""
+"Não é possível instalar o módulo '%s' através do repositório de segurança"
 
 #: libdnf/dnf-context.cpp:3567
 #, c-format
@@ -210,11 +211,9 @@ msgid "No match for package '%s' for module spec %s"
 msgstr "Nenhuma correspondência para o pacote '%s' para o spec de módulo %s"
 
 #: libdnf/dnf-context.cpp:3632
-#, fuzzy, c-format
+#, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
-msgstr ""
-"problema durante a ativação da árvore de dependências para o fluxo do módulo "
-"'%1$s' de '%2$s': %3$s"
+msgstr "Problema durante a instalação do módulo '%1$s' do fluxo '%2$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3641
 msgid "Problems appeared for module install request:"
@@ -229,7 +228,7 @@ msgid "Problems appeared for module disable request:"
 msgstr "Apareceram problemas para a solicitação de desativação do módulo:"
 
 #: libdnf/dnf-context.cpp:3792
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
