@@ -7,13 +7,13 @@
 # Gustavo Costa <gusta@null.net>, 2020.
 # Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020.
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
-# Daimar Stein <daimarstein@pm.me>, 2022.
+# Daimar Stein <daimarstein@pm.me>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-10 01:51+0000\n"
-"PO-Revision-Date: 2022-08-05 21:19+0000\n"
+"PO-Revision-Date: 2023-05-28 14:20+0000\n"
 "Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/pt_BR/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.17\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -191,7 +191,7 @@ msgstr "Apareceram problemas para a solicitação de ativação do módulo:"
 #: libdnf/dnf-context.cpp:3555
 #, c-format
 msgid "No active module packages found for module spec '%s'"
-msgstr ""
+msgstr "Nenhum pacote de módulo ativo encontrado para spec de módulo '%s'"
 
 #: libdnf/dnf-context.cpp:3560
 #, fuzzy, c-format
@@ -207,7 +207,7 @@ msgstr "Nenhum perfil encontrado que corresponde a '%s'"
 #: libdnf/dnf-context.cpp:3621
 #, c-format
 msgid "No match for package '%s' for module spec %s"
-msgstr ""
+msgstr "Nenhuma correspondência para o pacote '%s' para o spec de módulo %s"
 
 #: libdnf/dnf-context.cpp:3632
 #, fuzzy, c-format
