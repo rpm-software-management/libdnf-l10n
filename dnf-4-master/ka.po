@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-28 02:08+0000\n"
-"PO-Revision-Date: 2023-04-05 02:20+0000\n"
+"PO-Revision-Date: 2023-05-31 05:20+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -238,8 +238,8 @@ msgstr "ტრანზაქციის დამოკიდებულე�
 #, c-format
 msgid "%i problem detected:\n"
 msgid_plural "%i problems detected:\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "აღმოჩენილია %i პრობლემა:\n"
+msgstr[1] "აღმოჩენილია %i პრობლემა:\n"
 
 #: libdnf/dnf-goal.cpp:117
 #, c-format
