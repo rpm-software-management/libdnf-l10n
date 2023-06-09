@@ -1,13 +1,13 @@
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
 # Ricky Tigg <ricky.tigg@gmail.com>, 2020, 2021, 2022.
-# Jan Kuparinen <copper_fin@hotmail.com>, 2020, 2021, 2022.
+# Jan Kuparinen <copper_fin@hotmail.com>, 2020, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-31 02:17+0000\n"
-"PO-Revision-Date: 2022-11-11 11:19+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2023-06-10 19:20+0000\n"
+"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fi/>\n"
 "Language: fi\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -576,10 +576,9 @@ msgstr ""
 "Ill-muodostunutta valitsinta käytetään toimintaan, väärä vertailutyyppi"
 
 #: libdnf/goal/Goal.cpp:90
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s  does not belong to a distupgrade repository"
-msgstr " ei kuulu tietovarastoon distupgrade"
+msgstr "%s jostain %s  ei kuulu tietovarastoon distupgrade"
 
 #: libdnf/goal/Goal.cpp:91
 #, fuzzy, c-format
@@ -625,16 +624,14 @@ msgid "cannot install the best candidate for the job"
 msgstr "ei voi asentaa työn parasta päivitysehdokkaasta"
 
 #: libdnf/goal/Goal.cpp:101
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by modular filtering"
+#, c-format
 msgid "package %s from %s is filtered out by modular filtering"
-msgstr "paketti %s suodatetaan modulaarisella suodatuksella"
+msgstr "paketti %s jostain %s suodatetaan modulaarisella suodatuksella"
 
 #: libdnf/goal/Goal.cpp:102
-#, fuzzy, c-format
-#| msgid "package %s does not have a compatible architecture"
+#, c-format
 msgid "package %s from %s does not have a compatible architecture"
-msgstr "paketilla %s ei ole yhteensopivaa arkkitehtuuria"
+msgstr "paketilla %s jostain %s ei ole yhteensopivaa arkkitehtuuria"
 
 #: libdnf/goal/Goal.cpp:103
 #, fuzzy, c-format
@@ -643,16 +640,14 @@ msgid "package %s from %s is not installable"
 msgstr "paketti %s ei ole asennettavissa"
 
 #: libdnf/goal/Goal.cpp:104
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by exclude filtering"
+#, c-format
 msgid "package %s from %s is filtered out by exclude filtering"
-msgstr "paketti %s suodatetaan pois pois-suodatuksella"
+msgstr "paketti %s jostain %s suodatetaan pois pois-suodatuksella"
 
 #: libdnf/goal/Goal.cpp:105
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by %s"
+#, c-format
 msgid "nothing provides %s needed by %s from %s"
-msgstr "mikään ei tarjoa %s:n tarvitsemaa %s"
+msgstr "mikään ei tarjoa %s:n tarvitsemaa %s jostain %s"
 
 #: libdnf/goal/Goal.cpp:106
 #, fuzzy, c-format
@@ -673,10 +668,9 @@ msgid "package %s from %s obsoletes %s provided by %s from %s"
 msgstr "paketti %s vanhentaa %s:n tarjoama %s:n"
 
 #: libdnf/goal/Goal.cpp:109
-#, fuzzy, c-format
-#| msgid "installed package %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed package %s obsoletes %s provided by %s from %s"
-msgstr "asennettu paketti %s vanhentaa %s:n tarjoama %s:n"
+msgstr "asennettu paketti %s vanhentaa %s:n tarjoama % jostain %s"
 
 #: libdnf/goal/Goal.cpp:110
 #, fuzzy, c-format
@@ -685,18 +679,17 @@ msgid "package %s from %s implicitly obsoletes %s provided by %s from %s"
 msgstr "paketti %s epäsuorasti vanhentaa %s:n tarjoama %s:n"
 
 #: libdnf/goal/Goal.cpp:111
-#, fuzzy, c-format
-#| msgid "package %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
-"paketti %s vaatii %s, mutta mitään palveluntarjoajista ei voida asentaa"
+"paketti %s jostain %s vaatii %s, mutta mitään palveluntarjoajista ei voida "
+"asentaa"
 
 #: libdnf/goal/Goal.cpp:112
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by itself"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by itself"
-msgstr "paketti %s on ristiriidassa itse tarjoamansa %s:n kanssa"
+msgstr "paketti %s jostain %s on ristiriidassa itse tarjoamansa %s:n kanssa"
 
 #: libdnf/goal/Goal.cpp:113
 #, fuzzy, c-format
@@ -705,10 +698,9 @@ msgid "both package %s from %s and %s from %s obsolete %s"
 msgstr "molemmat paketit %s ja %s vanhentavat %s:n"
 
 #: libdnf/goal/Goal.cpp:117
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s does not belong to a distupgrade repository"
-msgstr " ei kuulu tietovarastoon distupgrade"
+msgstr "%s jostain %s ei kuulu tietovarastoon distupgrade"
 
 #: libdnf/goal/Goal.cpp:118
 #, fuzzy, c-format
@@ -736,10 +728,9 @@ msgid "module %s from %s is disabled"
 msgstr "moduuli %s on poistettu käytöstä"
 
 #: libdnf/goal/Goal.cpp:129
-#, fuzzy, c-format
-#| msgid "module %s does not have a compatible architecture"
+#, c-format
 msgid "module %s from %s does not have a compatible architecture"
-msgstr "moduulilla %s ei ole yhteensopivaa arkkitehtuuria"
+msgstr "moduulilla %s jostain %s  ei ole yhteensopivaa arkkitehtuuria"
 
 #: libdnf/goal/Goal.cpp:130
 #, fuzzy, c-format
@@ -748,10 +739,9 @@ msgid "module %s from %s is not installable"
 msgstr "moduuli %s ei ole asennettavissa"
 
 #: libdnf/goal/Goal.cpp:132
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by module %s"
+#, c-format
 msgid "nothing provides %s needed by module %s from %s"
-msgstr "'nothing provides' %s: ta, moduulin %s tarvitsemana"
+msgstr "'nothing provides' %s: ta, moduulin %s jostain %s  tarvitsemana"
 
 #: libdnf/goal/Goal.cpp:133
 #, fuzzy, c-format
@@ -772,10 +762,9 @@ msgid "module %s from %s obsoletes %s provided by %s from %s"
 msgstr "moduuli %s vanhentaa %s:n tarjoama %s:n"
 
 #: libdnf/goal/Goal.cpp:136
-#, fuzzy, c-format
-#| msgid "installed module %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed module %s obsoletes %s provided by %s from %s"
-msgstr "asennettu moduuli %s vanhentaa %s:n tarjoama %s:n"
+msgstr "asennettu moduuli %s vanhentaa %s:n tarjoama % jostain %s"
 
 #: libdnf/goal/Goal.cpp:137
 #, fuzzy, c-format
@@ -784,18 +773,17 @@ msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
 msgstr "moduuli %s epäsuorasti vanhentaa %s:n tarjoama %s:n"
 
 #: libdnf/goal/Goal.cpp:138
-#, fuzzy, c-format
-#| msgid "module %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
-"moduuli %s vaatii %s:n, mutta yhtään palveluntarjoajista ei voida asentaa"
+"moduuli %s jostain %s vaatii %s:n, mutta yhtään palveluntarjoajista ei voida "
+"asentaa"
 
 #: libdnf/goal/Goal.cpp:139
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by itself"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by itself"
-msgstr "moduuli %s on ristiriidassa itse tarjoamansa %s:n kanssa"
+msgstr "moduuli %s jostain %s on ristiriidassa itse tarjoamansa %s:n kanssa"
 
 #: libdnf/goal/Goal.cpp:140
 #, fuzzy, c-format
