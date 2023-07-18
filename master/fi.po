@@ -2,13 +2,14 @@
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2020.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2020, 2021, 2022.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021.
+# Ville-Pekka Vainio <vpvainio@iki.fi>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2022-11-11 11:19+0000\n"
-"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"PO-Revision-Date: 2023-07-19 21:20+0000\n"
+"Last-Translator: Ville-Pekka Vainio <vpvainio@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/fi/>\n"
 "Language: fi\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -25,47 +26,47 @@ msgstr "arvoa ei määritetty"
 #: libdnf/conf/ConfigMain.cpp:67 libdnf/conf/OptionSeconds.cpp:48
 #, c-format
 msgid "seconds value '%s' must not be negative"
-msgstr "sekuntien arvo '%s' ei saa olla negatiivinen"
+msgstr "sekuntien arvo ”%s” ei saa olla negatiivinen"
 
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
 msgid "could not convert '%s' to bytes"
-msgstr "'%s' ei voitu muuntaa tavuiksi"
+msgstr "arvoa ”%s” ei voitu muuntaa tavuiksi"
 
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
 msgid "unknown unit '%s'"
-msgstr "tuntematon yksikkö '%s'"
+msgstr "tuntematon yksikkö ”%s”"
 
 #: libdnf/conf/ConfigMain.cpp:329
 #, c-format
 msgid "percentage '%s' is out of range"
-msgstr "prosenttiosuus '%s' on alueen ulkopuolella"
+msgstr "prosenttiosuus ”%s” on alueen ulkopuolella"
 
 #: libdnf/conf/OptionBinds.cpp:76
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr "Kokoonpano: OptionBinding-tunnuksella \"%s\" ei ole olemassa"
+msgstr "Asetukset: OptionBindingia tunnuksella ”%s” ei ole olemassa"
 
 #: libdnf/conf/OptionBinds.cpp:88
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr "Kokoonpano: OptionBinding-tunnuksella \"%s\" on jo olemassa"
+msgstr "Asetukset: OptionBinding tunnuksella ”%s” on jo olemassa"
 
 #: libdnf/conf/OptionBool.cpp:47
 #, c-format
 msgid "invalid boolean value '%s'"
-msgstr "epäkelpo totuusarvo '%s'"
+msgstr "virheellinen totuusarvo ”%s”"
 
 #: libdnf/conf/OptionEnum.cpp:72 libdnf/conf/OptionEnum.cpp:158
 #: libdnf/conf/OptionString.cpp:59 libdnf/conf/OptionStringList.cpp:59
 #, c-format
 msgid "'%s' is not an allowed value"
-msgstr "'%s' ei ole sallittu arvo"
+msgstr "”%s” ei ole sallittu arvo"
 
 #: libdnf/conf/OptionEnum.cpp:83 libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
-msgstr "epäkelpo arvo"
+msgstr "virheellinen arvo"
 
 #: libdnf/conf/OptionNumber.cpp:73
 #, c-format
@@ -80,17 +81,17 @@ msgstr "annetun arvon [%d] tulisi olla suurempi kuin sallittu arvo [%d]."
 #: libdnf/conf/OptionPath.cpp:78
 #, c-format
 msgid "given path '%s' is not absolute."
-msgstr "annettu polku '%s' ei ole ehdoton."
+msgstr "annettu polku ”%s” ei ole absoluuttinen."
 
 #: libdnf/conf/OptionPath.cpp:82
 #, c-format
 msgid "given path '%s' does not exist."
-msgstr "annettua polkua '%s' ei ole olemassa."
+msgstr "annettua polkua ”%s” ei ole olemassa."
 
 #: libdnf/conf/OptionSeconds.cpp:52
 #, c-format
 msgid "could not convert '%s' to seconds"
-msgstr "ei pystynyt muuntamaan '%s':ta sekunteiksi"
+msgstr "arvoa ”%s” ei pystytty muuntamaan sekunteiksi"
 
 #: libdnf/conf/OptionString.cpp:74
 msgid "GetValue(): Value not set"
@@ -98,7 +99,7 @@ msgstr "GetValue(): Arvoa ei asetettu"
 
 #: libdnf/dnf-goal.cpp:68
 msgid "Could not depsolve transaction; "
-msgstr "Tapahtumaa depsolve ei onnistunut; "
+msgstr "Transaktion riippuvuuksien ratkaiseminen ei onnistunut; "
 
 #: libdnf/dnf-goal.cpp:70
 #, c-format
@@ -123,33 +124,33 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
-"Ei saatavilla modulaarisia metatietoja moduulipaketille '%s'; ei voida "
+"Modulaarisia metatietoja moduulipaketille ”%s” ei ole saatavilla; ei voida "
 "asentaa järjestelmään"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
 msgid "signature does not verify for %s"
-msgstr "allekirjoitus ei tarkista %s:ta varten"
+msgstr "tiedoston %s allekirjoitus on virheellinen"
 
 #: libdnf/dnf-rpmts.cpp:129 libdnf/dnf-rpmts.cpp:174
 #, c-format
 msgid "failed to open(generic error): %s"
-msgstr "avaaminen epäonnistui (geneerinen virhe): %s"
+msgstr "avaaminen epäonnistui (yleinen virhe): %s"
 
 #: libdnf/dnf-rpmts.cpp:142
 #, c-format
 msgid "failed to verify key for %s"
-msgstr "avaimen tarkistaminen %s:ta varten epäonnistui"
+msgstr "tiedoston %s allekirjoitus on virheellinen"
 
 #: libdnf/dnf-rpmts.cpp:150
 #, c-format
 msgid "public key unavailable for %s"
-msgstr "julkista avainta ei ole saatavilla %s:lle"
+msgstr "julkista avainta ei ole saatavilla tiedostolle %s"
 
 #: libdnf/dnf-rpmts.cpp:158
 #, c-format
 msgid "signature not found for %s"
-msgstr "%s:lle ei löydy allekirjoitusta"
+msgstr "tiedostolle %s ei löydy allekirjoitusta"
 
 #: libdnf/dnf-rpmts.cpp:193
 #, c-format
@@ -159,11 +160,11 @@ msgstr "asennuselementin lisääminen epäonnistui: %1$s [%2$i]"
 #: libdnf/dnf-rpmts.cpp:274
 #, c-format
 msgid "Error running transaction: %s"
-msgstr "Virhe suorittaessa transaktiota: %s"
+msgstr "Virhe suoritettaessa transaktiota: %s"
 
 #: libdnf/dnf-rpmts.cpp:283
 msgid "Error running transaction and no problems were reported!"
-msgstr "Tapahtuman suorittamisessa tapahtui virhe, eikä ongelmista ilmoitettu!"
+msgstr "Transaktion suorittamisessa tapahtui virhe eikä ongelmista ilmoitettu!"
 
 #: libdnf/dnf-rpmts.cpp:346
 msgid "Fatal error, run database recovery"
@@ -177,12 +178,12 @@ msgstr "pakettia %s ei löytynyt"
 #: libdnf/dnf-rpmts.cpp:401
 #, c-format
 msgid "could not add erase element %1$s(%2$i)"
-msgstr "ei voinut lisätä poista-elementti %1$s(%2$i)"
+msgstr "ei voitu lisätä poistoelementtiä %1$s(%2$i)"
 
 #: libdnf/dnf-sack.cpp:417
 #, c-format
 msgid "no %1$s string for %2$s"
-msgstr "ei %1$s merkkijonoa %2$s:lle"
+msgstr "tiedoston %1$s merkkijono puuttuu, ohjelmistolähde %2$s"
 
 #: libdnf/dnf-sack.cpp:440
 msgid "failed to add solv"
@@ -196,7 +197,7 @@ msgstr "avaaminen epäonnistui: %s"
 #: libdnf/dnf-sack.cpp:537
 #, c-format
 msgid "cannot create temporary file: %s"
-msgstr "Väliaikaistiedostoa '%s' ei voi luoda"
+msgstr "väliaikaistiedostoa ei voi luoda: %s"
 
 #: libdnf/dnf-sack.cpp:547
 #, c-format
@@ -221,11 +222,11 @@ msgstr "väliaikaistiedostoa %s ei voi luoda"
 #: libdnf/dnf-sack.cpp:659
 #, c-format
 msgid "write_ext(%1$d) has failed: %2$d"
-msgstr "write_ext(%1$d) epäonnistui %2$d"
+msgstr "write_ext(%1$d) epäonnistui: %2$d"
 
 #: libdnf/dnf-sack.cpp:714
 msgid "null repo md file"
-msgstr "tyhjä ohjelmistolähde md-tiedosto"
+msgstr "tyhjä ohjelmistolähteen md-tiedosto"
 
 #: libdnf/dnf-sack.cpp:723
 #, c-format
@@ -246,7 +247,7 @@ msgstr "repo_add_repomdxml/rpmmd() epäonnistui."
 
 #: libdnf/dnf-sack.cpp:830
 msgid "failed to auto-detect architecture"
-msgstr "arkkitehtuurin automaattinen havaitseminen epäonnistui"
+msgstr "arkkitehtuurin automaattinen tunnistaminen epäonnistui"
 
 #: libdnf/dnf-sack.cpp:955
 #, c-format
@@ -273,11 +274,11 @@ msgstr "prosenttiosuus ei 100: %i"
 #: libdnf/dnf-state.cpp:1194
 #, c-format
 msgid "failed to set number steps: %i"
-msgstr "numeron vaiheiden asettaminen epäonnistui: %i"
+msgstr "vaiheiden määrän asettaminen epäonnistui: %i"
 
 #: libdnf/dnf-state.cpp:1293
 msgid "cancelled by user action"
-msgstr "peruutettu käyttäjän toimella"
+msgstr "käyttäjä perui"
 
 #: libdnf/dnf-state.cpp:1332
 #, c-format
@@ -298,8 +299,8 @@ msgstr "Lähteitä ei asetettu yritettäessä varmistaa pakettia %s"
 #, c-format
 msgid "Failed to ensure %1$s as repo %2$s not found(%3$i repos loaded)"
 msgstr ""
-"%1$s :n varmistaminen epäonnistui, koska ohjelmistolähdettä %2$s ei löydy "
-"(%3$i ohjelmistolähteet ladattu)"
+"Paketin %1$s varmistaminen epäonnistui, koska ohjelmistolähdettä %2$s ei "
+"löydy (%3$i ohjelmistolähteet ladattu)"
 
 #: libdnf/dnf-transaction.cpp:367
 msgid "Failed to check untrusted: "
@@ -308,53 +309,56 @@ msgstr "Epäluotettavan tarkistaminen epäonnistui: "
 #: libdnf/dnf-transaction.cpp:377
 #, c-format
 msgid "Downloaded file for %s not found"
-msgstr "Ladattua tiedostoa %s:lle ei löydy"
+msgstr "Ladattua tiedostoa paketille %s ei löydy"
 
 #: libdnf/dnf-transaction.cpp:397
 #, c-format
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
 msgstr ""
-"pakettia %1$s ei voida vahvistaa ja ohjelmistolähde %2$s on GPG-käytössä: "
-"%3$s"
+"pakettia %1$s ei voida varmistaa ja ohjelmistolähteellä %2$s on GPG käytössä:"
+" %3$s"
 
 #: libdnf/dnf-transaction.cpp:831 libdnf/dnf-transaction.cpp:903
 msgid "Failed to get value for CacheDir"
-msgstr "Arvon saaminen CacheDir:lle epäonnistui"
+msgstr "Arvon saaminen CacheDir:ille epäonnistui"
 
 #: libdnf/dnf-transaction.cpp:911
 #, c-format
 msgid "Failed to get filesystem free size for %s: "
-msgstr "Tiedostojärjestelmän vapaan koon hakeminen %s:lle epäonnistui: "
+msgstr ""
+"Tiedostojärjestelmän vapaan koon hakeminen hakemistolle %s epäonnistui: "
 
 #: libdnf/dnf-transaction.cpp:919
 #, c-format
 msgid "Failed to get filesystem free size for %s"
-msgstr "Tiedostojärjestelmän vapaan koon hakeminen %s:lle epäonnistui"
+msgstr "Tiedostojärjestelmän vapaan koon hakeminen hakemistolle %s epäonnistui"
 
 #: libdnf/dnf-transaction.cpp:935
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
 msgstr ""
-"%1$s ei sisällä riittävästi vapaata tilaa: tarvitaan %2$s, saatavilla %3$s"
+"Hakemistossa %1$s ei ole riittävästi vapaata tilaa: tarvitaan %2$s, "
+"saatavilla %3$s"
 
 #: libdnf/dnf-transaction.cpp:1196
 msgid "failed to set root"
-msgstr "root:n asettaminen epäonnistui"
+msgstr "root:in asettaminen epäonnistui"
 
 #: libdnf/dnf-transaction.cpp:1418
 #, c-format
 msgid "Error %i running transaction test"
-msgstr "Tapahtumatestin suorittamisessa tapahtui virhe %i"
+msgstr "Transaktiotestin suorittamisessa tapahtui virhe %i"
 
 #: libdnf/dnf-transaction.cpp:1458
 #, c-format
 msgid "Error %i running transaction"
-msgstr "Tapahtuman suorittamisessa tapahtui virhe %i"
+msgstr "Transaktion suorittamisessa tapahtui virhe %i"
 
 #: libdnf/dnf-transaction.cpp:1473
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
-msgstr "Tapahtuma ei mennyt kirjoitusvaiheeseen, mutta tuotti ei virhettä (%i)"
+msgstr ""
+"Transaktio ei mennyt kirjoitusvaiheeseen, mutta ei tuottanut virhettä (%i)"
 
 #: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:399
 #, c-format
@@ -364,21 +368,20 @@ msgstr "hakemistoa %1$s ei voi avata: %2$s"
 #: libdnf/dnf-utils.cpp:136
 #, c-format
 msgid "failed to remove %s"
-msgstr "%s:n poistaminen epäonnistui"
+msgstr "hakemiston %s poistaminen epäonnistui"
 
 #: libdnf/goal/Goal.cpp:55
 msgid "Ill-formed Selector, presence of multiple match objects in the filter"
 msgstr ""
-"Ill-muodostunut valitsin, useiden osumaobjektien esiintyminen suodattimessa"
+"Virheellinen valitsin, useiden osumaobjektien esiintyminen suodattimessa"
 
 #: libdnf/goal/Goal.cpp:56
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
-msgstr ""
-"Ill-muodostunutta valitsinta käytetään toimintaan, väärä vertailutyyppi"
+msgstr "Virheellistä valitsinta käytetään toimintoon, väärä vertailutyyppi"
 
 #: libdnf/goal/Goal.cpp:67 libdnf/goal/Goal.cpp:94
 msgid " does not belong to a distupgrade repository"
-msgstr " ei kuulu tietovarastoon distupgrade"
+msgstr " ei kuulu distupgrade-asennuslähteeseen"
 
 #: libdnf/goal/Goal.cpp:68 libdnf/goal/Goal.cpp:95
 msgid " has inferior architecture"
@@ -394,11 +397,11 @@ msgstr "ristiriitaiset pyynnöt"
 
 #: libdnf/goal/Goal.cpp:71 libdnf/goal/Goal.cpp:98
 msgid "unsupported request"
-msgstr "ei-tuettu pyyntö"
+msgstr "pyyntöä ei tueta"
 
 #: libdnf/goal/Goal.cpp:72 libdnf/goal/Goal.cpp:99
 msgid "nothing provides requested "
-msgstr "'nothing provides' pyydetty "
+msgstr "mikään ei tarjoa pyydettyä "
 
 #: libdnf/goal/Goal.cpp:73
 #, c-format
@@ -415,11 +418,11 @@ msgstr "riippuvuusongelma"
 
 #: libdnf/goal/Goal.cpp:76
 msgid "cannot install the best update candidate for package "
-msgstr "ei voi asentaa paketin parasta päivitysehdokkaasta "
+msgstr "ei voi asentaa paketin parasta päivitysehdokasta "
 
 #: libdnf/goal/Goal.cpp:77 libdnf/goal/Goal.cpp:104
 msgid "cannot install the best candidate for the job"
-msgstr "ei voi asentaa työn parasta päivitysehdokkaasta"
+msgstr "ei voi asentaa työn parasta päivitysehdokasta"
 
 #: libdnf/goal/Goal.cpp:78
 #, c-format
@@ -439,12 +442,12 @@ msgstr "paketti %s ei ole asennettavissa"
 #: libdnf/goal/Goal.cpp:81
 #, c-format
 msgid "package %s is filtered out by exclude filtering"
-msgstr "paketti %s suodatetaan pois pois-suodatuksella"
+msgstr "paketti %s suodatetaan pois poissulkevalla suodatuksella (exclude)"
 
 #: libdnf/goal/Goal.cpp:82
 #, c-format
 msgid "nothing provides %s needed by %s"
-msgstr "mikään ei tarjoa %s:n tarvitsemaa %s"
+msgstr "mikään ei tarjoa paketin %s tarvitsemaa ominaisuutta %s"
 
 #: libdnf/goal/Goal.cpp:83
 #, c-format
@@ -454,38 +457,37 @@ msgstr "molempia %s ja %s ei voi asentaa"
 #: libdnf/goal/Goal.cpp:84
 #, c-format
 msgid "package %s conflicts with %s provided by %s"
-msgstr "paketti %s on ristiriidassa %s:n tarjoamansa %s:n kanssa"
+msgstr "paketti %s on ristiriidassa paketin %s kanssa, jonka tarjoaa %s"
 
 #: libdnf/goal/Goal.cpp:85
 #, c-format
 msgid "package %s obsoletes %s provided by %s"
-msgstr "paketti %s vanhentaa %s:n tarjoama %s:n"
+msgstr "paketti %s vanhentaa paketin %s, jonka tarjoaa %s"
 
 #: libdnf/goal/Goal.cpp:86
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
-msgstr "asennettu paketti %s vanhentaa %s:n tarjoama %s:n"
+msgstr "asennettu paketti %s vanhentaa paketin %s, jonka tarjoaa %s"
 
 #: libdnf/goal/Goal.cpp:87
 #, c-format
 msgid "package %s implicitly obsoletes %s provided by %s"
-msgstr "paketti %s epäsuorasti vanhentaa %s:n tarjoama %s:n"
+msgstr "paketti %s epäsuorasti vanhentaa paketin %s, jonka tarjoaa %s"
 
 #: libdnf/goal/Goal.cpp:88
 #, c-format
 msgid "package %s requires %s, but none of the providers can be installed"
-msgstr ""
-"paketti %s vaatii %s, mutta mitään palveluntarjoajista ei voida asentaa"
+msgstr "paketti %s vaatii paketin %s, mutta mitään tarjoajista ei voida asentaa"
 
 #: libdnf/goal/Goal.cpp:89
 #, c-format
 msgid "package %s conflicts with %s provided by itself"
-msgstr "paketti %s on ristiriidassa itse tarjoamansa %s:n kanssa"
+msgstr "paketti %s on ristiriidassa itse tarjoamansa ominaisuuden %s kanssa"
 
 #: libdnf/goal/Goal.cpp:90
 #, c-format
 msgid "both package %s and %s obsolete %s"
-msgstr "molemmat paketit %s ja %s vanhentavat %s:n"
+msgstr "molemmat paketit %s ja %s vanhentavat paketin %s"
 
 #: libdnf/goal/Goal.cpp:96
 msgid "problem with installed module "
@@ -498,7 +500,7 @@ msgstr "moduulia %s ei ole olemassa"
 
 #: libdnf/goal/Goal.cpp:103
 msgid "cannot install the best update candidate for module "
-msgstr "ei voi asentaa parasta päivitysehdokkaasta moduulille "
+msgstr "ei voi asentaa parasta päivitysehdokasta moduulille "
 
 #: libdnf/goal/Goal.cpp:105 libdnf/goal/Goal.cpp:108
 #, c-format
@@ -518,7 +520,7 @@ msgstr "moduuli %s ei ole asennettavissa"
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "nothing provides %s needed by module %s"
-msgstr "'nothing provides' %s: ta, moduulin %s tarvitsemana"
+msgstr "mikään ei tarjoa ominaisuutta %s, jonka moduuli %s tarvitsee"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
@@ -528,52 +530,53 @@ msgstr "ei voi asentaa molempia moduuleja %s ja %s"
 #: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid "module %s conflicts with %s provided by %s"
-msgstr "moduuli %s on ristiriidassa %s:n tarjoamansa %s:n kanssa"
+msgstr "moduuli %s on ristiriidassa moduulin %s kanssa, jonka tarjoaa %s"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
 msgid "module %s obsoletes %s provided by %s"
-msgstr "moduuli %s vanhentaa %s:n tarjoama %s:n"
+msgstr "moduuli %s vanhentaa moduulin %s, jonka tarjoaa %s"
 
 #: libdnf/goal/Goal.cpp:113
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s"
-msgstr "asennettu moduuli %s vanhentaa %s:n tarjoama %s:n"
+msgstr "asennettu moduuli %s vanhentaa moduulin %s, jonka tarjoaa %s"
 
 #: libdnf/goal/Goal.cpp:114
 #, c-format
 msgid "module %s implicitly obsoletes %s provided by %s"
-msgstr "moduuli %s epäsuorasti vanhentaa %s:n tarjoama %s:n"
+msgstr "moduuli %s epäsuorasti vanhentaa moduulin %s, jonka tarjoaa %s"
 
 #: libdnf/goal/Goal.cpp:115
 #, c-format
 msgid "module %s requires %s, but none of the providers can be installed"
 msgstr ""
-"moduuli %s vaatii %s:n, mutta yhtään palveluntarjoajista ei voida asentaa"
+"moduuli %s vaatii moduulin %s, mutta yhtään tarjoajista ei voida asentaa"
 
 #: libdnf/goal/Goal.cpp:116
 #, c-format
 msgid "module %s conflicts with %s provided by itself"
-msgstr "moduuli %s on ristiriidassa itse tarjoamansa %s:n kanssa"
+msgstr "moduuli %s on ristiriidassa itse tarjoamansa ominaisuuden %s kanssa"
 
 #: libdnf/goal/Goal.cpp:117
 #, c-format
 msgid "both module %s and %s obsolete %s"
-msgstr "molemmat moduulit %s ja %s vanhentavat %s:n"
+msgstr "molemmat moduulit %s ja %s vanhentavat moduulin %s"
 
 #: libdnf/goal/Goal.cpp:1008
 msgid "no solver set"
-msgstr "ei ratkaisijaa asetettu"
+msgstr "ratkaisijaa ei ole asetettu"
 
 #: libdnf/goal/Goal.cpp:1013
 #, c-format
 msgid "failed to make %s absolute"
-msgstr "ei onnistunut tekemään %s:sta ehdotonta"
+msgstr "polun %s muuntaminen absoluuttiseksi epäonnistui"
 
 #: libdnf/goal/Goal.cpp:1020
 #, c-format
 msgid "failed writing debugdata to %1$s: %2$s"
-msgstr "virheenkorjaustietojen kirjoittaminen %1$s:lle epäonnistui: %2$s"
+msgstr ""
+"virheenkorjaustietojen kirjoittaminen hakemistoon %1$s epäonnistui: %2$s"
 
 #: libdnf/goal/Goal.cpp:1032
 msgid "no solv in the goal"
@@ -595,12 +598,12 @@ msgstr "Toiminto johtaisi seuraavien suojattujen pakettien poistamiseen: "
 #: libdnf/hy-iutil.cpp:322
 #, c-format
 msgid "Failed renaming %1$s to %2$s: %3$s"
-msgstr "%1$s:n uudelleennimeäminen %2$s:ksi epäonnistui : %3$s"
+msgstr "Polun %1$s uudelleennimeäminen poluksi %2$s epäonnistui : %3$s"
 
 #: libdnf/hy-iutil.cpp:330
 #, c-format
 msgid "Failed setting perms on %1$s: %2$s"
-msgstr "Käyttöoikeuksien määrittäminen %1$s:lla epäonnistui: %2$s"
+msgstr "Käyttöoikeuksien asettaminen polulle %1$s epäonnistui: %2$s"
 
 #: libdnf/hy-iutil.cpp:376
 #, c-format
@@ -610,12 +613,12 @@ msgstr "ei voi luoda hakemistoa %1$s: %2$s"
 #: libdnf/hy-iutil.cpp:411
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
-msgstr "ei voi \"stat\" polkua %1$s: %2$s"
+msgstr "ei voi tehdä kutsua ”stat” polkuun %1$s: %2$s"
 
 #: libdnf/module/ModulePackage.cpp:463
 #, c-format
 msgid "Invalid format of Platform module: %s"
-msgstr "Ei kelvollinen alustamoduulin muoto: %s"
+msgstr "Virheellinen alustamoduulin muoto: %s"
 
 #: libdnf/module/ModulePackage.cpp:478
 msgid "Multiple module platforms provided by available packages\n"
@@ -628,12 +631,12 @@ msgstr "Asennettujen pakettien tarjoamat useat moduulialustat\n"
 #: libdnf/module/ModulePackage.cpp:518
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
-msgstr "Alustamoduulin havaitseminen %s:ssa epäonnistui: %s"
+msgstr "Alustamoduulin havaitseminen tiedostosta %s epäonnistui: %s"
 
 #: libdnf/module/ModulePackage.cpp:527
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
-msgstr "Puuttuu PLATFORM_ID %s:ssa"
+msgstr "PLATFORM_ID puuttuu tiedostosta %s"
 
 #: libdnf/module/ModulePackage.cpp:532
 msgid "No valid Platform ID detected"
@@ -642,40 +645,42 @@ msgstr "Kelvollista alustan tunnusta ei havaittu"
 #: libdnf/module/ModulePackageContainer.cpp:68
 #, c-format
 msgid "Cannot enable multiple streams for module '%s'"
-msgstr "Useita virtoja moduulille '%s' ei voi ottaa käyttöön"
+msgstr "Useita virtoja moduulille ”%s” ei voi ottaa käyttöön"
 
 #: libdnf/module/ModulePackageContainer.cpp:294
 #, c-format
 msgid "Conflicting defaults with repo '%s': %s"
-msgstr "Ristiriitaiset oletusasetukset ohjelmistolähteen '%s' kanssa: %s"
+msgstr "Ristiriitaiset oletusasetukset ohjelmistolähteen ”%s” kanssa: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1568
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
-msgstr "Modulaarisen vikaturvallisen tiedon lataaminen '%s':ssa epäonnistui"
+msgstr ""
+"Modulaarisen vikaturvallisen tiedon lataaminen tiedostosta ”%s” epäonnistui"
 
 #: libdnf/module/ModulePackageContainer.cpp:1574
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
-"Modulaarisen vikaturvallisen tiedon lataaminen moduulille '%s:%s' epäonnistui"
+"Modulaarisen vikaturvallisen tiedon lataaminen moduulille ”%s:%s” epäonnistui"
 
 #: libdnf/module/ModulePackageContainer.cpp:1638
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
-"Hakemiston \"%s\"luominen modulaariselle vikaturvalliselle tiedolle "
+"Hakemiston ”%s” luominen modulaariselle vikaturvalliselle tiedolle "
 "epäonnistui: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1660
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
-msgstr "Modulaarisen vikaturvallisen tiedon tallennus \"%s\":een epäonnistui"
+msgstr ""
+"Modulaarisen vikaturvallisen tiedon tallennus tiedostoon ”%s” epäonnistui"
 
 #: libdnf/module/ModulePackageContainer.cpp:1685
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
-msgstr "Modulaarisen vikaturvallisen tiedon poisto '%s':sta epäonnistui"
+msgstr "Modulaarisen vikaturvallisen tiedon poisto tiedostosta ”%s” epäonnistui"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:43
 #, c-format
@@ -701,13 +706,13 @@ msgstr "Virtojen päivittäminen epäonnistui: %s"
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
 msgid "Can't load shared library \"%s\": %s"
-msgstr "Ei voi ladata jaettua kirjastoa \"%s\": %s"
+msgstr "Ei voi ladata jaettua kirjastoa ”%s”: %s"
 
 #: libdnf/plugin/plugin.cpp:61 libdnf/plugin/plugin.cpp:67
 #: libdnf/plugin/plugin.cpp:73 libdnf/plugin/plugin.cpp:79
 #, c-format
 msgid "Can't obtain address of symbol \"%s\": %s"
-msgstr "Symbolin \"%s\" osoitetta ei saada: %s"
+msgstr "Symbolin ”%s” osoitetta ei saada: %s"
 
 #: libdnf/plugin/plugin.cpp:86
 #, c-format
@@ -726,32 +731,32 @@ msgstr "Plugins::loadPlugins() dirPath ei voi olla tyhjä"
 #: libdnf/plugin/plugin.cpp:105
 #, c-format
 msgid "Can't read plugin directory \"%s\": %s"
-msgstr "Laajennushakemistoa \"%s\" ei voi lukea: %s"
+msgstr "Laajennushakemistoa ”%s” ei voi lukea: %s"
 
 #: libdnf/plugin/plugin.cpp:114
 #, c-format
 msgid "Can't load plugin \"%s\": %s"
-msgstr "Ei voi ladata liitännäistä \"%s\": %s"
+msgstr "Ei voi ladata liitännäistä ”%s”: %s"
 
 #: libdnf/repo/Repo.cpp:337
 #, c-format
 msgid "Bad id for repo: %s, byte = %s %d"
-msgstr "Huono tunnus asennuslähteelle: %s, byte = %s %d"
+msgstr "Virheellinen tunnus ohjelmistolähteelle: %s, tavu = %s %d"
 
 #: libdnf/repo/Repo.cpp:362
 #, c-format
 msgid "Repository %s has no mirror or baseurl set."
-msgstr "Ohjelmistolähteessä %s ei ole peiliä tai alusta-url:ta asetettuna."
+msgstr "Ohjelmistolähteessä %s ei ole peiliä tai baseurl:ää asetettuna."
 
 #: libdnf/repo/Repo.cpp:371
 #, c-format
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
-msgstr "Ohjelmistolähteen '%s' tyyppiä ei tueta: 'type=%s'; ohitetaan."
+msgstr "Ohjelmistolähteen ”%s” tyyppiä ei tueta: ”type=%s”; ohitetaan."
 
 #: libdnf/repo/Repo.cpp:580
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
-msgstr "Ohjelmistolähteelle ei löydy kelvollista baseurl:ta: %s"
+msgstr "Ohjelmistolähteelle ei löydy kelvollista baseurl:ia: %s"
 
 #: libdnf/repo/Repo.cpp:616 libdnf/repo/Repo.cpp:1705
 msgid ""
@@ -759,7 +764,7 @@ msgid ""
 "minrate or throttle"
 msgstr ""
 "Suurin latausnopeus on pienempi kuin pienin. Muuta minrate:n tai throttle:n "
-"kokoonpanoa"
+"asetuksia"
 
 #: libdnf/repo/Repo.cpp:666 libdnf/repo/Repo.cpp:688
 #, c-format
@@ -784,7 +789,7 @@ msgstr "avaimia ei voi luetella: %s"
 #: libdnf/repo/Repo.cpp:839
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
-msgstr "GPG-avaimen palautus ohjelmistolähteelle '%s' epäonnistui: %s"
+msgstr "GPG-avaimen noutaminen ohjelmistolähteelle ”%s” epäonnistui: %s"
 
 #: libdnf/repo/Repo.cpp:892
 #, c-format
@@ -794,69 +799,73 @@ msgstr "ohjelmistolähde %s: 0x%s jo tuotu"
 #: libdnf/repo/Repo.cpp:920
 #, c-format
 msgid "repo %s: imported key 0x%s."
-msgstr "ohjelmistolähde %s: toi avaimen 0x%s."
+msgstr "ohjelmistolähde %s: tuotiin avain 0x%s."
 
 #: libdnf/repo/Repo.cpp:1164
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
-msgstr "elvytys: ohjelmistolähteen '%s' ohitettu, ei metalinkkiä."
+msgstr "elvytys: ohjelmistolähde ”%s” ohitettu, ei metalinkkiä."
 
 #: libdnf/repo/Repo.cpp:1183
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr ""
-"elvytys: ohjelmistolähteen '%s' ohitettu, ei käyttökelpoista hajautusta."
+"elvytys: ohjelmistolähde ”%s” ohitettu, ei käyttökelpoista tarkistussumman "
+"tyyppiä."
 
 #: libdnf/repo/Repo.cpp:1206
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
-msgstr "elvytys: epäonnistui '%s':lle, %s summa ei täsmää."
+msgstr ""
+"elvytys: epäonnistui ohjelmistolähteelle ”%s”, %s-tarkistussumma ei täsmää."
 
 #: libdnf/repo/Repo.cpp:1212
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
-msgstr ""
-"elvyttäminen: '%s' voidaan elvyttää - metalinkin tarkistussummat täsmäävät."
+msgstr "elvytys: ”%s” voidaan elvyttää - metalinkin tarkistussummat täsmäävät."
 
 #: libdnf/repo/Repo.cpp:1237
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
-msgstr "elvyttäminen: '%s' voidaan elvyttää - repomd täsmää."
+msgstr "elvytys: ”%s” voidaan elvyttää - repomd täsmää."
 
 #: libdnf/repo/Repo.cpp:1239
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
-msgstr "'%s':n elvyttäminen epäonnistui, repomd on ristiriitainen."
+msgstr ""
+"ohjelmistolähteen ”%s” elvyttäminen epäonnistui, repomd:t ovat erilaiset."
 
 #: libdnf/repo/Repo.cpp:1257
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
-msgstr "Ohjelmistolähteen kohdehakemistoa \"%s\" ei voida luoda: %s"
+msgstr "Ohjelmistolähteen kohdehakemistoa ”%s” ei voida luoda: %s"
 
 #: libdnf/repo/Repo.cpp:1263
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
-msgstr "Ohjelmistolähteen väliaikaista hakemistoa \"%s\" ei voida luoda: %s"
+msgstr "Ohjelmistolähteen väliaikaista hakemistoa ”%s” ei voida luoda: %s"
 
 #: libdnf/repo/Repo.cpp:1277
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
-msgstr "Hakemistoa \"%s\" ei voida luoda: %s"
+msgstr "Hakemistoa ”%s” ei voida luoda: %s"
 
 #: libdnf/repo/Repo.cpp:1300
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
-msgstr "Hakemistoa \"%s\" ei voida nimetä uudelleen \"%s\":ksi: %s"
+msgstr "Hakemistoa ”%s” ei voida nimetä uudelleen nimelle ”%s”: %s"
 
 #: libdnf/repo/Repo.cpp:1323
 #, c-format
 msgid "repo: using cache for: %s"
-msgstr "ohjelmistolähde: käytetään välimuistia tälle: %s"
+msgstr "käytetään välimuistia ohjelmistolähteelle %s"
 
 #: libdnf/repo/Repo.cpp:1335
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
-msgstr "Pelkkä-välimuisti käytössä, mutta ei välimuistia ”%s”:lle"
+msgstr ""
+"Ollaan vain välimuisti -tilassa, mutta ei välimuistia ohjelmistolähteelle "
+"”%s”"
 
 #: libdnf/repo/Repo.cpp:1339
 #, c-format
@@ -866,7 +875,7 @@ msgstr "asennuslähde: ladataan etäkohteesta: %s"
 #: libdnf/repo/Repo.cpp:1345
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
-msgstr "Metatietojen lataaminen ohjelmistolähdelle '%s' epäonnistu: %s"
+msgstr "Metatietojen lataaminen ohjelmistolähteelle ”%s” epäonnistui: %s"
 
 #: libdnf/repo/Repo.cpp:1371
 msgid "getCachedir(): Computation of SHA256 failed"
@@ -875,23 +884,23 @@ msgstr "getCachedir(): SHA256:n laskeminen epäonnistui"
 #: libdnf/repo/Repo.cpp:1396
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
-msgstr "persistdir:n \"%s\" luominen epäonnistui: %s"
+msgstr "persistdir:n ”%s” luominen epäonnistui: %s"
 
 #: libdnf/repo/Repo.cpp:1796
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr ""
-"toimintoa palauta ei voi käyttää samanaikaisesti parametrin byterangestart "
+"resume-toimintoa ei voi käyttää samanaikaisesti parametrin byterangestart "
 "kanssa"
 
 #: libdnf/repo/Repo.cpp:1807
 #, c-format
 msgid "PackageTarget initialization failed: %s"
-msgstr "PackageTarget:n alustus epäonnistui: %s"
+msgstr "PackageTargetin alustus epäonnistui: %s"
 
 #: libdnf/repo/Repo.cpp:1924
 #, c-format
 msgid "Cannot open %s: %s"
-msgstr "%s:ta ei voi avata: %s"
+msgstr "Ei voi avata tiedostoa %s: %s"
 
 #: libdnf/repo/Repo.cpp:1968
 #, c-format
@@ -914,19 +923,19 @@ msgstr "Ei transaktiota meneillään"
 
 #: libdnf/transaction/TransactionItem.cpp:147
 msgid "Attempt to insert transaction item into completed transaction"
-msgstr "Yritetty lisätä transaktioesine valmiiseen transaktioon"
+msgstr "Yritetty lisätä transaktiokohta valmiiseen transaktioon"
 
 #: libdnf/transaction/TransactionItem.cpp:218
 msgid "Attempt to update transaction item in completed transaction"
-msgstr "Yritetty päivittää transaktioesine valmiissa transaktiossa"
+msgstr "Yritetty päivittää transaktiokohta valmiissa transaktiossa"
 
 #: libdnf/transaction/Transformer.cpp:659
 msgid "Transformer: can't open history persist dir"
-msgstr "Muunnin: persist dir :n avaus epäonnistui"
+msgstr "Muunnin: pysyvän historiakansion avaus epäonnistui"
 
 #: libdnf/transaction/Transformer.cpp:672
 msgid "Couldn't find a history database"
-msgstr "Historian tietokantaa ei löytynyt"
+msgstr "Historiatietokantaa ei löytynyt"
 
 #: libdnf/transaction/private/Transaction.cpp:41
 msgid "Transaction has already began!"
@@ -935,7 +944,7 @@ msgstr "Transaktio on jo alkanut!"
 #: libdnf/transaction/private/Transaction.cpp:58
 #, c-format
 msgid "TransactionItem state is not set: %s"
-msgstr "Transaktioesineen tilaa ei asetettu: %s"
+msgstr "TransactionItemin tilaa ei asetettu: %s"
 
 #: libdnf/transaction/private/Transaction.cpp:239
 msgid "Can't add console output to unsaved transaction"
