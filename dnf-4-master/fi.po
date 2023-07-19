@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-10 02:07+0000\n"
+"POT-Creation-Date: 2023-07-19 03:15+0000\n"
 "PO-Revision-Date: 2023-07-19 21:20+0000\n"
 "Last-Translator: Ville-Pekka Vainio <vpvainio@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
@@ -505,8 +505,8 @@ msgstr "Ladattua tiedostoa paketille %s ei löydy"
 #, c-format
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
 msgstr ""
-"pakettia %1$s ei voida varmistaa ja ohjelmistolähteellä %2$s on GPG käytössä:"
-" %3$s"
+"pakettia %1$s ei voida varmistaa ja ohjelmistolähteellä %2$s on GPG "
+"käytössä: %3$s"
 
 #: libdnf/dnf-transaction.cpp:833 libdnf/dnf-transaction.cpp:905
 msgid "Failed to get value for CacheDir"
@@ -950,7 +950,8 @@ msgstr ""
 #: libdnf/module/ModulePackageContainer.cpp:1836
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
-msgstr "Modulaarisen vikaturvallisen tiedon poisto tiedostosta ”%s” epäonnistui"
+msgstr ""
+"Modulaarisen vikaturvallisen tiedon poisto tiedostosta ”%s” epäonnistui"
 
 #: libdnf/module/ModulePackageContainer.cpp:1868
 #, c-format
