@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-19 03:15+0000\n"
-"PO-Revision-Date: 2023-05-31 05:20+0000\n"
+"PO-Revision-Date: 2023-07-31 05:21+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -160,7 +160,7 @@ msgstr ""
 #: libdnf/dnf-context.cpp:3393 libdnf/dnf-context.cpp:3489
 #: libdnf/dnf-context.cpp:3670
 msgid "No modular data available"
-msgstr ""
+msgstr "მოდულური მონაცემები ხელმისაწვდომი არაა"
 
 #: libdnf/dnf-context.cpp:3410
 #, c-format
@@ -191,7 +191,7 @@ msgstr ""
 #: libdnf/dnf-context.cpp:3567
 #, c-format
 msgid "No profile found matching '%s'"
-msgstr ""
+msgstr "პროფილი, რომელიც '%s'-ს ემთხვევა, ვერ ვიპოვე"
 
 #: libdnf/dnf-context.cpp:3621
 #, c-format
@@ -414,12 +414,12 @@ msgstr ""
 #: libdnf/dnf-sack.cpp:795
 #, c-format
 msgid "Loading repomd has failed: %s"
-msgstr ""
+msgstr "RepoMD-ის ჩატვირთვის შეცდომა: %s"
 
 #: libdnf/dnf-sack.cpp:806
 #, c-format
 msgid "Loading primary has failed: %s"
-msgstr ""
+msgstr "პირველადი ჩატვირთვა ჩავარდა: %s"
 
 #: libdnf/dnf-sack.cpp:872
 msgid "failed to auto-detect architecture"
@@ -520,7 +520,7 @@ msgstr "ტრანზაქციის ტესტის შეცდომ�
 #: libdnf/dnf-transaction.cpp:1441
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "შეცდომა %i rpm-ის ბაზის გახსნისას"
 
 #: libdnf/dnf-transaction.cpp:1449 libdnf/dnf-transaction.cpp:1495
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
@@ -799,12 +799,12 @@ msgstr "გადაწყვეტა შეუძლებელია"
 
 #: libdnf/goal/Goal.cpp:1323
 msgid "Problem: "
-msgstr ""
+msgstr "პრობლემა: "
 
 #: libdnf/goal/Goal.cpp:1328
 #, c-format
 msgid "Problem %d: "
-msgstr ""
+msgstr "პრობლემა %d: "
 
 #: libdnf/goal/Goal.cpp:1661
 msgid ""
