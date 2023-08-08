@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-08 01:49+0000\n"
-"PO-Revision-Date: 2023-08-08 08:21+0000\n"
+"PO-Revision-Date: 2023-08-10 14:21+0000\n"
 "Last-Translator: Jan Kalabza <jan.kalabza@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/cs/>\n"
@@ -120,17 +120,17 @@ msgstr ""
 #: libdnf/dnf-context.cpp:3300
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
-msgstr ""
+msgstr "Problém modulárních závislostí s Defaults: %s"
 
 #: libdnf/dnf-context.cpp:3303
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr ""
+msgstr "Problém modulárních závislostí s nejnovějšími moduly: %s"
 
 #: libdnf/dnf-context.cpp:3307
 #, c-format
 msgid "Modular dependency problem: %s"
-msgstr ""
+msgstr "Problém modulární závislosti: %s"
 
 #: libdnf/dnf-context.cpp:3330 libdnf/dnf-context.cpp:3354
 #: libdnf/dnf-context.cpp:3365 libdnf/dnf-context.cpp:3404
@@ -138,7 +138,7 @@ msgstr ""
 #: libdnf/dnf-context.cpp:3501 libdnf/dnf-context.cpp:3511
 #, c-format
 msgid "Unable to resolve argument '%s'"
-msgstr ""
+msgstr "Nelze vyřešit argument '%s'"
 
 #: libdnf/dnf-context.cpp:3337
 #, c-format
@@ -159,12 +159,12 @@ msgstr ""
 #: libdnf/dnf-context.cpp:3393 libdnf/dnf-context.cpp:3489
 #: libdnf/dnf-context.cpp:3670
 msgid "No modular data available"
-msgstr ""
+msgstr "Nejsou k dispozici žádné modulární údaje"
 
 #: libdnf/dnf-context.cpp:3410
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
-msgstr ""
+msgstr "Ignorování nepotřebných informací v argumentu: '%s'"
 
 #: libdnf/dnf-context.cpp:3448
 #, c-format
@@ -231,7 +231,7 @@ msgstr ""
 
 #: libdnf/dnf-goal.cpp:107
 msgid "Could not depsolve transaction; "
-msgstr ""
+msgstr "Nelze vyřešit transakci; "
 
 #: libdnf/dnf-goal.cpp:109
 #, c-format
@@ -244,12 +244,12 @@ msgstr[2] "%i problémů detekováno:\n"
 #: libdnf/dnf-goal.cpp:117
 #, c-format
 msgid " Problem %1$i: %2$s\n"
-msgstr ""
+msgstr " Problém %1$i: %2$s\n"
 
 #: libdnf/dnf-goal.cpp:119
 #, c-format
 msgid " Problem: %s\n"
-msgstr ""
+msgstr " Problém: %s\n"
 
 #: libdnf/dnf-rpmts.cpp:79
 #, c-format
@@ -257,63 +257,65 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
+"Pro modulární balíček '%s' nejsou k dispozici modulární metadata; v systému "
+"jej nelze nainstalovat"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
 msgid "signature does not verify for %s"
-msgstr ""
+msgstr "podpis se neověřuje pro %s"
 
 #: libdnf/dnf-rpmts.cpp:129 libdnf/dnf-rpmts.cpp:174
 #, c-format
 msgid "failed to open(generic error): %s"
-msgstr ""
+msgstr "se nepodařilo otevřít(obecná chyba): %s"
 
 #: libdnf/dnf-rpmts.cpp:142
 #, c-format
 msgid "failed to verify key for %s"
-msgstr ""
+msgstr "nepodařilo se ověřit klíč pro %s"
 
 #: libdnf/dnf-rpmts.cpp:150
 #, c-format
 msgid "public key unavailable for %s"
-msgstr ""
+msgstr "veřejný klíč není k dispozici pro %s"
 
 #: libdnf/dnf-rpmts.cpp:158
 #, c-format
 msgid "signature not found for %s"
-msgstr ""
+msgstr "nebyl nalezen podpis pro %s"
 
 #: libdnf/dnf-rpmts.cpp:193
 #, c-format
 msgid "failed to add install element: %1$s [%2$i]"
-msgstr ""
+msgstr "nepodařilo se přidat instalační prvek: %1$s [%2$i]"
 
 #: libdnf/dnf-rpmts.cpp:274
 #, c-format
 msgid "Error running transaction: %s"
-msgstr ""
+msgstr "Chyba při provádění transakce: %s"
 
 #: libdnf/dnf-rpmts.cpp:283
 msgid "Error running transaction and no problems were reported!"
-msgstr ""
+msgstr "Chybný běh transakce a nebyly hlášeny žádné problémy!"
 
 #: libdnf/dnf-rpmts.cpp:346
 msgid "Fatal error, run database recovery"
-msgstr ""
+msgstr "Fatální chyba, spusťte obnovení databáze"
 
 #: libdnf/dnf-rpmts.cpp:355
 #, c-format
 msgid "failed to find package %s"
-msgstr ""
+msgstr "nepodařilo se najít balíček %s"
 
 #: libdnf/dnf-rpmts.cpp:401
 #, c-format
 msgid "could not add erase element %1$s(%2$i)"
-msgstr ""
+msgstr "nepodařilo se přidat prvek %1$s(%2$i)"
 
 #: libdnf/dnf-sack.cpp:251
 msgid "repo_add_solv() has failed."
-msgstr ""
+msgstr "funkce repo_add_solv() selhala."
 
 #: libdnf/dnf-sack.cpp:415
 #, c-format
@@ -323,7 +325,7 @@ msgstr ""
 #: libdnf/dnf-sack.cpp:429
 #, c-format
 msgid "no %1$s string for %2$s"
-msgstr ""
+msgstr "žádný řetězec %1$s pro %2$s"
 
 #: libdnf/dnf-sack.cpp:439
 #, c-format
@@ -338,7 +340,7 @@ msgstr "nelze vytvořit dočasný soubor: %s"
 #: libdnf/dnf-sack.cpp:528
 #, c-format
 msgid "failed opening tmp file: %s"
-msgstr ""
+msgstr "nepodařilo se otevřít soubor tmp: %s"
 
 #: libdnf/dnf-sack.cpp:550
 #, c-format
@@ -388,12 +390,12 @@ msgstr ""
 
 #: libdnf/dnf-sack.cpp:740
 msgid "null repo md file"
-msgstr ""
+msgstr "null repo md soubor"
 
 #: libdnf/dnf-sack.cpp:749
 #, c-format
 msgid "can not read file %1$s: %2$s"
-msgstr ""
+msgstr "nelze přečíst soubor %1$s: %2$s"
 
 #: libdnf/dnf-sack.cpp:764
 #, c-format
@@ -402,7 +404,7 @@ msgstr ""
 
 #: libdnf/dnf-sack.cpp:775
 msgid "loading of MD_TYPE_PRIMARY has failed."
-msgstr ""
+msgstr "načtení MD_TYPE_PRIMARY se nezdařilo."
 
 #: libdnf/dnf-sack.cpp:784
 #, c-format
@@ -421,16 +423,16 @@ msgstr ""
 
 #: libdnf/dnf-sack.cpp:872
 msgid "failed to auto-detect architecture"
-msgstr ""
+msgstr "nepodařilo se automaticky detekovat architekturu"
 
 #: libdnf/dnf-sack.cpp:1037
 #, c-format
 msgid "failed creating cachedir %s"
-msgstr ""
+msgstr "nepodařilo se vytvořit cachedir %s"
 
 #: libdnf/dnf-sack.cpp:1814
 msgid "failed loading RPMDB"
-msgstr ""
+msgstr "nepodařilo se načíst RPMDB"
 
 #: libdnf/dnf-sack.cpp:2598
 #, c-format
@@ -440,78 +442,80 @@ msgstr ""
 #: libdnf/dnf-state.cpp:1184
 #, c-format
 msgid "percentage not 100: %i"
-msgstr ""
+msgstr "procentní podíl není 100: %i"
 
 #: libdnf/dnf-state.cpp:1194
 #, c-format
 msgid "failed to set number steps: %i"
-msgstr ""
+msgstr "se nepodařilo nastavit počet kroků: %i"
 
 #: libdnf/dnf-state.cpp:1293
 msgid "cancelled by user action"
-msgstr ""
+msgstr "zrušeno zásahem uživatele"
 
 #: libdnf/dnf-state.cpp:1332
 #, c-format
 msgid "done on a state %1$p that did not have a size set! [%2$s]"
-msgstr ""
+msgstr "provedeno na stavu %1$p, který neměl nastavenou velikost! [%2$s]"
 
 #: libdnf/dnf-state.cpp:1357
 #, c-format
 msgid "already at 100%% state [%s]"
-msgstr ""
+msgstr "již ve 100%% stavu [%s]"
 
 #: libdnf/dnf-transaction.cpp:302
 #, c-format
 msgid "Sources not set when trying to ensure package %s"
-msgstr ""
+msgstr "Při pokusu o zajištění balíčku %s nebyly nastaveny zdroje"
 
 #: libdnf/dnf-transaction.cpp:328
 #, c-format
 msgid "Failed to ensure %1$s as repo %2$s not found(%3$i repos loaded)"
 msgstr ""
+"Nepodařilo se zajistit %1$s, protože repozitář %2$s nebyl nalezen(%3$i "
+"repozitáře načteny)"
 
 #: libdnf/dnf-transaction.cpp:369
 msgid "Failed to check untrusted: "
-msgstr ""
+msgstr "Nepodařilo se zkontrolovat nedůvěryhodné: "
 
 #: libdnf/dnf-transaction.cpp:379
 #, c-format
 msgid "Downloaded file for %s not found"
-msgstr ""
+msgstr "Stažený soubor pro %s nebyl nalezen"
 
 #: libdnf/dnf-transaction.cpp:399
 #, c-format
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
-msgstr ""
+msgstr "balíček %1$s nelze ověřit a repozitář %2$s má povoleno GPG: %3$s"
 
 #: libdnf/dnf-transaction.cpp:833 libdnf/dnf-transaction.cpp:905
 msgid "Failed to get value for CacheDir"
-msgstr ""
+msgstr "Nepodařilo se získat hodnotu pro CacheDir"
 
 #: libdnf/dnf-transaction.cpp:913
 #, c-format
 msgid "Failed to get filesystem free size for %s: "
-msgstr ""
+msgstr "Nepodařilo se získat volnou velikost souborového systému pro %s: "
 
 #: libdnf/dnf-transaction.cpp:921
 #, c-format
 msgid "Failed to get filesystem free size for %s"
-msgstr ""
+msgstr "Nepodařilo se získat volnou velikost souborového systému pro %s"
 
 #: libdnf/dnf-transaction.cpp:937
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
-msgstr ""
+msgstr "Nedostatek volného místa v %1$s: potřeba %2$s, k dispozici %3$s"
 
 #: libdnf/dnf-transaction.cpp:1196
 msgid "failed to set root"
-msgstr ""
+msgstr "nepodařilo se nastavit root"
 
 #: libdnf/dnf-transaction.cpp:1417
 #, c-format
 msgid "Error %i running transaction test"
-msgstr ""
+msgstr "Chyba %i při provádění testu transakce"
 
 #: libdnf/dnf-transaction.cpp:1441
 #, c-format
@@ -525,17 +529,17 @@ msgstr ""
 #: libdnf/dnf-transaction.cpp:1464
 #, c-format
 msgid "Error %i running transaction"
-msgstr ""
+msgstr "Chyba %i probíhající transakce"
 
 #: libdnf/dnf-transaction.cpp:1480
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
-msgstr ""
+msgstr "Transakce nepřešla do fáze zápisu, ale nevrátila žádnou chybu(%i)"
 
 #: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:487
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
-msgstr ""
+msgstr "nelze otevřít složku %1$s: %2$s"
 
 #: libdnf/dnf-utils.cpp:136
 #, c-format
@@ -544,11 +548,11 @@ msgstr "nepodařilo se odstranit %s"
 
 #: libdnf/goal/Goal.cpp:78
 msgid "Ill-formed Selector, presence of multiple match objects in the filter"
-msgstr ""
+msgstr "Pro operaci byl použit nesprávný selektor, nesprávný typ porovnání"
 
 #: libdnf/goal/Goal.cpp:79
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
-msgstr ""
+msgstr "Pro operaci byl použit nesprávný selektor, nesprávný typ porovnání"
 
 #: libdnf/goal/Goal.cpp:90
 #, c-format
@@ -562,40 +566,40 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
-msgstr ""
+msgstr "problém s nainstalovaným balíčkem "
 
 #: libdnf/goal/Goal.cpp:93 libdnf/goal/Goal.cpp:120
 msgid "conflicting requests"
-msgstr ""
+msgstr "protichůdné požadavky"
 
 #: libdnf/goal/Goal.cpp:94 libdnf/goal/Goal.cpp:121
 msgid "unsupported request"
-msgstr ""
+msgstr "nepodporovaný požadavek"
 
 #: libdnf/goal/Goal.cpp:95 libdnf/goal/Goal.cpp:122
 msgid "nothing provides requested "
-msgstr ""
+msgstr "nic neposkytuje požadované "
 
 #: libdnf/goal/Goal.cpp:96
 #, c-format
 msgid "package %s does not exist"
-msgstr ""
+msgstr "balíček %s neexistuje"
 
 #: libdnf/goal/Goal.cpp:97 libdnf/goal/Goal.cpp:124
 msgid " is provided by the system"
-msgstr ""
+msgstr " je poskytována systémem"
 
 #: libdnf/goal/Goal.cpp:98 libdnf/goal/Goal.cpp:125
 msgid "some dependency problem"
-msgstr "problém se závislostí"
+msgstr "nějaký problém se závislostí"
 
 #: libdnf/goal/Goal.cpp:99
 msgid "cannot install the best update candidate for package "
-msgstr ""
+msgstr "nelze nainstalovat nejlepšího kandidáta na aktualizaci balíčku "
 
 #: libdnf/goal/Goal.cpp:100 libdnf/goal/Goal.cpp:127
 msgid "cannot install the best candidate for the job"
-msgstr ""
+msgstr "nemůže instalovat nejlepšího kandidáta pro danou práci"
 
 #: libdnf/goal/Goal.cpp:101
 #, c-format
@@ -675,7 +679,7 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
-msgstr ""
+msgstr "problém s nainstalovaným modulem "
 
 #: libdnf/goal/Goal.cpp:123
 #, c-format
@@ -684,7 +688,7 @@ msgstr "modul %s neexistuje"
 
 #: libdnf/goal/Goal.cpp:126
 msgid "cannot install the best update candidate for module "
-msgstr ""
+msgstr "nelze nainstalovat nejlepší kandidáta na aktualizaci modulu "
 
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
 #, c-format
@@ -749,29 +753,29 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:1168
 msgid "no solver set"
-msgstr ""
+msgstr "není nastaven žádný řešitel"
 
 #: libdnf/goal/Goal.cpp:1173
 #, c-format
 msgid "failed to make %s absolute"
-msgstr ""
+msgstr "nepodařilo se vytvořit %s absolutně"
 
 #: libdnf/goal/Goal.cpp:1180
 #, c-format
 msgid "failed writing debugdata to %1$s: %2$s"
-msgstr ""
+msgstr "nepodařilo se zapsat debugdata do %1$s: %2$s"
 
 #: libdnf/goal/Goal.cpp:1192
 msgid "no solv in the goal"
-msgstr ""
+msgstr "žádný solv v cíli"
 
 #: libdnf/goal/Goal.cpp:1194
 msgid "no solution, cannot remove protected package"
-msgstr ""
+msgstr "žádné řešení, nelze odstranit chráněný balíček"
 
 #: libdnf/goal/Goal.cpp:1197
 msgid "no solution possible"
-msgstr ""
+msgstr "žádné řešení není možné"
 
 #: libdnf/goal/Goal.cpp:1323
 msgid "Problem: "
@@ -795,12 +799,12 @@ msgstr ""
 #: libdnf/hy-iutil.cpp:410
 #, c-format
 msgid "Failed renaming %1$s to %2$s: %3$s"
-msgstr ""
+msgstr "Nepodařilo se přejmenovat %1$s na %2$s: %3$s"
 
 #: libdnf/hy-iutil.cpp:418
 #, c-format
 msgid "Failed setting perms on %1$s: %2$s"
-msgstr ""
+msgstr "Nepodařilo se nastavit trvalou na %1$s: %2$s"
 
 #: libdnf/hy-iutil.cpp:464
 #, c-format
@@ -810,44 +814,44 @@ msgstr "nelze vytvořit složku %1$s: %2$s"
 #: libdnf/hy-iutil.cpp:499
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
-msgstr ""
+msgstr "nelze zadat cestu %1$s: %2$s"
 
 #: libdnf/module/ModulePackage.cpp:604
 #, c-format
 msgid "Invalid format of Platform module: %s"
-msgstr ""
+msgstr "Nesprávný formát modulu Platformy: %s"
 
 #: libdnf/module/ModulePackage.cpp:619
 msgid "Multiple module platforms provided by available packages\n"
-msgstr ""
+msgstr "Více platforem modulů poskytovaných dostupnými balíčky\n"
 
 #: libdnf/module/ModulePackage.cpp:632
 msgid "Multiple module platforms provided by installed packages\n"
-msgstr ""
+msgstr "Více platforem modulů poskytovaných nainstalovanými balíčky\n"
 
 #: libdnf/module/ModulePackage.cpp:659
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
-msgstr ""
+msgstr "Detekce modulu Platformy v %s selhala: %s"
 
 #: libdnf/module/ModulePackage.cpp:668
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
-msgstr ""
+msgstr "Chybějící PLATFORM_ID v %s"
 
 #: libdnf/module/ModulePackage.cpp:673
 msgid "No valid Platform ID detected"
-msgstr ""
+msgstr "Nebylo zjištěno žádné platné ID platformy"
 
 #: libdnf/module/ModulePackageContainer.cpp:107
 #, c-format
 msgid "Cannot enable multiple streams for module '%s'"
-msgstr ""
+msgstr "Nelze povolit více toků pro modul '%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:339
 #, c-format
 msgid "Conflicting defaults with repo '%s': %s"
-msgstr ""
+msgstr "Konfliktní výchozí nastavení s repozitářem '%s': %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:923
 msgid "Installing module profiles:\n"
@@ -876,27 +880,27 @@ msgstr "Resetování modulů:\n"
 #: libdnf/module/ModulePackageContainer.cpp:1710
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
-msgstr ""
+msgstr "Nepodařilo se načíst modulární data Fail-Safe na '%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1716
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
-msgstr ""
+msgstr "Nelze načíst modulární Fail-Safe data pro modul '%s:%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1797
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
-msgstr ""
+msgstr "Nelze vytvořit adresář \"%s\" pro modulární data systému Fail Safe: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1813
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
-msgstr ""
+msgstr "Nelze uložit modulární data Fail Safe do '%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1836
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
-msgstr ""
+msgstr "Nelze odstranit modulární data Fail Safe v '%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1868
 #, c-format
@@ -908,7 +912,7 @@ msgstr ""
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
 msgid "Failed to update from string: %s"
-msgstr ""
+msgstr "Nepodařilo se aktualizovat z řetězce: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:110
 #, c-format
@@ -923,12 +927,12 @@ msgstr ""
 #: libdnf/module/modulemd/ModuleMetadata.cpp:120
 #, c-format
 msgid "Failed to upgrade defaults: %s"
-msgstr ""
+msgstr "Nepodařilo se aktualizovat výchozí nastavení: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:123
 #, c-format
 msgid "Failed to upgrade streams: %s"
-msgstr ""
+msgstr "Nepodařilo se aktualizovat stream: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:221
 #, c-format
@@ -938,37 +942,37 @@ msgstr ""
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
 msgid "Can't load shared library \"%s\": %s"
-msgstr ""
+msgstr "Nelze načíst sdílenou knihovnu \"%s\": %s"
 
 #: libdnf/plugin/plugin.cpp:61 libdnf/plugin/plugin.cpp:67
 #: libdnf/plugin/plugin.cpp:73 libdnf/plugin/plugin.cpp:79
 #, c-format
 msgid "Can't obtain address of symbol \"%s\": %s"
-msgstr ""
+msgstr "Nelze získat adresu symbolu \"%s\": %s"
 
 #: libdnf/plugin/plugin.cpp:86
 #, c-format
 msgid "Loading plugin file=\"%s\""
-msgstr ""
+msgstr "Načítání souboru pluginu=\"%s\""
 
 #: libdnf/plugin/plugin.cpp:89
 #, c-format
 msgid "Loaded plugin name=\"%s\", version=\"%s\""
-msgstr ""
+msgstr "Nahráno jméno pluginu=\"%s\", verze=\"%s\""
 
 #: libdnf/plugin/plugin.cpp:96
 msgid "Plugins::loadPlugins() dirPath cannot be empty"
-msgstr ""
+msgstr "Plugins::loadPlugins() dirPath nemůže být prázdná"
 
 #: libdnf/plugin/plugin.cpp:105
 #, c-format
 msgid "Can't read plugin directory \"%s\": %s"
-msgstr ""
+msgstr "Nelze přečíst adresář zásuvných modulů \"%s\": %s"
 
 #: libdnf/plugin/plugin.cpp:114
 #, c-format
 msgid "Can't load plugin \"%s\": %s"
-msgstr ""
+msgstr "Nelze načíst zásuvný modul \"%s\": %s"
 
 #: libdnf/repo/DependencySplitter.cpp:50
 msgid ""
@@ -985,7 +989,7 @@ msgstr "Repozitář %s nemá nastaveno žádné zrcadlo nebo baseurl."
 #: libdnf/repo/Repo.cpp:330
 #, c-format
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
-msgstr ""
+msgstr "Úložiště '%s' má nepodporovaný typ: 'type=%s', vynecháváme."
 
 #: libdnf/repo/Repo.cpp:491 libdnf/repo/Repo.cpp:612 libdnf/repo/Repo.cpp:643
 #: libdnf/repo/Repo.cpp:1407
@@ -1018,38 +1022,38 @@ msgstr "Nelze najít platný baseURL pro repo: %s"
 #: libdnf/repo/Repo.cpp:662 libdnf/repo/Repo.cpp:684
 #, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
-msgstr ""
+msgstr "%s: gpgme_data_new_from_fd(): %s"
 
 #: libdnf/repo/Repo.cpp:670 libdnf/repo/Repo.cpp:692
 #, c-format
 msgid "%s: gpgme_op_import(): %s"
-msgstr ""
+msgstr "%s: gpgme_op_import(): %s"
 
 #: libdnf/repo/Repo.cpp:711 libdnf/repo/Repo.cpp:1169 libdnf/repo/Repo.cpp:1243
 #: libdnf/repo/Repo.cpp:1286
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
-msgstr ""
+msgstr "Nelze vytvořit dočasný adresář repozitáře \"%s\": %s"
 
 #: libdnf/repo/Repo.cpp:719 libdnf/repo/Repo.cpp:785 libdnf/repo/Repo.cpp:919
 #, c-format
 msgid "%s: gpgme_ctx_set_engine_info(): %s"
-msgstr ""
+msgstr "%s: gpgme_ctx_set_engine_info(): %s"
 
 #: libdnf/repo/Repo.cpp:746 libdnf/repo/Repo.cpp:810
 #, c-format
 msgid "can not list keys: %s"
-msgstr ""
+msgstr "nelze vypsat klíče: %s"
 
 #: libdnf/repo/Repo.cpp:839
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
-msgstr ""
+msgstr "Nepodařilo se načíst klíč GPG pro repozitář '%s': %s"
 
 #: libdnf/repo/Repo.cpp:892
 #, c-format
 msgid "repo %s: 0x%s already imported"
-msgstr ""
+msgstr "repo %s: 0x%s již importováno"
 
 #: libdnf/repo/Repo.cpp:906 libdnf/utils/filesystem.cpp:79
 #, c-format
@@ -1059,7 +1063,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:926
 #, c-format
 msgid "repo %s: imported key 0x%s."
-msgstr ""
+msgstr "repo %s: importovaný klíč 0x%s."
 
 #: libdnf/repo/Repo.cpp:1183
 #, c-format
@@ -1094,7 +1098,7 @@ msgstr "oživení: selhalo pro '%s', neshodující se repomd."
 #: libdnf/repo/Repo.cpp:1280
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
-msgstr ""
+msgstr "Nelze vytvořit cílový adresář repozitáře \"%s\": %s"
 
 #: libdnf/repo/Repo.cpp:1300
 #, c-format
@@ -1104,7 +1108,7 @@ msgstr "Nedaří se vytvořit složku \"%s\": %s"
 #: libdnf/repo/Repo.cpp:1323
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
-msgstr ""
+msgstr "Nelze přejmenovat adresář \"%s\" na \"%s\": %s"
 
 #: libdnf/repo/Repo.cpp:1346
 #, c-format
@@ -1119,30 +1123,30 @@ msgstr "Povoleno použítí jen mezipaměti, ale žádná vyrovnávací paměť 
 #: libdnf/repo/Repo.cpp:1362
 #, c-format
 msgid "repo: downloading from remote: %s"
-msgstr ""
+msgstr "repo: stahování ze vzdáleného serveru: %s"
 
 #: libdnf/repo/Repo.cpp:1369
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
-msgstr ""
+msgstr "Nepodařilo se stáhnout metadata pro repo '%s': %s"
 
 #: libdnf/repo/Repo.cpp:1395
 msgid "getCachedir(): Computation of SHA256 failed"
-msgstr ""
+msgstr "getCachedir(): Výpočet SHA256 se nezdařil"
 
 #: libdnf/repo/Repo.cpp:1423
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
-msgstr ""
+msgstr "Nelze vytvořit persistdir \"%s\": %s"
 
 #: libdnf/repo/Repo.cpp:1800
 msgid "resume cannot be used simultaneously with the byterangestart param"
-msgstr ""
+msgstr "resume nelze použít současně s parametrem byterangestart"
 
 #: libdnf/repo/Repo.cpp:1817
 #, c-format
 msgid "PackageTarget initialization failed: %s"
-msgstr ""
+msgstr "Inicializace PackageTarget se nezdařila: %s"
 
 #: libdnf/repo/Repo.cpp:1923
 #, c-format
@@ -1152,7 +1156,7 @@ msgstr "Není možné otevřít %s: %s"
 #: libdnf/repo/Repo.cpp:1967
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
-msgstr ""
+msgstr "Obsluha protokolu s id %ld neexistuje"
 
 #: libdnf/transaction/Swdb.cpp:173
 msgid "In progress"
@@ -1162,19 +1166,19 @@ msgstr "V přípravě"
 #: libdnf/transaction/Swdb.cpp:227 libdnf/transaction/Swdb.cpp:244
 #: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:393
 msgid "Not in progress"
-msgstr ""
+msgstr "Neprovádí se"
 
 #: libdnf/transaction/Swdb.cpp:254
 msgid "No transaction in progress"
-msgstr ""
+msgstr "Žádná transakce neprobíhá"
 
 #: libdnf/transaction/TransactionItem.cpp:146
 msgid "Attempt to insert transaction item into completed transaction"
-msgstr ""
+msgstr "Pokus o vložení položky transakce do dokončené transakce"
 
 #: libdnf/transaction/TransactionItem.cpp:217
 msgid "Attempt to update transaction item in completed transaction"
-msgstr ""
+msgstr "Pokus o aktualizaci položky transakce v dokončené transakci"
 
 #: libdnf/transaction/Transformer.cpp:76
 msgid "Database Corrupted: no row 'version' in table 'config'"
@@ -1182,21 +1186,21 @@ msgstr ""
 
 #: libdnf/transaction/Transformer.cpp:681
 msgid "Transformer: can't open history persist dir"
-msgstr ""
+msgstr "Transformer: nelze otevřít historii persist dir"
 
 #: libdnf/transaction/Transformer.cpp:694
 msgid "Couldn't find a history database"
-msgstr ""
+msgstr "Nepodařilo se najít databázi historie"
 
 #: libdnf/transaction/private/Transaction.cpp:41
 msgid "Transaction has already began!"
-msgstr ""
+msgstr "Transakce již začala!"
 
 #: libdnf/transaction/private/Transaction.cpp:58
 #, c-format
 msgid "TransactionItem state is not set: %s"
-msgstr ""
+msgstr "Stav TransactionItem není nastaven: %s"
 
 #: libdnf/transaction/private/Transaction.cpp:243
 msgid "Can't add console output to unsaved transaction"
-msgstr ""
+msgstr "Nelze přidat výstup konzoly do neuložené transakce"
