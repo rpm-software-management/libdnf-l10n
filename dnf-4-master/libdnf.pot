@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-17 01:33+0000\n"
+"POT-Creation-Date: 2023-08-18 01:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -975,177 +975,157 @@ msgid ""
 "operator instead."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:321
+#: libdnf/repo/Repo.cpp:314
 #, c-format
 msgid "Repository %s has no mirror or baseurl set."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:330
+#: libdnf/repo/Repo.cpp:323
 #, c-format
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:491 libdnf/repo/Repo.cpp:612 libdnf/repo/Repo.cpp:643
-#: libdnf/repo/Repo.cpp:1407
+#: libdnf/repo/Repo.cpp:484 libdnf/repo/Repo.cpp:605 libdnf/repo/Repo.cpp:636
+#: libdnf/repo/Repo.cpp:1271
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:514
+#: libdnf/repo/Repo.cpp:507
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:548
+#: libdnf/repo/Repo.cpp:541
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:550
+#: libdnf/repo/Repo.cpp:543
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:631
+#: libdnf/repo/Repo.cpp:624
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:662 libdnf/repo/Repo.cpp:684
-#, c-format
-msgid "%s: gpgme_data_new_from_fd(): %s"
-msgstr ""
-
-#: libdnf/repo/Repo.cpp:670 libdnf/repo/Repo.cpp:692
-#, c-format
-msgid "%s: gpgme_op_import(): %s"
-msgstr ""
-
-#: libdnf/repo/Repo.cpp:711 libdnf/repo/Repo.cpp:1169 libdnf/repo/Repo.cpp:1243
-#: libdnf/repo/Repo.cpp:1286
+#: libdnf/repo/Repo.cpp:653 libdnf/repo/Repo.cpp:1033 libdnf/repo/Repo.cpp:1107
+#: libdnf/repo/Repo.cpp:1150
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:719 libdnf/repo/Repo.cpp:785 libdnf/repo/Repo.cpp:919
-#, c-format
-msgid "%s: gpgme_ctx_set_engine_info(): %s"
-msgstr ""
-
-#: libdnf/repo/Repo.cpp:746 libdnf/repo/Repo.cpp:810
-#, c-format
-msgid "can not list keys: %s"
-msgstr ""
-
-#: libdnf/repo/Repo.cpp:839
+#: libdnf/repo/Repo.cpp:735
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:892
+#: libdnf/repo/Repo.cpp:764
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:906 libdnf/utils/filesystem.cpp:79
+#: libdnf/repo/Repo.cpp:778 libdnf/utils/filesystem.cpp:79
 #, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:926
+#: libdnf/repo/Repo.cpp:790
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1183
+#: libdnf/repo/Repo.cpp:1047
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1202
+#: libdnf/repo/Repo.cpp:1066
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1225
+#: libdnf/repo/Repo.cpp:1089
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1231
+#: libdnf/repo/Repo.cpp:1095
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1260
+#: libdnf/repo/Repo.cpp:1124
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1262
+#: libdnf/repo/Repo.cpp:1126
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1280
+#: libdnf/repo/Repo.cpp:1144
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1300
+#: libdnf/repo/Repo.cpp:1164
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1323
+#: libdnf/repo/Repo.cpp:1187
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1346
+#: libdnf/repo/Repo.cpp:1210
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1358
+#: libdnf/repo/Repo.cpp:1222
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1362
+#: libdnf/repo/Repo.cpp:1226
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1369
+#: libdnf/repo/Repo.cpp:1233
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1395
+#: libdnf/repo/Repo.cpp:1259
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1423
+#: libdnf/repo/Repo.cpp:1287
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1800
+#: libdnf/repo/Repo.cpp:1664
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1817
+#: libdnf/repo/Repo.cpp:1681
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1923
+#: libdnf/repo/Repo.cpp:1787
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1967
+#: libdnf/repo/Repo.cpp:1831
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr ""
