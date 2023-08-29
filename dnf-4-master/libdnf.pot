@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 01:36+0000\n"
+"POT-Creation-Date: 2023-08-29 01:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -968,6 +968,12 @@ msgstr ""
 msgid "Can't load plugin \"%s\": %s"
 msgstr ""
 
+#: libdnf/repo/Crypto.cpp:99 libdnf/repo/Repo.cpp:955 libdnf/repo/Repo.cpp:1029
+#: libdnf/repo/Repo.cpp:1072
+#, c-format
+msgid "Cannot create repo temporary directory \"%s\": %s"
+msgstr ""
+
 #: libdnf/repo/DependencySplitter.cpp:50
 msgid ""
 "Using '==' operator in reldeps can result in an undefined behavior. It is "
@@ -986,7 +992,7 @@ msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr ""
 
 #: libdnf/repo/Repo.cpp:484 libdnf/repo/Repo.cpp:605 libdnf/repo/Repo.cpp:636
-#: libdnf/repo/Repo.cpp:1271
+#: libdnf/repo/Repo.cpp:1193
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr ""
@@ -1011,121 +1017,115 @@ msgstr ""
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:653 libdnf/repo/Repo.cpp:1033 libdnf/repo/Repo.cpp:1107
-#: libdnf/repo/Repo.cpp:1150
-#, c-format
-msgid "Cannot create repo temporary directory \"%s\": %s"
-msgstr ""
-
-#: libdnf/repo/Repo.cpp:735
+#: libdnf/repo/Repo.cpp:669
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:764
+#: libdnf/repo/Repo.cpp:690
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:778 libdnf/utils/filesystem.cpp:79
+#: libdnf/repo/Repo.cpp:704 libdnf/utils/filesystem.cpp:79
 #, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:790
+#: libdnf/repo/Repo.cpp:712
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1047
+#: libdnf/repo/Repo.cpp:969
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1066
+#: libdnf/repo/Repo.cpp:988
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1089
+#: libdnf/repo/Repo.cpp:1011
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1095
+#: libdnf/repo/Repo.cpp:1017
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1124
+#: libdnf/repo/Repo.cpp:1046
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1126
+#: libdnf/repo/Repo.cpp:1048
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1144
+#: libdnf/repo/Repo.cpp:1066
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1164
+#: libdnf/repo/Repo.cpp:1086
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1187
+#: libdnf/repo/Repo.cpp:1109
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1210
+#: libdnf/repo/Repo.cpp:1132
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1222
+#: libdnf/repo/Repo.cpp:1144
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1226
+#: libdnf/repo/Repo.cpp:1148
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1233
+#: libdnf/repo/Repo.cpp:1155
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1259
+#: libdnf/repo/Repo.cpp:1181
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1287
+#: libdnf/repo/Repo.cpp:1209
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1664
+#: libdnf/repo/Repo.cpp:1586
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1681
+#: libdnf/repo/Repo.cpp:1603
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1787
+#: libdnf/repo/Repo.cpp:1709
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1831
+#: libdnf/repo/Repo.cpp:1753
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr ""
