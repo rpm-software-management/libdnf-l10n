@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-29 01:36+0000\n"
+"POT-Creation-Date: 2023-08-30 01:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -974,7 +974,7 @@ msgstr ""
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/DependencySplitter.cpp:50
+#: libdnf/repo/DependencySplitter.cpp:51
 msgid ""
 "Using '==' operator in reldeps can result in an undefined behavior. It is "
 "deprecated and the support will be dropped in future versions. Use '=' "
