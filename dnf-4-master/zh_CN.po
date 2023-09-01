@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-10 01:53+0000\n"
+"POT-Creation-Date: 2023-09-01 01:41+0000\n"
 "PO-Revision-Date: 2023-03-07 14:20+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -1001,7 +1001,13 @@ msgstr "无法读取插件目录 \"%s\": %s"
 msgid "Can't load plugin \"%s\": %s"
 msgstr "无法加载插件 \"%s\": %s"
 
-#: libdnf/repo/DependencySplitter.cpp:50
+#: libdnf/repo/Crypto.cpp:99 libdnf/repo/Repo.cpp:955 libdnf/repo/Repo.cpp:1029
+#: libdnf/repo/Repo.cpp:1072
+#, c-format
+msgid "Cannot create repo temporary directory \"%s\": %s"
+msgstr "无法创建存储库临时目录 \"%s\": %s"
+
+#: libdnf/repo/DependencySplitter.cpp:51
 msgid ""
 "Using '==' operator in reldeps can result in an undefined behavior. It is "
 "deprecated and the support will be dropped in future versions. Use '=' "
@@ -1010,177 +1016,151 @@ msgstr ""
 "在 reldeps 中使用 '==' 操作符可能导致一个未定义的行为。这个操作符已被废弃，并"
 "且在未来的版本中会取消对它的支持。请使用 '=' 操作符代替。"
 
-#: libdnf/repo/Repo.cpp:321
+#: libdnf/repo/Repo.cpp:314
 #, c-format
 msgid "Repository %s has no mirror or baseurl set."
 msgstr "软件仓库 %s 没有设置镜像或者 baseurl。"
 
-#: libdnf/repo/Repo.cpp:330
+#: libdnf/repo/Repo.cpp:323
 #, c-format
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr "仓库 '%s' 有不被支持的类型: 'type=%s', 忽略。"
 
-#: libdnf/repo/Repo.cpp:491 libdnf/repo/Repo.cpp:612 libdnf/repo/Repo.cpp:643
-#: libdnf/repo/Repo.cpp:1407
+#: libdnf/repo/Repo.cpp:484 libdnf/repo/Repo.cpp:605 libdnf/repo/Repo.cpp:636
+#: libdnf/repo/Repo.cpp:1193
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr "存储库 '%s': 'basecachedir' 没有设置"
 
-#: libdnf/repo/Repo.cpp:514
+#: libdnf/repo/Repo.cpp:507
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
 msgstr "最大下载速度低于最小值。请修改 minrate 或 throttle 的配置"
 
-#: libdnf/repo/Repo.cpp:548
+#: libdnf/repo/Repo.cpp:541
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
 msgstr "存储库 '%s': 'proxy_username' 已被设置，但没有设置 'proxy_password'"
 
-#: libdnf/repo/Repo.cpp:550
+#: libdnf/repo/Repo.cpp:543
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr "'proxy_username' 已被设置，但没有设置 'proxy_password'"
 
-#: libdnf/repo/Repo.cpp:631
+#: libdnf/repo/Repo.cpp:624
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr "无法为存储库找到一个有效的 baseurl：%s"
 
-#: libdnf/repo/Repo.cpp:662 libdnf/repo/Repo.cpp:684
-#, c-format
-msgid "%s: gpgme_data_new_from_fd(): %s"
-msgstr "%s: gpgme_data_new_from_fd(): %s"
-
-#: libdnf/repo/Repo.cpp:670 libdnf/repo/Repo.cpp:692
-#, c-format
-msgid "%s: gpgme_op_import(): %s"
-msgstr "%s: gpgme_op_import(): %s"
-
-#: libdnf/repo/Repo.cpp:711 libdnf/repo/Repo.cpp:1169 libdnf/repo/Repo.cpp:1243
-#: libdnf/repo/Repo.cpp:1286
-#, c-format
-msgid "Cannot create repo temporary directory \"%s\": %s"
-msgstr "无法创建存储库临时目录 \"%s\": %s"
-
-#: libdnf/repo/Repo.cpp:719 libdnf/repo/Repo.cpp:785 libdnf/repo/Repo.cpp:919
-#, c-format
-msgid "%s: gpgme_ctx_set_engine_info(): %s"
-msgstr "%s: gpgme_ctx_set_engine_info(): %s"
-
-#: libdnf/repo/Repo.cpp:746 libdnf/repo/Repo.cpp:810
-#, c-format
-msgid "can not list keys: %s"
-msgstr "不能列出 key: %s"
-
-#: libdnf/repo/Repo.cpp:839
+#: libdnf/repo/Repo.cpp:669
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr "为仓库 '%s' 获取 GPG 密钥失败 : %s"
 
-#: libdnf/repo/Repo.cpp:892
+#: libdnf/repo/Repo.cpp:690
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr "存储库 %s: 0x%s 已被导入"
 
-#: libdnf/repo/Repo.cpp:906 libdnf/utils/filesystem.cpp:79
+#: libdnf/repo/Repo.cpp:704 libdnf/utils/filesystem.cpp:79
 #, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
 msgstr "无法创建目录 \"%s\": %d - %s"
 
-#: libdnf/repo/Repo.cpp:926
+#: libdnf/repo/Repo.cpp:712
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr "存储库 %s: 已导入密钥 0x%s。"
 
-#: libdnf/repo/Repo.cpp:1183
+#: libdnf/repo/Repo.cpp:969
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "恢复中： 仓库 '%s' 已被跳过，无 metalink。"
 
-#: libdnf/repo/Repo.cpp:1202
+#: libdnf/repo/Repo.cpp:988
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr "恢复中： 仓库 '%s' 已被跳过，无可用 hash。"
 
-#: libdnf/repo/Repo.cpp:1225
+#: libdnf/repo/Repo.cpp:1011
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "恢复: '%s' 失败，不匹配的 %s sum。"
 
-#: libdnf/repo/Repo.cpp:1231
+#: libdnf/repo/Repo.cpp:1017
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr "恢复中： '%s' 可以被恢复 - metalink 校验和匹配。"
 
-#: libdnf/repo/Repo.cpp:1260
+#: libdnf/repo/Repo.cpp:1046
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "恢复: '%s' 可用被恢复 - repomd 匹配。"
 
-#: libdnf/repo/Repo.cpp:1262
+#: libdnf/repo/Repo.cpp:1048
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "恢复: '%s' 失败，不匹配的 repomd。"
 
-#: libdnf/repo/Repo.cpp:1280
+#: libdnf/repo/Repo.cpp:1066
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr "无法创建仓库目标目录 \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1300
+#: libdnf/repo/Repo.cpp:1086
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "无法创建目录 \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1323
+#: libdnf/repo/Repo.cpp:1109
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "无法把目录 \"%s\" 重命名为 \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1346
+#: libdnf/repo/Repo.cpp:1132
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "存储库：使用缓存用于：%s"
 
-#: libdnf/repo/Repo.cpp:1358
+#: libdnf/repo/Repo.cpp:1144
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "仅启用缓存，但没有 '%s' 的缓存"
 
-#: libdnf/repo/Repo.cpp:1362
+#: libdnf/repo/Repo.cpp:1148
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "存储库: 从远程下载: %s"
 
-#: libdnf/repo/Repo.cpp:1369
+#: libdnf/repo/Repo.cpp:1155
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr "为仓库 '%s' 下载元数据失败 : %s"
 
-#: libdnf/repo/Repo.cpp:1395
+#: libdnf/repo/Repo.cpp:1181
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir(): 计算 SHA256 失败"
 
-#: libdnf/repo/Repo.cpp:1423
+#: libdnf/repo/Repo.cpp:1209
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr "无法创建 persistdir \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1800
+#: libdnf/repo/Repo.cpp:1586
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr "resume 不能和 the byterangestart 参数同时使用"
 
-#: libdnf/repo/Repo.cpp:1817
+#: libdnf/repo/Repo.cpp:1603
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "PackageTarget 初始失败: %s"
 
-#: libdnf/repo/Repo.cpp:1923
+#: libdnf/repo/Repo.cpp:1709
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "无法打开 %s: %s"
 
-#: libdnf/repo/Repo.cpp:1967
+#: libdnf/repo/Repo.cpp:1753
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "id 为 %ld 的日志处理器不存在"
@@ -1231,6 +1211,22 @@ msgstr "TransactionItem 状态没有设置：%s"
 #: libdnf/transaction/private/Transaction.cpp:243
 msgid "Can't add console output to unsaved transaction"
 msgstr "无法向未保存的事务中添加控制台输出"
+
+#, c-format
+#~ msgid "%s: gpgme_data_new_from_fd(): %s"
+#~ msgstr "%s: gpgme_data_new_from_fd(): %s"
+
+#, c-format
+#~ msgid "%s: gpgme_op_import(): %s"
+#~ msgstr "%s: gpgme_op_import(): %s"
+
+#, c-format
+#~ msgid "%s: gpgme_ctx_set_engine_info(): %s"
+#~ msgstr "%s: gpgme_ctx_set_engine_info(): %s"
+
+#, c-format
+#~ msgid "can not list keys: %s"
+#~ msgstr "不能列出 key: %s"
 
 #~ msgid "failed to add solv"
 #~ msgstr "添加 solv 失败"
