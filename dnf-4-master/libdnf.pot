@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-30 01:35+0000\n"
+"POT-Creation-Date: 2023-10-01 01:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -483,49 +483,49 @@ msgstr ""
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:833 libdnf/dnf-transaction.cpp:905
+#: libdnf/dnf-transaction.cpp:833 libdnf/dnf-transaction.cpp:906
 msgid "Failed to get value for CacheDir"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:913
+#: libdnf/dnf-transaction.cpp:914
 #, c-format
 msgid "Failed to get filesystem free size for %s: "
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:921
+#: libdnf/dnf-transaction.cpp:922
 #, c-format
 msgid "Failed to get filesystem free size for %s"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:937
+#: libdnf/dnf-transaction.cpp:938
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1196
+#: libdnf/dnf-transaction.cpp:1197
 msgid "failed to set root"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1417
+#: libdnf/dnf-transaction.cpp:1433
 #, c-format
 msgid "Error %i running transaction test"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1441
+#: libdnf/dnf-transaction.cpp:1457
 #, c-format
 msgid "Error %i opening rpm database"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1449 libdnf/dnf-transaction.cpp:1495
+#: libdnf/dnf-transaction.cpp:1465 libdnf/dnf-transaction.cpp:1511
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1464
+#: libdnf/dnf-transaction.cpp:1480
 #, c-format
 msgid "Error %i running transaction"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1480
+#: libdnf/dnf-transaction.cpp:1496
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
