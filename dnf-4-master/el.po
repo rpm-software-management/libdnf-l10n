@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-01 01:41+0000\n"
+"POT-Creation-Date: 2023-10-08 01:41+0000\n"
 "PO-Revision-Date: 2015-03-23 03:00+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Greek\n"
@@ -50,7 +50,7 @@ msgstr ""
 msgid "negative value is not allowed"
 msgstr ""
 
-#: libdnf/conf/ConfigMain.cpp:343
+#: libdnf/conf/ConfigMain.cpp:344
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr ""
@@ -482,49 +482,49 @@ msgstr ""
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:833 libdnf/dnf-transaction.cpp:905
+#: libdnf/dnf-transaction.cpp:833 libdnf/dnf-transaction.cpp:906
 msgid "Failed to get value for CacheDir"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:913
+#: libdnf/dnf-transaction.cpp:914
 #, c-format
 msgid "Failed to get filesystem free size for %s: "
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:921
+#: libdnf/dnf-transaction.cpp:922
 #, c-format
 msgid "Failed to get filesystem free size for %s"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:937
+#: libdnf/dnf-transaction.cpp:938
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1196
+#: libdnf/dnf-transaction.cpp:1197
 msgid "failed to set root"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1417
+#: libdnf/dnf-transaction.cpp:1433
 #, c-format
 msgid "Error %i running transaction test"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1441
+#: libdnf/dnf-transaction.cpp:1457
 #, c-format
 msgid "Error %i opening rpm database"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1449 libdnf/dnf-transaction.cpp:1495
+#: libdnf/dnf-transaction.cpp:1465 libdnf/dnf-transaction.cpp:1511
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1464
+#: libdnf/dnf-transaction.cpp:1480
 #, c-format
 msgid "Error %i running transaction"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1480
+#: libdnf/dnf-transaction.cpp:1496
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
@@ -744,42 +744,42 @@ msgstr ""
 msgid "both module %s from %s and %s from %s obsolete %s"
 msgstr ""
 
-#: libdnf/goal/Goal.cpp:1168
+#: libdnf/goal/Goal.cpp:1174
 msgid "no solver set"
 msgstr ""
 
-#: libdnf/goal/Goal.cpp:1173
+#: libdnf/goal/Goal.cpp:1179
 #, c-format
 msgid "failed to make %s absolute"
 msgstr ""
 
-#: libdnf/goal/Goal.cpp:1180
+#: libdnf/goal/Goal.cpp:1186
 #, c-format
 msgid "failed writing debugdata to %1$s: %2$s"
 msgstr ""
 
-#: libdnf/goal/Goal.cpp:1192
+#: libdnf/goal/Goal.cpp:1198
 msgid "no solv in the goal"
 msgstr ""
 
-#: libdnf/goal/Goal.cpp:1194
+#: libdnf/goal/Goal.cpp:1200
 msgid "no solution, cannot remove protected package"
 msgstr ""
 
-#: libdnf/goal/Goal.cpp:1197
+#: libdnf/goal/Goal.cpp:1203
 msgid "no solution possible"
 msgstr ""
 
-#: libdnf/goal/Goal.cpp:1323
+#: libdnf/goal/Goal.cpp:1329
 msgid "Problem: "
 msgstr ""
 
-#: libdnf/goal/Goal.cpp:1328
+#: libdnf/goal/Goal.cpp:1334
 #, c-format
 msgid "Problem %d: "
 msgstr ""
 
-#: libdnf/goal/Goal.cpp:1661
+#: libdnf/goal/Goal.cpp:1704
 msgid ""
 "The operation would result in removing the following protected packages: "
 msgstr ""
