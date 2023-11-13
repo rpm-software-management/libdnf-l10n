@@ -4,13 +4,14 @@
 # Sundeep Anand <suanand@redhat.com>, 2021, 2022.
 # Transtats <suanand@redhat.com>, 2022, 2023.
 # Yang Yulin <yylteam@icloud.com>, 2022.
+# Sapphire RainSlide <RainSlide@outlook.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-14 01:35+0000\n"
-"PO-Revision-Date: 2023-03-07 14:20+0000\n"
-"Last-Translator: Transtats <suanand@redhat.com>\n"
+"PO-Revision-Date: 2023-11-13 12:13+0000\n"
+"Last-Translator: Sapphire RainSlide <RainSlide@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.1.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -553,16 +554,14 @@ msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr "这个操作使用了 Ill-formed Selector，不正确的比较类型"
 
 #: libdnf/goal/Goal.cpp:90
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s  does not belong to a distupgrade repository"
-msgstr " 不属于 distupgrade 仓库"
+msgstr "%s 来自 %s  不属于 distupgrade 仓库"
 
 #: libdnf/goal/Goal.cpp:91
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s  has inferior architecture"
-msgstr " 有 inferior 架构"
+msgstr "%s 来自 %s  拥有 inferior 架构"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -602,83 +601,70 @@ msgid "cannot install the best candidate for the job"
 msgstr "无法为该任务安装最佳候选"
 
 #: libdnf/goal/Goal.cpp:101
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by modular filtering"
+#, c-format
 msgid "package %s from %s is filtered out by modular filtering"
-msgstr "软件包 %s 被模块过滤过滤掉"
+msgstr "软件包 %s（来自 %s）被模块过滤功能过滤了"
 
 #: libdnf/goal/Goal.cpp:102
-#, fuzzy, c-format
-#| msgid "package %s does not have a compatible architecture"
+#, c-format
 msgid "package %s from %s does not have a compatible architecture"
-msgstr "软件包 %s 没有兼容的架构"
+msgstr "软件包 %s（来自 %s）没有兼容的架构"
 
 #: libdnf/goal/Goal.cpp:103
-#, fuzzy, c-format
-#| msgid "package %s is not installable"
+#, c-format
 msgid "package %s from %s is not installable"
-msgstr "软件包 %s 不可安装"
+msgstr "软件包 %s（来自 %s）不可安装"
 
 #: libdnf/goal/Goal.cpp:104
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by exclude filtering"
+#, c-format
 msgid "package %s from %s is filtered out by exclude filtering"
-msgstr "软件包 %s 被排除过滤过滤掉"
+msgstr "软件包 %s（来自 %s）被排除过滤功能过滤了"
 
 #: libdnf/goal/Goal.cpp:105
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by %s"
+#, c-format
 msgid "nothing provides %s needed by %s from %s"
-msgstr "没有提供 %s 所需要的 %s"
+msgstr "没有来源提供 %s 所需要的 %s（来自 %s）"
 
 #: libdnf/goal/Goal.cpp:106
-#, fuzzy, c-format
-#| msgid "cannot install both %s and %s"
+#, c-format
 msgid "cannot install both %s from %s and %s from %s"
-msgstr "无法同时安装 %s 和 %s"
+msgstr "无法同时安装 %s（来自 %s）和 %s（来自 %s）"
 
 #: libdnf/goal/Goal.cpp:107
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by %s"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by %s from %s"
-msgstr "软件包 %s 与 %s（由 %s 提供）冲突"
+msgstr "软件包 %s（来自 %s）与 %s（由 %s（来自 %s）提供）冲突"
 
 #: libdnf/goal/Goal.cpp:108
-#, fuzzy, c-format
-#| msgid "package %s obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s obsoletes %s provided by %s from %s"
-msgstr "软件包 %s 淘汰了 %s 提供的 %s"
+msgstr "软件包 %s（来自 %s）淘汰了 %s 提供的 %s（来自 %s）"
 
 #: libdnf/goal/Goal.cpp:109
-#, fuzzy, c-format
-#| msgid "installed package %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed package %s obsoletes %s provided by %s from %s"
-msgstr "已安装的软件包 %s 淘汰了 %s 提供的 %s"
+msgstr "已安装的软件包 %s 淘汰了 %s 提供的 %s（来自 %s）"
 
 #: libdnf/goal/Goal.cpp:110
-#, fuzzy, c-format
-#| msgid "package %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "软件包 %s 隐式地淘汰了 %s 提供的 %s"
+msgstr "软件包 %s（来自 %s）隐式地淘汰了 %s 提供的 %s（来自 %s）"
 
 #: libdnf/goal/Goal.cpp:111
-#, fuzzy, c-format
-#| msgid "package %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
-msgstr "软件包 %s 需要 %s，但没有提供者可以被安装"
+msgstr "软件包 %s（来自 %s）需要 %s，但没有提供者可以被安装"
 
 #: libdnf/goal/Goal.cpp:112
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by itself"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by itself"
-msgstr "软件包 %s 与自己提供的 %s 冲突"
+msgstr "软件包 %s（来自 %s）与自己提供的 %s 冲突"
 
 #: libdnf/goal/Goal.cpp:113
-#, fuzzy, c-format
-#| msgid "both package %s and %s obsolete %s"
+#, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
-msgstr "软件包 %s 和 %s 同时取代了 %s"
+msgstr "软件包 %s（来自 %s）和 %s（来自 %s）同时取代了 %s"
 
 #: libdnf/goal/Goal.cpp:117
 #, fuzzy, c-format
