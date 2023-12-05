@@ -5,13 +5,14 @@
 # Transtats <suanand@redhat.com>, 2022, 2023.
 # Yang Yulin <yylteam@icloud.com>, 2022.
 # Sapphire RainSlide <RainSlide@outlook.com>, 2023.
+# Jingge Chen <mariocanfly@hotmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-13 01:42+0000\n"
-"PO-Revision-Date: 2023-11-13 12:13+0000\n"
-"Last-Translator: Sapphire RainSlide <RainSlide@outlook.com>\n"
+"PO-Revision-Date: 2023-12-07 08:44+0000\n"
+"Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.1.1\n"
+"X-Generator: Weblate 5.2.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -667,16 +668,14 @@ msgid "both package %s from %s and %s from %s obsolete %s"
 msgstr "软件包 %s（来自 %s）和 %s（来自 %s）同时取代了 %s"
 
 #: libdnf/goal/Goal.cpp:117
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s does not belong to a distupgrade repository"
-msgstr " 不属于 distupgrade 仓库"
+msgstr "%s（来自 %s）不属于 distupgrade 仓库"
 
 #: libdnf/goal/Goal.cpp:118
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s has inferior architecture"
-msgstr " 有 inferior 架构"
+msgstr "%s（来自 %s）有劣质架构"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -692,77 +691,65 @@ msgid "cannot install the best update candidate for module "
 msgstr "无法为模块安装最佳更新候选 "
 
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
-#, fuzzy, c-format
-#| msgid "module %s is disabled"
+#, c-format
 msgid "module %s from %s is disabled"
-msgstr "模块 %s 被禁用"
+msgstr "模块 %s（来自 %s）被禁用"
 
 #: libdnf/goal/Goal.cpp:129
-#, fuzzy, c-format
-#| msgid "module %s does not have a compatible architecture"
+#, c-format
 msgid "module %s from %s does not have a compatible architecture"
-msgstr "模块 %s 没有兼容的架构"
+msgstr "模块%s（来自 %s）没有兼容的架构"
 
 #: libdnf/goal/Goal.cpp:130
-#, fuzzy, c-format
-#| msgid "module %s is not installable"
+#, c-format
 msgid "module %s from %s is not installable"
-msgstr "模块 %s 不可安装"
+msgstr "模块%s（来自 %s）不可安装"
 
 #: libdnf/goal/Goal.cpp:132
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by module %s"
+#, c-format
 msgid "nothing provides %s needed by module %s from %s"
-msgstr "没有提供模块 %s 所需要的 %s"
+msgstr "没有提供模块 %s（来自 %s） 所需要的 %s"
 
 #: libdnf/goal/Goal.cpp:133
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "cannot install both modules %s from %s and %s from %s"
-msgstr "不能同时安装模块 %s 和 %s"
+msgstr "不能同时安装模块 %s（来自 %s） 和 %s（来自 %s）"
 
 #: libdnf/goal/Goal.cpp:134
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by %s"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
-msgstr "模块 %s 与 %s 提供的 %s 冲突"
+msgstr "模块 %s（来自 %s）与 %s 冲突，后者由%s（来自 %s）提供"
 
 #: libdnf/goal/Goal.cpp:135
-#, fuzzy, c-format
-#| msgid "module %s obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s obsoletes %s provided by %s from %s"
-msgstr "模块 %s 淘汰了 %s 提供的 %s"
+msgstr "模块 %s（来自 %s） 淘汰了 %s ，后者由%s（来自 %s）提供"
 
 #: libdnf/goal/Goal.cpp:136
-#, fuzzy, c-format
-#| msgid "installed module %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed module %s obsoletes %s provided by %s from %s"
-msgstr "已安装的模块 %s 淘汰了 %s 提供的 %s"
+msgstr "已安装的模块 %s 淘汰了 %s ，后者由%s（来自 %s）提供"
 
 #: libdnf/goal/Goal.cpp:137
-#, fuzzy, c-format
-#| msgid "module %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "模块 %s 隐式地淘汰了 %s 提供的 %s"
+msgstr "模块 %s（来自 %s） 隐式地淘汰了 %s，后者由%s（来自 %s）提供"
 
 #: libdnf/goal/Goal.cpp:138
-#, fuzzy, c-format
-#| msgid "module %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
-msgstr "模块 %s 需要 %s，但无法安装任何提供程序"
+msgstr "模块 %s（来自 %s） 需要 %s，但无法安装任何提供它的程序"
 
 #: libdnf/goal/Goal.cpp:139
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by itself"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by itself"
-msgstr "模块 %s 与自己提供的 %s 冲突"
+msgstr "模块 %s（来自 %s） 与自己提供的 %s 冲突"
 
 #: libdnf/goal/Goal.cpp:140
-#, fuzzy, c-format
-#| msgid "both module %s and %s obsolete %s"
+#, c-format
 msgid "both module %s from %s and %s from %s obsolete %s"
-msgstr "模块 %s 和 %s 同时取代了 %s"
+msgstr "模块 %s（来自 %s） 和 %s（来自 %s） 同时取代了 %s"
 
 #: libdnf/goal/Goal.cpp:1174
 msgid "no solver set"
