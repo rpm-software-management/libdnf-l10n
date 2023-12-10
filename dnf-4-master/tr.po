@@ -1,12 +1,12 @@
 # Emin Tufan Çetin <etcetin@gmail.com>, 2016. #zanata
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021, 2022.
-# Oğuz Ersen <oguz@ersen.moe>, 2022.
+# Oğuz Ersen <oguz@ersen.moe>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-07 01:43+0000\n"
-"PO-Revision-Date: 2022-06-24 07:18+0000\n"
+"PO-Revision-Date: 2023-12-11 14:44+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/tr/>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 5.2.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -574,16 +574,14 @@ msgstr ""
 "karşılaştırma türü"
 
 #: libdnf/goal/Goal.cpp:90
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s  does not belong to a distupgrade repository"
-msgstr " bir distupgrade deposuna ait değil"
+msgstr "%s / %s  bir distupgrade deposuna ait değil"
 
 #: libdnf/goal/Goal.cpp:91
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s  has inferior architecture"
-msgstr " daha düşük bir mimariye sahip"
+msgstr "%s / %s  daha düşük bir mimariye sahip"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -623,98 +621,84 @@ msgid "cannot install the best candidate for the job"
 msgstr "görev için en iyi aday kurulamıyor"
 
 #: libdnf/goal/Goal.cpp:101
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by modular filtering"
+#, c-format
 msgid "package %s from %s is filtered out by modular filtering"
-msgstr "%s paketi modüler filtreleme ile filtrelendi"
+msgstr "%s / %s paketi modüler filtreleme ile filtrelendi"
 
 #: libdnf/goal/Goal.cpp:102
-#, fuzzy, c-format
-#| msgid "package %s does not have a compatible architecture"
+#, c-format
 msgid "package %s from %s does not have a compatible architecture"
-msgstr "%s paketi uyumlu bir mimariye sahip değil"
+msgstr "%s / %s paketi uyumlu bir mimariye sahip değil"
 
 #: libdnf/goal/Goal.cpp:103
-#, fuzzy, c-format
-#| msgid "package %s is not installable"
+#, c-format
 msgid "package %s from %s is not installable"
-msgstr "%s paketi kurulabilir değil"
+msgstr "%s / %s paketi kurulabilir değil"
 
 #: libdnf/goal/Goal.cpp:104
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by exclude filtering"
+#, c-format
 msgid "package %s from %s is filtered out by exclude filtering"
-msgstr "%s paketi hariç tutma filtresi ile filtrelendi"
+msgstr "%s / %s paketi hariç tutma filtresi ile filtrelendi"
 
 #: libdnf/goal/Goal.cpp:105
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by %s"
+#, c-format
 msgid "nothing provides %s needed by %s from %s"
-msgstr "hiçbir şey %s'i (%s tarafından ihtiyaç duyulan) sağlamıyor"
+msgstr "hiçbir şey %s'i (%s / %starafından ihtiyaç duyulan) sağlamıyor"
 
 #: libdnf/goal/Goal.cpp:106
-#, fuzzy, c-format
-#| msgid "cannot install both %s and %s"
+#, c-format
 msgid "cannot install both %s from %s and %s from %s"
-msgstr "%s ve %s birlikte kurulamıyor"
+msgstr "%s / %s ve %s / %s birlikte kurulamıyor"
 
 #: libdnf/goal/Goal.cpp:107
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by %s"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by %s from %s"
-msgstr "%s paketi %s ile (%s tarafından sağlanan) çakışıyor"
+msgstr "%s / %s paketi %s ile (%s / %s tarafından sağlanan) çakışıyor"
 
 #: libdnf/goal/Goal.cpp:108
-#, fuzzy, c-format
-#| msgid "package %s obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s obsoletes %s provided by %s from %s"
-msgstr "%s paketi, %s'i (%s tarafından sağlanan) kullanım dışı bırakıyor"
+msgstr ""
+"%s / %s paketi, %s'i (%s / %s tarafından sağlanan) kullanım dışı bırakıyor"
 
 #: libdnf/goal/Goal.cpp:109
-#, fuzzy, c-format
-#| msgid "installed package %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed package %s obsoletes %s provided by %s from %s"
 msgstr ""
-"kurulu %s paketi, %s'i (%s tarafından sağlanan) kullanım dışı bırakıyor"
+"kurulu %s paketi, %s'i (%s / %s tarafından sağlanan) kullanım dışı bırakıyor"
 
 #: libdnf/goal/Goal.cpp:110
-#, fuzzy, c-format
-#| msgid "package %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s implicitly obsoletes %s provided by %s from %s"
 msgstr ""
-"%s paketi, %s'i (%s tarafından sağlanan) dolaylı olarak kullanım dışı "
-"bırakıyor"
+"%s / %s paketi, %s'i (%s / %s tarafından sağlanan) dolaylı olarak kullanım "
+"dışı bırakıyor"
 
 #: libdnf/goal/Goal.cpp:111
-#, fuzzy, c-format
-#| msgid "package %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
-msgstr "%s paketi %s gerektiriyor, ancak sağlayanların hiçbiri kurulamıyor"
+msgstr "%s / %s paketi %s gerektiriyor, ancak sağlayanların hiçbiri kurulamıyor"
 
 #: libdnf/goal/Goal.cpp:112
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by itself"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by itself"
-msgstr "%s paketi (kendisi tarafından sağlanan) %s ile çakışıyor"
+msgstr "%s / %s paketi (kendisi tarafından sağlanan) %s ile çakışıyor"
 
 #: libdnf/goal/Goal.cpp:113
-#, fuzzy, c-format
-#| msgid "both package %s and %s obsolete %s"
+#, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
-msgstr "%s ve %s paketleri, %s'i kullanım dışı bırakıyor"
+msgstr "%s / %s ve %s / %s paketleri, %s'i kullanım dışı bırakıyor"
 
 #: libdnf/goal/Goal.cpp:117
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s does not belong to a distupgrade repository"
-msgstr " bir distupgrade deposuna ait değil"
+msgstr "%s / %s bir distupgrade deposuna ait değil"
 
 #: libdnf/goal/Goal.cpp:118
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s has inferior architecture"
-msgstr " daha düşük bir mimariye sahip"
+msgstr "%s / %s daha düşük bir mimariye sahip"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -730,80 +714,69 @@ msgid "cannot install the best update candidate for module "
 msgstr "modül için en iyi güncelleme adayı kurulamıyor "
 
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
-#, fuzzy, c-format
-#| msgid "module %s is disabled"
+#, c-format
 msgid "module %s from %s is disabled"
-msgstr "%s modülü devre dışı"
+msgstr "%s / %s modülü devre dışı"
 
 #: libdnf/goal/Goal.cpp:129
-#, fuzzy, c-format
-#| msgid "module %s does not have a compatible architecture"
+#, c-format
 msgid "module %s from %s does not have a compatible architecture"
-msgstr "%s modülü uyumlu bir mimariye sahip değil"
+msgstr "%s / %s modülü uyumlu bir mimariye sahip değil"
 
 #: libdnf/goal/Goal.cpp:130
-#, fuzzy, c-format
-#| msgid "module %s is not installable"
+#, c-format
 msgid "module %s from %s is not installable"
-msgstr "%s modülü kurulabilir değil"
+msgstr "%s / %s modülü kurulabilir değil"
 
 #: libdnf/goal/Goal.cpp:132
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by module %s"
+#, c-format
 msgid "nothing provides %s needed by module %s from %s"
-msgstr "hiçbir şey %s'i (%s modülü tarafından ihtiyaç duyulan) sağlamıyor"
+msgstr "hiçbir şey %s'i (%s / %s modülü tarafından ihtiyaç duyulan) sağlamıyor"
 
 #: libdnf/goal/Goal.cpp:133
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "cannot install both modules %s from %s and %s from %s"
-msgstr "%s ve %s modülleri birlikte kurulamıyor"
+msgstr "%s / %s ve %s / %s modülleri birlikte kurulamıyor"
 
 #: libdnf/goal/Goal.cpp:134
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by %s"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
-msgstr "%s modülü %s ile (%s tarafından sağlanan) çakışıyor"
+msgstr "%s / %s modülü %s ile (%s / %s tarafından sağlanan) çakışıyor"
 
 #: libdnf/goal/Goal.cpp:135
-#, fuzzy, c-format
-#| msgid "module %s obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s obsoletes %s provided by %s from %s"
-msgstr "%s modülü, %s'i (%s tarafından sağlanan) kullanım dışı bırakıyor"
+msgstr ""
+"%s / %s modülü, %s'i (%s / %s tarafından sağlanan) kullanım dışı bırakıyor"
 
 #: libdnf/goal/Goal.cpp:136
-#, fuzzy, c-format
-#| msgid "installed module %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed module %s obsoletes %s provided by %s from %s"
 msgstr ""
-"kurulu %s modülü, %s'i (%s tarafından sağlanan) kullanım dışı bırakıyor"
+"kurulu %s modülü, %s'i (%s / %s tarafından sağlanan) kullanım dışı bırakıyor"
 
 #: libdnf/goal/Goal.cpp:137
-#, fuzzy, c-format
-#| msgid "module %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
 msgstr ""
-"%s modülü, %s'i (%s tarafından sağlanan) dolaylı olarak kullanım dışı "
-"bırakıyor"
+"%s / %s modülü, %s'i (%s / %s tarafından sağlanan) dolaylı olarak kullanım "
+"dışı bırakıyor"
 
 #: libdnf/goal/Goal.cpp:138
-#, fuzzy, c-format
-#| msgid "module %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
-msgstr "%s modülü %s gerektiriyor, ancak sağlayanların hiçbiri kurulamıyor"
+msgstr "%s / %s modülü %s gerektiriyor, ancak sağlayanların hiçbiri kurulamıyor"
 
 #: libdnf/goal/Goal.cpp:139
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by itself"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by itself"
-msgstr "%s modülü (kendisi tarafından sağlanan) %s ile çakışıyor"
+msgstr "%s / %s modülü (kendisi tarafından sağlanan) %s ile çakışıyor"
 
 #: libdnf/goal/Goal.cpp:140
-#, fuzzy, c-format
-#| msgid "both module %s and %s obsolete %s"
+#, c-format
 msgid "both module %s from %s and %s from %s obsolete %s"
-msgstr "%s ve %s modülleri, %s'i kullanım dışı bırakıyor"
+msgstr "%s / %s ve %s / %s modülleri, %s'i kullanım dışı bırakıyor"
 
 #: libdnf/goal/Goal.cpp:1174
 msgid "no solver set"
