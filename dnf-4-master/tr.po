@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-07 01:43+0000\n"
+"POT-Creation-Date: 2023-12-11 01:44+0000\n"
 "PO-Revision-Date: 2023-12-11 14:44+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
@@ -678,7 +678,8 @@ msgstr ""
 #, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
-msgstr "%s / %s paketi %s gerektiriyor, ancak sağlayanların hiçbiri kurulamıyor"
+msgstr ""
+"%s / %s paketi %s gerektiriyor, ancak sağlayanların hiçbiri kurulamıyor"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
@@ -766,7 +767,8 @@ msgstr ""
 #, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
-msgstr "%s / %s modülü %s gerektiriyor, ancak sağlayanların hiçbiri kurulamıyor"
+msgstr ""
+"%s / %s modülü %s gerektiriyor, ancak sağlayanların hiçbiri kurulamıyor"
 
 #: libdnf/goal/Goal.cpp:139
 #, c-format
