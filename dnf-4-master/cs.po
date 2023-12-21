@@ -4,14 +4,14 @@
 # Pavel Borecki <pavel.borecki@gmail.com>, 2023.
 # Jan Kalabza <jan.kalabza@gmail.com>, 2023.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2023.
+# Petr Ptacek <petr106@atlas.cz>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-11 01:44+0000\n"
 "PO-Revision-Date: 2023-12-22 09:10+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/cs/>\n"
 "Language: cs\n"
@@ -441,7 +441,7 @@ msgstr "nepodařilo se načíst RPMDB"
 #: libdnf/dnf-sack.cpp:2598
 #, c-format
 msgid "No module defaults found: %s"
-msgstr ""
+msgstr "Nebyly nalezeny žádné výchozí hodnoty modulu: %s"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
@@ -528,7 +528,7 @@ msgstr ""
 
 #: libdnf/dnf-transaction.cpp:1465 libdnf/dnf-transaction.cpp:1511
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr ""
+msgstr "Funkce rpmdbCookie() nevrátila cookie rpm databáze."
 
 #: libdnf/dnf-transaction.cpp:1480
 #, c-format
@@ -561,7 +561,7 @@ msgstr "Pro operaci byl použit nesprávný selektor, nesprávný typ porovnán�
 #: libdnf/goal/Goal.cpp:90
 #, c-format
 msgid "%s from %s  does not belong to a distupgrade repository"
-msgstr ""
+msgstr "%s z %s nepatří do distupgrade repozitáře"
 
 #: libdnf/goal/Goal.cpp:91
 #, c-format
@@ -608,12 +608,12 @@ msgstr "nemůže instalovat nejlepšího kandidáta pro danou práci"
 #: libdnf/goal/Goal.cpp:101
 #, c-format
 msgid "package %s from %s is filtered out by modular filtering"
-msgstr ""
+msgstr "balíček %s z %s je odfiltrován modulárním filtrováním"
 
 #: libdnf/goal/Goal.cpp:102
 #, c-format
 msgid "package %s from %s does not have a compatible architecture"
-msgstr ""
+msgstr "balíček %s z %s nemá kompatibilní architekturu"
 
 #: libdnf/goal/Goal.cpp:103
 #, c-format
@@ -623,12 +623,12 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:104
 #, c-format
 msgid "package %s from %s is filtered out by exclude filtering"
-msgstr ""
+msgstr "balíček %s z %s je odfiltrován vyloučeným filtrováním"
 
 #: libdnf/goal/Goal.cpp:105
 #, c-format
 msgid "nothing provides %s needed by %s from %s"
-msgstr ""
+msgstr "nic neposkytuje %s potřebné pro %s z %s"
 
 #: libdnf/goal/Goal.cpp:106
 #, c-format
@@ -648,7 +648,7 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s from %s"
-msgstr ""
+msgstr "nainstalovaný balíček %s je zastaralý %s poskytovaný %s z %s"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
@@ -660,11 +660,13 @@ msgstr ""
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
+"balíček %s z %s vyžaduje %s, ale nelze ho nainstalovat od žádného z "
+"poskytovatelů"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
 msgid "package %s from %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "balíček %s od %s je v konfliktu s %s poskytnutým sebou samotným"
 
 #: libdnf/goal/Goal.cpp:113
 #, c-format
@@ -674,7 +676,7 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:117
 #, c-format
 msgid "%s from %s does not belong to a distupgrade repository"
-msgstr ""
+msgstr "%s z %s nepatří do distupgrade repozitáře"
 
 #: libdnf/goal/Goal.cpp:118
 #, c-format
@@ -702,7 +704,7 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:129
 #, c-format
 msgid "module %s from %s does not have a compatible architecture"
-msgstr ""
+msgstr "modul %s z %s nemá kompatibilní architekturu"
 
 #: libdnf/goal/Goal.cpp:130
 #, c-format
@@ -712,7 +714,7 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:132
 #, c-format
 msgid "nothing provides %s needed by module %s from %s"
-msgstr ""
+msgstr "nic neposkytuje %s potřebné pro modul %s z%s"
 
 #: libdnf/goal/Goal.cpp:133
 #, c-format
@@ -732,7 +734,7 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:136
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s from %s"
-msgstr ""
+msgstr "nainstalovaný modul %s je zastaralý %s poskytovaný %s z %s"
 
 #: libdnf/goal/Goal.cpp:137
 #, c-format
@@ -744,11 +746,13 @@ msgstr ""
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
+"modul %s z %s vyžaduje %s, ale nemůže být nainstalovat, protože není u "
+"žádného z poskytovatelů"
 
 #: libdnf/goal/Goal.cpp:139
 #, c-format
 msgid "module %s from %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "modul %s z %s je v konfliktu s %s, poskytnutým sebou samotným"
 
 #: libdnf/goal/Goal.cpp:140
 #, c-format
@@ -871,7 +875,7 @@ msgstr "Povolení modulu stream:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:967
 msgid "Switching module streams:\n"
-msgstr ""
+msgstr "Přepínání streamů modulů:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:985
 msgid "Disabling modules:\n"
