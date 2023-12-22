@@ -148,7 +148,7 @@ msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr ""
 "Je vyžadován pouze název modulu. Ignorování nepotřebných informací v "
-"argumentu: '{}'"
+"argumentu: '%s'"
 
 #: libdnf/dnf-context.cpp:3351
 #, c-format
