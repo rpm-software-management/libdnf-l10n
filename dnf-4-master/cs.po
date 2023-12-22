@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-22 01:40+0000\n"
-"PO-Revision-Date: 2023-12-22 09:10+0000\n"
+"PO-Revision-Date: 2023-12-23 11:37+0000\n"
 "Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/cs/>\n"
@@ -117,7 +117,7 @@ msgstr "Nelze povolit více streamů z modulu '%s' současně"
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
-msgstr ""
+msgstr "Nelze povolit stream '%2$s' modulu '%1$s': Stav modulu již upraven"
 
 #: libdnf/dnf-context.cpp:3300
 #, c-format
@@ -153,12 +153,12 @@ msgstr ""
 #: libdnf/dnf-context.cpp:3351
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
-msgstr ""
+msgstr "Nelze resetovat modul '%s': Stav modulu již upraven"
 
 #: libdnf/dnf-context.cpp:3362
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
-msgstr ""
+msgstr "Nelze zakázat modul '%s': Stav modulu již upraven"
 
 #: libdnf/dnf-context.cpp:3393 libdnf/dnf-context.cpp:3489
 #: libdnf/dnf-context.cpp:3670
@@ -176,47 +176,48 @@ msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
+"Problém při aktivaci stromu závislostí pro modul '%1$s' stream '%2$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3460
 msgid "Problems appeared for module enable request:"
-msgstr ""
+msgstr "U požadavku na povolení modulu se objevily problémy:"
 
 #: libdnf/dnf-context.cpp:3555
 #, c-format
 msgid "No active module packages found for module spec '%s'"
-msgstr ""
+msgstr "Nebyly nalezeny žádné aktivní balíčky modulů pro určený modul '%s'"
 
 #: libdnf/dnf-context.cpp:3560
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
-msgstr ""
+msgstr "Nelze nainstalovat modul '%s' z bezpečného repozitáře"
 
 #: libdnf/dnf-context.cpp:3567
 #, c-format
 msgid "No profile found matching '%s'"
-msgstr ""
+msgstr "Nebyl nalezen žádný profil odpovídající '%s'"
 
 #: libdnf/dnf-context.cpp:3621
 #, c-format
 msgid "No match for package '%s' for module spec %s"
-msgstr ""
+msgstr "Žádná shoda pro balíček '%s' pro určený modul %s"
 
 #: libdnf/dnf-context.cpp:3632
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
-msgstr ""
+msgstr "Problém během instalace pro modul '%1$s' stream '%2$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3641
 msgid "Problems appeared for module install request:"
-msgstr ""
+msgstr "Při požadavku na instalaci modulu se objevily problémy:"
 
 #: libdnf/dnf-context.cpp:3700
 msgid "Problems appeared for module reset request:"
-msgstr ""
+msgstr "Při požadavku na reset modulu se objevily problémy:"
 
 #: libdnf/dnf-context.cpp:3701 libdnf/dnf-context.cpp:3760
 msgid "Problems appeared for module disable request:"
-msgstr ""
+msgstr "Při požadavku na zakázání modulu se objevily problémy:"
 
 #: libdnf/dnf-context.cpp:3792
 #, c-format
@@ -232,6 +233,10 @@ msgid ""
 "the module using 'microdnf module reset <module_name>' command. After you "
 "reset the module, you can install the other stream."
 msgstr ""
+"Není možné přepínat povolené proudy modulu.\n"
+"Doporučuje se odstranit veškerý nainstalovaný obsah z modulu a resetovat "
+"modul pomocí příkazu 'microdnf module reset <název_modulu>'. Po resetování "
+"modulu můžete nainstalovat další stream."
 
 #: libdnf/dnf-goal.cpp:107
 msgid "Could not depsolve transaction; "
@@ -324,7 +329,7 @@ msgstr "funkce repo_add_solv() selhala."
 #: libdnf/dnf-sack.cpp:415
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "Načítání mezipaměti rozšíření %s (%d) se nezdařilo: "
 
 #: libdnf/dnf-sack.cpp:429
 #, c-format
@@ -349,22 +354,22 @@ msgstr "nepodařilo se otevřít soubor tmp: %s"
 #: libdnf/dnf-sack.cpp:550
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
-msgstr ""
+msgstr "Při zápisu primární mezipaměti %s přepisovač selhal: %i, chyba: %s"
 
 #: libdnf/dnf-sack.cpp:560
 #, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr ""
+msgstr "Selhalo uzavření tmp souboru %s: %s"
 
 #: libdnf/dnf-sack.cpp:570
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "Selhalo použítí nově zapisované primární mezipaměťi: %s: "
 
 #: libdnf/dnf-sack.cpp:576
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "Selhalo použítí nově zapisované primární mezipaměťi: %s"
 
 #: libdnf/dnf-sack.cpp:626
 #, c-format
@@ -376,21 +381,23 @@ msgstr "nelze vytvořit dočasný soubor %s"
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
+"Při zápisu rozšíření mezipaměti %s (%d): zápis přepisovače selhal: %i, chyba:"
+" %s"
 
 #: libdnf/dnf-sack.cpp:676
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
-msgstr ""
+msgstr "Při zápisu rozšíření mezipaměti (%d): nelze zavřít dočasný soubor: %s"
 
 #: libdnf/dnf-sack.cpp:692
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
-msgstr ""
+msgstr "Selhalo použítí nově zapisovaného rozšíření mezipaměti: %s (%d): "
 
 #: libdnf/dnf-sack.cpp:699
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
-msgstr ""
+msgstr "Selhalo použítí nově zapisovaného rozšíření mezipaměti: %s (%d)"
 
 #: libdnf/dnf-sack.cpp:740
 msgid "null repo md file"
@@ -404,7 +411,7 @@ msgstr "nelze přečíst soubor %1$s: %2$s"
 #: libdnf/dnf-sack.cpp:764
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "Při načítání repozitáře se nepodařilo použít %s: "
 
 #: libdnf/dnf-sack.cpp:775
 msgid "loading of MD_TYPE_PRIMARY has failed."
@@ -413,17 +420,17 @@ msgstr "načtení MD_TYPE_PRIMARY se nezdařilo."
 #: libdnf/dnf-sack.cpp:784
 #, c-format
 msgid "Opening repository primary data has failed: %s"
-msgstr ""
+msgstr "Nezdařilo se otevření primárních dat repozitáře: %s"
 
 #: libdnf/dnf-sack.cpp:795
 #, c-format
 msgid "Loading repomd has failed: %s"
-msgstr ""
+msgstr "Načítání repomd selhalo: %s"
 
 #: libdnf/dnf-sack.cpp:806
 #, c-format
 msgid "Loading primary has failed: %s"
-msgstr ""
+msgstr "Načítání primární selhalo: %s"
 
 #: libdnf/dnf-sack.cpp:872
 msgid "failed to auto-detect architecture"
@@ -524,7 +531,7 @@ msgstr "Chyba %i při provádění testu transakce"
 #: libdnf/dnf-transaction.cpp:1457
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "Chyba %i při otevírání rpm databáze"
 
 #: libdnf/dnf-transaction.cpp:1465 libdnf/dnf-transaction.cpp:1511
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
@@ -566,7 +573,7 @@ msgstr "%s z %s nepatří do distupgrade repozitáře"
 #: libdnf/goal/Goal.cpp:91
 #, c-format
 msgid "%s from %s  has inferior architecture"
-msgstr ""
+msgstr "%s z %s má špatnou architekturu"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -618,7 +625,7 @@ msgstr "balíček %s z %s nemá kompatibilní architekturu"
 #: libdnf/goal/Goal.cpp:103
 #, c-format
 msgid "package %s from %s is not installable"
-msgstr ""
+msgstr "balíček %s z %s nelze nainstalovat"
 
 #: libdnf/goal/Goal.cpp:104
 #, c-format
@@ -633,17 +640,17 @@ msgstr "nic neposkytuje %s potřebné pro %s z %s"
 #: libdnf/goal/Goal.cpp:106
 #, c-format
 msgid "cannot install both %s from %s and %s from %s"
-msgstr ""
+msgstr "nelze nainstalovat jak %s z %s, tak %s z %s"
 
 #: libdnf/goal/Goal.cpp:107
 #, c-format
 msgid "package %s from %s conflicts with %s provided by %s from %s"
-msgstr ""
+msgstr "balíček %s z %s je v konfliktu s %s poskytnutým %s z %s"
 
 #: libdnf/goal/Goal.cpp:108
 #, c-format
 msgid "package %s from %s obsoletes %s provided by %s from %s"
-msgstr ""
+msgstr "balíček %s z %s je zastaralý %s poskytnutý %s z %s"
 
 #: libdnf/goal/Goal.cpp:109
 #, c-format
@@ -653,7 +660,7 @@ msgstr "nainstalovaný balíček %s je zastaralý %s poskytovaný %s z %s"
 #: libdnf/goal/Goal.cpp:110
 #, c-format
 msgid "package %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr ""
+msgstr "balíček %s z %s je implicitně zastaralý %s poskytnutý %s z %s"
 
 #: libdnf/goal/Goal.cpp:111
 #, c-format
@@ -671,7 +678,7 @@ msgstr "balíček %s od %s je v konfliktu s %s poskytnutým sebou samotným"
 #: libdnf/goal/Goal.cpp:113
 #, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
-msgstr ""
+msgstr "oba balíčky %s z %s a %s z %s jsou zastaralé %s"
 
 #: libdnf/goal/Goal.cpp:117
 #, c-format
@@ -681,7 +688,7 @@ msgstr "%s z %s nepatří do distupgrade repozitáře"
 #: libdnf/goal/Goal.cpp:118
 #, c-format
 msgid "%s from %s has inferior architecture"
-msgstr ""
+msgstr "%s z %s má špatnou architekturu"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -699,7 +706,7 @@ msgstr "nelze nainstalovat nejlepší kandidáta na aktualizaci modulu "
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
 #, c-format
 msgid "module %s from %s is disabled"
-msgstr ""
+msgstr "modul %s z %s je zakázán"
 
 #: libdnf/goal/Goal.cpp:129
 #, c-format
@@ -709,7 +716,7 @@ msgstr "modul %s z %s nemá kompatibilní architekturu"
 #: libdnf/goal/Goal.cpp:130
 #, c-format
 msgid "module %s from %s is not installable"
-msgstr ""
+msgstr "modul %s z %s nelze nainstalovat"
 
 #: libdnf/goal/Goal.cpp:132
 #, c-format
@@ -719,17 +726,17 @@ msgstr "nic neposkytuje %s potřebné pro modul %s z%s"
 #: libdnf/goal/Goal.cpp:133
 #, c-format
 msgid "cannot install both modules %s from %s and %s from %s"
-msgstr ""
+msgstr "nelze nainstalovat oba moduly %s z %s a %s z %s"
 
 #: libdnf/goal/Goal.cpp:134
 #, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
-msgstr ""
+msgstr "modul %s z %s je v konfliktu s %s poskytnutým %s z %s"
 
 #: libdnf/goal/Goal.cpp:135
 #, c-format
 msgid "module %s from %s obsoletes %s provided by %s from %s"
-msgstr ""
+msgstr "modul %s z %s je zastaralý %s poskytnutým %s z %s"
 
 #: libdnf/goal/Goal.cpp:136
 #, c-format
@@ -739,7 +746,7 @@ msgstr "nainstalovaný modul %s je zastaralý %s poskytovaný %s z %s"
 #: libdnf/goal/Goal.cpp:137
 #, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr ""
+msgstr "modul %s z %s implicitně zastarává %s poskytnutým %s z %s"
 
 #: libdnf/goal/Goal.cpp:138
 #, c-format
@@ -757,7 +764,7 @@ msgstr "modul %s z %s je v konfliktu s %s, poskytnutým sebou samotným"
 #: libdnf/goal/Goal.cpp:140
 #, c-format
 msgid "both module %s from %s and %s from %s obsolete %s"
-msgstr ""
+msgstr "oba moduly %s z %s a %s z %s jsou zastaralé %s"
 
 #: libdnf/goal/Goal.cpp:1174
 msgid "no solver set"
@@ -787,12 +794,12 @@ msgstr "žádné řešení není možné"
 
 #: libdnf/goal/Goal.cpp:1329
 msgid "Problem: "
-msgstr ""
+msgstr "Problém: "
 
 #: libdnf/goal/Goal.cpp:1334
 #, c-format
 msgid "Problem %d: "
-msgstr ""
+msgstr "Problém %d: "
 
 #: libdnf/goal/Goal.cpp:1704
 msgid ""
@@ -802,7 +809,7 @@ msgstr "Operace by vedla k odstranění následujících chráněných balíčk�
 #: libdnf/hy-iutil.cpp:181
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
-msgstr ""
+msgstr "solv_toolversion Libsolvu je: %zu dlouhá, ale očekáváme maximálně: %zu"
 
 #: libdnf/hy-iutil.cpp:410
 #, c-format
@@ -916,6 +923,8 @@ msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
 msgstr ""
+"Nelze použít modulární zastaralé položky na '%s:%s', protože cílový modul "
+"'%s' je zakázán"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -930,7 +939,7 @@ msgstr "Nepodařilo se přeložit: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:115
 #, c-format
 msgid "There were errors while resolving modular defaults: %s"
-msgstr ""
+msgstr "Při řešení modulárních výchozích hodnot došlo k chybám: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:120
 #, c-format
@@ -945,7 +954,7 @@ msgstr "Nepodařilo se aktualizovat stream: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:221
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
-msgstr ""
+msgstr "Nelze načíst zastaralé moduly, protože neodpovídá žádný stream %s: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
@@ -994,6 +1003,9 @@ msgid ""
 "deprecated and the support will be dropped in future versions. Use '=' "
 "operator instead."
 msgstr ""
+"Použití operátoru '==' v reldeps může vést k nedefinovanému chování. Tohle "
+"je zastaralé a podpora bude v budoucích verzích ukončena. Místo toho "
+"použijte operátor '='."
 
 #: libdnf/repo/Repo.cpp:314
 #, c-format
@@ -1009,7 +1021,7 @@ msgstr "Úložiště '%s' má nepodporovaný typ: 'type=%s', vynecháváme."
 #: libdnf/repo/Repo.cpp:1193
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
-msgstr ""
+msgstr "repozitář '%s': 'basecachedir' není nastaven"
 
 #: libdnf/repo/Repo.cpp:507
 msgid ""
@@ -1022,11 +1034,11 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:541
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "repozitář '%s': 'proxy_username' je nastaveno, ale ne 'proxy_password'"
 
 #: libdnf/repo/Repo.cpp:543
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "'proxy_username' je nastaveno, ale ne 'proxy_password'"
 
 #: libdnf/repo/Repo.cpp:624
 #, c-format
@@ -1046,7 +1058,7 @@ msgstr "repo %s: 0x%s již importováno"
 #: libdnf/repo/Repo.cpp:704 libdnf/utils/filesystem.cpp:79
 #, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
-msgstr ""
+msgstr "Selhalo vytvoření adresáře \"%s\": %d - %s"
 
 #: libdnf/repo/Repo.cpp:712
 #, c-format
@@ -1171,6 +1183,7 @@ msgstr "Pokus o aktualizaci položky transakce v dokončené transakci"
 #: libdnf/transaction/Transformer.cpp:76
 msgid "Database Corrupted: no row 'version' in table 'config'"
 msgstr ""
+"Databáze je poškozena: neexistuje žádný řádek 'version' v tabulce 'config'"
 
 #: libdnf/transaction/Transformer.cpp:681
 msgid "Transformer: can't open history persist dir"
