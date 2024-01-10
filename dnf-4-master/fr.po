@@ -11,13 +11,14 @@
 # Arthur Tavernier <arthur.tavernier45@gmail.com>, 2022.
 # blutch112 <vincent.lefebvre59@gmail.com>, 2022.
 # Transtats <suanand@redhat.com>, 2023.
+# Damien Pou <dampato+linux@ik.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-28 01:39+0000\n"
-"PO-Revision-Date: 2023-03-07 14:20+0000\n"
-"Last-Translator: Transtats <suanand@redhat.com>\n"
+"PO-Revision-Date: 2024-01-11 11:37+0000\n"
+"Last-Translator: Damien Pou <dampato+linux@ik.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
 "Language: fr\n"
@@ -25,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -596,13 +597,12 @@ msgstr ""
 #, fuzzy, c-format
 #| msgid " does not belong to a distupgrade repository"
 msgid "%s from %s  does not belong to a distupgrade repository"
-msgstr " n’appartient pas à un dépôt distupgrade"
+msgstr "%s de %s n’appartient pas à un dépôt distupgrade"
 
 #: libdnf/goal/Goal.cpp:91
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s  has inferior architecture"
-msgstr " a une architecture inférieure"
+msgstr "%s de %s à une architecture inférieure"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -642,72 +642,63 @@ msgid "cannot install the best candidate for the job"
 msgstr "installation impossible du meilleur candidat pour la tâche"
 
 #: libdnf/goal/Goal.cpp:101
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by modular filtering"
+#, c-format
 msgid "package %s from %s is filtered out by modular filtering"
-msgstr "le paquet %s a été filtré par filtrage modulaire"
+msgstr "le paquet %s de %s est filtré par le filtrage modulaire"
 
 #: libdnf/goal/Goal.cpp:102
-#, fuzzy, c-format
-#| msgid "package %s does not have a compatible architecture"
+#, c-format
 msgid "package %s from %s does not have a compatible architecture"
-msgstr "le paquet %s n’a pas d’architecture compatible"
+msgstr "le paquet %s de %s n’a pas d’architecture compatible"
 
 #: libdnf/goal/Goal.cpp:103
-#, fuzzy, c-format
-#| msgid "package %s is not installable"
+#, c-format
 msgid "package %s from %s is not installable"
-msgstr "le paquet %s n’est pas installable"
+msgstr "le paquet %s de %s n’est pas installable"
 
 #: libdnf/goal/Goal.cpp:104
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by exclude filtering"
+#, c-format
 msgid "package %s from %s is filtered out by exclude filtering"
-msgstr "le paquet %s a été filtré en excluant le filtrage"
+msgstr "le paquet %s de %s est filtré par le filtrage d'exclusion"
 
 #: libdnf/goal/Goal.cpp:105
 #, fuzzy, c-format
 #| msgid "nothing provides %s needed by %s"
 msgid "nothing provides %s needed by %s from %s"
-msgstr "rien de fournit %s rendu nécessaire par %s"
+msgstr "rien de fournit %s est nécessaire par %s de %s"
 
 #: libdnf/goal/Goal.cpp:106
-#, fuzzy, c-format
-#| msgid "cannot install both %s and %s"
+#, c-format
 msgid "cannot install both %s from %s and %s from %s"
-msgstr "installation impossible à la fois de %s et %s"
+msgstr "installation impossible à la fois de %s de %s et %s de %s"
 
 #: libdnf/goal/Goal.cpp:107
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by %s"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by %s from %s"
-msgstr "le paquet %s est en conflit avec %s fourni par %s"
+msgstr "le paquet %s de %s est en conflit avec %s fourni par %s de %s"
 
 #: libdnf/goal/Goal.cpp:108
-#, fuzzy, c-format
-#| msgid "package %s obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s obsoletes %s provided by %s from %s"
-msgstr "le paquet %s rend obsolète %s fourni par %s"
+msgstr "le paquet %s de %s rend obsolète %s fourni par %s de %s"
 
 #: libdnf/goal/Goal.cpp:109
-#, fuzzy, c-format
-#| msgid "installed package %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed package %s obsoletes %s provided by %s from %s"
-msgstr "le paquet installé %s rend obsolète %s fourni par %s"
+msgstr "le paquet installé %s rend obsolète %s fourni par %s de %s"
 
 #: libdnf/goal/Goal.cpp:110
-#, fuzzy, c-format
-#| msgid "package %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "le paquet %s rend implicitement obsolète %s fourni par %s"
+msgstr "le paquet %s de %s rend implicitement obsolète %s fourni par %s de %s"
 
 #: libdnf/goal/Goal.cpp:111
-#, fuzzy, c-format
-#| msgid "package %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
-"le paquet %s nécessite %s, mais aucun fournisseur ne peut être installé"
+"le paquet %s de %s nécessite %s, mais aucun des fournisseurs ne peut "
+"l'installer"
 
 #: libdnf/goal/Goal.cpp:112
 #, fuzzy, c-format
