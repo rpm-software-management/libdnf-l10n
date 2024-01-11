@@ -7,13 +7,14 @@
 # Julien Humbert <julroy67@gmail.com>, 2020.
 # Anonymous <noreply@weblate.org>, 2020.
 # Titouan Bénard <itotutona@evta.fr>, 2021.
+# Damien Pou <dampato+linux@ik.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2021-10-10 00:45+0000\n"
-"Last-Translator: Titouan Bénard <itotutona@evta.fr>\n"
+"PO-Revision-Date: 2024-01-11 17:37+0000\n"
+"Last-Translator: Damien Pou <dampato+linux@ik.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/fr/>\n"
 "Language: fr\n"
@@ -21,16 +22,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
-msgstr "aucune valeur n’est indiquée"
+msgstr "aucune valeur spécifié"
 
 #: libdnf/conf/ConfigMain.cpp:67 libdnf/conf/OptionSeconds.cpp:48
 #, c-format
 msgid "seconds value '%s' must not be negative"
-msgstr "la valeur en secondes « %s » ne doit pas être négative"
+msgstr "la seconde valeur « %s » ne doit pas être négative"
 
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
@@ -40,33 +41,33 @@ msgstr "n’a pu convertir « %s » en octets"
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
 msgid "unknown unit '%s'"
-msgstr "unité « %s » inconnue"
+msgstr "unitée « %s » inconnue"
 
 #: libdnf/conf/ConfigMain.cpp:329
 #, c-format
 msgid "percentage '%s' is out of range"
-msgstr "le pourcentage « %s » est en dehors des limites"
+msgstr "pourcentage « %s » est en dehors des limites"
 
 #: libdnf/conf/OptionBinds.cpp:76
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr "Configuration : OptionBinding ayant pour id « %s » n’existe pas"
+msgstr "Configuration : OptionBinding ayant pour id « %s » n’existe pas"
 
 #: libdnf/conf/OptionBinds.cpp:88
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr "Configuration : OptionBinding ayant pour « %s » n’existe pas"
+msgstr "Configuration : OptionBinding ayant pour « %s » existe déjà"
 
 #: libdnf/conf/OptionBool.cpp:47
 #, c-format
 msgid "invalid boolean value '%s'"
-msgstr "valeur booléenne invalide : « %s »"
+msgstr "valeur booléenne invalide : « %s »"
 
 #: libdnf/conf/OptionEnum.cpp:72 libdnf/conf/OptionEnum.cpp:158
 #: libdnf/conf/OptionString.cpp:59 libdnf/conf/OptionStringList.cpp:59
 #, c-format
 msgid "'%s' is not an allowed value"
-msgstr "la valeur « %s » n’est pas autorisée"
+msgstr "« %s » n’est pas une valeur autorisée"
 
 #: libdnf/conf/OptionEnum.cpp:83 libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
