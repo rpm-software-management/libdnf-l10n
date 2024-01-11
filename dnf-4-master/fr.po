@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 01:45+0000\n"
-"PO-Revision-Date: 2024-01-11 11:37+0000\n"
+"PO-Revision-Date: 2024-01-11 17:37+0000\n"
 "Last-Translator: Damien Pou <dampato+linux@ik.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
@@ -30,12 +30,12 @@ msgstr ""
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
-msgstr "aucune valeur n’est indiquée"
+msgstr "aucune valeur spécifié"
 
 #: libdnf/conf/ConfigMain.cpp:67 libdnf/conf/OptionSeconds.cpp:48
 #, c-format
 msgid "seconds value '%s' must not be negative"
-msgstr "la valeur en secondes « %s » ne doit pas être négative"
+msgstr "la seconde valeur « %s » ne doit pas être négative"
 
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
@@ -45,7 +45,7 @@ msgstr "n’a pu convertir « %s » en octets"
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
 msgid "unknown unit '%s'"
-msgstr "unité « %s » inconnue"
+msgstr "unitée « %s » inconnue"
 
 #: libdnf/conf/ConfigMain.cpp:204 libdnf/conf/OptionEnum.cpp:83
 #: libdnf/conf/OptionNumber.cpp:88
@@ -63,28 +63,28 @@ msgstr "la valeur négative n'est pas autorisée"
 #: libdnf/conf/ConfigMain.cpp:344
 #, c-format
 msgid "percentage '%s' is out of range"
-msgstr "le pourcentage « %s » est en dehors des limites"
+msgstr "pourcentage « %s » est en dehors des limites"
 
 #: libdnf/conf/OptionBinds.cpp:85
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr "Configuration : OptionBinding ayant pour id « %s » n’existe pas"
+msgstr "Configuration : OptionBinding ayant pour id « %s » n’existe pas"
 
 #: libdnf/conf/OptionBinds.cpp:97
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr "Configuration : OptionBinding ayant pour « %s » n’existe pas"
+msgstr "Configuration : OptionBinding ayant pour « %s » existe déjà"
 
 #: libdnf/conf/OptionBool.cpp:47
 #, c-format
 msgid "invalid boolean value '%s'"
-msgstr "valeur booléenne invalide : « %s »"
+msgstr "valeur booléenne invalide : « %s »"
 
 #: libdnf/conf/OptionEnum.cpp:72 libdnf/conf/OptionEnum.cpp:158
 #: libdnf/conf/OptionString.cpp:64 libdnf/conf/OptionStringList.cpp:59
 #, c-format
 msgid "'%s' is not an allowed value"
-msgstr "la valeur « %s » n’est pas autorisée"
+msgstr "« %s » n’est pas une valeur autorisée"
 
 #: libdnf/conf/OptionNumber.cpp:73
 #, c-format
@@ -125,23 +125,23 @@ msgstr "Ne peut pas activer plus de flux du module '%s' en même temps"
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr ""
-"Impossible d'activer le flux de module '%1$s' stream '%2$s' : état du module "
-"déjà modifié"
+"Impossible d'activer le module '%1$s' stream '%2$s' : état du module déjà "
+"modifié"
 
 #: libdnf/dnf-context.cpp:3300
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
-msgstr "Problème de dépendance modulaire avec les valeurs par défaut : %s"
+msgstr "Problème de dépendance modulaire avec les valeurs par défaut : %s"
 
 #: libdnf/dnf-context.cpp:3303
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr "Problème de dépendance modulaire avec les derniers modules : %s"
+msgstr "Problème de dépendance modulaire avec les derniers modules : %s"
 
 #: libdnf/dnf-context.cpp:3307
 #, c-format
 msgid "Modular dependency problem: %s"
-msgstr "Problème de dépendance modulaire : %s"
+msgstr "Problème de dépendance modulaire : %s"
 
 #: libdnf/dnf-context.cpp:3330 libdnf/dnf-context.cpp:3354
 #: libdnf/dnf-context.cpp:3365 libdnf/dnf-context.cpp:3404
@@ -149,26 +149,26 @@ msgstr "Problème de dépendance modulaire : %s"
 #: libdnf/dnf-context.cpp:3501 libdnf/dnf-context.cpp:3511
 #, c-format
 msgid "Unable to resolve argument '%s'"
-msgstr "Impossible de résoudre le paramètre ’%s’"
+msgstr "Impossible de résoudre l'argument ’%s’"
 
 #: libdnf/dnf-context.cpp:3337
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr ""
-"Seul le nom du module est nécessaire. Les paramètres inutiles ont été "
-"ignorés : ’%s’"
+"Seul le nom du module est requis. Les informations inutiles ont été ignorés "
+"dans l'argument : ’%s’"
 
 #: libdnf/dnf-context.cpp:3351
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr ""
-"Impossible de réinitialiser le module '%s' : État du module déjà modifié"
+"Impossible de réinitialiser le module '%s' : État du module déjà modifié"
 
 #: libdnf/dnf-context.cpp:3362
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
-msgstr "Impossible de désactiver le module '%s' : État du module déjà modifié"
+msgstr "Impossible de désactiver le module '%s' : État du module déjà modifié"
 
 #: libdnf/dnf-context.cpp:3393 libdnf/dnf-context.cpp:3489
 #: libdnf/dnf-context.cpp:3670
@@ -178,7 +178,7 @@ msgstr "Aucune donnée modulaire disponible"
 #: libdnf/dnf-context.cpp:3410
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
-msgstr "Ignorer les informations inutiles dans l'argumentation : '%s'"
+msgstr "Ignorer les informations inutiles dans l'argumentation : '%s'"
 
 #: libdnf/dnf-context.cpp:3448
 #, c-format
@@ -186,8 +186,8 @@ msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
-"Problème lors de l'activation de l'arbre des dépendances pour le module "
-"'%1$s' flux '%2$s' : %3$s"
+"Problème lors de l'activation de l'arbre des dépendances pour le module '%1$"
+"s' flux '%2$s' : %3$s"
 
 #: libdnf/dnf-context.cpp:3460
 msgid "Problems appeared for module enable request:"
