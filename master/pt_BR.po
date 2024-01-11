@@ -8,13 +8,14 @@
 # Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020.
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
 # Daimar Stein <daimarstein@pm.me>, 2022.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2022-08-01 01:19+0000\n"
-"Last-Translator: Daimar Stein <daimarstein@pm.me>\n"
+"PO-Revision-Date: 2024-01-11 17:37+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -267,7 +268,6 @@ msgid "failed loading RPMDB"
 msgstr "falha ao carregar o RPMDB"
 
 #: libdnf/dnf-sack.cpp:2466
-#, fuzzy
 msgid "No module defaults found"
 msgstr "Nenhum módulo padrão encontrado"
 
@@ -373,13 +373,11 @@ msgid "failed to remove %s"
 msgstr "não foi possível remover %s"
 
 #: libdnf/goal/Goal.cpp:55
-#, fuzzy
 msgid "Ill-formed Selector, presence of multiple match objects in the filter"
 msgstr ""
 "Seletor malformado, presença de vários objetos de correspondência no filtro"
 
 #: libdnf/goal/Goal.cpp:56
-#, fuzzy
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr "Seletor malformado usado para a operação, tipo de comparação incorreto"
 
@@ -549,7 +547,7 @@ msgid "installed module %s obsoletes %s provided by %s"
 msgstr "módulo instalado %s torna obsoleto %s oferecido por %s"
 
 #: libdnf/goal/Goal.cpp:114
-#, fuzzy, c-format
+#, c-format
 msgid "module %s implicitly obsoletes %s provided by %s"
 msgstr "o módulo %s torna obsoleto implicitamente %s fornecido por %s"
 
@@ -569,7 +567,6 @@ msgid "both module %s and %s obsolete %s"
 msgstr "ambos os módulos %s e %s tornam obsoleto %s"
 
 #: libdnf/goal/Goal.cpp:1008
-#, fuzzy
 msgid "no solver set"
 msgstr "nenhum solucionador definido"
 
@@ -585,7 +582,7 @@ msgstr "falha ao gravar debugdata em %1$s: %2$s"
 
 #: libdnf/goal/Goal.cpp:1032
 msgid "no solv in the goal"
-msgstr ""
+msgstr "nenhum solv no objetivo"
 
 #: libdnf/goal/Goal.cpp:1034
 msgid "no solution, cannot remove protected package"
@@ -650,42 +647,44 @@ msgstr "Nenhum ID de Plataforma válido detectado"
 #: libdnf/module/ModulePackageContainer.cpp:68
 #, c-format
 msgid "Cannot enable multiple streams for module '%s'"
-msgstr ""
+msgstr "Não é possível habilitar vários fluxos para o módulo '%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:294
 #, c-format
 msgid "Conflicting defaults with repo '%s': %s"
-msgstr ""
+msgstr "Padrões conflitantes com o repo '%s': %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1568
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
-msgstr ""
+msgstr "Não foi possível carregar dados modulares de Fail-Safe em '%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1574
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
+"Não foi possível carregar dados modulares de segurança para o módulo '%s:%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1638
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
+"Não foi possível criar diretório \"%s\" para dados modulares de segurança: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1660
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
-msgstr ""
+msgstr "Não foi possível salvar um dado modular de segurança em '%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1685
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
-msgstr ""
+msgstr "Não foi possível remover um dado modular de segurança em '%s'"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:43
 #, c-format
 msgid "Failed to update from string: %s"
-msgstr ""
+msgstr "Falha ao atualizar da string: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:68
 #: libdnf/module/modulemd/ModuleMetadata.cpp:70
@@ -696,12 +695,12 @@ msgstr "Falha em resolver: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:74
 #, c-format
 msgid "Failed to upgrade defaults: %s"
-msgstr ""
+msgstr "Falha ao atualizar padrões: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:77
 #, c-format
 msgid "Failed to upgrade streams: %s"
-msgstr ""
+msgstr "Falha ao atualizar fluxos: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
