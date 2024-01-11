@@ -9,13 +9,14 @@
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
 # Daimar Stein <daimarstein@pm.me>, 2022, 2023.
 # Ian Meyer <ianscuba1465@gmail.com>, 2023.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 01:45+0000\n"
-"PO-Revision-Date: 2023-05-28 14:20+0000\n"
-"Last-Translator: Ian Meyer <ianscuba1465@gmail.com>\n"
+"PO-Revision-Date: 2024-01-11 17:37+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -118,12 +119,12 @@ msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr "Não é possível habilitar mais fluxos do módulo '%s' ao mesmo tempo"
 
 #: libdnf/dnf-context.cpp:3233 libdnf/dnf-context.cpp:3251
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr ""
-"Não é possível habilitar o módulo '%1$s' stream '%2$s': Estado do módulo já "
-"modificado"
+"Não é possível habilitar o fluxo '%2$s' do módulo '%1$s': Estado do módulo "
+"já modificado"
 
 #: libdnf/dnf-context.cpp:3300
 #, c-format
@@ -236,7 +237,6 @@ msgstr ""
 "A operação resultaria na mudança do módulo '%s' do fluxo '%s' para o '%s'"
 
 #: libdnf/dnf-context.cpp:3796
-#, fuzzy
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -245,7 +245,7 @@ msgid ""
 msgstr ""
 "Não é possível alternar fluxos ativados de um módulo.\n"
 "É recomendável remover todo o conteúdo instalado do módulo e redefinir o "
-"módulo usando o comando '{prog} module reset <nome_do_módulo>'. Depois de "
+"módulo usando o comando 'microdnf module reset <nome_do_módulo>'. Depois de "
 "redefinir o módulo, você pode instalar o outro fluxo."
 
 #: libdnf/dnf-goal.cpp:107
@@ -571,13 +571,11 @@ msgid "failed to remove %s"
 msgstr "não foi possível remover %s"
 
 #: libdnf/goal/Goal.cpp:78
-#, fuzzy
 msgid "Ill-formed Selector, presence of multiple match objects in the filter"
 msgstr ""
 "Seletor malformado, presença de vários objetos de correspondência no filtro"
 
 #: libdnf/goal/Goal.cpp:79
-#, fuzzy
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr "Seletor malformado usado para a operação, tipo de comparação incorreto"
 
@@ -809,7 +807,6 @@ msgid "both module %s from %s and %s from %s obsolete %s"
 msgstr "ambos os módulos %s e %s tornam obsoleto %s"
 
 #: libdnf/goal/Goal.cpp:1174
-#, fuzzy
 msgid "no solver set"
 msgstr "nenhum solucionador definido"
 
@@ -825,7 +822,7 @@ msgstr "falha ao gravar debugdata em %1$s: %2$s"
 
 #: libdnf/goal/Goal.cpp:1198
 msgid "no solv in the goal"
-msgstr ""
+msgstr "nenhum solv no objetivo"
 
 #: libdnf/goal/Goal.cpp:1200
 msgid "no solution, cannot remove protected package"
@@ -904,12 +901,12 @@ msgstr "Nenhum ID de Plataforma válido detectado"
 #: libdnf/module/ModulePackageContainer.cpp:107
 #, c-format
 msgid "Cannot enable multiple streams for module '%s'"
-msgstr ""
+msgstr "Não é possível habilitar vários fluxos para o módulo '%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:339
 #, c-format
 msgid "Conflicting defaults with repo '%s': %s"
-msgstr ""
+msgstr "Padrões conflitantes com o repo '%s': %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:923
 msgid "Installing module profiles:\n"
@@ -938,27 +935,29 @@ msgstr ""
 #: libdnf/module/ModulePackageContainer.cpp:1710
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
-msgstr ""
+msgstr "Não foi possível carregar dados modulares de Fail-Safe em '%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1716
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
+"Não foi possível carregar dados modulares de segurança para o módulo '%s:%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1797
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
+"Não foi possível criar diretório \"%s\" para dados modulares de segurança: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1813
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
-msgstr ""
+msgstr "Não foi possível salvar um dado modular de segurança em '%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1836
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
-msgstr ""
+msgstr "Não foi possível remover um dado modular de segurança em '%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1868
 #, c-format
@@ -970,7 +969,7 @@ msgstr ""
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
 msgid "Failed to update from string: %s"
-msgstr ""
+msgstr "Falha ao atualizar da string: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:110
 #, c-format
@@ -985,12 +984,12 @@ msgstr ""
 #: libdnf/module/modulemd/ModuleMetadata.cpp:120
 #, c-format
 msgid "Failed to upgrade defaults: %s"
-msgstr ""
+msgstr "Falha ao atualizar padrões: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:123
 #, c-format
 msgid "Failed to upgrade streams: %s"
-msgstr ""
+msgstr "Falha ao atualizar fluxos: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:221
 #, c-format
