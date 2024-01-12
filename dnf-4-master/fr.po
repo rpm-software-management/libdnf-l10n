@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-11 01:45+0000\n"
-"PO-Revision-Date: 2024-01-11 17:37+0000\n"
+"PO-Revision-Date: 2024-01-13 08:37+0000\n"
 "Last-Translator: Damien Pou <dampato+linux@ik.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
@@ -594,8 +594,7 @@ msgstr ""
 "Sélecteur Ill-formed utilisé pour l’opération, type de comparaison incorrecte"
 
 #: libdnf/goal/Goal.cpp:90
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s  does not belong to a distupgrade repository"
 msgstr "%s de %s n’appartient pas à un dépôt distupgrade"
 
