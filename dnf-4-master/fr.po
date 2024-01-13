@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-13 01:42+0000\n"
-"PO-Revision-Date: 2024-01-13 08:37+0000\n"
+"PO-Revision-Date: 2024-01-14 18:37+0000\n"
 "Last-Translator: Damien Pou <dampato+linux@ik.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
@@ -700,16 +700,14 @@ msgstr ""
 "l'installer"
 
 #: libdnf/goal/Goal.cpp:112
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by itself"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by itself"
-msgstr "le paquet %s est en conflit avec %s fourni par lui-même"
+msgstr "le paquet %s de %s est en conflit avec %s fourni par lui-même"
 
 #: libdnf/goal/Goal.cpp:113
-#, fuzzy, c-format
-#| msgid "both package %s and %s obsolete %s"
+#, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
-msgstr "à la fois le paquet %s et %s rendent obsolète %s"
+msgstr "à la fois le paquet %s de %s et %s de %s rendent obsolète %s"
 
 #: libdnf/goal/Goal.cpp:117
 #, fuzzy, c-format
