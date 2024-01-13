@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-11 01:45+0000\n"
+"POT-Creation-Date: 2024-01-13 01:42+0000\n"
 "PO-Revision-Date: 2023-01-19 14:20+0000\n"
 "Last-Translator: Vi <xasertop@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
@@ -809,42 +809,42 @@ msgstr "модуль %s конфликтует с %s, предоставленн
 msgid "both module %s from %s and %s from %s obsolete %s"
 msgstr "оба модуля %s и %s делают устаревшим %s"
 
-#: libdnf/goal/Goal.cpp:1174
+#: libdnf/goal/Goal.cpp:1217
 msgid "no solver set"
 msgstr "нет механизма решения"
 
-#: libdnf/goal/Goal.cpp:1179
+#: libdnf/goal/Goal.cpp:1222
 #, c-format
 msgid "failed to make %s absolute"
 msgstr "не удалось сделать %s абсолютным"
 
-#: libdnf/goal/Goal.cpp:1186
+#: libdnf/goal/Goal.cpp:1229
 #, c-format
 msgid "failed writing debugdata to %1$s: %2$s"
 msgstr "не удалось записать отладочные данные в %1$s: %2$s"
 
-#: libdnf/goal/Goal.cpp:1198
+#: libdnf/goal/Goal.cpp:1241
 msgid "no solv in the goal"
 msgstr "нет solv в цели"
 
-#: libdnf/goal/Goal.cpp:1200
+#: libdnf/goal/Goal.cpp:1243
 msgid "no solution, cannot remove protected package"
 msgstr "нет решения, невозможно удалить защищенный пакет"
 
-#: libdnf/goal/Goal.cpp:1203
+#: libdnf/goal/Goal.cpp:1246
 msgid "no solution possible"
 msgstr "решение невозможно"
 
-#: libdnf/goal/Goal.cpp:1329
+#: libdnf/goal/Goal.cpp:1372
 msgid "Problem: "
 msgstr "Проблема: "
 
-#: libdnf/goal/Goal.cpp:1334
+#: libdnf/goal/Goal.cpp:1377
 #, c-format
 msgid "Problem %d: "
 msgstr "Проблема %d: "
 
-#: libdnf/goal/Goal.cpp:1704
+#: libdnf/goal/Goal.cpp:1747
 msgid ""
 "The operation would result in removing the following protected packages: "
 msgstr "Операция приведёт к удалению следующих защищенных пакетов: "
