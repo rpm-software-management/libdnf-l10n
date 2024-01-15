@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-14 01:48+0000\n"
-"PO-Revision-Date: 2024-01-14 18:37+0000\n"
+"PO-Revision-Date: 2024-01-16 04:49+0000\n"
 "Last-Translator: Damien Pou <dampato+linux@ik.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
@@ -661,8 +661,7 @@ msgid "package %s from %s is filtered out by exclude filtering"
 msgstr "le paquet %s de %s est filtré par le filtrage d'exclusion"
 
 #: libdnf/goal/Goal.cpp:105
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by %s"
+#, c-format
 msgid "nothing provides %s needed by %s from %s"
 msgstr "rien de fournit %s est nécessaire par %s de %s"
 
@@ -710,16 +709,14 @@ msgid "both package %s from %s and %s from %s obsolete %s"
 msgstr "à la fois le paquet %s de %s et %s de %s rendent obsolète %s"
 
 #: libdnf/goal/Goal.cpp:117
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s does not belong to a distupgrade repository"
-msgstr " n’appartient pas à un dépôt distupgrade"
+msgstr "%s de %s n’appartient pas à un dépôt distupgrade"
 
 #: libdnf/goal/Goal.cpp:118
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s has inferior architecture"
-msgstr " a une architecture inférieure"
+msgstr "%s de %s à une architecture inférieure"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -736,78 +733,67 @@ msgstr ""
 "installation impossible du meilleur candidat de mise à jour pour le module "
 
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
-#, fuzzy, c-format
-#| msgid "module %s is disabled"
+#, c-format
 msgid "module %s from %s is disabled"
-msgstr "le module %s est désactivé"
+msgstr "module %s de %s est désactivé"
 
 #: libdnf/goal/Goal.cpp:129
-#, fuzzy, c-format
-#| msgid "module %s does not have a compatible architecture"
+#, c-format
 msgid "module %s from %s does not have a compatible architecture"
-msgstr "le module %s n’a pas d’architecture compatible"
+msgstr "module %s de %s n’a pas d’architecture compatible"
 
 #: libdnf/goal/Goal.cpp:130
-#, fuzzy, c-format
-#| msgid "module %s is not installable"
+#, c-format
 msgid "module %s from %s is not installable"
-msgstr "le module %s n’est pas installable"
+msgstr "module %s de %s n’est pas installable"
 
 #: libdnf/goal/Goal.cpp:132
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by module %s"
+#, c-format
 msgid "nothing provides %s needed by module %s from %s"
-msgstr "rien de fournit %s rendu nécessaire par le module %s"
+msgstr "rien de fournit %s est nécessaire par le module %s de %s"
 
 #: libdnf/goal/Goal.cpp:133
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "cannot install both modules %s from %s and %s from %s"
-msgstr "installation impossible à la fois des modules %s et %s"
+msgstr "Impossible d'installer les deux modules %s de %s et %s de %s"
 
 #: libdnf/goal/Goal.cpp:134
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by %s"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
-msgstr "le module %s est en conflit avec %s fourni par %s"
+msgstr "module %s de %s est en conflit avec %s fourni par %s de %s"
 
 #: libdnf/goal/Goal.cpp:135
-#, fuzzy, c-format
-#| msgid "module %s obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s obsoletes %s provided by %s from %s"
-msgstr "le module %s rend obsolète %s fourni par %s"
+msgstr "module %s de %s rend obsolète %s fourni par %s de %s"
 
 #: libdnf/goal/Goal.cpp:136
-#, fuzzy, c-format
-#| msgid "installed module %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed module %s obsoletes %s provided by %s from %s"
-msgstr "le module installé %s rend obsolète %s fourni par %s"
+msgstr "Le module installé %s rend obsolète %s fourni par %s de %s"
 
 #: libdnf/goal/Goal.cpp:137
-#, fuzzy, c-format
-#| msgid "module %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "le module %s rend implicitement obsolète %s fourni par %s"
+msgstr "le module %s de %s rend implicitement obsolète %s fourni par %s de %s"
 
 #: libdnf/goal/Goal.cpp:138
-#, fuzzy, c-format
-#| msgid "module %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
-"le module %s nécessite %s, mais aucun fournisseur ne peut être installé"
+"le module %s de %s nécessite %s, mais aucun des fournisseurs ne peut être "
+"installé"
 
 #: libdnf/goal/Goal.cpp:139
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by itself"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by itself"
-msgstr "le module %s est en conflit avec %s fourni par lui-même"
+msgstr "le module %s de %s est en conflit avec %s fourni par lui-même"
 
 #: libdnf/goal/Goal.cpp:140
-#, fuzzy, c-format
-#| msgid "both module %s and %s obsolete %s"
+#, c-format
 msgid "both module %s from %s and %s from %s obsolete %s"
-msgstr "à la fois le module %s et %s rendent obsolète %s"
+msgstr "Les deux modules %s de %s et %s de %s rendent obsolète %s"
 
 #: libdnf/goal/Goal.cpp:1217
 msgid "no solver set"
