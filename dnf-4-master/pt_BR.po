@@ -8,15 +8,15 @@
 # Henrique Roberto Gattermann Mittelstaedt <henrique.roberto97@gmail.com>, 2020.
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
 # Daimar Stein <daimarstein@pm.me>, 2022, 2023.
-# Ian Meyer <ianscuba1465@gmail.com>, 2023.
+# Ian Meyer <ianscuba1465@gmail.com>, 2023, 2024.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-23 01:45+0000\n"
-"PO-Revision-Date: 2024-01-11 17:37+0000\n"
-"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"PO-Revision-Date: 2024-01-29 21:36+0000\n"
+"Last-Translator: Ian Meyer <ianscuba1465@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -336,9 +336,9 @@ msgid "repo_add_solv() has failed."
 msgstr "repo_add_solv () falhou."
 
 #: libdnf/dnf-sack.cpp:415
-#, c-format
+#, c-format, fuzzy
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "Falha ao carregar cache de extensão %s (%d): "
 
 #: libdnf/dnf-sack.cpp:429
 #, c-format
