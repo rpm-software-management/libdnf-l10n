@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2024-01-11 17:37+0000\n"
+"PO-Revision-Date: 2024-02-08 18:26+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-master/pt_BR/>\n"
@@ -213,11 +213,11 @@ msgstr "Falha ao abrir o arquivo tmp: %s"
 #: libdnf/dnf-sack.cpp:559
 #, c-format
 msgid "write_main() failed writing data: %i"
-msgstr "write_main () falhou ao gravar dados: %i"
+msgstr "write_main() falhou ao gravar dados: %i"
 
 #: libdnf/dnf-sack.cpp:576
 msgid "write_main() failed to re-load written solv file"
-msgstr "write_main () falhou ao recarregar um arquivo resolvido por escrito"
+msgstr "write_main() falhou ao recarregar um arquivo resolvido por escrito"
 
 #: libdnf/dnf-sack.cpp:641
 #, c-format
@@ -240,7 +240,7 @@ msgstr "não consigo ler o arquivo %1$s: %2$s"
 
 #: libdnf/dnf-sack.cpp:737
 msgid "repo_add_solv() has failed."
-msgstr "repo_add_solv () falhou."
+msgstr "repo_add_solv() falhou."
 
 #: libdnf/dnf-sack.cpp:750
 msgid "loading of MD_TYPE_PRIMARY has failed."
@@ -248,7 +248,7 @@ msgstr "o carregamento de MD_TYPE_PRIMARY falhou."
 
 #: libdnf/dnf-sack.cpp:763
 msgid "repo_add_repomdxml/rpmmd() has failed."
-msgstr "repo_add_repomdxml / rpmmd () falhou."
+msgstr "repo_add_repomdxml/rpmmd() falhou."
 
 #: libdnf/dnf-sack.cpp:830
 msgid "failed to auto-detect architecture"
@@ -293,7 +293,7 @@ msgstr "feito em um estado %1$p que não tinha um tamanho definido! [%2$s]"
 #: libdnf/dnf-state.cpp:1357
 #, c-format
 msgid "already at 100%% state [%s]"
-msgstr "já em 100 %% state [%s]"
+msgstr "já em estado 100%% [%s]"
 
 #: libdnf/dnf-transaction.cpp:300
 #, c-format
@@ -638,7 +638,7 @@ msgstr "Detecção do Módulo de Plataforma em %s falhou: %s"
 #: libdnf/module/ModulePackage.cpp:527
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
-msgstr "PLATFORM_ID faltando em %s"
+msgstr "Faltando PLATFORM_ID em %s"
 
 #: libdnf/module/ModulePackage.cpp:532
 msgid "No valid Platform ID detected"
@@ -725,7 +725,7 @@ msgstr "Plugin carregado nome=\"%s\", versão=\"%s\""
 
 #: libdnf/plugin/plugin.cpp:96
 msgid "Plugins::loadPlugins() dirPath cannot be empty"
-msgstr "Plugins::loadPlugins() dirPath não pode estar vazio"
+msgstr "dirPath de Plugins::loadPlugins() não pode estar vazio"
 
 #: libdnf/plugin/plugin.cpp:105
 #, c-format
@@ -793,7 +793,7 @@ msgstr "Falha ao recuperar a chave GPG para o repo. '%s': %s"
 #: libdnf/repo/Repo.cpp:892
 #, c-format
 msgid "repo %s: 0x%s already imported"
-msgstr "repo %s: 0 x%s já importado"
+msgstr "repo %s: 0x%s já importado"
 
 #: libdnf/repo/Repo.cpp:920
 #, c-format
@@ -872,7 +872,7 @@ msgstr "Falha ao baixar os metadados do repo. '%s': %s"
 
 #: libdnf/repo/Repo.cpp:1371
 msgid "getCachedir(): Computation of SHA256 failed"
-msgstr "getCachedir (): Falha na computação de SHA256"
+msgstr "getCachedir(): Falha na computação de SHA256"
 
 #: libdnf/repo/Repo.cpp:1396
 #, c-format
