@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 01:36+0000\n"
+"POT-Creation-Date: 2024-02-08 01:34+0000\n"
 "PO-Revision-Date: 2023-12-07 08:44+0000\n"
 "Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -41,20 +41,20 @@ msgstr "无法把 '%s' 转换为字节"
 msgid "unknown unit '%s'"
 msgstr "未知单元 '%s'"
 
-#: libdnf/conf/ConfigMain.cpp:206 libdnf/conf/OptionEnum.cpp:83
+#: libdnf/conf/ConfigMain.cpp:205 libdnf/conf/OptionEnum.cpp:83
 #: libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
 msgstr "无效值"
 
-#: libdnf/conf/ConfigMain.cpp:209
+#: libdnf/conf/ConfigMain.cpp:208
 msgid "value 1 is not allowed"
 msgstr "1 不是一个被允许的值"
 
-#: libdnf/conf/ConfigMain.cpp:211
+#: libdnf/conf/ConfigMain.cpp:210
 msgid "negative value is not allowed"
 msgstr "负数值不被允许"
 
-#: libdnf/conf/ConfigMain.cpp:346
+#: libdnf/conf/ConfigMain.cpp:345
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "百分数 '%s' 超出范围"

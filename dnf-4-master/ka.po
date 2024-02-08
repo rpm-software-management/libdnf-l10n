@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 01:36+0000\n"
+"POT-Creation-Date: 2024-02-08 01:34+0000\n"
 "PO-Revision-Date: 2023-09-01 20:21+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
@@ -37,20 +37,20 @@ msgstr "'%s'-ის ბაიტებად გარდაქმნის შ�
 msgid "unknown unit '%s'"
 msgstr "უცნობი ერთეული '%s'"
 
-#: libdnf/conf/ConfigMain.cpp:206 libdnf/conf/OptionEnum.cpp:83
+#: libdnf/conf/ConfigMain.cpp:205 libdnf/conf/OptionEnum.cpp:83
 #: libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
 msgstr "არასწორი მნიშვნელობა"
 
-#: libdnf/conf/ConfigMain.cpp:209
+#: libdnf/conf/ConfigMain.cpp:208
 msgid "value 1 is not allowed"
 msgstr "მნიშვნელობა 1 დაუშვებელია"
 
-#: libdnf/conf/ConfigMain.cpp:211
+#: libdnf/conf/ConfigMain.cpp:210
 msgid "negative value is not allowed"
 msgstr "უარყოფითი მნიშვნელობა დაუშვებელია"
 
-#: libdnf/conf/ConfigMain.cpp:346
+#: libdnf/conf/ConfigMain.cpp:345
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "პროცენტულობა '%s' დიაპაზონს გარეთაა"

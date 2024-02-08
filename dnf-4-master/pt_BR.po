@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 01:36+0000\n"
+"POT-Creation-Date: 2024-02-08 01:34+0000\n"
 "PO-Revision-Date: 2024-02-08 18:26+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -45,20 +45,20 @@ msgstr "não foi possível converter '%s' para bytes"
 msgid "unknown unit '%s'"
 msgstr "unidade desconhecida '%s'"
 
-#: libdnf/conf/ConfigMain.cpp:206 libdnf/conf/OptionEnum.cpp:83
+#: libdnf/conf/ConfigMain.cpp:205 libdnf/conf/OptionEnum.cpp:83
 #: libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
 msgstr "valor inválido"
 
-#: libdnf/conf/ConfigMain.cpp:209
+#: libdnf/conf/ConfigMain.cpp:208
 msgid "value 1 is not allowed"
 msgstr "valor 1 não é permitido"
 
-#: libdnf/conf/ConfigMain.cpp:211
+#: libdnf/conf/ConfigMain.cpp:210
 msgid "negative value is not allowed"
 msgstr "valor negativo não é permitido"
 
-#: libdnf/conf/ConfigMain.cpp:346
+#: libdnf/conf/ConfigMain.cpp:345
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "porcentagem '%s' está fora do intervalo"

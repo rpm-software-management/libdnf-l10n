@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 01:36+0000\n"
+"POT-Creation-Date: 2024-02-08 01:34+0000\n"
 "PO-Revision-Date: 2023-04-01 09:19+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -39,20 +39,20 @@ msgstr "не вдалося перетворити «%s» на байти"
 msgid "unknown unit '%s'"
 msgstr "невідома одиниця, «%s»"
 
-#: libdnf/conf/ConfigMain.cpp:206 libdnf/conf/OptionEnum.cpp:83
+#: libdnf/conf/ConfigMain.cpp:205 libdnf/conf/OptionEnum.cpp:83
 #: libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
 msgstr "некоректне значення"
 
-#: libdnf/conf/ConfigMain.cpp:209
+#: libdnf/conf/ConfigMain.cpp:208
 msgid "value 1 is not allowed"
 msgstr "значення 1 не є дозволеним"
 
-#: libdnf/conf/ConfigMain.cpp:211
+#: libdnf/conf/ConfigMain.cpp:210
 msgid "negative value is not allowed"
 msgstr "не можна використовувати від'ємні значення"
 
-#: libdnf/conf/ConfigMain.cpp:346
+#: libdnf/conf/ConfigMain.cpp:345
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "значення відсотків, «%s», поза припустимим діапазоном"

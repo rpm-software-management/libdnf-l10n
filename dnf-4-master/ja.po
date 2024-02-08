@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 01:36+0000\n"
+"POT-Creation-Date: 2024-02-08 01:34+0000\n"
 "PO-Revision-Date: 2023-03-07 14:20+0000\n"
 "Last-Translator: Transtats <suanand@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -38,20 +38,20 @@ msgstr "'%s' を バイトへ変換できませんでした"
 msgid "unknown unit '%s'"
 msgstr "不明な単位 '%s'"
 
-#: libdnf/conf/ConfigMain.cpp:206 libdnf/conf/OptionEnum.cpp:83
+#: libdnf/conf/ConfigMain.cpp:205 libdnf/conf/OptionEnum.cpp:83
 #: libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
 msgstr "無効な値"
 
-#: libdnf/conf/ConfigMain.cpp:209
+#: libdnf/conf/ConfigMain.cpp:208
 msgid "value 1 is not allowed"
 msgstr "値 1 は許可されません"
 
-#: libdnf/conf/ConfigMain.cpp:211
+#: libdnf/conf/ConfigMain.cpp:210
 msgid "negative value is not allowed"
 msgstr "負の値は許可されていません"
 
-#: libdnf/conf/ConfigMain.cpp:346
+#: libdnf/conf/ConfigMain.cpp:345
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "パーセンテージ '%s' が範囲外にあります"
