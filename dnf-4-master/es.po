@@ -2,15 +2,15 @@
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2017. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2018. #zanata
-# Emilio Herrera <ehespinosa57@gmail.com>, 2020, 2021.
+# Emilio Herrera <ehespinosa57@gmail.com>, 2020, 2021, 2024.
 # Alejandro Alcaide <alex@blueselene.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-09 01:34+0000\n"
-"PO-Revision-Date: 2022-05-02 18:18+0000\n"
-"Last-Translator: Alejandro Alcaide <alex@blueselene.com>\n"
+"PO-Revision-Date: 2024-02-11 15:36+0000\n"
+"Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/es/>\n"
 "Language: es\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -45,14 +45,12 @@ msgid "invalid value"
 msgstr "valor no aceptado"
 
 #: libdnf/conf/ConfigMain.cpp:208
-#, fuzzy
-#| msgid "'%s' is not an allowed value"
 msgid "value 1 is not allowed"
-msgstr "no se admite el valor '%s'"
+msgstr "valor 1 no está permitido"
 
 #: libdnf/conf/ConfigMain.cpp:210
 msgid "negative value is not allowed"
-msgstr ""
+msgstr "no se acepta valor negativo"
 
 #: libdnf/conf/ConfigMain.cpp:345
 #, c-format
@@ -112,58 +110,61 @@ msgstr "GetValue(): valor no definido"
 #: libdnf/dnf-context.cpp:3226 libdnf/dnf-context.cpp:3235
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
-msgstr ""
+msgstr "No puede habilitar más corrientes de módulo '%s' al mismo tiempo"
 
 #: libdnf/dnf-context.cpp:3244 libdnf/dnf-context.cpp:3262
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr ""
+"No se puede habilitar el módulo '%1$s' flujo '%2$s': Estado de módulo ya "
+"modificado"
 
 #: libdnf/dnf-context.cpp:3311
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
-msgstr ""
+msgstr "Problema de dependencia modular con Predeterminado: %s"
 
 #: libdnf/dnf-context.cpp:3314
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr ""
+msgstr "Problema de dependencia modular con los últimos módulos: %s"
 
 #: libdnf/dnf-context.cpp:3318
 #, c-format
 msgid "Modular dependency problem: %s"
-msgstr ""
+msgstr "Problema de dependencia modular: %s"
 
 #: libdnf/dnf-context.cpp:3341 libdnf/dnf-context.cpp:3365
 #: libdnf/dnf-context.cpp:3376 libdnf/dnf-context.cpp:3415
 #: libdnf/dnf-context.cpp:3431 libdnf/dnf-context.cpp:3463
 #: libdnf/dnf-context.cpp:3512 libdnf/dnf-context.cpp:3522
-#, fuzzy, c-format
-#| msgid "failed to remove %s"
+#, c-format
 msgid "Unable to resolve argument '%s'"
-msgstr "no se pudo eliminar %s"
+msgstr "No se pudo resolver el argumento '%s'"
 
 #: libdnf/dnf-context.cpp:3348
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr ""
+"Solo se requiere el nombre del módulo. Ignorando información innecesaria en "
+"el argumento: '%s'"
 
 #: libdnf/dnf-context.cpp:3362
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
-msgstr ""
+msgstr "No se pudo reiniciar el módulo: '%s': Estado de módulo ya modificado"
 
 #: libdnf/dnf-context.cpp:3373
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
-msgstr ""
+msgstr "No se pudo deshabilitar el módulo '%s': Estado de módulo ya modificado"
 
 #: libdnf/dnf-context.cpp:3404 libdnf/dnf-context.cpp:3500
 #: libdnf/dnf-context.cpp:3681
 msgid "No modular data available"
-msgstr ""
+msgstr "Ningún dato modular disponible"
 
 #: libdnf/dnf-context.cpp:3421
 #, c-format
