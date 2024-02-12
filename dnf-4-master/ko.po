@@ -4,13 +4,13 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # simmon <simmon@nplob.com>, 2021.
 # Kim InSoo <simmon@nplob.com>, 2022.
-# 김인수 <simmon@nplob.com>, 2022, 2023.
+# 김인수 <simmon@nplob.com>, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-11 01:39+0000\n"
-"PO-Revision-Date: 2023-12-07 08:44+0000\n"
+"PO-Revision-Date: 2024-02-13 02:35+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ko/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.2.1\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -106,7 +106,7 @@ msgstr "변환 할 수 없습니다 '%s'초까지"
 
 #: libdnf/conf/OptionString.cpp:79
 msgid "GetValue(): Value not set"
-msgstr "GetValue () : 값이 설정되지 않았습니다"
+msgstr "GetValue(): 값이 설정되지 않았습니다"
 
 #: libdnf/dnf-context.cpp:3226 libdnf/dnf-context.cpp:3235
 #, c-format
