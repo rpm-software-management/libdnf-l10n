@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2020.
 # simmon <simmon@nplob.com>, 2021.
-# 김인수 <simmon@nplob.com>, 2022.
+# 김인수 <simmon@nplob.com>, 2022, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2022-11-03 02:19+0000\n"
+"PO-Revision-Date: 2024-02-13 02:35+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/ko/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 5.3.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -96,7 +96,7 @@ msgstr "변환 할 수 없습니다 '%s'초까지"
 
 #: libdnf/conf/OptionString.cpp:74
 msgid "GetValue(): Value not set"
-msgstr "GetValue () : 값이 설정되지 않았습니다"
+msgstr "GetValue(): 값이 설정되지 않았습니다"
 
 #: libdnf/dnf-goal.cpp:68
 msgid "Could not depsolve transaction; "
@@ -210,7 +210,7 @@ msgstr "write_main() 실패한 쓰기 자료: %i"
 
 #: libdnf/dnf-sack.cpp:576
 msgid "write_main() failed to re-load written solv file"
-msgstr "write_main ()이 작성된 solv 파일을 다시 적재하지 못했습니다"
+msgstr "write_main()이 작성된 solv 파일을 재-적재하지 못했습니다"
 
 #: libdnf/dnf-sack.cpp:641
 #, c-format
