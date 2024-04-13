@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-12 01:37+0000\n"
+"POT-Creation-Date: 2024-04-13 01:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -256,55 +256,60 @@ msgid ""
 "on the system"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
+#: libdnf/dnf-rpmts.cpp:105 libdnf/dnf-rpmts.cpp:145
 #, c-format
 msgid "signature does not verify for %s"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:129 libdnf/dnf-rpmts.cpp:174
+#: libdnf/dnf-rpmts.cpp:112 libdnf/dnf-rpmts.cpp:152
 #, c-format
 msgid "failed to open(generic error): %s"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:142
+#: libdnf/dnf-rpmts.cpp:124
 #, c-format
 msgid "failed to verify key for %s"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:150
+#: libdnf/dnf-rpmts.cpp:131
 #, c-format
 msgid "public key unavailable for %s"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:158
+#: libdnf/dnf-rpmts.cpp:138
 #, c-format
 msgid "signature not found for %s"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:193
+#: libdnf/dnf-rpmts.cpp:186
+#, c-format
+msgid "failed to add reinstall element: %1$s [%2$i]"
+msgstr ""
+
+#: libdnf/dnf-rpmts.cpp:231
 #, c-format
 msgid "failed to add install element: %1$s [%2$i]"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:274
+#: libdnf/dnf-rpmts.cpp:312
 #, c-format
 msgid "Error running transaction: %s"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:283
+#: libdnf/dnf-rpmts.cpp:321
 msgid "Error running transaction and no problems were reported!"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:346
+#: libdnf/dnf-rpmts.cpp:384
 msgid "Fatal error, run database recovery"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:355
+#: libdnf/dnf-rpmts.cpp:393
 #, c-format
 msgid "failed to find package %s"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:401
+#: libdnf/dnf-rpmts.cpp:439
 #, c-format
 msgid "could not add erase element %1$s(%2$i)"
 msgstr ""
@@ -506,26 +511,26 @@ msgstr ""
 msgid "failed to set root"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1433
+#: libdnf/dnf-transaction.cpp:1437
 #, c-format
 msgid "Error %i running transaction test"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1457
+#: libdnf/dnf-transaction.cpp:1461
 #, c-format
 msgid "Error %i opening rpm database"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1465 libdnf/dnf-transaction.cpp:1511
+#: libdnf/dnf-transaction.cpp:1469 libdnf/dnf-transaction.cpp:1515
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1480
+#: libdnf/dnf-transaction.cpp:1484
 #, c-format
 msgid "Error %i running transaction"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1496
+#: libdnf/dnf-transaction.cpp:1500
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
