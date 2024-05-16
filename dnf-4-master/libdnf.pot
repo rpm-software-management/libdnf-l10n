@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-15 01:44+0000\n"
+"POT-Creation-Date: 2024-05-16 01:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -511,26 +511,26 @@ msgstr ""
 msgid "failed to set root"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1437
+#: libdnf/dnf-transaction.cpp:1446
 #, c-format
 msgid "Error %i running transaction test"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1461
+#: libdnf/dnf-transaction.cpp:1470
 #, c-format
 msgid "Error %i opening rpm database"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1469 libdnf/dnf-transaction.cpp:1515
+#: libdnf/dnf-transaction.cpp:1478 libdnf/dnf-transaction.cpp:1524
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1484
+#: libdnf/dnf-transaction.cpp:1493
 #, c-format
 msgid "Error %i running transaction"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1500
+#: libdnf/dnf-transaction.cpp:1509
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
