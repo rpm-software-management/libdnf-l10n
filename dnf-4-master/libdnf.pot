@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-18 01:48+0000\n"
+"POT-Creation-Date: 2024-07-19 01:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -535,7 +535,7 @@ msgstr ""
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
 
-#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:487
+#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:488
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
 msgstr ""
@@ -790,27 +790,27 @@ msgid ""
 "The operation would result in removing the following protected packages: "
 msgstr ""
 
-#: libdnf/hy-iutil.cpp:181
+#: libdnf/hy-iutil.cpp:182
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
 msgstr ""
 
-#: libdnf/hy-iutil.cpp:410
+#: libdnf/hy-iutil.cpp:411
 #, c-format
 msgid "Failed renaming %1$s to %2$s: %3$s"
 msgstr ""
 
-#: libdnf/hy-iutil.cpp:418
+#: libdnf/hy-iutil.cpp:419
 #, c-format
 msgid "Failed setting perms on %1$s: %2$s"
 msgstr ""
 
-#: libdnf/hy-iutil.cpp:464
+#: libdnf/hy-iutil.cpp:465
 #, c-format
 msgid "cannot create directory %1$s: %2$s"
 msgstr ""
 
-#: libdnf/hy-iutil.cpp:499
+#: libdnf/hy-iutil.cpp:500
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
 msgstr ""
