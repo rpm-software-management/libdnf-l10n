@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-03 01:37+0000\n"
+"POT-Creation-Date: 2024-08-14 01:51+0000\n"
 "PO-Revision-Date: 2023-12-28 14:36+0000\n"
 "Last-Translator: A S Alam <aalam@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Punjabi <https://translate.fedoraproject.org/projects/dnf/"
@@ -255,181 +255,186 @@ msgid ""
 "on the system"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
+#: libdnf/dnf-rpmts.cpp:105 libdnf/dnf-rpmts.cpp:145
 #, c-format
 msgid "signature does not verify for %s"
 msgstr "%s ਲਈ ਦਸਤਖਤਾਂ ਦੀ ਜਾਂਚ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ"
 
-#: libdnf/dnf-rpmts.cpp:129 libdnf/dnf-rpmts.cpp:174
+#: libdnf/dnf-rpmts.cpp:112 libdnf/dnf-rpmts.cpp:152
 #, c-format
 msgid "failed to open(generic error): %s"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:142
+#: libdnf/dnf-rpmts.cpp:124
 #, c-format
 msgid "failed to verify key for %s"
 msgstr "%s ਲਈ ਕੁੰਜੀ ਦੀ ਜਾਂਚ ਅਸਫ਼ਲ ਰਹੀ ਹੈ"
 
-#: libdnf/dnf-rpmts.cpp:150
+#: libdnf/dnf-rpmts.cpp:131
 #, c-format
 msgid "public key unavailable for %s"
 msgstr "%s ਲਈ ਪਬਲਿਕ ਕੁੰਜੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
 
-#: libdnf/dnf-rpmts.cpp:158
+#: libdnf/dnf-rpmts.cpp:138
 #, c-format
 msgid "signature not found for %s"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:193
+#: libdnf/dnf-rpmts.cpp:186
+#, c-format
+msgid "failed to add reinstall element: %1$s [%2$i]"
+msgstr ""
+
+#: libdnf/dnf-rpmts.cpp:231
 #, c-format
 msgid "failed to add install element: %1$s [%2$i]"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:274
+#: libdnf/dnf-rpmts.cpp:312
 #, c-format
 msgid "Error running transaction: %s"
 msgstr "ਟਰਾਂਸ਼ੈਕਸ਼ਨ ਚਲਾਉਣ ਦੌਰਾਨ ਗਲਤੀ: %s"
 
-#: libdnf/dnf-rpmts.cpp:283
+#: libdnf/dnf-rpmts.cpp:321
 msgid "Error running transaction and no problems were reported!"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:346
+#: libdnf/dnf-rpmts.cpp:384
 msgid "Fatal error, run database recovery"
 msgstr ""
 
-#: libdnf/dnf-rpmts.cpp:355
+#: libdnf/dnf-rpmts.cpp:393
 #, c-format
 msgid "failed to find package %s"
 msgstr "%s ਪੈਕੇਜ ਲੱਭਣ ਲਈ ਅਸਫ਼ਲ ਹੈ"
 
-#: libdnf/dnf-rpmts.cpp:401
+#: libdnf/dnf-rpmts.cpp:439
 #, c-format
 msgid "could not add erase element %1$s(%2$i)"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:251
+#: libdnf/dnf-sack.cpp:258
 msgid "repo_add_solv() has failed."
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:415
+#: libdnf/dnf-sack.cpp:422
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:429
+#: libdnf/dnf-sack.cpp:436
 #, c-format
 msgid "no %1$s string for %2$s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:439
+#: libdnf/dnf-sack.cpp:446
 #, c-format
 msgid "failed to open: %s"
 msgstr "ਖੋਲ੍ਹਣ ਲਈ ਅਸਫ਼ਲ: %s"
 
-#: libdnf/dnf-sack.cpp:518
+#: libdnf/dnf-sack.cpp:525
 #, c-format
 msgid "cannot create temporary file: %s"
 msgstr "ਆਰਜ਼ੀ ਫਾਇਲ ਬਣਾਈ ਨਹੀਂ ਜਾ ਸਕਦੀ: %s"
 
-#: libdnf/dnf-sack.cpp:528
+#: libdnf/dnf-sack.cpp:535
 #, c-format
 msgid "failed opening tmp file: %s"
 msgstr "ਆਰਜ਼ੀ ਫਾਇਲ ਖੋਲ੍ਹਣ ਲਈ ਅਸਫ਼ਲ: %s"
 
-#: libdnf/dnf-sack.cpp:550
+#: libdnf/dnf-sack.cpp:557
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:560
+#: libdnf/dnf-sack.cpp:567
 #, c-format
 msgid "Failed closing tmp file %s: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:570
+#: libdnf/dnf-sack.cpp:577
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:576
+#: libdnf/dnf-sack.cpp:583
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:626
+#: libdnf/dnf-sack.cpp:633
 #, c-format
 msgid "can not create temporary file %s"
 msgstr "ਆਰਜ਼ੀ ਫਾਇਲ %s ਬਣਾਈ ਨਹੀਂ ਜਾ ਸਕਦੀ"
 
-#: libdnf/dnf-sack.cpp:666
+#: libdnf/dnf-sack.cpp:673
 #, c-format
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:676
+#: libdnf/dnf-sack.cpp:683
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:692
+#: libdnf/dnf-sack.cpp:699
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:699
+#: libdnf/dnf-sack.cpp:706
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:740
+#: libdnf/dnf-sack.cpp:747
 msgid "null repo md file"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:749
+#: libdnf/dnf-sack.cpp:756
 #, c-format
 msgid "can not read file %1$s: %2$s"
 msgstr "%1$s ਫਾਇਲ ਪੜ੍ਹਨ ਨਹੀਂ ਜਾ ਸਕਦੀ: %2$s"
 
-#: libdnf/dnf-sack.cpp:764
+#: libdnf/dnf-sack.cpp:771
 #, c-format
 msgid "While loading repository failed to use %s: "
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:775
+#: libdnf/dnf-sack.cpp:782
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:784
+#: libdnf/dnf-sack.cpp:791
 #, c-format
 msgid "Opening repository primary data has failed: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:795
+#: libdnf/dnf-sack.cpp:802
 #, c-format
 msgid "Loading repomd has failed: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:806
+#: libdnf/dnf-sack.cpp:813
 #, c-format
 msgid "Loading primary has failed: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:872
+#: libdnf/dnf-sack.cpp:879
 msgid "failed to auto-detect architecture"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:1037
+#: libdnf/dnf-sack.cpp:1044
 #, c-format
 msgid "failed creating cachedir %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:1814
+#: libdnf/dnf-sack.cpp:1821
 msgid "failed loading RPMDB"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:2598
+#: libdnf/dnf-sack.cpp:2605
 #, c-format
 msgid "No module defaults found: %s"
 msgstr ""
@@ -505,31 +510,31 @@ msgstr ""
 msgid "failed to set root"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1433
+#: libdnf/dnf-transaction.cpp:1446
 #, c-format
 msgid "Error %i running transaction test"
 msgstr "ਟਰਾਂਸੈਕਸ਼ਨ ਟੈਸਟ ਚਲਾਉਣ ਦੌਰਾਨ %i ਗਲਤੀ"
 
-#: libdnf/dnf-transaction.cpp:1457
+#: libdnf/dnf-transaction.cpp:1470
 #, c-format
 msgid "Error %i opening rpm database"
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1465 libdnf/dnf-transaction.cpp:1511
+#: libdnf/dnf-transaction.cpp:1478 libdnf/dnf-transaction.cpp:1524
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
 msgstr ""
 
-#: libdnf/dnf-transaction.cpp:1480
+#: libdnf/dnf-transaction.cpp:1493
 #, c-format
 msgid "Error %i running transaction"
 msgstr "ਟਰਾਂਸੈਕਸ਼ਨ ਚਲਾਉਣ ਦੌਰਾਨ %i ਗਲਤੀ"
 
-#: libdnf/dnf-transaction.cpp:1496
+#: libdnf/dnf-transaction.cpp:1509
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr ""
 
-#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:487
+#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:488
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
 msgstr "%1$s ਡਾਇਰੈਕਟਰੀ ਖੋਲ੍ਹੀ ਨਹੀਂ ਜਾ ਸਕਦੀ: %2$s"
@@ -784,27 +789,27 @@ msgid ""
 "The operation would result in removing the following protected packages: "
 msgstr ""
 
-#: libdnf/hy-iutil.cpp:181
+#: libdnf/hy-iutil.cpp:182
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
 msgstr ""
 
-#: libdnf/hy-iutil.cpp:410
+#: libdnf/hy-iutil.cpp:411
 #, c-format
 msgid "Failed renaming %1$s to %2$s: %3$s"
 msgstr ""
 
-#: libdnf/hy-iutil.cpp:418
+#: libdnf/hy-iutil.cpp:419
 #, c-format
 msgid "Failed setting perms on %1$s: %2$s"
 msgstr ""
 
-#: libdnf/hy-iutil.cpp:464
+#: libdnf/hy-iutil.cpp:465
 #, c-format
 msgid "cannot create directory %1$s: %2$s"
 msgstr "%1$s ਡਾਇਰੈਕਟਰੀ ਬਣਾਈ ਨਹੀਂ ਜਾ ਸਕਦੀ: %2$s"
 
-#: libdnf/hy-iutil.cpp:499
+#: libdnf/hy-iutil.cpp:500
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
 msgstr ""
@@ -967,8 +972,8 @@ msgstr ""
 msgid "Can't load plugin \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Crypto.cpp:99 libdnf/repo/Repo.cpp:961 libdnf/repo/Repo.cpp:1035
-#: libdnf/repo/Repo.cpp:1078
+#: libdnf/repo/Crypto.cpp:99 libdnf/repo/Repo.cpp:963 libdnf/repo/Repo.cpp:1037
+#: libdnf/repo/Repo.cpp:1080
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr ""
@@ -980,151 +985,151 @@ msgid ""
 "operator instead."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:314
+#: libdnf/repo/Repo.cpp:310
 #, c-format
 msgid "Repository %s has no mirror or baseurl set."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:323
+#: libdnf/repo/Repo.cpp:319
 #, c-format
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:490 libdnf/repo/Repo.cpp:611 libdnf/repo/Repo.cpp:642
-#: libdnf/repo/Repo.cpp:1199
+#: libdnf/repo/Repo.cpp:486 libdnf/repo/Repo.cpp:603 libdnf/repo/Repo.cpp:634
+#: libdnf/repo/Repo.cpp:1201
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:513
+#: libdnf/repo/Repo.cpp:509
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:547
+#: libdnf/repo/Repo.cpp:539
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:549
+#: libdnf/repo/Repo.cpp:541
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:630
+#: libdnf/repo/Repo.cpp:622
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:675
+#: libdnf/repo/Repo.cpp:667
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:696
+#: libdnf/repo/Repo.cpp:688
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:710 libdnf/utils/filesystem.cpp:79
+#: libdnf/repo/Repo.cpp:702 libdnf/utils/filesystem.cpp:79
 #, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:718
+#: libdnf/repo/Repo.cpp:710
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:975
+#: libdnf/repo/Repo.cpp:977
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:994
+#: libdnf/repo/Repo.cpp:996
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1017
+#: libdnf/repo/Repo.cpp:1019
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1023
+#: libdnf/repo/Repo.cpp:1025
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1052
+#: libdnf/repo/Repo.cpp:1054
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1054
+#: libdnf/repo/Repo.cpp:1056
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1072
+#: libdnf/repo/Repo.cpp:1074
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1092
+#: libdnf/repo/Repo.cpp:1094
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "\"%s\" ਡਾਇਰੈਕਟਰੀ ਬਣਾਈ ਨਹੀਂ ਜਾ ਸਕਦੀ: %s"
 
-#: libdnf/repo/Repo.cpp:1115
+#: libdnf/repo/Repo.cpp:1117
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1138
+#: libdnf/repo/Repo.cpp:1140
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1150
+#: libdnf/repo/Repo.cpp:1152
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1154
+#: libdnf/repo/Repo.cpp:1156
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1161
+#: libdnf/repo/Repo.cpp:1163
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1187
+#: libdnf/repo/Repo.cpp:1189
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1215
+#: libdnf/repo/Repo.cpp:1217
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1592
+#: libdnf/repo/Repo.cpp:1619
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1609
+#: libdnf/repo/Repo.cpp:1636
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1715
+#: libdnf/repo/Repo.cpp:1742
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "%s ਨੂੰ ਖੋਲ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਦਾ: %s"
 
-#: libdnf/repo/Repo.cpp:1759
+#: libdnf/repo/Repo.cpp:1786
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr ""
