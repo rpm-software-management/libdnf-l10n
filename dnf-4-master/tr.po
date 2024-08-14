@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-14 01:51+0000\n"
-"PO-Revision-Date: 2024-08-14 13:40+0000\n"
+"PO-Revision-Date: 2024-08-15 14:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/tr/>\n"
@@ -296,10 +296,9 @@ msgid "signature not found for %s"
 msgstr "%s için imza bulunamadı"
 
 #: libdnf/dnf-rpmts.cpp:186
-#, fuzzy, c-format
-#| msgid "failed to add install element: %1$s [%2$i]"
+#, c-format
 msgid "failed to add reinstall element: %1$s [%2$i]"
-msgstr "install (kurulum) ögesi eklenemedi: %1$s [%2$i]"
+msgstr "reinstall (yeniden kurulum) ögesi eklenemedi: %1$s [%2$i]"
 
 #: libdnf/dnf-rpmts.cpp:231
 #, c-format
