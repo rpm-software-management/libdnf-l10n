@@ -3,14 +3,14 @@
 # Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021, 2022.
 # Mikael Granberg <mikael@famgra.se>, 2020.
 # Vilhelm Prytz <vilhelm@prytznet.se>, 2020.
-# Luna Jernberg <bittin@reimu.nl>, 2021, 2022, 2023.
+# Luna Jernberg <bittin@reimu.nl>, 2021, 2022, 2023, 2024.
 # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-14 01:51+0000\n"
-"PO-Revision-Date: 2023-04-05 02:20+0000\n"
+"PO-Revision-Date: 2024-08-15 14:40+0000\n"
 "Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/sv/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -302,10 +302,9 @@ msgid "signature not found for %s"
 msgstr "signaturen hittades inte för %s"
 
 #: libdnf/dnf-rpmts.cpp:186
-#, fuzzy, c-format
-#| msgid "failed to add install element: %1$s [%2$i]"
+#, c-format
 msgid "failed to add reinstall element: %1$s [%2$i]"
-msgstr "misslyckades att lägga till installationselement: %1$s [%2$i]"
+msgstr "misslyckades att lägga till installera om element: %1$s [%2$i]"
 
 #: libdnf/dnf-rpmts.cpp:231
 #, c-format
