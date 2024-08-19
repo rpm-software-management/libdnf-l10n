@@ -3,13 +3,15 @@
 # Casey Jones <nahareport@yahoo.com>, 2020.
 # Sundeep Anand <suanand@redhat.com>, 2021, 2022.
 # Transtats <suanand@redhat.com>, 2022, 2023.
+# middlingphys <middlingphys@users.noreply.translate.fedoraproject.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-17 01:47+0000\n"
-"PO-Revision-Date: 2023-03-07 14:20+0000\n"
-"Last-Translator: Transtats <suanand@redhat.com>\n"
+"PO-Revision-Date: 2024-08-19 08:28+0000\n"
+"Last-Translator: middlingphys <middlingphys@users.noreply.translate."
+"fedoraproject.org>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ja/>\n"
 "Language: ja\n"
@@ -17,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -299,10 +301,9 @@ msgid "signature not found for %s"
 msgstr "%s の署名は見つかりませんでした"
 
 #: libdnf/dnf-rpmts.cpp:186
-#, fuzzy, c-format
-#| msgid "failed to add install element: %1$s [%2$i]"
+#, c-format
 msgid "failed to add reinstall element: %1$s [%2$i]"
-msgstr "インストールの要素の追加に失敗しました: %1$s [%2$i]"
+msgstr "再インストールの要素の追加に失敗しました: %1$s [%2$i]"
 
 #: libdnf/dnf-rpmts.cpp:231
 #, c-format
