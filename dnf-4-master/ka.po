@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-19 01:52+0000\n"
-"PO-Revision-Date: 2024-02-09 19:36+0000\n"
+"PO-Revision-Date: 2024-08-21 04:38+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.7\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -299,10 +299,9 @@ msgid "signature not found for %s"
 msgstr "%s-ის ხელმოსაწერა ვერ ვიპოვე"
 
 #: libdnf/dnf-rpmts.cpp:186
-#, fuzzy, c-format
-#| msgid "failed to add install element: %1$s [%2$i]"
+#, c-format
 msgid "failed to add reinstall element: %1$s [%2$i]"
-msgstr "%1$s[%2$i]-ის დაყენებს შეცდომა"
+msgstr "ჩავარდა დამატება თავიდან დასაყენებელი ელემენტისთვის: %1$s [%2$i]"
 
 #: libdnf/dnf-rpmts.cpp:231
 #, c-format
