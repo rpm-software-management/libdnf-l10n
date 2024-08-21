@@ -1,7 +1,7 @@
 # Meskó Balázs <meskobalazs@gmail.com>, 2016. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2017. #zanata
 # Teknős Ferenc <teknos.ferenc@gmail.com>, 2018. #zanata
-# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021, 2022.
+# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021, 2022, 2024.
 # Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>, 2023.
 # Hoppár Zoltán <hopparz@gmail.com>, 2023.
 msgid ""
@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-21 01:51+0000\n"
-"PO-Revision-Date: 2023-10-08 11:36+0000\n"
-"Last-Translator: Hoppár Zoltán <hopparz@gmail.com>\n"
+"PO-Revision-Date: 2024-08-22 19:38+0000\n"
+"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/hu/>\n"
 "Language: hu\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.7\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -27,7 +27,7 @@ msgstr "nincs érték megadva"
 #: libdnf/conf/ConfigMain.cpp:67 libdnf/conf/OptionSeconds.cpp:48
 #, c-format
 msgid "seconds value '%s' must not be negative"
-msgstr "a(z) „%s” másodperc érték nem lehet negatív"
+msgstr "a(z) „%s” másodperces érték nem lehet negatív"
 
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
@@ -82,15 +82,13 @@ msgstr "a(z) „%s” érték nem megengedett"
 #, c-format
 msgid "given value [%d] should be less than allowed value [%d]."
 msgstr ""
-"a megadott értéknek [%d] kisebbnek kell lennie, mint a megengedett érték "
-"[%d]."
+"a megadott [%d] értéknek kisebbnek kell lennie a megengedett [%d] értéknél."
 
 #: libdnf/conf/OptionNumber.cpp:76
 #, c-format
 msgid "given value [%d] should be greater than allowed value [%d]."
 msgstr ""
-"a megadott értéknek [%d] nagyobbnak kell lennie, mint a megengedett érték "
-"[%d]."
+"a megadott [%d] értéknek nagyobbnak kell lennie a megengedett [%d] értéknél."
 
 #: libdnf/conf/OptionPath.cpp:78
 #, c-format
@@ -512,40 +510,42 @@ msgstr ""
 #: libdnf/dnf-transaction.cpp:379
 #, c-format
 msgid "Downloaded file for %s not found"
-msgstr ""
+msgstr "A(z) %s letöltött fájlja nem található"
 
 #: libdnf/dnf-transaction.cpp:399
 #, c-format
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
 msgstr ""
+"A(z) %1$s csomag nem ellenőrizhető, és a(z) %2$s tárolónál engedélyezett a "
+"GPG: %3$s"
 
 #: libdnf/dnf-transaction.cpp:833 libdnf/dnf-transaction.cpp:906
 msgid "Failed to get value for CacheDir"
-msgstr ""
+msgstr "A CacheDir értékének lekérése sikertelen"
 
 #: libdnf/dnf-transaction.cpp:914
 #, c-format
 msgid "Failed to get filesystem free size for %s: "
-msgstr ""
+msgstr "A(z) %s fájlrendszer-méretének lekérése sikertelen: "
 
 #: libdnf/dnf-transaction.cpp:922
 #, c-format
 msgid "Failed to get filesystem free size for %s"
-msgstr ""
+msgstr "A(z) %s fájlrendszer-méretének lekérése sikertelen"
 
 #: libdnf/dnf-transaction.cpp:938
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
-msgstr ""
+msgstr "Nincs elég szabad hely ezen: %1$s: %2$s szükséges, %3$s érhető el"
 
 #: libdnf/dnf-transaction.cpp:1197
 msgid "failed to set root"
-msgstr ""
+msgstr "a gyökér beállítása sikertelen"
 
 #: libdnf/dnf-transaction.cpp:1446
 #, c-format
 msgid "Error %i running transaction test"
-msgstr ""
+msgstr "%i számú hiba a tranzakcióteszt futtatásakor"
 
 #: libdnf/dnf-transaction.cpp:1470
 #, c-format
@@ -559,30 +559,32 @@ msgstr "Az rpmdbCookie() függvény nem adta vissza az rpm adatbázis sütijét.
 #: libdnf/dnf-transaction.cpp:1493
 #, c-format
 msgid "Error %i running transaction"
-msgstr ""
+msgstr "%i számú hiba a tranzakció futtatásakor"
 
 #: libdnf/dnf-transaction.cpp:1509
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
-msgstr ""
+msgstr "A tranzakció nem ért el az írási fázisba, de nem adott vissza hibát(%i)"
 
 #: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:488
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
-msgstr ""
+msgstr "a(z) %1$s könyvtár nem nyitható meg: %2$s"
 
 #: libdnf/dnf-utils.cpp:136
 #, c-format
 msgid "failed to remove %s"
-msgstr ""
+msgstr "a(z) %s eltávolítása sikertelen"
 
 #: libdnf/goal/Goal.cpp:78
 msgid "Ill-formed Selector, presence of multiple match objects in the filter"
 msgstr ""
+"Hibásan formázott kiválasztó, több illesztési objektum is van a szűrőben"
 
 #: libdnf/goal/Goal.cpp:79
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr ""
+"Hibásan formázott kiválasztó a művelethez, helytelen összehasonlítás-típus"
 
 #: libdnf/goal/Goal.cpp:90
 #, c-format
@@ -596,7 +598,7 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
-msgstr ""
+msgstr "probléma a telepített csomaggal "
 
 #: libdnf/goal/Goal.cpp:93 libdnf/goal/Goal.cpp:120
 msgid "conflicting requests"
@@ -625,11 +627,11 @@ msgstr "valamilyen függőségi probléma"
 
 #: libdnf/goal/Goal.cpp:99
 msgid "cannot install the best update candidate for package "
-msgstr ""
+msgstr "a legjobb frissítési jelölt nem telepíthető a csomaghoz "
 
 #: libdnf/goal/Goal.cpp:100 libdnf/goal/Goal.cpp:127
 msgid "cannot install the best candidate for the job"
-msgstr ""
+msgstr "a legjobb frissítési jelölt nem telepíthető a feladathoz"
 
 #: libdnf/goal/Goal.cpp:101
 #, c-format
