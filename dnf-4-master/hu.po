@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-21 01:51+0000\n"
+"POT-Creation-Date: 2024-08-22 01:53+0000\n"
 "PO-Revision-Date: 2024-08-22 19:38+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
@@ -564,7 +564,8 @@ msgstr "%i számú hiba a tranzakció futtatásakor"
 #: libdnf/dnf-transaction.cpp:1509
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
-msgstr "A tranzakció nem ért el az írási fázisba, de nem adott vissza hibát(%i)"
+msgstr ""
+"A tranzakció nem ért el az írási fázisba, de nem adott vissza hibát(%i)"
 
 #: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:488
 #, c-format
