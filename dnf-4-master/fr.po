@@ -12,13 +12,14 @@
 # blutch112 <vincent.lefebvre59@gmail.com>, 2022.
 # Transtats <suanand@redhat.com>, 2023.
 # Damien Pou <dampato+linux@ik.me>, 2024.
+# Léane GRASSER <leane.grasser@proton.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-21 01:51+0000\n"
-"PO-Revision-Date: 2024-01-16 04:49+0000\n"
-"Last-Translator: Damien Pou <dampato+linux@ik.me>\n"
+"PO-Revision-Date: 2024-08-22 19:38+0000\n"
+"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
 "Language: fr\n"
@@ -26,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.7\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -311,10 +312,9 @@ msgid "signature not found for %s"
 msgstr "signature non trouvée pour %s"
 
 #: libdnf/dnf-rpmts.cpp:186
-#, fuzzy, c-format
-#| msgid "failed to add install element: %1$s [%2$i]"
+#, c-format
 msgid "failed to add reinstall element: %1$s [%2$i]"
-msgstr "n’a pas pu ajouter l’élément : %1$s [%2$i]"
+msgstr "échec de l'ajout de l’élément reinstall : %1$s [%2$i]"
 
 #: libdnf/dnf-rpmts.cpp:231
 #, c-format
