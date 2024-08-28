@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-24 01:49+0000\n"
-"PO-Revision-Date: 2024-08-19 08:28+0000\n"
+"PO-Revision-Date: 2024-08-29 02:38+0000\n"
 "Last-Translator: middlingphys <middlingphys@users.noreply.translate."
 "fedoraproject.org>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/dnf/"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.7\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -584,16 +584,14 @@ msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr "操作に使用される不適格な Selector、間違った比較タイプ"
 
 #: libdnf/goal/Goal.cpp:90
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s  does not belong to a distupgrade repository"
-msgstr " はdistupgradeレポジトリーに属していません"
+msgstr "%s (%s)  はdistupgradeレポジトリーに属していません"
 
 #: libdnf/goal/Goal.cpp:91
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s  has inferior architecture"
-msgstr " は下位アーキテクチャがあります"
+msgstr "%s (%s)  は下位アーキテクチャがあります"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -633,99 +631,83 @@ msgid "cannot install the best candidate for the job"
 msgstr "ジョブの最良アップデート候補をインストールできません"
 
 #: libdnf/goal/Goal.cpp:101
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by modular filtering"
+#, c-format
 msgid "package %s from %s is filtered out by modular filtering"
-msgstr "パッケージ %s はモジュラーフィルタリングに一致しません"
+msgstr "パッケージ %s (%s) はモジュラーフィルタリングに一致しません"
 
 #: libdnf/goal/Goal.cpp:102
-#, fuzzy, c-format
-#| msgid "package %s does not have a compatible architecture"
+#, c-format
 msgid "package %s from %s does not have a compatible architecture"
-msgstr "パッケージ %s は互換性のあるアーキテクチャーがありません"
+msgstr "パッケージ %s (%s) は互換性のあるアーキテクチャーがありません"
 
 #: libdnf/goal/Goal.cpp:103
-#, fuzzy, c-format
-#| msgid "package %s is not installable"
+#, c-format
 msgid "package %s from %s is not installable"
-msgstr "パッケージ %s はインストール不可です"
+msgstr "パッケージ %s (%s) はインストール不可です"
 
 #: libdnf/goal/Goal.cpp:104
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by exclude filtering"
+#, c-format
 msgid "package %s from %s is filtered out by exclude filtering"
-msgstr "パッケージ %s は除外フィルタリングに一致しません"
+msgstr "パッケージ %s (%s) は除外フィルタリングに一致しません"
 
 #: libdnf/goal/Goal.cpp:105
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by %s"
+#, c-format
 msgid "nothing provides %s needed by %s from %s"
-msgstr "%s が提供されません %s に必要です"
+msgstr "%s が提供されません %s (%s) に必要です"
 
 #: libdnf/goal/Goal.cpp:106
-#, fuzzy, c-format
-#| msgid "cannot install both %s and %s"
+#, c-format
 msgid "cannot install both %s from %s and %s from %s"
-msgstr "%s と %s どちらもインストールできません"
+msgstr "%s (%s) と %s (%s) どちらもインストールできません"
 
 #: libdnf/goal/Goal.cpp:107
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by %s"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by %s from %s"
-msgstr "パッケージ %s は %s と競合しています。これは %s により提供されます"
+msgstr "パッケージ %s (%s) は %s と競合しています。これは %s (%s) により提供されます"
 
 #: libdnf/goal/Goal.cpp:108
-#, fuzzy, c-format
-#| msgid "package %s obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s obsoletes %s provided by %s from %s"
-msgstr "パッケージ %s は %s を廃止しました。これは %s により提供されます"
+msgstr "パッケージ %s (%s) は %s を廃止しました。これは %s (%s) により提供されます"
 
 #: libdnf/goal/Goal.cpp:109
-#, fuzzy, c-format
-#| msgid "installed package %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed package %s obsoletes %s provided by %s from %s"
-msgstr ""
-"インストール済パッケージ %s は %s を廃止しました。これは %s により提供されま"
-"す"
+msgstr "インストール済パッケージ %s は %s を廃止しました。これは %s (%s) "
+"により提供されます"
 
 #: libdnf/goal/Goal.cpp:110
-#, fuzzy, c-format
-#| msgid "package %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "パッケージ %s は %s を暗に廃止しました。これは %s により提供されます"
+msgstr "パッケージ %s (%s) は %s を暗に廃止しました。これは %s (%s) "
+"により提供されます"
 
 #: libdnf/goal/Goal.cpp:111
-#, fuzzy, c-format
-#| msgid "package %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
-msgstr ""
-"パッケージ %s には %s が必要ですが、どのプロバイダーからもインストールできま"
-"せん"
+msgstr "パッケージ %s (%s) には %s "
+"が必要ですが、どのプロバイダーからもインストールできません"
 
 #: libdnf/goal/Goal.cpp:112
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by itself"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by itself"
-msgstr "パッケージ %s は自己提供される %s と競合しています"
+msgstr "パッケージ %s (%s) は自己提供される %s と競合しています"
 
 #: libdnf/goal/Goal.cpp:113
-#, fuzzy, c-format
-#| msgid "both package %s and %s obsolete %s"
+#, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
-msgstr "パッケージ %s と %s 両方は %s を廃止しました"
+msgstr "パッケージ %s (%s) と %s (%s) 両方は %s を廃止しました"
 
 #: libdnf/goal/Goal.cpp:117
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s does not belong to a distupgrade repository"
-msgstr " はdistupgradeレポジトリーに属していません"
+msgstr "%s (%s) はdistupgradeレポジトリーに属していません"
 
 #: libdnf/goal/Goal.cpp:118
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s has inferior architecture"
-msgstr " は下位アーキテクチャがあります"
+msgstr "%s (%s) は下位アーキテクチャがあります"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -741,81 +723,68 @@ msgid "cannot install the best update candidate for module "
 msgstr "モジュールの最良アップデート候補をインストールできません "
 
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
-#, fuzzy, c-format
-#| msgid "module %s is disabled"
+#, c-format
 msgid "module %s from %s is disabled"
-msgstr "モジュール %s は無効です"
+msgstr "モジュール %s (%s) は無効です"
 
 #: libdnf/goal/Goal.cpp:129
-#, fuzzy, c-format
-#| msgid "module %s does not have a compatible architecture"
+#, c-format
 msgid "module %s from %s does not have a compatible architecture"
-msgstr "モジュール %s は互換性のあるアーキテクチャーがありません"
+msgstr "モジュール %s (%s) は互換性のあるアーキテクチャーがありません"
 
 #: libdnf/goal/Goal.cpp:130
-#, fuzzy, c-format
-#| msgid "module %s is not installable"
+#, c-format
 msgid "module %s from %s is not installable"
-msgstr "モジュール %s はインストール不可です"
+msgstr "モジュール %s (%s) はインストール不可です"
 
 #: libdnf/goal/Goal.cpp:132
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by module %s"
+#, c-format
 msgid "nothing provides %s needed by module %s from %s"
-msgstr "%s が提供されませんモジュール %s に必要です"
+msgstr "%s が提供されませんモジュール %s (%s) に必要です"
 
 #: libdnf/goal/Goal.cpp:133
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "cannot install both modules %s from %s and %s from %s"
-msgstr "モジュール %s と %s どちらもインストールできません"
+msgstr "モジュール %s (%s) と %s (%s) どちらもインストールできません"
 
 #: libdnf/goal/Goal.cpp:134
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by %s"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
-msgstr "モジュール %s は %s と競合しています。これは %s により提供されます"
+msgstr "モジュール %s (%s) は %s と競合しています。これは %s (%s) により提供されます"
 
 #: libdnf/goal/Goal.cpp:135
-#, fuzzy, c-format
-#| msgid "module %s obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s obsoletes %s provided by %s from %s"
-msgstr "モジュール %s は %s を廃止しました。これは %s により提供されます"
+msgstr "モジュール %s (%s) は %s を廃止しました。これは %s (%s) により提供されます"
 
 #: libdnf/goal/Goal.cpp:136
-#, fuzzy, c-format
-#| msgid "installed module %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed module %s obsoletes %s provided by %s from %s"
-msgstr ""
-"インストール済モジュール %s は %s を廃止しました。これは %s により提供されま"
-"す"
+msgstr "インストール済モジュール %s は %s を廃止しました。これは %s (%s) "
+"により提供されます"
 
 #: libdnf/goal/Goal.cpp:137
-#, fuzzy, c-format
-#| msgid "module %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "モジュール %s は %s を暗に廃止しました。これは %s により提供されます"
+msgstr "モジュール %s (%s) は %s を暗に廃止しました。これは %s (%s) "
+"により提供されます"
 
 #: libdnf/goal/Goal.cpp:138
-#, fuzzy, c-format
-#| msgid "module %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
-msgstr ""
-"モジュール %s には %s が必要ですが、どのプロバイダーからもインストールできま"
-"せん"
+msgstr "モジュール %s (%s) には %s "
+"が必要ですが、どのプロバイダーからもインストールできません"
 
 #: libdnf/goal/Goal.cpp:139
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by itself"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by itself"
-msgstr "モジュール %s は自己提供される %s と競合しています"
+msgstr "モジュール %s (%s) は自己提供される %s と競合しています"
 
 #: libdnf/goal/Goal.cpp:140
-#, fuzzy, c-format
-#| msgid "both module %s and %s obsolete %s"
+#, c-format
 msgid "both module %s from %s and %s from %s obsolete %s"
-msgstr "モジュール %s と %s 両方は %s を廃止しました"
+msgstr "モジュール %s (%s) と %s (%s) 両方は %s を廃止しました"
 
 #: libdnf/goal/Goal.cpp:1217
 msgid "no solver set"
