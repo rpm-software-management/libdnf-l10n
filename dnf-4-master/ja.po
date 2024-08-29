@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-24 01:49+0000\n"
+"POT-Creation-Date: 2024-08-29 01:59+0000\n"
 "PO-Revision-Date: 2024-08-29 02:38+0000\n"
 "Last-Translator: middlingphys <middlingphys@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -663,31 +663,36 @@ msgstr "%s (%s) と %s (%s) どちらもインストールできません"
 #: libdnf/goal/Goal.cpp:107
 #, c-format
 msgid "package %s from %s conflicts with %s provided by %s from %s"
-msgstr "パッケージ %s (%s) は %s と競合しています。これは %s (%s) により提供されます"
+msgstr ""
+"パッケージ %s (%s) は %s と競合しています。これは %s (%s) により提供されます"
 
 #: libdnf/goal/Goal.cpp:108
 #, c-format
 msgid "package %s from %s obsoletes %s provided by %s from %s"
-msgstr "パッケージ %s (%s) は %s を廃止しました。これは %s (%s) により提供されます"
+msgstr ""
+"パッケージ %s (%s) は %s を廃止しました。これは %s (%s) により提供されます"
 
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s from %s"
-msgstr "インストール済パッケージ %s は %s を廃止しました。これは %s (%s) "
-"により提供されます"
+msgstr ""
+"インストール済パッケージ %s は %s を廃止しました。これは %s (%s) により提供さ"
+"れます"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
 msgid "package %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "パッケージ %s (%s) は %s を暗に廃止しました。これは %s (%s) "
-"により提供されます"
+msgstr ""
+"パッケージ %s (%s) は %s を暗に廃止しました。これは %s (%s) により提供されま"
+"す"
 
 #: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
-msgstr "パッケージ %s (%s) には %s "
-"が必要ですが、どのプロバイダーからもインストールできません"
+msgstr ""
+"パッケージ %s (%s) には %s が必要ですが、どのプロバイダーからもインストールで"
+"きません"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
@@ -750,31 +755,36 @@ msgstr "モジュール %s (%s) と %s (%s) どちらもインストールでき
 #: libdnf/goal/Goal.cpp:134
 #, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
-msgstr "モジュール %s (%s) は %s と競合しています。これは %s (%s) により提供されます"
+msgstr ""
+"モジュール %s (%s) は %s と競合しています。これは %s (%s) により提供されます"
 
 #: libdnf/goal/Goal.cpp:135
 #, c-format
 msgid "module %s from %s obsoletes %s provided by %s from %s"
-msgstr "モジュール %s (%s) は %s を廃止しました。これは %s (%s) により提供されます"
+msgstr ""
+"モジュール %s (%s) は %s を廃止しました。これは %s (%s) により提供されます"
 
 #: libdnf/goal/Goal.cpp:136
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s from %s"
-msgstr "インストール済モジュール %s は %s を廃止しました。これは %s (%s) "
-"により提供されます"
+msgstr ""
+"インストール済モジュール %s は %s を廃止しました。これは %s (%s) により提供さ"
+"れます"
 
 #: libdnf/goal/Goal.cpp:137
 #, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "モジュール %s (%s) は %s を暗に廃止しました。これは %s (%s) "
-"により提供されます"
+msgstr ""
+"モジュール %s (%s) は %s を暗に廃止しました。これは %s (%s) により提供されま"
+"す"
 
 #: libdnf/goal/Goal.cpp:138
 #, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
-msgstr "モジュール %s (%s) には %s "
-"が必要ですが、どのプロバイダーからもインストールできません"
+msgstr ""
+"モジュール %s (%s) には %s が必要ですが、どのプロバイダーからもインストールで"
+"きません"
 
 #: libdnf/goal/Goal.cpp:139
 #, c-format
