@@ -1,13 +1,14 @@
 # scootergrisen <scootergrisen@gmail.com>, 2017. #zanata, 2020.
 # scootergrisen <scootergrisen@gmail.com>, 2018. #zanata, 2020.
 # Anonymous <noreply@weblate.org>, 2020.
+# DK Guy <peter@nozen.dk>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2020-09-14 11:29+0000\n"
-"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
+"PO-Revision-Date: 2024-10-13 17:38+0000\n"
+"Last-Translator: DK Guy <peter@nozen.dk>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/da/>\n"
 "Language: da\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -24,12 +25,12 @@ msgstr "ingen værdi angivet"
 #: libdnf/conf/ConfigMain.cpp:67 libdnf/conf/OptionSeconds.cpp:48
 #, c-format
 msgid "seconds value '%s' must not be negative"
-msgstr ""
+msgstr "sekunder værdien '%s' må ikke være negativ"
 
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
 msgid "could not convert '%s' to bytes"
-msgstr ""
+msgstr "kunne ikke konvertere '%s' til bytes"
 
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
@@ -39,17 +40,17 @@ msgstr "ukendt enhed '%s'"
 #: libdnf/conf/ConfigMain.cpp:329
 #, c-format
 msgid "percentage '%s' is out of range"
-msgstr ""
+msgstr "procentdel '%s' er uden for området"
 
 #: libdnf/conf/OptionBinds.cpp:76
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr ""
+msgstr "Konfiguration: OptionBinding med id \"%s\" findes ikke"
 
 #: libdnf/conf/OptionBinds.cpp:88
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr ""
+msgstr "Konfiguration: OptionBinding med id \"%s\" findes allerede"
 
 #: libdnf/conf/OptionBool.cpp:47
 #, c-format
@@ -60,26 +61,26 @@ msgstr "Ugyldig boolesk værdi '%s'"
 #: libdnf/conf/OptionString.cpp:59 libdnf/conf/OptionStringList.cpp:59
 #, c-format
 msgid "'%s' is not an allowed value"
-msgstr ""
+msgstr "'%s' er ikke en tilladt værdi"
 
 #: libdnf/conf/OptionEnum.cpp:83 libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
-msgstr ""
+msgstr "ugyldig værdi"
 
 #: libdnf/conf/OptionNumber.cpp:73
 #, c-format
 msgid "given value [%d] should be less than allowed value [%d]."
-msgstr ""
+msgstr "given værdi [%d] skal være mindre end tilladt værdi [%d]."
 
 #: libdnf/conf/OptionNumber.cpp:76
 #, c-format
 msgid "given value [%d] should be greater than allowed value [%d]."
-msgstr ""
+msgstr "given værdi [%d] skal være større end tilladt værdi [%d]."
 
 #: libdnf/conf/OptionPath.cpp:78
 #, c-format
 msgid "given path '%s' is not absolute."
-msgstr ""
+msgstr "given sti '%s' er ikke absolut."
 
 #: libdnf/conf/OptionPath.cpp:82
 #, c-format
@@ -89,11 +90,11 @@ msgstr "givne sti '%s' findes ikke."
 #: libdnf/conf/OptionSeconds.cpp:52
 #, c-format
 msgid "could not convert '%s' to seconds"
-msgstr ""
+msgstr "kunne ikke konvertere '%s' til sekunder"
 
 #: libdnf/conf/OptionString.cpp:74
 msgid "GetValue(): Value not set"
-msgstr ""
+msgstr "GetValue(): Værdien ikke sat"
 
 #: libdnf/dnf-goal.cpp:68
 msgid "Could not depsolve transaction; "
@@ -747,12 +748,12 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:666 libdnf/repo/Repo.cpp:688
 #, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
-msgstr ""
+msgstr "%s: gpgme_data_new_from_fd(): %s"
 
 #: libdnf/repo/Repo.cpp:674 libdnf/repo/Repo.cpp:696
 #, c-format
 msgid "%s: gpgme_op_import(): %s"
-msgstr ""
+msgstr "%s: gpgme_op_import(): %s"
 
 #: libdnf/repo/Repo.cpp:719 libdnf/repo/Repo.cpp:785 libdnf/repo/Repo.cpp:913
 #, c-format
@@ -879,17 +880,17 @@ msgstr ""
 
 #: libdnf/transaction/Swdb.cpp:107
 msgid "In progress"
-msgstr "Under udførelse"
+msgstr "I gang"
 
 #: libdnf/transaction/Swdb.cpp:121 libdnf/transaction/Swdb.cpp:148
 #: libdnf/transaction/Swdb.cpp:160 libdnf/transaction/Swdb.cpp:177
 #: libdnf/transaction/Swdb.cpp:316 libdnf/transaction/Swdb.cpp:326
 msgid "Not in progress"
-msgstr ""
+msgstr "Ikke i gang"
 
 #: libdnf/transaction/Swdb.cpp:187
 msgid "No transaction in progress"
-msgstr ""
+msgstr "Ingen transaktion i gang"
 
 #: libdnf/transaction/TransactionItem.cpp:147
 msgid "Attempt to insert transaction item into completed transaction"
