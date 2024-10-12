@@ -1,12 +1,13 @@
 # scootergrisen <scootergrisen@gmail.com>, 2017. #zanata, 2020.
 # scootergrisen <scootergrisen@gmail.com>, 2018. #zanata, 2020.
+# DK Guy <peter@nozen.dk>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-15 02:10+0000\n"
-"PO-Revision-Date: 2020-12-31 06:36+0000\n"
-"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
+"PO-Revision-Date: 2024-10-13 17:38+0000\n"
+"Last-Translator: DK Guy <peter@nozen.dk>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/da/>\n"
 "Language: da\n"
@@ -14,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -23,12 +24,12 @@ msgstr "ingen værdi angivet"
 #: libdnf/conf/ConfigMain.cpp:67 libdnf/conf/OptionSeconds.cpp:48
 #, c-format
 msgid "seconds value '%s' must not be negative"
-msgstr ""
+msgstr "sekunder værdien '%s' må ikke være negativ"
 
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
 msgid "could not convert '%s' to bytes"
-msgstr ""
+msgstr "kunne ikke konvertere '%s' til bytes"
 
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
@@ -38,30 +39,30 @@ msgstr "ukendt enhed '%s'"
 #: libdnf/conf/ConfigMain.cpp:205 libdnf/conf/OptionEnum.cpp:83
 #: libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
-msgstr ""
+msgstr "ugyldig værdi"
 
 #: libdnf/conf/ConfigMain.cpp:208
 msgid "value 1 is not allowed"
-msgstr ""
+msgstr "værdien 1 er ikke tilladt"
 
 #: libdnf/conf/ConfigMain.cpp:210
 msgid "negative value is not allowed"
-msgstr ""
+msgstr "negativ værdi er ikke tilladt"
 
 #: libdnf/conf/ConfigMain.cpp:345
 #, c-format
 msgid "percentage '%s' is out of range"
-msgstr ""
+msgstr "procentdel '%s' er uden for området"
 
 #: libdnf/conf/OptionBinds.cpp:85
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr ""
+msgstr "Konfiguration: OptionBinding med id \"%s\" findes ikke"
 
 #: libdnf/conf/OptionBinds.cpp:97
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr ""
+msgstr "Konfiguration: OptionBinding med id \"%s\" findes allerede"
 
 #: libdnf/conf/OptionBool.cpp:47
 #, c-format
@@ -72,22 +73,22 @@ msgstr "Ugyldig boolesk værdi '%s'"
 #: libdnf/conf/OptionString.cpp:64 libdnf/conf/OptionStringList.cpp:59
 #, c-format
 msgid "'%s' is not an allowed value"
-msgstr ""
+msgstr "'%s' er ikke en tilladt værdi"
 
 #: libdnf/conf/OptionNumber.cpp:73
 #, c-format
 msgid "given value [%d] should be less than allowed value [%d]."
-msgstr ""
+msgstr "given værdi [%d] skal være mindre end tilladt værdi [%d]."
 
 #: libdnf/conf/OptionNumber.cpp:76
 #, c-format
 msgid "given value [%d] should be greater than allowed value [%d]."
-msgstr ""
+msgstr "given værdi [%d] skal være større end tilladt værdi [%d]."
 
 #: libdnf/conf/OptionPath.cpp:78
 #, c-format
 msgid "given path '%s' is not absolute."
-msgstr ""
+msgstr "given sti '%s' er ikke absolut."
 
 #: libdnf/conf/OptionPath.cpp:82
 #, c-format
@@ -97,39 +98,39 @@ msgstr "givne sti '%s' findes ikke."
 #: libdnf/conf/OptionSeconds.cpp:52
 #, c-format
 msgid "could not convert '%s' to seconds"
-msgstr ""
+msgstr "kunne ikke konvertere '%s' til sekunder"
 
 #: libdnf/conf/OptionString.cpp:79
 msgid "GetValue(): Value not set"
-msgstr ""
+msgstr "GetValue(): Værdien ikke sat"
 
 #: libdnf/dnf-context.cpp:3226 libdnf/dnf-context.cpp:3235
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
-msgstr ""
+msgstr "Kan ikke tillade flere strømme fra modulet \"%s\" på samme tid"
 
 #: libdnf/dnf-context.cpp:3244 libdnf/dnf-context.cpp:3262
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr ""
+"Kan ikke tillade modulet '%1$s' strøm '%2$s': Tilstanden af modulet er "
+"allerede ændret"
 
 #: libdnf/dnf-context.cpp:3311
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
-msgstr ""
+msgstr "Modul afhænginghedsproblem med standardværdier: %s"
 
 #: libdnf/dnf-context.cpp:3314
-#, fuzzy, c-format
-#| msgid "some dependency problem"
+#, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr "nogle afhængighedsproblemer"
+msgstr "Afhængighedsproblemer med de seneste moduler: %s"
 
 #: libdnf/dnf-context.cpp:3318
-#, fuzzy, c-format
-#| msgid "some dependency problem"
+#, c-format
 msgid "Modular dependency problem: %s"
-msgstr "nogle afhængighedsproblemer"
+msgstr "Afhængighedsproblemer med moduler: %s"
 
 #: libdnf/dnf-context.cpp:3341 libdnf/dnf-context.cpp:3365
 #: libdnf/dnf-context.cpp:3376 libdnf/dnf-context.cpp:3415
@@ -1148,17 +1149,17 @@ msgstr ""
 
 #: libdnf/transaction/Swdb.cpp:173
 msgid "In progress"
-msgstr "Under udførelse"
+msgstr "I gang"
 
 #: libdnf/transaction/Swdb.cpp:187 libdnf/transaction/Swdb.cpp:215
 #: libdnf/transaction/Swdb.cpp:227 libdnf/transaction/Swdb.cpp:244
 #: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:393
 msgid "Not in progress"
-msgstr ""
+msgstr "Ikke i gang"
 
 #: libdnf/transaction/Swdb.cpp:254
 msgid "No transaction in progress"
-msgstr ""
+msgstr "Ingen transaktion i gang"
 
 #: libdnf/transaction/TransactionItem.cpp:146
 msgid "Attempt to insert transaction item into completed transaction"
