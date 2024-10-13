@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-15 02:10+0000\n"
+"POT-Creation-Date: 2024-10-13 02:12+0000\n"
 "PO-Revision-Date: 2021-08-19 06:05+0000\n"
 "Last-Translator: Hela Basa <r45xveza@pm.me>\n"
 "Language-Team: Sinhala <https://translate.fedoraproject.org/projects/dnf/"
@@ -314,128 +314,128 @@ msgstr ""
 msgid "could not add erase element %1$s(%2$i)"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:258
+#: libdnf/dnf-sack.cpp:252
 msgid "repo_add_solv() has failed."
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:422
+#: libdnf/dnf-sack.cpp:416
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:436
+#: libdnf/dnf-sack.cpp:430
 #, c-format
 msgid "no %1$s string for %2$s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:446
+#: libdnf/dnf-sack.cpp:440
 #, c-format
 msgid "failed to open: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:525
+#: libdnf/dnf-sack.cpp:519
 #, c-format
 msgid "cannot create temporary file: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:535
+#: libdnf/dnf-sack.cpp:529
 #, c-format
 msgid "failed opening tmp file: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:557
+#: libdnf/dnf-sack.cpp:551
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:567
+#: libdnf/dnf-sack.cpp:561
 #, c-format
 msgid "Failed closing tmp file %s: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:577
+#: libdnf/dnf-sack.cpp:571
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:583
+#: libdnf/dnf-sack.cpp:577
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:633
+#: libdnf/dnf-sack.cpp:627
 #, c-format
 msgid "can not create temporary file %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:673
+#: libdnf/dnf-sack.cpp:667
 #, c-format
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:683
+#: libdnf/dnf-sack.cpp:677
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:699
+#: libdnf/dnf-sack.cpp:693
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:706
+#: libdnf/dnf-sack.cpp:700
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:747
+#: libdnf/dnf-sack.cpp:741
 msgid "null repo md file"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:756
+#: libdnf/dnf-sack.cpp:750
 #, c-format
 msgid "can not read file %1$s: %2$s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:771
+#: libdnf/dnf-sack.cpp:765
 #, c-format
 msgid "While loading repository failed to use %s: "
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:782
+#: libdnf/dnf-sack.cpp:776
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:791
+#: libdnf/dnf-sack.cpp:785
 #, c-format
 msgid "Opening repository primary data has failed: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:802
+#: libdnf/dnf-sack.cpp:796
 #, c-format
 msgid "Loading repomd has failed: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:813
+#: libdnf/dnf-sack.cpp:807
 #, c-format
 msgid "Loading primary has failed: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:879
+#: libdnf/dnf-sack.cpp:873
 msgid "failed to auto-detect architecture"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:1044
+#: libdnf/dnf-sack.cpp:1038
 #, c-format
 msgid "failed creating cachedir %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:1821
+#: libdnf/dnf-sack.cpp:1815
 msgid "failed loading RPMDB"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:2605
+#: libdnf/dnf-sack.cpp:2606
 #, c-format
 msgid "No module defaults found: %s"
 msgstr ""

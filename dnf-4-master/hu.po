@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-15 02:10+0000\n"
+"POT-Creation-Date: 2024-10-13 02:12+0000\n"
 "PO-Revision-Date: 2024-08-22 19:38+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
@@ -337,63 +337,63 @@ msgstr "a(z) %s csomag nem található"
 msgid "could not add erase element %1$s(%2$i)"
 msgstr "a törlendő elem nem adható hozzá: %1$s(%2$i)"
 
-#: libdnf/dnf-sack.cpp:258
+#: libdnf/dnf-sack.cpp:252
 msgid "repo_add_solv() has failed."
 msgstr "a repo_add_solv() sikertelen."
 
-#: libdnf/dnf-sack.cpp:422
+#: libdnf/dnf-sack.cpp:416
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
 msgstr "A bővítmény %s gyorsítótárának (%d) betöltése sikertelen: "
 
-#: libdnf/dnf-sack.cpp:436
+#: libdnf/dnf-sack.cpp:430
 #, c-format
 msgid "no %1$s string for %2$s"
 msgstr "nincs %1$s karakterlánc ehhez: %2$s"
 
-#: libdnf/dnf-sack.cpp:446
+#: libdnf/dnf-sack.cpp:440
 #, c-format
 msgid "failed to open: %s"
 msgstr "megnyitás sikertelen: %s"
 
-#: libdnf/dnf-sack.cpp:525
+#: libdnf/dnf-sack.cpp:519
 #, c-format
 msgid "cannot create temporary file: %s"
 msgstr "nem hozható létre ideiglenes fájl: %s"
 
-#: libdnf/dnf-sack.cpp:535
+#: libdnf/dnf-sack.cpp:529
 #, c-format
 msgid "failed opening tmp file: %s"
 msgstr "az átmeneti fájl megnyitása sikertelen: %s"
 
-#: libdnf/dnf-sack.cpp:557
+#: libdnf/dnf-sack.cpp:551
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
 "A(z) %s elsődleges gyorsítótár írása során a repowriter írása sikertelen: "
 "%i, hiba: %s"
 
-#: libdnf/dnf-sack.cpp:567
+#: libdnf/dnf-sack.cpp:561
 #, c-format
 msgid "Failed closing tmp file %s: %s"
 msgstr "A(z) %s átmeneti fájl bezárása sikertelen: %s"
 
-#: libdnf/dnf-sack.cpp:577
+#: libdnf/dnf-sack.cpp:571
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
 msgstr "A frissen írt elsődleges gyorsítótár használata sikertelen: %s: "
 
-#: libdnf/dnf-sack.cpp:583
+#: libdnf/dnf-sack.cpp:577
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
 msgstr "A frissen írt elsődleges gyorsítótár használata sikertelen: %s"
 
-#: libdnf/dnf-sack.cpp:633
+#: libdnf/dnf-sack.cpp:627
 #, c-format
 msgid "can not create temporary file %s"
 msgstr "nem hozható létre a(z) %s ideiglenes fájl"
 
-#: libdnf/dnf-sack.cpp:673
+#: libdnf/dnf-sack.cpp:667
 #, c-format
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
@@ -401,70 +401,70 @@ msgstr ""
 "A(z) %s (%d): elsődleges gyorsítótár írása során a repowriter írása "
 "sikertelen: %i, hiba: %s"
 
-#: libdnf/dnf-sack.cpp:683
+#: libdnf/dnf-sack.cpp:677
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
 msgstr ""
 "Kiterjesztés gyorsítótár (%d) írása közben: nem lehet bezárni az ideiglenes "
 "fájlt: %s"
 
-#: libdnf/dnf-sack.cpp:699
+#: libdnf/dnf-sack.cpp:693
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:706
+#: libdnf/dnf-sack.cpp:700
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:747
+#: libdnf/dnf-sack.cpp:741
 msgid "null repo md file"
 msgstr "null tároló MD-fájl"
 
-#: libdnf/dnf-sack.cpp:756
+#: libdnf/dnf-sack.cpp:750
 #, c-format
 msgid "can not read file %1$s: %2$s"
 msgstr "a(z) %1$s fájl nem írható: %2$s"
 
-#: libdnf/dnf-sack.cpp:771
+#: libdnf/dnf-sack.cpp:765
 #, c-format
 msgid "While loading repository failed to use %s: "
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:782
+#: libdnf/dnf-sack.cpp:776
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "az MD_TYPE_PRIMARY betöltése sikertelen."
 
-#: libdnf/dnf-sack.cpp:791
+#: libdnf/dnf-sack.cpp:785
 #, c-format
 msgid "Opening repository primary data has failed: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:802
+#: libdnf/dnf-sack.cpp:796
 #, c-format
 msgid "Loading repomd has failed: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:813
+#: libdnf/dnf-sack.cpp:807
 #, c-format
 msgid "Loading primary has failed: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:879
+#: libdnf/dnf-sack.cpp:873
 msgid "failed to auto-detect architecture"
 msgstr "az architektúra automatikus észlelése sikertelen"
 
-#: libdnf/dnf-sack.cpp:1044
+#: libdnf/dnf-sack.cpp:1038
 #, c-format
 msgid "failed creating cachedir %s"
 msgstr "a(z) %s gyorsítótármappa létrehozása sikertelen"
 
-#: libdnf/dnf-sack.cpp:1821
+#: libdnf/dnf-sack.cpp:1815
 msgid "failed loading RPMDB"
 msgstr "az RPMDB betöltése sikertelen"
 
-#: libdnf/dnf-sack.cpp:2605
+#: libdnf/dnf-sack.cpp:2606
 #, c-format
 msgid "No module defaults found: %s"
 msgstr ""
