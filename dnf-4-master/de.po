@@ -4,7 +4,7 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Paul Ritter <paul-ritter@gmx.net>, 2018. #zanata
 # Fabian Affolter <mail@fabian-affolter.ch>, 2020.
-# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022.
+# Ettore Atalan <atalanttore@googlemail.com>, 2021, 2022, 2024.
 # Philipp Trulson <philipp@trulson.de>, 2022.
 # Joachim Philipp <joachim.philipp@gmail.com>, 2022.
 # Marius Kamp <msk@posteo.org>, 2022.
@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-13 02:12+0000\n"
-"PO-Revision-Date: 2022-12-30 11:19+0000\n"
-"Last-Translator: Marius Kamp <msk@posteo.org>\n"
+"PO-Revision-Date: 2024-11-02 16:53+0000\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/de/>\n"
 "Language: de\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 5.8.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -261,6 +261,8 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
+"Keine modularen Metadaten für modulares Paket ‚%s‘ verfügbar; kann nicht auf "
+"dem System installiert werden"
 
 #: libdnf/dnf-rpmts.cpp:105 libdnf/dnf-rpmts.cpp:145
 #, c-format
@@ -563,10 +565,13 @@ msgstr "konnte nicht entfernt werden %s"
 #: libdnf/goal/Goal.cpp:78
 msgid "Ill-formed Selector, presence of multiple match objects in the filter"
 msgstr ""
+"Fehlerhafter Selektor, Vorhandensein von mehreren übereinstimmenden Objekten "
+"im Filter"
 
 #: libdnf/goal/Goal.cpp:79
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr ""
+"Fehlerhafter Selektor für die Operation verwendet, falscher Vergleichstyp"
 
 #: libdnf/goal/Goal.cpp:90
 #, fuzzy, c-format
@@ -981,7 +986,7 @@ msgstr ""
 #: libdnf/module/modulemd/ModuleMetadata.cpp:120
 #, c-format
 msgid "Failed to upgrade defaults: %s"
-msgstr ""
+msgstr "Aktualisierung der Standardeinstellungen fehlgeschlagen: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:123
 #, c-format
@@ -996,13 +1001,13 @@ msgstr ""
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
 msgid "Can't load shared library \"%s\": %s"
-msgstr ""
+msgstr "Gemeinsame Bibliothek „%s“ kann nicht geladen werden: %s"
 
 #: libdnf/plugin/plugin.cpp:61 libdnf/plugin/plugin.cpp:67
 #: libdnf/plugin/plugin.cpp:73 libdnf/plugin/plugin.cpp:79
 #, c-format
 msgid "Can't obtain address of symbol \"%s\": %s"
-msgstr ""
+msgstr "Die Adresse des Symbols „%s“ kann nicht ermittelt werden: %s"
 
 #: libdnf/plugin/plugin.cpp:86
 #, c-format
@@ -1016,17 +1021,17 @@ msgstr ""
 
 #: libdnf/plugin/plugin.cpp:96
 msgid "Plugins::loadPlugins() dirPath cannot be empty"
-msgstr ""
+msgstr "Plugins::loadPlugins() dirPath darf nicht leer sein"
 
 #: libdnf/plugin/plugin.cpp:105
 #, c-format
 msgid "Can't read plugin directory \"%s\": %s"
-msgstr ""
+msgstr "Das Plugin-Verzeichnis „%s“ kann nicht gelesen werden: %s"
 
 #: libdnf/plugin/plugin.cpp:114
 #, c-format
 msgid "Can't load plugin \"%s\": %s"
-msgstr ""
+msgstr "Das Plugin „%s“ kann nicht geladen werden: %s"
 
 #: libdnf/repo/Crypto.cpp:99 libdnf/repo/Repo.cpp:963 libdnf/repo/Repo.cpp:1037
 #: libdnf/repo/Repo.cpp:1080
