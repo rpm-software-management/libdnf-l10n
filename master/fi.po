@@ -1,6 +1,6 @@
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2020.
-# Ricky Tigg <ricky.tigg@gmail.com>, 2020, 2021, 2022.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2020, 2021, 2022, 2024.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021.
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2023.
 msgid ""
@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2023-07-19 21:20+0000\n"
-"Last-Translator: Ville-Pekka Vainio <vpvainio@iki.fi>\n"
+"PO-Revision-Date: 2024-12-20 04:55+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/fi/>\n"
 "Language: fi\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.9.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -325,8 +325,7 @@ msgstr "Arvon saaminen CacheDir:ille epäonnistui"
 #: libdnf/dnf-transaction.cpp:911
 #, c-format
 msgid "Failed to get filesystem free size for %s: "
-msgstr ""
-"Tiedostojärjestelmän vapaan koon hakeminen hakemistolle %s epäonnistui: "
+msgstr "Tiedostojärjestelmän vapaan koon hakeminen %s:lle epäonnistui: "
 
 #: libdnf/dnf-transaction.cpp:919
 #, c-format
@@ -337,8 +336,7 @@ msgstr "Tiedostojärjestelmän vapaan koon hakeminen hakemistolle %s epäonnistu
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
 msgstr ""
-"Hakemistossa %1$s ei ole riittävästi vapaata tilaa: tarvitaan %2$s, "
-"saatavilla %3$s"
+"%1$s:ssa ei ole riittävästi vapaata tilaa: tarvitaan %2$s, saatavilla %3$s"
 
 #: libdnf/dnf-transaction.cpp:1196
 msgid "failed to set root"
@@ -467,7 +465,7 @@ msgstr "paketti %s vanhentaa paketin %s, jonka tarjoaa %s"
 #: libdnf/goal/Goal.cpp:86
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
-msgstr "asennettu paketti %s vanhentaa paketin %s, jonka tarjoaa %s"
+msgstr "asennettu paketti %s vanhentaa %s:n, jonka tarjoaa %s"
 
 #: libdnf/goal/Goal.cpp:87
 #, c-format
@@ -570,7 +568,7 @@ msgstr "ratkaisijaa ei ole asetettu"
 #: libdnf/goal/Goal.cpp:1013
 #, c-format
 msgid "failed to make %s absolute"
-msgstr "polun %s muuntaminen absoluuttiseksi epäonnistui"
+msgstr "%s:n muuntaminen absoluuttiseksi epäonnistui"
 
 #: libdnf/goal/Goal.cpp:1020
 #, c-format
