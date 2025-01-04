@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-20 02:07+0000\n"
+"POT-Creation-Date: 2025-01-04 02:03+0000\n"
 "PO-Revision-Date: 2025-01-04 21:15+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/"
@@ -562,7 +562,8 @@ msgstr "Errore %i nell'apertura del database RPM"
 
 #: libdnf/dnf-transaction.cpp:1478 libdnf/dnf-transaction.cpp:1524
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr "La funzione rpmdbCookie() non ha restituito il cookie del database RPM."
+msgstr ""
+"La funzione rpmdbCookie() non ha restituito il cookie del database RPM."
 
 #: libdnf/dnf-transaction.cpp:1493
 #, c-format
@@ -783,7 +784,8 @@ msgstr "il modulo installato %s obsoleto %s fornito da %s da %s"
 #: libdnf/goal/Goal.cpp:137
 #, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "il modulo %s di %s rende implicitamente obsoleto %s fornito da %s di %s"
+msgstr ""
+"il modulo %s di %s rende implicitamente obsoleto %s fornito da %s di %s"
 
 #: libdnf/goal/Goal.cpp:138
 #, c-format
