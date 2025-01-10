@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-04 02:03+0000\n"
+"POT-Creation-Date: 2025-01-10 02:09+0000\n"
 "PO-Revision-Date: 2025-01-10 17:01+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
@@ -665,8 +665,8 @@ msgstr "molempia %s %s:sta ja %s %s:sta ei voi asentaa"
 #, c-format
 msgid "package %s from %s conflicts with %s provided by %s from %s"
 msgstr ""
-"paketti %s %s:sta peräisin on ristiriidassa %s:n kanssa, jonka tarjoaa %s "
-"%s:sta"
+"paketti %s %s:sta peräisin on ristiriidassa %s:n kanssa, jonka tarjoaa %s %s:"
+"sta"
 
 #: libdnf/goal/Goal.cpp:108
 #, c-format
@@ -754,7 +754,8 @@ msgstr "ei voi asentaa molempia moduuleja %s %s:sta ja %s %s:sta"
 #: libdnf/goal/Goal.cpp:134
 #, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
-msgstr "moduuli %s %s:sta on ristiriidassa %s:n kanssa, jonka tarjoaa %s %s:sta"
+msgstr ""
+"moduuli %s %s:sta on ristiriidassa %s:n kanssa, jonka tarjoaa %s %s:sta"
 
 #: libdnf/goal/Goal.cpp:135
 #, c-format
