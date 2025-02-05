@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-10 02:09+0000\n"
+"POT-Creation-Date: 2025-02-05 02:04+0000\n"
 "PO-Revision-Date: 2024-11-02 16:53+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/dnf/"
@@ -56,7 +56,7 @@ msgstr "Wert 1 ist nicht erlaubt"
 msgid "negative value is not allowed"
 msgstr "negativer Wert ist nicht erlaubt"
 
-#: libdnf/conf/ConfigMain.cpp:345
+#: libdnf/conf/ConfigMain.cpp:346
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "Prozentsatz '%s' liegt außerhalb des zulässigen Bereichs"
@@ -552,12 +552,12 @@ msgstr ""
 "Transaktion ging nicht in die Schreibphase, gab jedoch keinen Fehler zurück "
 "(%i)"
 
-#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:488
+#: libdnf/dnf-utils.cpp:155 libdnf/hy-iutil.cpp:488
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
 msgstr "Verzeichnis kann nicht geöffnet werden %1$s: %2$s"
 
-#: libdnf/dnf-utils.cpp:136
+#: libdnf/dnf-utils.cpp:180
 #, c-format
 msgid "failed to remove %s"
 msgstr "konnte nicht entfernt werden %s"

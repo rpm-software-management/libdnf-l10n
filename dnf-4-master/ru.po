@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-10 02:09+0000\n"
+"POT-Creation-Date: 2025-02-05 02:04+0000\n"
 "PO-Revision-Date: 2023-01-19 14:20+0000\n"
 "Last-Translator: Vi <xasertop@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
@@ -54,7 +54,7 @@ msgstr "значение 1 недопустимо"
 msgid "negative value is not allowed"
 msgstr "отрицательное значение недопустимо"
 
-#: libdnf/conf/ConfigMain.cpp:345
+#: libdnf/conf/ConfigMain.cpp:346
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "процентная величина «%s» вне диапазона"
@@ -562,12 +562,12 @@ msgstr "ошибка %i выполняемая транзакция"
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
 msgstr "Транзакция не перешла на этап написания, но не вернула ошибку (%i)"
 
-#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:488
+#: libdnf/dnf-utils.cpp:155 libdnf/hy-iutil.cpp:488
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
 msgstr "не удается открыть каталог %1$s: %2$s"
 
-#: libdnf/dnf-utils.cpp:136
+#: libdnf/dnf-utils.cpp:180
 #, c-format
 msgid "failed to remove %s"
 msgstr "не удалось удалить %s"

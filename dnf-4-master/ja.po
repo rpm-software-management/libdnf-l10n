@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-10 02:09+0000\n"
+"POT-Creation-Date: 2025-02-05 02:04+0000\n"
 "PO-Revision-Date: 2024-08-29 02:38+0000\n"
 "Last-Translator: middlingphys <middlingphys@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -53,7 +53,7 @@ msgstr "値 1 は許可されません"
 msgid "negative value is not allowed"
 msgstr "負の値は許可されていません"
 
-#: libdnf/conf/ConfigMain.cpp:345
+#: libdnf/conf/ConfigMain.cpp:346
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "パーセンテージ '%s' が範囲外にあります"
@@ -565,12 +565,12 @@ msgstr ""
 "トランザクションは書き込みフェーズまで行きませんでしたが、エラー(%i) は返しま"
 "せんでした"
 
-#: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:488
+#: libdnf/dnf-utils.cpp:155 libdnf/hy-iutil.cpp:488
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
 msgstr "ディレクトリー %1$s を開くことができません: %2$s"
 
-#: libdnf/dnf-utils.cpp:136
+#: libdnf/dnf-utils.cpp:180
 #, c-format
 msgid "failed to remove %s"
 msgstr "%s の削除に失敗しました"
