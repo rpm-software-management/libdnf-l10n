@@ -5,13 +5,14 @@
 # Jan Kalabza <jan.kalabza@gmail.com>, 2023.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2023.
 # Petr Ptacek <petr106@atlas.cz>, 2023.
+# Jonáš Loskot <fedoraproject.org@alius.cz>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-10 02:09+0000\n"
-"PO-Revision-Date: 2023-12-23 11:37+0000\n"
-"Last-Translator: Petr Ptacek <petr106@atlas.cz>\n"
+"PO-Revision-Date: 2025-02-05 21:47+0000\n"
+"Last-Translator: Jonáš Loskot <fedoraproject.org@alius.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/cs/>\n"
 "Language: cs\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -295,10 +296,9 @@ msgid "signature not found for %s"
 msgstr "nebyl nalezen podpis pro %s"
 
 #: libdnf/dnf-rpmts.cpp:186
-#, fuzzy, c-format
-#| msgid "failed to add install element: %1$s [%2$i]"
+#, c-format
 msgid "failed to add reinstall element: %1$s [%2$i]"
-msgstr "nepodařilo se přidat instalační prvek: %1$s [%2$i]"
+msgstr "nepodařilo se přidat přeinstalační prvek: %1$s [%2$i]"
 
 #: libdnf/dnf-rpmts.cpp:231
 #, c-format
