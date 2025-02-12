@@ -3,13 +3,14 @@
 # Giovanni Grieco <giovanni.grc96@gmail.com>, 2018. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Alessio <alciregi@posteo.net>, 2023.
+# Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2023-03-31 06:20+0000\n"
-"Last-Translator: Alessio <alciregi@posteo.net>\n"
+"PO-Revision-Date: 2025-02-13 19:38+0000\n"
+"Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/it/>\n"
 "Language: it\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.9.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -264,7 +265,7 @@ msgstr "errore durante il caricamento di RPMDB"
 
 #: libdnf/dnf-sack.cpp:2466
 msgid "No module defaults found"
-msgstr ""
+msgstr "Nessun valore predefinito del modulo trovato"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
@@ -379,11 +380,11 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:67 libdnf/goal/Goal.cpp:94
 msgid " does not belong to a distupgrade repository"
-msgstr ""
+msgstr " non appartiene a un repository di disupgrade"
 
 #: libdnf/goal/Goal.cpp:68 libdnf/goal/Goal.cpp:95
 msgid " has inferior architecture"
-msgstr ""
+msgstr " ha un'architettura inferiore"
 
 #: libdnf/goal/Goal.cpp:69
 msgid "problem with installed package "
@@ -425,67 +426,68 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:78
 #, c-format
 msgid "package %s is filtered out by modular filtering"
-msgstr ""
+msgstr "il pacchetto %s è stato filtrato tramite filtraggio modulare"
 
 #: libdnf/goal/Goal.cpp:79
 #, c-format
 msgid "package %s does not have a compatible architecture"
-msgstr ""
+msgstr "il pacchetto %s non ha un'architettura compatibile"
 
 #: libdnf/goal/Goal.cpp:80
 #, c-format
 msgid "package %s is not installable"
-msgstr ""
+msgstr "il pacchetto %s non è installabile"
 
 #: libdnf/goal/Goal.cpp:81
 #, c-format
 msgid "package %s is filtered out by exclude filtering"
-msgstr ""
+msgstr "il pacchetto %s è stato filtrato dal filtro di esclusione"
 
 #: libdnf/goal/Goal.cpp:82
 #, c-format
 msgid "nothing provides %s needed by %s"
-msgstr ""
+msgstr "nulla fornisce %s necessario a %s"
 
 #: libdnf/goal/Goal.cpp:83
 #, c-format
 msgid "cannot install both %s and %s"
-msgstr ""
+msgstr "impossibile installare sia %s che %s"
 
 #: libdnf/goal/Goal.cpp:84
 #, c-format
 msgid "package %s conflicts with %s provided by %s"
-msgstr ""
+msgstr "il pacchetto %s è in conflitto con %s fornito da %s"
 
 #: libdnf/goal/Goal.cpp:85
 #, c-format
 msgid "package %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "il pacchetto %s è obsoleto %s fornito da %s"
 
 #: libdnf/goal/Goal.cpp:86
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "il pacchetto installato %s rende obsoleto %s fornito da %s"
 
 #: libdnf/goal/Goal.cpp:87
 #, c-format
 msgid "package %s implicitly obsoletes %s provided by %s"
-msgstr ""
+msgstr "il pacchetto %s rende implicitamente obsoleto %s fornito da %s"
 
 #: libdnf/goal/Goal.cpp:88
 #, c-format
 msgid "package %s requires %s, but none of the providers can be installed"
 msgstr ""
+"il pacchetto %s richiede %s, ma nessuno dei provider può essere installato"
 
 #: libdnf/goal/Goal.cpp:89
 #, c-format
 msgid "package %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "il pacchetto %s è in conflitto con %s fornito dallo stesso"
 
 #: libdnf/goal/Goal.cpp:90
 #, c-format
 msgid "both package %s and %s obsolete %s"
-msgstr ""
+msgstr "entrambi i pacchetti %s e %s sono obsoleti %s"
 
 #: libdnf/goal/Goal.cpp:96
 msgid "problem with installed module "
@@ -503,62 +505,62 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:105 libdnf/goal/Goal.cpp:108
 #, c-format
 msgid "module %s is disabled"
-msgstr ""
+msgstr "il modulo %s è disabilitato"
 
 #: libdnf/goal/Goal.cpp:106
 #, c-format
 msgid "module %s does not have a compatible architecture"
-msgstr ""
+msgstr "il modulo %s non ha un'architettura compatibile"
 
 #: libdnf/goal/Goal.cpp:107
 #, c-format
 msgid "module %s is not installable"
-msgstr ""
+msgstr "il modulo %s non è installabile"
 
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "nothing provides %s needed by module %s"
-msgstr ""
+msgstr "nulla fornisce %s necessario al modulo %s"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
 msgid "cannot install both modules %s and %s"
-msgstr ""
+msgstr "impossibile installare entrambi i moduli %s e %s"
 
 #: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid "module %s conflicts with %s provided by %s"
-msgstr ""
+msgstr "il modulo %s è in conflitto con %s fornito da %s"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
 msgid "module %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "il modulo %s rende obsoleto %s fornito da %s"
 
 #: libdnf/goal/Goal.cpp:113
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "il modulo installato %s rende obsoleto %s fornito da %s"
 
 #: libdnf/goal/Goal.cpp:114
 #, c-format
 msgid "module %s implicitly obsoletes %s provided by %s"
-msgstr ""
+msgstr "il modulo %s rende implicitamente obsoleto %s fornito da %s"
 
 #: libdnf/goal/Goal.cpp:115
 #, c-format
 msgid "module %s requires %s, but none of the providers can be installed"
-msgstr ""
+msgstr "il modulo %s richiede %s, ma nessuno dei provider può essere installato"
 
 #: libdnf/goal/Goal.cpp:116
 #, c-format
 msgid "module %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "il modulo %s è in conflitto con %s fornito da solo"
 
 #: libdnf/goal/Goal.cpp:117
 #, c-format
 msgid "both module %s and %s obsolete %s"
-msgstr ""
+msgstr "entrambi i moduli %s e %s sono obsoleti %s"
 
 #: libdnf/goal/Goal.cpp:1008
 msgid "no solver set"
@@ -732,7 +734,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:337
 #, c-format
 msgid "Bad id for repo: %s, byte = %s %d"
-msgstr ""
+msgstr "ID non valido per il repository: %s, byte = %s %d"
 
 #: libdnf/repo/Repo.cpp:362
 #, c-format
