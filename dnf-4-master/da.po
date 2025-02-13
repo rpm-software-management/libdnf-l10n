@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-05 02:04+0000\n"
+"POT-Creation-Date: 2025-02-13 02:06+0000\n"
 "PO-Revision-Date: 2024-10-13 17:38+0000\n"
 "Last-Translator: DK Guy <peter@nozen.dk>\n"
 "Language-Team: Danish <https://translate.fedoraproject.org/projects/dnf/"
@@ -104,12 +104,12 @@ msgstr "kunne ikke konvertere '%s' til sekunder"
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): Værdien ikke sat"
 
-#: libdnf/dnf-context.cpp:3226 libdnf/dnf-context.cpp:3235
+#: libdnf/dnf-context.cpp:3321 libdnf/dnf-context.cpp:3330
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr "Kan ikke tillade flere strømme fra modulet \"%s\" på samme tid"
 
-#: libdnf/dnf-context.cpp:3244 libdnf/dnf-context.cpp:3262
+#: libdnf/dnf-context.cpp:3339 libdnf/dnf-context.cpp:3357
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
@@ -117,30 +117,30 @@ msgstr ""
 "Kan ikke tillade modulet '%1$s' strøm '%2$s': Tilstanden af modulet er "
 "allerede ændret"
 
-#: libdnf/dnf-context.cpp:3311
+#: libdnf/dnf-context.cpp:3406
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "Modul afhænginghedsproblem med standardværdier: %s"
 
-#: libdnf/dnf-context.cpp:3314
+#: libdnf/dnf-context.cpp:3409
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
 msgstr "Afhængighedsproblemer med de seneste moduler: %s"
 
-#: libdnf/dnf-context.cpp:3318
+#: libdnf/dnf-context.cpp:3413
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "Afhængighedsproblemer med moduler: %s"
 
-#: libdnf/dnf-context.cpp:3341 libdnf/dnf-context.cpp:3365
-#: libdnf/dnf-context.cpp:3376 libdnf/dnf-context.cpp:3415
-#: libdnf/dnf-context.cpp:3431 libdnf/dnf-context.cpp:3463
-#: libdnf/dnf-context.cpp:3512 libdnf/dnf-context.cpp:3522
+#: libdnf/dnf-context.cpp:3436 libdnf/dnf-context.cpp:3460
+#: libdnf/dnf-context.cpp:3471 libdnf/dnf-context.cpp:3510
+#: libdnf/dnf-context.cpp:3526 libdnf/dnf-context.cpp:3558
+#: libdnf/dnf-context.cpp:3607 libdnf/dnf-context.cpp:3617
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "Kan ikke løse argumentet '%s'"
 
-#: libdnf/dnf-context.cpp:3348
+#: libdnf/dnf-context.cpp:3443
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
@@ -148,75 +148,75 @@ msgstr ""
 "Der kræves kun modulnavn. Ignorerer unødvendige informationer i argument: "
 "'%s'"
 
-#: libdnf/dnf-context.cpp:3362
+#: libdnf/dnf-context.cpp:3457
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3373
+#: libdnf/dnf-context.cpp:3468
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3404 libdnf/dnf-context.cpp:3500
-#: libdnf/dnf-context.cpp:3681
+#: libdnf/dnf-context.cpp:3499 libdnf/dnf-context.cpp:3595
+#: libdnf/dnf-context.cpp:3776
 msgid "No modular data available"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3421
+#: libdnf/dnf-context.cpp:3516
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3459
+#: libdnf/dnf-context.cpp:3554
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3471
+#: libdnf/dnf-context.cpp:3566
 msgid "Problems appeared for module enable request:"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3566
+#: libdnf/dnf-context.cpp:3661
 #, c-format
 msgid "No active module packages found for module spec '%s'"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3571
+#: libdnf/dnf-context.cpp:3666
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3578
+#: libdnf/dnf-context.cpp:3673
 #, c-format
 msgid "No profile found matching '%s'"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3632
+#: libdnf/dnf-context.cpp:3727
 #, c-format
 msgid "No match for package '%s' for module spec %s"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3643
+#: libdnf/dnf-context.cpp:3738
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3652
+#: libdnf/dnf-context.cpp:3747
 msgid "Problems appeared for module install request:"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3711
+#: libdnf/dnf-context.cpp:3806
 msgid "Problems appeared for module reset request:"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3712 libdnf/dnf-context.cpp:3771
+#: libdnf/dnf-context.cpp:3807 libdnf/dnf-context.cpp:3866
 msgid "Problems appeared for module disable request:"
 msgstr ""
 
-#: libdnf/dnf-context.cpp:3803
+#: libdnf/dnf-context.cpp:3898
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -225,7 +225,7 @@ msgstr ""
 "Handlingen ville resultere i skift af modulet '%s' strømmen '%s' til "
 "strømmen '%s'"
 
-#: libdnf/dnf-context.cpp:3807
+#: libdnf/dnf-context.cpp:3902
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
