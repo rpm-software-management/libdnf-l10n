@@ -9,13 +9,13 @@
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
 # Daimar Stein <daimarstein@pm.me>, 2022, 2023.
 # Ian Meyer <ianscuba1465@gmail.com>, 2023, 2024.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2024.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-13 02:06+0000\n"
-"PO-Revision-Date: 2024-02-08 18:26+0000\n"
+"PO-Revision-Date: 2025-03-02 01:38+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/pt_BR/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.10.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -304,10 +304,9 @@ msgid "signature not found for %s"
 msgstr "assinatura não encontrada para %s"
 
 #: libdnf/dnf-rpmts.cpp:186
-#, fuzzy, c-format
-#| msgid "failed to add install element: %1$s [%2$i]"
+#, c-format
 msgid "failed to add reinstall element: %1$s [%2$i]"
-msgstr "Falha ao adicionar o elemento de instalação: %1$s [%2$i]"
+msgstr "Falha ao adicionar o elemento de reinstalação: %1$s [%2$i]"
 
 #: libdnf/dnf-rpmts.cpp:231
 #, c-format
@@ -342,7 +341,7 @@ msgid "repo_add_solv() has failed."
 msgstr "repo_add_solv() falhou."
 
 #: libdnf/dnf-sack.cpp:416
-#, fuzzy, c-format
+#, c-format
 msgid "Loading extension cache %s (%d) failed: "
 msgstr "Falha ao carregar cache de extensão %s (%d): "
 
@@ -370,6 +369,8 @@ msgstr "Falha ao abrir o arquivo tmp: %s"
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
+"Ao escrever o cache primário %s, a gravação de repowriter falhou: %i, erro: "
+"%s"
 
 #: libdnf/dnf-sack.cpp:561
 #, c-format
@@ -379,12 +380,12 @@ msgstr "Falha ao fechar o arquivo tmp %s: %s"
 #: libdnf/dnf-sack.cpp:571
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
-msgstr ""
+msgstr "Falha ao usar o cache primário recém-escrito: %s: "
 
 #: libdnf/dnf-sack.cpp:577
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "Falha ao usar o cache primário recém-escrito: %s"
 
 #: libdnf/dnf-sack.cpp:627
 #, c-format
@@ -396,21 +397,25 @@ msgstr "não pode criar um arquivo temporário %s"
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
+"Ao escrever o cache de extensão %s (%d): falha na escrita de repowriter: %i, "
+"erro: %s"
 
 #: libdnf/dnf-sack.cpp:677
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
 msgstr ""
+"Ao escrever o cache de extensão (%d): não foi possível fechar o arquivo "
+"temporário: %s"
 
 #: libdnf/dnf-sack.cpp:693
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
-msgstr ""
+msgstr "Falha ao usar o cache de extensão recém-escrito: %s (%d): "
 
 #: libdnf/dnf-sack.cpp:700
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
-msgstr ""
+msgstr "Falha ao usar o cache de extensão recém-escrito: %s (%d)"
 
 #: libdnf/dnf-sack.cpp:741
 msgid "null repo md file"
@@ -424,29 +429,26 @@ msgstr "não consigo ler o arquivo %1$s: %2$s"
 #: libdnf/dnf-sack.cpp:765
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "Ao carregar o repositório, falhou ao usar %s: "
 
 #: libdnf/dnf-sack.cpp:776
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "o carregamento de MD_TYPE_PRIMARY falhou."
 
 #: libdnf/dnf-sack.cpp:785
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Opening repository primary data has failed: %s"
-msgstr "Carregando arquivo plugin=\"%s\""
+msgstr "Falha na abertura dos dados primários do repositório: %s"
 
 #: libdnf/dnf-sack.cpp:796
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading repomd has failed: %s"
-msgstr "Carregando arquivo plugin=\"%s\""
+msgstr "O carregamento do repomd falhou: %s"
 
 #: libdnf/dnf-sack.cpp:807
-#, fuzzy, c-format
-#| msgid "Loading plugin file=\"%s\""
+#, c-format
 msgid "Loading primary has failed: %s"
-msgstr "Carregando arquivo plugin=\"%s\""
+msgstr "O carregamento primário falhou: %s"
 
 #: libdnf/dnf-sack.cpp:873
 msgid "failed to auto-detect architecture"
@@ -549,7 +551,7 @@ msgstr "Erro %i executando o teste de transação"
 #: libdnf/dnf-transaction.cpp:1470
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "Erro %i ao abrir banco de dados rpm"
 
 #: libdnf/dnf-transaction.cpp:1478 libdnf/dnf-transaction.cpp:1524
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
@@ -586,16 +588,14 @@ msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr "Seletor malformado usado para a operação, tipo de comparação incorreto"
 
 #: libdnf/goal/Goal.cpp:90
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s  does not belong to a distupgrade repository"
-msgstr " não pertence a um repositório distupgrade"
+msgstr "%s de %s não pertence a um repositório de distupgrade"
 
 #: libdnf/goal/Goal.cpp:91
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s  has inferior architecture"
-msgstr " tem arquitetura inferior"
+msgstr "%s de %s tem arquitetura inferior"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -636,95 +636,81 @@ msgid "cannot install the best candidate for the job"
 msgstr "não é possível instalar o melhor candidato para a tarefa"
 
 #: libdnf/goal/Goal.cpp:101
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by modular filtering"
+#, c-format
 msgid "package %s from %s is filtered out by modular filtering"
-msgstr "o pacote %s é filtrado por filtragem modular"
+msgstr "o pacote %s de %s é filtrado por filtragem modular"
 
 #: libdnf/goal/Goal.cpp:102
-#, fuzzy, c-format
-#| msgid "package %s does not have a compatible architecture"
+#, c-format
 msgid "package %s from %s does not have a compatible architecture"
-msgstr "o pacote %s não possui uma arquitetura compatível"
+msgstr "o pacote %s de %s não tem uma arquitetura compatível"
 
 #: libdnf/goal/Goal.cpp:103
-#, fuzzy, c-format
-#| msgid "package %s is not installable"
+#, c-format
 msgid "package %s from %s is not installable"
-msgstr "pacote %s não é instalável"
+msgstr "pacote %s de %s não é instalável"
 
 #: libdnf/goal/Goal.cpp:104
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by exclude filtering"
+#, c-format
 msgid "package %s from %s is filtered out by exclude filtering"
-msgstr "o pacote %s é filtrado pela filtragem de exclusão"
+msgstr "o pacote %s de %s é filtrado pela filtragem de exclusão"
 
 #: libdnf/goal/Goal.cpp:105
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by %s"
+#, c-format
 msgid "nothing provides %s needed by %s from %s"
-msgstr "nada fornece %s necessário para %s"
+msgstr "nada fornece %s necessário para %s de %s"
 
 #: libdnf/goal/Goal.cpp:106
-#, fuzzy, c-format
-#| msgid "cannot install both %s and %s"
+#, c-format
 msgid "cannot install both %s from %s and %s from %s"
-msgstr "não é possível instalar %s e %s"
+msgstr "não é possível instalar %s de %s e %s de %s"
 
 #: libdnf/goal/Goal.cpp:107
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by %s"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by %s from %s"
-msgstr "pacote %s conflita com %s oferecido por %s"
+msgstr "pacote %s de %s conflita com %s oferecido por %s de %s"
 
 #: libdnf/goal/Goal.cpp:108
-#, fuzzy, c-format
-#| msgid "package %s obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s obsoletes %s provided by %s from %s"
-msgstr "pacote %s torna obsoleto %s oferecido por %s"
+msgstr "pacote %s de %s torna obsoleto %s oferecido por %s de %s"
 
 #: libdnf/goal/Goal.cpp:109
-#, fuzzy, c-format
-#| msgid "installed package %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed package %s obsoletes %s provided by %s from %s"
-msgstr "pacote instalado %s torna obsoleto %s oferecido por %s"
+msgstr "pacote instalado %s torna obsoleto %s oferecido por %s de %s"
 
 #: libdnf/goal/Goal.cpp:110
-#, fuzzy, c-format
-#| msgid "package %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "o pacote %s torna obsoleto implicitamente %s fornecido por %s"
+msgstr ""
+"o pacote %s de %s torna obsoleto implicitamente %s fornecido por %s de %s"
 
 #: libdnf/goal/Goal.cpp:111
-#, fuzzy, c-format
-#| msgid "package %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
-msgstr "pacote %s requer %s, mas nenhum dos provedores pode ser instalado"
+msgstr "pacote %s de %s requer %s, mas nenhum dos provedores pode ser instalado"
 
 #: libdnf/goal/Goal.cpp:112
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by itself"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by itself"
-msgstr "pacote %s conflita com %s oferecido por si mesmo"
+msgstr "pacote %s de %s conflita com %s oferecido por si mesmo"
 
 #: libdnf/goal/Goal.cpp:113
-#, fuzzy, c-format
-#| msgid "both package %s and %s obsolete %s"
+#, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
-msgstr "ambos os pacotes %s e %s tornam obsoleto %s"
+msgstr "ambos os pacotes %s de %s e %s de %s tornam obsoleto %s"
 
 #: libdnf/goal/Goal.cpp:117
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s does not belong to a distupgrade repository"
-msgstr " não pertence a um repositório distupgrade"
+msgstr "%s de %s não pertence a um repositório de distupgrade"
 
 #: libdnf/goal/Goal.cpp:118
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s has inferior architecture"
-msgstr " tem arquitetura inferior"
+msgstr "%s de %s tem arquitetura inferior"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -741,76 +727,66 @@ msgstr ""
 "não é possível instalar o melhor candidato de atualização para o módulo "
 
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
-#, fuzzy, c-format
-#| msgid "module %s is disabled"
+#, c-format
 msgid "module %s from %s is disabled"
-msgstr "módulo %s está desabilitado"
+msgstr "módulo %s de %s está desabilitado"
 
 #: libdnf/goal/Goal.cpp:129
-#, fuzzy, c-format
-#| msgid "module %s does not have a compatible architecture"
+#, c-format
 msgid "module %s from %s does not have a compatible architecture"
-msgstr "módulo %s não possui uma arquitetura compatível"
+msgstr "módulo %s de %s não tem uma arquitetura compatível"
 
 #: libdnf/goal/Goal.cpp:130
-#, fuzzy, c-format
-#| msgid "module %s is not installable"
+#, c-format
 msgid "module %s from %s is not installable"
-msgstr "módulo %s não é instalável"
+msgstr "módulo %s de %s não é instalável"
 
 #: libdnf/goal/Goal.cpp:132
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by module %s"
+#, c-format
 msgid "nothing provides %s needed by module %s from %s"
-msgstr "nada fornece %s necessário para o módulo %s"
+msgstr "nada fornece %s necessário para o módulo %s de %s"
 
 #: libdnf/goal/Goal.cpp:133
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "cannot install both modules %s from %s and %s from %s"
-msgstr "não é possível instalar ambos os módulos %s e %s"
+msgstr "não é possível instalar ambos os módulos %s de %s e %s de %s"
 
 #: libdnf/goal/Goal.cpp:134
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by %s"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
-msgstr "módulo %s conflita com %s oferecido por %s"
+msgstr "módulo %s de %s conflita com %s oferecido por %s de %s"
 
 #: libdnf/goal/Goal.cpp:135
-#, fuzzy, c-format
-#| msgid "module %s obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s obsoletes %s provided by %s from %s"
-msgstr "módulo %s torna obsoleto %s oferecido por %s"
+msgstr "módulo %s de %s torna obsoleto %s oferecido por %s de %s"
 
 #: libdnf/goal/Goal.cpp:136
-#, fuzzy, c-format
-#| msgid "installed module %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed module %s obsoletes %s provided by %s from %s"
-msgstr "módulo instalado %s torna obsoleto %s oferecido por %s"
+msgstr "módulo instalado %s torna obsoleto %s oferecido por %s de %s"
 
 #: libdnf/goal/Goal.cpp:137
-#, fuzzy, c-format
+#, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "o módulo %s torna obsoleto implicitamente %s fornecido por %s"
+msgstr ""
+"o módulo %s de %s torna obsoleto implicitamente %s fornecido por %s de %s"
 
 #: libdnf/goal/Goal.cpp:138
-#, fuzzy, c-format
-#| msgid "module %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
-msgstr "módulo %s requer %s, mas nenhum dos provedores pode ser instalado"
+msgstr "módulo %s de %s requer %s, mas nenhum dos provedores pode ser instalado"
 
 #: libdnf/goal/Goal.cpp:139
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by itself"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by itself"
-msgstr "módulo %s conflita com %s oferecido por si mesmo"
+msgstr "módulo %s de %s conflita com %s oferecido por si mesmo"
 
 #: libdnf/goal/Goal.cpp:140
-#, fuzzy, c-format
-#| msgid "both module %s and %s obsolete %s"
+#, c-format
 msgid "both module %s from %s and %s from %s obsolete %s"
-msgstr "ambos os módulos %s e %s tornam obsoleto %s"
+msgstr "ambos os módulos %s de %s e %s de %s tornam obsoleto %s"
 
 #: libdnf/goal/Goal.cpp:1217
 msgid "no solver set"
@@ -856,6 +832,7 @@ msgstr "A operação resultaria na remoção dos seguintes pacotes protegidos: "
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
 msgstr ""
+"O solv_toolversion do Libsolv é: %zu longo, mas esperamos um máximo de: %zu"
 
 #: libdnf/hy-iutil.cpp:411
 #, c-format
@@ -924,19 +901,19 @@ msgstr "Desativando perfis de módulo:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:953
 msgid "Enabling module streams:\n"
-msgstr ""
+msgstr "Ativando fluxos de módulo:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:967
 msgid "Switching module streams:\n"
-msgstr ""
+msgstr "Trocando fluxos de módulo:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:985
 msgid "Disabling modules:\n"
-msgstr ""
+msgstr "Desabilitando módulos:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:996
 msgid "Resetting modules:\n"
-msgstr ""
+msgstr "Redefinindo módulos:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:1710
 #, c-format
@@ -971,6 +948,8 @@ msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
 msgstr ""
+"Não é possível aplicar obsoletos modulares a '%s:%s' porque o módulo de "
+"destino '%s' está desabilitado"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -985,7 +964,7 @@ msgstr "Falha em resolver: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:115
 #, c-format
 msgid "There were errors while resolving modular defaults: %s"
-msgstr ""
+msgstr "Ocorreram erros ao resolver os padrões modulares: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:120
 #, c-format
@@ -1001,6 +980,8 @@ msgstr "Falha ao atualizar fluxos: %s"
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""
+"Não é possível recuperar módulos obsoletos porque nenhum fluxo corresponde a "
+"%s: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
@@ -1049,6 +1030,9 @@ msgid ""
 "deprecated and the support will be dropped in future versions. Use '=' "
 "operator instead."
 msgstr ""
+"Usar o operador '==' em reldeps pode resultar em um comportamento "
+"indefinido. Ele está desacontinuado e o suporte será descartado em versões "
+"futuras. Use o operador '=' em vez disso."
 
 #: libdnf/repo/Repo.cpp:310
 #, c-format
@@ -1064,7 +1048,7 @@ msgstr "O repositório '%s' tem um tipo não suportado: 'type=%s', pulando."
 #: libdnf/repo/Repo.cpp:1201
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
-msgstr ""
+msgstr "repo '%s': 'basecachedir' não está definido"
 
 #: libdnf/repo/Repo.cpp:509
 msgid ""
@@ -1077,11 +1061,11 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:539
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "repo '%s': 'proxy_username' está definido, mas não 'proxy_password'"
 
 #: libdnf/repo/Repo.cpp:541
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "'proxy_username' está definido, mas não 'proxy_password'"
 
 #: libdnf/repo/Repo.cpp:622
 #, c-format
@@ -1226,7 +1210,7 @@ msgstr "Tentativa de atualizar o item de transação na transação concluída"
 
 #: libdnf/transaction/Transformer.cpp:76
 msgid "Database Corrupted: no row 'version' in table 'config'"
-msgstr ""
+msgstr "Banco de dados corrompido: nenhuma linha 'version' na tabela 'config'"
 
 #: libdnf/transaction/Transformer.cpp:681
 msgid "Transformer: can't open history persist dir"
