@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 02:06+0000\n"
+"POT-Creation-Date: 2025-03-01 02:14+0000\n"
 "PO-Revision-Date: 2024-08-15 14:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
@@ -912,32 +912,32 @@ msgstr "Modüller devre dışı bırakılıyor:\n"
 msgid "Resetting modules:\n"
 msgstr "Modüller sıfırlanıyor:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1710
+#: libdnf/module/ModulePackageContainer.cpp:1715
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "'%s' dosyasında modüler Fail-Safe verileri yüklenemedi"
 
-#: libdnf/module/ModulePackageContainer.cpp:1716
+#: libdnf/module/ModulePackageContainer.cpp:1721
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "'%s:%s' modülü için modüler Fail-Safe verileri yüklenemedi"
 
-#: libdnf/module/ModulePackageContainer.cpp:1797
+#: libdnf/module/ModulePackageContainer.cpp:1802
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr "Modüler Fail Safe verileri için \"%s\" dizini oluşturulamadı: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1813
+#: libdnf/module/ModulePackageContainer.cpp:1818
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "'%s' dosyasına bir modüler Fail Safe verisi kaydedilemedi"
 
-#: libdnf/module/ModulePackageContainer.cpp:1836
+#: libdnf/module/ModulePackageContainer.cpp:1841
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "'%s' dosyasından bir modüler Fail Safe verisi kaldırılamadı"
 
-#: libdnf/module/ModulePackageContainer.cpp:1868
+#: libdnf/module/ModulePackageContainer.cpp:1873
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "

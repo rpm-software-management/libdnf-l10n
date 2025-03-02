@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 02:06+0000\n"
+"POT-Creation-Date: 2025-03-01 02:14+0000\n"
 "PO-Revision-Date: 2023-12-07 08:44+0000\n"
 "Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -883,32 +883,32 @@ msgstr "禁用模块：\n"
 msgid "Resetting modules:\n"
 msgstr "重置模块：\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1710
+#: libdnf/module/ModulePackageContainer.cpp:1715
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "无法加载位于 '%s' 的模块 Fail-Safe 数据"
 
-#: libdnf/module/ModulePackageContainer.cpp:1716
+#: libdnf/module/ModulePackageContainer.cpp:1721
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "无法为模块 '%s:%s' 加载模块 Fail-Safe 数据"
 
-#: libdnf/module/ModulePackageContainer.cpp:1797
+#: libdnf/module/ModulePackageContainer.cpp:1802
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr "无法为模块 Fail Safe 数据创建目录 \"%s\" : %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1813
+#: libdnf/module/ModulePackageContainer.cpp:1818
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "无法把模块 Fail Safe 数据保存到 '%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1836
+#: libdnf/module/ModulePackageContainer.cpp:1841
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "无法删除 '%s' 中的模块 Fail Safe 数据"
 
-#: libdnf/module/ModulePackageContainer.cpp:1868
+#: libdnf/module/ModulePackageContainer.cpp:1873
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "

@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 02:06+0000\n"
+"POT-Creation-Date: 2025-03-01 02:14+0000\n"
 "PO-Revision-Date: 2024-08-22 19:38+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
@@ -933,37 +933,37 @@ msgstr "Désactivation des modules :\n"
 msgid "Resetting modules:\n"
 msgstr "Réinitialisation des modules :\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1710
+#: libdnf/module/ModulePackageContainer.cpp:1715
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "Impossible de charger les données de sécurité à « %s »"
 
-#: libdnf/module/ModulePackageContainer.cpp:1716
+#: libdnf/module/ModulePackageContainer.cpp:1721
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
 "Impossible de charger les données de sécurité modulaires pour le module "
 "« %s : %s »"
 
-#: libdnf/module/ModulePackageContainer.cpp:1797
+#: libdnf/module/ModulePackageContainer.cpp:1802
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 "Impossible de créer le dossier « %s » pour les données de sécurité "
 "modulaires : %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1813
+#: libdnf/module/ModulePackageContainer.cpp:1818
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr ""
 "Impossible d’enregistrer les données de sécurité modulaires vers « %s »"
 
-#: libdnf/module/ModulePackageContainer.cpp:1836
+#: libdnf/module/ModulePackageContainer.cpp:1841
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Impossible de supprimer les données de sécurité modulaires dans « %s »"
 
-#: libdnf/module/ModulePackageContainer.cpp:1868
+#: libdnf/module/ModulePackageContainer.cpp:1873
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 02:06+0000\n"
+"POT-Creation-Date: 2025-03-01 02:14+0000\n"
 "PO-Revision-Date: 2025-02-05 21:47+0000\n"
 "Last-Translator: Jonáš Loskot <fedoraproject.org@alius.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
@@ -898,32 +898,32 @@ msgstr "Zakázání modulů:\n"
 msgid "Resetting modules:\n"
 msgstr "Resetování modulů:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1710
+#: libdnf/module/ModulePackageContainer.cpp:1715
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "Nepodařilo se načíst modulární data Fail-Safe na '%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1716
+#: libdnf/module/ModulePackageContainer.cpp:1721
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr "Nelze načíst modulární Fail-Safe data pro modul '%s:%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1797
+#: libdnf/module/ModulePackageContainer.cpp:1802
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr "Nelze vytvořit adresář \"%s\" pro modulární data systému Fail Safe: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1813
+#: libdnf/module/ModulePackageContainer.cpp:1818
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "Nelze uložit modulární data Fail Safe do '%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1836
+#: libdnf/module/ModulePackageContainer.cpp:1841
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Nelze odstranit modulární data Fail Safe v '%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1868
+#: libdnf/module/ModulePackageContainer.cpp:1873
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "

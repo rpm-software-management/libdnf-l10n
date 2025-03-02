@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 02:06+0000\n"
+"POT-Creation-Date: 2025-03-01 02:14+0000\n"
 "PO-Revision-Date: 2025-01-10 17:01+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
@@ -919,38 +919,38 @@ msgstr "Poistetaan moduuleita käytöstä:\n"
 msgid "Resetting modules:\n"
 msgstr "Nollataan moduuleita:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1710
+#: libdnf/module/ModulePackageContainer.cpp:1715
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr ""
 "Modulaarisen vikaturvallisen tiedon lataaminen tiedostosta ”%s” epäonnistui"
 
-#: libdnf/module/ModulePackageContainer.cpp:1716
+#: libdnf/module/ModulePackageContainer.cpp:1721
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
 "Modulaarisen vikaturvallisen tiedon lataaminen moduulille ”%s:%s” epäonnistui"
 
-#: libdnf/module/ModulePackageContainer.cpp:1797
+#: libdnf/module/ModulePackageContainer.cpp:1802
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 "Hakemiston ”%s” luominen modulaariselle vikaturvalliselle tiedolle "
 "epäonnistui: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1813
+#: libdnf/module/ModulePackageContainer.cpp:1818
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr ""
 "Modulaarisen vikaturvallisen tiedon tallennus tiedostoon ”%s” epäonnistui"
 
-#: libdnf/module/ModulePackageContainer.cpp:1836
+#: libdnf/module/ModulePackageContainer.cpp:1841
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr ""
 "Modulaarisen vikaturvallisen tiedon poisto tiedostosta ”%s” epäonnistui"
 
-#: libdnf/module/ModulePackageContainer.cpp:1868
+#: libdnf/module/ModulePackageContainer.cpp:1873
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "

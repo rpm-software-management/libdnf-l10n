@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-13 02:06+0000\n"
+"POT-Creation-Date: 2025-03-01 02:14+0000\n"
 "PO-Revision-Date: 2025-03-02 01:38+0000\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
@@ -690,7 +690,8 @@ msgstr ""
 #, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
-msgstr "pacote %s de %s requer %s, mas nenhum dos provedores pode ser instalado"
+msgstr ""
+"pacote %s de %s requer %s, mas nenhum dos provedores pode ser instalado"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
@@ -776,7 +777,8 @@ msgstr ""
 #, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
-msgstr "módulo %s de %s requer %s, mas nenhum dos provedores pode ser instalado"
+msgstr ""
+"módulo %s de %s requer %s, mas nenhum dos provedores pode ser instalado"
 
 #: libdnf/goal/Goal.cpp:139
 #, c-format
@@ -915,34 +917,34 @@ msgstr "Desabilitando módulos:\n"
 msgid "Resetting modules:\n"
 msgstr "Redefinindo módulos:\n"
 
-#: libdnf/module/ModulePackageContainer.cpp:1710
+#: libdnf/module/ModulePackageContainer.cpp:1715
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
 msgstr "Não foi possível carregar dados modulares de Fail-Safe em '%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1716
+#: libdnf/module/ModulePackageContainer.cpp:1721
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
 msgstr ""
 "Não foi possível carregar dados modulares de segurança para o módulo '%s:%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1797
+#: libdnf/module/ModulePackageContainer.cpp:1802
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
 "Não foi possível criar diretório \"%s\" para dados modulares de segurança: %s"
 
-#: libdnf/module/ModulePackageContainer.cpp:1813
+#: libdnf/module/ModulePackageContainer.cpp:1818
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
 msgstr "Não foi possível salvar um dado modular de segurança em '%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1836
+#: libdnf/module/ModulePackageContainer.cpp:1841
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
 msgstr "Não foi possível remover um dado modular de segurança em '%s'"
 
-#: libdnf/module/ModulePackageContainer.cpp:1868
+#: libdnf/module/ModulePackageContainer.cpp:1873
 #, c-format
 msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
