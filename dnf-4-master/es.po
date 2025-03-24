@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-20 02:12+0000\n"
+"POT-Creation-Date: 2025-03-24 02:17+0000\n"
 "PO-Revision-Date: 2025-03-24 05:04+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
@@ -368,8 +368,8 @@ msgstr "no se pudo abrir archivo temporal: %s"
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
-"Al escribir caché %s primaria el repowriter escrito es incorrecta: %i, error:"
-" %s"
+"Al escribir caché %s primaria el repowriter escrito es incorrecta: %i, "
+"error: %s"
 
 #: libdnf/dnf-sack.cpp:561
 #, c-format
@@ -409,7 +409,8 @@ msgstr ""
 #: libdnf/dnf-sack.cpp:693
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
-msgstr "Ha fallado al utilizar caché de extensión nuevamente escrita: %s (%d): "
+msgstr ""
+"Ha fallado al utilizar caché de extensión nuevamente escrita: %s (%d): "
 
 #: libdnf/dnf-sack.cpp:700
 #, c-format
@@ -558,7 +559,8 @@ msgstr "Error %i al abrir base de datos rpm"
 
 #: libdnf/dnf-transaction.cpp:1478 libdnf/dnf-transaction.cpp:1524
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr "la función dbCookie() no ha devuelto la cookie de la base de datos rpm."
+msgstr ""
+"la función dbCookie() no ha devuelto la cookie de la base de datos rpm."
 
 #: libdnf/dnf-transaction.cpp:1493
 #, c-format
