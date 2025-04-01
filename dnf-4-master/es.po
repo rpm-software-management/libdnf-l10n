@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-03-30 02:21+0000\n"
-"PO-Revision-Date: 2025-03-24 05:04+0000\n"
+"PO-Revision-Date: 2025-04-02 05:28+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/es/>\n"
@@ -1242,7 +1242,7 @@ msgstr "No pudo encontrar una base de datos histórica"
 
 #: libdnf/transaction/private/Transaction.cpp:41
 msgid "Transaction has already began!"
-msgstr "La transacción ya está iniciada"
+msgstr "¡La transacción ya está iniciada!"
 
 #: libdnf/transaction/private/Transaction.cpp:58
 #, c-format
