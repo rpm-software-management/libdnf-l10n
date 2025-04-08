@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-06 02:20+0000\n"
-"PO-Revision-Date: 2025-04-06 15:31+0000\n"
+"PO-Revision-Date: 2025-04-09 11:51+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/es/>\n"
@@ -560,7 +560,7 @@ msgstr "Error %i al abrir base de datos rpm"
 #: libdnf/dnf-transaction.cpp:1478 libdnf/dnf-transaction.cpp:1524
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
 msgstr ""
-"la función dbCookie() no ha devuelto la cookie de la base de datos rpm."
+"La función rpmdbCookie() no ha devuelto la cookie de la base de datos rpm."
 
 #: libdnf/dnf-transaction.cpp:1493
 #, c-format
@@ -625,7 +625,7 @@ msgstr "Nada proporciona lo pedido "
 #: libdnf/goal/Goal.cpp:96
 #, c-format
 msgid "package %s does not exist"
-msgstr "El paquete %s no existe"
+msgstr "el paquete %s no existe"
 
 #: libdnf/goal/Goal.cpp:97 libdnf/goal/Goal.cpp:124
 msgid " is provided by the system"
@@ -642,7 +642,7 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:100 libdnf/goal/Goal.cpp:127
 msgid "cannot install the best candidate for the job"
-msgstr "no se puede instalar el mejor candidatos para la tarea"
+msgstr "no se puede instalar el mejor candidato para la tarea"
 
 #: libdnf/goal/Goal.cpp:101
 #, c-format
@@ -939,7 +939,7 @@ msgstr "Restablecer módulos:\n"
 #: libdnf/module/ModulePackageContainer.cpp:1715
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
-msgstr "Incapaz de cargar datos Fail-Safa modular en '%s'"
+msgstr "Incapaz de cargar datos Fail-Safe modular en '%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1721
 #, c-format
