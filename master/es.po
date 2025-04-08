@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2025-04-06 15:31+0000\n"
+"PO-Revision-Date: 2025-04-09 11:51+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/es/>\n"
@@ -414,7 +414,7 @@ msgstr "Nada proporciona lo pedido "
 #: libdnf/goal/Goal.cpp:73
 #, c-format
 msgid "package %s does not exist"
-msgstr "El paquete %s no existe"
+msgstr "el paquete %s no existe"
 
 #: libdnf/goal/Goal.cpp:74 libdnf/goal/Goal.cpp:101
 msgid " is provided by the system"
@@ -431,7 +431,7 @@ msgstr ""
 
 #: libdnf/goal/Goal.cpp:77 libdnf/goal/Goal.cpp:104
 msgid "cannot install the best candidate for the job"
-msgstr "no se puede instalar el mejor candidatos para la tarea"
+msgstr "no se puede instalar el mejor candidato para la tarea"
 
 #: libdnf/goal/Goal.cpp:78
 #, c-format
@@ -669,7 +669,7 @@ msgstr "Conflictos predeterminados con repo '%s': %s"
 #: libdnf/module/ModulePackageContainer.cpp:1568
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
-msgstr "Incapaz de cargar datos Fail-Safa modular en '%s'"
+msgstr "Incapaz de cargar datos Fail-Safe modular en '%s'"
 
 #: libdnf/module/ModulePackageContainer.cpp:1574
 #, c-format
@@ -776,7 +776,7 @@ msgstr ""
 "minrate o throttle"
 
 #: libdnf/repo/Repo.cpp:666 libdnf/repo/Repo.cpp:688
-#, c-format
+#, c-format, fuzzy
 msgid "%s: gpgme_data_new_from_fd(): %s"
 msgstr "%s: gpgme_data_new_from_fd(): %s"
 
