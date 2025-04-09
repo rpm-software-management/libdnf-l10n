@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-09 02:15+0000\n"
-"PO-Revision-Date: 2025-04-09 11:51+0000\n"
+"PO-Revision-Date: 2025-04-10 03:08+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/es/>\n"
@@ -620,7 +620,7 @@ msgstr "petición no soportada"
 
 #: libdnf/goal/Goal.cpp:95 libdnf/goal/Goal.cpp:122
 msgid "nothing provides requested "
-msgstr "Nada proporciona lo pedido "
+msgstr "nada proporciona lo pedido "
 
 #: libdnf/goal/Goal.cpp:96
 #, c-format
@@ -657,7 +657,7 @@ msgstr "el paquete %s desde %s no tiene una arquitectura compatible"
 #: libdnf/goal/Goal.cpp:103
 #, c-format
 msgid "package %s from %s is not installable"
-msgstr "paquete %s desde %s no es instalable"
+msgstr "el paquete %s desde %s no es instalable"
 
 #: libdnf/goal/Goal.cpp:104
 #, c-format
@@ -922,7 +922,7 @@ msgstr "Deshabilitar perfiles del módulo:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:953
 msgid "Enabling module streams:\n"
-msgstr "Deshabilitar flujos del módulo:\n"
+msgstr "Habilitar flujos del módulo:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:967
 msgid "Switching module streams:\n"
@@ -1041,7 +1041,7 @@ msgstr "No puede cargar complemento \"%s\": %s"
 #: libdnf/repo/Repo.cpp:1080
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
-msgstr "No se puede crear el directorio temporal de \"%s\" del repo: %s"
+msgstr "No se puede crear el directorio temporal \"%s\" del repo: %s"
 
 #: libdnf/repo/DependencySplitter.cpp:51
 msgid ""
@@ -1114,12 +1114,12 @@ msgstr "repo %s: clave 0x%s importada."
 #: libdnf/repo/Repo.cpp:977
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
-msgstr "reviving: repositorio '%s' omitido, sin metalink."
+msgstr "reviving: repositorio '%s' omitido, metaenlace no utilizable."
 
 #: libdnf/repo/Repo.cpp:996
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
-msgstr "reviving: repo '%s' omitido, hash no utilizable."
+msgstr "reviving: repositorio '%s' omitido, hash no utilizable."
 
 #: libdnf/repo/Repo.cpp:1019
 #, c-format
