@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2025-04-09 11:51+0000\n"
+"PO-Revision-Date: 2025-04-10 03:08+0000\n"
 "Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/es/>\n"
@@ -409,7 +409,7 @@ msgstr "petición no soportada"
 
 #: libdnf/goal/Goal.cpp:72 libdnf/goal/Goal.cpp:99
 msgid "nothing provides requested "
-msgstr "Nada proporciona lo pedido "
+msgstr "nada proporciona lo pedido "
 
 #: libdnf/goal/Goal.cpp:73
 #, c-format
@@ -776,7 +776,7 @@ msgstr ""
 "minrate o throttle"
 
 #: libdnf/repo/Repo.cpp:666 libdnf/repo/Repo.cpp:688
-#, c-format, fuzzy
+#, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
 msgstr "%s: gpgme_data_new_from_fd(): %s"
 
@@ -813,12 +813,12 @@ msgstr "repo %s: clave 0x%s importada."
 #: libdnf/repo/Repo.cpp:1164
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
-msgstr "reviving: repositorio '%s' omitido, sin metalink."
+msgstr "reviving: repositorio '%s' omitido, metaenlace no utilizable."
 
 #: libdnf/repo/Repo.cpp:1183
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
-msgstr "reviving: repo '%s' omitido, hash no utilizable."
+msgstr "reviving: repositorio '%s' omitido, hash no utilizable."
 
 #: libdnf/repo/Repo.cpp:1206
 #, c-format
@@ -848,7 +848,7 @@ msgstr "No se puede repo del directorio destino «%s»: %s"
 #: libdnf/repo/Repo.cpp:1263
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
-msgstr "No se puede crear el directorio temporal de \"%s\" del repo: %s"
+msgstr "No se puede crear el directorio temporal \"%s\" del repo: %s"
 
 #: libdnf/repo/Repo.cpp:1277
 #, c-format
