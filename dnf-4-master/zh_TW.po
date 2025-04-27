@@ -2,13 +2,14 @@
 # Peter Pan <pan93412@gmail.com>, 2018. #zanata
 # Cheng-Chia Tseng <pswo10680@gmail.com>, 2019. #zanata
 # Yi-Jyun Pan <pan93412@gmail.com>, 2020.
+# hsu zangmen <chzang55@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-10 02:16+0000\n"
-"PO-Revision-Date: 2020-08-28 12:29+0000\n"
-"Last-Translator: Yi-Jyun Pan <pan93412@gmail.com>\n"
+"PO-Revision-Date: 2025-04-27 08:03+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-dnf-4-master/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.2.1\n"
+"X-Generator: Weblate 5.11\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -237,7 +238,7 @@ msgstr ""
 
 #: libdnf/dnf-goal.cpp:107
 msgid "Could not depsolve transaction; "
-msgstr "無法解析處理事項；"
+msgstr "無法解析處理事項； "
 
 #: libdnf/dnf-goal.cpp:109
 #, c-format
@@ -248,7 +249,7 @@ msgstr[0] "偵測到 %i 個問題：\n"
 #: libdnf/dnf-goal.cpp:117
 #, c-format
 msgid " Problem %1$i: %2$s\n"
-msgstr "第 %1$i 個問題：%2$s\n"
+msgstr " 第 %1$i 個問題：%2$s\n"
 
 #: libdnf/dnf-goal.cpp:119
 #, c-format
@@ -1137,7 +1138,7 @@ msgstr "repo：使用下述的快取：%s"
 #: libdnf/repo/Repo.cpp:1152
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
-msgstr "啟用了「只使用快取」，但是沒有「%s」的快取。"
+msgstr "啟用了「只使用快取」，但是沒有「%s」的快取"
 
 #: libdnf/repo/Repo.cpp:1156
 #, c-format
