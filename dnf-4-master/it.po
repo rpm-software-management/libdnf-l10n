@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-27 02:24+0000\n"
+"POT-Creation-Date: 2025-05-20 02:25+0000\n"
 "PO-Revision-Date: 2025-01-04 21:15+0000\n"
 "Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/"
@@ -107,13 +107,13 @@ msgstr "non potevo convertire '%s'a secondi"
 msgid "GetValue(): Value not set"
 msgstr "GetValue (): valore non impostato"
 
-#: libdnf/dnf-context.cpp:3321 libdnf/dnf-context.cpp:3330
+#: libdnf/dnf-context.cpp:3325 libdnf/dnf-context.cpp:3334
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr ""
 "Non è possibile abilitare contemporaneamente più stream per il modulo '%s'"
 
-#: libdnf/dnf-context.cpp:3339 libdnf/dnf-context.cpp:3357
+#: libdnf/dnf-context.cpp:3343 libdnf/dnf-context.cpp:3361
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
@@ -121,30 +121,30 @@ msgstr ""
 "Non è possibile abilitare lo stream '%2$s' per il modulo '%1$s': lo stato "
 "del modulo è già stato modificato"
 
-#: libdnf/dnf-context.cpp:3406
+#: libdnf/dnf-context.cpp:3410
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "Problema di dipendenze modulari con i Default: %s"
 
-#: libdnf/dnf-context.cpp:3409
+#: libdnf/dnf-context.cpp:3413
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
 msgstr "Problema di dipendenze modulari con gli ultimi moduli: %s"
 
-#: libdnf/dnf-context.cpp:3413
+#: libdnf/dnf-context.cpp:3417
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "Problema di dipendenze modulari: %s"
 
-#: libdnf/dnf-context.cpp:3436 libdnf/dnf-context.cpp:3460
-#: libdnf/dnf-context.cpp:3471 libdnf/dnf-context.cpp:3510
-#: libdnf/dnf-context.cpp:3526 libdnf/dnf-context.cpp:3558
-#: libdnf/dnf-context.cpp:3607 libdnf/dnf-context.cpp:3617
+#: libdnf/dnf-context.cpp:3440 libdnf/dnf-context.cpp:3464
+#: libdnf/dnf-context.cpp:3475 libdnf/dnf-context.cpp:3514
+#: libdnf/dnf-context.cpp:3530 libdnf/dnf-context.cpp:3562
+#: libdnf/dnf-context.cpp:3611 libdnf/dnf-context.cpp:3621
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "Impossibile risolvere l'argomento '%s'"
 
-#: libdnf/dnf-context.cpp:3443
+#: libdnf/dnf-context.cpp:3447
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
@@ -152,29 +152,29 @@ msgstr ""
 "È richiesto solo il nome del modulo. Ignorando le informazioni non "
 "necessarie nell'argomento: '%s'"
 
-#: libdnf/dnf-context.cpp:3457
+#: libdnf/dnf-context.cpp:3461
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr ""
 "Impossibile ripristinare il modulo '%s': stato del modulo già modificato"
 
-#: libdnf/dnf-context.cpp:3468
+#: libdnf/dnf-context.cpp:3472
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr ""
 "Impossibile disabilitare il modulo '%s': stato del modulo già modificato"
 
-#: libdnf/dnf-context.cpp:3499 libdnf/dnf-context.cpp:3595
-#: libdnf/dnf-context.cpp:3776
+#: libdnf/dnf-context.cpp:3503 libdnf/dnf-context.cpp:3599
+#: libdnf/dnf-context.cpp:3780
 msgid "No modular data available"
 msgstr "Nessun dato modulare disponibile"
 
-#: libdnf/dnf-context.cpp:3516
+#: libdnf/dnf-context.cpp:3520
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Ignorando le informazioni non necessarie nell'argomento: '%s'"
 
-#: libdnf/dnf-context.cpp:3554
+#: libdnf/dnf-context.cpp:3558
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
@@ -183,51 +183,51 @@ msgstr ""
 "Problema durante l'abilitazione dell'albero delle dipendenze per il flusso "
 "'%2$s' del modulo '%1$s': %3$s"
 
-#: libdnf/dnf-context.cpp:3566
+#: libdnf/dnf-context.cpp:3570
 msgid "Problems appeared for module enable request:"
 msgstr "Sono comparsi problemi per la richiesta di abilitazione del modulo:"
 
-#: libdnf/dnf-context.cpp:3661
+#: libdnf/dnf-context.cpp:3665
 #, c-format
 msgid "No active module packages found for module spec '%s'"
 msgstr ""
 "Nessun pacchetto di moduli attivi trovato per la specifica del modulo '%s'"
 
-#: libdnf/dnf-context.cpp:3666
+#: libdnf/dnf-context.cpp:3670
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
 msgstr "Impossibile installare il modulo '%s' dal repository fail-safe"
 
-#: libdnf/dnf-context.cpp:3673
+#: libdnf/dnf-context.cpp:3677
 #, c-format
 msgid "No profile found matching '%s'"
 msgstr "Nessun profilo trovato corrispondente a '%s'"
 
-#: libdnf/dnf-context.cpp:3727
+#: libdnf/dnf-context.cpp:3731
 #, c-format
 msgid "No match for package '%s' for module spec %s"
 msgstr ""
 "Nessuna corrispondenza per il pacchetto '%s' per la specifica del modulo %s"
 
-#: libdnf/dnf-context.cpp:3738
+#: libdnf/dnf-context.cpp:3742
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
 msgstr ""
 "Problema durante l'installazione per il flusso '%2$s' del modulo '%1$s': %3$s"
 
-#: libdnf/dnf-context.cpp:3747
+#: libdnf/dnf-context.cpp:3751
 msgid "Problems appeared for module install request:"
 msgstr "Sono comparsi problemi per la richiesta di installazione del modulo:"
 
-#: libdnf/dnf-context.cpp:3806
+#: libdnf/dnf-context.cpp:3810
 msgid "Problems appeared for module reset request:"
 msgstr "Sono comparsi problemi per la richiesta di ripristino del modulo:"
 
-#: libdnf/dnf-context.cpp:3807 libdnf/dnf-context.cpp:3866
+#: libdnf/dnf-context.cpp:3811 libdnf/dnf-context.cpp:3870
 msgid "Problems appeared for module disable request:"
 msgstr "Sono comparsi problemi per la richiesta di disabilitazione del modulo:"
 
-#: libdnf/dnf-context.cpp:3898
+#: libdnf/dnf-context.cpp:3902
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -236,7 +236,7 @@ msgstr ""
 "L'operazione comporterebbe il passaggio del modulo '%s' dallo stream '%s' "
 "allo stream '%s'"
 
-#: libdnf/dnf-context.cpp:3902
+#: libdnf/dnf-context.cpp:3906
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -598,15 +598,15 @@ msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr ""
 "Selettore non valido utilizzato per l'operazione, tipo di confronto errato"
 
-#: libdnf/goal/Goal.cpp:90
+#: libdnf/goal/Goal.cpp:90 libdnf/goal/Goal.cpp:117
 #, c-format
-msgid "%s from %s  does not belong to a distupgrade repository"
+msgid "%s from %s does not belong to a distupgrade repository"
 msgstr "%s da %s non appartiene a un repository di disupgrade"
 
-#: libdnf/goal/Goal.cpp:91
+#: libdnf/goal/Goal.cpp:91 libdnf/goal/Goal.cpp:118
 #, c-format
-msgid "%s from %s  has inferior architecture"
-msgstr "%s di %s   ha un'architettura inferiore"
+msgid "%s from %s has inferior architecture"
+msgstr "%s di %s ha un'architettura inferiore"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -715,16 +715,6 @@ msgstr "il pacchetto %s di %s è in conflitto con %s fornito dallo stesso"
 #, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
 msgstr "entrambi i pacchetti %s da %s e %s da %s sono obsoleti %s"
-
-#: libdnf/goal/Goal.cpp:117
-#, c-format
-msgid "%s from %s does not belong to a distupgrade repository"
-msgstr "%s da %s non appartiene a un repository di disupgrade"
-
-#: libdnf/goal/Goal.cpp:118
-#, c-format
-msgid "%s from %s has inferior architecture"
-msgstr "%s di %s ha un'architettura inferiore"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -1262,6 +1252,14 @@ msgstr "Lo stato TransactionItem non è impostato: %s"
 msgid "Can't add console output to unsaved transaction"
 msgstr ""
 "Impossibile aggiungere l'output della console alla transazione non salvata"
+
+#, c-format
+#~ msgid "%s from %s  does not belong to a distupgrade repository"
+#~ msgstr "%s da %s non appartiene a un repository di disupgrade"
+
+#, c-format
+#~ msgid "%s from %s  has inferior architecture"
+#~ msgstr "%s di %s   ha un'architettura inferiore"
 
 #, c-format
 #~ msgid "%s: gpgme_data_new_from_fd(): %s"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-27 02:24+0000\n"
+"POT-Creation-Date: 2025-05-20 02:25+0000\n"
 "PO-Revision-Date: 2023-12-07 08:44+0000\n"
 "Last-Translator: Jingge Chen <mariocanfly@hotmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -109,122 +109,122 @@ msgstr "无法把 '%s' 转换为秒"
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): 值没有设置"
 
-#: libdnf/dnf-context.cpp:3321 libdnf/dnf-context.cpp:3330
+#: libdnf/dnf-context.cpp:3325 libdnf/dnf-context.cpp:3334
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr "无法同时从模块 '%s' 中启用更多流"
 
-#: libdnf/dnf-context.cpp:3339 libdnf/dnf-context.cpp:3357
+#: libdnf/dnf-context.cpp:3343 libdnf/dnf-context.cpp:3361
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr "无法启用模块 '%1$s' 流 '%2$s'：已经修改的模块状态"
 
-#: libdnf/dnf-context.cpp:3406
+#: libdnf/dnf-context.cpp:3410
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "默认设置的模块依赖性问题：%s"
 
-#: libdnf/dnf-context.cpp:3409
+#: libdnf/dnf-context.cpp:3413
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
 msgstr "最新模块的模块化依赖关系问题： %s"
 
-#: libdnf/dnf-context.cpp:3413
+#: libdnf/dnf-context.cpp:3417
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "模块依赖问题：%s"
 
-#: libdnf/dnf-context.cpp:3436 libdnf/dnf-context.cpp:3460
-#: libdnf/dnf-context.cpp:3471 libdnf/dnf-context.cpp:3510
-#: libdnf/dnf-context.cpp:3526 libdnf/dnf-context.cpp:3558
-#: libdnf/dnf-context.cpp:3607 libdnf/dnf-context.cpp:3617
+#: libdnf/dnf-context.cpp:3440 libdnf/dnf-context.cpp:3464
+#: libdnf/dnf-context.cpp:3475 libdnf/dnf-context.cpp:3514
+#: libdnf/dnf-context.cpp:3530 libdnf/dnf-context.cpp:3562
+#: libdnf/dnf-context.cpp:3611 libdnf/dnf-context.cpp:3621
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "无法解析参数 '%s'"
 
-#: libdnf/dnf-context.cpp:3443
+#: libdnf/dnf-context.cpp:3447
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr "只需要模块名。忽略参数 '%s' 中的无用信息"
 
-#: libdnf/dnf-context.cpp:3457
+#: libdnf/dnf-context.cpp:3461
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr "无法重置模块 '%s':已修改的模块状态"
 
-#: libdnf/dnf-context.cpp:3468
+#: libdnf/dnf-context.cpp:3472
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr "无法禁用模块 '%s':已经修改的模块状态"
 
-#: libdnf/dnf-context.cpp:3499 libdnf/dnf-context.cpp:3595
-#: libdnf/dnf-context.cpp:3776
+#: libdnf/dnf-context.cpp:3503 libdnf/dnf-context.cpp:3599
+#: libdnf/dnf-context.cpp:3780
 msgid "No modular data available"
 msgstr "没有可用的模块数据"
 
-#: libdnf/dnf-context.cpp:3516
+#: libdnf/dnf-context.cpp:3520
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "忽略参数中不需要的信息：'%s'"
 
-#: libdnf/dnf-context.cpp:3554
+#: libdnf/dnf-context.cpp:3558
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr "为模块 '%1$s' 流 '%2$s' 启用依赖树时出现问题: %3$s"
 
-#: libdnf/dnf-context.cpp:3566
+#: libdnf/dnf-context.cpp:3570
 msgid "Problems appeared for module enable request:"
 msgstr "模块启用请求出现问题："
 
-#: libdnf/dnf-context.cpp:3661
+#: libdnf/dnf-context.cpp:3665
 #, c-format
 msgid "No active module packages found for module spec '%s'"
 msgstr "未找到模块规范 '%s' 的活动模块包"
 
-#: libdnf/dnf-context.cpp:3666
+#: libdnf/dnf-context.cpp:3670
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
 msgstr "无法从故障保护存储库安装模块 '%s'"
 
-#: libdnf/dnf-context.cpp:3673
+#: libdnf/dnf-context.cpp:3677
 #, c-format
 msgid "No profile found matching '%s'"
 msgstr "未找到匹配 '%s' 的配置文件"
 
-#: libdnf/dnf-context.cpp:3727
+#: libdnf/dnf-context.cpp:3731
 #, c-format
 msgid "No match for package '%s' for module spec %s"
 msgstr "没有匹配模块规范 %s 的包 '%s'"
 
-#: libdnf/dnf-context.cpp:3738
+#: libdnf/dnf-context.cpp:3742
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
 msgstr "在安装模块 '%1$s' 流 '%2$s'时的问题:%3$s"
 
-#: libdnf/dnf-context.cpp:3747
+#: libdnf/dnf-context.cpp:3751
 msgid "Problems appeared for module install request:"
 msgstr "模块安装请求出现问题："
 
-#: libdnf/dnf-context.cpp:3806
+#: libdnf/dnf-context.cpp:3810
 msgid "Problems appeared for module reset request:"
 msgstr "模块重置请求出现问题："
 
-#: libdnf/dnf-context.cpp:3807 libdnf/dnf-context.cpp:3866
+#: libdnf/dnf-context.cpp:3811 libdnf/dnf-context.cpp:3870
 msgid "Problems appeared for module disable request:"
 msgstr "模块禁用请求出现问题："
 
-#: libdnf/dnf-context.cpp:3898
+#: libdnf/dnf-context.cpp:3902
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
 msgstr "这个操作会把模块 '%s' 从流 '%s' 切换到流 '%s'"
 
-#: libdnf/dnf-context.cpp:3902
+#: libdnf/dnf-context.cpp:3906
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -560,15 +560,15 @@ msgstr "Ill-formed Selector，在过滤器中有多个匹配的对象"
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr "这个操作使用了 Ill-formed Selector，不正确的比较类型"
 
-#: libdnf/goal/Goal.cpp:90
+#: libdnf/goal/Goal.cpp:90 libdnf/goal/Goal.cpp:117
 #, c-format
-msgid "%s from %s  does not belong to a distupgrade repository"
-msgstr "%s 来自 %s  不属于 distupgrade 仓库"
+msgid "%s from %s does not belong to a distupgrade repository"
+msgstr "%s（来自 %s）不属于 distupgrade 仓库"
 
-#: libdnf/goal/Goal.cpp:91
+#: libdnf/goal/Goal.cpp:91 libdnf/goal/Goal.cpp:118
 #, c-format
-msgid "%s from %s  has inferior architecture"
-msgstr "%s 来自 %s  拥有 inferior 架构"
+msgid "%s from %s has inferior architecture"
+msgstr "%s（来自 %s）有劣质架构"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -672,16 +672,6 @@ msgstr "软件包 %s（来自 %s）与自己提供的 %s 冲突"
 #, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
 msgstr "软件包 %s（来自 %s）和 %s（来自 %s）同时取代了 %s"
-
-#: libdnf/goal/Goal.cpp:117
-#, c-format
-msgid "%s from %s does not belong to a distupgrade repository"
-msgstr "%s（来自 %s）不属于 distupgrade 仓库"
-
-#: libdnf/goal/Goal.cpp:118
-#, c-format
-msgid "%s from %s has inferior architecture"
-msgstr "%s（来自 %s）有劣质架构"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -1190,6 +1180,14 @@ msgstr "TransactionItem 状态没有设置：%s"
 #: libdnf/transaction/private/Transaction.cpp:243
 msgid "Can't add console output to unsaved transaction"
 msgstr "无法向未保存的事务中添加控制台输出"
+
+#, c-format
+#~ msgid "%s from %s  does not belong to a distupgrade repository"
+#~ msgstr "%s 来自 %s  不属于 distupgrade 仓库"
+
+#, c-format
+#~ msgid "%s from %s  has inferior architecture"
+#~ msgstr "%s 来自 %s  拥有 inferior 架构"
 
 #, c-format
 #~ msgid "%s: gpgme_data_new_from_fd(): %s"

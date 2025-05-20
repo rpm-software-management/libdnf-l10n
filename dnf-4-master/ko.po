@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-27 02:24+0000\n"
+"POT-Creation-Date: 2025-05-20 02:25+0000\n"
 "PO-Revision-Date: 2024-08-17 02:38+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
@@ -108,12 +108,12 @@ msgstr "변환 할 수 없습니다 '%s'초까지"
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): 값이 설정되지 않았습니다"
 
-#: libdnf/dnf-context.cpp:3321 libdnf/dnf-context.cpp:3330
+#: libdnf/dnf-context.cpp:3325 libdnf/dnf-context.cpp:3334
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr "동시에 모듈 '%s’에서 다른 스트림을 활성화 할 수 없습니다"
 
-#: libdnf/dnf-context.cpp:3339 libdnf/dnf-context.cpp:3357
+#: libdnf/dnf-context.cpp:3343 libdnf/dnf-context.cpp:3361
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
@@ -121,56 +121,56 @@ msgstr ""
 "모듈 '%1$s' 스트림 '%2$s 을 활성화 할 수 없습니다: 모듈 상태가 이미 변경되었"
 "습니다"
 
-#: libdnf/dnf-context.cpp:3406
+#: libdnf/dnf-context.cpp:3410
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "기본설정에 모듈 의존성 문제: %s"
 
-#: libdnf/dnf-context.cpp:3409
+#: libdnf/dnf-context.cpp:3413
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
 msgstr "최신 모듈에 모듈 의존성 문제: %s"
 
-#: libdnf/dnf-context.cpp:3413
+#: libdnf/dnf-context.cpp:3417
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "모듈러 의존성 문제: %s"
 
-#: libdnf/dnf-context.cpp:3436 libdnf/dnf-context.cpp:3460
-#: libdnf/dnf-context.cpp:3471 libdnf/dnf-context.cpp:3510
-#: libdnf/dnf-context.cpp:3526 libdnf/dnf-context.cpp:3558
-#: libdnf/dnf-context.cpp:3607 libdnf/dnf-context.cpp:3617
+#: libdnf/dnf-context.cpp:3440 libdnf/dnf-context.cpp:3464
+#: libdnf/dnf-context.cpp:3475 libdnf/dnf-context.cpp:3514
+#: libdnf/dnf-context.cpp:3530 libdnf/dnf-context.cpp:3562
+#: libdnf/dnf-context.cpp:3611 libdnf/dnf-context.cpp:3621
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "인수 %s를 해결 할 수 없습니다"
 
-#: libdnf/dnf-context.cpp:3443
+#: libdnf/dnf-context.cpp:3447
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr "모듈 이름만 필요합니다. 인수에서 불필요한 정보를 무시합니다: '%s'"
 
-#: libdnf/dnf-context.cpp:3457
+#: libdnf/dnf-context.cpp:3461
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr "모듈 '%s 를 재설정 할 수 없습니다: 모듈 상태가 이미 변경되었습니다"
 
-#: libdnf/dnf-context.cpp:3468
+#: libdnf/dnf-context.cpp:3472
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr "모듈 '%s'사용 할 수 없습니다: 모듈 상태는 이미 적재되었습니다"
 
-#: libdnf/dnf-context.cpp:3499 libdnf/dnf-context.cpp:3595
-#: libdnf/dnf-context.cpp:3776
+#: libdnf/dnf-context.cpp:3503 libdnf/dnf-context.cpp:3599
+#: libdnf/dnf-context.cpp:3780
 msgid "No modular data available"
 msgstr "모듈러 자료를 이용 할 수 없습니다"
 
-#: libdnf/dnf-context.cpp:3516
+#: libdnf/dnf-context.cpp:3520
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "인수: '%s'에 불필요한 정보를 무시하기"
 
-#: libdnf/dnf-context.cpp:3554
+#: libdnf/dnf-context.cpp:3558
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
@@ -179,55 +179,55 @@ msgstr ""
 "모듈 '%1$s' 스트림 '%2$s': %3$s 위해 의존성 트리의 활성화하는 중에 발생하는 "
 "문제"
 
-#: libdnf/dnf-context.cpp:3566
+#: libdnf/dnf-context.cpp:3570
 msgid "Problems appeared for module enable request:"
 msgstr "모듈 활성화 요청에 나타난 문제:"
 
-#: libdnf/dnf-context.cpp:3661
+#: libdnf/dnf-context.cpp:3665
 #, c-format
 msgid "No active module packages found for module spec '%s'"
 msgstr "모듈 상세 '%s'를 위한 활성 모듈 꾸러미가 없습니다"
 
-#: libdnf/dnf-context.cpp:3666
+#: libdnf/dnf-context.cpp:3670
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
 msgstr "실패-방지 저장소에서 모듈 '%s'를 설치 할 수 없습니다"
 
-#: libdnf/dnf-context.cpp:3673
+#: libdnf/dnf-context.cpp:3677
 #, c-format
 msgid "No profile found matching '%s'"
 msgstr "'%s'와 일치하는 프로파일을 찾을 수 없습니다"
 
-#: libdnf/dnf-context.cpp:3727
+#: libdnf/dnf-context.cpp:3731
 #, c-format
 msgid "No match for package '%s' for module spec %s"
 msgstr "꾸러미 '%s'가(모듈 상세 %s에 대한) 일치하지 않습니다"
 
-#: libdnf/dnf-context.cpp:3738
+#: libdnf/dnf-context.cpp:3742
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
 msgstr "모듈 '%1$s' 스트림 '%2$s': %3$s 위해 설치 중에 발생하는 문제"
 
-#: libdnf/dnf-context.cpp:3747
+#: libdnf/dnf-context.cpp:3751
 msgid "Problems appeared for module install request:"
 msgstr "모듈 설치 요청을 위해 나타난 문제:"
 
-#: libdnf/dnf-context.cpp:3806
+#: libdnf/dnf-context.cpp:3810
 msgid "Problems appeared for module reset request:"
 msgstr "모듈 초기화 요청을 위해 나타난 문제:"
 
-#: libdnf/dnf-context.cpp:3807 libdnf/dnf-context.cpp:3866
+#: libdnf/dnf-context.cpp:3811 libdnf/dnf-context.cpp:3870
 msgid "Problems appeared for module disable request:"
 msgstr "모듈 비활성화 요청을 위해 나타난 문제:"
 
-#: libdnf/dnf-context.cpp:3898
+#: libdnf/dnf-context.cpp:3902
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
 msgstr "이 동작은 모듈 '%s'' 스트림 ‘%s'에서 스트림 '%s'로의 전환 결과입니다"
 
-#: libdnf/dnf-context.cpp:3902
+#: libdnf/dnf-context.cpp:3906
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -566,15 +566,15 @@ msgstr "잘못된 형식의 선택기, 필터에 일치하는 개체가 여러 �
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr "조작에 잘못 형성된 선택자, 잘못된 비교 유형"
 
-#: libdnf/goal/Goal.cpp:90
+#: libdnf/goal/Goal.cpp:90 libdnf/goal/Goal.cpp:117
 #, c-format
-msgid "%s from %s  does not belong to a distupgrade repository"
-msgstr "%s에서 %s  는 distupgrade 저장소에 속하지 않습니다"
+msgid "%s from %s does not belong to a distupgrade repository"
+msgstr "%s에서 %s는 distupgrade 저장소에 속하지 않습니다"
 
-#: libdnf/goal/Goal.cpp:91
+#: libdnf/goal/Goal.cpp:91 libdnf/goal/Goal.cpp:118
 #, c-format
-msgid "%s from %s  has inferior architecture"
-msgstr "%s에서 %s  는 하위 구조를 갖고 있습니다"
+msgid "%s from %s has inferior architecture"
+msgstr "%s에서 %s는 하위 구조를 갖습니다"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -678,16 +678,6 @@ msgstr "%s에서 꾸러미 %s는 자체적으로 제공된 %s와 충돌합니다
 #, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
 msgstr "%s에서 꾸러미 %s 및 %s에서 %s는 모두 %s에서 폐기되었습니다"
-
-#: libdnf/goal/Goal.cpp:117
-#, c-format
-msgid "%s from %s does not belong to a distupgrade repository"
-msgstr "%s에서 %s는 distupgrade 저장소에 속하지 않습니다"
-
-#: libdnf/goal/Goal.cpp:118
-#, c-format
-msgid "%s from %s has inferior architecture"
-msgstr "%s에서 %s는 하위 구조를 갖습니다"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -1204,6 +1194,14 @@ msgstr "TransactionItem 상태가 설정되지 않았습니다. %s"
 #: libdnf/transaction/private/Transaction.cpp:243
 msgid "Can't add console output to unsaved transaction"
 msgstr "저장되지 않은 연결에 콘솔 출력을 추가 할 수 없습니다"
+
+#, c-format
+#~ msgid "%s from %s  does not belong to a distupgrade repository"
+#~ msgstr "%s에서 %s  는 distupgrade 저장소에 속하지 않습니다"
+
+#, c-format
+#~ msgid "%s from %s  has inferior architecture"
+#~ msgstr "%s에서 %s  는 하위 구조를 갖고 있습니다"
 
 #, c-format
 #~ msgid "%s: gpgme_data_new_from_fd(): %s"

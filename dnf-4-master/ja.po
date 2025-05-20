@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-27 02:24+0000\n"
+"POT-Creation-Date: 2025-05-20 02:25+0000\n"
 "PO-Revision-Date: 2024-08-29 02:38+0000\n"
 "Last-Translator: middlingphys <middlingphys@users.noreply.translate."
 "fedoraproject.org>\n"
@@ -108,12 +108,12 @@ msgstr "'%s' を 秒に変換できません"
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): 値は設定されていません"
 
-#: libdnf/dnf-context.cpp:3321 libdnf/dnf-context.cpp:3330
+#: libdnf/dnf-context.cpp:3325 libdnf/dnf-context.cpp:3334
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr "モジュール '%s' から、さらにストリームを同時に有効にできません"
 
-#: libdnf/dnf-context.cpp:3339 libdnf/dnf-context.cpp:3357
+#: libdnf/dnf-context.cpp:3343 libdnf/dnf-context.cpp:3361
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
@@ -121,59 +121,59 @@ msgstr ""
 "モジュール '%1$s' ストリーム '%2$s' を有効にできません。モジュールの状態はす"
 "でに変更されています"
 
-#: libdnf/dnf-context.cpp:3406
+#: libdnf/dnf-context.cpp:3410
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "デフォルトのモジュラー依存問題: %s"
 
-#: libdnf/dnf-context.cpp:3409
+#: libdnf/dnf-context.cpp:3413
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
 msgstr "最新のモジュールでモジュールの依存関係の問題: %s"
 
-#: libdnf/dnf-context.cpp:3413
+#: libdnf/dnf-context.cpp:3417
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "モジュラーの依存に関する問題: %s"
 
-#: libdnf/dnf-context.cpp:3436 libdnf/dnf-context.cpp:3460
-#: libdnf/dnf-context.cpp:3471 libdnf/dnf-context.cpp:3510
-#: libdnf/dnf-context.cpp:3526 libdnf/dnf-context.cpp:3558
-#: libdnf/dnf-context.cpp:3607 libdnf/dnf-context.cpp:3617
+#: libdnf/dnf-context.cpp:3440 libdnf/dnf-context.cpp:3464
+#: libdnf/dnf-context.cpp:3475 libdnf/dnf-context.cpp:3514
+#: libdnf/dnf-context.cpp:3530 libdnf/dnf-context.cpp:3562
+#: libdnf/dnf-context.cpp:3611 libdnf/dnf-context.cpp:3621
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "引数 '%s' を解決できません"
 
-#: libdnf/dnf-context.cpp:3443
+#: libdnf/dnf-context.cpp:3447
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr "モジュール名のみが必要です。引数の不必要な情報は無視します: '%s'"
 
-#: libdnf/dnf-context.cpp:3457
+#: libdnf/dnf-context.cpp:3461
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr ""
 "モジュール '%s' をリセットできません。モジュールの状態はすでに変更されていま"
 "す"
 
-#: libdnf/dnf-context.cpp:3468
+#: libdnf/dnf-context.cpp:3472
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr ""
 "モジュール '%s' を無効にできません。モジュールの状態はすでに変更されています"
 
-#: libdnf/dnf-context.cpp:3499 libdnf/dnf-context.cpp:3595
-#: libdnf/dnf-context.cpp:3776
+#: libdnf/dnf-context.cpp:3503 libdnf/dnf-context.cpp:3599
+#: libdnf/dnf-context.cpp:3780
 msgid "No modular data available"
 msgstr "モジュールデータは利用できません"
 
-#: libdnf/dnf-context.cpp:3516
+#: libdnf/dnf-context.cpp:3520
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "引数の不要な情報は無視します: '%s'"
 
-#: libdnf/dnf-context.cpp:3554
+#: libdnf/dnf-context.cpp:3558
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
@@ -181,51 +181,51 @@ msgid ""
 msgstr ""
 "モジュール '%1$s' ストリーム '%2$s' の依存関係ツリーの有効化中に問題: %3$s"
 
-#: libdnf/dnf-context.cpp:3566
+#: libdnf/dnf-context.cpp:3570
 msgid "Problems appeared for module enable request:"
 msgstr "モジュール有効化リクエストに発生する問題:"
 
-#: libdnf/dnf-context.cpp:3661
+#: libdnf/dnf-context.cpp:3665
 #, c-format
 msgid "No active module packages found for module spec '%s'"
 msgstr ""
 "モジュール仕様 '%s' について、アクティブなモジュールパッケージが見つかりませ"
 "ん"
 
-#: libdnf/dnf-context.cpp:3666
+#: libdnf/dnf-context.cpp:3670
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
 msgstr "フェイルセーフリポジトリーからモジュール '%s' をインストールできません"
 
-#: libdnf/dnf-context.cpp:3673
+#: libdnf/dnf-context.cpp:3677
 #, c-format
 msgid "No profile found matching '%s'"
 msgstr "'%s' にマッチするプロファイルが見つかりません"
 
-#: libdnf/dnf-context.cpp:3727
+#: libdnf/dnf-context.cpp:3731
 #, c-format
 msgid "No match for package '%s' for module spec %s"
 msgstr ""
 "モジュール仕様 %s について、パッケージ '%s' にマッチする項目はありません"
 
-#: libdnf/dnf-context.cpp:3738
+#: libdnf/dnf-context.cpp:3742
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
 msgstr "モジュール '%1$s' ストリーム '%2$s' のインストール中に問題: %3$s"
 
-#: libdnf/dnf-context.cpp:3747
+#: libdnf/dnf-context.cpp:3751
 msgid "Problems appeared for module install request:"
 msgstr "モジュールインストールリクエストに発生する問題:"
 
-#: libdnf/dnf-context.cpp:3806
+#: libdnf/dnf-context.cpp:3810
 msgid "Problems appeared for module reset request:"
 msgstr "モジュールリセットリクエストに発生する問題:"
 
-#: libdnf/dnf-context.cpp:3807 libdnf/dnf-context.cpp:3866
+#: libdnf/dnf-context.cpp:3811 libdnf/dnf-context.cpp:3870
 msgid "Problems appeared for module disable request:"
 msgstr "モジュール無効化リクエストに発生する問題:"
 
-#: libdnf/dnf-context.cpp:3898
+#: libdnf/dnf-context.cpp:3902
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -234,7 +234,7 @@ msgstr ""
 "オペレーションは、モジュール '%s' ストリーム '%s' を ストリーム '%s' へと切り"
 "替える結果となります"
 
-#: libdnf/dnf-context.cpp:3902
+#: libdnf/dnf-context.cpp:3906
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -583,15 +583,15 @@ msgstr "不適格な Selector、フィルター内に複数の一致するオブ
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr "操作に使用される不適格な Selector、間違った比較タイプ"
 
-#: libdnf/goal/Goal.cpp:90
+#: libdnf/goal/Goal.cpp:90 libdnf/goal/Goal.cpp:117
 #, c-format
-msgid "%s from %s  does not belong to a distupgrade repository"
-msgstr "%s (%s)  はdistupgradeレポジトリーに属していません"
+msgid "%s from %s does not belong to a distupgrade repository"
+msgstr "%s (%s) はdistupgradeレポジトリーに属していません"
 
-#: libdnf/goal/Goal.cpp:91
+#: libdnf/goal/Goal.cpp:91 libdnf/goal/Goal.cpp:118
 #, c-format
-msgid "%s from %s  has inferior architecture"
-msgstr "%s (%s)  は下位アーキテクチャがあります"
+msgid "%s from %s has inferior architecture"
+msgstr "%s (%s) は下位アーキテクチャがあります"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -703,16 +703,6 @@ msgstr "パッケージ %s (%s) は自己提供される %s と競合してい�
 #, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
 msgstr "パッケージ %s (%s) と %s (%s) 両方は %s を廃止しました"
-
-#: libdnf/goal/Goal.cpp:117
-#, c-format
-msgid "%s from %s does not belong to a distupgrade repository"
-msgstr "%s (%s) はdistupgradeレポジトリーに属していません"
-
-#: libdnf/goal/Goal.cpp:118
-#, c-format
-msgid "%s from %s has inferior architecture"
-msgstr "%s (%s) は下位アーキテクチャがあります"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -1245,6 +1235,14 @@ msgstr "TransactionItem の状態は設定されていません: %s"
 #: libdnf/transaction/private/Transaction.cpp:243
 msgid "Can't add console output to unsaved transaction"
 msgstr "未保存のトランザクションにコンソールの出力を追加できません"
+
+#, c-format
+#~ msgid "%s from %s  does not belong to a distupgrade repository"
+#~ msgstr "%s (%s)  はdistupgradeレポジトリーに属していません"
+
+#, c-format
+#~ msgid "%s from %s  has inferior architecture"
+#~ msgstr "%s (%s)  は下位アーキテクチャがあります"
 
 #, c-format
 #~ msgid "%s: gpgme_data_new_from_fd(): %s"

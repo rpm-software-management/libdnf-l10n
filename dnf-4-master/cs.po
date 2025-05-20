@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-27 02:24+0000\n"
+"POT-Creation-Date: 2025-05-20 02:25+0000\n"
 "PO-Revision-Date: 2025-02-05 21:47+0000\n"
 "Last-Translator: Jonáš Loskot <fedoraproject.org@alius.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
@@ -109,41 +109,41 @@ msgstr "nepodařilo se převést ‘%s‘ na sekundy"
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): Hodnota není nastavena"
 
-#: libdnf/dnf-context.cpp:3321 libdnf/dnf-context.cpp:3330
+#: libdnf/dnf-context.cpp:3325 libdnf/dnf-context.cpp:3334
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr "Nelze povolit více streamů z modulu '%s' současně"
 
-#: libdnf/dnf-context.cpp:3339 libdnf/dnf-context.cpp:3357
+#: libdnf/dnf-context.cpp:3343 libdnf/dnf-context.cpp:3361
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr "Nelze povolit stream '%2$s' modulu '%1$s': Stav modulu již upraven"
 
-#: libdnf/dnf-context.cpp:3406
+#: libdnf/dnf-context.cpp:3410
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "Problém modulárních závislostí s Defaults: %s"
 
-#: libdnf/dnf-context.cpp:3409
+#: libdnf/dnf-context.cpp:3413
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
 msgstr "Problém modulárních závislostí s nejnovějšími moduly: %s"
 
-#: libdnf/dnf-context.cpp:3413
+#: libdnf/dnf-context.cpp:3417
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "Problém modulární závislosti: %s"
 
-#: libdnf/dnf-context.cpp:3436 libdnf/dnf-context.cpp:3460
-#: libdnf/dnf-context.cpp:3471 libdnf/dnf-context.cpp:3510
-#: libdnf/dnf-context.cpp:3526 libdnf/dnf-context.cpp:3558
-#: libdnf/dnf-context.cpp:3607 libdnf/dnf-context.cpp:3617
+#: libdnf/dnf-context.cpp:3440 libdnf/dnf-context.cpp:3464
+#: libdnf/dnf-context.cpp:3475 libdnf/dnf-context.cpp:3514
+#: libdnf/dnf-context.cpp:3530 libdnf/dnf-context.cpp:3562
+#: libdnf/dnf-context.cpp:3611 libdnf/dnf-context.cpp:3621
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "Nelze vyřešit argument '%s'"
 
-#: libdnf/dnf-context.cpp:3443
+#: libdnf/dnf-context.cpp:3447
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
@@ -151,27 +151,27 @@ msgstr ""
 "Je vyžadován pouze název modulu. Ignorování nepotřebných informací v "
 "argumentu: '%s'"
 
-#: libdnf/dnf-context.cpp:3457
+#: libdnf/dnf-context.cpp:3461
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr "Nelze resetovat modul '%s': Stav modulu již upraven"
 
-#: libdnf/dnf-context.cpp:3468
+#: libdnf/dnf-context.cpp:3472
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr "Nelze zakázat modul '%s': Stav modulu již upraven"
 
-#: libdnf/dnf-context.cpp:3499 libdnf/dnf-context.cpp:3595
-#: libdnf/dnf-context.cpp:3776
+#: libdnf/dnf-context.cpp:3503 libdnf/dnf-context.cpp:3599
+#: libdnf/dnf-context.cpp:3780
 msgid "No modular data available"
 msgstr "Nejsou k dispozici žádné modulární údaje"
 
-#: libdnf/dnf-context.cpp:3516
+#: libdnf/dnf-context.cpp:3520
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Ignorování nepotřebných informací v argumentu: '%s'"
 
-#: libdnf/dnf-context.cpp:3554
+#: libdnf/dnf-context.cpp:3558
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
@@ -179,55 +179,55 @@ msgid ""
 msgstr ""
 "Problém při aktivaci stromu závislostí pro modul '%1$s' stream '%2$s': %3$s"
 
-#: libdnf/dnf-context.cpp:3566
+#: libdnf/dnf-context.cpp:3570
 msgid "Problems appeared for module enable request:"
 msgstr "U požadavku na povolení modulu se objevily problémy:"
 
-#: libdnf/dnf-context.cpp:3661
+#: libdnf/dnf-context.cpp:3665
 #, c-format
 msgid "No active module packages found for module spec '%s'"
 msgstr "Nebyly nalezeny žádné aktivní balíčky modulů pro určený modul '%s'"
 
-#: libdnf/dnf-context.cpp:3666
+#: libdnf/dnf-context.cpp:3670
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
 msgstr "Nelze nainstalovat modul '%s' z bezpečného repozitáře"
 
-#: libdnf/dnf-context.cpp:3673
+#: libdnf/dnf-context.cpp:3677
 #, c-format
 msgid "No profile found matching '%s'"
 msgstr "Nebyl nalezen žádný profil odpovídající '%s'"
 
-#: libdnf/dnf-context.cpp:3727
+#: libdnf/dnf-context.cpp:3731
 #, c-format
 msgid "No match for package '%s' for module spec %s"
 msgstr "Žádná shoda pro balíček '%s' pro určený modul %s"
 
-#: libdnf/dnf-context.cpp:3738
+#: libdnf/dnf-context.cpp:3742
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
 msgstr "Problém během instalace pro modul '%1$s' stream '%2$s': %3$s"
 
-#: libdnf/dnf-context.cpp:3747
+#: libdnf/dnf-context.cpp:3751
 msgid "Problems appeared for module install request:"
 msgstr "Při požadavku na instalaci modulu se objevily problémy:"
 
-#: libdnf/dnf-context.cpp:3806
+#: libdnf/dnf-context.cpp:3810
 msgid "Problems appeared for module reset request:"
 msgstr "Při požadavku na reset modulu se objevily problémy:"
 
-#: libdnf/dnf-context.cpp:3807 libdnf/dnf-context.cpp:3866
+#: libdnf/dnf-context.cpp:3811 libdnf/dnf-context.cpp:3870
 msgid "Problems appeared for module disable request:"
 msgstr "Při požadavku na zakázání modulu se objevily problémy:"
 
-#: libdnf/dnf-context.cpp:3898
+#: libdnf/dnf-context.cpp:3902
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
 msgstr "Operace by vedla k přepnutí streamu modulu '%s' '%s' na stream '%s'"
 
-#: libdnf/dnf-context.cpp:3902
+#: libdnf/dnf-context.cpp:3906
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -571,14 +571,14 @@ msgstr "Pro operaci byl použit nesprávný selektor, nesprávný typ porovnán�
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr "Pro operaci byl použit nesprávný selektor, nesprávný typ porovnání"
 
-#: libdnf/goal/Goal.cpp:90
+#: libdnf/goal/Goal.cpp:90 libdnf/goal/Goal.cpp:117
 #, c-format
-msgid "%s from %s  does not belong to a distupgrade repository"
+msgid "%s from %s does not belong to a distupgrade repository"
 msgstr "%s z %s nepatří do distupgrade repozitáře"
 
-#: libdnf/goal/Goal.cpp:91
+#: libdnf/goal/Goal.cpp:91 libdnf/goal/Goal.cpp:118
 #, c-format
-msgid "%s from %s  has inferior architecture"
+msgid "%s from %s has inferior architecture"
 msgstr "%s z %s má špatnou architekturu"
 
 #: libdnf/goal/Goal.cpp:92
@@ -685,16 +685,6 @@ msgstr "balíček %s od %s je v konfliktu s %s poskytnutým sebou samotným"
 #, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
 msgstr "oba balíčky %s z %s a %s z %s jsou zastaralé %s"
-
-#: libdnf/goal/Goal.cpp:117
-#, c-format
-msgid "%s from %s does not belong to a distupgrade repository"
-msgstr "%s z %s nepatří do distupgrade repozitáře"
-
-#: libdnf/goal/Goal.cpp:118
-#, c-format
-msgid "%s from %s has inferior architecture"
-msgstr "%s z %s má špatnou architekturu"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -1211,6 +1201,14 @@ msgstr "Stav TransactionItem není nastaven: %s"
 #: libdnf/transaction/private/Transaction.cpp:243
 msgid "Can't add console output to unsaved transaction"
 msgstr "Nelze přidat výstup konzoly do neuložené transakce"
+
+#, c-format
+#~ msgid "%s from %s  does not belong to a distupgrade repository"
+#~ msgstr "%s z %s nepatří do distupgrade repozitáře"
+
+#, c-format
+#~ msgid "%s from %s  has inferior architecture"
+#~ msgstr "%s z %s má špatnou architekturu"
 
 #, c-format
 #~ msgid "%s: gpgme_data_new_from_fd(): %s"
