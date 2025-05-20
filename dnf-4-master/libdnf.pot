@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-19 02:29+0000\n"
+"POT-Creation-Date: 2025-05-20 02:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -553,14 +553,14 @@ msgstr ""
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr ""
 
-#: libdnf/goal/Goal.cpp:90
+#: libdnf/goal/Goal.cpp:90 libdnf/goal/Goal.cpp:117
 #, c-format
-msgid "%s from %s  does not belong to a distupgrade repository"
+msgid "%s from %s does not belong to a distupgrade repository"
 msgstr ""
 
-#: libdnf/goal/Goal.cpp:91
+#: libdnf/goal/Goal.cpp:91 libdnf/goal/Goal.cpp:118
 #, c-format
-msgid "%s from %s  has inferior architecture"
+msgid "%s from %s has inferior architecture"
 msgstr ""
 
 #: libdnf/goal/Goal.cpp:92
@@ -664,16 +664,6 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:113
 #, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
-msgstr ""
-
-#: libdnf/goal/Goal.cpp:117
-#, c-format
-msgid "%s from %s does not belong to a distupgrade repository"
-msgstr ""
-
-#: libdnf/goal/Goal.cpp:118
-#, c-format
-msgid "%s from %s has inferior architecture"
 msgstr ""
 
 #: libdnf/goal/Goal.cpp:119
