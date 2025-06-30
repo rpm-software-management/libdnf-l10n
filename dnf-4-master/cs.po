@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-20 02:25+0000\n"
+"POT-Creation-Date: 2025-06-30 02:34+0000\n"
 "PO-Revision-Date: 2025-02-05 21:47+0000\n"
 "Last-Translator: Jonáš Loskot <fedoraproject.org@alius.cz>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/dnf/"
@@ -54,7 +54,7 @@ msgstr "hodnota 1 není povolena"
 msgid "negative value is not allowed"
 msgstr "záporná hodnota není povolena"
 
-#: libdnf/conf/ConfigMain.cpp:346
+#: libdnf/conf/ConfigMain.cpp:348
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "Procento '%s' je mimo rozsah"
@@ -1160,7 +1160,8 @@ msgstr "V přípravě"
 
 #: libdnf/transaction/Swdb.cpp:187 libdnf/transaction/Swdb.cpp:215
 #: libdnf/transaction/Swdb.cpp:227 libdnf/transaction/Swdb.cpp:244
-#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:393
+#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:392
+#: libdnf/transaction/Swdb.cpp:401
 msgid "Not in progress"
 msgstr "Neprovádí se"
 
@@ -1176,16 +1177,16 @@ msgstr "Pokus o vložení položky transakce do dokončené transakce"
 msgid "Attempt to update transaction item in completed transaction"
 msgstr "Pokus o aktualizaci položky transakce v dokončené transakci"
 
-#: libdnf/transaction/Transformer.cpp:76
+#: libdnf/transaction/Transformer.cpp:83
 msgid "Database Corrupted: no row 'version' in table 'config'"
 msgstr ""
 "Databáze je poškozena: neexistuje žádný řádek 'version' v tabulce 'config'"
 
-#: libdnf/transaction/Transformer.cpp:681
+#: libdnf/transaction/Transformer.cpp:688
 msgid "Transformer: can't open history persist dir"
 msgstr "Transformer: nelze otevřít historii persist dir"
 
-#: libdnf/transaction/Transformer.cpp:694
+#: libdnf/transaction/Transformer.cpp:701
 msgid "Couldn't find a history database"
 msgstr "Nepodařilo se najít databázi historie"
 
@@ -1198,7 +1199,7 @@ msgstr "Transakce již začala!"
 msgid "TransactionItem state is not set: %s"
 msgstr "Stav TransactionItem není nastaven: %s"
 
-#: libdnf/transaction/private/Transaction.cpp:243
+#: libdnf/transaction/private/Transaction.cpp:247
 msgid "Can't add console output to unsaved transaction"
 msgstr "Nelze přidat výstup konzoly do neuložené transakce"
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-20 02:25+0000\n"
+"POT-Creation-Date: 2025-06-30 02:34+0000\n"
 "PO-Revision-Date: 2021-04-04 06:01+0000\n"
 "Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
 "Language-Team: Bengali <https://translate.fedoraproject.org/projects/dnf/"
@@ -52,7 +52,7 @@ msgstr "'%s' একটি অনুমোদিত মান নয়"
 msgid "negative value is not allowed"
 msgstr ""
 
-#: libdnf/conf/ConfigMain.cpp:346
+#: libdnf/conf/ConfigMain.cpp:348
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "শতাংশ '%s' সীমার বাইরে"
@@ -1133,7 +1133,8 @@ msgstr "চলমান"
 
 #: libdnf/transaction/Swdb.cpp:187 libdnf/transaction/Swdb.cpp:215
 #: libdnf/transaction/Swdb.cpp:227 libdnf/transaction/Swdb.cpp:244
-#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:393
+#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:392
+#: libdnf/transaction/Swdb.cpp:401
 msgid "Not in progress"
 msgstr ""
 
@@ -1149,15 +1150,15 @@ msgstr ""
 msgid "Attempt to update transaction item in completed transaction"
 msgstr ""
 
-#: libdnf/transaction/Transformer.cpp:76
+#: libdnf/transaction/Transformer.cpp:83
 msgid "Database Corrupted: no row 'version' in table 'config'"
 msgstr ""
 
-#: libdnf/transaction/Transformer.cpp:681
+#: libdnf/transaction/Transformer.cpp:688
 msgid "Transformer: can't open history persist dir"
 msgstr ""
 
-#: libdnf/transaction/Transformer.cpp:694
+#: libdnf/transaction/Transformer.cpp:701
 msgid "Couldn't find a history database"
 msgstr ""
 
@@ -1170,6 +1171,6 @@ msgstr ""
 msgid "TransactionItem state is not set: %s"
 msgstr ""
 
-#: libdnf/transaction/private/Transaction.cpp:243
+#: libdnf/transaction/private/Transaction.cpp:247
 msgid "Can't add console output to unsaved transaction"
 msgstr ""

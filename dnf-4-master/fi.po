@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-20 02:25+0000\n"
+"POT-Creation-Date: 2025-06-30 02:34+0000\n"
 "PO-Revision-Date: 2025-03-20 13:44+0000\n"
 "Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
@@ -50,7 +50,7 @@ msgstr "arvo 1 ei ole sallittu"
 msgid "negative value is not allowed"
 msgstr "negatiivinen arvo ei ole sallittu"
 
-#: libdnf/conf/ConfigMain.cpp:346
+#: libdnf/conf/ConfigMain.cpp:348
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "prosenttiosuus ”%s” on alueen ulkopuolella"
@@ -1195,7 +1195,8 @@ msgstr "Meneillään"
 
 #: libdnf/transaction/Swdb.cpp:187 libdnf/transaction/Swdb.cpp:215
 #: libdnf/transaction/Swdb.cpp:227 libdnf/transaction/Swdb.cpp:244
-#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:393
+#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:392
+#: libdnf/transaction/Swdb.cpp:401
 msgid "Not in progress"
 msgstr "Ei meneillään"
 
@@ -1211,15 +1212,15 @@ msgstr "Yritetty lisätä transaktiokohta valmiiseen transaktioon"
 msgid "Attempt to update transaction item in completed transaction"
 msgstr "Yritetty päivittää transaktiokohta valmiissa transaktiossa"
 
-#: libdnf/transaction/Transformer.cpp:76
+#: libdnf/transaction/Transformer.cpp:83
 msgid "Database Corrupted: no row 'version' in table 'config'"
 msgstr "Tietokanta vioittunut: taulukosta 'config' puuttuu rivi 'version'"
 
-#: libdnf/transaction/Transformer.cpp:681
+#: libdnf/transaction/Transformer.cpp:688
 msgid "Transformer: can't open history persist dir"
 msgstr "Muunnin: pysyvän historiakansion avaus epäonnistui"
 
-#: libdnf/transaction/Transformer.cpp:694
+#: libdnf/transaction/Transformer.cpp:701
 msgid "Couldn't find a history database"
 msgstr "Historiatietokantaa ei löytynyt"
 
@@ -1232,7 +1233,7 @@ msgstr "Transaktio on jo alkanut!"
 msgid "TransactionItem state is not set: %s"
 msgstr "TransactionItemin tilaa ei asetettu: %s"
 
-#: libdnf/transaction/private/Transaction.cpp:243
+#: libdnf/transaction/private/Transaction.cpp:247
 msgid "Can't add console output to unsaved transaction"
 msgstr "Konsolin ulostuloa ei voi lisätä tallentamattomaan transaktioon"
 

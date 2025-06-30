@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-20 02:25+0000\n"
+"POT-Creation-Date: 2025-06-30 02:34+0000\n"
 "PO-Revision-Date: 2024-08-15 14:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/dnf/"
@@ -49,7 +49,7 @@ msgstr "1 değerine izin verilmiyor"
 msgid "negative value is not allowed"
 msgstr "negatif değere izin verilmiyor"
 
-#: libdnf/conf/ConfigMain.cpp:346
+#: libdnf/conf/ConfigMain.cpp:348
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "yüzde değeri '%s' aralık dışında"
@@ -1180,7 +1180,8 @@ msgstr "Devam ediyor"
 
 #: libdnf/transaction/Swdb.cpp:187 libdnf/transaction/Swdb.cpp:215
 #: libdnf/transaction/Swdb.cpp:227 libdnf/transaction/Swdb.cpp:244
-#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:393
+#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:392
+#: libdnf/transaction/Swdb.cpp:401
 msgid "Not in progress"
 msgstr "Devam etmiyor"
 
@@ -1196,15 +1197,15 @@ msgstr "Tamamlanan işleme bir işlem ögesi ekleme girişimi"
 msgid "Attempt to update transaction item in completed transaction"
 msgstr "Tamamlanan işlemdeki işlem ögesini güncelleme girişimi"
 
-#: libdnf/transaction/Transformer.cpp:76
+#: libdnf/transaction/Transformer.cpp:83
 msgid "Database Corrupted: no row 'version' in table 'config'"
 msgstr "Bozuk Veri Tabanı: 'config' tablosunda 'version' satırı yok"
 
-#: libdnf/transaction/Transformer.cpp:681
+#: libdnf/transaction/Transformer.cpp:688
 msgid "Transformer: can't open history persist dir"
 msgstr "Transformer: kalıcı geçmiş dizini açılamıyor"
 
-#: libdnf/transaction/Transformer.cpp:694
+#: libdnf/transaction/Transformer.cpp:701
 msgid "Couldn't find a history database"
 msgstr "Bir geçmiş veri tabanı bulunamadı"
 
@@ -1217,7 +1218,7 @@ msgstr "İşlem zaten başladı!"
 msgid "TransactionItem state is not set: %s"
 msgstr "TransactionItem durumu ayarlanmadı: %s"
 
-#: libdnf/transaction/private/Transaction.cpp:243
+#: libdnf/transaction/private/Transaction.cpp:247
 msgid "Can't add console output to unsaved transaction"
 msgstr "Kaydedilmemiş işleme konsol çıktısı eklenemiyor"
 

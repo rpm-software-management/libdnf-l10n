@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-20 02:25+0000\n"
+"POT-Creation-Date: 2025-06-30 02:34+0000\n"
 "PO-Revision-Date: 2024-08-24 11:21+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/dnf/"
@@ -58,7 +58,7 @@ msgstr "wartość 1 nie jest dozwolona"
 msgid "negative value is not allowed"
 msgstr "ujemna wartość nie jest dozwolona"
 
-#: libdnf/conf/ConfigMain.cpp:346
+#: libdnf/conf/ConfigMain.cpp:348
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "procent „%s” jest poza zakresem"
@@ -1199,7 +1199,8 @@ msgstr "W trakcie wykonywania"
 
 #: libdnf/transaction/Swdb.cpp:187 libdnf/transaction/Swdb.cpp:215
 #: libdnf/transaction/Swdb.cpp:227 libdnf/transaction/Swdb.cpp:244
-#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:393
+#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:392
+#: libdnf/transaction/Swdb.cpp:401
 msgid "Not in progress"
 msgstr "Nie jest w trakcie wykonywania"
 
@@ -1215,15 +1216,15 @@ msgstr "Próba wstawienia elementu transakcji do ukończonej transakcji"
 msgid "Attempt to update transaction item in completed transaction"
 msgstr "Próba zaktualizowania elementu transakcji w ukończonej transakcji"
 
-#: libdnf/transaction/Transformer.cpp:76
+#: libdnf/transaction/Transformer.cpp:83
 msgid "Database Corrupted: no row 'version' in table 'config'"
 msgstr "Uszkodzona baza danych: brak rzędu „version” w tabeli „config”"
 
-#: libdnf/transaction/Transformer.cpp:681
+#: libdnf/transaction/Transformer.cpp:688
 msgid "Transformer: can't open history persist dir"
 msgstr "Transformer: nie można otworzyć trwałego katalogu historii"
 
-#: libdnf/transaction/Transformer.cpp:694
+#: libdnf/transaction/Transformer.cpp:701
 msgid "Couldn't find a history database"
 msgstr "Nie można odnaleźć bazy danych historii"
 
@@ -1236,7 +1237,7 @@ msgstr "Transakcja została już rozpoczęta."
 msgid "TransactionItem state is not set: %s"
 msgstr "Stan TransactionItem nie jest ustawiony: %s"
 
-#: libdnf/transaction/private/Transaction.cpp:243
+#: libdnf/transaction/private/Transaction.cpp:247
 msgid "Can't add console output to unsaved transaction"
 msgstr "Nie można dodać wyjścia konsoli do niezapisanej transakcji"
 

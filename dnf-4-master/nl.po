@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-20 02:25+0000\n"
+"POT-Creation-Date: 2025-06-30 02:34+0000\n"
 "PO-Revision-Date: 2023-08-10 14:21+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/dnf/"
@@ -48,7 +48,7 @@ msgstr "waarde 1 wordt niet toegestaan"
 msgid "negative value is not allowed"
 msgstr "negatieve waarde wordt niet toegestaan"
 
-#: libdnf/conf/ConfigMain.cpp:346
+#: libdnf/conf/ConfigMain.cpp:348
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "percentage '%s' valt buiten de reeks"
@@ -1187,7 +1187,8 @@ msgstr "Bezig"
 
 #: libdnf/transaction/Swdb.cpp:187 libdnf/transaction/Swdb.cpp:215
 #: libdnf/transaction/Swdb.cpp:227 libdnf/transaction/Swdb.cpp:244
-#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:393
+#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:392
+#: libdnf/transaction/Swdb.cpp:401
 msgid "Not in progress"
 msgstr "Niet bezig"
 
@@ -1203,15 +1204,15 @@ msgstr "Probeer transactie-item toe te voegen in voltooide transactie"
 msgid "Attempt to update transaction item in completed transaction"
 msgstr "Probeer transactie-item te updaten in voltooide transactie"
 
-#: libdnf/transaction/Transformer.cpp:76
+#: libdnf/transaction/Transformer.cpp:83
 msgid "Database Corrupted: no row 'version' in table 'config'"
 msgstr "Database beschadigd: geen rij 'versie' in tabel 'config'"
 
-#: libdnf/transaction/Transformer.cpp:681
+#: libdnf/transaction/Transformer.cpp:688
 msgid "Transformer: can't open history persist dir"
 msgstr "Transformer: kan geschiedenis aanhoudende map niet openen"
 
-#: libdnf/transaction/Transformer.cpp:694
+#: libdnf/transaction/Transformer.cpp:701
 msgid "Couldn't find a history database"
 msgstr "Kan geen geschiedenisdatabase vinden"
 
@@ -1224,7 +1225,7 @@ msgstr "Transactie is al begonnen!"
 msgid "TransactionItem state is not set: %s"
 msgstr "TransactionItem toestand in niet ingesteld: %s"
 
-#: libdnf/transaction/private/Transaction.cpp:243
+#: libdnf/transaction/private/Transaction.cpp:247
 msgid "Can't add console output to unsaved transaction"
 msgstr "Kan console-uitvoer niet toevoegen aan niet-opgeslagen transactie"
 

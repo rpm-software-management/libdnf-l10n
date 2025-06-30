@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-20 02:25+0000\n"
+"POT-Creation-Date: 2025-06-30 02:34+0000\n"
 "PO-Revision-Date: 2024-08-21 04:38+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
@@ -50,7 +50,7 @@ msgstr "მნიშვნელობა 1 დაუშვებელია"
 msgid "negative value is not allowed"
 msgstr "უარყოფითი მნიშვნელობა დაუშვებელია"
 
-#: libdnf/conf/ConfigMain.cpp:346
+#: libdnf/conf/ConfigMain.cpp:348
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "პროცენტულობა '%s' დიაპაზონს გარეთაა"
@@ -1187,7 +1187,8 @@ msgstr "მიმდინარეობა"
 
 #: libdnf/transaction/Swdb.cpp:187 libdnf/transaction/Swdb.cpp:215
 #: libdnf/transaction/Swdb.cpp:227 libdnf/transaction/Swdb.cpp:244
-#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:393
+#: libdnf/transaction/Swdb.cpp:383 libdnf/transaction/Swdb.cpp:392
+#: libdnf/transaction/Swdb.cpp:401
 msgid "Not in progress"
 msgstr "ar არ მიმდინარეობს"
 
@@ -1203,15 +1204,15 @@ msgstr "ტრანზაქციის უკვე დასრულებ�
 msgid "Attempt to update transaction item in completed transaction"
 msgstr "დასრულებულ ტრანზაქციაში ელემენტის განახლების მცდელობა"
 
-#: libdnf/transaction/Transformer.cpp:76
+#: libdnf/transaction/Transformer.cpp:83
 msgid "Database Corrupted: no row 'version' in table 'config'"
 msgstr "ბაზა დაზიანებულია: ცხრილში 'config' მწკრივი 'version' არ არსებობს"
 
-#: libdnf/transaction/Transformer.cpp:681
+#: libdnf/transaction/Transformer.cpp:688
 msgid "Transformer: can't open history persist dir"
 msgstr "გადამქმნელი: ისტორიის მუდმივი საქაღალდის გახსნის შეცდომა"
 
-#: libdnf/transaction/Transformer.cpp:694
+#: libdnf/transaction/Transformer.cpp:701
 msgid "Couldn't find a history database"
 msgstr "სტორიის ბაზის გახსნის შეცდომა"
 
@@ -1224,7 +1225,7 @@ msgstr "ტრანზაქცია უკვე დაიწყო!"
 msgid "TransactionItem state is not set: %s"
 msgstr "TransactionItem-ის მდგომარეობა დაყენებული არაა: %s"
 
-#: libdnf/transaction/private/Transaction.cpp:243
+#: libdnf/transaction/private/Transaction.cpp:247
 msgid "Can't add console output to unsaved transaction"
 msgstr "შეუნახავ ტრანზაქციაში კონსოლის გამოტანის დამატება შეუძლებელია"
 
