@@ -1,4 +1,4 @@
-# Igor Gorbounov <igor.gorbounov@gmail.com>, 2017. #zanata, 2020, 2021.
+# Igor Gorbounov <igor.gorbounov@gmail.com>, 2017. #zanata, 2020, 2021, 2025.
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Petr Molodyk <pamolodyk@gmail.com>, 2020.
 # Vladyslav Spirin <vladspirin@hotmail.com>, 2020.
@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-15 02:19+0000\n"
-"PO-Revision-Date: 2023-01-19 14:20+0000\n"
-"Last-Translator: Vi <xasertop@gmail.com>\n"
+"PO-Revision-Date: 2025-10-21 12:43+0000\n"
+"Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ru/>\n"
 "Language: ru\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.1\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -301,10 +301,9 @@ msgid "signature not found for %s"
 msgstr "подпись не найдена для %s"
 
 #: libdnf/dnf-rpmts.cpp:186
-#, fuzzy, c-format
-#| msgid "failed to add install element: %1$s [%2$i]"
+#, c-format
 msgid "failed to add reinstall element: %1$s [%2$i]"
-msgstr "не удалось добавить элемент установки: %1$s [%2$i]"
+msgstr "не удалось добавить элемент переустановки: %1$s [%2$i]"
 
 #: libdnf/dnf-rpmts.cpp:231
 #, c-format
@@ -585,16 +584,14 @@ msgstr ""
 "тип сравнения"
 
 #: libdnf/goal/Goal.cpp:90 libdnf/goal/Goal.cpp:117
-#, fuzzy, c-format
-#| msgid " does not belong to a distupgrade repository"
+#, c-format
 msgid "%s from %s does not belong to a distupgrade repository"
-msgstr " не относится к хранилищу обновлений дистрибутива"
+msgstr "%s из %s не относится к хранилищу обновлений дистрибутива"
 
 #: libdnf/goal/Goal.cpp:91 libdnf/goal/Goal.cpp:118
-#, fuzzy, c-format
-#| msgid " has inferior architecture"
+#, c-format
 msgid "%s from %s has inferior architecture"
-msgstr " относится к плохой архитектуре"
+msgstr "%s из %s относится к плохой архитектуре"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -634,86 +631,74 @@ msgid "cannot install the best candidate for the job"
 msgstr "не удаётся установить лучший вариант для этой задачи"
 
 #: libdnf/goal/Goal.cpp:101
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by modular filtering"
+#, c-format
 msgid "package %s from %s is filtered out by modular filtering"
-msgstr "пакет %s отфильтрован модульным фильтрованием"
+msgstr "пакет %s из %s отфильтрован модульным фильтрованием"
 
 #: libdnf/goal/Goal.cpp:102
-#, fuzzy, c-format
-#| msgid "package %s does not have a compatible architecture"
+#, c-format
 msgid "package %s from %s does not have a compatible architecture"
-msgstr "пакет %s не имеет совместимой архитектуры"
+msgstr "пакет %s из %s не имеет совместимой архитектуры"
 
 #: libdnf/goal/Goal.cpp:103
-#, fuzzy, c-format
-#| msgid "package %s is not installable"
+#, c-format
 msgid "package %s from %s is not installable"
-msgstr "пакет %s непригодный для установки"
+msgstr "пакет %s из %s непригоден для установки"
 
 #: libdnf/goal/Goal.cpp:104
-#, fuzzy, c-format
-#| msgid "package %s is filtered out by exclude filtering"
+#, c-format
 msgid "package %s from %s is filtered out by exclude filtering"
-msgstr "пакет %s отфильтровано при помощи фильтрации исключения"
+msgstr "пакет %s из %s отфильтрован при помощи фильтрации исключения"
 
 #: libdnf/goal/Goal.cpp:105
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by %s"
+#, c-format
 msgid "nothing provides %s needed by %s from %s"
-msgstr "не содержится ничего из %s необходимого для %s"
+msgstr "не содержится ничего из %s необходимого для %s из %s"
 
 #: libdnf/goal/Goal.cpp:106
-#, fuzzy, c-format
-#| msgid "cannot install both %s and %s"
+#, c-format
 msgid "cannot install both %s from %s and %s from %s"
-msgstr "невозможно установить %s совместно с %s"
+msgstr "невозможно установить %s из %s, и %s из %s"
 
 #: libdnf/goal/Goal.cpp:107
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by %s"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by %s from %s"
-msgstr "пакет %s конфликтирует с %s предоставляемый %s"
+msgstr "пакет %s из %s конфликтирует с %s, предоставляемым %s из %s"
 
 #: libdnf/goal/Goal.cpp:108
-#, fuzzy, c-format
-#| msgid "package %s obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s obsoletes %s provided by %s from %s"
-msgstr "пакет %s делает устаревшим %s который предоставляется %s"
+msgstr "пакет %s из %s делает устаревшим %s, который предоставляется %s из %s"
 
 #: libdnf/goal/Goal.cpp:109
-#, fuzzy, c-format
-#| msgid "installed package %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed package %s obsoletes %s provided by %s from %s"
 msgstr ""
-"установленный пакет %s делает устаревшим пакет %s который предоставляется %s"
+"установленный пакет %s делает устаревшим пакет %s, который предоставляется "
+"%s из %s"
 
 #: libdnf/goal/Goal.cpp:110
-#, fuzzy, c-format
-#| msgid "package %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "package %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "пакет %s неявно заменяет пакет %s предоставляемый %s"
+msgstr "пакет %s из %s неявно заменяет пакет %s, предоставляемый %s из %s"
 
 #: libdnf/goal/Goal.cpp:111
-#, fuzzy, c-format
-#| msgid "package %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
-"пакету %s требуется %s, но ни один из предоставляющих пакетов не может быть "
-"установлен"
+"пакету %s из %s требуется %s, но ни один из предоставляющих пакетов не может "
+"быть установлен"
 
 #: libdnf/goal/Goal.cpp:112
-#, fuzzy, c-format
-#| msgid "package %s conflicts with %s provided by itself"
+#, c-format
 msgid "package %s from %s conflicts with %s provided by itself"
-msgstr "пакет %s конфликтирует с пакетом %s предоставляемый сам собой"
+msgstr "пакет %s из %s конфликтирует с пакетом %s, предоставляемым им самим"
 
 #: libdnf/goal/Goal.cpp:113
-#, fuzzy, c-format
-#| msgid "both package %s and %s obsolete %s"
+#, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
-msgstr "оба пакета %s и %s делают устаревшим %s"
+msgstr "оба пакета %s из %s и %s из %s делают устаревшим %s"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -729,79 +714,70 @@ msgid "cannot install the best update candidate for module "
 msgstr "не удалось установить лучший вариант обновления для модуля "
 
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
-#, fuzzy, c-format
-#| msgid "module %s is disabled"
+#, c-format
 msgid "module %s from %s is disabled"
-msgstr "модуль %s отключён"
+msgstr "модуль %s из %s отключён"
 
 #: libdnf/goal/Goal.cpp:129
-#, fuzzy, c-format
-#| msgid "module %s does not have a compatible architecture"
+#, c-format
 msgid "module %s from %s does not have a compatible architecture"
-msgstr "для модуля %s нет совместимой архитектуры"
+msgstr "для модуля %s из %s нет совместимой архитектуры"
 
 #: libdnf/goal/Goal.cpp:130
-#, fuzzy, c-format
-#| msgid "module %s is not installable"
+#, c-format
 msgid "module %s from %s is not installable"
-msgstr "модуль %s непригодный для установки"
+msgstr "модуль %s из %s непригоден для установки"
 
 #: libdnf/goal/Goal.cpp:132
-#, fuzzy, c-format
-#| msgid "nothing provides %s needed by module %s"
+#, c-format
 msgid "nothing provides %s needed by module %s from %s"
-msgstr "не предоставляется %s необходимый для модуля %s"
+msgstr "не предоставляется %s, необходимого для модуля %s из %s"
 
 #: libdnf/goal/Goal.cpp:133
-#, fuzzy, c-format
-#| msgid "cannot install both modules %s and %s"
+#, c-format
 msgid "cannot install both modules %s from %s and %s from %s"
-msgstr "невозможна одновременная установка модулей %s и %s"
+msgstr "невозможна одновременная установка модулей %s из %s и %s из %s"
 
 #: libdnf/goal/Goal.cpp:134
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by %s"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
-msgstr "модуль %s конфликтирует с %s, предоставленный %s"
+msgstr "модуль %s из %s конфликтирует с %s, предоставленным %s из %s"
 
 #: libdnf/goal/Goal.cpp:135
-#, fuzzy, c-format
-#| msgid "module %s obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s obsoletes %s provided by %s from %s"
-msgstr "модуль %s делает устаревшим модуль %s предоставляемый %s"
+msgstr "модуль %s из %s делает устаревшим модуль %s, предоставляемый %s из %s"
 
 #: libdnf/goal/Goal.cpp:136
-#, fuzzy, c-format
-#| msgid "installed module %s obsoletes %s provided by %s"
+#, c-format
 msgid "installed module %s obsoletes %s provided by %s from %s"
-msgstr "установленный модуль %s делает устаревшим модуль %s предоставляемый %s"
+msgstr ""
+"установленный модуль %s делает устаревшим модуль %s, предоставляемый %s из %s"
 
 #: libdnf/goal/Goal.cpp:137
-#, fuzzy, c-format
-#| msgid "module %s implicitly obsoletes %s provided by %s"
+#, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "модуль %s неявным способом делает устаревшим %s предоставляемый %s"
+msgstr ""
+"модуль %s из %s неявным способом делает устаревшим %s, предоставляемый %s из "
+"%s"
 
 #: libdnf/goal/Goal.cpp:138
-#, fuzzy, c-format
-#| msgid "module %s requires %s, but none of the providers can be installed"
+#, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
-"модулю %s требуется %s, но ни один из предоставляющих пакетов не может быть "
-"установлен"
+"модулю %s из %s требуется %s, но ни один из предоставляющих пакетов не может "
+"быть установлен"
 
 #: libdnf/goal/Goal.cpp:139
-#, fuzzy, c-format
-#| msgid "module %s conflicts with %s provided by itself"
+#, c-format
 msgid "module %s from %s conflicts with %s provided by itself"
-msgstr "модуль %s конфликтует с %s, предоставленным самим пакетом"
+msgstr "модуль %s из %s конфликтует с %s, предоставленным самим пакетом"
 
 #: libdnf/goal/Goal.cpp:140
-#, fuzzy, c-format
-#| msgid "both module %s and %s obsolete %s"
+#, c-format
 msgid "both module %s from %s and %s from %s obsolete %s"
-msgstr "оба модуля %s и %s делают устаревшим %s"
+msgstr "оба модуля %s из %s и %s из %s делают устаревшим %s"
 
 #: libdnf/goal/Goal.cpp:1217
 msgid "no solver set"
