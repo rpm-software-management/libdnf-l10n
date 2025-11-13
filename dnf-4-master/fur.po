@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 02:16+0000\n"
+"POT-Creation-Date: 2025-11-13 02:24+0000\n"
 "PO-Revision-Date: 2023-03-05 05:24+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/dnf/"
@@ -329,133 +329,133 @@ msgstr "nol è stât pussibil cjatâ il pachet %s"
 msgid "could not add erase element %1$s(%2$i)"
 msgstr "impussibil zontâ un element di cancelazion %1$s(%2$i)"
 
-#: libdnf/dnf-sack.cpp:252
+#: libdnf/dnf-sack.cpp:261
 msgid "repo_add_solv() has failed."
 msgstr "repo_add_solv() al à falât."
 
-#: libdnf/dnf-sack.cpp:416
+#: libdnf/dnf-sack.cpp:425
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
 msgstr "Cjariament de cache de estension %s (%d) falît: "
 
-#: libdnf/dnf-sack.cpp:430
+#: libdnf/dnf-sack.cpp:439
 #, c-format
 msgid "no %1$s string for %2$s"
 msgstr "nissune stringhe %1$s par %2$s"
 
-#: libdnf/dnf-sack.cpp:440
+#: libdnf/dnf-sack.cpp:449
 #, c-format
 msgid "failed to open: %s"
 msgstr "nol è stât pussibil vierzi: %s"
 
-#: libdnf/dnf-sack.cpp:519
+#: libdnf/dnf-sack.cpp:528
 #, c-format
 msgid "cannot create temporary file: %s"
 msgstr "nol è stât pussibil creâ un file temporani: %s"
 
-#: libdnf/dnf-sack.cpp:529
+#: libdnf/dnf-sack.cpp:538
 #, c-format
 msgid "failed opening tmp file: %s"
 msgstr "nol è stât pussibil vierzi il file tmp: %s"
 
-#: libdnf/dnf-sack.cpp:551
+#: libdnf/dnf-sack.cpp:560
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
 "Dilunc la scriture de cache primarie %s la scriure di repowriter e je "
 "falide: %i, erôr %s"
 
-#: libdnf/dnf-sack.cpp:561
+#: libdnf/dnf-sack.cpp:570
 #, c-format
 msgid "Failed closing tmp file %s: %s"
 msgstr "Nol è stât pussibil sierâ il file tmp %s: %s"
 
-#: libdnf/dnf-sack.cpp:571
+#: libdnf/dnf-sack.cpp:580
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
 msgstr "Nol è stât pussibil doprâ la cache primarie a pene scrite: %s: "
 
-#: libdnf/dnf-sack.cpp:577
+#: libdnf/dnf-sack.cpp:586
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
 msgstr "Nol è stât pussibil doprâ la cache primarie a pene scrite: %s"
 
-#: libdnf/dnf-sack.cpp:627
+#: libdnf/dnf-sack.cpp:636
 #, c-format
 msgid "can not create temporary file %s"
 msgstr "nol è pussibil creâ il file temporani %s"
 
-#: libdnf/dnf-sack.cpp:667
+#: libdnf/dnf-sack.cpp:676
 #, c-format
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:677
+#: libdnf/dnf-sack.cpp:686
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:693
+#: libdnf/dnf-sack.cpp:702
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:700
+#: libdnf/dnf-sack.cpp:709
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:741
+#: libdnf/dnf-sack.cpp:750
 msgid "null repo md file"
 msgstr "null repo md file"
 
-#: libdnf/dnf-sack.cpp:750
+#: libdnf/dnf-sack.cpp:759
 #, c-format
 msgid "can not read file %1$s: %2$s"
 msgstr "impussibil lei il file %1$s: %2$s"
 
-#: libdnf/dnf-sack.cpp:765
+#: libdnf/dnf-sack.cpp:774
 #, c-format
 msgid "While loading repository failed to use %s: "
 msgstr ""
 
-#: libdnf/dnf-sack.cpp:776
+#: libdnf/dnf-sack.cpp:785
 msgid "loading of MD_TYPE_PRIMARY has failed."
 msgstr "nol è stât pussibil cjariâ MD_TYPE_PRIMARY."
 
-#: libdnf/dnf-sack.cpp:785
+#: libdnf/dnf-sack.cpp:794
 #, fuzzy, c-format
 #| msgid "Loading plugin file=\"%s\""
 msgid "Opening repository primary data has failed: %s"
 msgstr "Daûr a cjariâ il file dal plugin=\"%s\""
 
-#: libdnf/dnf-sack.cpp:796
+#: libdnf/dnf-sack.cpp:805
 #, fuzzy, c-format
 #| msgid "Loading plugin file=\"%s\""
 msgid "Loading repomd has failed: %s"
 msgstr "Daûr a cjariâ il file dal plugin=\"%s\""
 
-#: libdnf/dnf-sack.cpp:807
+#: libdnf/dnf-sack.cpp:816
 #, fuzzy, c-format
 #| msgid "Loading plugin file=\"%s\""
 msgid "Loading primary has failed: %s"
 msgstr "Daûr a cjariâ il file dal plugin=\"%s\""
 
-#: libdnf/dnf-sack.cpp:873
+#: libdnf/dnf-sack.cpp:882
 msgid "failed to auto-detect architecture"
 msgstr "nol è stât pussibil rilevâ in automatic la architeture"
 
-#: libdnf/dnf-sack.cpp:1038
+#: libdnf/dnf-sack.cpp:1047
 #, c-format
 msgid "failed creating cachedir %s"
 msgstr "nol è stât pussibil creâ la cachedir %s"
 
-#: libdnf/dnf-sack.cpp:1815
+#: libdnf/dnf-sack.cpp:1824
 msgid "failed loading RPMDB"
 msgstr "nol è stât pussibil cjariâ la RPMDB"
 
-#: libdnf/dnf-sack.cpp:2606
+#: libdnf/dnf-sack.cpp:2615
 #, c-format
 msgid "No module defaults found: %s"
 msgstr ""
