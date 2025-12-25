@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-25 02:31+0000\n"
-"PO-Revision-Date: 2025-12-25 10:21+0000\n"
+"PO-Revision-Date: 2025-12-25 15:53+0000\n"
 "Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ca/>\n"
@@ -43,14 +43,12 @@ msgid "invalid value"
 msgstr "valor no vàlid"
 
 #: libdnf/conf/ConfigMain.cpp:208
-#, fuzzy
-#| msgid "'%s' is not an allowed value"
 msgid "value 1 is not allowed"
-msgstr "«%s» no és un valor permès"
+msgstr "el valor 1 no es permet"
 
 #: libdnf/conf/ConfigMain.cpp:210
 msgid "negative value is not allowed"
-msgstr ""
+msgstr "no es permet el valor negatiu"
 
 #: libdnf/conf/ConfigMain.cpp:348
 #, c-format
@@ -110,28 +108,29 @@ msgstr "GetValue(): Valor no establert"
 #: libdnf/dnf-context.cpp:3325 libdnf/dnf-context.cpp:3334
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
-msgstr ""
+msgstr "No es poden habilitar més fluxos del mòdul «%s» al mateix temps"
 
 #: libdnf/dnf-context.cpp:3343 libdnf/dnf-context.cpp:3361
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr ""
+"No es pot habilitar el mòdul «%1$s» flux «%2$s»: Estat del mòdul ja modificat"
 
 #: libdnf/dnf-context.cpp:3410
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
-msgstr ""
+msgstr "Problema de dependència modular amb els Valors Predeterminats: %s"
 
 #: libdnf/dnf-context.cpp:3413
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr ""
+msgstr "Problema de dependència modular amb els últims mòduls: %s"
 
 #: libdnf/dnf-context.cpp:3417
 #, c-format
 msgid "Modular dependency problem: %s"
-msgstr ""
+msgstr "Problema de dependència modular: %s"
 
 #: libdnf/dnf-context.cpp:3440 libdnf/dnf-context.cpp:3464
 #: libdnf/dnf-context.cpp:3475 libdnf/dnf-context.cpp:3514
@@ -139,33 +138,35 @@ msgstr ""
 #: libdnf/dnf-context.cpp:3611 libdnf/dnf-context.cpp:3621
 #, c-format
 msgid "Unable to resolve argument '%s'"
-msgstr ""
+msgstr "No s'ha pogut resoldre l'argument «%s»"
 
 #: libdnf/dnf-context.cpp:3447
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr ""
+"Només es requereix el nom del mòdul. S'ignora la informació innecessària a "
+"l'argument: «%s»"
 
 #: libdnf/dnf-context.cpp:3461
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
-msgstr ""
+msgstr "No es pot restablir el mòdul «%s»: Estat del mòdul ja modificat"
 
 #: libdnf/dnf-context.cpp:3472
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
-msgstr ""
+msgstr "No es pot desactivar el mòdul «%s»: Estat del mòdul ja modificat"
 
 #: libdnf/dnf-context.cpp:3503 libdnf/dnf-context.cpp:3599
 #: libdnf/dnf-context.cpp:3780
 msgid "No modular data available"
-msgstr ""
+msgstr "No hi ha dades modulars disponibles"
 
 #: libdnf/dnf-context.cpp:3520
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
-msgstr ""
+msgstr "S'ignora la informació innecessària a l'argument: «%s»"
 
 #: libdnf/dnf-context.cpp:3558
 #, c-format
@@ -173,47 +174,51 @@ msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
+"Problema durant l'habilitació de l'arbre de dependències per al mòdul «%1$s» "
+"flux «%2$s»: %3$s"
 
 #: libdnf/dnf-context.cpp:3570
 msgid "Problems appeared for module enable request:"
-msgstr ""
+msgstr "Han aparegut problemes per a la sol·licitud d'habilitació del mòdul:"
 
 #: libdnf/dnf-context.cpp:3665
 #, c-format
 msgid "No active module packages found for module spec '%s'"
 msgstr ""
+"No s'han trobat paquets de mòdul actius per a l'especificació del mòdul «%s»"
 
 #: libdnf/dnf-context.cpp:3670
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
-msgstr ""
+msgstr "No es pot instal·lar el mòdul «%s» des del dipòsit fail-safe"
 
 #: libdnf/dnf-context.cpp:3677
 #, c-format
 msgid "No profile found matching '%s'"
-msgstr ""
+msgstr "No s'ha trobat cap perfil coincident amb «%s»"
 
 #: libdnf/dnf-context.cpp:3731
 #, c-format
 msgid "No match for package '%s' for module spec %s"
 msgstr ""
+"No hi ha coincidència per al paquet «%s» per a l'especificació del mòdul %s"
 
 #: libdnf/dnf-context.cpp:3742
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
-msgstr ""
+msgstr "Problema durant la instal·lació per al mòdul «%1$s» flux «%2$s»: %3$s"
 
 #: libdnf/dnf-context.cpp:3751
 msgid "Problems appeared for module install request:"
-msgstr ""
+msgstr "Han aparegut problemes per a la sol·licitud d'instal·lació del mòdul:"
 
 #: libdnf/dnf-context.cpp:3810
 msgid "Problems appeared for module reset request:"
-msgstr ""
+msgstr "Han aparegut problemes per a la sol·licitud de restabliment del mòdul:"
 
 #: libdnf/dnf-context.cpp:3811 libdnf/dnf-context.cpp:3870
 msgid "Problems appeared for module disable request:"
-msgstr ""
+msgstr "Han aparegut problemes per a la sol·licitud de desactivació del mòdul:"
 
 #: libdnf/dnf-context.cpp:3902
 #, c-format
@@ -221,6 +226,8 @@ msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
 msgstr ""
+"L'operació donaria com a resultat el canvi del mòdul «%s» flux «%s» al flux "
+"«%s»"
 
 #: libdnf/dnf-context.cpp:3906
 msgid ""
@@ -229,6 +236,10 @@ msgid ""
 "the module using 'microdnf module reset <module_name>' command. After you "
 "reset the module, you can install the other stream."
 msgstr ""
+"No és possible canviar els fluxos habilitats d'un mòdul.\n"
+"Es recomana eliminar tot el contingut instal·lat del mòdul i restablir el "
+"mòdul utilitzant l'ordre «microdnf module reset <nom_mòdul>». Després de "
+"restablir el mòdul, podeu instal·lar l'altre flux."
 
 #: libdnf/dnf-goal.cpp:107
 msgid "Could not depsolve transaction; "
@@ -289,6 +300,7 @@ msgstr "no s'ha trobat la signatura per a %s"
 #, c-format
 msgid "failed to add reinstall element: %1$s [%2$i]"
 msgstr ""
+"s'ha produït un error en afegir l'element de reinstal·lació: %1$s [%2$i]"
 
 #: libdnf/dnf-rpmts.cpp:231
 #, c-format
@@ -325,7 +337,7 @@ msgstr "repo_add_solv() ha fallat."
 #: libdnf/dnf-sack.cpp:425
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "S'ha produït un error en carregar la memòria cau d'extensió %s (%d): "
 
 #: libdnf/dnf-sack.cpp:439
 #, c-format
@@ -351,21 +363,26 @@ msgstr "s'ha produït un error en obrir el fitxer tmp: %s"
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
+"Mentre s'escrivia la memòria cau primària %s, l'escriptura del repowriter ha "
+"fallat: %i, error: %s"
 
 #: libdnf/dnf-sack.cpp:570
 #, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr ""
+msgstr "S'ha produït un error en tancar el fitxer temporal %s: %s"
 
 #: libdnf/dnf-sack.cpp:580
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
 msgstr ""
+"S'ha produït un error en utilitzar la memòria cau primària recent escrita: "
+"%s: "
 
 #: libdnf/dnf-sack.cpp:586
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
 msgstr ""
+"S'ha produït un error en utilitzar la memòria cau primària recent escrita: %s"
 
 #: libdnf/dnf-sack.cpp:636
 #, c-format
@@ -377,21 +394,29 @@ msgstr "no es pot crear el fitxer temporal %s"
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
+"Mentre s'escrivia la memòria cau d'extensió %s (%d): l'escriptura del "
+"repowriter ha fallat: %i, error: %s"
 
 #: libdnf/dnf-sack.cpp:686
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
 msgstr ""
+"Mentre s'escrivia la memòria cau d'extensió (%d): no es pot tancar el fitxer "
+"temporal: %s"
 
 #: libdnf/dnf-sack.cpp:702
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
 msgstr ""
+"S'ha produït un error en utilitzar la memòria cau d'extensió recent escrita: "
+"%s (%d): "
 
 #: libdnf/dnf-sack.cpp:709
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
 msgstr ""
+"S'ha produït un error en utilitzar la memòria cau d'extensió recent escrita: "
+"%s (%d)"
 
 #: libdnf/dnf-sack.cpp:750
 msgid "null repo md file"
@@ -405,7 +430,7 @@ msgstr "no es pot llegir el fitxer %1$s: %2$s"
 #: libdnf/dnf-sack.cpp:774
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "Mentre es carregava el dipòsit, s'ha fallat d'utilitzar %s: "
 
 #: libdnf/dnf-sack.cpp:785
 msgid "loading of MD_TYPE_PRIMARY has failed."
@@ -414,17 +439,17 @@ msgstr "ha fallat la càrrega de MD_TYPE_PRIMARY."
 #: libdnf/dnf-sack.cpp:794
 #, c-format
 msgid "Opening repository primary data has failed: %s"
-msgstr ""
+msgstr "L'obertura de les dades primàries del dipòsit ha fallat: %s"
 
 #: libdnf/dnf-sack.cpp:805
 #, c-format
 msgid "Loading repomd has failed: %s"
-msgstr ""
+msgstr "La càrrega de repomd ha fallat: %s"
 
 #: libdnf/dnf-sack.cpp:816
 #, c-format
 msgid "Loading primary has failed: %s"
-msgstr ""
+msgstr "La càrrega del primari ha fallat: %s"
 
 #: libdnf/dnf-sack.cpp:882
 msgid "failed to auto-detect architecture"
@@ -442,7 +467,7 @@ msgstr "s'ha produït un error en carregar RPMDB"
 #: libdnf/dnf-sack.cpp:2615
 #, c-format
 msgid "No module defaults found: %s"
-msgstr ""
+msgstr "No s'han trobat valors predeterminats del mòdul: %s"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
@@ -526,11 +551,12 @@ msgstr "Error %i en executar la prova de transacció"
 #: libdnf/dnf-transaction.cpp:1470
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "Error %i en obrir la base de dades rpm"
 
 #: libdnf/dnf-transaction.cpp:1478 libdnf/dnf-transaction.cpp:1524
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
 msgstr ""
+"La funció rpmdbCookie() no ha retornat la galeta de la base de dades rpm."
 
 #: libdnf/dnf-transaction.cpp:1493
 #, c-format
@@ -569,12 +595,12 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:90 libdnf/goal/Goal.cpp:117
 #, c-format
 msgid "%s from %s does not belong to a distupgrade repository"
-msgstr ""
+msgstr "%s de %s no pertany a un dipòsit distupgrade"
 
 #: libdnf/goal/Goal.cpp:91 libdnf/goal/Goal.cpp:118
 #, c-format
 msgid "%s from %s has inferior architecture"
-msgstr ""
+msgstr "%s de %s té una arquitectura inferior"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -616,68 +642,71 @@ msgstr "no es pot instal·lar el millor candidat per a la feina"
 #: libdnf/goal/Goal.cpp:101
 #, c-format
 msgid "package %s from %s is filtered out by modular filtering"
-msgstr ""
+msgstr "el paquet %s de %s està filtrat pel filtratge modular"
 
 #: libdnf/goal/Goal.cpp:102
 #, c-format
 msgid "package %s from %s does not have a compatible architecture"
-msgstr ""
+msgstr "el paquet %s de %s no té una arquitectura compatible"
 
 #: libdnf/goal/Goal.cpp:103
 #, c-format
 msgid "package %s from %s is not installable"
-msgstr ""
+msgstr "el paquet %s de %s no és instal·lable"
 
 #: libdnf/goal/Goal.cpp:104
 #, c-format
 msgid "package %s from %s is filtered out by exclude filtering"
-msgstr ""
+msgstr "el paquet %s de %s està filtrat pel filtratge d'exclusió"
 
 #: libdnf/goal/Goal.cpp:105
 #, c-format
 msgid "nothing provides %s needed by %s from %s"
-msgstr ""
+msgstr "res no proporciona %s necessari per %s de %s"
 
 #: libdnf/goal/Goal.cpp:106
 #, c-format
 msgid "cannot install both %s from %s and %s from %s"
-msgstr ""
+msgstr "no es poden instal·lar alhora %s de %s i %s de %s"
 
 #: libdnf/goal/Goal.cpp:107
 #, c-format
 msgid "package %s from %s conflicts with %s provided by %s from %s"
-msgstr ""
+msgstr "el paquet %s de %s entra en conflicte amb %s proporcionat per %s de %s"
 
 #: libdnf/goal/Goal.cpp:108
 #, c-format
 msgid "package %s from %s obsoletes %s provided by %s from %s"
-msgstr ""
+msgstr "el paquet %s de %s fa obsolet %s proporcionat per %s de %s"
 
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s from %s"
-msgstr ""
+msgstr "el paquet instal·lat %s fa obsolet %s proporcionat per %s de %s"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
 msgid "package %s from %s implicitly obsoletes %s provided by %s from %s"
 msgstr ""
+"el paquet %s de %s fa obsolet implícitament %s proporcionat per %s de %s"
 
 #: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
+"el paquet %s de %s requereix %s, però cap dels proveïdors es pot instal·lar"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
 msgid "package %s from %s conflicts with %s provided by itself"
 msgstr ""
+"el paquet %s de %s entra en conflicte amb %s proporcionat per ell mateix"
 
 #: libdnf/goal/Goal.cpp:113
 #, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
-msgstr ""
+msgstr "tant el paquet %s de %s com %s de %s fan obsolet %s"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -695,63 +724,64 @@ msgstr "no es pot instal·lar el millor candidat d'actualització per al mòdul 
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
 #, c-format
 msgid "module %s from %s is disabled"
-msgstr ""
+msgstr "el mòdul %s de %s està desactivat"
 
 #: libdnf/goal/Goal.cpp:129
 #, c-format
 msgid "module %s from %s does not have a compatible architecture"
-msgstr ""
+msgstr "el mòdul %s de %s no té una arquitectura compatible"
 
 #: libdnf/goal/Goal.cpp:130
 #, c-format
 msgid "module %s from %s is not installable"
-msgstr ""
+msgstr "el mòdul %s de %s no és instal·lable"
 
 #: libdnf/goal/Goal.cpp:132
 #, c-format
 msgid "nothing provides %s needed by module %s from %s"
-msgstr ""
+msgstr "res no proporciona %s necessari pel mòdul %s de %s"
 
 #: libdnf/goal/Goal.cpp:133
 #, c-format
 msgid "cannot install both modules %s from %s and %s from %s"
-msgstr ""
+msgstr "no es poden instal·lar alhora els mòduls %s de %s i %s de %s"
 
 #: libdnf/goal/Goal.cpp:134
 #, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
-msgstr ""
+msgstr "el mòdul %s de %s entra en conflicte amb %s proporcionat per %s de %s"
 
 #: libdnf/goal/Goal.cpp:135
 #, c-format
 msgid "module %s from %s obsoletes %s provided by %s from %s"
-msgstr ""
+msgstr "el mòdul %s de %s fa obsolet %s proporcionat per %s de %s"
 
 #: libdnf/goal/Goal.cpp:136
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s from %s"
-msgstr ""
+msgstr "el mòdul instal·lat %s fa obsolet %s proporcionat per %s de %s"
 
 #: libdnf/goal/Goal.cpp:137
 #, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr ""
+msgstr "el mòdul %s de %s fa obsolet implícitament %s proporcionat per %s de %s"
 
 #: libdnf/goal/Goal.cpp:138
 #, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
+"el mòdul %s de %s requereix %s, però cap dels proveïdors es pot instal·lar"
 
 #: libdnf/goal/Goal.cpp:139
 #, c-format
 msgid "module %s from %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "el mòdul %s de %s entra en conflicte amb %s proporcionat per ell mateix"
 
 #: libdnf/goal/Goal.cpp:140
 #, c-format
 msgid "both module %s from %s and %s from %s obsolete %s"
-msgstr ""
+msgstr "tant el mòdul %s de %s com %s de %s fan obsolet %s"
 
 #: libdnf/goal/Goal.cpp:1217
 msgid "no solver set"
@@ -780,16 +810,13 @@ msgid "no solution possible"
 msgstr "no hi ha cap solució possible"
 
 #: libdnf/goal/Goal.cpp:1372
-#, fuzzy
-#| msgid " Problem: %s\n"
 msgid "Problem: "
-msgstr " Problema: %s\n"
+msgstr "Problema: "
 
 #: libdnf/goal/Goal.cpp:1377
-#, fuzzy, c-format
-#| msgid " Problem: %s\n"
+#, c-format
 msgid "Problem %d: "
-msgstr " Problema: %s\n"
+msgstr "Problema %d: "
 
 #: libdnf/goal/Goal.cpp:1747
 msgid ""
@@ -802,6 +829,7 @@ msgstr ""
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
 msgstr ""
+"solv_toolversion de Libsolv és: %zu de llarg però esperem un màxim de: %zu"
 
 #: libdnf/hy-iutil.cpp:411
 #, c-format
@@ -864,27 +892,27 @@ msgstr "Valors predeterminats en conflicte amb el dipòsit «%s»: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:923
 msgid "Installing module profiles:\n"
-msgstr ""
+msgstr "S'estan instal·lant els perfils del mòdul:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:938
 msgid "Disabling module profiles:\n"
-msgstr ""
+msgstr "S'estan desactivant els perfils del mòdul:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:953
 msgid "Enabling module streams:\n"
-msgstr ""
+msgstr "S'estan habilitant els fluxos del mòdul:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:967
 msgid "Switching module streams:\n"
-msgstr ""
+msgstr "S'estan canviant els fluxos del mòdul:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:985
 msgid "Disabling modules:\n"
-msgstr ""
+msgstr "S'estan desactivant els mòduls:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:996
 msgid "Resetting modules:\n"
-msgstr ""
+msgstr "S'estan restablint els mòduls:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:1715
 #, c-format
@@ -920,6 +948,8 @@ msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
 msgstr ""
+"No es poden aplicar els obsolets modulars a «%s:%s» perquè el mòdul de "
+"destinació «%s» està desactivat"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -935,6 +965,7 @@ msgstr "S'ha fallat de resoldre: %s"
 #, c-format
 msgid "There were errors while resolving modular defaults: %s"
 msgstr ""
+"Hi ha hagut errors mentre es resolien els valors predeterminats modulars: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:120
 #, c-format
@@ -950,6 +981,8 @@ msgstr "S'ha fallat d'actualitzar els fluxos: %s"
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""
+"No es poden recuperar els obsolets del mòdul perquè no hi ha cap flux "
+"coincident amb %s: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
@@ -998,6 +1031,9 @@ msgid ""
 "deprecated and the support will be dropped in future versions. Use '=' "
 "operator instead."
 msgstr ""
+"L'ús de l'operador '==' a reldeps pot donar lloc a un comportament "
+"indefinit. Està depreciat i el suport s'eliminarà en futures versions. "
+"Utilitzeu l'operador '=' en el seu lloc."
 
 #: libdnf/repo/Repo.cpp:310
 #, c-format
@@ -1013,7 +1049,7 @@ msgstr "El dipòsit «%s» té un tipus no compatible: «type=%s», s'omet."
 #: libdnf/repo/Repo.cpp:1201
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
-msgstr ""
+msgstr "dipòsit «%s»: 'basecachedir' no està establert"
 
 #: libdnf/repo/Repo.cpp:509
 msgid ""
@@ -1026,11 +1062,11 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:539
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "dipòsit «%s»: 'proxy_username' està establert però no 'proxy_password'"
 
 #: libdnf/repo/Repo.cpp:541
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "'proxy_username' està establert però no 'proxy_password'"
 
 #: libdnf/repo/Repo.cpp:622
 #, c-format
@@ -1050,7 +1086,7 @@ msgstr "dipòsit %s: 0x%s ja importat"
 #: libdnf/repo/Repo.cpp:702 libdnf/utils/filesystem.cpp:79
 #, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
-msgstr ""
+msgstr "S'ha produït un error en crear el directori \"%s\": %d - %s"
 
 #: libdnf/repo/Repo.cpp:710
 #, c-format
@@ -1179,7 +1215,7 @@ msgstr ""
 
 #: libdnf/transaction/Transformer.cpp:83
 msgid "Database Corrupted: no row 'version' in table 'config'"
-msgstr ""
+msgstr "Base de dades corrupta: no hi ha la fila 'version' a la taula 'config'"
 
 #: libdnf/transaction/Transformer.cpp:688
 msgid "Transformer: can't open history persist dir"
