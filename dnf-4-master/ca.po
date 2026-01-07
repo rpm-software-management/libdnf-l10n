@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-25 02:31+0000\n"
+"POT-Creation-Date: 2026-01-07 02:34+0000\n"
 "PO-Revision-Date: 2025-12-25 15:53+0000\n"
 "Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/"
@@ -764,7 +764,8 @@ msgstr "el mòdul instal·lat %s fa obsolet %s proporcionat per %s de %s"
 #: libdnf/goal/Goal.cpp:137
 #, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
-msgstr "el mòdul %s de %s fa obsolet implícitament %s proporcionat per %s de %s"
+msgstr ""
+"el mòdul %s de %s fa obsolet implícitament %s proporcionat per %s de %s"
 
 #: libdnf/goal/Goal.cpp:138
 #, c-format
@@ -776,7 +777,8 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:139
 #, c-format
 msgid "module %s from %s conflicts with %s provided by itself"
-msgstr "el mòdul %s de %s entra en conflicte amb %s proporcionat per ell mateix"
+msgstr ""
+"el mòdul %s de %s entra en conflicte amb %s proporcionat per ell mateix"
 
 #: libdnf/goal/Goal.cpp:140
 #, c-format
