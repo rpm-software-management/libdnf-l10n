@@ -1,5 +1,5 @@
 # Toni Rantala <trantalafilo@gmail.com>, 2017. #zanata
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2020.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2020, 2026.
 # Ricky Tigg <ricky.tigg@gmail.com>, 2020, 2021, 2022, 2024.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021.
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2023.
@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2025-11-17 02:53+0000\n"
-"Last-Translator: Jouko Tiilikainen <jouko.tiilikainen@gmail.com>\n"
+"PO-Revision-Date: 2026-02-01 15:58+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/fi/>\n"
 "Language: fi\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14.3\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -771,7 +771,7 @@ msgid "%s: gpgme_data_new_from_fd(): %s"
 msgstr "%s: gpgme_data_new_from_fd(): %s"
 
 #: libdnf/repo/Repo.cpp:674 libdnf/repo/Repo.cpp:696
-#, c-format, fuzzy
+#, c-format
 msgid "%s: gpgme_op_import(): %s"
 msgstr "%s: gpgme_op_import(): %s"
 
