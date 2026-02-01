@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-16 02:35+0000\n"
+"POT-Creation-Date: 2026-02-01 03:40+0000\n"
 "PO-Revision-Date: 2024-08-21 04:38+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
@@ -783,42 +783,42 @@ msgstr ""
 msgid "both module %s from %s and %s from %s obsolete %s"
 msgstr "ორივე მოდული %s %s-დან და %s %s-დან %s-ს მოძველებულად ნიშნავენ"
 
-#: libdnf/goal/Goal.cpp:1217
+#: libdnf/goal/Goal.cpp:1226
 msgid "no solver set"
 msgstr "გადამწყვეტი მითითებული არაა"
 
-#: libdnf/goal/Goal.cpp:1222
+#: libdnf/goal/Goal.cpp:1231
 #, c-format
 msgid "failed to make %s absolute"
 msgstr "%s-ის აბსოლუტურად გადაქცევა შეუძლებელია"
 
-#: libdnf/goal/Goal.cpp:1229
+#: libdnf/goal/Goal.cpp:1238
 #, c-format
 msgid "failed writing debugdata to %1$s: %2$s"
 msgstr "გასამართი ინფორმაციის %1$s-ში ჩაწერის შეცდომა: %2$s"
 
-#: libdnf/goal/Goal.cpp:1241
+#: libdnf/goal/Goal.cpp:1250
 msgid "no solv in the goal"
 msgstr "სამიზნეში solv-ი არაა"
 
-#: libdnf/goal/Goal.cpp:1243
+#: libdnf/goal/Goal.cpp:1252
 msgid "no solution, cannot remove protected package"
 msgstr "გადაწყვეტის გარეშე. დაცული პაკეტის წაშლა შეუძლებელია"
 
-#: libdnf/goal/Goal.cpp:1246
+#: libdnf/goal/Goal.cpp:1255
 msgid "no solution possible"
 msgstr "გადაწყვეტა შეუძლებელია"
 
-#: libdnf/goal/Goal.cpp:1372
+#: libdnf/goal/Goal.cpp:1381
 msgid "Problem: "
 msgstr "პრობლემა: "
 
-#: libdnf/goal/Goal.cpp:1377
+#: libdnf/goal/Goal.cpp:1386
 #, c-format
 msgid "Problem %d: "
 msgstr "პრობლემა %d: "
 
-#: libdnf/goal/Goal.cpp:1747
+#: libdnf/goal/Goal.cpp:1756
 msgid ""
 "The operation would result in removing the following protected packages: "
 msgstr "ოპერაციას დასჭირდება შემდეგი დაცული პაკეტების წაშლა: "
