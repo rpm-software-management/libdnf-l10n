@@ -4,13 +4,13 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # simmon <simmon@nplob.com>, 2021.
 # Kim InSoo <simmon@nplob.com>, 2022.
-# 김인수 <simmon@nplob.com>, 2022, 2023, 2024.
+# 김인수 <simmon@nplob.com>, 2022, 2023, 2024, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-01 03:40+0000\n"
-"PO-Revision-Date: 2024-08-17 02:38+0000\n"
+"PO-Revision-Date: 2026-02-20 04:58+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ko/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.16\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -61,12 +61,12 @@ msgstr "백분율 '%s' 범위를 벗어났습니다"
 #: libdnf/conf/OptionBinds.cpp:85
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr "구성 : ID가 \"%s\" 존재하지 않는다"
+msgstr "구성 : id \"%s\" 인 OptionBinding 부분이 존재하지 않습니다"
 
 #: libdnf/conf/OptionBinds.cpp:97
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr "구성 : ID가 \"%s\" 이미 존재 함"
+msgstr "구성 : id \"%s\" 인 OptionBinding 부분이 이미 존재합니다"
 
 #: libdnf/conf/OptionBool.cpp:47
 #, c-format
@@ -1145,7 +1145,7 @@ msgstr "열 수 없습니다 %s: %s"
 #: libdnf/repo/Repo.cpp:1786
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
-msgstr "ID가 있는 로그 처리기 %ld가 존재하지 않습니다"
+msgstr "id %ld 인 로그 핸들러가 존재하지 않습니다"
 
 #: libdnf/transaction/Swdb.cpp:173
 msgid "In progress"
