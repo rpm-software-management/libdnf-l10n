@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-20 03:20+0000\n"
+"POT-Creation-Date: 2026-02-21 03:11+0000\n"
 "PO-Revision-Date: 2026-02-21 09:58+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/dnf/"
@@ -820,7 +820,8 @@ msgstr "Дія призведе до вилучення таких захище�
 msgid ""
 "The operation would result in broken dependencies for the following "
 "protected packages: "
-msgstr "Дія призведе до вилучення певних залежностей таких захищених пакунків: "
+msgstr ""
+"Дія призведе до вилучення певних залежностей таких захищених пакунків: "
 
 #: libdnf/hy-iutil.cpp:182
 #, c-format
