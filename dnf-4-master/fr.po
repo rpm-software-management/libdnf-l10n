@@ -12,14 +12,14 @@
 # blutch112 <vincent.lefebvre59@gmail.com>, 2022, 2026.
 # Transtats <suanand@redhat.com>, 2023.
 # Damien Pou <dampato+linux@ik.me>, 2024.
-# Léane GRASSER <leane.grasser@proton.me>, 2024.
+# Léane GRASSER <leane.grasser@proton.me>, 2024, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-21 03:11+0000\n"
-"PO-Revision-Date: 2026-01-07 17:58+0000\n"
-"Last-Translator: blutch112 <vincent.lefebvre59@gmail.com>\n"
+"PO-Revision-Date: 2026-02-23 11:58+0000\n"
+"Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/fr/>\n"
 "Language: fr\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.16\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -833,14 +833,12 @@ msgstr ""
 "L’opération résulterait en la suppression des packages protégés suivants : "
 
 #: libdnf/goal/Goal.cpp:1781
-#, fuzzy
-#| msgid ""
-#| "The operation would result in removing the following protected packages: "
 msgid ""
 "The operation would result in broken dependencies for the following "
 "protected packages: "
 msgstr ""
-"L’opération résulterait en la suppression des packages protégés suivants : "
+"L’opération briserait les liens de dépendance des paquets protégés suivants "
+": "
 
 #: libdnf/hy-iutil.cpp:182
 #, c-format
