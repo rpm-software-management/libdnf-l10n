@@ -1,13 +1,13 @@
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2016. #zanata
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017. #zanata
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2018. #zanata
-# naly zzwd <xeanhort007@gmail.com>, 2025.
+# naly zzwd <xeanhort007@gmail.com>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2025-12-25 10:21+0000\n"
+"PO-Revision-Date: 2026-02-23 11:58+0000\n"
 "Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/ca/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.1\n"
+"X-Generator: Weblate 5.16\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -90,7 +90,7 @@ msgstr "el camí indicat «%s» no existeix."
 #: libdnf/conf/OptionSeconds.cpp:52
 #, c-format
 msgid "could not convert '%s' to seconds"
-msgstr "no s'ha pogut convertir «%s» a segons"
+msgstr "no s'ha pogut convertir '%s' a segons"
 
 #: libdnf/conf/OptionString.cpp:74
 msgid "GetValue(): Value not set"
