@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-25 03:26+0000\n"
-"PO-Revision-Date: 2026-02-26 00:51+0000\n"
+"PO-Revision-Date: 2026-02-27 00:58+0000\n"
 "Last-Translator: Efstathios Iosifidis <eiosifidis@yandex.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/el/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -45,11 +45,11 @@ msgstr "μη έγκυρη τιμή"
 
 #: libdnf/conf/ConfigMain.cpp:208
 msgid "value 1 is not allowed"
-msgstr ""
+msgstr "η τιμή 1 δεν επιτρέπεται"
 
 #: libdnf/conf/ConfigMain.cpp:210
 msgid "negative value is not allowed"
-msgstr ""
+msgstr "η αρνητική τιμή δεν επιτρέπεται"
 
 #: libdnf/conf/ConfigMain.cpp:348
 #, c-format
@@ -113,27 +113,30 @@ msgstr "GetValue(): Η τιμή δεν έχει οριστεί"
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr ""
+"Αδυναμία ταυτόχρονης ενεργοποίησης περισσότερων ροών από το άρθρωμα '%s'"
 
 #: libdnf/dnf-context.cpp:3343 libdnf/dnf-context.cpp:3361
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr ""
+"Αδυναμία ενεργοποίησης της ροής '%2$s' του αρθρώματος '%1$s': Η κατάσταση "
+"του αρθρώματος έχει ήδη τροποποιηθεί"
 
 #: libdnf/dnf-context.cpp:3410
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
-msgstr ""
+msgstr "Πρόβλημα αρθρωτής εξάρτησης με τις προεπιλογές (Defaults): %s"
 
 #: libdnf/dnf-context.cpp:3413
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
-msgstr ""
+msgstr "Πρόβλημα αρθρωτής εξάρτησης με τα τελευταία αρθρώματα: %s"
 
 #: libdnf/dnf-context.cpp:3417
 #, c-format
 msgid "Modular dependency problem: %s"
-msgstr ""
+msgstr "Πρόβλημα αρθρωτής εξάρτησης: %s"
 
 #: libdnf/dnf-context.cpp:3440 libdnf/dnf-context.cpp:3464
 #: libdnf/dnf-context.cpp:3475 libdnf/dnf-context.cpp:3514
@@ -141,33 +144,39 @@ msgstr ""
 #: libdnf/dnf-context.cpp:3611 libdnf/dnf-context.cpp:3621
 #, c-format
 msgid "Unable to resolve argument '%s'"
-msgstr ""
+msgstr "Αδυναμία επίλυσης του ορίσματος '%s'"
 
 #: libdnf/dnf-context.cpp:3447
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
 msgstr ""
+"Απαιτείται μόνο το όνομα του αρθρώματος. Αγνοούνται οι περιττές πληροφορίες "
+"στο όρισμα: '%s'"
 
 #: libdnf/dnf-context.cpp:3461
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr ""
+"Αδυναμία επαναφοράς του αρθρώματος '%s': Η κατάσταση του αρθρώματος έχει ήδη "
+"τροποποιηθεί"
 
 #: libdnf/dnf-context.cpp:3472
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr ""
+"Αδυναμία απενεργοποίησης του αρθρώματος '%s': Η κατάσταση του αρθρώματος "
+"έχει ήδη τροποποιηθεί"
 
 #: libdnf/dnf-context.cpp:3503 libdnf/dnf-context.cpp:3599
 #: libdnf/dnf-context.cpp:3780
 msgid "No modular data available"
-msgstr ""
+msgstr "Δεν υπάρχουν διαθέσιμα αρθρωτά δεδομένα"
 
 #: libdnf/dnf-context.cpp:3520
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
-msgstr ""
+msgstr "Αγνόηση περιττών πληροφοριών στο όρισμα: '%s'"
 
 #: libdnf/dnf-context.cpp:3558
 #, c-format
@@ -175,47 +184,52 @@ msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
 "'%2$s': %3$s"
 msgstr ""
+"Πρόβλημα κατά την ενεργοποίηση του δέντρου εξαρτήσεων για τη ροή '%2$s' του "
+"αρθρώματος '%1$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3570
 msgid "Problems appeared for module enable request:"
-msgstr ""
+msgstr "Εμφανίστηκαν προβλήματα στο αίτημα ενεργοποίησης αρθρώματος:"
 
 #: libdnf/dnf-context.cpp:3665
 #, c-format
 msgid "No active module packages found for module spec '%s'"
-msgstr ""
+msgstr "Δεν βρέθηκαν ενεργά αρθρωτά πακέτα για την προδιαγραφή αρθρώματος '%s'"
 
 #: libdnf/dnf-context.cpp:3670
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
 msgstr ""
+"Αδυναμία εγκατάστασης του αρθρώματος '%s' από το αποθετήριο ασφαλείας (fail-"
+"safe)"
 
 #: libdnf/dnf-context.cpp:3677
 #, c-format
 msgid "No profile found matching '%s'"
-msgstr ""
+msgstr "Δεν βρέθηκε προφίλ που να αντιστοιχεί στο '%s'"
 
 #: libdnf/dnf-context.cpp:3731
 #, c-format
 msgid "No match for package '%s' for module spec %s"
-msgstr ""
+msgstr "Καμία αντιστοιχία για το πακέτο '%s' για την προδιαγραφή αρθρώματος %s"
 
 #: libdnf/dnf-context.cpp:3742
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
 msgstr ""
+"Πρόβλημα κατά την εγκατάσταση για τη ροή '%2$s' του αρθρώματος '%1$s': %3$s"
 
 #: libdnf/dnf-context.cpp:3751
 msgid "Problems appeared for module install request:"
-msgstr ""
+msgstr "Εμφανίστηκαν προβλήματα στο αίτημα εγκατάστασης αρθρώματος:"
 
 #: libdnf/dnf-context.cpp:3810
 msgid "Problems appeared for module reset request:"
-msgstr ""
+msgstr "Εμφανίστηκαν προβλήματα στο αίτημα επαναφοράς αρθρώματος:"
 
 #: libdnf/dnf-context.cpp:3811 libdnf/dnf-context.cpp:3870
 msgid "Problems appeared for module disable request:"
-msgstr ""
+msgstr "Εμφανίστηκαν προβλήματα στο αίτημα απενεργοποίησης αρθρώματος:"
 
 #: libdnf/dnf-context.cpp:3902
 #, c-format
@@ -223,6 +237,8 @@ msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
 msgstr ""
+"Η λειτουργία θα είχε ως αποτέλεσμα την αλλαγή του αρθρώματος '%s' από τη ροή "
+"'%s' στη ροή '%s'"
 
 #: libdnf/dnf-context.cpp:3906
 msgid ""
@@ -231,6 +247,10 @@ msgid ""
 "the module using 'microdnf module reset <module_name>' command. After you "
 "reset the module, you can install the other stream."
 msgstr ""
+"Δεν είναι δυνατή η αλλαγή ενεργοποιημένων ροών ενός αρθρώματος.\n"
+"Συνιστάται η αφαίρεση όλου του εγκατεστημένου περιεχομένου από το άρθρωμα "
+"και η επαναφορά του χρησιμοποιώντας την εντολή 'microdnf module reset "
+"<module_name>'. Μετά την επαναφορά, μπορείτε να εγκαταστήσετε την άλλη ροή."
 
 #: libdnf/dnf-goal.cpp:107
 msgid "Could not depsolve transaction; "
@@ -290,7 +310,7 @@ msgstr "δεν βρέθηκε υπογραφή για το %s"
 #: libdnf/dnf-rpmts.cpp:186
 #, c-format
 msgid "failed to add reinstall element: %1$s [%2$i]"
-msgstr ""
+msgstr "αποτυχία προσθήκης στοιχείου επανεγκατάστασης: %1$s [%2$i]"
 
 #: libdnf/dnf-rpmts.cpp:231
 #, c-format
@@ -328,7 +348,7 @@ msgstr "το repo_add_solv() απέτυχε."
 #: libdnf/dnf-sack.cpp:425
 #, c-format
 msgid "Loading extension cache %s (%d) failed: "
-msgstr ""
+msgstr "Η φόρτωση της προσωρινής μνήμης επέκτασης %s (%d) απέτυχε: "
 
 #: libdnf/dnf-sack.cpp:439
 #, c-format
@@ -354,21 +374,24 @@ msgstr "αποτυχία ανοίγματος προσωρινού αρχείο�
 #, c-format
 msgid "While writing primary cache %s repowriter write failed: %i, error: %s"
 msgstr ""
+"Κατά την εγγραφή της κύριας προσωρινής μνήμης %s, η εγγραφή του repowriter "
+"απέτυχε: %i, σφάλμα: %s"
 
 #: libdnf/dnf-sack.cpp:570
 #, c-format
 msgid "Failed closing tmp file %s: %s"
-msgstr ""
+msgstr "Αποτυχία κλεισίματος προσωρινού αρχείου %s: %s"
 
 #: libdnf/dnf-sack.cpp:580
 #, c-format
 msgid "Failed to use newly written primary cache: %s: "
 msgstr ""
+"Αποτυχία χρήσης της πρόσφατα εγγεγραμμένης κύριας προσωρινής μνήμης: %s: "
 
 #: libdnf/dnf-sack.cpp:586
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr ""
+msgstr "Αποτυχία χρήσης της πρόσφατα εγγεγραμμένης κύριας προσωρινής μνήμης: %s"
 
 #: libdnf/dnf-sack.cpp:636
 #, c-format
@@ -380,21 +403,29 @@ msgstr "αδυναμία δημιουργίας προσωρινού αρχεί�
 msgid ""
 "While writing extension cache %s (%d): repowriter write failed: %i, error: %s"
 msgstr ""
+"Κατά την εγγραφή της προσωρινής μνήμης επέκτασης %s (%d): η εγγραφή του "
+"repowriter απέτυχε: %i, σφάλμα: %s"
 
 #: libdnf/dnf-sack.cpp:686
 #, c-format
 msgid "While writing extension cache (%d): cannot close temporary file: %s"
 msgstr ""
+"Κατά την εγγραφή της προσωρινής μνήμης επέκτασης (%d): αδυναμία κλεισίματος "
+"προσωρινού αρχείου: %s"
 
 #: libdnf/dnf-sack.cpp:702
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d): "
 msgstr ""
+"Αποτυχία χρήσης της πρόσφατα εγγεγραμμένης προσωρινής μνήμης επέκτασης: %s "
+"(%d): "
 
 #: libdnf/dnf-sack.cpp:709
 #, c-format
 msgid "Failed to use newly written extension cache: %s (%d)"
 msgstr ""
+"Αποτυχία χρήσης της πρόσφατα εγγεγραμμένης προσωρινής μνήμης επέκτασης: %s "
+"(%d)"
 
 #: libdnf/dnf-sack.cpp:750
 msgid "null repo md file"
@@ -408,7 +439,7 @@ msgstr "αδυναμία ανάγνωσης αρχείου %1$s: %2$s"
 #: libdnf/dnf-sack.cpp:774
 #, c-format
 msgid "While loading repository failed to use %s: "
-msgstr ""
+msgstr "Κατά τη φόρτωση του αποθετηρίου, απέτυχε η χρήση του %s: "
 
 #: libdnf/dnf-sack.cpp:785
 msgid "loading of MD_TYPE_PRIMARY has failed."
@@ -417,17 +448,17 @@ msgstr "η φόρτωση του MD_TYPE_PRIMARY απέτυχε."
 #: libdnf/dnf-sack.cpp:794
 #, c-format
 msgid "Opening repository primary data has failed: %s"
-msgstr ""
+msgstr "Το άνοιγμα των κύριων δεδομένων του αποθετηρίου απέτυχε: %s"
 
 #: libdnf/dnf-sack.cpp:805
 #, c-format
 msgid "Loading repomd has failed: %s"
-msgstr ""
+msgstr "Η φόρτωση του repomd απέτυχε: %s"
 
 #: libdnf/dnf-sack.cpp:816
 #, c-format
 msgid "Loading primary has failed: %s"
-msgstr ""
+msgstr "Η φόρτωση του primary απέτυχε: %s"
 
 #: libdnf/dnf-sack.cpp:882
 msgid "failed to auto-detect architecture"
@@ -445,7 +476,7 @@ msgstr "αποτυχία φόρτωσης RPMDB"
 #: libdnf/dnf-sack.cpp:2615
 #, c-format
 msgid "No module defaults found: %s"
-msgstr ""
+msgstr "Δεν βρέθηκαν προεπιλογές αρθρώματος: %s"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
@@ -532,11 +563,13 @@ msgstr "Σφάλμα %i κατά την εκτέλεση δοκιμής συνα
 #: libdnf/dnf-transaction.cpp:1470
 #, c-format
 msgid "Error %i opening rpm database"
-msgstr ""
+msgstr "Σφάλμα %i κατά το άνοιγμα της βάσης δεδομένων rpm"
 
 #: libdnf/dnf-transaction.cpp:1478 libdnf/dnf-transaction.cpp:1524
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
 msgstr ""
+"Η συνάρτηση rpmdbCookie() δεν επέστρεψε το αναγνωριστικό (cookie) της βάσης "
+"δεδομένων rpm."
 
 #: libdnf/dnf-transaction.cpp:1493
 #, c-format
@@ -575,11 +608,12 @@ msgstr ""
 #, c-format
 msgid "%s from %s does not belong to a distupgrade repository"
 msgstr ""
+"το %s από το %s δεν ανήκει σε αποθετήριο αναβάθμισης διανομής (distupgrade)"
 
 #: libdnf/goal/Goal.cpp:91 libdnf/goal/Goal.cpp:118
 #, c-format
 msgid "%s from %s has inferior architecture"
-msgstr ""
+msgstr "το %s από το %s έχει κατώτερη αρχιτεκτονική"
 
 #: libdnf/goal/Goal.cpp:92
 msgid "problem with installed package "
@@ -622,68 +656,76 @@ msgstr "αδυναμία εγκατάστασης του καλύτερου υπ
 #: libdnf/goal/Goal.cpp:101
 #, c-format
 msgid "package %s from %s is filtered out by modular filtering"
-msgstr ""
+msgstr "το πακέτο %s από το %s έχει αποκλειστεί από το αρθρωτό φιλτράρισμα"
 
 #: libdnf/goal/Goal.cpp:102
 #, c-format
 msgid "package %s from %s does not have a compatible architecture"
-msgstr ""
+msgstr "το πακέτο %s από το %s δεν έχει συμβατή αρχιτεκτονική"
 
 #: libdnf/goal/Goal.cpp:103
 #, c-format
 msgid "package %s from %s is not installable"
-msgstr ""
+msgstr "το πακέτο %s από το %s δεν μπορεί να εγκατασταθεί"
 
 #: libdnf/goal/Goal.cpp:104
 #, c-format
 msgid "package %s from %s is filtered out by exclude filtering"
-msgstr ""
+msgstr "το πακέτο %s από το %s έχει αποκλειστεί από το φιλτράρισμα εξαιρέσεων"
 
 #: libdnf/goal/Goal.cpp:105
 #, c-format
 msgid "nothing provides %s needed by %s from %s"
-msgstr ""
+msgstr "τίποτα δεν παρέχει το %s που απαιτείται από το %s από το %s"
 
 #: libdnf/goal/Goal.cpp:106
 #, c-format
 msgid "cannot install both %s from %s and %s from %s"
-msgstr ""
+msgstr "αδυναμία ταυτόχρονης εγκατάστασης του %s από το %s και του %s από το %s"
 
 #: libdnf/goal/Goal.cpp:107
 #, c-format
 msgid "package %s from %s conflicts with %s provided by %s from %s"
 msgstr ""
+"το πακέτο %s από το %s συγκρούεται με το %s που παρέχεται από το %s από το %s"
 
 #: libdnf/goal/Goal.cpp:108
 #, c-format
 msgid "package %s from %s obsoletes %s provided by %s from %s"
 msgstr ""
+"το πακέτο %s από το %s αντικαθιστά το %s που παρέχεται από το %s από το %s"
 
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s from %s"
 msgstr ""
+"το εγκατεστημένο πακέτο %s αντικαθιστά το %s που παρέχεται από το %s από το "
+"%s"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
 msgid "package %s from %s implicitly obsoletes %s provided by %s from %s"
 msgstr ""
+"το πακέτο %s από το %s αντικαθιστά έμμεσα το %s που παρέχεται από το %s από "
+"το %s"
 
 #: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid ""
 "package %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
+"το πακέτο %s από το %s απαιτεί το %s, αλλά κανένας από τους παρόχους δεν "
+"μπορεί να εγκατασταθεί"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
 msgid "package %s from %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "το πακέτο %s από το %s συγκρούεται με το %s που παρέχεται από το ίδιο"
 
 #: libdnf/goal/Goal.cpp:113
 #, c-format
 msgid "both package %s from %s and %s from %s obsolete %s"
-msgstr ""
+msgstr "τα πακέτα %s από το %s και %s από το %s αντικαθιστούν και τα δύο το %s"
 
 #: libdnf/goal/Goal.cpp:119
 msgid "problem with installed module "
@@ -702,63 +744,75 @@ msgstr ""
 #: libdnf/goal/Goal.cpp:128 libdnf/goal/Goal.cpp:131
 #, c-format
 msgid "module %s from %s is disabled"
-msgstr ""
+msgstr "το άρθρωμα %s από το %s είναι απενεργοποιημένο"
 
 #: libdnf/goal/Goal.cpp:129
 #, c-format
 msgid "module %s from %s does not have a compatible architecture"
-msgstr ""
+msgstr "το άρθρωμα %s από το %s δεν έχει συμβατή αρχιτεκτονική"
 
 #: libdnf/goal/Goal.cpp:130
 #, c-format
 msgid "module %s from %s is not installable"
-msgstr ""
+msgstr "το άρθρωμα %s από το %s δεν μπορεί να εγκατασταθεί"
 
 #: libdnf/goal/Goal.cpp:132
 #, c-format
 msgid "nothing provides %s needed by module %s from %s"
-msgstr ""
+msgstr "τίποτα δεν παρέχει το %s που απαιτείται από το άρθρωμα %s από το %s"
 
 #: libdnf/goal/Goal.cpp:133
 #, c-format
 msgid "cannot install both modules %s from %s and %s from %s"
 msgstr ""
+"αδυναμία ταυτόχρονης εγκατάστασης των αρθρωμάτων %s από το %s και %s από το "
+"%s"
 
 #: libdnf/goal/Goal.cpp:134
 #, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
 msgstr ""
+"το άρθρωμα %s από το %s συγκρούεται με το %s που παρέχεται από το %s από το "
+"%s"
 
 #: libdnf/goal/Goal.cpp:135
 #, c-format
 msgid "module %s from %s obsoletes %s provided by %s from %s"
 msgstr ""
+"το άρθρωμα %s από το %s αντικαθιστά το %s που παρέχεται από το %s από το %s"
 
 #: libdnf/goal/Goal.cpp:136
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s from %s"
 msgstr ""
+"το εγκατεστημένο άρθρωμα %s αντικαθιστά το %s που παρέχεται από το %s από το "
+"%s"
 
 #: libdnf/goal/Goal.cpp:137
 #, c-format
 msgid "module %s from %s implicitly obsoletes %s provided by %s from %s"
 msgstr ""
+"το άρθρωμα %s από το %s αντικαθιστά έμμεσα το %s που παρέχεται από το %s από "
+"το %s"
 
 #: libdnf/goal/Goal.cpp:138
 #, c-format
 msgid ""
 "module %s from %s requires %s, but none of the providers can be installed"
 msgstr ""
+"το άρθρωμα %s από το %s απαιτεί το %s, αλλά κανένας από τους παρόχους δεν "
+"μπορεί να εγκατασταθεί"
 
 #: libdnf/goal/Goal.cpp:139
 #, c-format
 msgid "module %s from %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "το άρθρωμα %s από το %s συγκρούεται με το %s που παρέχεται από το ίδιο"
 
 #: libdnf/goal/Goal.cpp:140
 #, c-format
 msgid "both module %s from %s and %s from %s obsolete %s"
 msgstr ""
+"τα αρθρώματα %s από το %s και %s από το %s αντικαθιστούν και τα δύο το %s"
 
 #: libdnf/goal/Goal.cpp:1216
 msgid "no solver set"
@@ -788,12 +842,12 @@ msgstr "δεν υπάρχει δυνατή λύση"
 
 #: libdnf/goal/Goal.cpp:1371
 msgid "Problem: "
-msgstr ""
+msgstr "Πρόβλημα: "
 
 #: libdnf/goal/Goal.cpp:1376
 #, c-format
 msgid "Problem %d: "
-msgstr ""
+msgstr "Πρόβλημα %d: "
 
 #: libdnf/goal/Goal.cpp:1765
 msgid ""
@@ -807,11 +861,15 @@ msgid ""
 "The operation would result in broken dependencies for the following "
 "protected packages: "
 msgstr ""
+"Η λειτουργία θα είχε ως αποτέλεσμα κατεστραμμένες εξαρτήσεις για τα ακόλουθα "
+"προστατευμένα πακέτα: "
 
 #: libdnf/hy-iutil.cpp:182
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
 msgstr ""
+"Το solv_toolversion της Libsolv είναι: %zu χαρακτήρες αλλά αναμένουμε "
+"μέγιστο: %zu"
 
 #: libdnf/hy-iutil.cpp:411
 #, c-format
@@ -873,27 +931,27 @@ msgstr "Συγκρουόμενες προεπιλογές με το αποθετ
 
 #: libdnf/module/ModulePackageContainer.cpp:923
 msgid "Installing module profiles:\n"
-msgstr ""
+msgstr "Εγκατάσταση προφίλ αρθρωμάτων:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:938
 msgid "Disabling module profiles:\n"
-msgstr ""
+msgstr "Απενεργοποίηση προφίλ αρθρωμάτων:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:953
 msgid "Enabling module streams:\n"
-msgstr ""
+msgstr "Ενεργοποίηση ροών αρθρωμάτων:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:967
 msgid "Switching module streams:\n"
-msgstr ""
+msgstr "Αλλαγή ροών αρθρωμάτων:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:985
 msgid "Disabling modules:\n"
-msgstr ""
+msgstr "Απενεργοποίηση αρθρωμάτων:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:996
 msgid "Resetting modules:\n"
-msgstr ""
+msgstr "Επαναφορά αρθρωμάτων:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:1715
 #, c-format
@@ -927,6 +985,8 @@ msgid ""
 "Unable to apply modular obsoletes to '%s:%s' because target module '%s' is "
 "disabled"
 msgstr ""
+"Αδυναμία εφαρμογής αρθρωτών αντικαταστάσεων στο '%s:%s' επειδή το άρθρωμα "
+"στόχος '%s' είναι απενεργοποιημένο"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:86
 #, c-format
@@ -941,7 +1001,7 @@ msgstr "Αποτυχία επίλυσης: %s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:115
 #, c-format
 msgid "There were errors while resolving modular defaults: %s"
-msgstr ""
+msgstr "Προέκυψαν σφάλματα κατά την επίλυση αρθρωτών προεπιλογών: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:120
 #, c-format
@@ -957,6 +1017,8 @@ msgstr "Αποτυχία αναβάθμισης ροών: %s"
 #, c-format
 msgid "Cannot retrieve module obsoletes because no stream matching %s: %s"
 msgstr ""
+"Αδυναμία ανάκτησης αντικαταστάσεων αρθρώματος επειδή δεν υπάρχει ροή που να "
+"αντιστοιχεί στο %s: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
@@ -1005,6 +1067,9 @@ msgid ""
 "deprecated and the support will be dropped in future versions. Use '=' "
 "operator instead."
 msgstr ""
+"Η χρήση του τελεστή '==' στις συσχετιζόμενες εξαρτήσεις μπορεί να οδηγήσει "
+"σε απρόβλεπτη συμπεριφορά. Είναι παρωχημένη και η υποστήριξη θα διακοπεί σε "
+"μελλοντικές εκδόσεις. Χρησιμοποιήστε τον τελεστή '=' αντ' αυτού."
 
 #: libdnf/repo/Repo.cpp:310
 #, c-format
@@ -1020,7 +1085,7 @@ msgstr "Το αποθετήριο '%s' έχει μη υποστηριζόμεν�
 #: libdnf/repo/Repo.cpp:1201
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
-msgstr ""
+msgstr "αποθετήριο '%s': δεν έχει οριστεί το 'basecachedir'"
 
 #: libdnf/repo/Repo.cpp:509
 msgid ""
@@ -1034,10 +1099,12 @@ msgstr ""
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
 msgstr ""
+"αποθετήριο '%s': το 'proxy_username' έχει οριστεί αλλά όχι το "
+"'proxy_password'"
 
 #: libdnf/repo/Repo.cpp:541
 msgid "'proxy_username' is set but not 'proxy_password'"
-msgstr ""
+msgstr "το 'proxy_username' έχει οριστεί αλλά όχι το 'proxy_password'"
 
 #: libdnf/repo/Repo.cpp:622
 #, c-format
@@ -1057,7 +1124,7 @@ msgstr "αποθετήριο %s: το 0x%s έχει ήδη εισαχθεί"
 #: libdnf/repo/Repo.cpp:702 libdnf/utils/filesystem.cpp:79
 #, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
-msgstr ""
+msgstr "Αποτυχία δημιουργίας καταλόγου \"%s\": %d - %s"
 
 #: libdnf/repo/Repo.cpp:710
 #, c-format
@@ -1191,6 +1258,8 @@ msgstr "Προσπάθεια ενημέρωσης στοιχείου συναλ�
 #: libdnf/transaction/Transformer.cpp:83
 msgid "Database Corrupted: no row 'version' in table 'config'"
 msgstr ""
+"Η βάση δεδομένων είναι κατεστραμμένη: δεν υπάρχει γραμμή 'version' στον "
+"πίνακα 'config'"
 
 #: libdnf/transaction/Transformer.cpp:688
 msgid "Transformer: can't open history persist dir"
