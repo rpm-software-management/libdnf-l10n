@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-23 03:31+0000\n"
+"POT-Creation-Date: 2026-02-25 03:26+0000\n"
 "PO-Revision-Date: 2026-02-26 00:51+0000\n"
 "Last-Translator: Efstathios Iosifidis <eiosifidis@yandex.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/dnf/"
@@ -304,7 +304,8 @@ msgstr "Σφάλμα κατά την εκτέλεση της συναλλαγή�
 
 #: libdnf/dnf-rpmts.cpp:321
 msgid "Error running transaction and no problems were reported!"
-msgstr "Σφάλμα κατά την εκτέλεση της συναλλαγής και δεν αναφέρθηκαν προβλήματα!"
+msgstr ""
+"Σφάλμα κατά την εκτέλεση της συναλλαγής και δεν αναφέρθηκαν προβλήματα!"
 
 #: libdnf/dnf-rpmts.cpp:384
 msgid "Fatal error, run database recovery"
@@ -611,7 +612,8 @@ msgstr "κάποιο πρόβλημα εξάρτησης"
 
 #: libdnf/goal/Goal.cpp:99
 msgid "cannot install the best update candidate for package "
-msgstr "αδυναμία εγκατάστασης του καλύτερου υποψηφίου ενημέρωσης για το πακέτο "
+msgstr ""
+"αδυναμία εγκατάστασης του καλύτερου υποψηφίου ενημέρωσης για το πακέτο "
 
 #: libdnf/goal/Goal.cpp:100 libdnf/goal/Goal.cpp:127
 msgid "cannot install the best candidate for the job"
