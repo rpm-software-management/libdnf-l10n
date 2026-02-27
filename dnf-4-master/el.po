@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-25 03:26+0000\n"
+"POT-Creation-Date: 2026-02-26 03:20+0000\n"
 "PO-Revision-Date: 2026-02-27 00:58+0000\n"
 "Last-Translator: Efstathios Iosifidis <eiosifidis@yandex.com>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/dnf/"
@@ -391,7 +391,8 @@ msgstr ""
 #: libdnf/dnf-sack.cpp:586
 #, c-format
 msgid "Failed to use newly written primary cache: %s"
-msgstr "Αποτυχία χρήσης της πρόσφατα εγγεγραμμένης κύριας προσωρινής μνήμης: %s"
+msgstr ""
+"Αποτυχία χρήσης της πρόσφατα εγγεγραμμένης κύριας προσωρινής μνήμης: %s"
 
 #: libdnf/dnf-sack.cpp:636
 #, c-format
@@ -681,7 +682,8 @@ msgstr "τίποτα δεν παρέχει το %s που απαιτείται �
 #: libdnf/goal/Goal.cpp:106
 #, c-format
 msgid "cannot install both %s from %s and %s from %s"
-msgstr "αδυναμία ταυτόχρονης εγκατάστασης του %s από το %s και του %s από το %s"
+msgstr ""
+"αδυναμία ταυτόχρονης εγκατάστασης του %s από το %s και του %s από το %s"
 
 #: libdnf/goal/Goal.cpp:107
 #, c-format
