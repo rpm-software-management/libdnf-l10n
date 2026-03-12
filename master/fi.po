@@ -4,13 +4,15 @@
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021.
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2023.
 # Jouko Tiilikainen <jouko.tiilikainen@gmail.com>, 2025.
+# Jouko Tiilikainen <jti65@users.noreply.translate.fedoraproject.org>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2026-02-01 15:58+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2026-03-13 07:58+0000\n"
+"Last-Translator: Jouko Tiilikainen "
+"<jti65@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/fi/>\n"
 "Language: fi\n"
@@ -18,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.15.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -92,7 +94,7 @@ msgstr "annettua polkua ”%s” ei ole olemassa."
 #: libdnf/conf/OptionSeconds.cpp:52
 #, c-format
 msgid "could not convert '%s' to seconds"
-msgstr "arvoa ”%s” ei pystytty muuntamaan sekunteiksi"
+msgstr "arvoa '%s' ei pystytty muuntamaan sekunteiksi"
 
 #: libdnf/conf/OptionString.cpp:74
 msgid "GetValue(): Value not set"
@@ -275,7 +277,7 @@ msgstr "prosenttiosuus ei 100: %i"
 #: libdnf/dnf-state.cpp:1194
 #, c-format
 msgid "failed to set number steps: %i"
-msgstr "vaiheiden määrän asettaminen epäonnistui: %i"
+msgstr "numerovaiheiden asettaminen epäonnistui: %i"
 
 #: libdnf/dnf-state.cpp:1293
 msgid "cancelled by user action"
@@ -750,7 +752,7 @@ msgstr "Ohjelmistolähteessä %s ei ole peiliä tai baseurl:ää asetettuna."
 #: libdnf/repo/Repo.cpp:371
 #, c-format
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
-msgstr "Ohjelmistolähteen ”%s” tyyppiä ei tueta: ”type=%s”; ohitetaan."
+msgstr "Ohjelmistolähteen '%s' tyyppiä ei tueta: 'type=%s'; ohitetaan."
 
 #: libdnf/repo/Repo.cpp:580
 #, c-format
@@ -926,7 +928,7 @@ msgstr "Yritetty lisätä transaktiokohta valmiiseen transaktioon"
 
 #: libdnf/transaction/TransactionItem.cpp:218
 msgid "Attempt to update transaction item in completed transaction"
-msgstr "Yritetty päivittää transaktiokohta valmiissa transaktiossa"
+msgstr "Yritä päivittää tapahtumanimike valmiissa tapahtumassa"
 
 #: libdnf/transaction/Transformer.cpp:659
 msgid "Transformer: can't open history persist dir"
