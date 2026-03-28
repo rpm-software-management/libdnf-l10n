@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-13 03:16+0000\n"
+"POT-Creation-Date: 2026-03-28 03:26+0000\n"
 "PO-Revision-Date: 2025-10-21 12:43+0000\n"
 "Last-Translator: Igor Gorbounov <igor.gorbounov@gmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/dnf/"
@@ -109,12 +109,12 @@ msgstr "не удалось преобразовать «%s» в секунды"
 msgid "GetValue(): Value not set"
 msgstr "GetValue (): значение не установлено"
 
-#: libdnf/dnf-context.cpp:3325 libdnf/dnf-context.cpp:3334
+#: libdnf/dnf-context.cpp:3326 libdnf/dnf-context.cpp:3335
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr "Невозможно одновременно открыть дополнительные потоки из модуля «%s»"
 
-#: libdnf/dnf-context.cpp:3343 libdnf/dnf-context.cpp:3361
+#: libdnf/dnf-context.cpp:3344 libdnf/dnf-context.cpp:3362
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
@@ -122,30 +122,30 @@ msgstr ""
 "Невозможно открыть поток «%2$s» модуля «%1$s»: модуль уже в изменённом "
 "состоянии"
 
-#: libdnf/dnf-context.cpp:3410
+#: libdnf/dnf-context.cpp:3411
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "Проблема с модульными зависимостями в Defaults: %s"
 
-#: libdnf/dnf-context.cpp:3413
+#: libdnf/dnf-context.cpp:3414
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
 msgstr "Проблема с зависимостями в последних модулях: %s"
 
-#: libdnf/dnf-context.cpp:3417
+#: libdnf/dnf-context.cpp:3418
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "Проблема с зависимостями модулей: %s"
 
-#: libdnf/dnf-context.cpp:3440 libdnf/dnf-context.cpp:3464
-#: libdnf/dnf-context.cpp:3475 libdnf/dnf-context.cpp:3514
-#: libdnf/dnf-context.cpp:3530 libdnf/dnf-context.cpp:3562
-#: libdnf/dnf-context.cpp:3611 libdnf/dnf-context.cpp:3621
+#: libdnf/dnf-context.cpp:3441 libdnf/dnf-context.cpp:3465
+#: libdnf/dnf-context.cpp:3476 libdnf/dnf-context.cpp:3515
+#: libdnf/dnf-context.cpp:3531 libdnf/dnf-context.cpp:3563
+#: libdnf/dnf-context.cpp:3612 libdnf/dnf-context.cpp:3622
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "Не удалось разрешить аргумент «%s»"
 
-#: libdnf/dnf-context.cpp:3447
+#: libdnf/dnf-context.cpp:3448
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
@@ -153,27 +153,27 @@ msgstr ""
 "Требуется только имя модуля. Игнорируется ненужная информация в аргументе: "
 "«%s»"
 
-#: libdnf/dnf-context.cpp:3461
+#: libdnf/dnf-context.cpp:3462
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr "Не удалось сбросить модуль «%s»: состояние модуля уже изменено"
 
-#: libdnf/dnf-context.cpp:3472
+#: libdnf/dnf-context.cpp:3473
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr "Не удалось отключить модуль «%s»: состояние модуля уже изменено"
 
-#: libdnf/dnf-context.cpp:3503 libdnf/dnf-context.cpp:3599
-#: libdnf/dnf-context.cpp:3780
+#: libdnf/dnf-context.cpp:3504 libdnf/dnf-context.cpp:3600
+#: libdnf/dnf-context.cpp:3781
 msgid "No modular data available"
 msgstr "Нет модульных данных"
 
-#: libdnf/dnf-context.cpp:3520
+#: libdnf/dnf-context.cpp:3521
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Игнорирую ненужную информацию в аргументе: «%s»"
 
-#: libdnf/dnf-context.cpp:3558
+#: libdnf/dnf-context.cpp:3559
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
@@ -182,57 +182,57 @@ msgstr ""
 "Проблема с разрешением дерева зависимостей для модуля «%1$s» поток «%2$s»:"
 "%3$s"
 
-#: libdnf/dnf-context.cpp:3570
+#: libdnf/dnf-context.cpp:3571
 msgid "Problems appeared for module enable request:"
 msgstr "При разрешении модуля возникли проблемы:"
 
-#: libdnf/dnf-context.cpp:3665
+#: libdnf/dnf-context.cpp:3666
 #, c-format
 msgid "No active module packages found for module spec '%s'"
 msgstr "Не найдено активных пакетов для модуля специфицированного как «%s»"
 
-#: libdnf/dnf-context.cpp:3670
+#: libdnf/dnf-context.cpp:3671
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
 msgstr ""
 "Не удалось инсталлировать модуль «%s» из защищённого от ошибок репозитория"
 
-#: libdnf/dnf-context.cpp:3677
+#: libdnf/dnf-context.cpp:3678
 #, c-format
 msgid "No profile found matching '%s'"
 msgstr "Не найдено подходящего профиля «%s»"
 
-#: libdnf/dnf-context.cpp:3731
+#: libdnf/dnf-context.cpp:3732
 #, c-format
 msgid "No match for package '%s' for module spec %s"
 msgstr ""
 "Не найдено совпадений для пакета «%s» для модуля специфицированного как %s"
 
-#: libdnf/dnf-context.cpp:3742
+#: libdnf/dnf-context.cpp:3743
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
 msgstr "Проблема при установке модуля «%1$s» поток «%2$s»:%3$s"
 
-#: libdnf/dnf-context.cpp:3751
+#: libdnf/dnf-context.cpp:3752
 msgid "Problems appeared for module install request:"
 msgstr "Проблемы, возникшие при запросе на установку модуля:"
 
-#: libdnf/dnf-context.cpp:3810
+#: libdnf/dnf-context.cpp:3811
 msgid "Problems appeared for module reset request:"
 msgstr "Проблемы, возникшие при запросе на сброс модуля:"
 
-#: libdnf/dnf-context.cpp:3811 libdnf/dnf-context.cpp:3870
+#: libdnf/dnf-context.cpp:3812 libdnf/dnf-context.cpp:3871
 msgid "Problems appeared for module disable request:"
 msgstr "Возникли проблемы при запросе отключения модуля:"
 
-#: libdnf/dnf-context.cpp:3902
+#: libdnf/dnf-context.cpp:3903
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
 "'%s'"
 msgstr "Операция приведёт к переключению модуля «%s» потока «%s» на поток «%s»"
 
-#: libdnf/dnf-context.cpp:3906
+#: libdnf/dnf-context.cpp:3907
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
