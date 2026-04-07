@@ -4,13 +4,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Alessio <alciregi@posteo.net>, 2023.
 # Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025.
+# Ali Ciloqlu <ali.ciloqlu@murena.io>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2025-02-13 19:38+0000\n"
-"Last-Translator: Salvatore Cocuzza <info@salvatorecocuzza.it>\n"
+"PO-Revision-Date: 2026-04-08 06:58+0000\n"
+"Last-Translator: Ali Ciloqlu <ali.ciloqlu@murena.io>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/it/>\n"
 "Language: it\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -96,7 +97,7 @@ msgstr "non potevo convertire '%s'a secondi"
 
 #: libdnf/conf/OptionString.cpp:74
 msgid "GetValue(): Value not set"
-msgstr "GetValue (): valore non impostato"
+msgstr "GetValue(): valore non impostato"
 
 #: libdnf/dnf-goal.cpp:68
 msgid "Could not depsolve transaction; "
@@ -209,11 +210,11 @@ msgstr "errore durante l'apertura del file tmp: %s"
 #: libdnf/dnf-sack.cpp:559
 #, c-format
 msgid "write_main() failed writing data: %i"
-msgstr "write_main () non è riuscito a scrivere i dati: %i"
+msgstr "write_main() non è riuscito a scrivere i dati: %i"
 
 #: libdnf/dnf-sack.cpp:576
 msgid "write_main() failed to re-load written solv file"
-msgstr "write_main () non è riuscito a ricaricare il file solv scritto"
+msgstr "write_main() non è riuscito a ricaricare il file solv scritto"
 
 #: libdnf/dnf-sack.cpp:641
 #, c-format
@@ -223,7 +224,7 @@ msgstr "non è possibile creare un file temporaneo %s"
 #: libdnf/dnf-sack.cpp:659
 #, c-format
 msgid "write_ext(%1$d) has failed: %2$d"
-msgstr "write_ext(%1$d) has failed: %2$d"
+msgstr "\"write_ext(%1$d)non riuscito:%2$d"
 
 #: libdnf/dnf-sack.cpp:714
 msgid "null repo md file"
@@ -236,7 +237,7 @@ msgstr "non posso leggere il file %1$s: %2$s"
 
 #: libdnf/dnf-sack.cpp:737
 msgid "repo_add_solv() has failed."
-msgstr "repo_add_solv() has failed."
+msgstr "repo_add_solv() ha fallito."
 
 #: libdnf/dnf-sack.cpp:750
 msgid "loading of MD_TYPE_PRIMARY has failed."
@@ -244,7 +245,7 @@ msgstr ""
 
 #: libdnf/dnf-sack.cpp:763
 msgid "repo_add_repomdxml/rpmmd() has failed."
-msgstr "repo_add_repomdxml/rpmmd() has failed."
+msgstr "repo_add_repomdxml/rpmmd() non riuscito."
 
 #: libdnf/dnf-sack.cpp:830
 msgid "failed to auto-detect architecture"
@@ -734,7 +735,7 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:337
 #, c-format
 msgid "Bad id for repo: %s, byte = %s %d"
-msgstr "ID non valido per il repository: %s, byte = %s %d"
+msgstr "Id non valido per il repository: %s, byte = %s %d"
 
 #: libdnf/repo/Repo.cpp:362
 #, c-format
@@ -869,7 +870,7 @@ msgstr ""
 
 #: libdnf/repo/Repo.cpp:1371
 msgid "getCachedir(): Computation of SHA256 failed"
-msgstr "getCachedir(): Computation of SHA256 failed"
+msgstr "getCachedir(): Computazione di SHA256 è fallita"
 
 #: libdnf/repo/Repo.cpp:1396
 #, c-format
@@ -895,7 +896,7 @@ msgstr "Non si può aprire %s: %s"
 #: libdnf/repo/Repo.cpp:1968
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
-msgstr "Gestore del registro con ID %ld non esiste"
+msgstr "Gestore del registro con id %ld non esiste"
 
 #: libdnf/transaction/Swdb.cpp:107
 msgid "In progress"
