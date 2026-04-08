@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 03:34+0000\n"
+"POT-Creation-Date: 2026-04-08 03:42+0000\n"
 "PO-Revision-Date: 2026-04-08 06:58+0000\n"
 "Last-Translator: Ali Ciloqlu <ali.ciloqlu@murena.io>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/"
@@ -564,7 +564,8 @@ msgstr "Errore %i nell'apertura del database rpm"
 
 #: libdnf/dnf-transaction.cpp:1478 libdnf/dnf-transaction.cpp:1524
 msgid "The rpmdbCookie() function did not return cookie of rpm database."
-msgstr "La funzione rpmdbCookie() non ha restituito il cookie del database rpm."
+msgstr ""
+"La funzione rpmdbCookie() non ha restituito il cookie del database rpm."
 
 #: libdnf/dnf-transaction.cpp:1493
 #, c-format
