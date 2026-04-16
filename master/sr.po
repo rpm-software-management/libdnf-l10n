@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2026-04-16 08:58+0000\n"
+"PO-Revision-Date: 2026-04-17 13:58+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/sr/>\n"
@@ -810,13 +810,13 @@ msgstr "оживљавање: није успело за „%s“, сума %s �
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
-"оживљавање: „%s“ се може оживети — суме провере метавезе (metalink) се "
+"оживљавање: „%s“ се може оживети - суме провере метавезе (metalink) се "
 "подударају."
 
 #: libdnf/repo/Repo.cpp:1237
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
-msgstr "оживљавање: „%s“ се може оживети — repomd се подудара."
+msgstr "оживљавање: „%s“ се може оживети - repomd се подудара."
 
 #: libdnf/repo/Repo.cpp:1239
 #, c-format
