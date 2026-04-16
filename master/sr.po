@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2026-04-15 17:49+0000\n"
+"PO-Revision-Date: 2026-04-16 08:58+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/sr/>\n"
@@ -21,101 +21,103 @@ msgstr ""
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
-msgstr ""
+msgstr "није наведена вредност"
 
 #: libdnf/conf/ConfigMain.cpp:67 libdnf/conf/OptionSeconds.cpp:48
 #, c-format
 msgid "seconds value '%s' must not be negative"
-msgstr ""
+msgstr "вредност секунди „%s“ не сме бити негативна"
 
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
 msgid "could not convert '%s' to bytes"
-msgstr ""
+msgstr "не могу да претворим „%s“ у бајтове"
 
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
 msgid "unknown unit '%s'"
-msgstr ""
+msgstr "непозната јединица „%s“"
 
 #: libdnf/conf/ConfigMain.cpp:329
 #, c-format
 msgid "percentage '%s' is out of range"
-msgstr ""
+msgstr "проценат „%s“ је изван опсега"
 
 #: libdnf/conf/OptionBinds.cpp:76
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr ""
+msgstr "Подешавање: OptionBinding са ид-ом „%s“ не постоји"
 
 #: libdnf/conf/OptionBinds.cpp:88
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr ""
+msgstr "Подешавање: OptionBinding са ид-ом „%s“ већ постоји"
 
 #: libdnf/conf/OptionBool.cpp:47
 #, c-format
 msgid "invalid boolean value '%s'"
-msgstr ""
+msgstr "неисправна логичка вредност „%s“"
 
 #: libdnf/conf/OptionEnum.cpp:72 libdnf/conf/OptionEnum.cpp:158
 #: libdnf/conf/OptionString.cpp:59 libdnf/conf/OptionStringList.cpp:59
 #, c-format
 msgid "'%s' is not an allowed value"
-msgstr ""
+msgstr "„%s“ није дозвољена вредност"
 
 #: libdnf/conf/OptionEnum.cpp:83 libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
-msgstr ""
+msgstr "неисправна вредност"
 
 #: libdnf/conf/OptionNumber.cpp:73
 #, c-format
 msgid "given value [%d] should be less than allowed value [%d]."
-msgstr ""
+msgstr "дата вредност [%d] треба да буде мања од дозвољене вредности [%d]."
 
 #: libdnf/conf/OptionNumber.cpp:76
 #, c-format
 msgid "given value [%d] should be greater than allowed value [%d]."
-msgstr ""
+msgstr "дата вредност [%d] треба да буде већа од дозвољене вредности [%d]."
 
 #: libdnf/conf/OptionPath.cpp:78
 #, c-format
 msgid "given path '%s' is not absolute."
-msgstr ""
+msgstr "дата путања „%s“ није апсолутна."
 
 #: libdnf/conf/OptionPath.cpp:82
 #, c-format
 msgid "given path '%s' does not exist."
-msgstr ""
+msgstr "дата путања „%s“ не постоји."
 
 #: libdnf/conf/OptionSeconds.cpp:52
 #, c-format
 msgid "could not convert '%s' to seconds"
-msgstr ""
+msgstr "не могу да претворим „%s“ у секунде"
 
 #: libdnf/conf/OptionString.cpp:74
 msgid "GetValue(): Value not set"
-msgstr ""
+msgstr "GetValue(): Вредност није постављена"
 
 #: libdnf/dnf-goal.cpp:68
 msgid "Could not depsolve transaction; "
-msgstr ""
+msgstr "Не могу да разрешим зависности преноса, "
 
 #: libdnf/dnf-goal.cpp:70
 #, c-format
 msgid "%i problem detected:\n"
 msgid_plural "%i problems detected:\n"
-msgstr[0] ""
+msgstr[0] "Откривен је %i проблем:\n"
+msgstr[1] "Откривена су %i проблема:\n"
+msgstr[2] "Откривено је %i проблема:\n"
 
 #: libdnf/dnf-goal.cpp:78
 #, c-format
 msgid " Problem %1$i: %2$s\n"
-msgstr ""
+msgstr " Проблем %1$i: %2$s\n"
 
 #: libdnf/dnf-goal.cpp:80
 #, c-format
 msgid " Problem: %s\n"
-msgstr ""
+msgstr " Проблем: %s\n"
 
 #: libdnf/dnf-rpmts.cpp:79
 #, c-format
@@ -123,626 +125,636 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
+"Нема доступних модуларних метаподатака за модуларни пакет „%s“; не може бити "
+"инсталиран на систему"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
 msgid "signature does not verify for %s"
-msgstr ""
+msgstr "потпис није потврђен за %s"
 
 #: libdnf/dnf-rpmts.cpp:129 libdnf/dnf-rpmts.cpp:174
 #, c-format
 msgid "failed to open(generic error): %s"
-msgstr ""
+msgstr "нисам успео да отворим (општа грешка): %s"
 
 #: libdnf/dnf-rpmts.cpp:142
 #, c-format
 msgid "failed to verify key for %s"
-msgstr ""
+msgstr "нисам успео да потврдим кључ за %s"
 
 #: libdnf/dnf-rpmts.cpp:150
 #, c-format
 msgid "public key unavailable for %s"
-msgstr ""
+msgstr "јавни кључ није доступан за %s"
 
 #: libdnf/dnf-rpmts.cpp:158
 #, c-format
 msgid "signature not found for %s"
-msgstr ""
+msgstr "потпис није пронађен за %s"
 
 #: libdnf/dnf-rpmts.cpp:193
 #, c-format
 msgid "failed to add install element: %1$s [%2$i]"
-msgstr ""
+msgstr "нисам успео да додам елемент инсталације: %1$s [%2$i]"
 
 #: libdnf/dnf-rpmts.cpp:274
 #, c-format
 msgid "Error running transaction: %s"
-msgstr ""
+msgstr "Грешка приликом извршавања преноса: %s"
 
 #: libdnf/dnf-rpmts.cpp:283
 msgid "Error running transaction and no problems were reported!"
-msgstr ""
+msgstr "Грешка приликом извршавања преноса, а није пријављен ниједан проблем!"
 
 #: libdnf/dnf-rpmts.cpp:346
 msgid "Fatal error, run database recovery"
-msgstr ""
+msgstr "Кобна грешка, покрените опоравак базе података"
 
 #: libdnf/dnf-rpmts.cpp:355
 #, c-format
 msgid "failed to find package %s"
-msgstr ""
+msgstr "нисам успео да пронађем пакет %s"
 
 #: libdnf/dnf-rpmts.cpp:401
 #, c-format
 msgid "could not add erase element %1$s(%2$i)"
-msgstr ""
+msgstr "не могу да додам елемент брисања %1$s(%2$i)"
 
 #: libdnf/dnf-sack.cpp:417
 #, c-format
 msgid "no %1$s string for %2$s"
-msgstr ""
+msgstr "нема ниске %1$s за %2$s"
 
 #: libdnf/dnf-sack.cpp:440
 msgid "failed to add solv"
-msgstr ""
+msgstr "нисам успео да додам solv"
 
 #: libdnf/dnf-sack.cpp:458
 #, c-format
 msgid "failed to open: %s"
-msgstr ""
+msgstr "нисам успео да отворим: %s"
 
 #: libdnf/dnf-sack.cpp:537
 #, c-format
 msgid "cannot create temporary file: %s"
-msgstr ""
+msgstr "не могу да направим привремену датотеку: %s"
 
 #: libdnf/dnf-sack.cpp:547
 #, c-format
 msgid "failed opening tmp file: %s"
-msgstr ""
+msgstr "нисам успео да отворим привремену датотеку: %s"
 
 #: libdnf/dnf-sack.cpp:559
 #, c-format
 msgid "write_main() failed writing data: %i"
-msgstr ""
+msgstr "write_main() није успео да упише податке: %i"
 
 #: libdnf/dnf-sack.cpp:576
 msgid "write_main() failed to re-load written solv file"
-msgstr ""
+msgstr "write_main() није успело да поново учита уписану „solv“ датотеку"
 
 #: libdnf/dnf-sack.cpp:641
 #, c-format
 msgid "can not create temporary file %s"
-msgstr ""
+msgstr "не могу да направим привремену датотеку %s"
 
 #: libdnf/dnf-sack.cpp:659
 #, c-format
 msgid "write_ext(%1$d) has failed: %2$d"
-msgstr ""
+msgstr "write_ext(%1$d) није успело: %2$d"
 
 #: libdnf/dnf-sack.cpp:714
 msgid "null repo md file"
-msgstr ""
+msgstr "ништавна „repo md“ датотека"
 
 #: libdnf/dnf-sack.cpp:723
 #, c-format
 msgid "can not read file %1$s: %2$s"
-msgstr ""
+msgstr "не могу да прочитам датотеку %1$s: %2$s"
 
 #: libdnf/dnf-sack.cpp:737
 msgid "repo_add_solv() has failed."
-msgstr ""
+msgstr "repo_add_solv() није успело."
 
 #: libdnf/dnf-sack.cpp:750
 msgid "loading of MD_TYPE_PRIMARY has failed."
-msgstr ""
+msgstr "учитавање „MD_TYPE_PRIMARY“ није успело."
 
 #: libdnf/dnf-sack.cpp:763
 msgid "repo_add_repomdxml/rpmmd() has failed."
-msgstr ""
+msgstr "repo_add_repomdxml/rpmmd() није успело."
 
 #: libdnf/dnf-sack.cpp:830
 msgid "failed to auto-detect architecture"
-msgstr ""
+msgstr "није успело самооткривање архитектуре"
 
 #: libdnf/dnf-sack.cpp:955
 #, c-format
 msgid "failed creating cachedir %s"
-msgstr ""
+msgstr "није успело стварање директоријума оставе %s"
 
 #: libdnf/dnf-sack.cpp:1727
 msgid "failed calculating RPMDB checksum"
-msgstr ""
+msgstr "није успело израчунавање „RPMDB“ суме провере"
 
 #: libdnf/dnf-sack.cpp:1751
 msgid "failed loading RPMDB"
-msgstr ""
+msgstr "није успело учитавање „RPMDB“"
 
 #: libdnf/dnf-sack.cpp:2466
 msgid "No module defaults found"
-msgstr ""
+msgstr "Нису пронађене подразумеване вредности модула"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
 msgid "percentage not 100: %i"
-msgstr ""
+msgstr "проценат није 100: %i"
 
 #: libdnf/dnf-state.cpp:1194
 #, c-format
 msgid "failed to set number steps: %i"
-msgstr ""
+msgstr "није успело постављање броја корака: %i"
 
 #: libdnf/dnf-state.cpp:1293
 msgid "cancelled by user action"
-msgstr ""
+msgstr "отказано радњом корисника"
 
 #: libdnf/dnf-state.cpp:1332
 #, c-format
 msgid "done on a state %1$p that did not have a size set! [%2$s]"
-msgstr ""
+msgstr "урађено у стању %1$p које није имало постављену величину! [%2$s]"
 
 #: libdnf/dnf-state.cpp:1357
 #, c-format
 msgid "already at 100%% state [%s]"
-msgstr ""
+msgstr "већ је на стању 100%% [%s]"
 
 #: libdnf/dnf-transaction.cpp:300
 #, c-format
 msgid "Sources not set when trying to ensure package %s"
-msgstr ""
+msgstr "Извори нису постављени приликом покушаја осигуравања пакета %s"
 
 #: libdnf/dnf-transaction.cpp:326
 #, c-format
 msgid "Failed to ensure %1$s as repo %2$s not found(%3$i repos loaded)"
 msgstr ""
+"Нисам успео да осигурам %1$s јер ризница %2$s није пронађена (учитано је "
+"%3$i ризница)"
 
 #: libdnf/dnf-transaction.cpp:367
 msgid "Failed to check untrusted: "
-msgstr ""
+msgstr "Није успела провера неповерљивих: "
 
 #: libdnf/dnf-transaction.cpp:377
 #, c-format
 msgid "Downloaded file for %s not found"
-msgstr ""
+msgstr "Преузета датотека за %s није пронађена"
 
 #: libdnf/dnf-transaction.cpp:397
 #, c-format
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
-msgstr ""
+msgstr "пакет %1$s се не може потврдити а ризница %2$s има омогућен GPG: %3$s"
 
 #: libdnf/dnf-transaction.cpp:831 libdnf/dnf-transaction.cpp:903
 msgid "Failed to get value for CacheDir"
-msgstr ""
+msgstr "Није успело добављање вредности за CacheDir"
 
 #: libdnf/dnf-transaction.cpp:911
 #, c-format
 msgid "Failed to get filesystem free size for %s: "
-msgstr ""
+msgstr "Није успело добављање слободне величине система датотека за %s: "
 
 #: libdnf/dnf-transaction.cpp:919
 #, c-format
 msgid "Failed to get filesystem free size for %s"
-msgstr ""
+msgstr "Није успело добављање слободне величине система датотека за %s"
 
 #: libdnf/dnf-transaction.cpp:935
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
 msgstr ""
+"Нема довољно слободног простора у %1$s: потребно је %2$s, доступно је %3$s"
 
 #: libdnf/dnf-transaction.cpp:1196
 msgid "failed to set root"
-msgstr ""
+msgstr "није успело постављање корена"
 
 #: libdnf/dnf-transaction.cpp:1418
 #, c-format
 msgid "Error %i running transaction test"
-msgstr ""
+msgstr "Грешка %i приликом покретања пробе преноса"
 
 #: libdnf/dnf-transaction.cpp:1458
 #, c-format
 msgid "Error %i running transaction"
-msgstr ""
+msgstr "Грешка %i приликом покретања преноса"
 
 #: libdnf/dnf-transaction.cpp:1473
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
-msgstr ""
+msgstr "Пренос није прешао у фазу уписивања, али није вратио ни грешку (%i)"
 
 #: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:399
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
-msgstr ""
+msgstr "не могу да отворим директоријум %1$s: %2$s"
 
 #: libdnf/dnf-utils.cpp:136
 #, c-format
 msgid "failed to remove %s"
-msgstr ""
+msgstr "није успело уклањање %s"
 
 #: libdnf/goal/Goal.cpp:55
 msgid "Ill-formed Selector, presence of multiple match objects in the filter"
 msgstr ""
+"Лоше формиран изаборник, присуство вишеструких објеката поклапања у филтеру"
 
 #: libdnf/goal/Goal.cpp:56
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
-msgstr ""
+msgstr "Лоше формиран изаборник коришћен за радњу, неисправна врста поређења"
 
 #: libdnf/goal/Goal.cpp:67 libdnf/goal/Goal.cpp:94
 msgid " does not belong to a distupgrade repository"
-msgstr ""
+msgstr " не припада ризници за надоградњу дистрибуције"
 
 #: libdnf/goal/Goal.cpp:68 libdnf/goal/Goal.cpp:95
 msgid " has inferior architecture"
-msgstr ""
+msgstr " има лошију архитектуру"
 
 #: libdnf/goal/Goal.cpp:69
 msgid "problem with installed package "
-msgstr ""
+msgstr "проблем са инсталираним пакетом "
 
 #: libdnf/goal/Goal.cpp:70 libdnf/goal/Goal.cpp:97
 msgid "conflicting requests"
-msgstr ""
+msgstr "сукобљени захтеви"
 
 #: libdnf/goal/Goal.cpp:71 libdnf/goal/Goal.cpp:98
 msgid "unsupported request"
-msgstr ""
+msgstr "неподржан захтев"
 
 #: libdnf/goal/Goal.cpp:72 libdnf/goal/Goal.cpp:99
 msgid "nothing provides requested "
-msgstr ""
+msgstr "ништа не обезбеђује захтевано "
 
 #: libdnf/goal/Goal.cpp:73
 #, c-format
 msgid "package %s does not exist"
-msgstr ""
+msgstr "пакет %s не постоји"
 
 #: libdnf/goal/Goal.cpp:74 libdnf/goal/Goal.cpp:101
 msgid " is provided by the system"
-msgstr ""
+msgstr " обезбеђује га систем"
 
 #: libdnf/goal/Goal.cpp:75 libdnf/goal/Goal.cpp:102
 msgid "some dependency problem"
-msgstr ""
+msgstr "неки проблем са зависностима"
 
 #: libdnf/goal/Goal.cpp:76
 msgid "cannot install the best update candidate for package "
-msgstr ""
+msgstr "не могу да инсталирам најбољег кандидата за ажурирање за пакет "
 
 #: libdnf/goal/Goal.cpp:77 libdnf/goal/Goal.cpp:104
 msgid "cannot install the best candidate for the job"
-msgstr ""
+msgstr "не могу да инсталирам најбољег кандидата за овај посао"
 
 #: libdnf/goal/Goal.cpp:78
 #, c-format
 msgid "package %s is filtered out by modular filtering"
-msgstr ""
+msgstr "пакет %s је издвојен модуларним филтрирањем"
 
 #: libdnf/goal/Goal.cpp:79
 #, c-format
 msgid "package %s does not have a compatible architecture"
-msgstr ""
+msgstr "пакет %s нема сагласну архитектуру"
 
 #: libdnf/goal/Goal.cpp:80
 #, c-format
 msgid "package %s is not installable"
-msgstr ""
+msgstr "пакет %s се не може инсталирати"
 
 #: libdnf/goal/Goal.cpp:81
 #, c-format
 msgid "package %s is filtered out by exclude filtering"
-msgstr ""
+msgstr "пакет %s је издвојен филтрирањем искључивања"
 
 #: libdnf/goal/Goal.cpp:82
 #, c-format
 msgid "nothing provides %s needed by %s"
-msgstr ""
+msgstr "ништа не обезбеђује %s потребан за %s"
 
 #: libdnf/goal/Goal.cpp:83
 #, c-format
 msgid "cannot install both %s and %s"
-msgstr ""
+msgstr "не могу да инсталирам и %s и %s"
 
 #: libdnf/goal/Goal.cpp:84
 #, c-format
 msgid "package %s conflicts with %s provided by %s"
-msgstr ""
+msgstr "пакет %s је у сукобу са %s који обезбеђује %s"
 
 #: libdnf/goal/Goal.cpp:85
 #, c-format
 msgid "package %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "пакет %s замењује %s који обезбеђује %s"
 
 #: libdnf/goal/Goal.cpp:86
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "инсталирани пакет %s замењује %s који обезбеђује %s"
 
 #: libdnf/goal/Goal.cpp:87
 #, c-format
 msgid "package %s implicitly obsoletes %s provided by %s"
-msgstr ""
+msgstr "пакет %s посредно замењује %s који обезбеђује %s"
 
 #: libdnf/goal/Goal.cpp:88
 #, c-format
 msgid "package %s requires %s, but none of the providers can be installed"
-msgstr ""
+msgstr "пакет %s захтева %s, али ниједан од достављача не може бити инсталиран"
 
 #: libdnf/goal/Goal.cpp:89
 #, c-format
 msgid "package %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "пакет %s је у сукобу са %s који сам обезбеђује"
 
 #: libdnf/goal/Goal.cpp:90
 #, c-format
 msgid "both package %s and %s obsolete %s"
-msgstr ""
+msgstr "и пакет %s и %s замењују %s"
 
 #: libdnf/goal/Goal.cpp:96
 msgid "problem with installed module "
-msgstr ""
+msgstr "проблем са инсталираним модулом "
 
 #: libdnf/goal/Goal.cpp:100
 #, c-format
 msgid "module %s does not exist"
-msgstr ""
+msgstr "модул %s не постоји"
 
 #: libdnf/goal/Goal.cpp:103
 msgid "cannot install the best update candidate for module "
-msgstr ""
+msgstr "не могу да инсталирам најбољег кандидата ажурирања за модул "
 
 #: libdnf/goal/Goal.cpp:105 libdnf/goal/Goal.cpp:108
 #, c-format
 msgid "module %s is disabled"
-msgstr ""
+msgstr "модул %s је онемогућен"
 
 #: libdnf/goal/Goal.cpp:106
 #, c-format
 msgid "module %s does not have a compatible architecture"
-msgstr ""
+msgstr "модул %s нема одговарајућу архитектуру"
 
 #: libdnf/goal/Goal.cpp:107
 #, c-format
 msgid "module %s is not installable"
-msgstr ""
+msgstr "модул %s се не може инсталирати"
 
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "nothing provides %s needed by module %s"
-msgstr ""
+msgstr "ништа не обезбеђује %s потребан за модул %s"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
 msgid "cannot install both modules %s and %s"
-msgstr ""
+msgstr "не могу да инсталирам оба модула %s и %s"
 
 #: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid "module %s conflicts with %s provided by %s"
-msgstr ""
+msgstr "модул %s је у сукобу са %s који обезбеђује %s"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
 msgid "module %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "модул %s превазилази %s који доставља %s"
 
 #: libdnf/goal/Goal.cpp:113
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "инсталирани модул %s превазилази %s који доставља %s"
 
 #: libdnf/goal/Goal.cpp:114
 #, c-format
 msgid "module %s implicitly obsoletes %s provided by %s"
-msgstr ""
+msgstr "модул %s посредно превазилази %s који доставља %s"
 
 #: libdnf/goal/Goal.cpp:115
 #, c-format
 msgid "module %s requires %s, but none of the providers can be installed"
-msgstr ""
+msgstr "модул %s захтева %s, али ниједан од достављача не може бити инсталиран"
 
 #: libdnf/goal/Goal.cpp:116
 #, c-format
 msgid "module %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "модул %s је у сукобу са %s који сам доставља"
 
 #: libdnf/goal/Goal.cpp:117
 #, c-format
 msgid "both module %s and %s obsolete %s"
-msgstr ""
+msgstr "и модул %s и %s превазилазе %s"
 
 #: libdnf/goal/Goal.cpp:1008
 msgid "no solver set"
-msgstr ""
+msgstr "није постављен решавач"
 
 #: libdnf/goal/Goal.cpp:1013
 #, c-format
 msgid "failed to make %s absolute"
-msgstr ""
+msgstr "није успело прављење путање %s апсолутном"
 
 #: libdnf/goal/Goal.cpp:1020
 #, c-format
 msgid "failed writing debugdata to %1$s: %2$s"
-msgstr ""
+msgstr "није успело уписивање података за прочишћавање у %1$s: %2$s"
 
 #: libdnf/goal/Goal.cpp:1032
 msgid "no solv in the goal"
-msgstr ""
+msgstr "нема solv-а у циљу"
 
 #: libdnf/goal/Goal.cpp:1034
 msgid "no solution, cannot remove protected package"
-msgstr ""
+msgstr "нема решења, не могу да уклоним заштићени пакет"
 
 #: libdnf/goal/Goal.cpp:1037
 msgid "no solution possible"
-msgstr ""
+msgstr "решење није могуће"
 
 #: libdnf/goal/Goal.cpp:1443
 msgid ""
 "The operation would result in removing the following protected packages: "
-msgstr ""
+msgstr "Радња би довела до уклањања следећих заштићених пакета: "
 
 #: libdnf/hy-iutil.cpp:322
 #, c-format
 msgid "Failed renaming %1$s to %2$s: %3$s"
-msgstr ""
+msgstr "Није успело преименовање %1$s у %2$s: %3$s"
 
 #: libdnf/hy-iutil.cpp:330
 #, c-format
 msgid "Failed setting perms on %1$s: %2$s"
-msgstr ""
+msgstr "Није успело постављање овлашћења на %1$s: %2$s"
 
 #: libdnf/hy-iutil.cpp:376
 #, c-format
 msgid "cannot create directory %1$s: %2$s"
-msgstr ""
+msgstr "не могу да направим директоријум %1$s: %2$s"
 
 #: libdnf/hy-iutil.cpp:411
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
-msgstr ""
+msgstr "не могу да добавим податке (stat) за путању %1$s: %2$s"
 
 #: libdnf/module/ModulePackage.cpp:463
 #, c-format
 msgid "Invalid format of Platform module: %s"
-msgstr ""
+msgstr "Неисправан формат модула платформе: %s"
 
 #: libdnf/module/ModulePackage.cpp:478
 msgid "Multiple module platforms provided by available packages\n"
-msgstr ""
+msgstr "Више платформи модула је достављено од стране доступних пакета\n"
 
 #: libdnf/module/ModulePackage.cpp:491
 msgid "Multiple module platforms provided by installed packages\n"
-msgstr ""
+msgstr "Више платформи модула је достављено од стране инсталираних пакета\n"
 
 #: libdnf/module/ModulePackage.cpp:518
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
-msgstr ""
+msgstr "Откривање модула платформе у %s није успело: %s"
 
 #: libdnf/module/ModulePackage.cpp:527
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
-msgstr ""
+msgstr "Недостаје PLATFORM_ID у %s"
 
 #: libdnf/module/ModulePackage.cpp:532
 msgid "No valid Platform ID detected"
-msgstr ""
+msgstr "Није откривен важећи ИД платформе"
 
 #: libdnf/module/ModulePackageContainer.cpp:68
 #, c-format
 msgid "Cannot enable multiple streams for module '%s'"
-msgstr ""
+msgstr "Не могу да омогућим вишеструке токове за модул „%s“"
 
 #: libdnf/module/ModulePackageContainer.cpp:294
 #, c-format
 msgid "Conflicting defaults with repo '%s': %s"
-msgstr ""
+msgstr "Сукобљене подразумеване вредности са ризницом „%s“: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1568
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
-msgstr ""
+msgstr "Не могу да учитам модуларне податке заштите од грешака на „%s“"
 
 #: libdnf/module/ModulePackageContainer.cpp:1574
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
-msgstr ""
+msgstr "Не могу да учитам модуларне податке заштите од грешака за модул „%s:%s“"
 
 #: libdnf/module/ModulePackageContainer.cpp:1638
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
 msgstr ""
+"Не могу да направим директоријум „%s“ за модуларне податке заштите од "
+"грешака: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1660
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
-msgstr ""
+msgstr "Не могу да сачувам модуларне податке заштите од грешака у „%s“"
 
 #: libdnf/module/ModulePackageContainer.cpp:1685
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
-msgstr ""
+msgstr "Не могу да уклоним модуларне податке заштите од грешака у „%s“"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:43
 #, c-format
 msgid "Failed to update from string: %s"
-msgstr ""
+msgstr "Није успело ажурирање из ниске: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:68
 #: libdnf/module/modulemd/ModuleMetadata.cpp:70
 #, c-format
 msgid "Failed to resolve: %s"
-msgstr ""
+msgstr "Није успело разрешавање: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:74
 #, c-format
 msgid "Failed to upgrade defaults: %s"
-msgstr ""
+msgstr "Није успела надоградња подразумеваних вредности: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:77
 #, c-format
 msgid "Failed to upgrade streams: %s"
-msgstr ""
+msgstr "Није успела надоградња токова: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
 msgid "Can't load shared library \"%s\": %s"
-msgstr ""
+msgstr "Не могу да учитам дељену библиотеку „%s“: %s"
 
 #: libdnf/plugin/plugin.cpp:61 libdnf/plugin/plugin.cpp:67
 #: libdnf/plugin/plugin.cpp:73 libdnf/plugin/plugin.cpp:79
 #, c-format
 msgid "Can't obtain address of symbol \"%s\": %s"
-msgstr ""
+msgstr "Не могу да добијем адресу симбола „%s“: %s"
 
 #: libdnf/plugin/plugin.cpp:86
 #, c-format
 msgid "Loading plugin file=\"%s\""
-msgstr ""
+msgstr "Учитавам прикључак file=\"%s\""
 
 #: libdnf/plugin/plugin.cpp:89
 #, c-format
 msgid "Loaded plugin name=\"%s\", version=\"%s\""
-msgstr ""
+msgstr "Учитан прикључак name=\"%s\", version=\"%s\""
 
 #: libdnf/plugin/plugin.cpp:96
 msgid "Plugins::loadPlugins() dirPath cannot be empty"
-msgstr ""
+msgstr "Plugins::loadPlugins() dirPath не може бити празно"
 
 #: libdnf/plugin/plugin.cpp:105
 #, c-format
 msgid "Can't read plugin directory \"%s\": %s"
-msgstr ""
+msgstr "Не могу да прочитам директоријум прикључака „%s“: %s"
 
 #: libdnf/plugin/plugin.cpp:114
 #, c-format
 msgid "Can't load plugin \"%s\": %s"
-msgstr ""
+msgstr "Не могу да учитам прикључак „%s“: %s"
 
 #: libdnf/repo/Repo.cpp:337
 #, c-format
 msgid "Bad id for repo: %s, byte = %s %d"
-msgstr ""
+msgstr "Лош ид за ризницу: %s, бајт = %s %d"
 
 #: libdnf/repo/Repo.cpp:362
 #, c-format
 msgid "Repository %s has no mirror or baseurl set."
-msgstr ""
+msgstr "За ризницу %s није постављено огледало или основна адреса (baseurl)."
 
 #: libdnf/repo/Repo.cpp:371
 #, c-format
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
-msgstr ""
+msgstr "Ризница „%s“ има неподржану врсту: „type=%s“, прескачем."
 
 #: libdnf/repo/Repo.cpp:580
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
-msgstr ""
+msgstr "Не могу да пронађем исправну основну адресу (baseurl) за ризницу: %s"
 
 #: libdnf/repo/Repo.cpp:616 libdnf/repo/Repo.cpp:1705
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
 msgstr ""
+"Највећа брзина преузимања је мања од најмање. Промените подешавања за „"
+"minrate“ или „throttle“"
 
 #: libdnf/repo/Repo.cpp:666 libdnf/repo/Repo.cpp:688
 #, c-format
@@ -757,125 +769,128 @@ msgstr "%s: gpgme_op_import(): %s"
 #: libdnf/repo/Repo.cpp:719 libdnf/repo/Repo.cpp:785 libdnf/repo/Repo.cpp:913
 #, c-format
 msgid "%s: gpgme_ctx_set_engine_info(): %s"
-msgstr ""
+msgstr "%s: gpgme_ctx_set_engine_info(): %s"
 
 #: libdnf/repo/Repo.cpp:746 libdnf/repo/Repo.cpp:810
 #, c-format
 msgid "can not list keys: %s"
-msgstr ""
+msgstr "не могу да излистам кључеве: %s"
 
 #: libdnf/repo/Repo.cpp:839
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
-msgstr ""
+msgstr "Нисам успео да преузмем ГПГ кључ за ризницу „%s“: %s"
 
 #: libdnf/repo/Repo.cpp:892
 #, c-format
 msgid "repo %s: 0x%s already imported"
-msgstr ""
+msgstr "ризница %s: 0x%s је већ увезена"
 
 #: libdnf/repo/Repo.cpp:920
 #, c-format
 msgid "repo %s: imported key 0x%s."
-msgstr ""
+msgstr "ризница %s: увезен кључ 0x%s."
 
 #: libdnf/repo/Repo.cpp:1164
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
-msgstr ""
+msgstr "оживљавање: ризница „%s“ је прескочена, нема метавезе (metalink)."
 
 #: libdnf/repo/Repo.cpp:1183
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
-msgstr ""
+msgstr "оживљавање: ризница „%s“ је прескочена, нема употребљивог хеша."
 
 #: libdnf/repo/Repo.cpp:1206
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
-msgstr ""
+msgstr "оживљавање: није успело за „%s“, сума %s се не подудара."
 
 #: libdnf/repo/Repo.cpp:1212
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
+"оживљавање: „%s“ се може оживети — суме провере метавезе (metalink) се "
+"подударају."
 
 #: libdnf/repo/Repo.cpp:1237
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
-msgstr ""
+msgstr "оживљавање: „%s“ се може оживети — repomd се подудара."
 
 #: libdnf/repo/Repo.cpp:1239
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
-msgstr ""
+msgstr "оживљавање: није успело за „%s“, repomd се не подудара."
 
 #: libdnf/repo/Repo.cpp:1257
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
-msgstr ""
+msgstr "Не могу да направим одредишни директоријум ризнице „%s“: %s"
 
 #: libdnf/repo/Repo.cpp:1263
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
-msgstr ""
+msgstr "Не могу да направим привремени директоријум ризнице „%s“: %s"
 
 #: libdnf/repo/Repo.cpp:1277
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
-msgstr ""
+msgstr "Не могу да направим директоријум „%s“: %s"
 
 #: libdnf/repo/Repo.cpp:1300
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
-msgstr ""
+msgstr "Не могу да преименујем директоријум „%s“ у „%s“: %s"
 
 #: libdnf/repo/Repo.cpp:1323
 #, c-format
 msgid "repo: using cache for: %s"
-msgstr ""
+msgstr "ризница: користим кеш за: %s"
 
 #: libdnf/repo/Repo.cpp:1335
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
-msgstr ""
+msgstr "Омогућено је само коришћење кеша, али нема кеша за „%s“"
 
 #: libdnf/repo/Repo.cpp:1339
 #, c-format
 msgid "repo: downloading from remote: %s"
-msgstr ""
+msgstr "ризница: преузимам са удаљеног места: %s"
 
 #: libdnf/repo/Repo.cpp:1345
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
-msgstr ""
+msgstr "Нисам успео да преузмем метаподатке за ризницу „%s“: %s"
 
 #: libdnf/repo/Repo.cpp:1371
 msgid "getCachedir(): Computation of SHA256 failed"
-msgstr ""
+msgstr "getCachedir(): израчунавање SHA256 није успело"
 
 #: libdnf/repo/Repo.cpp:1396
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
-msgstr ""
+msgstr "Не могу да направим директоријум за трајност „%s“: %s"
 
 #: libdnf/repo/Repo.cpp:1796
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr ""
+"наставак се не може користити истовремено са параметром „byterangestart“"
 
 #: libdnf/repo/Repo.cpp:1807
 #, c-format
 msgid "PackageTarget initialization failed: %s"
-msgstr ""
+msgstr "Покретање „PackageTarget“ није успело: %s"
 
 #: libdnf/repo/Repo.cpp:1924
 #, c-format
 msgid "Cannot open %s: %s"
-msgstr ""
+msgstr "Не могу да отворим %s: %s"
 
 #: libdnf/repo/Repo.cpp:1968
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
-msgstr ""
+msgstr "Руковалац дневником са ид-ом %ld не постоји"
 
 #: libdnf/transaction/Swdb.cpp:107
 msgid "In progress"
@@ -885,37 +900,37 @@ msgstr "У току"
 #: libdnf/transaction/Swdb.cpp:160 libdnf/transaction/Swdb.cpp:177
 #: libdnf/transaction/Swdb.cpp:316 libdnf/transaction/Swdb.cpp:326
 msgid "Not in progress"
-msgstr ""
+msgstr "Није у току"
 
 #: libdnf/transaction/Swdb.cpp:187
 msgid "No transaction in progress"
-msgstr ""
+msgstr "Нема преноса у току"
 
 #: libdnf/transaction/TransactionItem.cpp:147
 msgid "Attempt to insert transaction item into completed transaction"
-msgstr ""
+msgstr "Покушај уметања ставке преноса у завршен пренос"
 
 #: libdnf/transaction/TransactionItem.cpp:218
 msgid "Attempt to update transaction item in completed transaction"
-msgstr ""
+msgstr "Покушај ажурирања ставке преноса у завршеном преносу"
 
 #: libdnf/transaction/Transformer.cpp:659
 msgid "Transformer: can't open history persist dir"
-msgstr ""
+msgstr "Трансформатор: не могу да отворим директоријум за трајност историјата"
 
 #: libdnf/transaction/Transformer.cpp:672
 msgid "Couldn't find a history database"
-msgstr ""
+msgstr "Нисам успео да пронађем базу података историјата"
 
 #: libdnf/transaction/private/Transaction.cpp:41
 msgid "Transaction has already began!"
-msgstr ""
+msgstr "Пренос је већ почео!"
 
 #: libdnf/transaction/private/Transaction.cpp:58
 #, c-format
 msgid "TransactionItem state is not set: %s"
-msgstr ""
+msgstr "TransactionItem није постављен: %s"
 
 #: libdnf/transaction/private/Transaction.cpp:239
 msgid "Can't add console output to unsaved transaction"
-msgstr ""
+msgstr "Не могу да додам излаз конзоле у несачувани пренос"
