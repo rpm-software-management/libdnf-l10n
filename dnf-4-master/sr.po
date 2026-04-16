@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-15 03:51+0000\n"
+"POT-Creation-Date: 2026-04-16 03:58+0000\n"
 "PO-Revision-Date: 2026-04-16 08:58+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf/"
@@ -888,7 +888,8 @@ msgstr "Не могу да учитам модуларне податке заш
 #: libdnf/module/ModulePackageContainer.cpp:1721
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
-msgstr "Не могу да учитам модуларне податке заштите од грешака за модул „%s:%s“"
+msgstr ""
+"Не могу да учитам модуларне податке заштите од грешака за модул „%s:%s“"
 
 #: libdnf/module/ModulePackageContainer.cpp:1802
 #, c-format
@@ -1013,8 +1014,8 @@ msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
 msgstr ""
-"Највећа брзина преузимања је мања од најмање. Промените подешавања за „"
-"minrate“ или „throttle“"
+"Највећа брзина преузимања је мања од најмање. Промените подешавања за "
+"„minrate“ или „throttle“"
 
 #: libdnf/repo/Repo.cpp:539
 #, c-format
