@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-16 03:58+0000\n"
+"POT-Creation-Date: 2026-04-17 03:55+0000\n"
 "PO-Revision-Date: 2026-04-17 13:58+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf/"
@@ -808,12 +808,14 @@ msgstr "Радња би довела до уклањања следећих за
 msgid ""
 "The operation would result in broken dependencies for the following "
 "protected packages: "
-msgstr "Радња би довела до неисправних зависности за следеће заштићене пакете: "
+msgstr ""
+"Радња би довела до неисправних зависности за следеће заштићене пакете: "
 
 #: libdnf/hy-iutil.cpp:182
 #, c-format
 msgid "Libsolv's solv_toolversion is: %zu long but we expect max of: %zu"
-msgstr "Libsolv-ов solv_toolversion је: %zu дугачак, али очекујемо највише: %zu"
+msgstr ""
+"Libsolv-ов solv_toolversion је: %zu дугачак, али очекујемо највише: %zu"
 
 #: libdnf/hy-iutil.cpp:411
 #, c-format
@@ -1044,7 +1046,8 @@ msgstr ""
 #: libdnf/repo/Repo.cpp:539
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
-msgstr "ризница „%s“: „proxy_username“ је постављено, али не и „proxy_password“"
+msgstr ""
+"ризница „%s“: „proxy_username“ је постављено, али не и „proxy_password“"
 
 #: libdnf/repo/Repo.cpp:541
 msgid "'proxy_username' is set but not 'proxy_password'"
