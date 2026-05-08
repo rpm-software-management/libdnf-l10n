@@ -2,13 +2,14 @@
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017. #zanata
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2018. #zanata
 # naly zzwd <xeanhort007@gmail.com>, 2025, 2026.
+# David Medina <dmedinacpnl@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-24 07:02+0000\n"
-"PO-Revision-Date: 2026-02-23 11:58+0000\n"
-"Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
+"PO-Revision-Date: 2026-05-09 08:59+0000\n"
+"Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/ca/>\n"
 "Language: ca\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -902,27 +903,27 @@ msgstr "Valors predeterminats en conflicte amb el dipòsit «%s»: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:923
 msgid "Installing module profiles:\n"
-msgstr "S'estan instal·lant els perfils del mòdul:\n"
+msgstr "S'instal·len els perfils del mòdul:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:938
 msgid "Disabling module profiles:\n"
-msgstr "S'estan desactivant els perfils del mòdul:\n"
+msgstr "S'inhabiliten els perfils del mòdul:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:953
 msgid "Enabling module streams:\n"
-msgstr "S'estan habilitant els fluxos del mòdul:\n"
+msgstr "S'habiliten els fluxos del mòdul:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:967
 msgid "Switching module streams:\n"
-msgstr "S'estan canviant els fluxos del mòdul:\n"
+msgstr "Es canvien els fluxos del mòdul:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:985
 msgid "Disabling modules:\n"
-msgstr "S'estan desactivant els mòduls:\n"
+msgstr "S'inhabiliten els mòduls:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:996
 msgid "Resetting modules:\n"
-msgstr "S'estan restablint els mòduls:\n"
+msgstr "Es restableixen els mòduls:\n"
 
 #: libdnf/module/ModulePackageContainer.cpp:1715
 #, c-format
@@ -1008,7 +1009,7 @@ msgstr "No es pot obtenir l'adreça del símbol \"%s\": %s"
 #: libdnf/plugin/plugin.cpp:86
 #, c-format
 msgid "Loading plugin file=\"%s\""
-msgstr "S'està carregant el fitxer de connector=\"%s\""
+msgstr "Es carrega el fitxer de connector=\"%s\""
 
 #: libdnf/plugin/plugin.cpp:89
 #, c-format
@@ -1163,7 +1164,7 @@ msgstr "Només memòria cau habilitada però sense memòria cau per a «%s»"
 #: libdnf/repo/Repo.cpp:1156
 #, c-format
 msgid "repo: downloading from remote: %s"
-msgstr "dipòsit: baixant del remot: %s"
+msgstr "dipòsit: es baixa del remot: %s"
 
 #: libdnf/repo/Repo.cpp:1163
 #, c-format
