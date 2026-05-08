@@ -2,13 +2,14 @@
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017. #zanata
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2018. #zanata
 # naly zzwd <xeanhort007@gmail.com>, 2025, 2026.
+# David Medina <dmedinacpnl@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2026-02-23 11:58+0000\n"
-"Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
+"PO-Revision-Date: 2026-05-09 08:59+0000\n"
+"Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-master/ca/>\n"
 "Language: ca\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -715,7 +716,7 @@ msgstr "No es pot obtenir l'adreça del símbol \"%s\": %s"
 #: libdnf/plugin/plugin.cpp:86
 #, c-format
 msgid "Loading plugin file=\"%s\""
-msgstr "S'està carregant el fitxer de connector=\"%s\""
+msgstr "Es carrega el fitxer de connector=\"%s\""
 
 #: libdnf/plugin/plugin.cpp:89
 #, c-format
@@ -864,7 +865,7 @@ msgstr "Només memòria cau habilitada però sense memòria cau per a «%s»"
 #: libdnf/repo/Repo.cpp:1339
 #, c-format
 msgid "repo: downloading from remote: %s"
-msgstr "dipòsit: baixant del remot: %s"
+msgstr "dipòsit: es baixa del remot: %s"
 
 #: libdnf/repo/Repo.cpp:1345
 #, c-format
