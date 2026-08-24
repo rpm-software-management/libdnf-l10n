@@ -1,6 +1,6 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Peter Pan <pan93412@gmail.com>, 2018. #zanata
-# Cheng-Chia Tseng <pswo10680@gmail.com>, 2019. #zanata
+# Cheng-Chia Tseng <pswo10680@gmail.com>, 2019. #zanata, 2026.
 # Yi-Jyun Pan <pan93412@gmail.com>, 2020.
 # hsu zangmen <chzang55@gmail.com>, 2025.
 msgid ""
@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: 2025-04-27 08:03+0000\n"
-"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"PO-Revision-Date: 2026-08-25 00:15+0000\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
 "projects/dnf/libdnf-master/zh_TW/>\n"
 "Language: zh_TW\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -630,7 +630,7 @@ msgstr "未偵測到有效的 Platform ID"
 #: libdnf/module/ModulePackageContainer.cpp:68
 #, c-format
 msgid "Cannot enable multiple streams for module '%s'"
-msgstr "無法啟用「%s」模組的多個串流"
+msgstr "無法啟用「%s」模組的多個流道"
 
 #: libdnf/module/ModulePackageContainer.cpp:294
 #, c-format
@@ -681,7 +681,7 @@ msgstr "無法升級預設值：%s"
 #: libdnf/module/modulemd/ModuleMetadata.cpp:77
 #, c-format
 msgid "Failed to upgrade streams: %s"
-msgstr "無法升級串流：%s"
+msgstr "無法升級流道：%s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
