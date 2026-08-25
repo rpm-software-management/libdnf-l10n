@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-12 03:11+0000\n"
+"POT-Creation-Date: 2026-08-24 02:11+0000\n"
 "PO-Revision-Date: 2026-03-28 03:58+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/dnf/"
@@ -107,12 +107,12 @@ msgstr "'%s'-ის წამებში გადაყვანა შეუ�
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): მნიშვნელობა მითითებული არაა"
 
-#: libdnf/dnf-context.cpp:3326 libdnf/dnf-context.cpp:3335
+#: libdnf/dnf-context.cpp:3351 libdnf/dnf-context.cpp:3360
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr "მოდულიდან '%s' იგივე დროს მეტ ნაკადს ვერ ჩართავთ"
 
-#: libdnf/dnf-context.cpp:3344 libdnf/dnf-context.cpp:3362
+#: libdnf/dnf-context.cpp:3369 libdnf/dnf-context.cpp:3387
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
@@ -120,30 +120,30 @@ msgstr ""
 "ნაკადისთვის '%2$s' მოდულის '%1$s' ჩართვა შეუძლებელია: მოდულის მდგომარეობა "
 "უკვე შეიცვალა"
 
-#: libdnf/dnf-context.cpp:3411
+#: libdnf/dnf-context.cpp:3436
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "მოდულური დამოკიდებულების პრობლემა ნაგულისხმევ მნიშვნელობებთან: %s"
 
-#: libdnf/dnf-context.cpp:3414
+#: libdnf/dnf-context.cpp:3439
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
 msgstr "მოდულური დამოკიდებულების პრობლემა უახლეს მოდულებთან: %s"
 
-#: libdnf/dnf-context.cpp:3418
+#: libdnf/dnf-context.cpp:3443
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "მოდულური დამოკიდებულების პრობლემა: %s"
 
-#: libdnf/dnf-context.cpp:3441 libdnf/dnf-context.cpp:3465
-#: libdnf/dnf-context.cpp:3476 libdnf/dnf-context.cpp:3515
-#: libdnf/dnf-context.cpp:3531 libdnf/dnf-context.cpp:3563
-#: libdnf/dnf-context.cpp:3612 libdnf/dnf-context.cpp:3622
+#: libdnf/dnf-context.cpp:3466 libdnf/dnf-context.cpp:3490
+#: libdnf/dnf-context.cpp:3501 libdnf/dnf-context.cpp:3540
+#: libdnf/dnf-context.cpp:3556 libdnf/dnf-context.cpp:3588
+#: libdnf/dnf-context.cpp:3637 libdnf/dnf-context.cpp:3647
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "არგუმენტის '%s' ამოხსნა შეუძლებელია"
 
-#: libdnf/dnf-context.cpp:3448
+#: libdnf/dnf-context.cpp:3473
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
@@ -151,29 +151,29 @@ msgstr ""
 "საჭიროა, მხოლოდ, მოდულის სახელი. დანარჩენი ინფორმაცია გამოტოვებული იქნება "
 "არგუმენტში: '%s'"
 
-#: libdnf/dnf-context.cpp:3462
+#: libdnf/dnf-context.cpp:3487
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr ""
 "მოდულის '%s' საწყის მნიშვნელობებზე დაბრუნება შეუძლებელია: მოდულის "
 "მდგომარეობა უკვე შეიცვალა"
 
-#: libdnf/dnf-context.cpp:3473
+#: libdnf/dnf-context.cpp:3498
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr "მოდულის '%s' გათიშვა შეუძლებელია: მოდულის მდგომარეობა უკვე შეიცვალა"
 
-#: libdnf/dnf-context.cpp:3504 libdnf/dnf-context.cpp:3600
-#: libdnf/dnf-context.cpp:3781
+#: libdnf/dnf-context.cpp:3529 libdnf/dnf-context.cpp:3625
+#: libdnf/dnf-context.cpp:3806
 msgid "No modular data available"
 msgstr "მოდულური მონაცემები ხელმისაწვდომი არაა"
 
-#: libdnf/dnf-context.cpp:3521
+#: libdnf/dnf-context.cpp:3546
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "გამოტოვებული იქნება არასაჭირო ინფორმაცია არგუმენტში '%s'"
 
-#: libdnf/dnf-context.cpp:3559
+#: libdnf/dnf-context.cpp:3584
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
@@ -181,49 +181,49 @@ msgid ""
 msgstr ""
 "პრობლემა დამოკიდებულების ხის ჩართვისას მოდულისთვის '%1$s' ნაკადი '%2$s': %3$s"
 
-#: libdnf/dnf-context.cpp:3571
+#: libdnf/dnf-context.cpp:3596
 msgid "Problems appeared for module enable request:"
 msgstr "მოდულის ჩართვის მოთხოვნისას აღმოჩენილი პრობლემები:"
 
-#: libdnf/dnf-context.cpp:3666
+#: libdnf/dnf-context.cpp:3691
 #, c-format
 msgid "No active module packages found for module spec '%s'"
 msgstr "აქტიური მოდულის პაკეტი აღმოჩენილი არაა მოდულის სპეციფიკაციისთვის '%s'"
 
-#: libdnf/dnf-context.cpp:3671
+#: libdnf/dnf-context.cpp:3696
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
 msgstr "შეცდომებისგან დაცული რეპოზიტორიიდან მოდული '%s' ვერ დავაყენე"
 
-#: libdnf/dnf-context.cpp:3678
+#: libdnf/dnf-context.cpp:3703
 #, c-format
 msgid "No profile found matching '%s'"
 msgstr "პროფილი, რომელიც '%s'-ს ემთხვევა, ვერ ვიპოვე"
 
-#: libdnf/dnf-context.cpp:3732
+#: libdnf/dnf-context.cpp:3757
 #, c-format
 msgid "No match for package '%s' for module spec %s"
 msgstr ""
 "პაკეტისთვის '%s' მოდულის სპეციფიციკაციისთვის %s დამთხვევა აღმოჩენილი არაა"
 
-#: libdnf/dnf-context.cpp:3743
+#: libdnf/dnf-context.cpp:3768
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
 msgstr "პრობლემა დაყენებისას მოდულისთვის '%1$s' ნაკადი '%2$s': %3$s"
 
-#: libdnf/dnf-context.cpp:3752
+#: libdnf/dnf-context.cpp:3777
 msgid "Problems appeared for module install request:"
 msgstr "პრობლემები, რომლებიც მოდულის დაყენების მოთხოვნისას აღმოჩნდა:"
 
-#: libdnf/dnf-context.cpp:3811
+#: libdnf/dnf-context.cpp:3836
 msgid "Problems appeared for module reset request:"
 msgstr "პრობლემები, რომლებიც მოდულის განულების მოთხოვნისას აღმოჩნდა:"
 
-#: libdnf/dnf-context.cpp:3812 libdnf/dnf-context.cpp:3871
+#: libdnf/dnf-context.cpp:3837 libdnf/dnf-context.cpp:3896
 msgid "Problems appeared for module disable request:"
 msgstr "პრობლემები, რომლებიც მოდულის გათიშვის მოთხოვნისას აღმოჩნდა:"
 
-#: libdnf/dnf-context.cpp:3903
+#: libdnf/dnf-context.cpp:3928
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -231,7 +231,7 @@ msgid ""
 msgstr ""
 "ოპერაცია მოდულის '%s' ნაკადიდან '%s' ნაკადზე '%s' გადართვას გამოიწვევდა"
 
-#: libdnf/dnf-context.cpp:3907
+#: libdnf/dnf-context.cpp:3932
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "

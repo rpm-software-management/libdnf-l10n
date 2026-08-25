@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-12 03:11+0000\n"
+"POT-Creation-Date: 2026-08-24 02:11+0000\n"
 "PO-Revision-Date: 2026-08-25 00:29+0000\n"
 "Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/dnf/"
@@ -113,13 +113,13 @@ msgstr "tidak dapat mengonversi '%s' menjadi detik"
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): Nilai belum ditetapkan"
 
-#: libdnf/dnf-context.cpp:3326 libdnf/dnf-context.cpp:3335
+#: libdnf/dnf-context.cpp:3351 libdnf/dnf-context.cpp:3360
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr ""
 "Tidak dapat mengaktifkan lebih banyak stream dari modul '%s' secara bersamaan"
 
-#: libdnf/dnf-context.cpp:3344 libdnf/dnf-context.cpp:3362
+#: libdnf/dnf-context.cpp:3369 libdnf/dnf-context.cpp:3387
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
@@ -127,30 +127,30 @@ msgstr ""
 "Tidak dapat mengaktifkan stream '%2$s' dari modul '%1$s': Status modul sudah "
 "diubah"
 
-#: libdnf/dnf-context.cpp:3411
+#: libdnf/dnf-context.cpp:3436
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "Masalah dependensi modular dengan Default: %s"
 
-#: libdnf/dnf-context.cpp:3414
+#: libdnf/dnf-context.cpp:3439
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
 msgstr "Masalah dependensi modular dengan modul terbaru: %s"
 
-#: libdnf/dnf-context.cpp:3418
+#: libdnf/dnf-context.cpp:3443
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "Masalah dependensi modular: %s"
 
-#: libdnf/dnf-context.cpp:3441 libdnf/dnf-context.cpp:3465
-#: libdnf/dnf-context.cpp:3476 libdnf/dnf-context.cpp:3515
-#: libdnf/dnf-context.cpp:3531 libdnf/dnf-context.cpp:3563
-#: libdnf/dnf-context.cpp:3612 libdnf/dnf-context.cpp:3622
+#: libdnf/dnf-context.cpp:3466 libdnf/dnf-context.cpp:3490
+#: libdnf/dnf-context.cpp:3501 libdnf/dnf-context.cpp:3540
+#: libdnf/dnf-context.cpp:3556 libdnf/dnf-context.cpp:3588
+#: libdnf/dnf-context.cpp:3637 libdnf/dnf-context.cpp:3647
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "Tidak dapat menyelesaikan argumen '%s'"
 
-#: libdnf/dnf-context.cpp:3448
+#: libdnf/dnf-context.cpp:3473
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
@@ -158,27 +158,27 @@ msgstr ""
 "Hanya nama modul yang diperlukan. Mengabaikan informasi yang tidak "
 "diperlukan dalam argumen: '%s'"
 
-#: libdnf/dnf-context.cpp:3462
+#: libdnf/dnf-context.cpp:3487
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr "Tidak dapat mengatur ulang modul '%s': Status modul sudah diubah"
 
-#: libdnf/dnf-context.cpp:3473
+#: libdnf/dnf-context.cpp:3498
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr "Tidak dapat menonaktifkan modul '%s': Status modul sudah diubah"
 
-#: libdnf/dnf-context.cpp:3504 libdnf/dnf-context.cpp:3600
-#: libdnf/dnf-context.cpp:3781
+#: libdnf/dnf-context.cpp:3529 libdnf/dnf-context.cpp:3625
+#: libdnf/dnf-context.cpp:3806
 msgid "No modular data available"
 msgstr "Tidak tersedia data modular"
 
-#: libdnf/dnf-context.cpp:3521
+#: libdnf/dnf-context.cpp:3546
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "Mengabaikan informasi yang tidak diperlukan dalam argumen: '%s'"
 
-#: libdnf/dnf-context.cpp:3559
+#: libdnf/dnf-context.cpp:3584
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
@@ -187,48 +187,48 @@ msgstr ""
 "Masalah saat mengaktifkan pohon dependensi untuk modul '%1$s', stream "
 "'%2$s': %3$s"
 
-#: libdnf/dnf-context.cpp:3571
+#: libdnf/dnf-context.cpp:3596
 msgid "Problems appeared for module enable request:"
 msgstr "Terjadi masalah pada permintaan pengaktifan modul:"
 
-#: libdnf/dnf-context.cpp:3666
+#: libdnf/dnf-context.cpp:3691
 #, c-format
 msgid "No active module packages found for module spec '%s'"
 msgstr "Tidak ditemukan paket modul aktif untuk spesifikasi modul '%s'"
 
-#: libdnf/dnf-context.cpp:3671
+#: libdnf/dnf-context.cpp:3696
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
 msgstr "Tidak dapat menginstal modul '%s' dari repositori fail-safe"
 
-#: libdnf/dnf-context.cpp:3678
+#: libdnf/dnf-context.cpp:3703
 #, c-format
 msgid "No profile found matching '%s'"
 msgstr "Tidak ditemukan profil yang cocok dengan '%s'"
 
-#: libdnf/dnf-context.cpp:3732
+#: libdnf/dnf-context.cpp:3757
 #, c-format
 msgid "No match for package '%s' for module spec %s"
 msgstr "Tidak ada paket '%s' yang cocok untuk spesifikasi modul %s"
 
-#: libdnf/dnf-context.cpp:3743
+#: libdnf/dnf-context.cpp:3768
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
 msgstr "Masalah saat menginstal modul '%1$s', stream '%2$s': %3$s"
 
-#: libdnf/dnf-context.cpp:3752
+#: libdnf/dnf-context.cpp:3777
 msgid "Problems appeared for module install request:"
 msgstr "Terjadi masalah pada permintaan penginstalan modul:"
 
-#: libdnf/dnf-context.cpp:3811
+#: libdnf/dnf-context.cpp:3836
 msgid "Problems appeared for module reset request:"
 msgstr "Terjadi masalah pada permintaan pengaturan ulang modul:"
 
-#: libdnf/dnf-context.cpp:3812 libdnf/dnf-context.cpp:3871
+#: libdnf/dnf-context.cpp:3837 libdnf/dnf-context.cpp:3896
 msgid "Problems appeared for module disable request:"
 msgstr "Terjadi masalah pada permintaan penonaktifan modul:"
 
-#: libdnf/dnf-context.cpp:3903
+#: libdnf/dnf-context.cpp:3928
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -237,7 +237,7 @@ msgstr ""
 "Operasi ini akan mengakibatkan pengalihan stream modul '%s' dari stream '%s' "
 "ke stream '%s'"
 
-#: libdnf/dnf-context.cpp:3907
+#: libdnf/dnf-context.cpp:3932
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
@@ -668,7 +668,8 @@ msgstr "tidak dapat menginstal %s dari %s dan %s dari %s secara bersamaan"
 #: libdnf/goal/Goal.cpp:107
 #, c-format
 msgid "package %s from %s conflicts with %s provided by %s from %s"
-msgstr "paket %s dari %s bertentangan dengan %s yang disediakan oleh %s dari %s"
+msgstr ""
+"paket %s dari %s bertentangan dengan %s yang disediakan oleh %s dari %s"
 
 #: libdnf/goal/Goal.cpp:108
 #, c-format
@@ -742,12 +743,14 @@ msgstr "tidak ada yang menyediakan %s yang diperlukan oleh modul %s dari %s"
 #: libdnf/goal/Goal.cpp:133
 #, c-format
 msgid "cannot install both modules %s from %s and %s from %s"
-msgstr "tidak dapat menginstal modul %s dari %s dan %s dari %s secara bersamaan"
+msgstr ""
+"tidak dapat menginstal modul %s dari %s dan %s dari %s secara bersamaan"
 
 #: libdnf/goal/Goal.cpp:134
 #, c-format
 msgid "module %s from %s conflicts with %s provided by %s from %s"
-msgstr "modul %s dari %s bertentangan dengan %s yang disediakan oleh %s dari %s"
+msgstr ""
+"modul %s dari %s bertentangan dengan %s yang disediakan oleh %s dari %s"
 
 #: libdnf/goal/Goal.cpp:135
 #, c-format
@@ -1219,7 +1222,8 @@ msgstr ""
 
 #: libdnf/transaction/TransactionItem.cpp:217
 msgid "Attempt to update transaction item in completed transaction"
-msgstr "Percobaan memperbarui item transaksi dalam transaksi yang telah selesai"
+msgstr ""
+"Percobaan memperbarui item transaksi dalam transaksi yang telah selesai"
 
 #: libdnf/transaction/Transformer.cpp:83
 msgid "Database Corrupted: no row 'version' in table 'config'"

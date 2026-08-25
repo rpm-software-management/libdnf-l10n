@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-12 03:11+0000\n"
+"POT-Creation-Date: 2026-08-24 02:11+0000\n"
 "PO-Revision-Date: 2026-05-09 08:59+0000\n"
 "Last-Translator: David Medina <dmedinacpnl@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/dnf/"
@@ -106,42 +106,42 @@ msgstr "no s'ha pogut convertir '%s' a segons"
 msgid "GetValue(): Value not set"
 msgstr "GetValue(): Valor no establert"
 
-#: libdnf/dnf-context.cpp:3326 libdnf/dnf-context.cpp:3335
+#: libdnf/dnf-context.cpp:3351 libdnf/dnf-context.cpp:3360
 #, c-format
 msgid "Cannot enable more streams from module '%s' at the same time"
 msgstr "No es poden habilitar més fluxos del mòdul «%s» al mateix temps"
 
-#: libdnf/dnf-context.cpp:3344 libdnf/dnf-context.cpp:3362
+#: libdnf/dnf-context.cpp:3369 libdnf/dnf-context.cpp:3387
 #, c-format
 msgid ""
 "Cannot enable module '%1$s' stream '%2$s': State of module already modified"
 msgstr ""
 "No es pot habilitar el mòdul «%1$s» flux «%2$s»: Estat del mòdul ja modificat"
 
-#: libdnf/dnf-context.cpp:3411
+#: libdnf/dnf-context.cpp:3436
 #, c-format
 msgid "Modular dependency problem with Defaults: %s"
 msgstr "Problema de dependència modular amb els Valors Predeterminats: %s"
 
-#: libdnf/dnf-context.cpp:3414
+#: libdnf/dnf-context.cpp:3439
 #, c-format
 msgid "Modular dependency problem with the latest modules: %s"
 msgstr "Problema de dependència modular amb els últims mòduls: %s"
 
-#: libdnf/dnf-context.cpp:3418
+#: libdnf/dnf-context.cpp:3443
 #, c-format
 msgid "Modular dependency problem: %s"
 msgstr "Problema de dependència modular: %s"
 
-#: libdnf/dnf-context.cpp:3441 libdnf/dnf-context.cpp:3465
-#: libdnf/dnf-context.cpp:3476 libdnf/dnf-context.cpp:3515
-#: libdnf/dnf-context.cpp:3531 libdnf/dnf-context.cpp:3563
-#: libdnf/dnf-context.cpp:3612 libdnf/dnf-context.cpp:3622
+#: libdnf/dnf-context.cpp:3466 libdnf/dnf-context.cpp:3490
+#: libdnf/dnf-context.cpp:3501 libdnf/dnf-context.cpp:3540
+#: libdnf/dnf-context.cpp:3556 libdnf/dnf-context.cpp:3588
+#: libdnf/dnf-context.cpp:3637 libdnf/dnf-context.cpp:3647
 #, c-format
 msgid "Unable to resolve argument '%s'"
 msgstr "No s'ha pogut resoldre l'argument «%s»"
 
-#: libdnf/dnf-context.cpp:3448
+#: libdnf/dnf-context.cpp:3473
 #, c-format
 msgid ""
 "Only module name is required. Ignoring unneeded information in argument: '%s'"
@@ -149,27 +149,27 @@ msgstr ""
 "Només es requereix el nom del mòdul. S'ignora la informació innecessària a "
 "l'argument: «%s»"
 
-#: libdnf/dnf-context.cpp:3462
+#: libdnf/dnf-context.cpp:3487
 #, c-format
 msgid "Cannot reset module '%s': State of module already modified"
 msgstr "No es pot restablir el mòdul «%s»: Estat del mòdul ja modificat"
 
-#: libdnf/dnf-context.cpp:3473
+#: libdnf/dnf-context.cpp:3498
 #, c-format
 msgid "Cannot disable module '%s': State of module already modified"
 msgstr "No es pot desactivar el mòdul «%s»: Estat del mòdul ja modificat"
 
-#: libdnf/dnf-context.cpp:3504 libdnf/dnf-context.cpp:3600
-#: libdnf/dnf-context.cpp:3781
+#: libdnf/dnf-context.cpp:3529 libdnf/dnf-context.cpp:3625
+#: libdnf/dnf-context.cpp:3806
 msgid "No modular data available"
 msgstr "No hi ha dades modulars disponibles"
 
-#: libdnf/dnf-context.cpp:3521
+#: libdnf/dnf-context.cpp:3546
 #, c-format
 msgid "Ignoring unneeded information in argument: '%s'"
 msgstr "S'ignora la informació innecessària a l'argument: «%s»"
 
-#: libdnf/dnf-context.cpp:3559
+#: libdnf/dnf-context.cpp:3584
 #, c-format
 msgid ""
 "Problem during enablement of dependency tree for module '%1$s' stream "
@@ -178,50 +178,50 @@ msgstr ""
 "Problema durant l'habilitació de l'arbre de dependències per al mòdul «%1$s» "
 "flux «%2$s»: %3$s"
 
-#: libdnf/dnf-context.cpp:3571
+#: libdnf/dnf-context.cpp:3596
 msgid "Problems appeared for module enable request:"
 msgstr "Han aparegut problemes per a la sol·licitud d'habilitació del mòdul:"
 
-#: libdnf/dnf-context.cpp:3666
+#: libdnf/dnf-context.cpp:3691
 #, c-format
 msgid "No active module packages found for module spec '%s'"
 msgstr ""
 "No s'han trobat paquets de mòdul actius per a l'especificació del mòdul «%s»"
 
-#: libdnf/dnf-context.cpp:3671
+#: libdnf/dnf-context.cpp:3696
 #, c-format
 msgid "Cannot install module '%s' from fail-safe repository"
 msgstr "No es pot instal·lar el mòdul «%s» des del dipòsit fail-safe"
 
-#: libdnf/dnf-context.cpp:3678
+#: libdnf/dnf-context.cpp:3703
 #, c-format
 msgid "No profile found matching '%s'"
 msgstr "No s'ha trobat cap perfil coincident amb «%s»"
 
-#: libdnf/dnf-context.cpp:3732
+#: libdnf/dnf-context.cpp:3757
 #, c-format
 msgid "No match for package '%s' for module spec %s"
 msgstr ""
 "No hi ha coincidència per al paquet «%s» per a l'especificació del mòdul %s"
 
-#: libdnf/dnf-context.cpp:3743
+#: libdnf/dnf-context.cpp:3768
 #, c-format
 msgid "Problem during install for module '%1$s' stream '%2$s': %3$s"
 msgstr "Problema durant la instal·lació per al mòdul «%1$s» flux «%2$s»: %3$s"
 
-#: libdnf/dnf-context.cpp:3752
+#: libdnf/dnf-context.cpp:3777
 msgid "Problems appeared for module install request:"
 msgstr "Han aparegut problemes per a la sol·licitud d'instal·lació del mòdul:"
 
-#: libdnf/dnf-context.cpp:3811
+#: libdnf/dnf-context.cpp:3836
 msgid "Problems appeared for module reset request:"
 msgstr "Han aparegut problemes per a la sol·licitud de restabliment del mòdul:"
 
-#: libdnf/dnf-context.cpp:3812 libdnf/dnf-context.cpp:3871
+#: libdnf/dnf-context.cpp:3837 libdnf/dnf-context.cpp:3896
 msgid "Problems appeared for module disable request:"
 msgstr "Han aparegut problemes per a la sol·licitud de desactivació del mòdul:"
 
-#: libdnf/dnf-context.cpp:3903
+#: libdnf/dnf-context.cpp:3928
 #, c-format
 msgid ""
 "The operation would result in switching of module '%s' stream '%s' to stream "
@@ -230,7 +230,7 @@ msgstr ""
 "L'operació donaria com a resultat el canvi del mòdul «%s» flux «%s» al flux "
 "«%s»"
 
-#: libdnf/dnf-context.cpp:3907
+#: libdnf/dnf-context.cpp:3932
 msgid ""
 "It is not possible to switch enabled streams of a module.\n"
 "It is recommended to remove all installed content from the module, and reset "
