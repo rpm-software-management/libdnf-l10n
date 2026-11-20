@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-24 02:11+0000\n"
+"POT-Creation-Date: 2026-11-19 09:35+0000\n"
 "PO-Revision-Date: 2026-04-17 13:58+0000\n"
 "Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <https://translate.fedoraproject.org/projects/dnf/"
@@ -51,7 +51,7 @@ msgstr "вредност 1 није дозвољена"
 msgid "negative value is not allowed"
 msgstr "негативна вредност није дозвољена"
 
-#: libdnf/conf/ConfigMain.cpp:348
+#: libdnf/conf/ConfigMain.cpp:349
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "проценат „%s“ је изван опсега"
@@ -1003,8 +1003,8 @@ msgstr "Не могу да прочитам директоријум прикљ�
 msgid "Can't load plugin \"%s\": %s"
 msgstr "Не могу да учитам прикључак „%s“: %s"
 
-#: libdnf/repo/Crypto.cpp:99 libdnf/repo/Repo.cpp:963 libdnf/repo/Repo.cpp:1037
-#: libdnf/repo/Repo.cpp:1080
+#: libdnf/repo/Crypto.cpp:99 libdnf/repo/Repo.cpp:1030
+#: libdnf/repo/Repo.cpp:1104 libdnf/repo/Repo.cpp:1147
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "Не могу да направим привремени директоријум ризнице „%s“: %s"
@@ -1029,13 +1029,13 @@ msgstr "За ризницу %s није постављено огледало и
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr "Ризница „%s“ има неподржану врсту: „type=%s“, прескачем."
 
-#: libdnf/repo/Repo.cpp:486 libdnf/repo/Repo.cpp:603 libdnf/repo/Repo.cpp:634
-#: libdnf/repo/Repo.cpp:1201
+#: libdnf/repo/Repo.cpp:508 libdnf/repo/Repo.cpp:625 libdnf/repo/Repo.cpp:656
+#: libdnf/repo/Repo.cpp:1268
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr "ризница „%s“: „basecachedir“ није постављено"
 
-#: libdnf/repo/Repo.cpp:509
+#: libdnf/repo/Repo.cpp:531
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
@@ -1043,133 +1043,138 @@ msgstr ""
 "Највећа брзина преузимања је мања од најмање. Промените подешавања за "
 "„minrate“ или „throttle“"
 
-#: libdnf/repo/Repo.cpp:539
+#: libdnf/repo/Repo.cpp:561
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 "ризница „%s“: „proxy_username“ је постављено, али не и „proxy_password“"
 
-#: libdnf/repo/Repo.cpp:541
+#: libdnf/repo/Repo.cpp:563
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr "„proxy_username“ је постављено, али не и „proxy_password“"
 
-#: libdnf/repo/Repo.cpp:622
+#: libdnf/repo/Repo.cpp:644
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr "Не могу да пронађем исправну основну адресу (baseurl) за ризницу: %s"
 
-#: libdnf/repo/Repo.cpp:667
+#: libdnf/repo/Repo.cpp:689
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr "Нисам успео да преузмем ГПГ кључ за ризницу „%s“: %s"
 
-#: libdnf/repo/Repo.cpp:688
+#: libdnf/repo/Repo.cpp:750
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr "ризница %s: 0x%s је већ увезена"
 
-#: libdnf/repo/Repo.cpp:702 libdnf/utils/filesystem.cpp:79
+#: libdnf/repo/Repo.cpp:756
+#, c-format
+msgid "repo %s: automatically importing key 0x%s (%s, fingerprint %s) from %s"
+msgstr ""
+
+#: libdnf/repo/Repo.cpp:769 libdnf/utils/filesystem.cpp:79
 #, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
 msgstr "Нисам успео да направим директоријум „%s“: %d - %s"
 
-#: libdnf/repo/Repo.cpp:710
+#: libdnf/repo/Repo.cpp:777
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr "ризница %s: увезен кључ 0x%s."
 
-#: libdnf/repo/Repo.cpp:977
+#: libdnf/repo/Repo.cpp:1044
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "оживљавање: ризница „%s“ је прескочена, нема метавезе (metalink)."
 
-#: libdnf/repo/Repo.cpp:996
+#: libdnf/repo/Repo.cpp:1063
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr "оживљавање: ризница „%s“ је прескочена, нема употребљивог хеша."
 
-#: libdnf/repo/Repo.cpp:1019
+#: libdnf/repo/Repo.cpp:1086
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "оживљавање: није успело за „%s“, сума %s се не подудара."
 
-#: libdnf/repo/Repo.cpp:1025
+#: libdnf/repo/Repo.cpp:1092
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
 "оживљавање: „%s“ се може оживети - суме провере метавезе (metalink) се "
 "подударају."
 
-#: libdnf/repo/Repo.cpp:1054
+#: libdnf/repo/Repo.cpp:1121
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "оживљавање: „%s“ се може оживети - repomd се подудара."
 
-#: libdnf/repo/Repo.cpp:1056
+#: libdnf/repo/Repo.cpp:1123
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "оживљавање: није успело за „%s“, repomd се не подудара."
 
-#: libdnf/repo/Repo.cpp:1074
+#: libdnf/repo/Repo.cpp:1141
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr "Не могу да направим одредишни директоријум ризнице „%s“: %s"
 
-#: libdnf/repo/Repo.cpp:1094
+#: libdnf/repo/Repo.cpp:1161
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "Не могу да направим директоријум „%s“: %s"
 
-#: libdnf/repo/Repo.cpp:1117
+#: libdnf/repo/Repo.cpp:1184
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "Не могу да преименујем директоријум „%s“ у „%s“: %s"
 
-#: libdnf/repo/Repo.cpp:1140
+#: libdnf/repo/Repo.cpp:1207
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "ризница: користим кеш за: %s"
 
-#: libdnf/repo/Repo.cpp:1152
+#: libdnf/repo/Repo.cpp:1219
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "Омогућено је само коришћење кеша, али нема кеша за „%s“"
 
-#: libdnf/repo/Repo.cpp:1156
+#: libdnf/repo/Repo.cpp:1223
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "ризница: преузимам са удаљеног места: %s"
 
-#: libdnf/repo/Repo.cpp:1163
+#: libdnf/repo/Repo.cpp:1230
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr "Нисам успео да преузмем метаподатке за ризницу „%s“: %s"
 
-#: libdnf/repo/Repo.cpp:1189
+#: libdnf/repo/Repo.cpp:1256
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir(): израчунавање SHA256 није успело"
 
-#: libdnf/repo/Repo.cpp:1217
+#: libdnf/repo/Repo.cpp:1284
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr "Не могу да направим директоријум за трајност „%s“: %s"
 
-#: libdnf/repo/Repo.cpp:1619
+#: libdnf/repo/Repo.cpp:1686
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr ""
 "наставак се не може користити истовремено са параметром „byterangestart“"
 
-#: libdnf/repo/Repo.cpp:1636
+#: libdnf/repo/Repo.cpp:1703
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "Покретање „PackageTarget“ није успело: %s"
 
-#: libdnf/repo/Repo.cpp:1742
+#: libdnf/repo/Repo.cpp:1809
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "Не могу да отворим %s: %s"
 
-#: libdnf/repo/Repo.cpp:1786
+#: libdnf/repo/Repo.cpp:1853
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "Руковалац дневником са ид-ом %ld не постоји"

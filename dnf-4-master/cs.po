@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-24 02:11+0000\n"
+"POT-Creation-Date: 2026-11-19 09:35+0000\n"
 "PO-Revision-Date: 2026-04-08 06:58+0000\n"
 "Last-Translator: Jonáš Loskot "
 "<alius@users.noreply.translate.fedoraproject.org>\n"
@@ -56,7 +56,7 @@ msgstr "hodnota 1 není povolena"
 msgid "negative value is not allowed"
 msgstr "záporná hodnota není povolena"
 
-#: libdnf/conf/ConfigMain.cpp:348
+#: libdnf/conf/ConfigMain.cpp:349
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "Procento '%s' je mimo rozsah"
@@ -996,8 +996,8 @@ msgstr "Nelze přečíst adresář zásuvných modulů \"%s\": %s"
 msgid "Can't load plugin \"%s\": %s"
 msgstr "Nelze načíst zásuvný modul \"%s\": %s"
 
-#: libdnf/repo/Crypto.cpp:99 libdnf/repo/Repo.cpp:963 libdnf/repo/Repo.cpp:1037
-#: libdnf/repo/Repo.cpp:1080
+#: libdnf/repo/Crypto.cpp:99 libdnf/repo/Repo.cpp:1030
+#: libdnf/repo/Repo.cpp:1104 libdnf/repo/Repo.cpp:1147
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "Nelze vytvořit dočasný adresář repozitáře \"%s\": %s"
@@ -1022,13 +1022,13 @@ msgstr "Repozitář %s nemá nastaveno žádné zrcadlo nebo baseurl."
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr "Úložiště '%s' má nepodporovaný typ: 'type=%s', vynecháváme."
 
-#: libdnf/repo/Repo.cpp:486 libdnf/repo/Repo.cpp:603 libdnf/repo/Repo.cpp:634
-#: libdnf/repo/Repo.cpp:1201
+#: libdnf/repo/Repo.cpp:508 libdnf/repo/Repo.cpp:625 libdnf/repo/Repo.cpp:656
+#: libdnf/repo/Repo.cpp:1268
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr "repozitář '%s': 'basecachedir' není nastaven"
 
-#: libdnf/repo/Repo.cpp:509
+#: libdnf/repo/Repo.cpp:531
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
@@ -1036,129 +1036,134 @@ msgstr ""
 "Maximální rychlost stahování je nižší než minimální. Změňte prosím "
 "konfiguraci minrate nebo omezení"
 
-#: libdnf/repo/Repo.cpp:539
+#: libdnf/repo/Repo.cpp:561
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
 msgstr "repozitář '%s': 'proxy_username' je nastaveno, ale ne 'proxy_password'"
 
-#: libdnf/repo/Repo.cpp:541
+#: libdnf/repo/Repo.cpp:563
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr "'proxy_username' je nastaveno, ale ne 'proxy_password'"
 
-#: libdnf/repo/Repo.cpp:622
+#: libdnf/repo/Repo.cpp:644
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr "Nelze najít platný baseURL pro repo: %s"
 
-#: libdnf/repo/Repo.cpp:667
+#: libdnf/repo/Repo.cpp:689
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr "Nepodařilo se načíst klíč GPG pro repozitář '%s': %s"
 
-#: libdnf/repo/Repo.cpp:688
+#: libdnf/repo/Repo.cpp:750
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr "repo %s: 0x%s již importováno"
 
-#: libdnf/repo/Repo.cpp:702 libdnf/utils/filesystem.cpp:79
+#: libdnf/repo/Repo.cpp:756
+#, c-format
+msgid "repo %s: automatically importing key 0x%s (%s, fingerprint %s) from %s"
+msgstr ""
+
+#: libdnf/repo/Repo.cpp:769 libdnf/utils/filesystem.cpp:79
 #, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
 msgstr "Selhalo vytvoření adresáře \"%s\": %d - %s"
 
-#: libdnf/repo/Repo.cpp:710
+#: libdnf/repo/Repo.cpp:777
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr "repo %s: importovaný klíč 0x%s."
 
-#: libdnf/repo/Repo.cpp:977
+#: libdnf/repo/Repo.cpp:1044
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "oživení: repozitář '%s' přeskočen, žádný MetaLink."
 
-#: libdnf/repo/Repo.cpp:996
+#: libdnf/repo/Repo.cpp:1063
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr "oživení: repozitář '%s' přeskočen, žádný použitelný hash."
 
-#: libdnf/repo/Repo.cpp:1019
+#: libdnf/repo/Repo.cpp:1086
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "oživení: selhalo pro '%s', neshodující se součet %s."
 
-#: libdnf/repo/Repo.cpp:1025
+#: libdnf/repo/Repo.cpp:1092
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr "oživení: '%s' může být oživen - kontrolní součty MetaLinku odpovídají."
 
-#: libdnf/repo/Repo.cpp:1054
+#: libdnf/repo/Repo.cpp:1121
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "oživení: '%s' může být oživen - repomd se shoduje."
 
-#: libdnf/repo/Repo.cpp:1056
+#: libdnf/repo/Repo.cpp:1123
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "oživení: selhalo pro '%s', neshodující se repomd."
 
-#: libdnf/repo/Repo.cpp:1074
+#: libdnf/repo/Repo.cpp:1141
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr "Nelze vytvořit cílový adresář repozitáře \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1094
+#: libdnf/repo/Repo.cpp:1161
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "Nedaří se vytvořit složku \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1117
+#: libdnf/repo/Repo.cpp:1184
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "Nelze přejmenovat adresář \"%s\" na \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1140
+#: libdnf/repo/Repo.cpp:1207
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "repozitář: použití mezipaměti pro: %s"
 
-#: libdnf/repo/Repo.cpp:1152
+#: libdnf/repo/Repo.cpp:1219
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "Povoleno použítí jen mezipaměti, ale žádná vyrovnávací paměť pro '%s'"
 
-#: libdnf/repo/Repo.cpp:1156
+#: libdnf/repo/Repo.cpp:1223
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "repo: stahování ze vzdáleného serveru: %s"
 
-#: libdnf/repo/Repo.cpp:1163
+#: libdnf/repo/Repo.cpp:1230
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr "Nepodařilo se stáhnout metadata pro repo '%s': %s"
 
-#: libdnf/repo/Repo.cpp:1189
+#: libdnf/repo/Repo.cpp:1256
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir(): Výpočet SHA256 se nezdařil"
 
-#: libdnf/repo/Repo.cpp:1217
+#: libdnf/repo/Repo.cpp:1284
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr "Nelze vytvořit persistdir \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1619
+#: libdnf/repo/Repo.cpp:1686
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr "resume nelze použít současně s parametrem byterangestart"
 
-#: libdnf/repo/Repo.cpp:1636
+#: libdnf/repo/Repo.cpp:1703
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "Inicializace PackageTarget se nezdařila: %s"
 
-#: libdnf/repo/Repo.cpp:1742
+#: libdnf/repo/Repo.cpp:1809
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "Není možné otevřít %s: %s"
 
-#: libdnf/repo/Repo.cpp:1786
+#: libdnf/repo/Repo.cpp:1853
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "Obsluha protokolu s id %ld neexistuje"

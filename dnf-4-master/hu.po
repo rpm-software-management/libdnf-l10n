@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-24 02:11+0000\n"
+"POT-Creation-Date: 2026-11-19 09:35+0000\n"
 "PO-Revision-Date: 2024-08-22 19:38+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/dnf/"
@@ -52,7 +52,7 @@ msgstr "az 1-es érték nem megengedett"
 msgid "negative value is not allowed"
 msgstr "a negatív érték nem megengedett"
 
-#: libdnf/conf/ConfigMain.cpp:348
+#: libdnf/conf/ConfigMain.cpp:349
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "a(z) „%s” százalék a tartományon kívül esik"
@@ -1009,8 +1009,8 @@ msgstr ""
 msgid "Can't load plugin \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Crypto.cpp:99 libdnf/repo/Repo.cpp:963 libdnf/repo/Repo.cpp:1037
-#: libdnf/repo/Repo.cpp:1080
+#: libdnf/repo/Crypto.cpp:99 libdnf/repo/Repo.cpp:1030
+#: libdnf/repo/Repo.cpp:1104 libdnf/repo/Repo.cpp:1147
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr ""
@@ -1032,13 +1032,13 @@ msgstr "A(z) „%s” tárolóhoz nincs tükör vagy bázis-URL beállítva."
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:486 libdnf/repo/Repo.cpp:603 libdnf/repo/Repo.cpp:634
-#: libdnf/repo/Repo.cpp:1201
+#: libdnf/repo/Repo.cpp:508 libdnf/repo/Repo.cpp:625 libdnf/repo/Repo.cpp:656
+#: libdnf/repo/Repo.cpp:1268
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:509
+#: libdnf/repo/Repo.cpp:531
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
@@ -1046,131 +1046,136 @@ msgstr ""
 "A legnagyobb letöltési sebesség alacsonyabb mint a legkisebb. Módosítsa a "
 "minimális sebesség vagy a korlátozás beállítását"
 
-#: libdnf/repo/Repo.cpp:539
+#: libdnf/repo/Repo.cpp:561
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:541
+#: libdnf/repo/Repo.cpp:563
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:622
+#: libdnf/repo/Repo.cpp:644
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr "Nem található érvényes bázis-URL a tárolóhoz: %s"
 
-#: libdnf/repo/Repo.cpp:667
+#: libdnf/repo/Repo.cpp:689
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:688
+#: libdnf/repo/Repo.cpp:750
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr "%s tároló: a 0x%s már importálva lett"
 
-#: libdnf/repo/Repo.cpp:702 libdnf/utils/filesystem.cpp:79
+#: libdnf/repo/Repo.cpp:756
+#, c-format
+msgid "repo %s: automatically importing key 0x%s (%s, fingerprint %s) from %s"
+msgstr ""
+
+#: libdnf/repo/Repo.cpp:769 libdnf/utils/filesystem.cpp:79
 #, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
 msgstr "Nem hozható létre a(z) „%s” könyvtár: %d – %s"
 
-#: libdnf/repo/Repo.cpp:710
+#: libdnf/repo/Repo.cpp:777
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr "%s tároló: 0x%s kulcs importálva."
 
-#: libdnf/repo/Repo.cpp:977
+#: libdnf/repo/Repo.cpp:1044
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "újraélesztés: „%s” tároló kihagyva, nincs metalink."
 
-#: libdnf/repo/Repo.cpp:996
+#: libdnf/repo/Repo.cpp:1063
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr "újraélesztés: „%s” tároló kihagyva, nincs használható hash."
 
-#: libdnf/repo/Repo.cpp:1019
+#: libdnf/repo/Repo.cpp:1086
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "újraélesztés: „%s” esetén sikertelen, nem egyező %s összeg."
 
-#: libdnf/repo/Repo.cpp:1025
+#: libdnf/repo/Repo.cpp:1092
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
 "újraélesztés: „%s” újraéleszthető – a metalink ellenőrzőösszegek egyeznek."
 
-#: libdnf/repo/Repo.cpp:1054
+#: libdnf/repo/Repo.cpp:1121
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "újraélesztés: „%s” újraéleszthető – a repomd egyezik."
 
-#: libdnf/repo/Repo.cpp:1056
+#: libdnf/repo/Repo.cpp:1123
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "újraélesztés: „%s” esetén sikertelen, nem egyező repomd."
 
-#: libdnf/repo/Repo.cpp:1074
+#: libdnf/repo/Repo.cpp:1141
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1094
+#: libdnf/repo/Repo.cpp:1161
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "Nem hozható létre a(z) „%s” könyvtár: %s"
 
-#: libdnf/repo/Repo.cpp:1117
+#: libdnf/repo/Repo.cpp:1184
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1140
+#: libdnf/repo/Repo.cpp:1207
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "tároló: gyorsítótár használata a következőhöz: %s"
 
-#: libdnf/repo/Repo.cpp:1152
+#: libdnf/repo/Repo.cpp:1219
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr ""
 "Csak gyorsítótárazás engedélyezve, de nincs gyorsítótár a(z) „%s” tárolóhoz"
 
-#: libdnf/repo/Repo.cpp:1156
+#: libdnf/repo/Repo.cpp:1223
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1163
+#: libdnf/repo/Repo.cpp:1230
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1189
+#: libdnf/repo/Repo.cpp:1256
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir(): A SHA256 kiszámítása sikertelen"
 
-#: libdnf/repo/Repo.cpp:1217
+#: libdnf/repo/Repo.cpp:1284
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr "Nem hozható létre a(z) „%s” állandó könyvtár: %s"
 
-#: libdnf/repo/Repo.cpp:1619
+#: libdnf/repo/Repo.cpp:1686
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr ""
 
-#: libdnf/repo/Repo.cpp:1636
+#: libdnf/repo/Repo.cpp:1703
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "A PackageTarget előkészítése sikertelen: %s"
 
-#: libdnf/repo/Repo.cpp:1742
+#: libdnf/repo/Repo.cpp:1809
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "A(z) %s nem nyitható meg: %s"
 
-#: libdnf/repo/Repo.cpp:1786
+#: libdnf/repo/Repo.cpp:1853
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "A(z) %ld azonosítójú naplókezelő nem létezik"

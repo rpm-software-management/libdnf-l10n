@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-24 02:11+0000\n"
+"POT-Creation-Date: 2026-11-19 09:35+0000\n"
 "PO-Revision-Date: 2026-02-23 11:58+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
@@ -54,7 +54,7 @@ msgstr "värdet 1 är inte tillåtet"
 msgid "negative value is not allowed"
 msgstr "negativt värde är inte tillåtet"
 
-#: libdnf/conf/ConfigMain.cpp:348
+#: libdnf/conf/ConfigMain.cpp:349
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "procentsatsen ”%s” är utanför intervallet"
@@ -1010,8 +1010,8 @@ msgstr "Kan inte läsa katalogen för insticksmoduler ”%s”: %s"
 msgid "Can't load plugin \"%s\": %s"
 msgstr "Kan inte läsa in insticksmodulen ”%s”: %s"
 
-#: libdnf/repo/Crypto.cpp:99 libdnf/repo/Repo.cpp:963 libdnf/repo/Repo.cpp:1037
-#: libdnf/repo/Repo.cpp:1080
+#: libdnf/repo/Crypto.cpp:99 libdnf/repo/Repo.cpp:1030
+#: libdnf/repo/Repo.cpp:1104 libdnf/repo/Repo.cpp:1147
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "Kaan inte skapa den temporära förrådskatalogen ”%s”: %s"
@@ -1036,13 +1036,13 @@ msgstr "Förrådet %s har ingen spegel eller bas-url satt."
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr "Förrådet ”%s” har en typ som inte stödjs: ”type=%s”, hoppar över."
 
-#: libdnf/repo/Repo.cpp:486 libdnf/repo/Repo.cpp:603 libdnf/repo/Repo.cpp:634
-#: libdnf/repo/Repo.cpp:1201
+#: libdnf/repo/Repo.cpp:508 libdnf/repo/Repo.cpp:625 libdnf/repo/Repo.cpp:656
+#: libdnf/repo/Repo.cpp:1268
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr "förrådet ”%s”: ”basecachedir” är inte satt"
 
-#: libdnf/repo/Repo.cpp:509
+#: libdnf/repo/Repo.cpp:531
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
@@ -1050,130 +1050,135 @@ msgstr ""
 "Maximal hämtningshastighet är mindre än minimum. Ändra konfigurationen av "
 "minrate eller throttle"
 
-#: libdnf/repo/Repo.cpp:539
+#: libdnf/repo/Repo.cpp:561
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
 msgstr "förrådet ”%s”: ”proxy_username” är satt men inte ”proxy_password”"
 
-#: libdnf/repo/Repo.cpp:541
+#: libdnf/repo/Repo.cpp:563
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr "”proxy_username” är satt men inte ”proxy_password”"
 
-#: libdnf/repo/Repo.cpp:622
+#: libdnf/repo/Repo.cpp:644
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr "Kan inte hitta en giltig bas-url för förrådet: %s"
 
-#: libdnf/repo/Repo.cpp:667
+#: libdnf/repo/Repo.cpp:689
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr "Misslyckades att hämta GPG-nyckel för förrådet ”%s”: %s"
 
-#: libdnf/repo/Repo.cpp:688
+#: libdnf/repo/Repo.cpp:750
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr "förrådet %s: 0x%s är redan importerad"
 
-#: libdnf/repo/Repo.cpp:702 libdnf/utils/filesystem.cpp:79
+#: libdnf/repo/Repo.cpp:756
+#, c-format
+msgid "repo %s: automatically importing key 0x%s (%s, fingerprint %s) from %s"
+msgstr ""
+
+#: libdnf/repo/Repo.cpp:769 libdnf/utils/filesystem.cpp:79
 #, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
 msgstr "Misslyckades med att skapa katalogen ”%s”: %d - %s"
 
-#: libdnf/repo/Repo.cpp:710
+#: libdnf/repo/Repo.cpp:777
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr "Paketkatalog %s: importerade nyckeln 0x%s."
 
-#: libdnf/repo/Repo.cpp:977
+#: libdnf/repo/Repo.cpp:1044
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "återupplivar: förrådet ”%s” överhoppat, ingen metalink."
 
-#: libdnf/repo/Repo.cpp:996
+#: libdnf/repo/Repo.cpp:1063
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr "återupplivar: förrådet ”%s” överhoppat, ingen användbar hash."
 
-#: libdnf/repo/Repo.cpp:1019
+#: libdnf/repo/Repo.cpp:1086
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "återupplivar: misslyckades med ”%s”, %s-summor stämmer inte."
 
-#: libdnf/repo/Repo.cpp:1025
+#: libdnf/repo/Repo.cpp:1092
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr ""
 "återupplivar: ”%s” kan återupplivas – metalänkens kontrollsummor stämmer."
 
-#: libdnf/repo/Repo.cpp:1054
+#: libdnf/repo/Repo.cpp:1121
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "återupplivar: ”%s” kan återupplivas – repomd stämmer."
 
-#: libdnf/repo/Repo.cpp:1056
+#: libdnf/repo/Repo.cpp:1123
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "återupplivar: misslyckades med ”%s”, repomd stämmer inte."
 
-#: libdnf/repo/Repo.cpp:1074
+#: libdnf/repo/Repo.cpp:1141
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr "Kan inte skapa målkatalogen för förrådet ”%s”: %s"
 
-#: libdnf/repo/Repo.cpp:1094
+#: libdnf/repo/Repo.cpp:1161
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "Kan inte skapa katalogen ”%s”: %s"
 
-#: libdnf/repo/Repo.cpp:1117
+#: libdnf/repo/Repo.cpp:1184
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "Kan inte byta namn på katalogen ”%s” till ”%s”: %s"
 
-#: libdnf/repo/Repo.cpp:1140
+#: libdnf/repo/Repo.cpp:1207
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "förråd: använder cache för: %s"
 
-#: libdnf/repo/Repo.cpp:1152
+#: libdnf/repo/Repo.cpp:1219
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "Enbart-cache aktiverat men ingen cache för ”%s”"
 
-#: libdnf/repo/Repo.cpp:1156
+#: libdnf/repo/Repo.cpp:1223
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "förråd: hämtar från fjärrförråd: %s"
 
-#: libdnf/repo/Repo.cpp:1163
+#: libdnf/repo/Repo.cpp:1230
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr "Misslyckades att hämta metadata för förrådet ”%s”: %s"
 
-#: libdnf/repo/Repo.cpp:1189
+#: libdnf/repo/Repo.cpp:1256
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir(): Beräkningen av SHA256 misslyckades"
 
-#: libdnf/repo/Repo.cpp:1217
+#: libdnf/repo/Repo.cpp:1284
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr "Det går inte att skapa ett persistdir ”%s”: %s"
 
-#: libdnf/repo/Repo.cpp:1619
+#: libdnf/repo/Repo.cpp:1686
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr "resume kan inte användas samtidigt med parametern byterangestart"
 
-#: libdnf/repo/Repo.cpp:1636
+#: libdnf/repo/Repo.cpp:1703
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "Initiering av PackageTarget misslyckades: %s"
 
-#: libdnf/repo/Repo.cpp:1742
+#: libdnf/repo/Repo.cpp:1809
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "Kan inte öppna %s: %s"
 
-#: libdnf/repo/Repo.cpp:1786
+#: libdnf/repo/Repo.cpp:1853
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "Logghanterare med id %ld finns inte"

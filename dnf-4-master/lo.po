@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-24 02:11+0000\n"
+"POT-Creation-Date: 2026-11-19 09:35+0000\n"
 "PO-Revision-Date: 2026-05-06 19:59+0000\n"
 "Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
 "Language-Team: Lao <https://translate.fedoraproject.org/projects/dnf/libdnf-"
@@ -50,7 +50,7 @@ msgstr "ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ຄ່າ 1"
 msgid "negative value is not allowed"
 msgstr "ບໍ່ອະນຸຍາດໃຫ້ໃຊ້ຄ່າລົບ"
 
-#: libdnf/conf/ConfigMain.cpp:348
+#: libdnf/conf/ConfigMain.cpp:349
 #, c-format
 msgid "percentage '%s' is out of range"
 msgstr "ເປີເຊັນ '%s' ຢູ່ນອກຂອບເຂດ"
@@ -972,8 +972,8 @@ msgstr "ບໍ່ສາມາດອ່ານໂຟນເດີປລັກອິ
 msgid "Can't load plugin \"%s\": %s"
 msgstr "ບໍ່ສາມາດໂຫຼດປລັກອິນ \"%s\": %s"
 
-#: libdnf/repo/Crypto.cpp:99 libdnf/repo/Repo.cpp:963 libdnf/repo/Repo.cpp:1037
-#: libdnf/repo/Repo.cpp:1080
+#: libdnf/repo/Crypto.cpp:99 libdnf/repo/Repo.cpp:1030
+#: libdnf/repo/Repo.cpp:1104 libdnf/repo/Repo.cpp:1147
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
 msgstr "ບໍ່ສາມາດສ້າງໂຟນເດີຊົ່ວຄາວຂອງຄັງເກັບ \"%s\": %s"
@@ -997,141 +997,146 @@ msgstr "ຄັງເກັບ %s ບໍ່ໄດ້ກຳນົດ mirror ຫຼ
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
 msgstr "ຄັງເກັບ '%s' ມີປະເພດທີ່ບໍ່ຮອງຮັບ: 'type=%s', ຈະຂ້າມໄປ."
 
-#: libdnf/repo/Repo.cpp:486 libdnf/repo/Repo.cpp:603 libdnf/repo/Repo.cpp:634
-#: libdnf/repo/Repo.cpp:1201
+#: libdnf/repo/Repo.cpp:508 libdnf/repo/Repo.cpp:625 libdnf/repo/Repo.cpp:656
+#: libdnf/repo/Repo.cpp:1268
 #, c-format
 msgid "repo '%s': 'basecachedir' is not set"
 msgstr "repo '%s': ບໍ່ໄດ້ກຳນົດ 'basecachedir' ໄວ້"
 
-#: libdnf/repo/Repo.cpp:509
+#: libdnf/repo/Repo.cpp:531
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
 msgstr "ຄວາມໄວໃນການດາວໂຫຼດສູງສຸດຕໍ່າກວ່າຂັ້ນຕໍ່າ. ກະລຸນາປ່ຽນການຕັ້ງຄ່າຂອງ minrate ຫຼື throttle"
 
-#: libdnf/repo/Repo.cpp:539
+#: libdnf/repo/Repo.cpp:561
 #, c-format
 msgid "repo '%s': 'proxy_username' is set but not 'proxy_password'"
 msgstr "repo '%s': ມີການກຳນົດ 'proxy_username' ແຕ່ບໍ່ມີ 'proxy_password'"
 
-#: libdnf/repo/Repo.cpp:541
+#: libdnf/repo/Repo.cpp:563
 msgid "'proxy_username' is set but not 'proxy_password'"
 msgstr "ມີການກຳນົດ 'proxy_username' ແຕ່ບໍ່ມີ 'proxy_password'"
 
-#: libdnf/repo/Repo.cpp:622
+#: libdnf/repo/Repo.cpp:644
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
 msgstr "ບໍ່ພົບ baseurl ທີ່ຖືກຕ້ອງສຳລັບຄັງເກັບ: %s"
 
-#: libdnf/repo/Repo.cpp:667
+#: libdnf/repo/Repo.cpp:689
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
 msgstr "ດຶງຄີ GPG ສຳລັບຄັງເກັບ '%s' ບໍ່ສຳເລັດ: %s"
 
-#: libdnf/repo/Repo.cpp:688
+#: libdnf/repo/Repo.cpp:750
 #, c-format
 msgid "repo %s: 0x%s already imported"
 msgstr "ຄັງເກັບ %s: 0x%s ຖືກນຳເຂົ້າແລ້ວ"
 
-#: libdnf/repo/Repo.cpp:702 libdnf/utils/filesystem.cpp:79
+#: libdnf/repo/Repo.cpp:756
+#, c-format
+msgid "repo %s: automatically importing key 0x%s (%s, fingerprint %s) from %s"
+msgstr ""
+
+#: libdnf/repo/Repo.cpp:769 libdnf/utils/filesystem.cpp:79
 #, c-format
 msgid "Failed to create directory \"%s\": %d - %s"
 msgstr "ສ້າງໂຟນເດີ \"%s\" ບໍ່ສຳເລັດ: %d - %s"
 
-#: libdnf/repo/Repo.cpp:710
+#: libdnf/repo/Repo.cpp:777
 #, c-format
 msgid "repo %s: imported key 0x%s."
 msgstr "ຄັງເກັບ %s: ນຳເຂົ້າຄີ 0x%s ແລ້ວ."
 
-#: libdnf/repo/Repo.cpp:977
+#: libdnf/repo/Repo.cpp:1044
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
 msgstr "ກຳລັງຟື້ນຟູ: ຂ້າມຄັງເກັບ '%s', ບໍ່ມີ metalink."
 
-#: libdnf/repo/Repo.cpp:996
+#: libdnf/repo/Repo.cpp:1063
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr "ກຳລັງຟື້ນຟູ: ຂ້າມຄັງເກັບ '%s', ບໍ່ມີ hash ທີ່ໃຊ້ໄດ້."
 
-#: libdnf/repo/Repo.cpp:1019
+#: libdnf/repo/Repo.cpp:1086
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
 msgstr "ກຳລັງຟື້ນຟູ: ບໍ່ສຳເລັດສຳລັບ '%s', ຜົນລວມ %s ບໍ່ກົງກັນ."
 
-#: libdnf/repo/Repo.cpp:1025
+#: libdnf/repo/Repo.cpp:1092
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
 msgstr "ກຳລັງຟື້ນຟູ: '%s' ສາມາດຟື້ນຟູໄດ້ - checksum ຂອງ metalink ກົງກັນ."
 
-#: libdnf/repo/Repo.cpp:1054
+#: libdnf/repo/Repo.cpp:1121
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
 msgstr "ກຳລັງຟື້ນຟູ: '%s' ສາມາດຟື້ນຟູໄດ້ - repomd ກົງກັນ."
 
-#: libdnf/repo/Repo.cpp:1056
+#: libdnf/repo/Repo.cpp:1123
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
 msgstr "ກຳລັງຟື້ນຟູ: ບໍ່ສຳເລັດສຳລັບ '%s', repomd ບໍ່ກົງກັນ."
 
-#: libdnf/repo/Repo.cpp:1074
+#: libdnf/repo/Repo.cpp:1141
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
 msgstr "ບໍ່ສາມາດສ້າງໂຟນເດີປາຍທາງຂອງຄັງເກັບ \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1094
+#: libdnf/repo/Repo.cpp:1161
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
 msgstr "ບໍ່ສາມາດສ້າງໂຟນເດີ \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1117
+#: libdnf/repo/Repo.cpp:1184
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
 msgstr "ບໍ່ສາມາດປ່ຽນຊື່ໂຟນເດີ \"%s\" ເປັນ \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1140
+#: libdnf/repo/Repo.cpp:1207
 #, c-format
 msgid "repo: using cache for: %s"
 msgstr "repo: ກຳລັງໃຊ້ແຄຊສຳລັບ: %s"
 
-#: libdnf/repo/Repo.cpp:1152
+#: libdnf/repo/Repo.cpp:1219
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
 msgstr "ເປີດໃຊ້ໂໝດໃຊ້ແຄຊເທົ່ານັ້ນ ແຕ່ບໍ່ມີແຄຊສຳລັບ '%s'"
 
-#: libdnf/repo/Repo.cpp:1156
+#: libdnf/repo/Repo.cpp:1223
 #, c-format
 msgid "repo: downloading from remote: %s"
 msgstr "repo: ກຳລັງດາວໂຫຼດຈາກທາງໄກ: %s"
 
-#: libdnf/repo/Repo.cpp:1163
+#: libdnf/repo/Repo.cpp:1230
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
 msgstr "ດາວໂຫຼດເມຕາເດຕາສຳລັບຄັງເກັບ '%s' ບໍ່ສຳເລັດ: %s"
 
-#: libdnf/repo/Repo.cpp:1189
+#: libdnf/repo/Repo.cpp:1256
 msgid "getCachedir(): Computation of SHA256 failed"
 msgstr "getCachedir(): ການຄຳນວນ SHA256 ຫຼົ້ມເຫຼວ"
 
-#: libdnf/repo/Repo.cpp:1217
+#: libdnf/repo/Repo.cpp:1284
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
 msgstr "ບໍ່ສາມາດສ້າງ persistdir \"%s\": %s"
 
-#: libdnf/repo/Repo.cpp:1619
+#: libdnf/repo/Repo.cpp:1686
 msgid "resume cannot be used simultaneously with the byterangestart param"
 msgstr "ບໍ່ສາມາດໃຊ້ resume ພ້ອມກັນກັບພາຣາມິເຕີ byterangestart ໄດ້"
 
-#: libdnf/repo/Repo.cpp:1636
+#: libdnf/repo/Repo.cpp:1703
 #, c-format
 msgid "PackageTarget initialization failed: %s"
 msgstr "ການເລີ່ມຕົ້ນ PackageTarget ຫຼົ້ມເຫຼວ: %s"
 
-#: libdnf/repo/Repo.cpp:1742
+#: libdnf/repo/Repo.cpp:1809
 #, c-format
 msgid "Cannot open %s: %s"
 msgstr "ບໍ່ສາມາດເປີດ %s: %s"
 
-#: libdnf/repo/Repo.cpp:1786
+#: libdnf/repo/Repo.cpp:1853
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
 msgstr "ບໍ່ມີ Log handler ທີ່ມີ id %ld ຢູ່"
