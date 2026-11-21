@@ -6,13 +6,14 @@
 # Luna Jernberg <bittin@reimu.nl>, 2021, 2022, 2023, 2024.
 # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2022.
 # Luna Jernberg <droidbittin@gmail.com>, 2026.
+# Daniel Nylander <po@danielnylander.se>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-19 09:35+0000\n"
-"PO-Revision-Date: 2026-02-23 11:58+0000\n"
-"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"PO-Revision-Date: 2026-11-22 19:30+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/sv/>\n"
 "Language: sv\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -1078,6 +1079,8 @@ msgstr "förrådet %s: 0x%s är redan importerad"
 #, c-format
 msgid "repo %s: automatically importing key 0x%s (%s, fingerprint %s) from %s"
 msgstr ""
+"förrådet %s: importerar automatiskt nyckeln 0x%s (%s, fingeravtryck %s) från "
+"%s"
 
 #: libdnf/repo/Repo.cpp:769 libdnf/utils/filesystem.cpp:79
 #, c-format
