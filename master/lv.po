@@ -7,114 +7,117 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-20 09:18-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-11-22 19:30+0000\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <https://translate.fedoraproject.org/projects/dnf/"
+"libdnf-master/lv/>\n"
 "Language: lv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= "
 "19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
-msgstr ""
+msgstr "nav norādīta vērtība"
 
 #: libdnf/conf/ConfigMain.cpp:67 libdnf/conf/OptionSeconds.cpp:48
 #, c-format
 msgid "seconds value '%s' must not be negative"
-msgstr ""
+msgstr "sekunžu vērtība „%s” nedrīkst būt negatīva"
 
 #: libdnf/conf/ConfigMain.cpp:71
 #, c-format
 msgid "could not convert '%s' to bytes"
-msgstr ""
+msgstr "nevarēja pārvērst „%s” baitos"
 
 #: libdnf/conf/ConfigMain.cpp:83 libdnf/conf/OptionSeconds.cpp:66
 #, c-format
 msgid "unknown unit '%s'"
-msgstr ""
+msgstr "nezināma vienība „%s”"
 
 #: libdnf/conf/ConfigMain.cpp:329
 #, c-format
 msgid "percentage '%s' is out of range"
-msgstr ""
+msgstr "procentuālā vērtība „%s” ir ārpus diapazona"
 
 #: libdnf/conf/OptionBinds.cpp:76
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" does not exist"
-msgstr ""
+msgstr "Konfigurācija: OptionBinding ar ID „%s” neeksistē"
 
 #: libdnf/conf/OptionBinds.cpp:88
 #, c-format
 msgid "Configuration: OptionBinding with id \"%s\" already exists"
-msgstr ""
+msgstr "Konfigurācija: OptionBinding ar ID „%s” jau eksistē"
 
 #: libdnf/conf/OptionBool.cpp:47
 #, c-format
 msgid "invalid boolean value '%s'"
-msgstr ""
+msgstr "nederīga Būla vērtība „%s”"
 
 #: libdnf/conf/OptionEnum.cpp:72 libdnf/conf/OptionEnum.cpp:158
 #: libdnf/conf/OptionString.cpp:59 libdnf/conf/OptionStringList.cpp:59
 #, c-format
 msgid "'%s' is not an allowed value"
-msgstr ""
+msgstr "„%s” nav atļauta vērtība"
 
 #: libdnf/conf/OptionEnum.cpp:83 libdnf/conf/OptionNumber.cpp:88
 msgid "invalid value"
-msgstr ""
+msgstr "nederīga vērtība"
 
 #: libdnf/conf/OptionNumber.cpp:73
 #, c-format
 msgid "given value [%d] should be less than allowed value [%d]."
-msgstr ""
+msgstr "dotajai vērtībai [%d] jābūt mazākai par atļauto vērtību [%d]."
 
 #: libdnf/conf/OptionNumber.cpp:76
 #, c-format
 msgid "given value [%d] should be greater than allowed value [%d]."
-msgstr ""
+msgstr "dotajai vērtībai [%d] jābūt lielākai par atļauto vērtību [%d]."
 
 #: libdnf/conf/OptionPath.cpp:78
 #, c-format
 msgid "given path '%s' is not absolute."
-msgstr ""
+msgstr "dotais ceļš „%s” nav absolūts."
 
 #: libdnf/conf/OptionPath.cpp:82
 #, c-format
 msgid "given path '%s' does not exist."
-msgstr ""
+msgstr "dotais ceļš „%s” neeksistē."
 
 #: libdnf/conf/OptionSeconds.cpp:52
 #, c-format
 msgid "could not convert '%s' to seconds"
-msgstr ""
+msgstr "nevarēja pārvērst „%s” sekundēs"
 
 #: libdnf/conf/OptionString.cpp:74
 msgid "GetValue(): Value not set"
-msgstr ""
+msgstr "GetValue(): vērtība nav iestatīta"
 
 #: libdnf/dnf-goal.cpp:68
 msgid "Could not depsolve transaction; "
-msgstr ""
+msgstr "Nevarēja atrisināt transakcijas atkarības; "
 
 #: libdnf/dnf-goal.cpp:70
 #, c-format
 msgid "%i problem detected:\n"
 msgid_plural "%i problems detected:\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Atrastas %i problēmas:\n"
+msgstr[1] "Atrasta %i problēma:\n"
+msgstr[2] "Atrastas %i problēmas:\n"
 
 #: libdnf/dnf-goal.cpp:78
 #, c-format
 msgid " Problem %1$i: %2$s\n"
-msgstr ""
+msgstr " Problēma %1$i: %2$s\n"
 
 #: libdnf/dnf-goal.cpp:80
 #, c-format
 msgid " Problem: %s\n"
-msgstr ""
+msgstr " Problēma: %s\n"
 
 #: libdnf/dnf-rpmts.cpp:79
 #, c-format
@@ -122,799 +125,807 @@ msgid ""
 "No available modular metadata for modular package '%s'; cannot be installed "
 "on the system"
 msgstr ""
+"Moduļa pakotnei „%s” nav pieejamu moduļu metadatu; to nevar instalēt sistēmā"
 
 #: libdnf/dnf-rpmts.cpp:121 libdnf/dnf-rpmts.cpp:166
 #, c-format
 msgid "signature does not verify for %s"
-msgstr ""
+msgstr "%s paraksts neatbilst"
 
 #: libdnf/dnf-rpmts.cpp:129 libdnf/dnf-rpmts.cpp:174
 #, c-format
 msgid "failed to open(generic error): %s"
-msgstr ""
+msgstr "neizdevās open (vispārīga kļūda): %s"
 
 #: libdnf/dnf-rpmts.cpp:142
 #, c-format
 msgid "failed to verify key for %s"
-msgstr ""
+msgstr "neizdevās pārbaudīt %s atslēgu"
 
 #: libdnf/dnf-rpmts.cpp:150
 #, c-format
 msgid "public key unavailable for %s"
-msgstr ""
+msgstr "%s publiskā atslēga nav pieejama"
 
 #: libdnf/dnf-rpmts.cpp:158
 #, c-format
 msgid "signature not found for %s"
-msgstr ""
+msgstr "%s paraksts nav atrasts"
 
 #: libdnf/dnf-rpmts.cpp:193
 #, c-format
 msgid "failed to add install element: %1$s [%2$i]"
-msgstr ""
+msgstr "neizdevās pievienot instalēšanas elementu: %1$s [%2$i]"
 
 #: libdnf/dnf-rpmts.cpp:274
 #, c-format
 msgid "Error running transaction: %s"
-msgstr ""
+msgstr "Kļūda, veicot transakciju: %s"
 
 #: libdnf/dnf-rpmts.cpp:283
 msgid "Error running transaction and no problems were reported!"
-msgstr ""
+msgstr "Kļūda, veicot transakciju, un netika ziņots par problēmām!"
 
 #: libdnf/dnf-rpmts.cpp:346
 msgid "Fatal error, run database recovery"
-msgstr ""
+msgstr "Fatāla kļūda, izpildiet datubāzes atkopšanu"
 
 #: libdnf/dnf-rpmts.cpp:355
 #, c-format
 msgid "failed to find package %s"
-msgstr ""
+msgstr "neizdevās atrast pakotni %s"
 
 #: libdnf/dnf-rpmts.cpp:401
 #, c-format
 msgid "could not add erase element %1$s(%2$i)"
-msgstr ""
+msgstr "nevarēja pievienot dzēšanas elementu %1$s(%2$i)"
 
 #: libdnf/dnf-sack.cpp:417
 #, c-format
 msgid "no %1$s string for %2$s"
-msgstr ""
+msgstr "%2$s nav %1$s virknes"
 
 #: libdnf/dnf-sack.cpp:440
 msgid "failed to add solv"
-msgstr ""
+msgstr "neizdevās pievienot solv"
 
 #: libdnf/dnf-sack.cpp:458
 #, c-format
 msgid "failed to open: %s"
-msgstr ""
+msgstr "neizdevās atvērt: %s"
 
 #: libdnf/dnf-sack.cpp:537
 #, c-format
 msgid "cannot create temporary file: %s"
-msgstr ""
+msgstr "nevar izveidot pagaidu failu: %s"
 
 #: libdnf/dnf-sack.cpp:547
 #, c-format
 msgid "failed opening tmp file: %s"
-msgstr ""
+msgstr "neizdevās atvērt pagaidu failu: %s"
 
 #: libdnf/dnf-sack.cpp:559
 #, c-format
 msgid "write_main() failed writing data: %i"
-msgstr ""
+msgstr "write_main() neizdevās ierakstīt datus: %i"
 
 #: libdnf/dnf-sack.cpp:576
 msgid "write_main() failed to re-load written solv file"
-msgstr ""
+msgstr "write_main() neizdevās atkārtoti ielādēt ierakstīto solv failu"
 
 #: libdnf/dnf-sack.cpp:641
 #, c-format
 msgid "can not create temporary file %s"
-msgstr ""
+msgstr "nevar izveidot pagaidu failu %s"
 
 #: libdnf/dnf-sack.cpp:659
 #, c-format
 msgid "write_ext(%1$d) has failed: %2$d"
-msgstr ""
+msgstr "write_ext(%1$d) neizdevās: %2$d"
 
 #: libdnf/dnf-sack.cpp:714
 msgid "null repo md file"
-msgstr ""
+msgstr "tukšs repozitorija md fails"
 
 #: libdnf/dnf-sack.cpp:723
 #, c-format
 msgid "can not read file %1$s: %2$s"
-msgstr ""
+msgstr "nevar nolasīt failu %1$s: %2$s"
 
 #: libdnf/dnf-sack.cpp:737
 msgid "repo_add_solv() has failed."
-msgstr ""
+msgstr "repo_add_solv() neizdevās."
 
 #: libdnf/dnf-sack.cpp:750
 msgid "loading of MD_TYPE_PRIMARY has failed."
-msgstr ""
+msgstr "MD_TYPE_PRIMARY ielāde neizdevās."
 
 #: libdnf/dnf-sack.cpp:763
 msgid "repo_add_repomdxml/rpmmd() has failed."
-msgstr ""
+msgstr "repo_add_repomdxml/rpmmd() neizdevās."
 
 #: libdnf/dnf-sack.cpp:830
 msgid "failed to auto-detect architecture"
-msgstr ""
+msgstr "neizdevās automātiski noteikt arhitektūru"
 
 #: libdnf/dnf-sack.cpp:955
 #, c-format
 msgid "failed creating cachedir %s"
-msgstr ""
+msgstr "neizdevās izveidot kešatmiņas direktoriju %s"
 
 #: libdnf/dnf-sack.cpp:1727
 msgid "failed calculating RPMDB checksum"
-msgstr ""
+msgstr "neizdevās aprēķināt RPMDB kontrolsummu"
 
 #: libdnf/dnf-sack.cpp:1751
 msgid "failed loading RPMDB"
-msgstr ""
+msgstr "neizdevās ielādēt RPMDB"
 
 #: libdnf/dnf-sack.cpp:2466
 msgid "No module defaults found"
-msgstr ""
+msgstr "Nav atrasti moduļu noklusējumi"
 
 #: libdnf/dnf-state.cpp:1184
 #, c-format
 msgid "percentage not 100: %i"
-msgstr ""
+msgstr "procentuālā vērtība nav 100: %i"
 
 #: libdnf/dnf-state.cpp:1194
 #, c-format
 msgid "failed to set number steps: %i"
-msgstr ""
+msgstr "neizdevās iestatīt soļu skaitu: %i"
 
 #: libdnf/dnf-state.cpp:1293
 msgid "cancelled by user action"
-msgstr ""
+msgstr "atcelts ar lietotāja darbību"
 
 #: libdnf/dnf-state.cpp:1332
 #, c-format
 msgid "done on a state %1$p that did not have a size set! [%2$s]"
-msgstr ""
+msgstr "pabeigts stāvoklī %1$p, kuram nebija iestatīts izmērs! [%2$s]"
 
 #: libdnf/dnf-state.cpp:1357
 #, c-format
 msgid "already at 100%% state [%s]"
-msgstr ""
+msgstr "jau 100%% stāvoklī [%s]"
 
 #: libdnf/dnf-transaction.cpp:300
 #, c-format
 msgid "Sources not set when trying to ensure package %s"
-msgstr ""
+msgstr "Mēģinot nodrošināt pakotni %s, avoti nav iestatīti"
 
 #: libdnf/dnf-transaction.cpp:326
 #, c-format
 msgid "Failed to ensure %1$s as repo %2$s not found(%3$i repos loaded)"
 msgstr ""
+"Neizdevās nodrošināt %1$s, jo repozitorijs %2$s nav atrasts (ielādēti %3$i "
+"repozitoriji)"
 
 #: libdnf/dnf-transaction.cpp:367
 msgid "Failed to check untrusted: "
-msgstr ""
+msgstr "Neizdevās pārbaudīt neuzticamos: "
 
 #: libdnf/dnf-transaction.cpp:377
 #, c-format
 msgid "Downloaded file for %s not found"
-msgstr ""
+msgstr "Lejupielādētais %s fails nav atrasts"
 
 #: libdnf/dnf-transaction.cpp:397
 #, c-format
 msgid "package %1$s cannot be verified and repo %2$s is GPG enabled: %3$s"
 msgstr ""
+"pakotni %1$s nevar pārbaudīt, bet repozitorijam %2$s ir iespējots GPG: %3$s"
 
 #: libdnf/dnf-transaction.cpp:831 libdnf/dnf-transaction.cpp:903
 msgid "Failed to get value for CacheDir"
-msgstr ""
+msgstr "Neizdevās iegūt CacheDir vērtību"
 
 #: libdnf/dnf-transaction.cpp:911
 #, c-format
 msgid "Failed to get filesystem free size for %s: "
-msgstr ""
+msgstr "Neizdevās iegūt %s failu sistēmas brīvo vietu: "
 
 #: libdnf/dnf-transaction.cpp:919
 #, c-format
 msgid "Failed to get filesystem free size for %s"
-msgstr ""
+msgstr "Neizdevās iegūt %s failu sistēmas brīvo vietu"
 
 #: libdnf/dnf-transaction.cpp:935
 #, c-format
 msgid "Not enough free space in %1$s: needed %2$s, available %3$s"
-msgstr ""
+msgstr "%1$s nepietiek brīvas vietas: vajag %2$s, pieejams %3$s"
 
 #: libdnf/dnf-transaction.cpp:1196
 msgid "failed to set root"
-msgstr ""
+msgstr "neizdevās iestatīt sakni"
 
 #: libdnf/dnf-transaction.cpp:1418
 #, c-format
 msgid "Error %i running transaction test"
-msgstr ""
+msgstr "Kļūda %i, veicot transakcijas testu"
 
 #: libdnf/dnf-transaction.cpp:1458
 #, c-format
 msgid "Error %i running transaction"
-msgstr ""
+msgstr "Kļūda %i, veicot transakciju"
 
 #: libdnf/dnf-transaction.cpp:1473
 #, c-format
 msgid "Transaction did not go to writing phase, but returned no error(%i)"
-msgstr ""
+msgstr "Transakcija nenonāca līdz rakstīšanas fāzei, bet neatgrieza kļūdu (%i)"
 
 #: libdnf/dnf-utils.cpp:111 libdnf/hy-iutil.cpp:399
 #, c-format
 msgid "cannot open directory %1$s: %2$s"
-msgstr ""
+msgstr "nevar atvērt direktoriju %1$s: %2$s"
 
 #: libdnf/dnf-utils.cpp:136
 #, c-format
 msgid "failed to remove %s"
-msgstr ""
+msgstr "neizdevās noņemt %s"
 
 #: libdnf/goal/Goal.cpp:55
 msgid "Ill-formed Selector, presence of multiple match objects in the filter"
-msgstr ""
+msgstr "Nepareizi veidots selektors: filtrā ir vairāki atbilsmes objekti"
 
 #: libdnf/goal/Goal.cpp:56
 msgid "Ill-formed Selector used for the operation, incorrect comparison type"
 msgstr ""
+"Darbībai lietots nepareizi veidots selektors: nepareizs salīdzināšanas tips"
 
 #: libdnf/goal/Goal.cpp:67 libdnf/goal/Goal.cpp:94
 msgid " does not belong to a distupgrade repository"
-msgstr ""
+msgstr " nepieder distupgrade repozitorijam"
 
 #: libdnf/goal/Goal.cpp:68 libdnf/goal/Goal.cpp:95
 msgid " has inferior architecture"
-msgstr ""
+msgstr " ir zemākas pakāpes arhitektūra"
 
 #: libdnf/goal/Goal.cpp:69
 msgid "problem with installed package "
-msgstr ""
+msgstr "problēma ar instalēto pakotni "
 
 #: libdnf/goal/Goal.cpp:70 libdnf/goal/Goal.cpp:97
 msgid "conflicting requests"
-msgstr ""
+msgstr "pretrunīgi pieprasījumi"
 
 #: libdnf/goal/Goal.cpp:71 libdnf/goal/Goal.cpp:98
 msgid "unsupported request"
-msgstr ""
+msgstr "neatbalstīts pieprasījums"
 
 #: libdnf/goal/Goal.cpp:72 libdnf/goal/Goal.cpp:99
 msgid "nothing provides requested "
-msgstr ""
+msgstr "nekas nenodrošina pieprasīto "
 
 #: libdnf/goal/Goal.cpp:73
 #, c-format
 msgid "package %s does not exist"
-msgstr ""
+msgstr "pakotne %s neeksistē"
 
 #: libdnf/goal/Goal.cpp:74 libdnf/goal/Goal.cpp:101
 msgid " is provided by the system"
-msgstr ""
+msgstr " nodrošina sistēma"
 
 #: libdnf/goal/Goal.cpp:75 libdnf/goal/Goal.cpp:102
 msgid "some dependency problem"
-msgstr ""
+msgstr "kāda atkarību problēma"
 
 #: libdnf/goal/Goal.cpp:76
 msgid "cannot install the best update candidate for package "
-msgstr ""
+msgstr "nevar instalēt labāko atjauninājuma kandidātu pakotnei "
 
 #: libdnf/goal/Goal.cpp:77 libdnf/goal/Goal.cpp:104
 msgid "cannot install the best candidate for the job"
-msgstr ""
+msgstr "nevar instalēt labāko kandidātu uzdevumam"
 
 #: libdnf/goal/Goal.cpp:78
 #, c-format
 msgid "package %s is filtered out by modular filtering"
-msgstr ""
+msgstr "pakotni %s atsijā moduļu filtrs"
 
 #: libdnf/goal/Goal.cpp:79
 #, c-format
 msgid "package %s does not have a compatible architecture"
-msgstr ""
+msgstr "pakotnei %s nav saderīgas arhitektūras"
 
 #: libdnf/goal/Goal.cpp:80
 #, c-format
 msgid "package %s is not installable"
-msgstr ""
+msgstr "pakotne %s nav instalējama"
 
 #: libdnf/goal/Goal.cpp:81
 #, c-format
 msgid "package %s is filtered out by exclude filtering"
-msgstr ""
+msgstr "pakotni %s atsijā izslēgšanas filtrs"
 
 #: libdnf/goal/Goal.cpp:82
 #, c-format
 msgid "nothing provides %s needed by %s"
-msgstr ""
+msgstr "nekas nenodrošina %s, kas nepieciešams %s"
 
 #: libdnf/goal/Goal.cpp:83
 #, c-format
 msgid "cannot install both %s and %s"
-msgstr ""
+msgstr "nevar instalēt gan %s, gan %s"
 
 #: libdnf/goal/Goal.cpp:84
 #, c-format
 msgid "package %s conflicts with %s provided by %s"
-msgstr ""
+msgstr "pakotne %s konfliktē ar %s, ko nodrošina %s"
 
 #: libdnf/goal/Goal.cpp:85
 #, c-format
 msgid "package %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "pakotne %s aizstāj %s, ko nodrošina %s"
 
 #: libdnf/goal/Goal.cpp:86
 #, c-format
 msgid "installed package %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "instalētā pakotne %s aizstāj %s, ko nodrošina %s"
 
 #: libdnf/goal/Goal.cpp:87
 #, c-format
 msgid "package %s implicitly obsoletes %s provided by %s"
-msgstr ""
+msgstr "pakotne %s netieši aizstāj %s, ko nodrošina %s"
 
 #: libdnf/goal/Goal.cpp:88
 #, c-format
 msgid "package %s requires %s, but none of the providers can be installed"
-msgstr ""
+msgstr "pakotne %s pieprasa %s, bet nevienu nodrošinātāju nevar instalēt"
 
 #: libdnf/goal/Goal.cpp:89
 #, c-format
 msgid "package %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "pakotne %s konfliktē ar %s, ko nodrošina tā pati"
 
 #: libdnf/goal/Goal.cpp:90
 #, c-format
 msgid "both package %s and %s obsolete %s"
-msgstr ""
+msgstr "gan pakotne %s, gan %s aizstāj %s"
 
 #: libdnf/goal/Goal.cpp:96
 msgid "problem with installed module "
-msgstr ""
+msgstr "problēma ar instalēto moduli "
 
 #: libdnf/goal/Goal.cpp:100
 #, c-format
 msgid "module %s does not exist"
-msgstr ""
+msgstr "modulis %s neeksistē"
 
 #: libdnf/goal/Goal.cpp:103
 msgid "cannot install the best update candidate for module "
-msgstr ""
+msgstr "nevar instalēt labāko atjauninājuma kandidātu modulim "
 
 #: libdnf/goal/Goal.cpp:105 libdnf/goal/Goal.cpp:108
 #, c-format
 msgid "module %s is disabled"
-msgstr ""
+msgstr "modulis %s ir atspējots"
 
 #: libdnf/goal/Goal.cpp:106
 #, c-format
 msgid "module %s does not have a compatible architecture"
-msgstr ""
+msgstr "modulim %s nav saderīgas arhitektūras"
 
 #: libdnf/goal/Goal.cpp:107
 #, c-format
 msgid "module %s is not installable"
-msgstr ""
+msgstr "modulis %s nav instalējams"
 
 #: libdnf/goal/Goal.cpp:109
 #, c-format
 msgid "nothing provides %s needed by module %s"
-msgstr ""
+msgstr "nekas nenodrošina %s, kas nepieciešams modulim %s"
 
 #: libdnf/goal/Goal.cpp:110
 #, c-format
 msgid "cannot install both modules %s and %s"
-msgstr ""
+msgstr "nevar instalēt gan moduli %s, gan %s"
 
 #: libdnf/goal/Goal.cpp:111
 #, c-format
 msgid "module %s conflicts with %s provided by %s"
-msgstr ""
+msgstr "modulis %s konfliktē ar %s, ko nodrošina %s"
 
 #: libdnf/goal/Goal.cpp:112
 #, c-format
 msgid "module %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "modulis %s aizstāj %s, ko nodrošina %s"
 
 #: libdnf/goal/Goal.cpp:113
 #, c-format
 msgid "installed module %s obsoletes %s provided by %s"
-msgstr ""
+msgstr "instalētais modulis %s aizstāj %s, ko nodrošina %s"
 
 #: libdnf/goal/Goal.cpp:114
 #, c-format
 msgid "module %s implicitly obsoletes %s provided by %s"
-msgstr ""
+msgstr "modulis %s netieši aizstāj %s, ko nodrošina %s"
 
 #: libdnf/goal/Goal.cpp:115
 #, c-format
 msgid "module %s requires %s, but none of the providers can be installed"
-msgstr ""
+msgstr "modulis %s pieprasa %s, bet nevienu nodrošinātāju nevar instalēt"
 
 #: libdnf/goal/Goal.cpp:116
 #, c-format
 msgid "module %s conflicts with %s provided by itself"
-msgstr ""
+msgstr "modulis %s konfliktē ar %s, ko nodrošina tas pats"
 
 #: libdnf/goal/Goal.cpp:117
 #, c-format
 msgid "both module %s and %s obsolete %s"
-msgstr ""
+msgstr "gan modulis %s, gan %s aizstāj %s"
 
 #: libdnf/goal/Goal.cpp:1008
 msgid "no solver set"
-msgstr ""
+msgstr "nav iestatīts risinātājs"
 
 #: libdnf/goal/Goal.cpp:1013
 #, c-format
 msgid "failed to make %s absolute"
-msgstr ""
+msgstr "neizdevās padarīt %s absolūtu"
 
 #: libdnf/goal/Goal.cpp:1020
 #, c-format
 msgid "failed writing debugdata to %1$s: %2$s"
-msgstr ""
+msgstr "neizdevās ierakstīt atkļūdošanas datus %1$s: %2$s"
 
 #: libdnf/goal/Goal.cpp:1032
 msgid "no solv in the goal"
-msgstr ""
+msgstr "mērķī nav solv"
 
 #: libdnf/goal/Goal.cpp:1034
 msgid "no solution, cannot remove protected package"
-msgstr ""
+msgstr "nav risinājuma, nevar noņemt aizsargātu pakotni"
 
 #: libdnf/goal/Goal.cpp:1037
 msgid "no solution possible"
-msgstr ""
+msgstr "risinājums nav iespējams"
 
 #: libdnf/goal/Goal.cpp:1443
 msgid ""
 "The operation would result in removing the following protected packages: "
-msgstr ""
+msgstr "Darbības rezultātā tiktu noņemtas šīs aizsargātās pakotnes: "
 
 #: libdnf/hy-iutil.cpp:322
 #, c-format
 msgid "Failed renaming %1$s to %2$s: %3$s"
-msgstr ""
+msgstr "Neizdevās pārdēvēt %1$s par %2$s: %3$s"
 
 #: libdnf/hy-iutil.cpp:330
 #, c-format
 msgid "Failed setting perms on %1$s: %2$s"
-msgstr ""
+msgstr "Neizdevās iestatīt %1$s atļaujas: %2$s"
 
 #: libdnf/hy-iutil.cpp:376
 #, c-format
 msgid "cannot create directory %1$s: %2$s"
-msgstr ""
+msgstr "nevar izveidot direktoriju %1$s: %2$s"
 
 #: libdnf/hy-iutil.cpp:411
 #, c-format
 msgid "cannot stat path %1$s: %2$s"
-msgstr ""
+msgstr "nevar izpildīt stat ceļam %1$s: %2$s"
 
 #: libdnf/module/ModulePackage.cpp:463
 #, c-format
 msgid "Invalid format of Platform module: %s"
-msgstr ""
+msgstr "Nederīgs platformas moduļa formāts: %s"
 
 #: libdnf/module/ModulePackage.cpp:478
 msgid "Multiple module platforms provided by available packages\n"
-msgstr ""
+msgstr "Pieejamās pakotnes nodrošina vairākas moduļu platformas\n"
 
 #: libdnf/module/ModulePackage.cpp:491
 msgid "Multiple module platforms provided by installed packages\n"
-msgstr ""
+msgstr "Instalētās pakotnes nodrošina vairākas moduļu platformas\n"
 
 #: libdnf/module/ModulePackage.cpp:518
 #, c-format
 msgid "Detection of Platform Module in %s failed: %s"
-msgstr ""
+msgstr "Platformas moduļa noteikšana %s neizdevās: %s"
 
 #: libdnf/module/ModulePackage.cpp:527
 #, c-format
 msgid "Missing PLATFORM_ID in %s"
-msgstr ""
+msgstr "%s trūkst PLATFORM_ID"
 
 #: libdnf/module/ModulePackage.cpp:532
 msgid "No valid Platform ID detected"
-msgstr ""
+msgstr "Nav noteikts derīgs platformas ID"
 
 #: libdnf/module/ModulePackageContainer.cpp:68
 #, c-format
 msgid "Cannot enable multiple streams for module '%s'"
-msgstr ""
+msgstr "Nevar iespējot vairākas straumes modulim „%s”"
 
 #: libdnf/module/ModulePackageContainer.cpp:294
 #, c-format
 msgid "Conflicting defaults with repo '%s': %s"
-msgstr ""
+msgstr "Konfliktējoši noklusējumi ar repozitoriju „%s”: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1568
 #, c-format
 msgid "Unable to load modular Fail-Safe data at '%s'"
-msgstr ""
+msgstr "Nevar ielādēt moduļu drošā režīma (Fail-Safe) datus no „%s”"
 
 #: libdnf/module/ModulePackageContainer.cpp:1574
 #, c-format
 msgid "Unable to load modular Fail-Safe data for module '%s:%s'"
-msgstr ""
+msgstr "Nevar ielādēt moduļa „%s:%s” drošā režīma (Fail-Safe) datus"
 
 #: libdnf/module/ModulePackageContainer.cpp:1638
 #, c-format
 msgid "Unable to create directory \"%s\" for modular Fail Safe data: %s"
-msgstr ""
+msgstr "Nevar izveidot direktoriju „%s” moduļu drošā režīma datiem: %s"
 
 #: libdnf/module/ModulePackageContainer.cpp:1660
 #, c-format
 msgid "Unable to save a modular Fail Safe data to '%s'"
-msgstr ""
+msgstr "Nevar saglabāt moduļu drošā režīma datus „%s”"
 
 #: libdnf/module/ModulePackageContainer.cpp:1685
 #, c-format
 msgid "Unable to remove a modular Fail Safe data in '%s'"
-msgstr ""
+msgstr "Nevar noņemt moduļu drošā režīma datus no „%s”"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:43
 #, c-format
 msgid "Failed to update from string: %s"
-msgstr ""
+msgstr "Neizdevās atjaunināt no virknes: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:68
 #: libdnf/module/modulemd/ModuleMetadata.cpp:70
 #, c-format
 msgid "Failed to resolve: %s"
-msgstr ""
+msgstr "Neizdevās atrisināt: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:74
 #, c-format
 msgid "Failed to upgrade defaults: %s"
-msgstr ""
+msgstr "Neizdevās jaunināt noklusējumus: %s"
 
 #: libdnf/module/modulemd/ModuleMetadata.cpp:77
 #, c-format
 msgid "Failed to upgrade streams: %s"
-msgstr ""
+msgstr "Neizdevās jaunināt straumes: %s"
 
 #: libdnf/plugin/plugin.cpp:46
 #, c-format
 msgid "Can't load shared library \"%s\": %s"
-msgstr ""
+msgstr "Nevar ielādēt koplietojamo bibliotēku „%s”: %s"
 
 #: libdnf/plugin/plugin.cpp:61 libdnf/plugin/plugin.cpp:67
 #: libdnf/plugin/plugin.cpp:73 libdnf/plugin/plugin.cpp:79
 #, c-format
 msgid "Can't obtain address of symbol \"%s\": %s"
-msgstr ""
+msgstr "Nevar iegūt simbola „%s” adresi: %s"
 
 #: libdnf/plugin/plugin.cpp:86
 #, c-format
 msgid "Loading plugin file=\"%s\""
-msgstr ""
+msgstr "Ielādē spraudni file=„%s”"
 
 #: libdnf/plugin/plugin.cpp:89
 #, c-format
 msgid "Loaded plugin name=\"%s\", version=\"%s\""
-msgstr ""
+msgstr "Ielādēts spraudnis name=„%s”, version=„%s”"
 
 #: libdnf/plugin/plugin.cpp:96
 msgid "Plugins::loadPlugins() dirPath cannot be empty"
-msgstr ""
+msgstr "Plugins::loadPlugins() dirPath nevar būt tukšs"
 
 #: libdnf/plugin/plugin.cpp:105
 #, c-format
 msgid "Can't read plugin directory \"%s\": %s"
-msgstr ""
+msgstr "Nevar nolasīt spraudņu direktoriju „%s”: %s"
 
 #: libdnf/plugin/plugin.cpp:114
 #, c-format
 msgid "Can't load plugin \"%s\": %s"
-msgstr ""
+msgstr "Nevar ielādēt spraudni „%s”: %s"
 
 #: libdnf/repo/Repo.cpp:337
 #, c-format
 msgid "Bad id for repo: %s, byte = %s %d"
-msgstr ""
+msgstr "Slikts repozitorija ID: %s, baits = %s %d"
 
 #: libdnf/repo/Repo.cpp:362
 #, c-format
 msgid "Repository %s has no mirror or baseurl set."
-msgstr ""
+msgstr "Repozitorijam %s nav iestatīts ne spoguļserveris, ne baseurl."
 
 #: libdnf/repo/Repo.cpp:371
 #, c-format
 msgid "Repository '%s' has unsupported type: 'type=%s', skipping."
-msgstr ""
+msgstr "Repozitorijam „%s” ir neatbalstīts tips: 'type=%s'; izlaiž."
 
 #: libdnf/repo/Repo.cpp:580
 #, c-format
 msgid "Cannot find a valid baseurl for repo: %s"
-msgstr ""
+msgstr "Repozitorijam nevar atrast derīgu baseurl: %s"
 
 #: libdnf/repo/Repo.cpp:616 libdnf/repo/Repo.cpp:1705
 msgid ""
 "Maximum download speed is lower than minimum. Please change configuration of "
 "minrate or throttle"
 msgstr ""
+"Maksimālais lejupielādes ātrums ir mazāks par minimālo. Lūdzu, mainiet "
+"minrate vai throttle konfigurāciju"
 
 #: libdnf/repo/Repo.cpp:666 libdnf/repo/Repo.cpp:688
 #, c-format
 msgid "%s: gpgme_data_new_from_fd(): %s"
-msgstr ""
+msgstr "%s: gpgme_data_new_from_fd(): %s"
 
 #: libdnf/repo/Repo.cpp:674 libdnf/repo/Repo.cpp:696
 #, c-format
 msgid "%s: gpgme_op_import(): %s"
-msgstr ""
+msgstr "%s: gpgme_op_import(): %s"
 
 #: libdnf/repo/Repo.cpp:719 libdnf/repo/Repo.cpp:785 libdnf/repo/Repo.cpp:913
 #, c-format
 msgid "%s: gpgme_ctx_set_engine_info(): %s"
-msgstr ""
+msgstr "%s: gpgme_ctx_set_engine_info(): %s"
 
 #: libdnf/repo/Repo.cpp:746 libdnf/repo/Repo.cpp:810
 #, c-format
 msgid "can not list keys: %s"
-msgstr ""
+msgstr "nevar uzskaitīt atslēgas: %s"
 
 #: libdnf/repo/Repo.cpp:839
 #, c-format
 msgid "Failed to retrieve GPG key for repo '%s': %s"
-msgstr ""
+msgstr "Neizdevās iegūt repozitorija „%s” GPG atslēgu: %s"
 
 #: libdnf/repo/Repo.cpp:892
 #, c-format
 msgid "repo %s: 0x%s already imported"
-msgstr ""
+msgstr "repozitorijs %s: 0x%s jau importēta"
 
 #: libdnf/repo/Repo.cpp:920
 #, c-format
 msgid "repo %s: imported key 0x%s."
-msgstr ""
+msgstr "repozitorijs %s: importēta atslēga 0x%s."
 
 #: libdnf/repo/Repo.cpp:1164
 #, c-format
 msgid "reviving: repo '%s' skipped, no metalink."
-msgstr ""
+msgstr "atdzīvināšana: repozitorijs „%s” izlaists, nav metalink."
 
 #: libdnf/repo/Repo.cpp:1183
 #, c-format
 msgid "reviving: repo '%s' skipped, no usable hash."
 msgstr ""
+"atdzīvināšana: repozitorijs „%s” izlaists, nav lietojamas jaucējvērtības."
 
 #: libdnf/repo/Repo.cpp:1206
 #, c-format
 msgid "reviving: failed for '%s', mismatched %s sum."
-msgstr ""
+msgstr "atdzīvināšana: „%s” neizdevās, neatbilst %s summa."
 
 #: libdnf/repo/Repo.cpp:1212
 #, c-format
 msgid "reviving: '%s' can be revived - metalink checksums match."
-msgstr ""
+msgstr "atdzīvināšana: „%s” var atdzīvināt — metalink kontrolsummas atbilst."
 
 #: libdnf/repo/Repo.cpp:1237
 #, c-format
 msgid "reviving: '%s' can be revived - repomd matches."
-msgstr ""
+msgstr "atdzīvināšana: „%s” var atdzīvināt — repomd atbilst."
 
 #: libdnf/repo/Repo.cpp:1239
 #, c-format
 msgid "reviving: failed for '%s', mismatched repomd."
-msgstr ""
+msgstr "atdzīvināšana: „%s” neizdevās, neatbilst repomd."
 
 #: libdnf/repo/Repo.cpp:1257
 #, c-format
 msgid "Cannot create repo destination directory \"%s\": %s"
-msgstr ""
+msgstr "Nevar izveidot repozitorija mērķa direktoriju „%s”: %s"
 
 #: libdnf/repo/Repo.cpp:1263
 #, c-format
 msgid "Cannot create repo temporary directory \"%s\": %s"
-msgstr ""
+msgstr "Nevar izveidot repozitorija pagaidu direktoriju „%s”: %s"
 
 #: libdnf/repo/Repo.cpp:1277
 #, c-format
 msgid "Cannot create directory \"%s\": %s"
-msgstr ""
+msgstr "Nevar izveidot direktoriju „%s”: %s"
 
 #: libdnf/repo/Repo.cpp:1300
 #, c-format
 msgid "Cannot rename directory \"%s\" to \"%s\": %s"
-msgstr ""
+msgstr "Nevar pārdēvēt direktoriju „%s” par „%s”: %s"
 
 #: libdnf/repo/Repo.cpp:1323
 #, c-format
 msgid "repo: using cache for: %s"
-msgstr ""
+msgstr "repozitorijs: lieto kešatmiņu: %s"
 
 #: libdnf/repo/Repo.cpp:1335
 #, c-format
 msgid "Cache-only enabled but no cache for '%s'"
-msgstr ""
+msgstr "Iespējots tikai kešatmiņas režīms, bet „%s” nav kešatmiņas"
 
 #: libdnf/repo/Repo.cpp:1339
 #, c-format
 msgid "repo: downloading from remote: %s"
-msgstr ""
+msgstr "repozitorijs: lejupielādē no attālā: %s"
 
 #: libdnf/repo/Repo.cpp:1345
 #, c-format
 msgid "Failed to download metadata for repo '%s': %s"
-msgstr ""
+msgstr "Neizdevās lejupielādēt repozitorija „%s” metadatus: %s"
 
 #: libdnf/repo/Repo.cpp:1371
 msgid "getCachedir(): Computation of SHA256 failed"
-msgstr ""
+msgstr "getCachedir(): SHA256 aprēķins neizdevās"
 
 #: libdnf/repo/Repo.cpp:1396
 #, c-format
 msgid "Cannot create persistdir \"%s\": %s"
-msgstr ""
+msgstr "Nevar izveidot persistdir „%s”: %s"
 
 #: libdnf/repo/Repo.cpp:1796
 msgid "resume cannot be used simultaneously with the byterangestart param"
-msgstr ""
+msgstr "resume nevar lietot vienlaikus ar parametru byterangestart"
 
 #: libdnf/repo/Repo.cpp:1807
 #, c-format
 msgid "PackageTarget initialization failed: %s"
-msgstr ""
+msgstr "PackageTarget inicializēšana neizdevās: %s"
 
 #: libdnf/repo/Repo.cpp:1924
 #, c-format
 msgid "Cannot open %s: %s"
-msgstr ""
+msgstr "Nevar atvērt %s: %s"
 
 #: libdnf/repo/Repo.cpp:1968
 #, c-format
 msgid "Log handler with id %ld doesn't exist"
-msgstr ""
+msgstr "Žurnāla apstrādātājs ar ID %ld neeksistē"
 
 #: libdnf/transaction/Swdb.cpp:107
 msgid "In progress"
-msgstr ""
+msgstr "Notiek"
 
 #: libdnf/transaction/Swdb.cpp:121 libdnf/transaction/Swdb.cpp:148
 #: libdnf/transaction/Swdb.cpp:160 libdnf/transaction/Swdb.cpp:177
 #: libdnf/transaction/Swdb.cpp:316 libdnf/transaction/Swdb.cpp:326
 msgid "Not in progress"
-msgstr ""
+msgstr "Nenotiek"
 
 #: libdnf/transaction/Swdb.cpp:187
 msgid "No transaction in progress"
-msgstr ""
+msgstr "Nenotiek neviena transakcija"
 
 #: libdnf/transaction/TransactionItem.cpp:147
 msgid "Attempt to insert transaction item into completed transaction"
-msgstr ""
+msgstr "Mēģinājums ievietot transakcijas vienumu pabeigtā transakcijā"
 
 #: libdnf/transaction/TransactionItem.cpp:218
 msgid "Attempt to update transaction item in completed transaction"
-msgstr ""
+msgstr "Mēģinājums atjaunināt transakcijas vienumu pabeigtā transakcijā"
 
 #: libdnf/transaction/Transformer.cpp:659
 msgid "Transformer: can't open history persist dir"
-msgstr ""
+msgstr "Transformer: nevar atvērt vēstures pastāvīgo direktoriju"
 
 #: libdnf/transaction/Transformer.cpp:672
 msgid "Couldn't find a history database"
-msgstr ""
+msgstr "Nevarēja atrast vēstures datubāzi"
 
 #: libdnf/transaction/private/Transaction.cpp:41
 msgid "Transaction has already began!"
-msgstr ""
+msgstr "Transakcija jau ir sākta!"
 
 #: libdnf/transaction/private/Transaction.cpp:58
 #, c-format
 msgid "TransactionItem state is not set: %s"
-msgstr ""
+msgstr "TransactionItem stāvoklis nav iestatīts: %s"
 
 #: libdnf/transaction/private/Transaction.cpp:239
 msgid "Can't add console output to unsaved transaction"
-msgstr ""
+msgstr "Nesaglabātai transakcijai nevar pievienot konsoles izvadi"
