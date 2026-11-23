@@ -6,13 +6,14 @@
 # Salvatore Cocuzza <info@salvatorecocuzza.it>, 2025.
 # Weblate Translation Memory <noreply-mt-weblate-translation-memory@weblate.org>, 2026.
 # Ali Ciloqlu <ali.ciloqlu@murena.io>, 2026.
+# Emanuele Petriglia <inbox@emanuelepetriglia.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-11-19 09:35+0000\n"
-"PO-Revision-Date: 2026-04-08 06:58+0000\n"
-"Last-Translator: Ali Ciloqlu <ali.ciloqlu@murena.io>\n"
+"PO-Revision-Date: 2026-11-24 13:18+0000\n"
+"Last-Translator: Emanuele Petriglia <inbox@emanuelepetriglia.com>\n"
 "Language-Team: Italian <https://translate.fedoraproject.org/projects/dnf/"
 "libdnf-dnf-4-master/it/>\n"
 "Language: it\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.2\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: libdnf/conf/ConfigMain.cpp:62 libdnf/conf/OptionSeconds.cpp:40
 msgid "no value specified"
@@ -1106,6 +1107,8 @@ msgstr "pronti contro termine %s: 0x%s già importato"
 #, c-format
 msgid "repo %s: automatically importing key 0x%s (%s, fingerprint %s) from %s"
 msgstr ""
+"repo %s: importazione automatica della chiave 0x%s (%s, impronta digitale "
+"%s) da %s"
 
 #: libdnf/repo/Repo.cpp:769 libdnf/utils/filesystem.cpp:79
 #, c-format
